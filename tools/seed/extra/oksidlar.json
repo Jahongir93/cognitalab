@@ -1,0 +1,5 @@
+[
+  {"f": "Na2ZnO2", "n": "natriy sinkat", "c": "tuz", "st": "s", "col": "#f6f6f2", "form": "kukun", "hz": ["korroziv"], "reagent": false, "desc": "ZnO yoki Zn(OH)2 ni ishqor bilan suyuqlantirganda hosil bo'ladi"},
+  {"f": "NaCrO2", "n": "natriy xromit", "c": "tuz", "st": "s", "col": "#4f8a3c", "form": "kukun", "hz": ["zararli"], "reagent": false, "desc": "Cr2O3 ni ishqor bilan suyuqlantirganda hosil bo'ladigan yashil modda"},
+  {"f": "NaFeO2", "n": "natriy ferrit", "c": "tuz", "st": "s", "col": "#8a4a22", "form": "kukun", "hz": [], "reagent": false, "desc": "Fe2O3 ni ishqor bilan suyuqlantirganda hosil bo'ladi"}
+]

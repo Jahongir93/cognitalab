@@ -1,0 +1,4 @@
+[
+ {"f": "C17H33Br2COOH", "aliases": ["CH3(CH2)7CHBrCHBr(CH2)7COOH"], "n": "9,10-dibromstearin kislota", "c": "karbon-kislota", "st": "l", "miscible": false, "hz": ["zararli"], "reagent": false, "desc": "olein kislotaning bromli hosilasi; rangsiz moysimon modda"},
+ {"f": "(C17H33Br2COO)3C3H5", "n": "trioleinning bromli hosilasi (glitserin tri(9,10-dibromstearati))", "c": "yog'", "st": "l", "miscible": false, "hz": [], "reagent": false, "desc": "o'simlik moyiga brom birikkanda hosil bo'ladi"}
+]

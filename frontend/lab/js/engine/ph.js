@@ -69,3 +69,17 @@ export function computePH(chem, v) {
   }
   return Math.round(((lo + hi) / 2) * 100) / 100;
 }
+
+/** Tizim shakllarining pH dagi ulushlari (alfa) */
+export function alphas(pKa, pH) {
+  const h = Math.pow(10, -pH);
+  const N = pKa.length;
+  const terms = [];
+  let prod = 1;
+  for (let i = 0; i <= N; i++) {
+    if (i > 0) prod *= Math.pow(10, -pKa[i - 1]);
+    terms.push(prod * Math.pow(h, N - i));
+  }
+  const sum = terms.reduce((a, b) => a + b, 0);
+  return terms.map((t) => t / sum);
+}

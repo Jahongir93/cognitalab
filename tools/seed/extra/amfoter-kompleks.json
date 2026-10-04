@@ -1,0 +1,4 @@
+[
+  {"f": "Na2[Cu(OH)4]", "n": "natriy tetragidroksokuprat(II)", "c": "tuz", "st": "aq", "hz": ["korroziv"], "diss": {"Na^+": 2, "[Cu(OH)4]^2-": 1}, "reagent": false},
+  {"f": "[Ag(NH3)2]NO3", "n": "diamminkumush(I) nitrat", "c": "tuz", "st": "aq", "hz": ["korroziv"], "diss": {"[Ag(NH3)2]^+": 1, "NO3^-": 1}, "reagent": false}
+]

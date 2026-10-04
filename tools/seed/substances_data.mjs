@@ -244,6 +244,11 @@ export const SPECIAL_INORGANIC = [
   { f: 'S4O6^2-', ion_only: true },
   { f: 'MnO(OH)2', n: 'marganes(IV) gidroksid (oksid-gidrat)', col: '#3a2418', form: 'kukun', hz: [], tex: 'iviqsimon', reagent: false },
   { f: 'MnO(OH)', aliases: [], n: 'marganes(III) oksid-gidroksid', col: '#4a2c1a', form: 'kukun', hz: [], tex: 'iviqsimon', reagent: false },
+  { f: 'AlOHCl2', n: 'alyuminiy gidroksoxlorid', st: 'aq', diss: { 'AlOH^2+': 1, 'Cl^-': 2 }, hz: [], reagent: false },
+  { f: 'AlOHSO4', n: 'alyuminiy gidroksosulfat', st: 'aq', diss: { 'AlOH^2+': 1, 'SO4^2-': 1 }, hz: [], reagent: false },
+  { f: 'FeOHCl2', n: 'temir(III) gidroksoxlorid', st: 'aq', diss: { 'FeOH^2+': 1, 'Cl^-': 2 }, hz: [], reagent: false },
+  { f: '(CuOH)2SO4', n: 'mis(II) gidroksosulfat', st: 'aq', diss: { 'CuOH^+': 2, 'SO4^2-': 1 }, hz: [], reagent: false },
+  { f: '(ZnOH)2SO4', n: 'rux gidroksosulfat', st: 'aq', diss: { 'ZnOH^+': 2, 'SO4^2-': 1 }, hz: [], reagent: false },
   { f: 'NaH', n: 'natriy gidrid', col: '#e8e8e0', form: 'kukun', hz: ['yonuvchan'], reagent: false },
   { f: 'CaH2', n: 'kalsiy gidrid', col: '#e8e8e0', form: 'kukun', hz: ['yonuvchan'], reagent: false },
   { f: 'Mg3N2', n: 'magniy nitrid', col: '#e8e0b0', form: 'kukun', hz: [], reagent: false },
@@ -509,6 +514,10 @@ export const ORGANIC = [
 ];
 
 export const EXTRA_IONS_FOR_EDTA = [
+  { f: 'AlOH^2+', name: 'gidroksoalyuminiy' },
+  { f: 'FeOH^2+', name: 'gidroksotemir(III)', color: { hex: '#d9a03a', ref_M: 0.1 } },
+  { f: 'CuOH^+', name: 'gidroksomis(II)' },
+  { f: 'ZnOH^+', name: 'gidroksorux' },
   { f: 'C10H14N2O8^2-', name: 'digidroetilendiamintetraatsetat (H₂Y²⁻)' },
   { f: '[CaC10H12N2O8]^2-', name: 'kalsiy-EDTA kompleksi (CaY²⁻)' },
   { f: '[MgC10H12N2O8]^2-', name: 'magniy-EDTA kompleksi (MgY²⁻)' },

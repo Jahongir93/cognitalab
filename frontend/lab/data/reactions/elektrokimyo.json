@@ -1,0 +1,2635 @@
+{
+ "category": "elektrokimyo",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "elektro-0001",
+   "category": "elektrokimyo",
+   "title_uz": "Mis(II) xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "mis",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "CuCl2 = Cu + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu²⁺ + 2e⁻ = Cu",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Cu²⁺ + 2e⁻ = Cu — mis ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda qizg'ish mis qatlami o'tiradi, anodda sarg'ish-yashil, bo'g'uvchi hidli gaz (xlor) ajraladi; eritmaning ko'k rangi asta kamayadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml mis(II) xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: Cu²⁺ + 2e⁻ = Cu; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Mis(II) xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0002",
+   "category": "elektrokimyo",
+   "title_uz": "Mis(II) sulfat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "mis",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2CuSO4 + 2H2O = 2Cu + O2↑ + 2H2SO4",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu²⁺ + 2e⁻ = Cu",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Cu²⁺ + 2e⁻ = Cu — mis ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Sulfat ioni suvli eritmada oksidlanmaydi — anodda suv oksidlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda mis o'tiradi, anodda rangsiz gaz (kislorod) pufakchalari ajraladi; eritma kislotali bo'lib boradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml mis(II) sulfat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Sulfat ioni suvli eritmada oksidlanmaydi — anodda suv oksidlanadi. Katodda: Cu²⁺ + 2e⁻ = Cu; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Mis(II) sulfat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0003",
+   "category": "elektrokimyo",
+   "title_uz": "Natriy xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2NaCl + 2H2O = H2↑ + Cl2↑ + 2NaOH",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Natriy ionlari suvli eritmada qaytarilmaydi — katodda suv qaytariladi. Bu jarayon sanoatda NaOH, Cl₂ va H₂ olishda qo'llaniladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Ikkala elektrodda gaz ajraladi; katod atrofidagi eritma fenolftaleindan pushti rangga kiradi (NaOH), anodda xlor hidi seziladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml natriy xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Natriy ionlari suvli eritmada qaytarilmaydi — katodda suv qaytariladi. Bu jarayon sanoatda NaOH, Cl₂ va H₂ olishda qo'llaniladi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Natriy xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0004",
+   "category": "elektrokimyo",
+   "title_uz": "Kaliy yodid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "yod"
+   },
+   "reactants": [
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2KI + 2H2O = H2↑ + I2 + 2KOH",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2I⁻ − 2e⁻ = I2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2I⁻ − 2e⁻ = I2 — yod ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Anod atrofida eritma qo'ng'ir rangga kiradi (yod; kraxmal qo'shilsa ko'karadi), katodda gaz ajraladi va eritma ishqoriy bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kaliy yodid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2I⁻ − 2e⁻ = I2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kaliy yodid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0005",
+   "category": "elektrokimyo",
+   "title_uz": "Kaliy bromid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "brom"
+   },
+   "reactants": [
+    {
+     "species": "KBr",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2KBr + 2H2O = H2↑ + Br2 + 2KOH",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2Br⁻ − 2e⁻ = Br2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2Br⁻ − 2e⁻ = Br2 — brom ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Anod atrofida eritma sarg'ish-to'q sariq rangga kiradi (brom), katodda vodorod ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kaliy bromid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2Br⁻ − 2e⁻ = Br2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kaliy bromid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0006",
+   "category": "elektrokimyo",
+   "title_uz": "Natriy sulfat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "Na2SO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2H2O = 2H2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Na⁺ va SO₄²⁻ ionlari o'zgarmaydi — aslida suv parchalanadi, tuz esa elektr o'tkazuvchanlikni ta'minlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Katodda anoddagiga nisbatan ikki marta ko'p gaz ajraladi; universal indikator katod atrofida ko'k, anod atrofida qizil rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml natriy sulfat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Na⁺ va SO₄²⁻ ionlari o'zgarmaydi — aslida suv parchalanadi, tuz esa elektr o'tkazuvchanlikni ta'minlaydi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Natriy sulfat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0007",
+   "category": "elektrokimyo",
+   "title_uz": "Sulfat kislota eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2H2O = 2H2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H⁺ + 2e⁻ = H2",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H⁺ + 2e⁻ = H2 — vodorod ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Suvning hajmiy tarkibi H₂ : O₂ = 2 : 1 ekanini ko'rsatadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gofman apparatida katod tirsagida anoddagiga nisbatan 2 marta ko'p gaz (vodorod) yig'iladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "gofman-apparati",
+    "tok-manbai",
+    "elektrod-platina",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml sulfat kislota eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Suvning hajmiy tarkibi H₂ : O₂ = 2 : 1 ekanini ko'rsatadi. Katodda: 2H⁺ + 2e⁻ = H2; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Sulfat kislota suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0008",
+   "category": "elektrokimyo",
+   "title_uz": "Natriy gidroksid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2H2O = 2H2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "4OH⁻ − 4e⁻ = O2 + 2H2O"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 4OH⁻ − 4e⁻ = O2 + 2H2O — kislorod ajraladi.",
+     "Ishqor eritmasida anodda OH⁻ ionlari oksidlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Ikkala elektrodda gaz ajraladi, katoddagi gaz hajmi ikki baravar ko'p."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml natriy gidroksid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Ishqor eritmasida anodda OH⁻ ionlari oksidlanadi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 4OH⁻ − 4e⁻ = O2 + 2H2O.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Natriy gidroksid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0009",
+   "category": "elektrokimyo",
+   "title_uz": "Kaliy gidroksid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2H2O = 2H2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "4OH⁻ − 4e⁻ = O2 + 2H2O"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 4OH⁻ − 4e⁻ = O2 + 2H2O — kislorod ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gofman apparatida vodorod va kislorod 2 : 1 hajmiy nisbatda yig'iladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "gofman-apparati",
+    "tok-manbai",
+    "elektrod-platina",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kaliy gidroksid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 4OH⁻ − 4e⁻ = O2 + 2H2O.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kaliy gidroksid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0010",
+   "category": "elektrokimyo",
+   "title_uz": "Kumush nitrat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "kumush",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.2,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "4AgNO3 + 2H2O = 4Ag + O2↑ + 4HNO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ag⁺ + 1e⁻ = Ag",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Ag⁺ + 1e⁻ = Ag — kumush ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Kumush faollik qatorida vodoroddan keyin turadi — katodda faqat metall ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda kulrang-oq kumush kristallari o'tiradi, anodda kislorod ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kumush nitrat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Kumush faollik qatorida vodoroddan keyin turadi — katodda faqat metall ajraladi. Katodda: Ag⁺ + 1e⁻ = Ag; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kumush nitrat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0011",
+   "category": "elektrokimyo",
+   "title_uz": "Rux sulfat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "rux",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2ZnSO4 + 2H2O = 2Zn + O2↑ + 2H2SO4",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Zn²⁺ + 2e⁻ = Zn",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Zn²⁺ + 2e⁻ = Zn — rux ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Rux vodoroddan oldin tursa ham, konsentrlangan eritmada katodda asosan rux ajraladi (vodorod ham qisman ajraladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda kulrang rux qatlami hosil bo'ladi, anodda kislorod ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml rux sulfat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Rux vodoroddan oldin tursa ham, konsentrlangan eritmada katodda asosan rux ajraladi (vodorod ham qisman ajraladi). Katodda: Zn²⁺ + 2e⁻ = Zn; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Rux sulfat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0012",
+   "category": "elektrokimyo",
+   "title_uz": "Rux xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "rux",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "ZnCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "ZnCl2 = Zn + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Zn²⁺ + 2e⁻ = Zn",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Zn²⁺ + 2e⁻ = Zn — rux ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda rux o'tiradi, anodda xlor ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml rux xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: Zn²⁺ + 2e⁻ = Zn; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Rux xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0013",
+   "category": "elektrokimyo",
+   "title_uz": "Nikel(II) sulfat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "nikel",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2NiSO4 + 2H2O = 2Ni + O2↑ + 2H2SO4",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ni²⁺ + 2e⁻ = Ni",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Ni²⁺ + 2e⁻ = Ni — nikel ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda kulrang nikel qatlami hosil bo'ladi (nikellash), anodda kislorod ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml nikel(II) sulfat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: Ni²⁺ + 2e⁻ = Ni; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Nikel(II) sulfat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0014",
+   "category": "elektrokimyo",
+   "title_uz": "Qo'rg'oshin(II) nitrat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "qo'rg'oshin",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2Pb(NO3)2 + 2H2O = 2Pb + O2↑ + 4HNO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Pb²⁺ + 2e⁻ = Pb",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Pb²⁺ + 2e⁻ = Pb — qo'rg'oshin ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda kulrang qo'rg'oshin kristallari \"daraxt\" ko'rinishida o'sadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: Pb²⁺ + 2e⁻ = Pb; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Qo'rg'oshin(II) nitrat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0015",
+   "category": "elektrokimyo",
+   "title_uz": "Kaliy nitrat eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "kislorod"
+   },
+   "reactants": [
+    {
+     "species": "KNO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2H2O = 2H2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2H2O − 4e⁻ = O2 + 4H⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2H2O − 4e⁻ = O2 + 4H⁺ — kislorod ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Ikkala elektrodda gaz ajraladi; K⁺ va NO₃⁻ ionlari o'zgarmaydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kaliy nitrat eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2H2O − 4e⁻ = O2 + 4H⁺.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kaliy nitrat suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0016",
+   "category": "elektrokimyo",
+   "title_uz": "Xlorid kislota eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "2HCl = H2↑ + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H⁺ + 2e⁻ = H2",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H⁺ + 2e⁻ = H2 — vodorod ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Katodda vodorod, anodda xlor ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml xlorid kislota eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H⁺ + 2e⁻ = H2; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Xlorid kislota suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0017",
+   "category": "elektrokimyo",
+   "title_uz": "Magniy xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "MgCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "MgCl2 + 2H2O = Mg(OH)2↓ + H2↑ + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Katodda hosil bo'lgan OH⁻ ionlari Mg²⁺ bilan erimaydigan gidroksid beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Mg(OH)2",
+     "color": "#f6f6f2",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Katod atrofida oq Mg(OH)₂ cho'kmasi hosil bo'ladi, ikkala elektrodda gaz ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml magniy xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda hosil bo'lgan OH⁻ ionlari Mg²⁺ bilan erimaydigan gidroksid beradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Magniy xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0018",
+   "category": "elektrokimyo",
+   "title_uz": "Kalsiy xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "CaCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "CaCl2 + 2H2O = Ca(OH)2 + H2↑ + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Katod atrofida eritma loyqalanadi (kam eriydigan Ca(OH)₂), gazlar ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml kalsiy xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Kalsiy xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0019",
+   "category": "elektrokimyo",
+   "title_uz": "Natriy sulfid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "vodorod",
+    "anode_product_uz": "oltingugurt"
+   },
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "Na2S + 2H2O = S↓ + H2↑ + 2NaOH",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2H2O + 2e⁻ = H2 + 2OH⁻",
+     "S²⁻ − 2e⁻ = S"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): 2H2O + 2e⁻ = H2 + 2OH⁻ — vodorod ajraladi.",
+     "Anod (+): S²⁻ − 2e⁻ = S — oltingugurt ajraladi.",
+     "Sulfid ioni xlorid ionidan ham oson oksidlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "S",
+     "color": "#f2dc3a",
+     "texture": "kolloid"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Anod atrofida sariq loyqa (oltingugurt) hosil bo'ladi, katodda vodorod ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml natriy sulfid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Sulfid ioni xlorid ionidan ham oson oksidlanadi. Katodda: 2H2O + 2e⁻ = H2 + 2OH⁻; anodda: S²⁻ − 2e⁻ = S.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Natriy sulfid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0020",
+   "category": "elektrokimyo",
+   "title_uz": "Qalay(II) xlorid eritmasining elektrolizi (inert elektrodlar)",
+   "level": "9-sinf",
+   "topic_uz": "Eritmalar elektrolizi",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "C",
+    "cathode": "C",
+    "cathode_product_uz": "qalay",
+    "anode_product_uz": "xlor"
+   },
+   "reactants": [
+    {
+     "species": "SnCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "O'zgarmas tok, grafit (yoki platina) elektrodlar.",
+    "electricity": true,
+    "anode": "C",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": "SnCl2 = Sn + Cl2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Sn²⁺ + 2e⁻ = Sn",
+     "2Cl⁻ − 2e⁻ = Cl2"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod (−): Sn²⁺ + 2e⁻ = Sn — qalay ajraladi.",
+     "Anod (+): 2Cl⁻ − 2e⁻ = Cl2 — xlor ajraladi.",
+     "Kationlar katodga, anionlar anodga harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "Cl2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Katodda kulrang ignasimon qalay kristallari o'sadi, anodda xlor ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "elektrolizyor-u",
+    "tok-manbai",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "U-simon elektrolizyorga 25 ml qalay(II) xlorid eritmasidan quying.",
+    "Ikkala tirsakka grafit elektrodlarni tushiring va ularni tok manbaiga ulang (anod \"+\", katod \"−\").",
+    "4–6 V kuchlanish bering va elektrodlardagi o'zgarishlarni kuzating.",
+    "Tokni o'chirib, mahsulotlarni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang. Elektr manbai bilan ishlashda simlarni ho'l qo'l bilan ushlamang. Xlor zaharli — tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Elektrolizda katodda qaytarilish, anodda oksidlanish boradi. Katodda: Sn²⁺ + 2e⁻ = Sn; anodda: 2Cl⁻ − 2e⁻ = Cl2.",
+   "questions_uz": [
+    "Katod va anodda boradigan jarayonlar tenglamasini yozing.",
+    "Elektroliz mahsulotlari nimaga bog'liq?",
+    "Qalay(II) xlorid suyuqlanmasi elektroliz qilinsa, mahsulotlar qanday bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0021",
+   "category": "elektrokimyo",
+   "title_uz": "Mis(II) sulfat eritmasining mis anod bilan elektrolizi (misni tozalash)",
+   "level": "10-sinf",
+   "topic_uz": "Eruvchan anod bilan elektroliz",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "Cu",
+    "cathode": "C"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Anodda mis eriydi, katodda xuddi shuncha mis o'tiradi: umumiy kimyoviy tenglama yo'q — mis anoddan katodga ko'chadi.",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Anod — mis plastinka, katod — grafit.",
+    "electricity": true,
+    "anode": "Cu",
+    "cathode": "C"
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu²⁺ + 2e⁻ = Cu",
+     "Cu − 2e⁻ = Cu²⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Anod (+): mis atomlari oksidlanib eritmaga Cu²⁺ ionlari ko'rinishida o'tadi.",
+     "Katod (−): Cu²⁺ ionlari qaytarilib, toza mis ko'rinishida o'tiradi.",
+     "Eritmadagi Cu²⁺ konsentratsiyasi deyarli o'zgarmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Mis anod asta yupqalashadi, katodda qizg'ish mis qatlami o'sadi; gaz ajralmaydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "tok-manbai",
+    "elektrod-mis",
+    "elektrod-grafit",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Stakanga mis(II) sulfat eritmasidan quying.",
+    "Mis plastinkani tok manbaining \"+\" qutbiga, grafit elektrodni \"−\" qutbiga ulang.",
+    "Past kuchlanish (2–3 V) bering va 10–15 daqiqa kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Anod material sifatida mis olinsa, anodda suv yoki sulfat ioni emas, misning o'zi oksidlanadi (u osonroq oksidlanadi). Sanoatda xom mis shu usulda tozalanadi (elektroliz bilan rafinatsiya).",
+   "questions_uz": [
+    "Nima uchun anodda kislorod ajralmaydi?",
+    "Misni elektrolitik tozalashda aralashmalar qayerda to'planadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0022",
+   "category": "elektrokimyo",
+   "title_uz": "Temir buyumni mis bilan qoplash (galvanostegiya)",
+   "level": "10-sinf",
+   "topic_uz": "Galvanotexnika",
+   "engine": "rules",
+   "electrolysis": {
+    "anode": "Cu",
+    "cathode": "Fe"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Mis anoddan katoddagi temir buyum sirtiga ko'chadi; umumiy kimyoviy tenglama yo'q.",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Katod — tozalangan temir plastinka (buyum), anod — mis.",
+    "electricity": true,
+    "anode": "Cu",
+    "cathode": "Fe"
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu²⁺ + 2e⁻ = Cu",
+     "Cu − 2e⁻ = Cu²⁺"
+    ]
+   },
+   "mechanism": {
+    "type": "elektroliz",
+    "steps_uz": [
+     "Katod — qoplanadigan temir buyum: unda Cu²⁺ ionlari qaytariladi.",
+     "Anod — mis: u eriydi va eritmadagi Cu²⁺ ni to'ldirib turadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Temir plastinka bir tekis qizg'ish mis qatlami bilan qoplanadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "tok-manbai",
+    "elektrod-mis",
+    "elektrod-temir",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Temir plastinkani qum qog'oz bilan tozalab, yog'sizlantiring.",
+    "Uni tok manbaining \"−\" qutbiga, mis plastinkani \"+\" qutbiga ulab, mis(II) sulfat eritmasiga tushiring.",
+    "Past kuchlanishda 5–10 daqiqa elektroliz qiling."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Galvanostegiyada qoplanadigan buyum katod bo'ladi: unda qoplovchi metall ionlari qaytariladi. Anod sifatida qoplovchi metallning o'zi olinadi.",
+   "questions_uz": [
+    "Nima uchun qoplanadigan buyum katodga ulanadi?",
+    "Galvanostegiya qanday maqsadlarda qo'llaniladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0023",
+   "category": "elektrokimyo",
+   "title_uz": "Daniel–Yakobi galvanik elementi (Zn–Cu)",
+   "level": "10-sinf",
+   "topic_uz": "Galvanik elementlar",
+   "engine": "rules",
+   "galvanic": {
+    "anode": "Zn",
+    "cathode": "Cu",
+    "anodeConc": 1,
+    "cathodeConc": 1,
+    "anode_solution": "ZnSO4",
+    "cathode_solution": "CuSO4",
+    "emf_V": 1.1
+   },
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 2,
+     "form": "plastinka"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ikki yarim element tuz ko'prigi bilan tutashtiriladi, elektrodlar voltmetrga ulanadi."
+   },
+   "equation": {
+    "molecular": "Zn + CuSO4 = ZnSO4 + Cu",
+    "ionic_full": null,
+    "ionic_net": "Zn + Cu²⁺ = Zn²⁺ + Cu",
+    "electron_balance": [
+     "Zn − 2e⁻ = Zn²⁺",
+     "Cu²⁺ + 2e⁻ = Cu"
+    ]
+   },
+   "mechanism": {
+    "type": "galvanik",
+    "steps_uz": [
+     "Anod (−): rux oksidlanadi — Zn − 2e⁻ → Zn²⁺.",
+     "Katod (+): Cu²⁺ ionlari qaytariladi — Cu ajraladi.",
+     "Elektronlar tashqi zanjir (sim) orqali anoddan katodga, ionlar esa tuz ko'prigi orqali harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Voltmetr taxminan 1,1 V ko'rsatadi; vaqt o'tishi bilan mis elektrod sirtida metall o'tiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "elektrod-rux",
+    "elektrod-mis",
+    "tuz-koprigi",
+    "voltmetr",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Bir stakanga rux sulfat eritmasini quyib, rux elektrodni tushiring.",
+    "Ikkinchi stakanga mis(II) sulfat eritmasini (1 M) quyib, mis elektrodni tushiring.",
+    "Stakanlarni tuz ko'prigi bilan tutashtiring, elektrodlarni voltmetrga ulang.",
+    "Kuchlanishni yozib oling."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Faolroq metall (rux) anod bo'lib oksidlanadi, kam faol metall ionlari katodda qaytariladi. Standart sharoitda EYuK standart elektrod potensiallari farqiga teng; konsentratsiya o'zgarsa, Nernst tenglamasiga ko'ra EYuK ham o'zgaradi. Bu holda hisoblangan EYuK ≈ 1,1 V.",
+   "questions_uz": [
+    "Galvanik elementda anod va katod qaysi elektrod?",
+    "Tuz ko'prigining vazifasi nima?",
+    "EYuK qanday hisoblanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0024",
+   "category": "elektrokimyo",
+   "title_uz": "Temir–mis galvanik elementi",
+   "level": "10-sinf",
+   "topic_uz": "Galvanik elementlar",
+   "engine": "rules",
+   "galvanic": {
+    "anode": "Fe",
+    "cathode": "Cu",
+    "anodeConc": 1,
+    "cathodeConc": 1,
+    "anode_solution": "FeSO4",
+    "cathode_solution": "CuSO4",
+    "emf_V": 0.78
+   },
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 2,
+     "form": "plastinka"
+    },
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ikki yarim element tuz ko'prigi bilan tutashtiriladi, elektrodlar voltmetrga ulanadi."
+   },
+   "equation": {
+    "molecular": "Fe + CuSO4 = FeSO4 + Cu",
+    "ionic_full": null,
+    "ionic_net": "Fe + Cu²⁺ = Fe²⁺ + Cu",
+    "electron_balance": [
+     "Fe − 2e⁻ = Fe²⁺",
+     "Cu²⁺ + 2e⁻ = Cu"
+    ]
+   },
+   "mechanism": {
+    "type": "galvanik",
+    "steps_uz": [
+     "Anod (−): temir oksidlanadi — Fe − 2e⁻ → Fe²⁺.",
+     "Katod (+): Cu²⁺ ionlari qaytariladi — Cu ajraladi.",
+     "Elektronlar tashqi zanjir (sim) orqali anoddan katodga, ionlar esa tuz ko'prigi orqali harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Voltmetr taxminan 0,78 V ko'rsatadi; vaqt o'tishi bilan mis elektrod sirtida metall o'tiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "elektrod-temir",
+    "elektrod-mis",
+    "tuz-koprigi",
+    "voltmetr",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Bir stakanga temir(II) sulfat eritmasini quyib, temir elektrodni tushiring.",
+    "Ikkinchi stakanga mis(II) sulfat eritmasini (1 M) quyib, mis elektrodni tushiring.",
+    "Stakanlarni tuz ko'prigi bilan tutashtiring, elektrodlarni voltmetrga ulang.",
+    "Kuchlanishni yozib oling."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Faolroq metall (temir) anod bo'lib oksidlanadi, kam faol metall ionlari katodda qaytariladi. Standart sharoitda EYuK standart elektrod potensiallari farqiga teng; konsentratsiya o'zgarsa, Nernst tenglamasiga ko'ra EYuK ham o'zgaradi. Bu holda hisoblangan EYuK ≈ 0,78 V.",
+   "questions_uz": [
+    "Galvanik elementda anod va katod qaysi elektrod?",
+    "Tuz ko'prigining vazifasi nima?",
+    "EYuK qanday hisoblanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0025",
+   "category": "elektrokimyo",
+   "title_uz": "Rux–temir galvanik elementi",
+   "level": "10-sinf",
+   "topic_uz": "Galvanik elementlar",
+   "engine": "rules",
+   "galvanic": {
+    "anode": "Zn",
+    "cathode": "Fe",
+    "anodeConc": 1,
+    "cathodeConc": 1,
+    "anode_solution": "ZnSO4",
+    "cathode_solution": "FeSO4",
+    "emf_V": 0.32
+   },
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 2,
+     "form": "plastinka"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    },
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ikki yarim element tuz ko'prigi bilan tutashtiriladi, elektrodlar voltmetrga ulanadi."
+   },
+   "equation": {
+    "molecular": "Zn + FeSO4 = ZnSO4 + Fe",
+    "ionic_full": null,
+    "ionic_net": "Zn + Fe²⁺ = Zn²⁺ + Fe",
+    "electron_balance": [
+     "Zn − 2e⁻ = Zn²⁺",
+     "Fe²⁺ + 2e⁻ = Fe"
+    ]
+   },
+   "mechanism": {
+    "type": "galvanik",
+    "steps_uz": [
+     "Anod (−): rux oksidlanadi — Zn − 2e⁻ → Zn²⁺.",
+     "Katod (+): Fe²⁺ ionlari qaytariladi — Fe ajraladi.",
+     "Elektronlar tashqi zanjir (sim) orqali anoddan katodga, ionlar esa tuz ko'prigi orqali harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Voltmetr taxminan 0,32 V ko'rsatadi; vaqt o'tishi bilan temir elektrod sirtida metall o'tiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "elektrod-rux",
+    "elektrod-temir",
+    "tuz-koprigi",
+    "voltmetr",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Bir stakanga rux sulfat eritmasini quyib, rux elektrodni tushiring.",
+    "Ikkinchi stakanga temir(II) sulfat eritmasini (1 M) quyib, temir elektrodni tushiring.",
+    "Stakanlarni tuz ko'prigi bilan tutashtiring, elektrodlarni voltmetrga ulang.",
+    "Kuchlanishni yozib oling."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Faolroq metall (rux) anod bo'lib oksidlanadi, kam faol metall ionlari katodda qaytariladi. Standart sharoitda EYuK standart elektrod potensiallari farqiga teng; konsentratsiya o'zgarsa, Nernst tenglamasiga ko'ra EYuK ham o'zgaradi. Bu holda hisoblangan EYuK ≈ 0,32 V.",
+   "questions_uz": [
+    "Galvanik elementda anod va katod qaysi elektrod?",
+    "Tuz ko'prigining vazifasi nima?",
+    "EYuK qanday hisoblanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0026",
+   "category": "elektrokimyo",
+   "title_uz": "Daniel–Yakobi elementi EYuK ning konsentratsiyaga bog'liqligi",
+   "level": "litsey",
+   "topic_uz": "Galvanik elementlar",
+   "engine": "rules",
+   "galvanic": {
+    "anode": "Zn",
+    "cathode": "Cu",
+    "anodeConc": 0.01,
+    "cathodeConc": 1,
+    "anode_solution": "ZnSO4",
+    "cathode_solution": "CuSO4",
+    "emf_V": 1.16
+   },
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 2,
+     "form": "plastinka"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 50
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ikki yarim element tuz ko'prigi bilan tutashtiriladi, elektrodlar voltmetrga ulanadi."
+   },
+   "equation": {
+    "molecular": "Zn + CuSO4 = ZnSO4 + Cu",
+    "ionic_full": null,
+    "ionic_net": "Zn + Cu²⁺ = Zn²⁺ + Cu",
+    "electron_balance": [
+     "Zn − 2e⁻ = Zn²⁺",
+     "Cu²⁺ + 2e⁻ = Cu"
+    ]
+   },
+   "mechanism": {
+    "type": "galvanik",
+    "steps_uz": [
+     "Anod (−): rux oksidlanadi — Zn − 2e⁻ → Zn²⁺.",
+     "Katod (+): Cu²⁺ ionlari qaytariladi — Cu ajraladi.",
+     "Elektronlar tashqi zanjir (sim) orqali anoddan katodga, ionlar esa tuz ko'prigi orqali harakatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Voltmetr taxminan 1,16 V ko'rsatadi; vaqt o'tishi bilan mis elektrod sirtida metall o'tiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "elektrod-rux",
+    "elektrod-mis",
+    "tuz-koprigi",
+    "voltmetr",
+    "simlar"
+   ],
+   "procedure_uz": [
+    "Bir stakanga rux sulfat eritmasini quyib, rux elektrodni tushiring.",
+    "Ikkinchi stakanga mis(II) sulfat eritmasini (1 M) quyib, mis elektrodni tushiring.",
+    "Stakanlarni tuz ko'prigi bilan tutashtiring, elektrodlarni voltmetrga ulang.",
+    "Kuchlanishni yozib oling."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Faolroq metall (rux) anod bo'lib oksidlanadi, kam faol metall ionlari katodda qaytariladi. Standart sharoitda EYuK standart elektrod potensiallari farqiga teng; konsentratsiya o'zgarsa, Nernst tenglamasiga ko'ra EYuK ham o'zgaradi. Bu holda hisoblangan EYuK ≈ 1,16 V.",
+   "questions_uz": [
+    "Galvanik elementda anod va katod qaysi elektrod?",
+    "Tuz ko'prigining vazifasi nima?",
+    "EYuK qanday hisoblanadi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "elektro-0027",
+   "category": "elektrokimyo",
+   "title_uz": "Natriy xlorid eritmasining elektr o'tkazuvchanligi",
+   "level": "9-sinf",
+   "topic_uz": "Elektrolitik dissotsilanish",
+   "engine": "rules",
+   "conductivity": {
+    "expected": "kuchli"
+   },
+   "equation_free": false,
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaCl = Na⁺ + Cl⁻",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Natriy xlorid kuchli elektrolit: eritmada ionlarga to'liq dissotsilanadi, ionlar elektr tokini o'tkazadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "light"
+     }
+    ],
+    "text_uz": "Lampochka yorqin yonadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "otkazuvchanlik-lampochkasi"
+   ],
+   "procedure_uz": [
+    "Stakanga 50 ml natriy xlorid eritmasi quying.",
+    "O'tkazuvchanlik asbobining elektrodlarini suyuqlikka tushiring.",
+    "Asbobni tarmoqqa ulang va lampochkani kuzating; so'ng elektrodlarni chayib qo'ying."
+   ],
+   "safety_uz": "Asbobni tarmoqqa ulaganda elektrodlarga tegmang; o'lchashlar orasida elektrodlarni distillangan suv bilan chaying.",
+   "explanation_uz": "Natriy xlorid kuchli elektrolit: eritmada ionlarga to'liq dissotsilanadi, ionlar elektr tokini o'tkazadi.",
+   "questions_uz": [
+    "Elektrolit va noelektrolitlarga misollar keltiring.",
+    "Kuchli va kuchsiz elektrolitlar qanday farqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0028",
+   "category": "elektrokimyo",
+   "title_uz": "Saxaroza eritmasining elektr o'tkazuvchanligi",
+   "level": "9-sinf",
+   "topic_uz": "Elektrolitik dissotsilanish",
+   "engine": "rules",
+   "conductivity": {
+    "expected": "yo'q"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Modda ionlarga dissotsilanmaydi — dissotsilanish tenglamasi yo'q.",
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "aq",
+     "conc_M": 0.3,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Saxaroza noelektrolit: eritmada molekula holida bo'ladi, ion hosil qilmaydi — tok o'tmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Lampochka yonmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "otkazuvchanlik-lampochkasi"
+   ],
+   "procedure_uz": [
+    "Stakanga 50 ml saxaroza eritmasi quying.",
+    "O'tkazuvchanlik asbobining elektrodlarini suyuqlikka tushiring.",
+    "Asbobni tarmoqqa ulang va lampochkani kuzating; so'ng elektrodlarni chayib qo'ying."
+   ],
+   "safety_uz": "Asbobni tarmoqqa ulaganda elektrodlarga tegmang; o'lchashlar orasida elektrodlarni distillangan suv bilan chaying.",
+   "explanation_uz": "Saxaroza noelektrolit: eritmada molekula holida bo'ladi, ion hosil qilmaydi — tok o'tmaydi.",
+   "questions_uz": [
+    "Elektrolit va noelektrolitlarga misollar keltiring.",
+    "Kuchli va kuchsiz elektrolitlar qanday farqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0029",
+   "category": "elektrokimyo",
+   "title_uz": "Sirka kislota eritmasining elektr o'tkazuvchanligi",
+   "level": "9-sinf",
+   "topic_uz": "Elektrolitik dissotsilanish",
+   "engine": "rules",
+   "conductivity": {
+    "expected": "kuchsiz"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Kuchsiz elektrolit qisman dissotsilanadi: CH₃COOH ⇄ CH₃COO⁻ + H⁺.",
+   "reactants": [
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Sirka kislota kuchsiz elektrolit: molekulalarning ozgina qismigina ionlarga dissotsilanadi, shuning uchun eritma tokni yomon o'tkazadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Lampochka xira yonadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "otkazuvchanlik-lampochkasi"
+   ],
+   "procedure_uz": [
+    "Stakanga 50 ml sirka kislota eritmasi quying.",
+    "O'tkazuvchanlik asbobining elektrodlarini suyuqlikka tushiring.",
+    "Asbobni tarmoqqa ulang va lampochkani kuzating; so'ng elektrodlarni chayib qo'ying."
+   ],
+   "safety_uz": "Asbobni tarmoqqa ulaganda elektrodlarga tegmang; o'lchashlar orasida elektrodlarni distillangan suv bilan chaying.",
+   "explanation_uz": "Sirka kislota kuchsiz elektrolit: molekulalarning ozgina qismigina ionlarga dissotsilanadi, shuning uchun eritma tokni yomon o'tkazadi.",
+   "questions_uz": [
+    "Elektrolit va noelektrolitlarga misollar keltiring.",
+    "Kuchli va kuchsiz elektrolitlar qanday farqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "elektro-0030",
+   "category": "elektrokimyo",
+   "title_uz": "Suv (distillangan)ning elektr o'tkazuvchanligi",
+   "level": "9-sinf",
+   "topic_uz": "Elektrolitik dissotsilanish",
+   "engine": "rules",
+   "conductivity": {
+    "expected": "yo'q"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Modda ionlarga dissotsilanmaydi — dissotsilanish tenglamasi yo'q.",
+   "reactants": [
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 50
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Distillangan suv juda kuchsiz elektrolit — undagi H⁺ va OH⁻ ionlari juda kam, lampochka yonishi uchun yetarli tok o'tmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Lampochka yonmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "otkazuvchanlik-lampochkasi"
+   ],
+   "procedure_uz": [
+    "Stakanga 50 ml distillangan suv quying.",
+    "O'tkazuvchanlik asbobining elektrodlarini suyuqlikka tushiring.",
+    "Asbobni tarmoqqa ulang va lampochkani kuzating; so'ng elektrodlarni chayib qo'ying."
+   ],
+   "safety_uz": "Asbobni tarmoqqa ulaganda elektrodlarga tegmang; o'lchashlar orasida elektrodlarni distillangan suv bilan chaying.",
+   "explanation_uz": "Distillangan suv juda kuchsiz elektrolit — undagi H⁺ va OH⁻ ionlari juda kam, lampochka yonishi uchun yetarli tok o'tmaydi.",
+   "questions_uz": [
+    "Elektrolit va noelektrolitlarga misollar keltiring.",
+    "Kuchli va kuchsiz elektrolitlar qanday farqlanadi?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

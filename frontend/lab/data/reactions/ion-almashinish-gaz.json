@@ -1,0 +1,4220 @@
+{
+ "category": "ion-almashinish-gaz",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "gaz-0001",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0002",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2HNO3 = 2NaNO3 + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H⁺ + 2NO3⁻ = 2Na⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0003",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy karbonatning sulfat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + H2SO4 = Na2SO4 + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy karbonat eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0004",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy karbonatning sirka kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2CH3COOH = 2CH3COONa + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2CH3COOH = 2Na⁺ + 2CH3COO⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2CH3COOH = 2CH3COO⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml sirka kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Sirka kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0005",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy karbonatning fosfat (ortofosfat) kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H3PO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2H3PO4 = 2NaH2PO4 + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H3PO4 = 2Na⁺ + 2H2PO4⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H3PO4 = 2H2PO4⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml fosfat (ortofosfat) kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Fosfat (ortofosfat) kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0006",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2CO3 + 2HCl = 2KCl + CO2↑ + H2O",
+    "ionic_full": "2K⁺ + CO3²⁻ + 2H⁺ + 2Cl⁻ = 2K⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0007",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy karbonatning sulfat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2CO3 + H2SO4 = K2SO4 + CO2↑ + H2O",
+    "ionic_full": "2K⁺ + CO3²⁻ + 2H⁺ + SO4²⁻ = 2K⁺ + SO4²⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy karbonat eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0008",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2CO3 + 2HNO3 = 2KNO3 + CO2↑ + H2O",
+    "ionic_full": "2K⁺ + CO3²⁻ + 2H⁺ + 2NO3⁻ = 2K⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy karbonat eritmasidan quying.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0009",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + HCl = NaCl + CO2↑ + H2O",
+    "ionic_full": "Na⁺ + HCO3⁻ + H⁺ + Cl⁻ = Na⁺ + Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0010",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning sulfat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaHCO3 + H2SO4 = Na2SO4 + 2CO2↑ + 2H2O",
+    "ionic_full": "2Na⁺ + 2HCO3⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + 2CO2↑ + 2H2O",
+    "ionic_net": "HCO3⁻ + H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0011",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning sirka kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + CH3COOH = CH3COONa + CO2↑ + H2O",
+    "ionic_full": "Na⁺ + HCO3⁻ + CH3COOH = Na⁺ + CH3COO⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + CH3COOH = CH3COO⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml sirka kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Sirka kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0012",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning limon kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1.5
+    },
+    {
+     "species": "C3H5O(COOH)3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3NaHCO3 + C3H5O(COOH)3 = C3H5O(COONa)3 + 3CO2↑ + 3H2O",
+    "ionic_full": "3Na⁺ + 3HCO3⁻ + C3H5O(COOH)3 = 3Na⁺ + C3H5O(COO)3³⁻ + 3CO2↑ + 3H2O",
+    "ionic_net": "3HCO3⁻ + C3H5O(COOH)3 = C3H5O(COO)3³⁻ + 3CO2↑ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1,5 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 1 ml limon kislota eritmasini qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Limon kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0013",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning fosfat (ortofosfat) kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H3PO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + H3PO4 = NaH2PO4 + CO2↑ + H2O",
+    "ionic_full": "Na⁺ + HCO3⁻ + H3PO4 = Na⁺ + H2PO4⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + H3PO4 = H2PO4⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml fosfat (ortofosfat) kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Fosfat (ortofosfat) kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0014",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrokarbonatning chumoli kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCOOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + HCOOH = HCOONa + CO2↑ + H2O",
+    "ionic_full": "Na⁺ + HCO3⁻ + HCOOH = Na⁺ + HCOO⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + HCOOH = HCOO⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml chumoli kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Chumoli kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0015",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy gidrokarbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "KHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "KHCO3 + HCl = KCl + CO2↑ + H2O",
+    "ionic_full": "K⁺ + HCO3⁻ + H⁺ + Cl⁻ = K⁺ + Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0016",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy gidrokarbonatning sulfat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "KHCO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2KHCO3 + H2SO4 = K2SO4 + 2CO2↑ + 2H2O",
+    "ionic_full": "2K⁺ + 2HCO3⁻ + 2H⁺ + SO4²⁻ = 2K⁺ + SO4²⁻ + 2CO2↑ + 2H2O",
+    "ionic_net": "HCO3⁻ + H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy gidrokarbonat eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0017",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kalsiy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O",
+    "ionic_full": "CaCO3 + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CaCO3 + 2H⁺ = Ca²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,05 g) kalsiy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan kalsiy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0018",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kalsiy karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaCO3 + 2HNO3 = Ca(NO3)2 + CO2↑ + H2O",
+    "ionic_full": "CaCO3 + 2H⁺ + 2NO3⁻ = Ca²⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "CaCO3 + 2H⁺ = Ca²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,05 g) kalsiy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan kalsiy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0019",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kalsiy karbonatning sirka kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaCO3 + 2CH3COOH = (CH3COO)2Ca + CO2↑ + H2O",
+    "ionic_full": "CaCO3 + 2CH3COOH = Ca²⁺ + 2CH3COO⁻ + CO2↑ + H2O",
+    "ionic_net": "CaCO3 + 2CH3COOH = Ca²⁺ + 2CH3COO⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,05 g) kalsiy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml sirka kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Sirka kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan kalsiy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0020",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kalsiy karbonatning chumoli kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "HCOOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaCO3 + 2HCOOH = (HCOO)2Ca + CO2↑ + H2O",
+    "ionic_full": "CaCO3 + 2HCOOH = Ca²⁺ + 2HCOO⁻ + CO2↑ + H2O",
+    "ionic_net": "CaCO3 + 2HCOOH = Ca²⁺ + 2HCOO⁻ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,05 g) kalsiy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml chumoli kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Chumoli kislota kuchsiz bo'lsa-da, karbonat kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan kalsiy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0021",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Magniy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgCO3",
+     "state": "s",
+     "mass_g": 0.042,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgCO3 + 2HCl = MgCl2 + CO2↑ + H2O",
+    "ionic_full": "MgCO3 + 2H⁺ + 2Cl⁻ = Mg²⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "MgCO3 + 2H⁺ = Mg²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) magniy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan magniy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0022",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Magniy karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgCO3",
+     "state": "s",
+     "mass_g": 0.042,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgCO3 + 2HNO3 = Mg(NO3)2 + CO2↑ + H2O",
+    "ionic_full": "MgCO3 + 2H⁺ + 2NO3⁻ = Mg²⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "MgCO3 + 2H⁺ = Mg²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) magniy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan magniy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0023",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Bariy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaCO3",
+     "state": "s",
+     "mass_g": 0.099,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaCO3 + 2HCl = BaCl2 + CO2↑ + H2O",
+    "ionic_full": "BaCO3 + 2H⁺ + 2Cl⁻ = Ba²⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "BaCO3 + 2H⁺ = Ba²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,1 g) bariy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan bariy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0024",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Bariy karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaCO3",
+     "state": "s",
+     "mass_g": 0.099,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaCO3 + 2HNO3 = Ba(NO3)2 + CO2↑ + H2O",
+    "ionic_full": "BaCO3 + 2H⁺ + 2NO3⁻ = Ba²⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "BaCO3 + 2H⁺ = Ba²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,1 g) bariy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan bariy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0025",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Rux karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnCO3",
+     "state": "s",
+     "mass_g": 0.063,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "ZnCO3 + 2HCl = ZnCl2 + CO2↑ + H2O",
+    "ionic_full": "ZnCO3 + 2H⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "ZnCO3 + 2H⁺ = Zn²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,06 g) rux karbonat kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan rux karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0026",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Qo'rg'oshin(II) karbonatning nitrat kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "PbCO3",
+     "state": "s",
+     "mass_g": 0.134,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "PbCO3 + 2HNO3 = Pb(NO3)2 + CO2↑ + H2O",
+    "ionic_full": "PbCO3 + 2H⁺ + 2NO3⁻ = Pb²⁺ + 2NO3⁻ + CO2↑ + H2O",
+    "ionic_net": "PbCO3 + 2H⁺ = Pb²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,13 g) qo'rg'oshin(II) karbonat kukunidan soling.",
+    "Ustiga 0,5 ml nitrat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan qo'rg'oshin(II) karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0027",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Misning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "(CuOH)2CO3",
+     "state": "s",
+     "mass_g": 0.111,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "(CuOH)2CO3 + 4HCl = 2CuCl2 + CO2↑ + 3H2O",
+    "ionic_full": "(CuOH)2CO3 + 4H⁺ + 4Cl⁻ = 2Cu²⁺ + 4Cl⁻ + CO2↑ + 3H2O",
+    "ionic_net": "(CuOH)2CO3 + 4H⁺ = 2Cu²⁺ + CO2↑ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,11 g) mis kukunidan soling.",
+    "Ustiga 1 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan mis ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0028",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Litiy karbonatning xlorid kislota bilan reaksiyasi (CO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Li2CO3",
+     "state": "s",
+     "mass_g": 0.037,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Li2CO3 + 2HCl = 2LiCl + CO2↑ + H2O",
+    "ionic_full": "Li2CO3 + 2H⁺ + 2Cl⁻ = 2Li⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "Li2CO3 + 2H⁺ = 2Li⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari karbonat (gidrokarbonat) ionlarini protonlaydi.",
+     "Kuchsiz va beqaror karbonat kislota hosil bo'ladi.",
+     "H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rangsiz, hidsiz gaz pufakchalari jadal ajraladi (eritma \"qaynayotgandek\" ko'piradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) litiy karbonat kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Ajralgan gazni ohakli suv orqali o'tkazing — u loyqalanadi; yonib turgan cho'p gazda o'chadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kuchli kislota kuchsiz karbonat kislotani uning tuzidan siqib chiqaradi. H₂CO₃ beqaror bo'lib, darhol CO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan litiy karbonat ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan CO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0029",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy sulfitning xlorid kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2SO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SO3 + 2HCl = 2NaCl + SO2↑ + H2O",
+    "ionic_full": "2Na⁺ + SO3²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + SO2↑ + H2O",
+    "ionic_net": "SO3²⁻ + 2H⁺ = SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy sulfit eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0030",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy sulfitning sulfat kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2SO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SO3 + H2SO4 = Na2SO4 + SO2↑ + H2O",
+    "ionic_full": "2Na⁺ + SO3²⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + SO2↑ + H2O",
+    "ionic_net": "SO3²⁻ + 2H⁺ = SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy sulfit eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0031",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy sulfitning xlorid kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2SO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2SO3 + 2HCl = 2KCl + SO2↑ + H2O",
+    "ionic_full": "2K⁺ + SO3²⁻ + 2H⁺ + 2Cl⁻ = 2K⁺ + 2Cl⁻ + SO2↑ + H2O",
+    "ionic_net": "SO3²⁻ + 2H⁺ = SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy sulfit eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0032",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrosulfitning xlorid kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHSO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHSO3 + HCl = NaCl + SO2↑ + H2O",
+    "ionic_full": "Na⁺ + HSO3⁻ + H⁺ + Cl⁻ = Na⁺ + Cl⁻ + SO2↑ + H2O",
+    "ionic_net": "HSO3⁻ + H⁺ = SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy gidrosulfit eritmasidan quying.",
+    "Ustiga 0,25 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0033",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy gidrosulfitning sulfat kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaHSO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaHSO3 + H2SO4 = Na2SO4 + 2SO2↑ + 2H2O",
+    "ionic_full": "2Na⁺ + 2HSO3⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + 2SO2↑ + 2H2O",
+    "ionic_net": "HSO3⁻ + H⁺ = SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy gidrosulfit eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0034",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Bariy sulfitning xlorid kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaSO3",
+     "state": "s",
+     "mass_g": 0.109,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaSO3 + 2HCl = BaCl2 + SO2↑ + H2O",
+    "ionic_full": "BaSO3 + 2H⁺ + 2Cl⁻ = Ba²⁺ + 2Cl⁻ + SO2↑ + H2O",
+    "ionic_net": "BaSO3 + 2H⁺ = Ba²⁺ + SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,11 g) bariy sulfit kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan bariy sulfit ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0035",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kalsiy sulfitning xlorid kislota bilan reaksiyasi (SO₂ ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaSO3",
+     "state": "s",
+     "mass_g": 0.06,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaSO3 + 2HCl = CaCl2 + SO2↑ + H2O",
+    "ionic_full": "CaSO3 + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + SO2↑ + H2O",
+    "ionic_net": "CaSO3 + 2H⁺ = Ca²⁺ + SO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfit ionlarini protonlaydi.",
+     "Kuchsiz va beqaror sulfit kislota hosil bo'ladi.",
+     "H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null,
+     "smell_uz": "yongan oltingugurtning o'tkir hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Yongan oltingugurtning o'tkir hidli rangsiz gazi ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,06 g) kalsiy sulfit kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Gazni kaliy permanganatning suyultirilgan eritmasi orqali o'tkazing — u rangsizlanadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz sulfit kislotani uning tuzidan siqib chiqaradi. H₂SO₃ beqaror bo'lib, SO₂ va H₂O ga parchalanadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan kalsiy sulfit ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan SO₂ gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0036",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy sulfidning xlorid kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + 2HCl = 2NaCl + H2S↑",
+    "ionic_full": "2Na⁺ + S²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "S²⁻ + 2H⁺ = H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy sulfid eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0037",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy sulfidning sulfat kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + H2SO4 = Na2SO4 + H2S↑",
+    "ionic_full": "2Na⁺ + S²⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + H2S↑",
+    "ionic_net": "S²⁻ + 2H⁺ = H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy sulfid eritmasidan quying.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0038",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Kaliy sulfidning xlorid kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "8-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2S",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2S + 2HCl = 2KCl + H2S↑",
+    "ionic_full": "2K⁺ + S²⁻ + 2H⁺ + 2Cl⁻ = 2K⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "S²⁻ + 2H⁺ = H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml kaliy sulfid eritmasidan quying.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0039",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Natriy sulfidning sirka kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + 2CH3COOH = 2CH3COONa + H2S↑",
+    "ionic_full": "2Na⁺ + S²⁻ + 2CH3COOH = 2Na⁺ + 2CH3COO⁻ + H2S↑",
+    "ionic_net": "S²⁻ + 2CH3COOH = 2CH3COO⁻ + H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml natriy sulfid eritmasidan quying.",
+    "Ustiga 0,5 ml sirka kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Sirka kislota kuchsiz bo'lsa-da, vodorod sulfid kislotadan kuchliroq, shuning uchun uni tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0040",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Temir(II) sulfidning xlorid kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "FeS",
+     "state": "s",
+     "mass_g": 0.044,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeS + 2HCl = FeCl2 + H2S↑",
+    "ionic_full": "FeS + 2H⁺ + 2Cl⁻ = Fe²⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "FeS + 2H⁺ = Fe²⁺ + H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) temir(II) sulfid kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan temir(II) sulfid ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0041",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Temir(II) sulfidning sulfat kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "FeS",
+     "state": "s",
+     "mass_g": 0.044,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeS + H2SO4 = FeSO4 + H2S↑",
+    "ionic_full": "FeS + 2H⁺ + SO4²⁻ = Fe²⁺ + SO4²⁻ + H2S↑",
+    "ionic_net": "FeS + 2H⁺ = Fe²⁺ + H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) temir(II) sulfid kukunidan soling.",
+    "Ustiga 0,25 ml sulfat kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan temir(II) sulfid ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0042",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Rux sulfidning xlorid kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnS",
+     "state": "s",
+     "mass_g": 0.049,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "ZnS + 2HCl = ZnCl2 + H2S↑",
+    "ionic_full": "ZnS + 2H⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "ZnS + 2H⁺ = Zn²⁺ + H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,05 g) rux sulfid kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan rux sulfid ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0043",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Marganes(II) sulfidning xlorid kislota bilan reaksiyasi (H₂S ajralishi)",
+   "level": "9-sinf",
+   "topic_uz": "Ion almashinish reaksiyalari: gaz ajralishi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MnS",
+     "state": "s",
+     "mass_g": 0.043,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MnS + 2HCl = MnCl2 + H2S↑",
+    "ionic_full": "MnS + 2H⁺ + 2Cl⁻ = Mn²⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "MnS + 2H⁺ = Mn²⁺ + H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari sulfid ionlarini protonlaydi.",
+     "Kuchsiz va beqaror vodorod sulfid kislota hosil bo'ladi.",
+     "H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidli rangsiz gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq (0,04 g) marganes(II) sulfid kukunidan soling.",
+    "Ustiga 0,5 ml xlorid kislota eritmasidan qo'shing.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi shimdirilgan qog'ozni tuting — u qorayadi (PbS)."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Gaz zaharli — tajribani mo'rili shkafda, oz miqdorda o'tkazing; hidini qo'l harakati bilan o'zingizga yo'naltirib sezing.",
+   "explanation_uz": "Kuchli kislota kuchsiz vodorod sulfid kislotani uning tuzidan siqib chiqaradi. H₂S kuchsiz kislota bo'lib, eritmadan gaz holida chiqadi, shuning uchun gaz ajralib chiqadi va reaksiya oxirigacha boradi. Erimaydigan marganes(II) sulfid ham kislotada eriydi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan H₂S gazini qanday aniqlash mumkin?",
+    "Qaysi kislotalar bu tuzdan gazni siqib chiqara oladi, qaysilari chiqara olmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gaz-0044",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy xloridning natriy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "NH4Cl + NaOH = NaCl + NH3↑ + H2O",
+    "ionic_full": "NH4⁺ + Cl⁻ + Na⁺ + OH⁻ = Na⁺ + Cl⁻ + NH3↑ + H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy xlorid eritmasidan quying.",
+    "Ustiga 0,25 ml natriy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0045",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy xloridning kaliy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "NH4Cl + KOH = KCl + NH3↑ + H2O",
+    "ionic_full": "NH4⁺ + Cl⁻ + K⁺ + OH⁻ = K⁺ + Cl⁻ + NH3↑ + H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy xlorid eritmasidan quying.",
+    "Ustiga 0,25 ml kaliy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0046",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy sulfatning natriy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "(NH4)2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "(NH4)2SO4 + 2NaOH = Na2SO4 + 2NH3↑ + 2H2O",
+    "ionic_full": "2NH4⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = 2Na⁺ + SO4²⁻ + 2NH3↑ + 2H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy sulfat eritmasidan quying.",
+    "Ustiga 0,5 ml natriy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0047",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy nitratning natriy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NH4NO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "NH4NO3 + NaOH = NaNO3 + NH3↑ + H2O",
+    "ionic_full": "NH4⁺ + NO3⁻ + Na⁺ + OH⁻ = Na⁺ + NO3⁻ + NH3↑ + H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy nitrat eritmasidan quying.",
+    "Ustiga 0,25 ml natriy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0048",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy sulfatning kaliy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "(NH4)2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "(NH4)2SO4 + 2KOH = K2SO4 + 2NH3↑ + 2H2O",
+    "ionic_full": "2NH4⁺ + SO4²⁻ + 2K⁺ + 2OH⁻ = 2K⁺ + SO4²⁻ + 2NH3↑ + 2H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy sulfat eritmasidan quying.",
+    "Ustiga 0,5 ml kaliy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0049",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy atsetatning natriy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CH3COONH4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "CH3COONH4 + NaOH = CH3COONa + NH3↑ + H2O",
+    "ionic_full": "NH4⁺ + CH3COO⁻ + Na⁺ + OH⁻ = Na⁺ + CH3COO⁻ + NH3↑ + H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy atsetat eritmasidan quying.",
+    "Ustiga 0,25 ml natriy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gaz-0050",
+   "category": "ion-almashinish-gaz",
+   "title_uz": "Ammoniy bromidning kaliy gidroksid bilan qizdirilganda ammiak ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; ammiak olish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NH4Br",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 0.25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak qizdirilganda jadal ajraladi."
+   },
+   "equation": {
+    "molecular": "NH4Br + KOH = KBr + NH3↑ + H2O",
+    "ionic_full": "NH4⁺ + Br⁻ + K⁺ + OH⁻ = K⁺ + Br⁻ + NH3↑ + H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni OH⁻ ioniga beradi: NH₄⁺ + OH⁻ → NH₃·H₂O.",
+     "Qizdirilganda ammiakning suvda eruvchanligi kamayadi va u gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda o'tkir (novshadil spirti) hidli gaz ajraladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml ammoniy bromid eritmasidan quying.",
+    "Ustiga 0,25 ml kaliy gidroksid eritmasini qo'shing.",
+    "Probirkani qisqichga olib, spirt lampasida ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting — u ko'karadi; konsentrlangan HCl ho'llangan tayoqcha yaqinlashtirilsa oq \"tutun\" (NH₄Cl) hosil bo'ladi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving. Ammiakni bevosita hidlamang, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz asos (NH₃) ning kislotasi: kuchli ishqorning OH⁻ ionlari NH₄⁺ dan protonni tortib oladi va NH₃·H₂O hosil bo'ladi. NH₃·H₂O beqaror bo'lib, qizdirilganda NH₃ va H₂O ga parchalanadi. Bu reaksiya ammoniy tuzlarini aniqlashda (NH₄⁺ ioniga sifat reaksiyasi) qo'llaniladi.",
+   "questions_uz": [
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing va nima uchun reaksiya oxirigacha borishini tushuntiring.",
+    "Ajralgan NH₃ gazini qanday aniqlash mumkin?",
+    "Ammoniy tuzlarini boshqa tuzlardan qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

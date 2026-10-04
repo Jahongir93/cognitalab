@@ -46,6 +46,14 @@ export function setupExperiment(chem, r, opts = {}) {
         continue;
       }
     }
+    if (k === null && (s.indicator || re.role === 'indikator')) {
+      chem.addSubstance(v, id, { as: 'solution', conc_M: re.conc_M, volume_mL: re.volume_mL ?? 0.1 });
+      continue;
+    }
+    if (k === null && re.state === 'aq' && re.volume_mL && re.conc_M) {
+      chem.addSubstance(v, id, { as: 'solution', conc_M: re.conc_M, volume_mL: re.volume_mL });
+      continue;
+    }
     if (k === null) k = re.excess ? 4 : 1;
     if (re.excess) k *= 1.5;
     n = k * base;
@@ -68,10 +76,10 @@ export function setupExperiment(chem, r, opts = {}) {
   v.capacity_mL = Math.max(20, chem.liquidVolume(v) * 2.5 + chem.solidVolume(v) * 4);
   if (c.light) v.illuminated = true;
   const tmin = c.temp_min_C ?? (c.heating ? 60 : null);
-  if (tmin !== null && tmin !== undefined) env.heater = { power_W: 60, maxT: Math.max(tmin + (tmin > 150 ? 120 : 30), 110) };
+  if (tmin !== null && tmin !== undefined) env.heater = { power_W: tmin > 300 ? 250 : 60, maxT: Math.max(tmin + (tmin > 150 ? 120 : 30), 110) };
   if (c.temp_max_C !== undefined && c.temp_max_C !== null && !env.heater) env.heater = null;
   if (c.ignition) { v.ignited = true; if (!env.heater) env.heater = { power_W: 60, maxT: (c.ignition_C ?? 400) + 100 }; }
-  if (c.electricity) env.electrolysis = { current_A: 1, anode: c.anode || 'C', cathode: c.cathode || 'C', speed: 400 };
+  if (c.electricity) env.electrolysis = { current_A: 1, anode: c.anode || 'C', cathode: c.cathode || 'C', speed: 100 };
   return { v, env, mol };
 }
 
@@ -92,12 +100,23 @@ export function checkReaction(chem, r, opts = {}) {
     else if (fl[0].ion !== r.flame_test.ion) problems.push(`alangada ${fl[0].ion} rangi ustun (kutilgan ${r.flame_test.ion})`);
     return { ok: problems.length === 0, problems, fired: [], ppt: {}, gas: {} };
   }
+  if (r.conductivity) {
+    for (let t = 0; t < 5; t += 0.25) chem.step(v, 0.25, env);
+    const c = chem.conductivity(v);
+    if (c.level !== r.conductivity.expected) problems.push(`o'tkazuvchanlik: kutilgan ${r.conductivity.expected}, dvigatel ${c.level} (${c.value.toExponential(2)})`);
+    return { ok: problems.length === 0, problems, fired: [], ppt: {}, gas: {} };
+  }
+  if (r.galvanic) {
+    const emf = chem.galvanicEMF(r.galvanic);
+    if (emf === null || Math.abs(emf - r.galvanic.emf_V) > 0.03) problems.push(`EYuK: yozuvda ${r.galvanic.emf_V} V, dvigatel ${emf} V`);
+  }
   const ppt = {}, gas = {}, fired = new Set(), deposits = {};
   const noReactionEvents = [];
   let quiet = 0;
   const dt = 0.25;
-  const maxT = opts.seconds ?? 900;
+  const maxT = opts.seconds ?? (env.electrolysis ? 1.25 : 900);
   for (let t = 0; t < maxT; t += dt) {
+    const T0 = v.T;
     const ev = chem.step(v, dt, env);
     let active = false;
     for (const e of ev) {
@@ -108,6 +127,8 @@ export function checkReaction(chem, r, opts = {}) {
       if (['metal-acid', 'metal-water', 'displacement', 'acid-dissolve', 'complex', 'rule', 'dissolve'].includes(e.type)) active = true;
       if (e.type === 'no-reaction') noReactionEvents.push(e);
     }
+    // harorat hali o'zgarayotgan bo'lsa (qizdirish) — kutamiz
+    if (Math.abs(v.T - T0) > 0.02) active = true;
     quiet = active ? 0 : quiet + dt;
     if (quiet > 20 && t > 30) break;
   }
@@ -123,13 +144,21 @@ export function checkReaction(chem, r, opts = {}) {
     return { ok: problems.length === 0, problems, fired: [...fired], ppt, gas };
   }
 
+  // boshqa yozuv xuddi shu kimyoviy tenglamani bajargan bo'lsa — teng kuchli (masalan, turli toifadagi bir xil reaksiya)
+  const netKey = (rec) => rec?._net ? [rec._net.left, rec._net.right].map((side) => side.map((t) => `${t.coef}${t.id}`).sort().join('+')).join('=') : null;
+  const self = db.reactionById.get(r.id);
+  const equivalentFired = [...fired].some((id) => id !== r.id && netKey(db.reactionById.get(id)) === netKey(self));
   if (r.engine === 'record') {
-    if (!fired.has(r.id)) {
+    if (!fired.has(r.id) && !equivalentFired) {
       const pending = v._pending?.find((p) => p.id === r.id);
       problems.push(`yozuv ishga tushmadi${fired.size ? ` (o'rniga: ${[...fired].join(', ')})` : ''}${pending ? ` — bajarilmagan shartlar: ${JSON.stringify(pending.unmet)}` : ''}`);
     }
   }
-  if (mol) {
+  if (r.expected_pH) {
+    const pH = chem.pH(v);
+    if (pH === null || pH < r.expected_pH.min || pH > r.expected_pH.max) problems.push(`pH: kutilgan ${r.expected_pH.min}–${r.expected_pH.max}, dvigatel ${pH}`);
+  }
+  if (mol && !r.equilibrium) {
     for (const t of mol.right) {
       if (!t.id || t.id === 'H2O') continue;
       const s = db.sub(t.id);
@@ -148,6 +177,7 @@ export function checkReaction(chem, r, opts = {}) {
         if (!ok) {
           ok = Object.entries(s.dissociation).every(([ion, k]) => {
             if (ion === 'H2O') return true;
+            if (ion === 'H^+') return chem.protonSupply(v) >= expected * k * 0.3;
             let n = chem.get(v, ion, 'aq');
             const se = db.formToSystem.get(ion);
             if (se) n = se.sys.forms.reduce((a, f) => a + chem.get(v, f, 'aq'), 0);

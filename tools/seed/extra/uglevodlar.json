@@ -1,0 +1,4 @@
+[
+ {"f": "(C12H21O11)2Cu", "aliases": ["Cu(C12H21O11)2"], "n": "mis(II) saxarati", "c": "kompleks", "st": "aq", "aq": {"col": "#2a50c8", "ref": 0.05}, "hz": ["zararli"], "reagent": false, "desc": "to'q ko'k eritma; soddalashtirilgan formula"},
+ {"f": "achitqi", "formula_null": true, "n": "achitqi (xamirturush zamburug'lari)", "c": "biokatalizator", "st": "s", "col": "#d8c8a0", "form": "kukun", "hz": [], "reagent": true, "desc": "spirtli bijg'ish fermentlarini tutuvchi bir hujayrali zamburug'lar"}
+]

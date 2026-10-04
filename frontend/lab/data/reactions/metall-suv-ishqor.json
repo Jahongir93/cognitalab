@@ -1,0 +1,2142 @@
+{
+ "category": "metall-suv-ishqor",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "metsuv-0001",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Litiyning suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Ishqoriy va ishqoriy-yer metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Li",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "bo'lak"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 50
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.2,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Li + 2H2O = 2LiOH + H2↑",
+    "ionic_full": "2Li + 2H2O = 2Li⁺ + 2OH⁻ + H2↑",
+    "ionic_net": "2Li + 2H2O = 2Li⁺ + 2OH⁻ + H2↑",
+    "electron_balance": [
+     "Li⁰ − 1e⁻ = Li⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Litiy atomlari tashqi elektronini oson beradi (kuchli qaytaruvchi).",
+     "Suv molekulasidagi vodorod (H⁺¹) elektron qabul qilib H₂ ga qaytariladi.",
+     "Hosil bo'lgan Li⁺ va OH⁻ ionlari ishqor eritmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Litiy suv yuzasida suzib, nisbatan sokin reaksiyaga kirishadi; gaz ajraladi, fenolftalein pushti rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kristallizator",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Kristallizatorga (yoki stakanga) suv quying va 2–3 tomchi fenolftalein qo'shing.",
+    "Pinset bilan kerosindan olingan litiyning no'xatdan kichik bo'lagini filtr qog'ozda quriting va  suvga tashlang.",
+    "Uzoqroqdan, himoya ekrani ortidan kuzating."
+   ],
+   "safety_uz": "Litiy faqat pinset bilan olinadi, qo'l bilan ushlanmaydi; juda kichik bo'lak oling, ko'zoynak taqing va idishga engashmang. Reaksiya o'qituvchi ishtirokida o'tkaziladi.",
+   "explanation_uz": "Litiy faollik qatorining boshida turadi va suvni oddiy sharoitda qaytaradi: ishqor (LiOH) va vodorod hosil bo'ladi. Ishqoriy metallarning faolligi guruhda yuqoridan pastga ortadi (Li < Na < K).",
+   "questions_uz": [
+    "Reaksiyada qaysi modda oksidlovchi, qaysi biri qaytaruvchi?",
+    "Nima uchun eritma fenolftaleinni pushti rangga bo'yaydi?",
+    "Ishqoriy metallar nima uchun kerosin ostida saqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0002",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Natriyning suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Ishqoriy va ishqoriy-yer metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "bo'lak"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 50
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.2,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Na + 2H2O = 2NaOH + H2↑",
+    "ionic_full": "2Na + 2H2O = 2Na⁺ + 2OH⁻ + H2↑",
+    "ionic_net": "2Na + 2H2O = 2Na⁺ + 2OH⁻ + H2↑",
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Natriy atomlari tashqi elektronini oson beradi (kuchli qaytaruvchi).",
+     "Suv molekulasidagi vodorod (H⁺¹) elektron qabul qilib H₂ ga qaytariladi.",
+     "Hosil bo'lgan Na⁺ va OH⁻ ionlari ishqor eritmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Natriy suv yuzasida eriyotgan sharcha bo'lib aylanib yuguradi, vishillaydi; fenolftalein to'q pushti rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kristallizator",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Kristallizatorga (yoki stakanga) suv quying va 2–3 tomchi fenolftalein qo'shing.",
+    "Pinset bilan kerosindan olingan natriyning no'xatdan kichik bo'lagini filtr qog'ozda quriting va  suvga tashlang.",
+    "Uzoqroqdan, himoya ekrani ortidan kuzating."
+   ],
+   "safety_uz": "Natriy faqat pinset bilan olinadi, qo'l bilan ushlanmaydi; juda kichik bo'lak oling, ko'zoynak taqing va idishga engashmang. Reaksiya o'qituvchi ishtirokida o'tkaziladi.",
+   "explanation_uz": "Natriy faollik qatorining boshida turadi va suvni oddiy sharoitda qaytaradi: ishqor (NaOH) va vodorod hosil bo'ladi. Ishqoriy metallarning faolligi guruhda yuqoridan pastga ortadi (Li < Na < K).",
+   "questions_uz": [
+    "Reaksiyada qaysi modda oksidlovchi, qaysi biri qaytaruvchi?",
+    "Nima uchun eritma fenolftaleinni pushti rangga bo'yaydi?",
+    "Ishqoriy metallar nima uchun kerosin ostida saqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0003",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Kaliyning suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Ishqoriy va ishqoriy-yer metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "bo'lak"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 50
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.2,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2K + 2H2O = 2KOH + H2↑",
+    "ionic_full": "2K + 2H2O = 2K⁺ + 2OH⁻ + H2↑",
+    "ionic_net": "2K + 2H2O = 2K⁺ + 2OH⁻ + H2↑",
+    "electron_balance": [
+     "K⁰ − 1e⁻ = K⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kaliy atomlari tashqi elektronini oson beradi (kuchli qaytaruvchi).",
+     "Suv molekulasidagi vodorod (H⁺¹) elektron qabul qilib H₂ ga qaytariladi.",
+     "Hosil bo'lgan K⁺ va OH⁻ ionlari ishqor eritmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#b07ee0",
+     "desc_uz": "binafsha (kaliy ionlari bo'yagan) alanga"
+    },
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Kaliy shiddat bilan reaksiyaga kirishadi, ajralayotgan vodorod binafsha alanga bilan yonib ketadi; eritma pushti tusga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kristallizator",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Kristallizatorga (yoki stakanga) suv quying va 2–3 tomchi fenolftalein qo'shing.",
+    "Pinset bilan kerosindan olingan kaliyning no'xatdan kichik bo'lagini filtr qog'ozda quriting va  suvga tashlang.",
+    "Uzoqroqdan, himoya ekrani ortidan kuzating."
+   ],
+   "safety_uz": "Kaliy faqat pinset bilan olinadi, qo'l bilan ushlanmaydi; juda kichik bo'lak oling, ko'zoynak taqing va idishga engashmang. Reaksiya o'qituvchi ishtirokida o'tkaziladi.",
+   "explanation_uz": "Kaliy faollik qatorining boshida turadi va suvni oddiy sharoitda qaytaradi: ishqor (KOH) va vodorod hosil bo'ladi. Ishqoriy metallarning faolligi guruhda yuqoridan pastga ortadi (Li < Na < K).",
+   "questions_uz": [
+    "Reaksiyada qaysi modda oksidlovchi, qaysi biri qaytaruvchi?",
+    "Nima uchun eritma fenolftaleinni pushti rangga bo'yaydi?",
+    "Ishqoriy metallar nima uchun kerosin ostida saqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0004",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Kalsiyning suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Ishqoriy va ishqoriy-yer metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "bo'lak"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 50
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.2,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ca + 2H2O = Ca(OH)2 + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ca⁰ − 2e⁻ = Ca⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kalsiy atomlari tashqi elektronini oson beradi (kuchli qaytaruvchi).",
+     "Suv molekulasidagi vodorod (H⁺¹) elektron qabul qilib H₂ ga qaytariladi.",
+     "Hosil bo'lgan Ca²⁺ va OH⁻ ionlari ishqor eritmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Kalsiy suv tubida gaz pufakchalari ajratib eriydi; eritma loyqalanadi (kam eriydigan Ca(OH)₂), fenolftalein pushti rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Kristallizatorga (yoki stakanga) suv quying va 2–3 tomchi fenolftalein qo'shing.",
+    "Pinset bilan kerosindan olingan kalsiy bo'lagini suvga tashlang.",
+    "Uzoqroqdan, himoya ekrani ortidan kuzating."
+   ],
+   "safety_uz": "Kalsiy faqat pinset bilan olinadi, qo'l bilan ushlanmaydi; juda kichik bo'lak oling, ko'zoynak taqing va idishga engashmang. Reaksiya o'qituvchi ishtirokida o'tkaziladi.",
+   "explanation_uz": "Kalsiy faollik qatorining boshida turadi va suvni oddiy sharoitda qaytaradi: ishqor (Ca(OH)₂) va vodorod hosil bo'ladi. Ishqoriy metallarning faolligi guruhda yuqoridan pastga ortadi (Li < Na < K). Ca(OH)₂ suvda kam eriydi, shuning uchun eritma loyqalanadi.",
+   "questions_uz": [
+    "Reaksiyada qaysi modda oksidlovchi, qaysi biri qaytaruvchi?",
+    "Nima uchun eritma fenolftaleinni pushti rangga bo'yaydi?",
+    "Ishqoriy metallar nima uchun kerosin ostida saqlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0005",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Magniyning issiq suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 70,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sovuq suvda magniy deyarli reaksiyaga kirishmaydi."
+   },
+   "equation": {
+    "molecular": "Mg + 2H2O = Mg(OH)2 + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qizdirilganda magniy sirtidagi parda yemiriladi.",
+     "Magniy suvni qaytaradi, kam eriydigan Mg(OH)₂ hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qizdirilganda magniy kukuni sirtida gaz pufakchalari ajraladi, fenolftalein och pushti rangga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 1–2 tomchi fenolftalein quying.",
+    "Ozroq magniy kukuni soling — sovuqda o'zgarish yo'q.",
+    "Probirkani qaynaguncha qizdiring va kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga qaratmang; qaynayotgan suyuqlik sachrashi mumkin.",
+   "explanation_uz": "Magniy natriyga qaraganda kam faol: sovuq suv bilan sirtidagi gidroksid parda tufayli deyarli reaksiyaga kirishmaydi, issiq suv bilan esa vodorod ajratib Mg(OH)₂ hosil qiladi. Mg(OH)₂ kam eriydi, shuning uchun indikator och pushti tusga kiradi.",
+   "questions_uz": [
+    "Magniy va natriyning suv bilan reaksiyasini solishtiring.",
+    "Nima uchun reaksiya qizdirilganda tezlashadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0006",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Magniyning sovuq suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "lenta"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null,
+    "temp_max_C": 30
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Metall sirtidagi himoya pardasi suvning metallga yetishiga to'sqinlik qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi, indikator rangsizligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 1 tomchi fenolftalein quying.",
+    "Magniy bo'lagini soling.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang; ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Sovuq suvda magniy sirti Mg(OH)₂ ning yupqa pardasi bilan qoplanadi va reaksiya deyarli bormaydi; qizdirilganda esa boradi.",
+   "questions_uz": [
+    "Qaysi metallar suv bilan oddiy sharoitda reaksiyaga kirishadi?",
+    "Himoya oksid pardasi nima?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0007",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Alyuminiyning sovuq suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "plastinka"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null,
+    "temp_max_C": 30
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Metall sirtidagi himoya pardasi suvning metallga yetishiga to'sqinlik qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi, indikator rangsizligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 1 tomchi fenolftalein quying.",
+    "Alyuminiy bo'lagini soling.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang; ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Alyuminiy faol metall bo'lsa ham, sirtidagi zich Al₂O₃ parda uni suvdan himoya qiladi — reaksiya ketmaydi.",
+   "questions_uz": [
+    "Qaysi metallar suv bilan oddiy sharoitda reaksiyaga kirishadi?",
+    "Himoya oksid pardasi nima?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0008",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Temirning sovuq suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "mix"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null,
+    "temp_max_C": 30
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Metall sirtidagi himoya pardasi suvning metallga yetishiga to'sqinlik qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi, indikator rangsizligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 1 tomchi fenolftalein quying.",
+    "Temir bo'lagini soling.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang; ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Temir xona haroratida suv bilan reaksiyaga kirishmaydi (faqat cho'g'langan temir suv bug'i bilan ta'sirlashadi). Suv va havo birgalikda esa asta zanglash jarayonini keltirib chiqaradi.",
+   "questions_uz": [
+    "Qaysi metallar suv bilan oddiy sharoitda reaksiyaga kirishadi?",
+    "Himoya oksid pardasi nima?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0009",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Ruxning sovuq suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning suv bilan reaksiyasi",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "granula"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null,
+    "temp_max_C": 30
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Metall sirtidagi himoya pardasi suvning metallga yetishiga to'sqinlik qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi, indikator rangsizligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 1 tomchi fenolftalein quying.",
+    "Rux bo'lagini soling.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang; ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Rux suv bilan oddiy sharoitda reaksiyaga kirishmaydi: sirtidagi oksid-gidroksid parda himoya qiladi.",
+   "questions_uz": [
+    "Qaysi metallar suv bilan oddiy sharoitda reaksiyaga kirishadi?",
+    "Himoya oksid pardasi nima?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0010",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Alyuminiyning natriy gidroksid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter metallarning ishqorlar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "qirindi"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 2NaOH + 6H2O = 2Na[Al(OH)4] + 3H2↑",
+    "ionic_full": "2Al + 2Na⁺ + 2OH⁻ + 6H2O = 2Na⁺ + 2[Al(OH)4]⁻ + 3H2↑",
+    "ionic_net": "2Al + 2OH⁻ + 6H2O = 2[Al(OH)4]⁻ + 3H2↑",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqor alyuminiy sirtidagi amfoter oksid pardani eritadi.",
+     "Alyuminiy suvni qaytaradi: vodorod ajraladi, hosil bo'lgan amfoter gidroksid darhol ishqor bilan gidroksokompleks hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Alyuminiy ishqor eritmasida gaz (vodorod) ajratib eriydi; reaksiya biroz kechikib boshlanib, so'ng jadallashadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml natriy gidroksid eritmasidan quying.",
+    "Alyuminiy qirindisidan soling.",
+    "Gaz ajralishini kuzating, so'ng gazni yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Ishqor eritmasi terini va ko'zni kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorodni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Alyuminiy amfoter metall: u nafaqat kislotalar, balki ishqorlar bilan ham reaksiyaga kirishib vodorod ajratadi. Bunda kompleks tuz — natriy tetragidroksoalyuminat hosil bo'ladi. Shu sababli alyuminiy va rux idishlarda ishqoriy eritmalarni saqlab bo'lmaydi.",
+   "questions_uz": [
+    "Amfoter metallarga misollar keltiring.",
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Natriy tetragidroksoalyuminat qanday turdagi birikma?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0011",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Alyuminiyning kaliy gidroksid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter metallarning ishqorlar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "qirindi"
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 2KOH + 6H2O = 2K[Al(OH)4] + 3H2↑",
+    "ionic_full": "2Al + 2K⁺ + 2OH⁻ + 6H2O = 2K⁺ + 2[Al(OH)4]⁻ + 3H2↑",
+    "ionic_net": "2Al + 2OH⁻ + 6H2O = 2[Al(OH)4]⁻ + 3H2↑",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqor alyuminiy sirtidagi amfoter oksid pardani eritadi.",
+     "Alyuminiy suvni qaytaradi: vodorod ajraladi, hosil bo'lgan amfoter gidroksid darhol ishqor bilan gidroksokompleks hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Alyuminiy ishqor eritmasida gaz (vodorod) ajratib eriydi; reaksiya biroz kechikib boshlanib, so'ng jadallashadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml kaliy gidroksid eritmasidan quying.",
+    "Alyuminiy qirindisidan soling.",
+    "Gaz ajralishini kuzating, so'ng gazni yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Ishqor eritmasi terini va ko'zni kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorodni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Alyuminiy amfoter metall: u nafaqat kislotalar, balki ishqorlar bilan ham reaksiyaga kirishib vodorod ajratadi. Bunda kompleks tuz — kaliy tetragidroksoalyuminat hosil bo'ladi. Shu sababli alyuminiy va rux idishlarda ishqoriy eritmalarni saqlab bo'lmaydi.",
+   "questions_uz": [
+    "Amfoter metallarga misollar keltiring.",
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Kaliy tetragidroksoalyuminat qanday turdagi birikma?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0012",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Ruxning natriy gidroksid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter metallarning ishqorlar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "granula"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2NaOH + 2H2O = Na2[Zn(OH)4] + H2↑",
+    "ionic_full": "Zn + 2Na⁺ + 2OH⁻ + 2H2O = 2Na⁺ + [Zn(OH)4]²⁻ + H2↑",
+    "ionic_net": "Zn + 2OH⁻ + 2H2O = [Zn(OH)4]²⁻ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqor rux sirtidagi amfoter oksid pardani eritadi.",
+     "Rux suvni qaytaradi: vodorod ajraladi, hosil bo'lgan amfoter gidroksid darhol ishqor bilan gidroksokompleks hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rux ishqor eritmasida gaz (vodorod) ajratib eriydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml natriy gidroksid eritmasidan quying.",
+    "Rux granulasidan soling.",
+    "Gaz ajralishini kuzating, so'ng gazni yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Ishqor eritmasi terini va ko'zni kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorodni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Rux amfoter metall: u nafaqat kislotalar, balki ishqorlar bilan ham reaksiyaga kirishib vodorod ajratadi. Bunda kompleks tuz — natriy tetragidroksosinkat hosil bo'ladi. Shu sababli alyuminiy va rux idishlarda ishqoriy eritmalarni saqlab bo'lmaydi.",
+   "questions_uz": [
+    "Amfoter metallarga misollar keltiring.",
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Natriy tetragidroksosinkat qanday turdagi birikma?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0013",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Ruxning kaliy gidroksid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter metallarning ishqorlar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "granula"
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2KOH + 2H2O = K2[Zn(OH)4] + H2↑",
+    "ionic_full": "Zn + 2K⁺ + 2OH⁻ + 2H2O = 2K⁺ + [Zn(OH)4]²⁻ + H2↑",
+    "ionic_net": "Zn + 2OH⁻ + 2H2O = [Zn(OH)4]²⁻ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqor rux sirtidagi amfoter oksid pardani eritadi.",
+     "Rux suvni qaytaradi: vodorod ajraladi, hosil bo'lgan amfoter gidroksid darhol ishqor bilan gidroksokompleks hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rux ishqor eritmasida gaz (vodorod) ajratib eriydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml kaliy gidroksid eritmasidan quying.",
+    "Rux granulasidan soling.",
+    "Gaz ajralishini kuzating, so'ng gazni yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Ishqor eritmasi terini va ko'zni kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorodni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Rux amfoter metall: u nafaqat kislotalar, balki ishqorlar bilan ham reaksiyaga kirishib vodorod ajratadi. Bunda kompleks tuz — kaliy tetragidroksosinkat hosil bo'ladi. Shu sababli alyuminiy va rux idishlarda ishqoriy eritmalarni saqlab bo'lmaydi.",
+   "questions_uz": [
+    "Amfoter metallarga misollar keltiring.",
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Kaliy tetragidroksosinkat qanday turdagi birikma?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0014",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Qalayning natriy gidroksid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter metallarning ishqorlar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Sn",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "granula"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Qalay ishqor bilan qizdirilganda reaksiyaga kirishadi."
+   },
+   "equation": {
+    "molecular": "Sn + 2NaOH + 2H2O = Na2[Sn(OH)4] + H2↑",
+    "ionic_full": "Sn + 2Na⁺ + 2OH⁻ + 2H2O = 2Na⁺ + [Sn(OH)4]²⁻ + H2↑",
+    "ionic_net": "Sn + 2OH⁻ + 2H2O = [Sn(OH)4]²⁻ + H2↑",
+    "electron_balance": [
+     "Sn⁰ − 2e⁻ = Sn⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqor qalay sirtidagi amfoter oksid pardani eritadi.",
+     "Qalay suvni qaytaradi: vodorod ajraladi, hosil bo'lgan amfoter gidroksid darhol ishqor bilan gidroksokompleks hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qalay qizdirilganda ishqor eritmasida gaz (vodorod) ajratib eriydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "spirt-lampasi",
+    "probirka-qisqichi",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml natriy gidroksid eritmasidan quying.",
+    "Qalay granulasidan soling.",
+    "Probirkani ehtiyotkorlik bilan qizdiring.",
+    "Gaz ajralishini kuzating, so'ng gazni yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Ishqor eritmasi terini va ko'zni kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorodni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Qalay amfoter metall: u nafaqat kislotalar, balki ishqorlar bilan ham reaksiyaga kirishib vodorod ajratadi. Bunda kompleks tuz — natriy tetragidroksostannat hosil bo'ladi. Shu sababli alyuminiy va rux idishlarda ishqoriy eritmalarni saqlab bo'lmaydi.",
+   "questions_uz": [
+    "Amfoter metallarga misollar keltiring.",
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Natriy tetragidroksostannat qanday turdagi birikma?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metsuv-0015",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Magniyning ishqor eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter va amfoter bo'lmagan metallar",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "lenta"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Magniy gidroksidi asosli xossaga ega — ishqor bilan kompleks hosil qilmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Gaz ajralmaydi, metall o'zgarmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml natriy gidroksid eritmasidan quying.",
+    "Magniy bo'lagini soling.",
+    "Kuzating va natijani alyuminiy bilan solishtiring."
+   ],
+   "safety_uz": "Ishqor eritmasi bilan ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Magniy amfoter emas — uning gidroksidi asosli, shuning uchun magniy ishqor eritmalari bilan reaksiyaga kirishmaydi (Al va Zn dan farqli).",
+   "questions_uz": [
+    "Qaysi metallar ishqor eritmalaridan vodorod siqib chiqaradi?",
+    "Bu tajriba yordamida magniy va alyuminiyni qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0016",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Temirning ishqor eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter va amfoter bo'lmagan metallar",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "qirindi"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Temir gidroksidi asosli xossaga ega — ishqor bilan kompleks hosil qilmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Gaz ajralmaydi, metall o'zgarmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 4 ml natriy gidroksid eritmasidan quying.",
+    "Temir bo'lagini soling.",
+    "Kuzating va natijani alyuminiy bilan solishtiring."
+   ],
+   "safety_uz": "Ishqor eritmasi bilan ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Temir ishqorlarning suyultirilgan eritmalari bilan reaksiyaga kirishmaydi — u amfoter xossa namoyon qilmaydi.",
+   "questions_uz": [
+    "Qaysi metallar ishqor eritmalaridan vodorod siqib chiqaradi?",
+    "Bu tajriba yordamida magniy va alyuminiyni qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0017",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Natriyning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.03,
+     "form": "bo'lak"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Na + CuSO4 + 2H2O = Cu(OH)2↓ + Na2SO4 + H2↑",
+    "ionic_full": "2Na + Cu²⁺ + SO4²⁻ + 2H2O = Cu(OH)2↓ + 2Na⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "2Na + Cu²⁺ + 2H2O = Cu(OH)2↓ + 2Na⁺ + H2↑",
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Natriy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan mis(II) gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu(OH)2",
+     "color": "#4a9be0",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va ko'k mis(II) gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml mis(II) sulfat eritmasidan quying.",
+    "Pinset bilan natriyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Natriy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Natriy faollik qatorida misdan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, mis(II) gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0018",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Kaliyning temir(III) xlorid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K",
+     "state": "s",
+     "mass_g": 0.03,
+     "form": "bo'lak"
+    },
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "6K + 2FeCl3 + 6H2O = 2Fe(OH)3↓ + 6KCl + 3H2↑",
+    "ionic_full": "6K + 2Fe³⁺ + 6Cl⁻ + 6H2O = 2Fe(OH)3↓ + 6K⁺ + 6Cl⁻ + 3H2↑",
+    "ionic_net": "6K + 2Fe³⁺ + 6H2O = 2Fe(OH)3↓ + 6K⁺ + 3H2↑",
+    "electron_balance": [
+     "K⁰ − 1e⁻ = K⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kaliy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan temir(III) gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Fe(OH)3",
+     "color": "#9a4a1c",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va qizil-qo'ng'ir temir(III) gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml temir(III) xlorid eritmasidan quying.",
+    "Pinset bilan kaliyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Kaliy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Kaliy faollik qatorida temir(II) ionidan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, temir(III) gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0019",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Natriyning magniy xlorid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.03,
+     "form": "bo'lak"
+    },
+    {
+     "species": "MgCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Na + MgCl2 + 2H2O = Mg(OH)2↓ + 2NaCl + H2↑",
+    "ionic_full": "2Na + Mg²⁺ + 2Cl⁻ + 2H2O = Mg(OH)2↓ + 2Na⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "2Na + Mg²⁺ + 2H2O = Mg(OH)2↓ + 2Na⁺ + H2↑",
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Natriy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan magniy gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Mg(OH)2",
+     "color": "#f6f6f2",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va oq magniy gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml magniy xlorid eritmasidan quying.",
+    "Pinset bilan natriyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Natriy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Natriy faollik qatorida misdan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, magniy gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0020",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Litiyning nikel(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Li",
+     "state": "s",
+     "mass_g": 0.03,
+     "form": "bo'lak"
+    },
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Li + NiSO4 + 2H2O = Ni(OH)2↓ + Li2SO4 + H2↑",
+    "ionic_full": "2Li + Ni²⁺ + SO4²⁻ + 2H2O = Ni(OH)2↓ + 2Li⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "2Li + Ni²⁺ + 2H2O = Ni(OH)2↓ + 2Li⁺ + H2↑",
+    "electron_balance": [
+     "Li⁰ − 1e⁻ = Li⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Litiy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan nikel(II) gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ni(OH)2",
+     "color": "#7ec27a",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va och yashil nikel(II) gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml nikel(II) sulfat eritmasidan quying.",
+    "Pinset bilan litiyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Litiy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Litiy faollik qatorida nikeldan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, nikel(II) gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metsuv-0021",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Kalsiyning mis(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca",
+     "state": "s",
+     "mass_g": 0.04,
+     "form": "bo'lak"
+    },
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ca + CuCl2 + 2H2O = Cu(OH)2↓ + CaCl2 + H2↑",
+    "ionic_full": "Ca + Cu²⁺ + 2Cl⁻ + 2H2O = Cu(OH)2↓ + Ca²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Ca + Cu²⁺ + 2H2O = Cu(OH)2↓ + Ca²⁺ + H2↑",
+    "electron_balance": [
+     "Ca⁰ − 2e⁻ = Ca⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kalsiy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan mis(II) gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu(OH)2",
+     "color": "#4a9be0",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va ko'k mis(II) gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml mis(II) xlorid eritmasidan quying.",
+    "Pinset bilan kalsiyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Kalsiy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Kalsiy faollik qatorida misdan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, mis(II) gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metsuv-0022",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Natriyning rux sulfat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Faol metallarning tuz eritmalari bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.03,
+     "form": "bo'lak"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Na + ZnSO4 + 2H2O = Zn(OH)2↓ + Na2SO4 + H2↑",
+    "ionic_full": "2Na + Zn²⁺ + SO4²⁻ + 2H2O = Zn(OH)2↓ + 2Na⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "2Na + Zn²⁺ + 2H2O = Zn(OH)2↓ + 2Na⁺ + H2↑",
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺¹",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Natriy avval suv bilan reaksiyaga kirishadi: ishqor va vodorod hosil bo'ladi.",
+     "Hosil bo'lgan OH⁻ ionlari eritmadagi tuz kationlari bilan rux gidroksid cho'kmasini beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Zn(OH)2",
+     "color": "#f4f6f6",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz ajraladi va oq rux gidroksid cho'kmasi tushadi; metall ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml rux sulfat eritmasidan quying.",
+    "Pinset bilan natriyning kichik bo'lagini tashlang.",
+    "Gaz ajralishi va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Natriy juda faol — faqat kichik bo'lak, pinset bilan; ko'zoynak taqing.",
+   "explanation_uz": "Natriy faollik qatorida ruxdan oldin tursa ham, uni tuz eritmasidan siqib chiqarmaydi: u birinchi navbatda suv bilan reaksiyaga kirishadi. Hosil bo'lgan ishqor esa tuz bilan almashinib, rux gidroksid cho'kmasini beradi.",
+   "questions_uz": [
+    "Nima uchun ishqoriy metallar tuz eritmalaridan metallni siqib chiqara olmaydi?",
+    "Reaksiya bosqichlarining tenglamalarini alohida yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metsuv-0023",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Qizdirilgan temirning suv bug'i bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning suv bug'i bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2O",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 500,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Metall qizdirilgan naycha ichida bo'ladi, ustidan suv bug'i o'tkaziladi (harorat chegarasi taxminiy)."
+   },
+   "equation": {
+    "molecular": "3Fe + 4H2O = Fe3O4 + 4H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Fe⁰ − 3e⁻ = Fe⁺³",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yuqori haroratda temir suv bug'idagi vodorodni qaytaradi.",
+     "Temir oksidlanib Fe₃O₄ ga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Cho'g'langan temir qirindisi ustidan suv bug'i o'tkazilganda vodorod ajraladi, temir qora temir kuyindisiga (Fe₃O₄) aylanadi.",
+    "solid_color_change": {
+     "from": "#8a8d90",
+     "to": "#222220"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "bunzen-gorelkasi",
+    "gaz-naycha-egilgan",
+    "pnevmatik-vanna"
+   ],
+   "procedure_uz": [
+    "Qiyin eriydigan shishadan yasalgan probirkaning o'rta qismiga temir qirindisi joylashtiring, tubiga ho'llangan paxta (suv manbai) qo'ying.",
+    "Avval metallni kuchli qizdiring, so'ng paxtani ham qizdirib, bug' hosil qiling.",
+    "Ajralgan gazni suv ostida yig'ing va yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Issiq shisha va bug' kuydiradi; gaz chiqarish naychasini suvdan olib, keyin qizdirishni to'xtating (suv so'rilib ketmasligi uchun).",
+   "explanation_uz": "Temir oddiy sharoitda suv bilan deyarli reaksiyaga kirishmaydi, lekin yuqori haroratda suv bug'ini qaytarib, vodorod ajratadi. Bu usul tarixan vodorod olish uchun qo'llanilgan (temir-bug' usuli).",
+   "questions_uz": [
+    "Nima uchun reaksiya faqat yuqori haroratda boradi?",
+    "Ajralgan gazni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0024",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Qizdirilgan magniyning suv bug'i bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Metallarning suv bug'i bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Metall qizdirilgan naycha ichida bo'ladi, ustidan suv bug'i o'tkaziladi (harorat chegarasi taxminiy)."
+   },
+   "equation": {
+    "molecular": "Mg + H2O = MgO + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yuqori haroratda magniy suv bug'idagi vodorodni qaytaradi.",
+     "Magniy oksidlanib MgO ga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#f8f8ff",
+     "desc_uz": "ko'zni qamashtiruvchi oq alanga"
+    },
+    "effects": [
+     {
+      "type": "glow"
+     },
+     {
+      "type": "light"
+     }
+    ],
+    "text_uz": "Qizdirilgan magniy suv bug'ida yorqin yonadi, oq MgO hosil bo'ladi va vodorod ajraladi.",
+    "solid_color_change": null
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "bunzen-gorelkasi",
+    "gaz-naycha-egilgan",
+    "pnevmatik-vanna"
+   ],
+   "procedure_uz": [
+    "Qiyin eriydigan shishadan yasalgan probirkaning o'rta qismiga magniy kukuni joylashtiring, tubiga ho'llangan paxta (suv manbai) qo'ying.",
+    "Avval metallni kuchli qizdiring, so'ng paxtani ham qizdirib, bug' hosil qiling.",
+    "Ajralgan gazni suv ostida yig'ing va yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Issiq shisha va bug' kuydiradi; gaz chiqarish naychasini suvdan olib, keyin qizdirishni to'xtating (suv so'rilib ketmasligi uchun).",
+   "explanation_uz": "Magniy oddiy sharoitda suv bilan deyarli reaksiyaga kirishmaydi, lekin yuqori haroratda suv bug'ini qaytarib, vodorod ajratadi.",
+   "questions_uz": [
+    "Nima uchun reaksiya faqat yuqori haroratda boradi?",
+    "Ajralgan gazni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metsuv-0025",
+   "category": "metall-suv-ishqor",
+   "title_uz": "Qizdirilgan ruxning suv bug'i bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Metallarning suv bug'i bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 500,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Metall qizdirilgan naycha ichida bo'ladi, ustidan suv bug'i o'tkaziladi (harorat chegarasi taxminiy)."
+   },
+   "equation": {
+    "molecular": "Zn + H2O = ZnO + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yuqori haroratda rux suv bug'idagi vodorodni qaytaradi.",
+     "Rux oksidlanib ZnO ga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qizdirilgan rux suv bug'i bilan oksidga aylanadi va vodorod ajraladi.",
+    "solid_color_change": null
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "bunzen-gorelkasi",
+    "gaz-naycha-egilgan",
+    "pnevmatik-vanna"
+   ],
+   "procedure_uz": [
+    "Qiyin eriydigan shishadan yasalgan probirkaning o'rta qismiga rux kukuni joylashtiring, tubiga ho'llangan paxta (suv manbai) qo'ying.",
+    "Avval metallni kuchli qizdiring, so'ng paxtani ham qizdirib, bug' hosil qiling.",
+    "Ajralgan gazni suv ostida yig'ing va yonib turgan cho'p bilan sinang."
+   ],
+   "safety_uz": "Issiq shisha va bug' kuydiradi; gaz chiqarish naychasini suvdan olib, keyin qizdirishni to'xtating (suv so'rilib ketmasligi uchun).",
+   "explanation_uz": "Rux oddiy sharoitda suv bilan deyarli reaksiyaga kirishmaydi, lekin yuqori haroratda suv bug'ini qaytarib, vodorod ajratadi.",
+   "questions_uz": [
+    "Nima uchun reaksiya faqat yuqori haroratda boradi?",
+    "Ajralgan gazni qanday aniqlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  }
+ ]
+}

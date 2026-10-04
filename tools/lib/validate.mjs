@@ -99,7 +99,7 @@ export function validateReaction(db, r, ctx = {}) {
   // tenglamalar
   const eq = r.equation || {};
   const eqs = [];
-  if (!r.no_reaction && !r.flame_test && !r.equation_free) {
+  if (!r.no_reaction && !r.flame_test && !r.equation_free && !r.conductivity) {
     if (!eq.molecular) E("molekulyar tenglama yo'q");
   }
   if (r.no_reaction && r.engine === 'record') {
@@ -111,6 +111,9 @@ export function validateReaction(db, r, ctx = {}) {
     if (!ion || !ion.flame) E(`alanga sinovi ioni noto'g'ri: ${r.flame_test.ion}`);
     else if (r.observations?.flame?.color && r.observations.flame.color.toLowerCase() !== ion.flame.color.toLowerCase()) E('alanga rangi bazadagidan farq qiladi');
   }
+  if (r.expected_pH && !(typeof r.expected_pH.min === 'number' && typeof r.expected_pH.max === 'number')) E('expected_pH {min,max} bo\'lishi kerak');
+  if (r.galvanic && (typeof r.galvanic.emf_V !== 'number' || !db.metals.get(r.galvanic.anode) || !db.metals.get(r.galvanic.cathode))) E("galvanic: anode/cathode metall id va emf_V kerak");
+  if (r.conductivity && !['kuchli', 'kuchsiz', "yo'q"].includes(r.conductivity.expected)) E('conductivity.expected noto\'g\'ri');
   if (r.equation_free && (!r.equation_free_uz || r.equation_free_uz.length < 15)) E('equation_free uchun izoh (equation_free_uz) kerak');
   for (const key of ['molecular', 'ionic_full', 'ionic_net']) {
     if (!eq[key]) continue;
@@ -189,7 +192,8 @@ function sameIons(db, a, b) { return a === b; }
 export function signature(db, r) {
   const ids = (r.reactants || []).map((x) => `${db.keyOf(x.species)}:${x.state}${x.conc_min_M ? '>' + x.conc_min_M : ''}${x.conc_max_M ? '<' + x.conc_max_M : ''}`).sort();
   const c = r.conditions || {};
-  return `${r.category}|${ids.join('+')}|T${c.temp_min_C ?? (c.heating ? 'h' : '')}|${c.temp_max_C ?? ''}|${[].concat(c.catalyst || []).join(',')}|${c.medium || ''}|${c.light ? 'L' : ''}|${r.equation?.molecular || ''}`;
+  const extra = JSON.stringify([r.galvanic || null, r.electrolysis || null, c.anode || null, c.cathode || null, r.flame_test || null, r.conductivity || null]);
+  return `${r.category}|${extra}|${ids.join('+')}|T${c.temp_min_C ?? (c.heating ? 'h' : '')}|${c.temp_max_C ?? ''}|${[].concat(c.catalyst || []).join(',')}|${c.medium || ''}|${c.light ? 'L' : ''}|${r.equation?.molecular || ''}`;
 }
 
 /** Barcha yozuvlarni tekshirish */

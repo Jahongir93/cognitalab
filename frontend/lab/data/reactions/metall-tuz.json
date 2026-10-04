@@ -1,0 +1,4113 @@
+{
+ "category": "metall-tuz",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "mettuz-0001",
+   "category": "metall-tuz",
+   "title_uz": "Temirning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + CuSO4 = FeSO4 + Cu",
+    "ionic_full": "Fe + Cu²⁺ + SO4²⁻ = Fe²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Fe + Cu²⁺ = Fe²⁺ + Cu",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Temir faollik qatorida mis dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0002",
+   "category": "metall-tuz",
+   "title_uz": "Temirning mis(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + CuCl2 = FeCl2 + Cu",
+    "ionic_full": "Fe + Cu²⁺ + 2Cl⁻ = Fe²⁺ + 2Cl⁻ + Cu",
+    "ionic_net": "Fe + Cu²⁺ = Fe²⁺ + Cu",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) xlorid eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Temir faollik qatorida mis dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0003",
+   "category": "metall-tuz",
+   "title_uz": "Temirning mis(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "Cu(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + Cu(NO3)2 = Fe(NO3)2 + Cu",
+    "ionic_full": "Fe + Cu²⁺ + 2NO3⁻ = Fe²⁺ + 2NO3⁻ + Cu",
+    "ionic_net": "Fe + Cu²⁺ = Fe²⁺ + Cu",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) nitrat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Temir faollik qatorida mis dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0004",
+   "category": "metall-tuz",
+   "title_uz": "Temirning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + 2AgNO3 = Fe(NO3)2 + 2Ag",
+    "ionic_full": "Fe + 2Ag⁺ + 2NO3⁻ = Fe²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Fe + 2Ag⁺ = Fe²⁺ + 2Ag",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Temir faollik qatorida kumush dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0005",
+   "category": "metall-tuz",
+   "title_uz": "Temirning qo'rg'oshin(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + Pb(NO3)2 = Fe(NO3)2 + Pb",
+    "ionic_full": "Fe + Pb²⁺ + 2NO3⁻ = Fe²⁺ + 2NO3⁻ + Pb",
+    "ionic_net": "Fe + Pb²⁺ = Fe²⁺ + Pb",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Pb⁺² + 2e⁻ = Pb⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Pb²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Pb²⁺ ionlari metall sirtida elektron qabul qilib, qo'rg'oshin atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida qo'rg'oshin qatlami (kulrang yaltiroq tangachalar) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Temir faollik qatorida qo'rg'oshin dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Pb²⁺ ionlari esa elektron qabul qilib metall qo'rg'oshinga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0006",
+   "category": "metall-tuz",
+   "title_uz": "Temirning nikel(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + NiSO4 = FeSO4 + Ni",
+    "ionic_full": "Fe + Ni²⁺ + SO4²⁻ = Fe²⁺ + SO4²⁻ + Ni",
+    "ionic_net": "Fe + Ni²⁺ = Fe²⁺ + Ni",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Ni⁺² + 2e⁻ = Ni⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Ni²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Ni²⁺ ionlari metall sirtida elektron qabul qilib, nikel atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida nikel qatlami (kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang.",
+   "explanation_uz": "Temir faollik qatorida nikel dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Ni²⁺ ionlari esa elektron qabul qilib metall nikelga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0007",
+   "category": "metall-tuz",
+   "title_uz": "Temirning qalay(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "SnCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + SnCl2 = FeCl2 + Sn",
+    "ionic_full": "Fe + Sn²⁺ + 2Cl⁻ = Fe²⁺ + 2Cl⁻ + Sn",
+    "ionic_net": "Fe + Sn²⁺ = Fe²⁺ + Sn",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Sn⁺² + 2e⁻ = Sn⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Sn²⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Sn²⁺ ionlari metall sirtida elektron qabul qilib, qalay atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir sirtida qalay qatlami (kulrang ignasimon kristallar) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qalay(II) xlorid eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Temir faollik qatorida qalay dan oldin turadi: temir atomlari elektron berib Fe²⁺ ionlariga aylanadi, Sn²⁺ ionlari esa elektron qabul qilib metall qalayga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0008",
+   "category": "metall-tuz",
+   "title_uz": "Temirning temir(III) xlorid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + 2FeCl3 = 3FeCl2",
+    "ionic_full": "Fe + 2Fe³⁺ + 6Cl⁻ = 3Fe²⁺ + 6Cl⁻",
+    "ionic_net": "Fe + 2Fe³⁺ = 3Fe²⁺",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Fe⁺³ + 1e⁻ = Fe⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Fe³⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe³⁺ ionlari Fe²⁺ ga qaytariladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir eriydi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) xlorid eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Temir Fe³⁺ ionlarini Fe²⁺ gacha qaytaradi, o'zi ham Fe²⁺ ga oksidlanadi (komproporsiya). Shuning uchun temir(II) tuzlari eritmalarini saqlashda ichiga temir mix solib qo'yiladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0009",
+   "category": "metall-tuz",
+   "title_uz": "Temirning temir(III) sulfat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "mix"
+    },
+    {
+     "species": "Fe2(SO4)3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + Fe2(SO4)3 = 3FeSO4",
+    "ionic_full": "Fe + 2Fe³⁺ + 3SO4²⁻ = 3Fe²⁺ + 3SO4²⁻",
+    "ionic_net": "Fe + 2Fe³⁺ = 3Fe²⁺",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "Fe⁺³ + 1e⁻ = Fe⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — temir atomlari, oksidlovchi — Fe³⁺ ionlari.",
+     "Fe atomlari eritmaga Fe²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe³⁺ ionlari Fe²⁺ ga qaytariladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Temir eriydi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) sulfat eritmasidan quying.",
+    "Temir mixini qum qog'oz bilan tozalab, eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Temir Fe³⁺ ionlarini Fe²⁺ gacha qaytaradi, o'zi ham Fe²⁺ ga oksidlanadi (komproporsiya). Shuning uchun temir(II) tuzlari eritmalarini saqlashda ichiga temir mix solib qo'yiladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Temir o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0010",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + CuSO4 = ZnSO4 + Cu",
+    "ionic_full": "Zn + Cu²⁺ + SO4²⁻ = Zn²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Zn + Cu²⁺ = Zn²⁺ + Cu",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida mis dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0011",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning mis(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + CuCl2 = ZnCl2 + Cu",
+    "ionic_full": "Zn + Cu²⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + Cu",
+    "ionic_net": "Zn + Cu²⁺ = Zn²⁺ + Cu",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) xlorid eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida mis dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0012",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning mis(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "Cu(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + Cu(NO3)2 = Zn(NO3)2 + Cu",
+    "ionic_full": "Zn + Cu²⁺ + 2NO3⁻ = Zn²⁺ + 2NO3⁻ + Cu",
+    "ionic_net": "Zn + Cu²⁺ = Zn²⁺ + Cu",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) nitrat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida mis dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0013",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning qo'rg'oshin(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + Pb(NO3)2 = Zn(NO3)2 + Pb",
+    "ionic_full": "Zn + Pb²⁺ + 2NO3⁻ = Zn²⁺ + 2NO3⁻ + Pb",
+    "ionic_net": "Zn + Pb²⁺ = Zn²⁺ + Pb",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Pb⁺² + 2e⁻ = Pb⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Pb²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Pb²⁺ ionlari metall sirtida elektron qabul qilib, qo'rg'oshin atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Rux sirtida qo'rg'oshin qatlami (kulrang yaltiroq tangachalar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida qo'rg'oshin dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Pb²⁺ ionlari esa elektron qabul qilib metall qo'rg'oshinga qaytariladi. Ajralayotgan qo'rg'oshin kristallari plastinkada shoxlanib o'sadi — \"qo'rg'oshin daraxti\" hosil bo'ladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0014",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning qo'rg'oshin(II) atsetat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "(CH3COO)2Pb",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + (CH3COO)2Pb = (CH3COO)2Zn + Pb",
+    "ionic_full": "Zn + Pb²⁺ + 2CH3COO⁻ = Zn²⁺ + 2CH3COO⁻ + Pb",
+    "ionic_net": "Zn + Pb²⁺ = Zn²⁺ + Pb",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Pb⁺² + 2e⁻ = Pb⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Pb²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Pb²⁺ ionlari metall sirtida elektron qabul qilib, qo'rg'oshin atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Rux sirtida qo'rg'oshin qatlami (kulrang yaltiroq tangachalar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) atsetat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida qo'rg'oshin dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Pb²⁺ ionlari esa elektron qabul qilib metall qo'rg'oshinga qaytariladi. Ajralayotgan qo'rg'oshin kristallari plastinkada shoxlanib o'sadi — \"qo'rg'oshin daraxti\" hosil bo'ladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0015",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2AgNO3 = Zn(NO3)2 + 2Ag",
+    "ionic_full": "Zn + 2Ag⁺ + 2NO3⁻ = Zn²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Zn + 2Ag⁺ = Zn²⁺ + 2Ag",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Rux sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux faollik qatorida kumush dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0016",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning qalay(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "SnCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + SnCl2 = ZnCl2 + Sn",
+    "ionic_full": "Zn + Sn²⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + Sn",
+    "ionic_net": "Zn + Sn²⁺ = Zn²⁺ + Sn",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Sn⁺² + 2e⁻ = Sn⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Sn²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Sn²⁺ ionlari metall sirtida elektron qabul qilib, qalay atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Rux sirtida qalay qatlami (kulrang ignasimon kristallar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qalay(II) xlorid eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Rux faollik qatorida qalay dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Sn²⁺ ionlari esa elektron qabul qilib metall qalayga qaytariladi. Ajralayotgan qalay kristallari plastinkada shoxlanib o'sadi — \"qalay daraxti\" hosil bo'ladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0017",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning nikel(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + NiSO4 = ZnSO4 + Ni",
+    "ionic_full": "Zn + Ni²⁺ + SO4²⁻ = Zn²⁺ + SO4²⁻ + Ni",
+    "ionic_net": "Zn + Ni²⁺ = Zn²⁺ + Ni",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Ni⁺² + 2e⁻ = Ni⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Ni²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Ni²⁺ ionlari metall sirtida elektron qabul qilib, nikel atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida nikel qatlami (kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang.",
+   "explanation_uz": "Rux faollik qatorida nikel dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Ni²⁺ ionlari esa elektron qabul qilib metall nikelga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0018",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning temir(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + FeSO4 = ZnSO4 + Fe",
+    "ionic_full": "Zn + Fe²⁺ + SO4²⁻ = Zn²⁺ + SO4²⁻ + Fe",
+    "ionic_net": "Zn + Fe²⁺ = Zn²⁺ + Fe",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Fe⁺² + 2e⁻ = Fe⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Fe²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe²⁺ ionlari metall sirtida elektron qabul qilib, temir atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#c9e6b4",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida temir qatlami (qoramtir-kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(II) sulfat eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Rux faollik qatorida temir dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Fe²⁺ ionlari esa elektron qabul qilib metall temirga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0019",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning kobalt(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CoCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + CoCl2 = ZnCl2 + Co",
+    "ionic_full": "Zn + Co²⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + Co",
+    "ionic_net": "Zn + Co²⁺ = Zn²⁺ + Co",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Co⁺² + 2e⁻ = Co⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Co²⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Co²⁺ ionlari metall sirtida elektron qabul qilib, kobalt atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e78fae",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux sirtida kobalt qatlami (kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kobalt(II) xlorid eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang.",
+   "explanation_uz": "Rux faollik qatorida kobalt dan oldin turadi: rux atomlari elektron berib Zn²⁺ ionlariga aylanadi, Co²⁺ ionlari esa elektron qabul qilib metall kobaltga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0020",
+   "category": "metall-tuz",
+   "title_uz": "Ruxning temir(III) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2FeCl3 = ZnCl2 + 2FeCl2",
+    "ionic_full": "Zn + 2Fe³⁺ + 6Cl⁻ = Zn²⁺ + 6Cl⁻ + 2Fe²⁺",
+    "ionic_net": "Zn + 2Fe³⁺ = Zn²⁺ + 2Fe²⁺",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "Fe⁺³ + 1e⁻ = Fe⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — rux atomlari, oksidlovchi — Fe³⁺ ionlari.",
+     "Zn atomlari eritmaga Zn²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe³⁺ ionlari Fe²⁺ ga qaytariladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Rux eriydi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) xlorid eritmasidan quying.",
+    "Rux plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Rux Fe³⁺ ionlarini avval Fe²⁺ gacha qaytaradi; rux ortiqcha bo'lsa, keyinchalik metall temir ham ajralishi mumkin. Bu yerda birinchi bosqich ko'rsatilgan.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Rux o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "mettuz-0021",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + CuSO4 = MgSO4 + Cu",
+    "ionic_full": "Mg + Cu²⁺ + SO4²⁻ = Mg²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Mg + Cu²⁺ = Mg²⁺ + Cu",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Magniy sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida mis dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0022",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning rux sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + ZnSO4 = MgSO4 + Zn",
+    "ionic_full": "Mg + Zn²⁺ + SO4²⁻ = Mg²⁺ + SO4²⁻ + Zn",
+    "ionic_net": "Mg + Zn²⁺ = Mg²⁺ + Zn",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Zn⁺² + 2e⁻ = Zn⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Zn²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Zn²⁺ ionlari metall sirtida elektron qabul qilib, rux atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Magniy sirtida rux qatlami (kulrang) hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida rux dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Zn²⁺ ionlari esa elektron qabul qilib metall ruxga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0023",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning qo'rg'oshin(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + Pb(NO3)2 = Mg(NO3)2 + Pb",
+    "ionic_full": "Mg + Pb²⁺ + 2NO3⁻ = Mg²⁺ + 2NO3⁻ + Pb",
+    "ionic_net": "Mg + Pb²⁺ = Mg²⁺ + Pb",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Pb⁺² + 2e⁻ = Pb⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Pb²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Pb²⁺ ionlari metall sirtida elektron qabul qilib, qo'rg'oshin atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Magniy sirtida qo'rg'oshin qatlami (kulrang yaltiroq tangachalar) hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida qo'rg'oshin dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Pb²⁺ ionlari esa elektron qabul qilib metall qo'rg'oshinga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0024",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + 2AgNO3 = Mg(NO3)2 + 2Ag",
+    "ionic_full": "Mg + 2Ag⁺ + 2NO3⁻ = Mg²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Mg + 2Ag⁺ = Mg²⁺ + 2Ag",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Magniy sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida kumush dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0025",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning temir(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + FeSO4 = MgSO4 + Fe",
+    "ionic_full": "Mg + Fe²⁺ + SO4²⁻ = Mg²⁺ + SO4²⁻ + Fe",
+    "ionic_net": "Mg + Fe²⁺ = Mg²⁺ + Fe",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Fe⁺² + 2e⁻ = Fe⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Fe²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe²⁺ ionlari metall sirtida elektron qabul qilib, temir atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#c9e6b4",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Magniy sirtida temir qatlami (qoramtir-kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(II) sulfat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida temir dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Fe²⁺ ionlari esa elektron qabul qilib metall temirga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0026",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning nikel(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + NiSO4 = MgSO4 + Ni",
+    "ionic_full": "Mg + Ni²⁺ + SO4²⁻ = Mg²⁺ + SO4²⁻ + Ni",
+    "ionic_net": "Mg + Ni²⁺ = Mg²⁺ + Ni",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Ni⁺² + 2e⁻ = Ni⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Ni²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Ni²⁺ ionlari metall sirtida elektron qabul qilib, nikel atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Magniy sirtida nikel qatlami (kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida nikel dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Ni²⁺ ionlari esa elektron qabul qilib metall nikelga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0027",
+   "category": "metall-tuz",
+   "title_uz": "Magniyning mis(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "lenta"
+    },
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + CuCl2 = MgCl2 + Cu",
+    "ionic_full": "Mg + Cu²⁺ + 2Cl⁻ = Mg²⁺ + 2Cl⁻ + Cu",
+    "ionic_net": "Mg + Cu²⁺ = Mg²⁺ + Cu",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Mg atomlari eritmaga Mg²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Magniy sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) xlorid eritmasidan quying.",
+    "Magniy lentasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Magniy faollik qatorida mis dan oldin turadi: magniy atomlari elektron berib Mg²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Magniy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0028",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning mis(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3CuCl2 = 2AlCl3 + 3Cu",
+    "ionic_full": "2Al + 3Cu²⁺ + 6Cl⁻ = 2Al³⁺ + 6Cl⁻ + 3Cu",
+    "ionic_net": "2Al + 3Cu²⁺ = 2Al³⁺ + 3Cu",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) xlorid eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Alyuminiy faollik qatorida mis dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi. Xlorid ionlari alyuminiy sirtidagi oksid pardani buzadi, shuning uchun reaksiya tez boradi (sulfat eritmasida esa juda sekin).",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0029",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3CuSO4 = Al2(SO4)3 + 3Cu",
+    "ionic_full": "2Al + 3Cu²⁺ + 3SO4²⁻ = 2Al³⁺ + 3SO4²⁻ + 3Cu",
+    "ionic_net": "2Al + 3Cu²⁺ = 2Al³⁺ + 3Cu",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Alyuminiy faollik qatorida mis dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi. Alyuminiy sirtidagi zich oksid parda tufayli sulfat eritmasida reaksiya juda sekin boradi; eritmaga ozgina NaCl qo'shilsa, tezlashadi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0030",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Al + 3AgNO3 = Al(NO3)3 + 3Ag",
+    "ionic_full": "Al + 3Ag⁺ + 3NO3⁻ = Al³⁺ + 3NO3⁻ + 3Ag",
+    "ionic_net": "Al + 3Ag⁺ = Al³⁺ + 3Ag",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Alyuminiy faollik qatorida kumush dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0031",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning qo'rg'oshin(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3Pb(NO3)2 = 2Al(NO3)3 + 3Pb",
+    "ionic_full": "2Al + 3Pb²⁺ + 6NO3⁻ = 2Al³⁺ + 6NO3⁻ + 3Pb",
+    "ionic_net": "2Al + 3Pb²⁺ = 2Al³⁺ + 3Pb",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Pb⁺² + 2e⁻ = Pb⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Pb²⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Pb²⁺ ionlari metall sirtida elektron qabul qilib, qo'rg'oshin atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida qo'rg'oshin qatlami (kulrang yaltiroq tangachalar) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Alyuminiy faollik qatorida qo'rg'oshin dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Pb²⁺ ionlari esa elektron qabul qilib metall qo'rg'oshinga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0032",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning rux xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "ZnCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3ZnCl2 = 2AlCl3 + 3Zn",
+    "ionic_full": "2Al + 3Zn²⁺ + 6Cl⁻ = 2Al³⁺ + 6Cl⁻ + 3Zn",
+    "ionic_net": "2Al + 3Zn²⁺ = 2Al³⁺ + 3Zn",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Zn⁺² + 2e⁻ = Zn⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Zn²⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Zn²⁺ ionlari metall sirtida elektron qabul qilib, rux atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida rux qatlami (kulrang) hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux xlorid eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Alyuminiy faollik qatorida rux dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Zn²⁺ ionlari esa elektron qabul qilib metall ruxga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0033",
+   "category": "metall-tuz",
+   "title_uz": "Alyuminiyning temir(II) xlorid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "FeCl2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3FeCl2 = 2AlCl3 + 3Fe",
+    "ionic_full": "2Al + 3Fe²⁺ + 6Cl⁻ = 2Al³⁺ + 6Cl⁻ + 3Fe",
+    "ionic_net": "2Al + 3Fe²⁺ = 2Al³⁺ + 3Fe",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "Fe⁺² + 2e⁻ = Fe⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy atomlari, oksidlovchi — Fe²⁺ ionlari.",
+     "Al atomlari eritmaga Al³⁺ ionlari ko'rinishida o'tadi.",
+     "Fe²⁺ ionlari metall sirtida elektron qabul qilib, temir atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#c9e6b4",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Alyuminiy sirtida temir qatlami (qoramtir-kulrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(II) xlorid eritmasidan quying.",
+    "Alyuminiy plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Alyuminiy faollik qatorida temir dan oldin turadi: alyuminiy atomlari elektron berib Al³⁺ ionlariga aylanadi, Fe²⁺ ionlari esa elektron qabul qilib metall temirga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Alyuminiy o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "mettuz-0034",
+   "category": "metall-tuz",
+   "title_uz": "Misning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "sim"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu + 2AgNO3 = Cu(NO3)2 + 2Ag",
+    "ionic_full": "Cu + 2Ag⁺ + 2NO3⁻ = Cu²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Cu + 2Ag⁺ = Cu²⁺ + 2Ag",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — mis atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Cu atomlari eritmaga Cu²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Mis sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Mis simini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Mis faollik qatorida kumush dan oldin turadi: mis atomlari elektron berib Cu²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi. Mis sim atrofida yaltiroq kumush kristallari \"daraxt\" bo'lib o'sadi, eritma esa mis ionlaridan ko'karadi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Mis o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0035",
+   "category": "metall-tuz",
+   "title_uz": "Misning temir(III) xlorid eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "sim"
+    },
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu + 2FeCl3 = CuCl2 + 2FeCl2",
+    "ionic_full": "Cu + 2Fe³⁺ + 6Cl⁻ = Cu²⁺ + 6Cl⁻ + 2Fe²⁺",
+    "ionic_net": "Cu + 2Fe³⁺ = Cu²⁺ + 2Fe²⁺",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "Fe⁺³ + 1e⁻ = Fe⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — mis atomlari, oksidlovchi — Fe³⁺ ionlari.",
+     "Cu atomlari eritmaga Cu²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe³⁺ ionlari Fe²⁺ ga qaytariladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Mis eriydi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) xlorid eritmasidan quying.",
+    "Mis simini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Mis faollik qatorida temirdan keyin tursa ham, Fe³⁺ ioni kuchli oksidlovchi bo'lib, misni oksidlaydi va o'zi Fe²⁺ gacha qaytariladi (metall temir hosil bo'lmaydi). Bu reaksiya bosma platalarni \"kesish\" (travlenie)da qo'llaniladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Mis o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0036",
+   "category": "metall-tuz",
+   "title_uz": "Misning temir(III) sulfat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "sim"
+    },
+    {
+     "species": "Fe2(SO4)3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu + Fe2(SO4)3 = CuSO4 + 2FeSO4",
+    "ionic_full": "Cu + 2Fe³⁺ + 3SO4²⁻ = Cu²⁺ + 3SO4²⁻ + 2Fe²⁺",
+    "ionic_net": "Cu + 2Fe³⁺ = Cu²⁺ + 2Fe²⁺",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "Fe⁺³ + 1e⁻ = Fe⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — mis atomlari, oksidlovchi — Fe³⁺ ionlari.",
+     "Cu atomlari eritmaga Cu²⁺ ionlari ko'rinishida o'tadi.",
+     "Fe³⁺ ionlari Fe²⁺ ga qaytariladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Mis eriydi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) sulfat eritmasidan quying.",
+    "Mis simini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Mis faollik qatorida temirdan keyin tursa ham, Fe³⁺ ioni kuchli oksidlovchi bo'lib, misni oksidlaydi va o'zi Fe²⁺ gacha qaytariladi (metall temir hosil bo'lmaydi). Bu reaksiya bosma platalarni \"kesish\" (travlenie)da qo'llaniladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Mis o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0037",
+   "category": "metall-tuz",
+   "title_uz": "Misning simob(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "sim"
+    },
+    {
+     "species": "Hg(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu + Hg(NO3)2 = Cu(NO3)2 + Hg",
+    "ionic_full": "Cu + Hg²⁺ + 2NO3⁻ = Cu²⁺ + 2NO3⁻ + Hg",
+    "ionic_net": "Cu + Hg²⁺ = Cu²⁺ + Hg",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "Hg⁺² + 2e⁻ = Hg⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — mis atomlari, oksidlovchi — Hg²⁺ ionlari.",
+     "Cu atomlari eritmaga Cu²⁺ ionlari ko'rinishida o'tadi.",
+     "Hg²⁺ ionlari metall sirtida elektron qabul qilib, simob atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Mis sirtida simob qatlami (kumushrang) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml simob(II) nitrat eritmasidan quying.",
+    "Mis simini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Mis faollik qatorida simob dan oldin turadi: mis atomlari elektron berib Cu²⁺ ionlariga aylanadi, Hg²⁺ ionlari esa elektron qabul qilib metall simobga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Mis o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "mettuz-0038",
+   "category": "metall-tuz",
+   "title_uz": "Nikelning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ni",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ni + CuSO4 = NiSO4 + Cu",
+    "ionic_full": "Ni + Cu²⁺ + SO4²⁻ = Ni²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Ni + Cu²⁺ = Ni²⁺ + Cu",
+    "electron_balance": [
+     "Ni⁰ − 2e⁻ = Ni⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — nikel atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Ni atomlari eritmaga Ni²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#62b872"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Nikel sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Nikel plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Nikel faollik qatorida mis dan oldin turadi: nikel atomlari elektron berib Ni²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Nikel o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0039",
+   "category": "metall-tuz",
+   "title_uz": "Nikelning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ni",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "plastinka"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ni + 2AgNO3 = Ni(NO3)2 + 2Ag",
+    "ionic_full": "Ni + 2Ag⁺ + 2NO3⁻ = Ni²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Ni + 2Ag⁺ = Ni²⁺ + 2Ag",
+    "electron_balance": [
+     "Ni⁰ − 2e⁻ = Ni⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — nikel atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Ni atomlari eritmaga Ni²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#62b872"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Nikel sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Nikel plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Nikel faollik qatorida kumush dan oldin turadi: nikel atomlari elektron berib Ni²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Nikel o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0040",
+   "category": "metall-tuz",
+   "title_uz": "Qalayning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Sn",
+     "state": "s",
+     "mass_g": 0.089,
+     "form": "granula"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Sn + CuSO4 = SnSO4 + Cu",
+    "ionic_full": "Sn + Cu²⁺ + SO4²⁻ = Sn²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Sn + Cu²⁺ = Sn²⁺ + Cu",
+    "electron_balance": [
+     "Sn⁰ − 2e⁻ = Sn⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — qalay atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Sn atomlari eritmaga Sn²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Qalay sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Qalay granulasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Qalay faollik qatorida mis dan oldin turadi: qalay atomlari elektron berib Sn²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Qalay o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "mettuz-0041",
+   "category": "metall-tuz",
+   "title_uz": "Qo'rg'oshinning mis(II) nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.155,
+     "form": "plastinka"
+    },
+    {
+     "species": "Cu(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Pb + Cu(NO3)2 = Pb(NO3)2 + Cu",
+    "ionic_full": "Pb + Cu²⁺ + 2NO3⁻ = Pb²⁺ + 2NO3⁻ + Cu",
+    "ionic_net": "Pb + Cu²⁺ = Pb²⁺ + Cu",
+    "electron_balance": [
+     "Pb⁰ − 2e⁻ = Pb⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — qo'rg'oshin atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Pb atomlari eritmaga Pb²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Qo'rg'oshin sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) nitrat eritmasidan quying.",
+    "Qo'rg'oshin plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Qo'rg'oshin faollik qatorida mis dan oldin turadi: qo'rg'oshin atomlari elektron berib Pb²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Qo'rg'oshin o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0042",
+   "category": "metall-tuz",
+   "title_uz": "Qo'rg'oshinning kumush nitrat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.078,
+     "form": "plastinka"
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Pb + 2AgNO3 = Pb(NO3)2 + 2Ag",
+    "ionic_full": "Pb + 2Ag⁺ + 2NO3⁻ = Pb²⁺ + 2NO3⁻ + 2Ag",
+    "ionic_net": "Pb + 2Ag⁺ = Pb²⁺ + 2Ag",
+    "electron_balance": [
+     "Pb⁰ − 2e⁻ = Pb⁺²",
+     "Ag⁺¹ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — qo'rg'oshin atomlari, oksidlovchi — Ag⁺ ionlari.",
+     "Pb atomlari eritmaga Pb²⁺ ionlari ko'rinishida o'tadi.",
+     "Ag⁺ ionlari metall sirtida elektron qabul qilib, kumush atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Qo'rg'oshin sirtida kumush qatlami (kumushrang-kulrang kristallar) hosil bo'ladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasidan quying.",
+    "Qo'rg'oshin plastinkasini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Qo'rg'oshin faollik qatorida kumush dan oldin turadi: qo'rg'oshin atomlari elektron berib Pb²⁺ ionlariga aylanadi, Ag⁺ ionlari esa elektron qabul qilib metall kumushga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Qo'rg'oshin o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0043",
+   "category": "metall-tuz",
+   "title_uz": "Marganesning mis(II) sulfat eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning tuz eritmalari bilan reaksiyasi (faollik qatori)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mn",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mn + CuSO4 = MnSO4 + Cu",
+    "ionic_full": "Mn + Cu²⁺ + SO4²⁻ = Mn²⁺ + SO4²⁻ + Cu",
+    "ionic_net": "Mn + Cu²⁺ = Mn²⁺ + Cu",
+    "electron_balance": [
+     "Mn⁰ − 2e⁻ = Mn⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qaytaruvchi — marganes atomlari, oksidlovchi — Cu²⁺ ionlari.",
+     "Mn atomlari eritmaga Mn²⁺ ionlari ko'rinishida o'tadi.",
+     "Cu²⁺ ionlari metall sirtida elektron qabul qilib, mis atomlari ko'rinishida o'tiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#f6dfe4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Marganes sirtida mis qatlami (qizg'ish) hosil bo'ladi, eritma rangi o'zgaradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasidan quying.",
+    "Marganes kukunini eritmaga tushiring.",
+    "Bir necha daqiqadan so'ng metall sirti va eritma rangini kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Marganes faollik qatorida mis dan oldin turadi: marganes atomlari elektron berib Mn²⁺ ionlariga aylanadi, Cu²⁺ ionlari esa elektron qabul qilib metall misga qaytariladi.",
+   "questions_uz": [
+    "Elektron balans tuzing: oksidlovchi va qaytaruvchini ko'rsating.",
+    "Marganes o'rniga qanday metallarni olish mumkin, qaysilarini olib bo'lmaydi?",
+    "Nima uchun natriy kabi ishqoriy metallar tuz eritmasidan metallni siqib chiqarmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "mettuz-0044",
+   "category": "metall-tuz",
+   "title_uz": "Misning rux sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Mis faollik qatorida ruxdan keyin turadi.",
+     "Cu atomlari Zn²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml rux sulfat eritmasidan quying.",
+    "Unga mis simini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Mis ruxdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "rux tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0045",
+   "category": "metall-tuz",
+   "title_uz": "Misning temir(II) sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Mis faollik qatorida temirdan keyin turadi.",
+     "Cu atomlari Fe²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml temir(II) sulfat eritmasidan quying.",
+    "Unga mis simini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Mis temirdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "temir tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0046",
+   "category": "metall-tuz",
+   "title_uz": "Kumushning mis(II) sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kumush faollik qatorida misdan keyin turadi.",
+     "Ag atomlari Cu²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml mis(II) sulfat eritmasidan quying.",
+    "Unga kumush simini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Kumush misdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "mis tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0047",
+   "category": "metall-tuz",
+   "title_uz": "Temirning rux sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "mix"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Temir faollik qatorida ruxdan keyin turadi.",
+     "Fe atomlari Zn²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml rux sulfat eritmasidan quying.",
+    "Unga temir mixini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Temir ruxdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "rux tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0048",
+   "category": "metall-tuz",
+   "title_uz": "Qo'rg'oshinning rux sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "plastinka"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qo'rg'oshin faollik qatorida ruxdan keyin turadi.",
+     "Pb atomlari Zn²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml rux sulfat eritmasidan quying.",
+    "Unga qo'rg'oshin plastinkasini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Qo'rg'oshin ruxdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "rux tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0049",
+   "category": "metall-tuz",
+   "title_uz": "Misning qo'rg'oshin(II) nitrat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Mis faollik qatorida qo'rg'oshindan keyin turadi.",
+     "Cu atomlari Pb²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml qo'rg'oshin(II) nitrat eritmasidan quying.",
+    "Unga mis simini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Mis qo'rg'oshindan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "qo'rg'oshin tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "mettuz-0050",
+   "category": "metall-tuz",
+   "title_uz": "Qalayning rux sulfat eritmasi bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "rules",
+   "no_reaction": true,
+   "reactants": [
+    {
+     "species": "Sn",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "granula"
+    },
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qalay faollik qatorida ruxdan keyin turadi.",
+     "Sn atomlari Zn²⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml rux sulfat eritmasidan quying.",
+    "Unga qalay granulasini tushiring.",
+    "10–15 daqiqa davomida kuzating."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Har bir metall faollik qatorida o'zidan keyin turgan metallarnigina ularning tuzlari eritmasidan siqib chiqaradi. Qalay ruxdan keyin turgani uchun reaksiya bormaydi.",
+   "questions_uz": [
+    "Faollik qatori yordamida reaksiya borish-bormasligini qanday aniqlaysiz?",
+    "rux tuzidan metallni siqib chiqarish uchun qaysi metallni olish kerak?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

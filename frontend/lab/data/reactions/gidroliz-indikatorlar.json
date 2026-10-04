@@ -1,0 +1,2548 @@
+{
+ "category": "gidroliz-indikatorlar",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "gidroliz-0001",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy karbonat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 11,
+    "max": 12.2
+   },
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + H2O ⇄ NaHCO3 + NaOH",
+    "ionic_full": "2Na⁺ + CO3²⁻ + H2O ⇄ Na⁺ + HCO3⁻ + Na⁺ + OH⁻",
+    "ionic_net": "CO3²⁻ + H2O ⇄ HCO3⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "CO₃²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#4d2f91"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator binafsha rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy karbonat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy karbonat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — CO₃²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy karbonat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0002",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Kaliy karbonat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 11,
+    "max": 12.2
+   },
+   "reactants": [
+    {
+     "species": "K2CO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2CO3 + H2O ⇄ KHCO3 + KOH",
+    "ionic_full": "2K⁺ + CO3²⁻ + H2O ⇄ K⁺ + HCO3⁻ + K⁺ + OH⁻",
+    "ionic_net": "CO3²⁻ + H2O ⇄ HCO3⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "CO₃²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#4d2f91"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator binafsha rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml kaliy karbonat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Kaliy karbonat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — CO₃²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Kaliy karbonat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0003",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy gidrokarbonat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 7.8,
+    "max": 8.8
+   },
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + H2O ⇄ H2CO3 + NaOH",
+    "ionic_full": "Na⁺ + HCO3⁻ + H2O ⇄ H2CO3 + Na⁺ + OH⁻",
+    "ionic_net": "HCO3⁻ + H2O ⇄ H2CO3 + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "HCO₃⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#2e7fb8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator ko'k-yashil rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidrokarbonat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy gidrokarbonat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — HCO₃⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi. HCO₃⁻ ionining dissotsilanishi gidrolizidan kuchsizroq, shuning uchun muhit kuchsiz ishqoriy.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy gidrokarbonat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0004",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy sulfid eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 12,
+    "max": 13.5
+   },
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + H2O ⇄ NaHS + NaOH",
+    "ionic_full": "2Na⁺ + S²⁻ + H2O ⇄ Na⁺ + HS⁻ + Na⁺ + OH⁻",
+    "ionic_net": "S²⁻ + H2O ⇄ HS⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "S²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#4d2f91"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator binafsha rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy sulfid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Natriy sulfid kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — S²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy sulfid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0005",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy fosfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 12,
+    "max": 13
+   },
+   "reactants": [
+    {
+     "species": "Na3PO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na3PO4 + H2O ⇄ Na2HPO4 + NaOH",
+    "ionic_full": "3Na⁺ + PO4³⁻ + H2O ⇄ 2Na⁺ + HPO4²⁻ + Na⁺ + OH⁻",
+    "ionic_net": "PO4³⁻ + H2O ⇄ HPO4²⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "PO₄³⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#4d2f91"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator binafsha rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy fosfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy fosfat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — PO₄³⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy fosfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0006",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy gidrofosfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 9,
+    "max": 10.2
+   },
+   "reactants": [
+    {
+     "species": "Na2HPO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2HPO4 + H2O ⇄ NaH2PO4 + NaOH",
+    "ionic_full": "2Na⁺ + HPO4²⁻ + H2O ⇄ Na⁺ + H2PO4⁻ + Na⁺ + OH⁻",
+    "ionic_net": "HPO4²⁻ + H2O ⇄ H2PO4⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "HPO₄²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#3349a8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator ko'k rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidrofosfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy gidrofosfat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — HPO₄²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi. HPO₄²⁻ ionining dissotsilanishi gidrolizidan kuchsizroq, shuning uchun muhit kuchsiz ishqoriy.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy gidrofosfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0007",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy digidrofosfat — nordon tuz eritmasining muhiti",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 4,
+    "max": 5.2
+   },
+   "reactants": [
+    {
+     "species": "NaH2PO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaH2PO4 ⇄ Na⁺ + H⁺ + HPO4²⁻",
+    "ionic_full": null,
+    "ionic_net": "H2PO4⁻ ⇄ H⁺ + HPO4²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Nordon tuz anioni tarkibida almashinadigan vodorod bor.",
+     "Anion H⁺ ajratadi — muhit kislotali bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy digidrofosfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy digidrofosfat eritmasida H₂PO₄⁻ ionining dissotsilanishi (H⁺ ajralishi) uning gidrolizidan kuchli, shuning uchun muhit kuchsiz kislotali.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy digidrofosfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0008",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy atsetat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 8.4,
+    "max": 9.3
+   },
+   "reactants": [
+    {
+     "species": "CH3COONa",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CH3COONa + H2O ⇄ CH3COOH + NaOH",
+    "ionic_full": "CH3COO⁻ + Na⁺ + H2O ⇄ CH3COOH + Na⁺ + OH⁻",
+    "ionic_net": "CH3COO⁻ + H2O ⇄ CH3COOH + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "CH₃COO⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#2e7fb8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator ko'k-yashil rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy atsetat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy atsetat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — CH₃COO⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy atsetat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0009",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy silikat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 11.3,
+    "max": 13
+   },
+   "reactants": [
+    {
+     "species": "Na2SiO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SiO3 + 2H2O ⇄ H2SiO3 + 2NaOH",
+    "ionic_full": null,
+    "ionic_net": "SiO3²⁻ + H2O ⇄ HSiO3⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "SiO₃²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#4d2f91"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator binafsha rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy silikat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Natriy silikat kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — SiO₃²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy silikat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gidroliz-0010",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy sulfit eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 9.5,
+    "max": 10.6
+   },
+   "reactants": [
+    {
+     "species": "Na2SO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SO3 + H2O ⇄ NaHSO3 + NaOH",
+    "ionic_full": "2Na⁺ + SO3²⁻ + H2O ⇄ Na⁺ + HSO3⁻ + Na⁺ + OH⁻",
+    "ionic_net": "SO3²⁻ + H2O ⇄ HSO3⁻ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "SO₃²⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#3349a8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator ko'k rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy sulfit eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy sulfit kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — SO₃²⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy sulfit eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0011",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy ftorid eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 7.8,
+    "max": 8.5
+   },
+   "reactants": [
+    {
+     "species": "NaF",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaF + H2O ⇄ HF + NaOH",
+    "ionic_full": "Na⁺ + F⁻ + H2O ⇄ HF + Na⁺ + OH⁻",
+    "ionic_net": "F⁻ + H2O ⇄ HF + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "F⁻ ioni suv molekulasidan H⁺ ni biriktiradi (proton ko'chishi).",
+     "Eritmada OH⁻ ionlari to'planadi — muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#2e7fb8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator ko'k-yashil rangga kiradi — muhit ishqoriy."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy ftorid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Natriy ftorid kuchli asos va kuchsiz kislotadan hosil bo'lgan tuz. Kuchsiz kislota qoldig'i — F⁻ ioni suv molekulasidan proton tortib oladi, eritmada OH⁻ ionlari ortiqcha bo'lib qoladi — muhit ishqoriy. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy ftorid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gidroliz-0012",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Ammoniy xlorid eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 4.7,
+    "max": 5.6
+   },
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NH4Cl + H2O ⇄ NH3·H2O + HCl",
+    "ionic_full": "NH4⁺ + Cl⁻ + H2O ⇄ NH3·H2O + H⁺ + Cl⁻",
+    "ionic_net": "NH4⁺ + H2O ⇄ NH3·H2O + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "NH₄⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml ammoniy xlorid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy xlorid kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. NH₄⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Ammoniy xlorid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0013",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Ammoniy sulfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 4.6,
+    "max": 5.5
+   },
+   "reactants": [
+    {
+     "species": "(NH4)2SO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "(NH4)2SO4 + 2H2O ⇄ 2NH3·H2O + H2SO4",
+    "ionic_full": "2NH4⁺ + SO4²⁻ + 2H2O ⇄ 2NH3·H2O + 2H⁺ + SO4²⁻",
+    "ionic_net": "NH4⁺ + H2O ⇄ NH3·H2O + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "NH₄⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml ammoniy sulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy sulfat kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. NH₄⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Ammoniy sulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0014",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Ammoniy nitrat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 4.7,
+    "max": 5.6
+   },
+   "reactants": [
+    {
+     "species": "NH4NO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NH4NO3 + H2O ⇄ NH3·H2O + HNO3",
+    "ionic_full": "NH4⁺ + NO3⁻ + H2O ⇄ NH3·H2O + H⁺ + NO3⁻",
+    "ionic_net": "NH4⁺ + H2O ⇄ NH3·H2O + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "NH₄⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml ammoniy nitrat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Ammoniy nitrat kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. NH₄⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Ammoniy nitrat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0015",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Alyuminiy xlorid eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 2.5,
+    "max": 3.6
+   },
+   "reactants": [
+    {
+     "species": "AlCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "AlCl3 + H2O ⇄ AlOHCl2 + HCl",
+    "ionic_full": "Al³⁺ + 3Cl⁻ + H2O ⇄ AlOH²⁺ + 2Cl⁻ + H⁺ + Cl⁻",
+    "ionic_net": "Al³⁺ + H2O ⇄ AlOH²⁺ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "Al³⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml alyuminiy xlorid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Alyuminiy xlorid kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. Al³⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Alyuminiy xlorid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0016",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Alyuminiy sulfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 2.4,
+    "max": 3.6
+   },
+   "reactants": [
+    {
+     "species": "Al2(SO4)3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Al2(SO4)3 + 2H2O ⇄ 2AlOHSO4 + H2SO4",
+    "ionic_full": "2Al³⁺ + 3SO4²⁻ + 2H2O ⇄ 2AlOH²⁺ + 2SO4²⁻ + 2H⁺ + SO4²⁻",
+    "ionic_net": "Al³⁺ + H2O ⇄ AlOH²⁺ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "Al³⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml alyuminiy sulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Alyuminiy sulfat kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. Al³⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Alyuminiy sulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gidroliz-0017",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Rux sulfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 4.5,
+    "max": 5.6
+   },
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2ZnSO4 + 2H2O ⇄ (ZnOH)2SO4 + H2SO4",
+    "ionic_full": "2Zn²⁺ + 2SO4²⁻ + 2H2O ⇄ 2ZnOH⁺ + SO4²⁻ + 2H⁺ + SO4²⁻",
+    "ionic_net": "Zn²⁺ + H2O ⇄ ZnOH⁺ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "Zn²⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml rux sulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Rux sulfat kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. Zn²⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Rux sulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "gidroliz-0018",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Mis(II) sulfat eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 3.7,
+    "max": 4.8
+   },
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2CuSO4 + 2H2O ⇄ (CuOH)2SO4 + H2SO4",
+    "ionic_full": "2Cu²⁺ + 2SO4²⁻ + 2H2O ⇄ 2CuOH⁺ + SO4²⁻ + 2H⁺ + SO4²⁻",
+    "ionic_net": "Cu²⁺ + H2O ⇄ CuOH⁺ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "Cu²⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#f39a1d"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator to'q sariq rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml mis(II) sulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Mis(II) sulfat kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. Cu²⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Mis(II) sulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0019",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Temir(III) xlorid eritmasining gidrolizi (muhitni indikator bilan aniqlash)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 1.5,
+    "max": 2.4
+   },
+   "reactants": [
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeCl3 + H2O ⇄ FeOHCl2 + HCl",
+    "ionic_full": "Fe³⁺ + 3Cl⁻ + H2O ⇄ FeOH²⁺ + 2Cl⁻ + H⁺ + Cl⁻",
+    "ionic_net": "Fe³⁺ + H2O ⇄ FeOH²⁺ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz eritmada ionlarga to'liq dissotsilanadi.",
+     "Fe³⁺ kationi suv molekulasidan OH⁻ ni biriktiradi (gidrokso-kation hosil bo'ladi).",
+     "Ajralgan H⁺ ionlari muhitni kislotali qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#e63a1f"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator qizil rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml temir(III) xlorid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Temir(III) xlorid kuchsiz asos va kuchli kislotadan hosil bo'lgan tuz. Fe³⁺ kationi suv molekulalarini qutblab, ulardan OH⁻ guruhini biriktiradi, eritmada H⁺ ionlari ortiqcha qoladi — muhit kislotali. Gidroliz qaytar va asosan birinchi bosqichda boradi.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Temir(III) xlorid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0020",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Ammoniy atsetat eritmasining gidrolizi (kation va anion bo'yicha)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 6.5,
+    "max": 7.5
+   },
+   "reactants": [
+    {
+     "species": "CH3COONH4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CH3COONH4 + H2O ⇄ CH3COOH + NH3·H2O",
+    "ionic_full": "CH3COO⁻ + NH4⁺ + H2O ⇄ CH3COOH + NH3·H2O",
+    "ionic_net": "CH3COO⁻ + NH4⁺ + H2O ⇄ CH3COOH + NH3·H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "NH₄⁺ ioni protonni beradi, CH₃COO⁻ ioni protonni oladi.",
+     "Hosil bo'lgan H⁺ va OH⁻ bir-birini neytrallaydi — gidroliz chuqurroq boradi, muhit esa neytralga yaqin qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#7cc23a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator yashil rangga kiradi — muhit neytral."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml ammoniy atsetat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy atsetat kuchsiz asos va kuchsiz kislotadan hosil bo'lgan: ham kation, ham anion gidrolizlanadi. Sirka kislota va ammiakning kuchi deyarli bir xil bo'lgani uchun muhit neytralga yaqin.",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Ammoniy atsetat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0021",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy gidrosulfat — nordon tuz eritmasining muhiti",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": true,
+   "expected_pH": {
+    "min": 1,
+    "max": 1.8
+   },
+   "reactants": [
+    {
+     "species": "NaHSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHSO4 = Na⁺ + H⁺ + SO4²⁻",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Nordon tuz anioni tarkibida almashinadigan vodorod bor.",
+     "Anion H⁺ ajratadi — muhit kislotali bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#e63a1f"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator qizil rangga kiradi — muhit kislotali."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidrosulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Natriy gidrosulfat kuchli kislotaning nordon tuzi: eritmada HSO₄⁻ ioni deyarli to'liq dissotsilanib H⁺ ionlarini hosil qiladi, shuning uchun eritma kuchli kislotali (gidroliz emas, dissotsilanish).",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy gidrosulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0022",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy xlorid eritmasining muhiti (gidrolizlanmaydigan tuz)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": false,
+   "expected_pH": {
+    "min": 6.5,
+    "max": 7.5
+   },
+   "equation_free": true,
+   "equation_free_uz": "Natriy xlorid gidrolizlanmaydi — eritmada faqat dissotsilanish ro'y beradi, shuning uchun gidroliz tenglamasi yozilmaydi.",
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz ionlarga dissotsilanadi.",
+     "Na⁺/K⁺ va kuchli kislota anionlari suv bilan kuchsiz elektrolit hosil qilmaydi — H⁺ va OH⁻ muvozanati o'zgarmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#7cc23a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator yashil rangga kiradi — muhit neytral."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy xlorid eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy xlorid kuchli asos va kuchli kislotadan hosil bo'lgan: uning ionlari suv bilan kuchsiz elektrolit hosil qilmaydi, shuning uchun gidroliz bormaydi va eritma neytral (pH ≈ 7).",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy xlorid eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0023",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Kaliy nitrat eritmasining muhiti (gidrolizlanmaydigan tuz)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": false,
+   "expected_pH": {
+    "min": 6.5,
+    "max": 7.5
+   },
+   "equation_free": true,
+   "equation_free_uz": "Kaliy nitrat gidrolizlanmaydi — eritmada faqat dissotsilanish ro'y beradi, shuning uchun gidroliz tenglamasi yozilmaydi.",
+   "reactants": [
+    {
+     "species": "KNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz ionlarga dissotsilanadi.",
+     "Na⁺/K⁺ va kuchli kislota anionlari suv bilan kuchsiz elektrolit hosil qilmaydi — H⁺ va OH⁻ muvozanati o'zgarmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#7cc23a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator yashil rangga kiradi — muhit neytral."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml kaliy nitrat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Kaliy nitrat kuchli asos va kuchli kislotadan hosil bo'lgan: uning ionlari suv bilan kuchsiz elektrolit hosil qilmaydi, shuning uchun gidroliz bormaydi va eritma neytral (pH ≈ 7).",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Kaliy nitrat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0024",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Natriy sulfat eritmasining muhiti (gidrolizlanmaydigan tuz)",
+   "level": "9-sinf",
+   "topic_uz": "Tuzlarning gidrolizi",
+   "engine": "rules",
+   "equilibrium": false,
+   "expected_pH": {
+    "min": 6.5,
+    "max": 7.8
+   },
+   "equation_free": true,
+   "equation_free_uz": "Natriy sulfat gidrolizlanmaydi — eritmada faqat dissotsilanish ro'y beradi, shuning uchun gidroliz tenglamasi yozilmaydi.",
+   "reactants": [
+    {
+     "species": "Na2SO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Tuz ionlarga dissotsilanadi.",
+     "Na⁺/K⁺ va kuchli kislota anionlari suv bilan kuchsiz elektrolit hosil qilmaydi — H⁺ va OH⁻ muvozanati o'zgarmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#7cc23a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Universal indikator yashil rangga kiradi — muhit neytral."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy sulfat eritmasidan (0,1 M) quying.",
+    "1–2 tomchi universal indikator qo'shing (yoki shisha tayoqcha bilan eritmani indikator qog'oziga tomizing).",
+    "Rangni shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Reaktivlarni tatib ko'rmang, probirkani og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Natriy sulfat kuchli asos va kuchli kislotadan hosil bo'lgan: uning ionlari suv bilan kuchsiz elektrolit hosil qilmaydi, shuning uchun gidroliz bormaydi va eritma neytral (pH ≈ 7).",
+   "questions_uz": [
+    "Tuz gidrolizining qisqartirilgan ionli tenglamasini yozing.",
+    "Natriy sulfat eritmasining muhiti qanday va nima uchun?",
+    "Gidrolizni kuchaytirish yoki susaytirish uchun nima qilish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0025",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Lakmusning kislotali muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 0,
+    "max": 2
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "lakmus",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d42a3a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma qizil rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml xlorid kislota eritmasidan quying.",
+    "1–2 tomchi lakmus qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Lakmus kislotali muhitda qizil, neytral muhitda binafsha, ishqoriy muhitda ko'k rangda bo'ladi.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Lakmus qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0026",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Lakmusning ishqoriy muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 12,
+    "max": 14
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "lakmus",
+     "state": "aq",
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#3a55c7"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma ko'k rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidroksid eritmasidan quying.",
+    "1–2 tomchi lakmus qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Lakmus ishqoriy muhitda ko'karadi.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Lakmus qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0027",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Metiloranjning kislotali muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 0,
+    "max": 2
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#e0312b"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma qizil (pushti-qizil) rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml xlorid kislota eritmasidan quying.",
+    "1–2 tomchi metiloranj qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Metiloranj pH < 3,1 da qizil, pH > 4,4 da sariq.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Metiloranj qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0028",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Metiloranjning ishqoriy muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 12,
+    "max": 14
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f2c21b"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma sariq rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidroksid eritmasidan quying.",
+    "1–2 tomchi metiloranj qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Metiloranj ishqoriy muhitda sariq rangda.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Metiloranj qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0029",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Fenolftaleinning ishqoriy muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 12,
+    "max": 14
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma to'q pushti (malina rang) rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidroksid eritmasidan quying.",
+    "1–2 tomchi fenolftalein qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Fenolftalein kislotali va neytral muhitda rangsiz, pH > 8,2 da pushti-malina rangga kiradi.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Fenolftalein qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "gidroliz-0030",
+   "category": "gidroliz-indikatorlar",
+   "title_uz": "Bromtimol ko'kining ishqoriy muhitdagi rangi",
+   "level": "8-sinf",
+   "topic_uz": "Indikatorlar",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 12,
+    "max": 14
+   },
+   "equation_free": true,
+   "equation_free_uz": "Indikator — kuchsiz organik kislota yoki asos; uning molekulyar va ion shakllari turli rangga ega. Muhitga qarab muvozanat siljiydi va rang o'zgaradi.",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "C27H28Br2O5S",
+     "state": "aq",
+     "conc_M": 0.0016,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Indikator molekulasi muhitdagi H⁺ yoki OH⁻ ionlari bilan protonlanadi yoki protonsizlanadi.",
+     "Ikki shakl yorug'likni turlicha yutadi — rang o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#2a5fc0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma ko'k rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy gidroksid eritmasidan quying.",
+    "1–2 tomchi bromtimol ko'ki qo'shing.",
+    "Rangni kuzating va jadvalga yozing."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Bromtimol ko'ki kislotali muhitda sariq, neytralda yashil, ishqoriyda ko'k.",
+   "questions_uz": [
+    "Indikatorlar nima uchun rangini o'zgartiradi?",
+    "Bromtimol ko'ki qaysi pH oralig'ida rangini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

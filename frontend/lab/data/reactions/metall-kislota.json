@@ -1,5 +1,6 @@
 {
  "category": "metall-kislota",
+ "generated_by": "tools/seed/reactions",
  "reactions": [
   {
    "id": "metkis-0001",
@@ -9,19 +10,3698 @@
    "topic_uz": "Metallarning faollik qatori",
    "engine": "record",
    "no_reaction": true,
-   "match": ["Cu", "H⁺"],
-   "reactants": [{"species": "Cu", "state": "s", "mass_g": 0.5, "form": "sim", "conc_max_M": null}, {"species": "H2SO4", "state": "aq", "conc_M": 1, "volume_mL": 3, "conc_max_M": 10}],
-   "conditions": {"heating": false, "temp_min_C": null, "catalyst": null, "medium": null, "light": false, "note_uz": null},
-   "equation": {"molecular": null, "ionic_full": null, "ionic_net": null, "electron_balance": null},
-   "mechanism": {"type": "o'rin-olish", "steps_uz": ["Mis faollik qatorida vodoroddan keyin turadi (E° = +0,34 V).", "Shuning uchun Cu atomi H⁺ ionlariga elektron bera olmaydi."], "organic": null},
-   "observations": {"precipitate": null, "gas": null, "solution_color_change": null, "heat": "sezilarsiz", "flame": null, "effects": [], "text_uz": "Hech qanday o'zgarish kuzatilmaydi."},
+   "match": [
+    "Cu",
+    "H⁺"
+   ],
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "sim",
+     "conc_max_M": null
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Mis faollik qatorida vodoroddan keyin turadi (E° = +0,34 V).",
+     "Shuning uchun Cu atomi H⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
    "kinetics": "bir-zumda",
-   "apparatus": ["probirka"],
-   "procedure_uz": ["Probirkaga mis sim bo'lagini soling.", "Ustiga 3 ml suyultirilgan sulfat kislota quying.", "Bir necha daqiqa kuzating."],
+   "apparatus": [
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Probirkaga mis sim bo'lagini soling.",
+    "Ustiga 3 ml suyultirilgan sulfat kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
    "safety_uz": "Sulfat kislota terini kuydiradi; ko'zoynak va qo'lqopdan foydalaning.",
    "explanation_uz": "Mis faollik qatorida vodoroddan keyin turadi, shuning uchun suyultirilgan (oksidlovchi bo'lmagan) kislotalardan vodorodni siqib chiqara olmaydi. Konsentrlangan sulfat kislota bilan qizdirilganda esa mis reaksiyaga kirishadi, lekin vodorod emas, SO₂ ajraladi.",
-   "questions_uz": ["Qaysi metallar suyultirilgan kislotalardan vodorodni siqib chiqaradi?", "Mis qanday sharoitda sulfat kislota bilan reaksiyaga kirishadi?"],
+   "questions_uz": [
+    "Qaysi metallar suyultirilgan kislotalardan vodorodni siqib chiqaradi?",
+    "Mis qanday sharoitda sulfat kislota bilan reaksiyaga kirishadi?"
+   ],
    "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0002",
+   "category": "metall-kislota",
+   "title_uz": "Magniyning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.049,
+     "form": "lenta"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + 2HCl = MgCl2 + H2↑",
+    "ionic_full": "Mg + 2H⁺ + 2Cl⁻ = Mg²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Mg + 2H⁺ = Mg²⁺ + H2↑",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Magniy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Mg atomlari elektron berib Mg²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan magniy lentasidan bir bo'lak soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Magniy faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va magniy xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Magniy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0003",
+   "category": "metall-kislota",
+   "title_uz": "Magniyning sulfat kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.049,
+     "form": "lenta"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + H2SO4 = MgSO4 + H2↑",
+    "ionic_full": "Mg + 2H⁺ + SO4²⁻ = Mg²⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "Mg + 2H⁺ = Mg²⁺ + H2↑",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Magniy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Mg atomlari elektron berib Mg²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sulfat kislota eritmasidan quying.",
+    "Pinset bilan magniy lentasidan bir bo'lak soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Magniy faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va magniy sulfat hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Magniy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0004",
+   "category": "metall-kislota",
+   "title_uz": "Magniyning sirka kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.049,
+     "form": "lenta"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg + 2CH3COOH = (CH3COO)2Mg + H2↑",
+    "ionic_full": "Mg + 2CH3COOH = Mg²⁺ + 2CH3COO⁻ + H2↑",
+    "ionic_net": "Mg + 2CH3COOH = Mg²⁺ + 2CH3COO⁻ + H2↑",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Magniy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Mg atomlari elektron berib Mg²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sirka kislota eritmasidan quying.",
+    "Pinset bilan magniy lentasidan bir bo'lak soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Magniy faollik qatorida vodoroddan oldin turgani uchun kuchsiz kislotadan vodorodni siqib chiqaradi va magniy atsetat hosil bo'ladi. Kuchsiz kislota eritmasida H⁺ ionlari kam, shuning uchun reaksiya sekinroq boradi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Magniy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0005",
+   "category": "metall-kislota",
+   "title_uz": "Temirning sirka kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.112,
+     "form": "qirindi"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + 2CH3COOH = (CH3COO)2Fe + H2↑",
+    "ionic_full": "Fe + 2CH3COOH = Fe²⁺ + 2CH3COO⁻ + H2↑",
+    "ionic_net": "Fe + 2CH3COOH = Fe²⁺ + 2CH3COO⁻ + H2↑",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Temir faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Fe atomlari elektron berib Fe²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi, eritma och yashil tusga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sirka kislota eritmasidan quying.",
+    "Pinset bilan temir qirindi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Temir faollik qatorida vodoroddan oldin turgani uchun kuchsiz kislotadan vodorodni siqib chiqaradi va temir(II) atsetat hosil bo'ladi. Temir bunda +2 oksidlanish darajasini namoyon qiladi (FeCl₃ emas, FeCl₂ hosil bo'ladi). Kuchsiz kislota eritmasida H⁺ ionlari kam, shuning uchun reaksiya sekinroq boradi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Temir o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0006",
+   "category": "metall-kislota",
+   "title_uz": "Kalsiyning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca",
+     "state": "s",
+     "mass_g": 0.08,
+     "form": "bo'lak"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ca + 2HCl = CaCl2 + H2↑",
+    "ionic_full": "Ca + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Ca + 2H⁺ = Ca²⁺ + H2↑",
+    "electron_balance": [
+     "Ca⁰ − 2e⁻ = Ca⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kalsiy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Ca atomlari elektron berib Ca²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan kalsiy bo'lak soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Kalsiy faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va kalsiy xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Kalsiy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0007",
+   "category": "metall-kislota",
+   "title_uz": "Alyuminiyning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.054,
+     "form": "qirindi"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 6HCl = 2AlCl3 + 3H2↑",
+    "ionic_full": "2Al + 6H⁺ + 6Cl⁻ = 2Al³⁺ + 6Cl⁻ + 3H2↑",
+    "ionic_net": "2Al + 6H⁺ = 2Al³⁺ + 3H2↑",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Alyuminiy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Al atomlari elektron berib Al³⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi. Avvaliga reaksiya sust boradi — oksid parda eriguncha."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan alyuminiy qirindi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Alyuminiy faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va alyuminiy xlorid hosil bo'ladi. Alyuminiy sirtidagi zich oksid parda reaksiyani boshida sekinlashtiradi; xlorid ionlari pardani buzadi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Alyuminiy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0008",
+   "category": "metall-kislota",
+   "title_uz": "Alyuminiyning sulfat kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.054,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al + 3H2SO4 = Al2(SO4)3 + 3H2↑",
+    "ionic_full": "2Al + 6H⁺ + 3SO4²⁻ = 2Al³⁺ + 3SO4²⁻ + 3H2↑",
+    "ionic_net": "2Al + 6H⁺ = 2Al³⁺ + 3H2↑",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Alyuminiy faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Al atomlari elektron berib Al³⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi. Avvaliga reaksiya sust boradi — oksid parda eriguncha."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml sulfat kislota eritmasidan quying.",
+    "Pinset bilan alyuminiy qirindi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Alyuminiy faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va alyuminiy sulfat hosil bo'ladi. Alyuminiy sirtidagi zich oksid parda reaksiyani boshida sekinlashtiradi; xlorid ionlari pardani buzadi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Alyuminiy o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0009",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.131,
+     "form": "granula"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2HCl = ZnCl2 + H2↑",
+    "ionic_full": "Zn + 2H⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Zn + 2H⁺ = Zn²⁺ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Rux faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Zn atomlari elektron berib Zn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan rux granulasi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Rux faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va rux xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Rux o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0010",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning sulfat kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.131,
+     "form": "granula"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + H2SO4 = ZnSO4 + H2↑",
+    "ionic_full": "Zn + 2H⁺ + SO4²⁻ = Zn²⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "Zn + 2H⁺ = Zn²⁺ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Rux faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Zn atomlari elektron berib Zn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sulfat kislota eritmasidan quying.",
+    "Pinset bilan rux granulasi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Rux faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va rux sulfat hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Rux o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0011",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning sirka kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.131,
+     "form": "granula"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2CH3COOH = (CH3COO)2Zn + H2↑",
+    "ionic_full": "Zn + 2CH3COOH = Zn²⁺ + 2CH3COO⁻ + H2↑",
+    "ionic_net": "Zn + 2CH3COOH = Zn²⁺ + 2CH3COO⁻ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Rux faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Zn atomlari elektron berib Zn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sirka kislota eritmasidan quying.",
+    "Pinset bilan rux granulasi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Rux faollik qatorida vodoroddan oldin turgani uchun kuchsiz kislotadan vodorodni siqib chiqaradi va rux atsetat hosil bo'ladi. Kuchsiz kislota eritmasida H⁺ ionlari kam, shuning uchun reaksiya sekinroq boradi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Rux o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0012",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning bromid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.131,
+     "form": "granula"
+    },
+    {
+     "species": "HBr",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 2HBr = ZnBr2 + H2↑",
+    "ionic_full": "Zn + 2H⁺ + 2Br⁻ = Zn²⁺ + 2Br⁻ + H2↑",
+    "ionic_net": "Zn + 2H⁺ = Zn²⁺ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Rux faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Zn atomlari elektron berib Zn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml bromid kislota eritmasidan quying.",
+    "Pinset bilan rux granulasi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Rux faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va rux bromid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Rux o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0013",
+   "category": "metall-kislota",
+   "title_uz": "Temirning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.112,
+     "form": "qirindi"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + 2HCl = FeCl2 + H2↑",
+    "ionic_full": "Fe + 2H⁺ + 2Cl⁻ = Fe²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Fe + 2H⁺ = Fe²⁺ + H2↑",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Temir faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Fe atomlari elektron berib Fe²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi, eritma och yashil tusga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan temir qirindi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Temir faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va temir(II) xlorid hosil bo'ladi. Temir bunda +2 oksidlanish darajasini namoyon qiladi (FeCl₃ emas, FeCl₂ hosil bo'ladi).",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Temir o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0014",
+   "category": "metall-kislota",
+   "title_uz": "Temirning sulfat kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.112,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + H2SO4 = FeSO4 + H2↑",
+    "ionic_full": "Fe + 2H⁺ + SO4²⁻ = Fe²⁺ + SO4²⁻ + H2↑",
+    "ionic_net": "Fe + 2H⁺ = Fe²⁺ + H2↑",
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Temir faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Fe atomlari elektron berib Fe²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi, eritma och yashil tusga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml sulfat kislota eritmasidan quying.",
+    "Pinset bilan temir qirindi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Temir faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va temir(II) sulfat hosil bo'ladi. Temir bunda +2 oksidlanish darajasini namoyon qiladi (FeCl₃ emas, FeCl₂ hosil bo'ladi).",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Temir o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0015",
+   "category": "metall-kislota",
+   "title_uz": "Marganesning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Mn",
+     "state": "s",
+     "mass_g": 0.11,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mn + 2HCl = MnCl2 + H2↑",
+    "ionic_full": "Mn + 2H⁺ + 2Cl⁻ = Mn²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Mn + 2H⁺ = Mn²⁺ + H2↑",
+    "electron_balance": [
+     "Mn⁰ − 2e⁻ = Mn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Marganes faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Mn atomlari elektron berib Mn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f6dfe4"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi, eritma deyarli rangsiz tusga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan marganes kukunidan ozroq soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Marganes faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va marganes(II) xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Marganes o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0016",
+   "category": "metall-kislota",
+   "title_uz": "Nikelning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ni",
+     "state": "s",
+     "mass_g": 0.117,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya sekin boradi; ozgina qizdirilganda tezlashadi."
+   },
+   "equation": {
+    "molecular": "Ni + 2HCl = NiCl2 + H2↑",
+    "ionic_full": "Ni + 2H⁺ + 2Cl⁻ = Ni²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Ni + 2H⁺ = Ni²⁺ + H2↑",
+    "electron_balance": [
+     "Ni⁰ − 2e⁻ = Ni⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Nikel faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Ni atomlari elektron berib Ni²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#62b872"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi, eritma yashil tusga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan nikel kukunidan ozroq soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Nikel faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va nikel(II) xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Nikel o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0017",
+   "category": "metall-kislota",
+   "title_uz": "Qalayning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning kislotalar bilan reaksiyasi; faollik qatori",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Sn",
+     "state": "s",
+     "mass_g": 0.237,
+     "form": "granula"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya sekin boradi; ozgina qizdirilganda tezlashadi."
+   },
+   "equation": {
+    "molecular": "Sn + 2HCl = SnCl2 + H2↑",
+    "ionic_full": "Sn + 2H⁺ + 2Cl⁻ = Sn²⁺ + 2Cl⁻ + H2↑",
+    "ionic_net": "Sn + 2H⁺ = Sn²⁺ + H2↑",
+    "electron_balance": [
+     "Sn⁰ − 2e⁻ = Sn⁺²",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qalay faollik qatorida vodoroddan oldin turadi — u H⁺ ionlariga elektron bera oladi.",
+     "Sn atomlari elektron berib Sn²⁺ ionlariga aylanadi (oksidlanadi).",
+     "H⁺ ionlari elektron qabul qilib H₂ molekulalarini hosil qiladi (qaytariladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Metall sirtida rangsiz gaz (vodorod) pufakchalari ajraladi, metall asta eriydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xlorid kislota eritmasidan quying.",
+    "Pinset bilan qalay granulasi soling.",
+    "Gaz ajralishini kuzating.",
+    "Probirka og'ziga yonib turgan cho'pni yaqinlashtiring — vodorod \"paq\" etgan tovush bilan yonadi."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Vodorod havo bilan portlovchi aralashma hosil qiladi — gazni yondirishdan oldin oz miqdorda ekaniga ishonch hosil qiling.",
+   "explanation_uz": "Qalay faollik qatorida vodoroddan oldin turgani uchun suyultirilgan kislotadan vodorodni siqib chiqaradi va qalay(II) xlorid hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.",
+    "Qalay o'rniga mis olinsa, reaksiya boradimi? Nima uchun?",
+    "Vodorodni qanday aniqlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0018",
+   "category": "metall-kislota",
+   "title_uz": "Misning xlorid kislota bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Cu",
+    "H⁺"
+   ],
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "sim"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "conc_max_M": 6
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Mis faollik qatorida vodoroddan keyin turadi (E° > 0).",
+     "Cu atomlari H⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga mis simini soling.",
+    "Ustiga 3 ml xlorid kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Mis faollik qatorida vodoroddan keyin turadi, shuning uchun xlorid kislotadan vodorodni siqib chiqara olmaydi.",
+   "questions_uz": [
+    "Metallarning faollik qatori nimani ko'rsatadi?",
+    "Mis qanday kislotalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0019",
+   "category": "metall-kislota",
+   "title_uz": "Kumushning xlorid kislota bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Ag",
+    "H⁺"
+   ],
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "sim"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "conc_max_M": 6
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kumush faollik qatorida vodoroddan keyin turadi (E° > 0).",
+     "Ag atomlari H⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga kumush simini soling.",
+    "Ustiga 3 ml xlorid kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kumush faollik qatorida vodoroddan ancha keyin turadi — xlorid kislota bilan reaksiyaga kirishmaydi.",
+   "questions_uz": [
+    "Metallarning faollik qatori nimani ko'rsatadi?",
+    "Kumush qanday kislotalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0020",
+   "category": "metall-kislota",
+   "title_uz": "Kumushning sulfat kislota bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Ag",
+    "H⁺"
+   ],
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "sim"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Kumush faollik qatorida vodoroddan keyin turadi (E° > 0).",
+     "Ag atomlari H⁺ ionlariga elektron bera olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga kumush simini soling.",
+    "Ustiga 3 ml sulfat kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kumush vodoroddan keyin turadi; suyultirilgan sulfat kislota oksidlovchi xossaga ega emas, shuning uchun reaksiya ketmaydi.",
+   "questions_uz": [
+    "Metallarning faollik qatori nimani ko'rsatadi?",
+    "Kumush qanday kislotalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0021",
+   "category": "metall-kislota",
+   "title_uz": "Qo'rg'oshinning xlorid kislota bilan reaksiyaga deyarli kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Pb",
+    "H⁺",
+    "Cl⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "plastinka"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "conc_max_M": 6
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qo'rg'oshin H⁺ ionlari bilan reaksiyani boshlaydi.",
+     "Hosil bo'lgan tuz suvda kam eriydi va metall sirtini qoplaydi.",
+     "Parda kislotaning metallga kirishiga to'sqinlik qiladi — reaksiya to'xtaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Bir necha pufakcha paydo bo'lib, reaksiya tez to'xtaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga qo'rg'oshin plastinkaini soling.",
+    "Ustiga 3 ml xlorid kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Qo'rg'oshin vodoroddan oldin tursa ham, uning sirtida suvda kam eriydigan PbCl₂ pardasi hosil bo'lib, reaksiyani deyarli darhol to'xtatadi.",
+   "questions_uz": [
+    "Metallarning faollik qatori nimani ko'rsatadi?",
+    "Qo'rg'oshin qanday kislotalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0022",
+   "category": "metall-kislota",
+   "title_uz": "Qo'rg'oshinning sulfat kislota bilan reaksiyaga deyarli kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Pb",
+    "H⁺",
+    "HSO4⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "plastinka"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Qo'rg'oshin H⁺ ionlari bilan reaksiyani boshlaydi.",
+     "Hosil bo'lgan tuz suvda kam eriydi va metall sirtini qoplaydi.",
+     "Parda kislotaning metallga kirishiga to'sqinlik qiladi — reaksiya to'xtaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Bir necha pufakcha paydo bo'lib, reaksiya tez to'xtaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga qo'rg'oshin plastinkaini soling.",
+    "Ustiga 3 ml sulfat kislota quying.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Qo'rg'oshin sirtida erimaydigan PbSO₄ pardasi hosil bo'ladi va metallni kislotadan himoya qiladi — reaksiya amalda bormaydi (shuning uchun akkumulyatorlarda qo'rg'oshin ishlatiladi).",
+   "questions_uz": [
+    "Metallarning faollik qatori nimani ko'rsatadi?",
+    "Qo'rg'oshin qanday kislotalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0023",
+   "category": "metall-kislota",
+   "title_uz": "Misning konsentrlangan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.064,
+     "form": "sim"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 0.5,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu + 4HNO3 = Cu(NO3)2 + 2NO2↑ + 2H2O",
+    "ionic_full": "Cu + 4H⁺ + 4NO3⁻ = Cu²⁺ + 2NO3⁻ + 2NO2↑ + 2H2O",
+    "ionic_net": "Cu + 4H⁺ + 2NO3⁻ = Cu²⁺ + 2NO2↑ + 2H2O",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "N⁺⁵ + 1e⁻ = N⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — mis (Cu⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Cu⁰ − 2e⁻ = Cu⁺²; N⁺⁵ + 1e⁻ = N⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#3aa88a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Mis tez eriydi, qo'ng'ir gaz (NO₂, \"tulki dumi\") ajraladi, eritma ko'k-yashil tusga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga mis simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Konsentrlangan nitrat kislotada oksidlovchi — NO₃⁻ ioni (N⁺⁵); u vodoroddan keyin turgan misni ham oksidlaydi. Konsentrlangan kislota asosan NO₂ gacha qaytariladi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0024",
+   "category": "metall-kislota",
+   "title_uz": "Misning suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.064,
+     "form": "sim"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 6,
+     "volume_mL": 0.5,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3Cu + 8HNO3 = 3Cu(NO3)2 + 2NO↑ + 4H2O",
+    "ionic_full": "3Cu + 8H⁺ + 8NO3⁻ = 3Cu²⁺ + 6NO3⁻ + 2NO↑ + 4H2O",
+    "ionic_net": "3Cu + 8H⁺ + 2NO3⁻ = 3Cu²⁺ + 2NO↑ + 4H2O",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — mis (Cu⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Cu⁰ − 2e⁻ = Cu⁺²; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Rangsiz gaz (NO) ajraladi, u probirka og'zida havo kislorodi bilan qo'ng'ir NO₂ ga aylanadi; eritma ko'karadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga mis simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml suyultirilgan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Suyultirilgan nitrat kislota misni oksidlaydi, o'zi esa asosan NO gacha qaytariladi. Vodorod ajralmaydi, chunki oksidlovchi H⁺ emas, NO₃⁻ ioni.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0025",
+   "category": "metall-kislota",
+   "title_uz": "Kumushning konsentrlangan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.108,
+     "form": "sim"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 0.5,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ag + 2HNO3 = AgNO3 + NO2↑ + H2O",
+    "ionic_full": "Ag + 2H⁺ + 2NO3⁻ = Ag⁺ + NO3⁻ + NO2↑ + H2O",
+    "ionic_net": "Ag + 2H⁺ + NO3⁻ = Ag⁺ + NO2↑ + H2O",
+    "electron_balance": [
+     "Ag⁰ − 1e⁻ = Ag⁺¹",
+     "N⁺⁵ + 1e⁻ = N⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — kumush (Ag⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Ag⁰ − 1e⁻ = Ag⁺¹; N⁺⁵ + 1e⁻ = N⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Kumush eriydi, qo'ng'ir NO₂ gazi ajraladi; eritma rangsiz."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga kumush simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Konsentrlangan nitrat kislota kumushni ham eritadi (oltin va platina erimaydi). Kumush nitrat eritmasi rangsiz.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0026",
+   "category": "metall-kislota",
+   "title_uz": "Kumushning suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.108,
+     "form": "sim"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 6,
+     "volume_mL": 0.5,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "3Ag + 4HNO3 = 3AgNO3 + NO↑ + 2H2O",
+    "ionic_full": "3Ag + 4H⁺ + 4NO3⁻ = 3Ag⁺ + 3NO3⁻ + NO↑ + 2H2O",
+    "ionic_net": "3Ag + 4H⁺ + NO3⁻ = 3Ag⁺ + NO↑ + 2H2O",
+    "electron_balance": [
+     "Ag⁰ − 1e⁻ = Ag⁺¹",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — kumush (Ag⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Ag⁰ − 1e⁻ = Ag⁺¹; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qizdirilganda kumush asta eriydi, rangsiz gaz ajraladi (havoda qo'ng'irlashadi)."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga kumush simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml suyultirilgan nitrat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Suyultirilgan nitrat kislota kumushni sekin, qizdirilganda tezroq eritadi va NO gacha qaytariladi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0027",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning konsentrlangan nitrat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.065,
+     "form": "granula"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 0.5,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn + 4HNO3 = Zn(NO3)2 + 2NO2↑ + 2H2O",
+    "ionic_full": "Zn + 4H⁺ + 4NO3⁻ = Zn²⁺ + 2NO3⁻ + 2NO2↑ + 2H2O",
+    "ionic_net": "Zn + 4H⁺ + 2NO3⁻ = Zn²⁺ + 2NO2↑ + 2H2O",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "N⁺⁵ + 1e⁻ = N⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — rux (Zn⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Zn⁰ − 2e⁻ = Zn⁺²; N⁺⁵ + 1e⁻ = N⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Rux jadal eriydi, qo'ng'ir gaz ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga rux granulasi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Konsentrlangan nitrat kislota faol metallar bilan ham asosan NO₂ beradi; vodorod ajralmaydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0028",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning konsentrlangan nitrat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.065,
+     "form": "granula"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 0.7,
+     "conc_min_M": 2.5,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3Zn + 8HNO3 = 3Zn(NO3)2 + 2NO↑ + 4H2O",
+    "ionic_full": "3Zn + 8H⁺ + 8NO3⁻ = 3Zn²⁺ + 6NO3⁻ + 2NO↑ + 4H2O",
+    "ionic_net": "3Zn + 8H⁺ + 2NO3⁻ = 3Zn²⁺ + 2NO↑ + 4H2O",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — rux (Zn⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Zn⁰ − 2e⁻ = Zn⁺²; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Rangsiz gaz ajraladi, probirka og'zida qo'ng'irlashadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga rux granulasi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,7 ml konsentrlangan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Nitrat kislotaning qaytarilish mahsuloti konsentratsiyaga va metall faolligiga bog'liq; o'rtacha suyultirilgan kislota bilan rux asosan NO beradi (amalda N₂O va N₂ aralashmasi ham hosil bo'ladi).",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0029",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning juda suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.065,
+     "form": "granula"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5,
+     "conc_max_M": 2.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "4Zn + 10HNO3 = 4Zn(NO3)2 + NH4NO3 + 3H2O",
+    "ionic_full": "4Zn + 10H⁺ + 10NO3⁻ = 4Zn²⁺ + 9NO3⁻ + NH4⁺ + 3H2O",
+    "ionic_net": "4Zn + 10H⁺ + NO3⁻ = 4Zn²⁺ + NH4⁺ + 3H2O",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "N⁺⁵ + 8e⁻ = N⁻³"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — rux (Zn⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Zn⁰ − 2e⁻ = Zn⁺²; N⁺⁵ + 8e⁻ = N⁻³.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Rux gaz ajratmasdan asta eriydi; eritmaga ishqor qo'shib qizdirilsa, ammiak hidi seziladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga rux granulasi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 5 ml juda suyultirilgan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang.",
+   "explanation_uz": "Juda suyultirilgan nitrat kislota faol metallar bilan eng chuqur qaytarilib, ammoniy ionini (N⁻³) hosil qiladi — shuning uchun gaz ajralmaydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0030",
+   "category": "metall-kislota",
+   "title_uz": "Magniyning juda suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.024,
+     "form": "lenta"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5,
+     "conc_max_M": 2.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "4Mg + 10HNO3 = 4Mg(NO3)2 + NH4NO3 + 3H2O",
+    "ionic_full": "4Mg + 10H⁺ + 10NO3⁻ = 4Mg²⁺ + 9NO3⁻ + NH4⁺ + 3H2O",
+    "ionic_net": "4Mg + 10H⁺ + NO3⁻ = 4Mg²⁺ + NH4⁺ + 3H2O",
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "N⁺⁵ + 8e⁻ = N⁻³"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy (Mg⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Mg⁰ − 2e⁻ = Mg⁺²; N⁺⁵ + 8e⁻ = N⁻³.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Magniy eriydi, gaz deyarli ajralmaydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga magniy lenta soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 5 ml juda suyultirilgan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; yonuvchan moddalarni ochiq alangadan uzoqda tuting.",
+   "explanation_uz": "Juda suyultirilgan nitrat kislota magniy kabi faol metallar bilan ammoniy nitratgacha qaytariladi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0031",
+   "category": "metall-kislota",
+   "title_uz": "Temirning suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.056,
+     "form": "qirindi"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 1,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Fe + 4HNO3 = Fe(NO3)3 + NO↑ + 2H2O",
+    "ionic_full": "Fe + 4H⁺ + 4NO3⁻ = Fe³⁺ + 3NO3⁻ + NO↑ + 2H2O",
+    "ionic_net": "Fe + 4H⁺ + NO3⁻ = Fe³⁺ + NO↑ + 2H2O",
+    "electron_balance": [
+     "Fe⁰ − 3e⁻ = Fe⁺³",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — temir (Fe⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Fe⁰ − 3e⁻ = Fe⁺³; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Temir eriydi, rangsiz gaz ajralib havoda qo'ng'irlashadi, eritma sarg'ish-qo'ng'ir tusga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga temir qirindi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 1 ml suyultirilgan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Suyultirilgan nitrat kislota temirni +3 oksidlanish darajasigacha oksidlaydi (xlorid kislotadan farqli ravishda).",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0032",
+   "category": "metall-kislota",
+   "title_uz": "Temirning konsentrlangan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.056,
+     "form": "qirindi"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 0.5,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "Fe + 6HNO3 = Fe(NO3)3 + 3NO2↑ + 3H2O",
+    "ionic_full": "Fe + 6H⁺ + 6NO3⁻ = Fe³⁺ + 3NO3⁻ + 3NO2↑ + 3H2O",
+    "ionic_net": "Fe + 6H⁺ + 3NO3⁻ = Fe³⁺ + 3NO2↑ + 3H2O",
+    "electron_balance": [
+     "Fe⁰ − 3e⁻ = Fe⁺³",
+     "N⁺⁵ + 1e⁻ = N⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — temir (Fe⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Fe⁰ − 3e⁻ = Fe⁺³; N⁺⁵ + 1e⁻ = N⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qizdirilganda temir eriydi, qo'ng'ir gaz ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga temir qirindi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan nitrat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Sovuqda konsentrlangan nitrat kislota temirni passivlaydi, qizdirilganda esa parda buziladi va temir eriydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0033",
+   "category": "metall-kislota",
+   "title_uz": "Qo'rg'oshinning suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 0.207,
+     "form": "plastinka"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 0.7,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3Pb + 8HNO3 = 3Pb(NO3)2 + 2NO↑ + 4H2O",
+    "ionic_full": "3Pb + 8H⁺ + 8NO3⁻ = 3Pb²⁺ + 6NO3⁻ + 2NO↑ + 4H2O",
+    "ionic_net": "3Pb + 8H⁺ + 2NO3⁻ = 3Pb²⁺ + 2NO↑ + 4H2O",
+    "electron_balance": [
+     "Pb⁰ − 2e⁻ = Pb⁺²",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — qo'rg'oshin (Pb⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Pb⁰ − 2e⁻ = Pb⁺²; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qo'rg'oshin eriydi, rangsiz gaz ajralib havoda qo'ng'irlashadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga qo'rg'oshin plastinka soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,7 ml suyultirilgan nitrat kislota quying.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Qo'rg'oshin nitrati suvda yaxshi eriydi, shuning uchun parda hosil bo'lmaydi va qo'rg'oshin suyultirilgan nitrat kislotada yaxshi eriydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0034",
+   "category": "metall-kislota",
+   "title_uz": "Alyuminiyning suyultirilgan nitrat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.027,
+     "form": "qirindi"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 1,
+     "conc_max_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "Al + 4HNO3 = Al(NO3)3 + NO↑ + 2H2O",
+    "ionic_full": "Al + 4H⁺ + 4NO3⁻ = Al³⁺ + 3NO3⁻ + NO↑ + 2H2O",
+    "ionic_net": "Al + 4H⁺ + NO3⁻ = Al³⁺ + NO↑ + 2H2O",
+    "electron_balance": [
+     "Al⁰ − 3e⁻ = Al⁺³",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — alyuminiy (Al⁰), oksidlovchi — nitrat ioni (N⁺⁵).",
+     "Al⁰ − 3e⁻ = Al⁺³; N⁺⁵ + 3e⁻ = N⁺².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qizdirilganda alyuminiy asta eriydi, gaz ajralib havoda qo'ng'irlashadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga alyuminiy qirindi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 1 ml suyultirilgan nitrat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Ajraladigan NO zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Alyuminiy suyultirilgan nitrat kislotada oksid parda tufayli sekin, qizdirilganda tezroq eriydi; mahsulot tarkibi sharoitga bog'liq.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Nitrat kislotaning qaytarilish mahsuloti nimalarga bog'liq?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0035",
+   "category": "metall-kislota",
+   "title_uz": "Misning konsentrlangan sulfat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.064,
+     "form": "sim"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 0.5,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 100,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "Cu + 2H2SO4(kons.) = CuSO4 + SO2↑ + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "S⁺⁶ + 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — mis (Cu⁰), oksidlovchi — sulfat kislotadagi S⁺⁶.",
+     "Cu⁰ − 2e⁻ = Cu⁺²; S⁺⁶ + 2e⁻ = S⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizdirilganda mis eriydi, o'tkir hidli SO₂ gazi ajraladi; sovitib suvga quyilganda eritma ko'karadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga mis simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan sulfat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Ajraladigan SO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Konsentrlangan sulfat kislotada oksidlovchi S⁺⁶ atomi; u vodoroddan keyin turgan misni qizdirilganda oksidlaydi va o'zi SO₂ gacha qaytariladi. Suyultirilgan sulfat kislota mis bilan reaksiyaga kirishmaydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Suyultirilgan va konsentrlangan sulfat kislotaning metallar bilan reaksiyalari qanday farq qiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0036",
+   "category": "metall-kislota",
+   "title_uz": "Ruxning konsentrlangan sulfat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.065,
+     "form": "granula"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 0.5,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "Zn + 2H2SO4(kons.) = ZnSO4 + SO2↑ + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "S⁺⁶ + 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — rux (Zn⁰), oksidlovchi — sulfat kislotadagi S⁺⁶.",
+     "Zn⁰ − 2e⁻ = Zn⁺²; S⁺⁶ + 2e⁻ = S⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "O'tkir hidli gaz ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga rux granulasi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan sulfat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Ajraladigan SO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Konsentrlangan sulfat kislota rux bilan vodorod emas, oltingugurtning qaytarilish mahsulotlarini beradi; sharoitga qarab SO₂, S yoki H₂S hosil bo'lishi mumkin (bu yerda soddalashtirilgan holda SO₂).",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Suyultirilgan va konsentrlangan sulfat kislotaning metallar bilan reaksiyalari qanday farq qiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0037",
+   "category": "metall-kislota",
+   "title_uz": "Temirning konsentrlangan sulfat kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.056,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 0.5,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 100,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "2Fe + 6H2SO4(kons.) = Fe2(SO4)3 + 3SO2↑ + 6H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Fe⁰ − 3e⁻ = Fe⁺³",
+     "S⁺⁶ + 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — temir (Fe⁰), oksidlovchi — sulfat kislotadagi S⁺⁶.",
+     "Fe⁰ − 3e⁻ = Fe⁺³; S⁺⁶ + 2e⁻ = S⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizdirilganda temir eriydi, o'tkir hidli SO₂ ajraladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga temir qirindi soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan sulfat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Ajraladigan SO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Sovuqda konsentrlangan sulfat kislota temirni passivlaydi; qizdirilganda temir(III) sulfat va SO₂ hosil bo'ladi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Suyultirilgan va konsentrlangan sulfat kislotaning metallar bilan reaksiyalari qanday farq qiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0038",
+   "category": "metall-kislota",
+   "title_uz": "Kumushning konsentrlangan sulfat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.108,
+     "form": "sim"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 0.5,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "2Ag + 2H2SO4(kons.) = Ag2SO4 + SO2↑ + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ag⁰ − 1e⁻ = Ag⁺¹",
+     "S⁺⁶ + 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — kumush (Ag⁰), oksidlovchi — sulfat kislotadagi S⁺⁶.",
+     "Ag⁰ − 1e⁻ = Ag⁺¹; S⁺⁶ + 2e⁻ = S⁺⁴.",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Kuchli qizdirilganda kumush asta eriydi, SO₂ hidi seziladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga kumush simidan bo'lak soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan sulfat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Ajraladigan SO₂ zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Kumush konsentrlangan sulfat kislotada faqat kuchli qizdirilganda eriydi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Suyultirilgan va konsentrlangan sulfat kislotaning metallar bilan reaksiyalari qanday farq qiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0039",
+   "category": "metall-kislota",
+   "title_uz": "Magniyning konsentrlangan sulfat kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Oksidlovchi kislotalarning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.024,
+     "form": "lenta"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 0.5,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 40,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya qizdirilganda boradi."
+   },
+   "equation": {
+    "molecular": "4Mg + 5H2SO4(kons.) = 4MgSO4 + H2S↑ + 4H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "S⁺⁶ + 8e⁻ = S⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qaytaruvchi — magniy (Mg⁰), oksidlovchi — sulfat kislotadagi S⁺⁶.",
+     "Mg⁰ − 2e⁻ = Mg⁺²; S⁺⁶ + 8e⁻ = S⁻².",
+     "Berilgan va qabul qilingan elektronlar soni tenglashtiriladi, so'ng kislota qoldiqlari va suv hisobga olinadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Jadal reaksiya, palag'da tuxum hidi seziladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga magniy lenta soling (mo'rili shkafda ishlang).",
+    "Ehtiyotkorlik bilan 0,5 ml konsentrlangan sulfat kislota quying.",
+    "Probirkani qisqichga olib, spirt lampasida asta qizdiring.",
+    "Gaz rangi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Ajraladigan H₂S zaharli — tajribani faqat mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Faol metallar konsentrlangan sulfat kislotani chuqurroq — H₂S (yoki S) gacha qaytaradi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni tushuntiring.",
+    "Nima uchun bu reaksiyada vodorod ajralmaydi?",
+    "Suyultirilgan va konsentrlangan sulfat kislotaning metallar bilan reaksiyalari qanday farq qiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "metkis-0040",
+   "category": "metall-kislota",
+   "title_uz": "Temirning sovuq konsentrlangan nitrat kislotada passivlanishi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning passivlanishi",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Fe",
+    "H⁺",
+    "NO3⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "qirindi"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 2,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sovuqda (xona haroratida).",
+    "temp_max_C": 40
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislota temir sirtini juda yupqa, zich oksid parda bilan qoplaydi.",
+     "Parda kislotaning metallga kirishiga yo'l qo'ymaydi — metall passiv holatga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga temir bo'lagini soling.",
+    "Ustiga mo'rili shkafda 2 ml konsentrlangan nitrat kislota quying.",
+    "Kuzating, so'ng metallni chiqarib, suv bilan yuving."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Konsentrlangan kislotalar bilan faqat mo'rili shkafda ishlang.",
+   "explanation_uz": "Sovuq konsentrlangan nitrat kislota temirni passivlaydi: sirtda hosil bo'lgan zich oksid parda metallni himoya qiladi, shuning uchun reaksiya bormaydi. Shu sababli konsentrlangan nitrat kislota temir (po'lat) idishlarda tashiladi. Qizdirilganda parda buziladi va reaksiya boshlanadi.",
+   "questions_uz": [
+    "Passivlanish nima?",
+    "Nima uchun konsentrlangan nitrat kislotani po'lat sisternalarda tashish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0041",
+   "category": "metall-kislota",
+   "title_uz": "Alyuminiyning sovuq konsentrlangan nitrat kislotada passivlanishi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning passivlanishi",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Al",
+    "H⁺",
+    "NO3⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Al",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "qirindi"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 2,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sovuqda (xona haroratida).",
+    "temp_max_C": 40
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislota alyuminiy sirtini juda yupqa, zich oksid parda bilan qoplaydi.",
+     "Parda kislotaning metallga kirishiga yo'l qo'ymaydi — metall passiv holatga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga alyuminiy bo'lagini soling.",
+    "Ustiga mo'rili shkafda 2 ml konsentrlangan nitrat kislota quying.",
+    "Kuzating, so'ng metallni chiqarib, suv bilan yuving."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Konsentrlangan kislotalar bilan faqat mo'rili shkafda ishlang.",
+   "explanation_uz": "Sovuq konsentrlangan nitrat kislota alyuminiyni passivlaydi: sirtda hosil bo'lgan zich oksid parda metallni himoya qiladi, shuning uchun reaksiya bormaydi. Shu sababli konsentrlangan nitrat kislota alyuminiy idishlarda tashiladi. Qizdirilganda parda buziladi va reaksiya boshlanadi.",
+   "questions_uz": [
+    "Passivlanish nima?",
+    "Nima uchun konsentrlangan nitrat kislotani alyuminiy sisternalarda tashish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0042",
+   "category": "metall-kislota",
+   "title_uz": "Temirning sovuq konsentrlangan sulfat kislotada passivlanishi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning passivlanishi",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Fe",
+    "H2SO4"
+   ],
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 2,
+     "conc_min_M": 12
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sovuqda (xona haroratida).",
+    "temp_max_C": 40
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislota temir sirtini juda yupqa, zich oksid parda bilan qoplaydi.",
+     "Parda kislotaning metallga kirishiga yo'l qo'ymaydi — metall passiv holatga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga temir bo'lagini soling.",
+    "Ustiga mo'rili shkafda 2 ml konsentrlangan sulfat kislota quying.",
+    "Kuzating, so'ng metallni chiqarib, suv bilan yuving."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Konsentrlangan kislotalar bilan faqat mo'rili shkafda ishlang.",
+   "explanation_uz": "Sovuq konsentrlangan sulfat kislota temirni passivlaydi: sirtda hosil bo'lgan zich oksid parda metallni himoya qiladi, shuning uchun reaksiya bormaydi. Shu sababli konsentrlangan sulfat kislota temir (po'lat) idishlarda tashiladi. Qizdirilganda parda buziladi va reaksiya boshlanadi.",
+   "questions_uz": [
+    "Passivlanish nima?",
+    "Nima uchun konsentrlangan sulfat kislotani po'lat sisternalarda tashish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "metkis-0043",
+   "category": "metall-kislota",
+   "title_uz": "Xromning sovuq konsentrlangan nitrat kislotada passivlanishi",
+   "level": "9-sinf",
+   "topic_uz": "Metallarning passivlanishi",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Cr",
+    "H⁺",
+    "NO3⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Cr",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 14.4,
+     "volume_mL": 2,
+     "conc_min_M": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sovuqda (xona haroratida).",
+    "temp_max_C": 40
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislota xrom sirtini juda yupqa, zich oksid parda bilan qoplaydi.",
+     "Parda kislotaning metallga kirishiga yo'l qo'ymaydi — metall passiv holatga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga xrom bo'lagini soling.",
+    "Ustiga mo'rili shkafda 2 ml konsentrlangan nitrat kislota quying.",
+    "Kuzating, so'ng metallni chiqarib, suv bilan yuving."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Konsentrlangan kislotalar bilan faqat mo'rili shkafda ishlang.",
+   "explanation_uz": "Sovuq konsentrlangan nitrat kislota xromni passivlaydi: sirtda hosil bo'lgan zich oksid parda metallni himoya qiladi, shuning uchun reaksiya bormaydi. Shu sababli konsentrlangan nitrat kislota temir (po'lat) idishlarda tashiladi. Qizdirilganda parda buziladi va reaksiya boshlanadi.",
+   "questions_uz": [
+    "Passivlanish nima?",
+    "Nima uchun konsentrlangan nitrat kislotani po'lat sisternalarda tashish mumkin?"
+   ],
+   "confidence": "o'rta"
   }
  ]
 }

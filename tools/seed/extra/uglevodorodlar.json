@@ -1,0 +1,5 @@
+[
+ {"f": "C6H10Br2", "n": "1,2-dibromsiklogeksan", "c": "galogenalkan", "st": "l", "d": 1.78, "miscible": false, "hz": ["zararli"], "reagent": false, "desc": "rangsiz og'ir moysimon suyuqlik"},
+ {"f": "CH3CH(OH)CH2OH", "aliases": ["CH3–CH(OH)–CH2OH", "CH3–CH(OH)–CH2–OH", "C3H6(OH)2"], "n": "propilenglikol (propandiol-1,2)", "c": "spirt", "st": "l", "d": 1.036, "bp": 188.2, "miscible": true, "hz": [], "reagent": true, "desc": "rangsiz qovushqoq shirinroq suyuqlik"},
+ {"f": "HgSO4", "n": "simob(II) sulfat", "c": "tuz", "st": "s", "col": "#f4f4ee", "form": "kukun", "hz": ["zaharli", "atrof-muhit"], "sto": "qoramtir-sklyanka", "reagent": true, "desc": "oq kukun; Kucherov reaksiyasida katalizator (juda zaharli)"}
+]

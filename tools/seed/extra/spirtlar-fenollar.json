@@ -1,0 +1,5 @@
+[
+ {"f": "CH3CHClCH3", "aliases": ["CH3–CHCl–CH3", "(CH3)2CHCl"], "n": "2-xlorpropan (izopropilxlorid)", "c": "galogenalkan", "st": "l", "d": 0.862, "bp": 35.7, "miscible": false, "hz": ["yonuvchan", "zararli"], "reagent": false, "desc": "rangsiz uchuvchan suyuqlik"},
+ {"f": "(C3H5(OH)2O)2Cu", "aliases": ["Cu(C3H7O3)2"], "n": "mis(II) glitserat", "c": "kompleks", "st": "aq", "aq": {"col": "#1a3fb0", "ref": 0.05}, "hz": ["zararli"], "reagent": false, "desc": "to'q ko'k (ko'k-binafsharang) eritma; soddalashtirilgan formula"},
+ {"f": "(HOCH2CH2O)2Cu", "aliases": ["Cu(OCH2CH2OH)2"], "n": "mis(II) etilenglikolyat", "c": "kompleks", "st": "aq", "aq": {"col": "#1a3fb0", "ref": 0.05}, "hz": ["zararli"], "reagent": false, "desc": "to'q ko'k eritma; soddalashtirilgan formula"}
+]

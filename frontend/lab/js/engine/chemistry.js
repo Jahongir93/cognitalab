@@ -3,7 +3,7 @@
 //
 // Idish tarkibi: Map "<id>@<faza>" -> mol.  Fazalar: aq (asosiy suyuq faza / eritma), org (aralashmaydigan
 // organik qatlam), s (qattiq / cho'kma), g (idishdagi gaz).
-import { computePH } from './ph.js';
+import { computePH, alphas } from './ph.js';
 import { solutionColor, orgColor } from './color.js';
 
 export const KINETICS_TAU = { 'bir-zumda': 0.25, tez: 2, "o'rtacha": 8, sekin: 30, 'juda-sekin': 120 };
@@ -402,7 +402,11 @@ export class Chemistry {
     }
     for (const t of parsed.right) {
       if (!t.id) continue;
-      this.add(v, t.id, phases[t.id] || this.#phaseOfTerm(v, t, 'right'), t.coef * xi);
+      const ph = phases[t.id] || this.#phaseOfTerm(v, t, 'right');
+      const sb = this.db.sub(t.id);
+      // eriydigan elektrolit eritmada ionlarga ajraladi
+      if (ph === 'aq' && sb && (sb.dissociation || sb.dissolve_molecular) && !t.mark && this.waterMol(v) > 1e-6) this.#dissolveInto(v, t.id, t.coef * xi);
+      else this.add(v, t.id, ph, t.coef * xi);
     }
   }
 
@@ -478,7 +482,7 @@ export class Chemistry {
     if (t.mark === '↓') return 's';
     if (t.mark === '↑') return 'g';
     if (this.db.isIon(t.id)) return 'aq';
-    if (t.id === WATER) return 'aq';
+    if (t.id === WATER) return side === 'right' && v.T >= 100 ? 'g' : 'aq';
     const s = this.db.sub(t.id);
     if (!s) return 'aq';
     if (side === 'left') {
@@ -1050,6 +1054,16 @@ export class Chemistry {
       if (this.#availableAny(v, t.id) <= EPS) missing.push(t.id);
     }
     if (missing.length) return { ok: false, present: false, missing };
+    if (r.no_reaction) {
+      // "reaksiya ketmaydi" yozuvi faqat uning barcha reaktivlari idishda bo'lganda tegishli
+      for (const re of r.reactants || []) {
+        const id = this.db.keyOf(re.species);
+        const s = this.db.sub(id);
+        if (!s || s.indicator) continue;
+        const here = re.state === 'aq' ? this.concOf(v, id) > 1e-7 : this.#availableAny(v, id) > EPS;
+        if (!here) return { ok: false, present: false, missing: [id] };
+      }
+    }
     const unmet = this.#unmetConditions(v, r, env);
     return { ok: unmet.length === 0, present: true, unmet };
   }
@@ -1113,7 +1127,7 @@ export class Chemistry {
       if (!groups.has(sig)) groups.set(sig, []);
       groups.get(sig).push({ r, m });
       // metall aniq yozuv bilan band — umumiy qoida uni ishlatmasin
-      for (const t of r._net.left) if (this.db.sub(t.id)?.metal && (r.no_reaction || m.ok || m.unmet.some((u) => u.code !== 'konsentratsiya-past' && u.code !== 'konsentratsiya-yuqori'))) {
+      for (const t of r._net.left) if (this.db.sub(t.id)?.metal && m.ok) {
         if (r.blocks_rules !== false) v._recordMetals.add(t.id);
       }
     }
@@ -1126,8 +1140,9 @@ export class Chemistry {
       ok.sort((a, b) => this.#specificity(b.r) - this.#specificity(a.r) || a.r.id.localeCompare(b.r.id));
       const { r } = ok[0];
       if (r.no_reaction) {
-        if (!v.firedRecords[r.id]) ev.push({ type: 'no-reaction', record: r.id, reason_uz: r.explanation_uz || r.no_reaction_uz });
-        v.firedRecords[r.id] = (v.firedRecords[r.id] || 0) + 0;
+        v._explained = v._explained || {};
+        if (!v._explained[r.id]) ev.push({ type: 'no-reaction', record: r.id, reason_uz: r.explanation_uz || r.no_reaction_uz });
+        v._explained[r.id] = true;
         continue;
       }
       const xiMax = this.#maxExtent(v, r._net);
@@ -1177,10 +1192,15 @@ export class Chemistry {
     const L = this.aqL(v);
     const water = this.waterMol(v);
     // kuchsiz kislota/asos tizimlarining uchuvchan shakllari
+    const pHnow = water > 1e-6 ? this.pH(v) : null;
     for (const sys of db.systems.values()) {
       if (!sys.volatile) continue;
       const form = db.keyOf(sys.volatile.form);
-      const n = this.get(v, form, 'aq');
+      const total = sys.forms.reduce((a, f) => a + this.get(v, f, 'aq'), 0);
+      if (total <= EPS) continue;
+      // neytral (uchuvchan) shaklning muvozanatdagi miqdori pH bo'yicha
+      const idx = sys.forms.indexOf(form);
+      const n = pHnow === null ? this.get(v, form, 'aq') : Math.max(this.get(v, form, 'aq'), total * alphas(sys.pKa, pHnow)[idx]);
       if (n <= EPS) continue;
       let excess;
       if (sys.volatile.heat_only) {
@@ -1190,9 +1210,10 @@ export class Chemistry {
       } else excess = n - sys.volatile.sol_M * L * Math.max(0.05, 1 - (v.T - 20) / 80);
       if (water < 1e-6) excess = n;
       if (excess <= EPS) continue;
-      const d = excess * (1 - Math.exp(-dt / 0.6));
+      const d = Math.min(excess * (1 - Math.exp(-dt / 0.6)), total);
       const gas = db.keyOf(sys.volatile.gas);
-      this.add(v, form, 'aq', -d);
+      if (this.get(v, form, 'aq') >= d) this.add(v, form, 'aq', -d);
+      else this.#consumeSystem(v, form, d);
       this.add(v, gas, 'g', d);
       if (sys.volatile.water) this.add(v, WATER, 'aq', sys.volatile.water * d);
       ev.push({ type: 'gas', species: gas, mol: d, rule: 'uchuvchan' });
@@ -1236,7 +1257,14 @@ export class Chemistry {
     const water = this.waterMol(v);
     // qaynash: suv (100 °C) va boshqa uchuvchan suyuqliklar
     const volatiles = [];
-    if (water > 1e-7) volatiles.push({ id: WATER, phase: 'aq', bp: 100, Hv: 40700 });
+    if (water > 1e-7) {
+      // qaynash haroratining ko'tarilishi (konsentrlangan eritmalar, masalan kons. H2SO4) — taxminiy
+      let solutes = 0;
+      for (const [id, n] of this.inPhase(v, 'aq')) if (id !== WATER) solutes += n;
+      const xw = water / (water + solutes);
+      const bp = Math.min(100 / Math.sqrt(Math.max(xw, 0.08)), 340);
+      volatiles.push({ id: WATER, phase: 'aq', bp, Hv: 40700 });
+    }
     for (const ph of ['aq', 'org']) {
       for (const [id, n] of this.inPhase(v, ph)) {
         if (id === WATER || n <= EPS) continue;
@@ -1298,7 +1326,7 @@ export class Chemistry {
 
   #crystallizeAll(v, ev) {
     const aq = this.inPhase(v, 'aq');
-    const cats = aq.filter(([id, n]) => this.db.isIon(id) && this.db.ions[id].charge > 0 && n > EPS);
+    const cats = aq.filter(([id, n]) => this.db.isIon(id) && this.db.ions[id].charge > 0 && n > EPS && id !== 'H^+');
     const ans = aq.filter(([id, n]) => this.db.isIon(id) && this.db.ions[id].charge < 0 && n > EPS);
     for (const [c] of cats) {
       for (const [a] of ans) {
@@ -1409,6 +1437,42 @@ export class Chemistry {
   pH(v) {
     if (this.waterMol(v) < 1e-6) return null;
     return computePH(this, v);
+  }
+
+  /** Elektr o'tkazuvchanlik (nisbiy): kuchli / kuchsiz elektrolit yoki noelektrolit */
+  conductivity(v) {
+    const water = this.waterMol(v);
+    if (water < 1e-6) return { value: 0, level: "yo'q" };
+    const L = this.aqL(v);
+    const pH = this.pH(v);
+    let g = 3.5 * Math.pow(10, -pH) + 2.0 * Math.pow(10, pH - 14);
+    for (const [id, n] of this.inPhase(v, 'aq')) {
+      if (id === 'H^+' || id === 'OH^-') continue;
+      const e = this.db.formToSystem.get(id);
+      if (e) {
+        // kuchsiz tizim: ionlangan ulushlar pH bo'yicha
+        const al = alphas(e.sys.pKa, pH);
+        const total = n / L;
+        e.sys.forms.forEach((f, i) => { const z = this.db.isIon(f) ? Math.abs(this.db.ions[f].charge) : 0; g += 0.7 * z * al[i] * total / e.sys.forms.length; });
+        continue;
+      }
+      if (!this.db.isIon(id)) continue;
+      g += 0.7 * Math.abs(this.db.ions[id].charge) * (n / L);
+    }
+    const level = g > 0.03 ? 'kuchli' : (g > 3e-4 ? 'kuchsiz' : "yo'q");
+    return { value: g, level };
+  }
+
+  /**
+   * Galvanik element EYuK (Nernst tenglamasi bilan, 25 °C).
+   * @param {{anode:string, cathode:string, anodeConc?:number, cathodeConc?:number}} cell metall id'lari
+   */
+  galvanicEMF(cell) {
+    const a = this.db.metals.get(cell.anode), c = this.db.metals.get(cell.cathode);
+    if (!a || !c) return null;
+    const Ea = a.E + (0.0592 / a.n) * Math.log10(cell.anodeConc ?? 1);
+    const Ec = c.E + (0.0592 / c.n) * Math.log10(cell.cathodeConc ?? 1);
+    return Math.round((Ec - Ea) * 100) / 100;
   }
 
   /** Eritma rangi (hex) va loyqalik */
