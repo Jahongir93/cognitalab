@@ -34,7 +34,7 @@ export class Inspector {
     if (!this.ctx.bench.items.has(it.id)) { this.show(null); return; }
     const { chem } = this.ctx;
     const d = it.vessel ? chem.describe(it.vessel) : null;
-    const sig = JSON.stringify([d && d.items.map((x) => [x.id, x.phase, x.mol.toPrecision(2)]), d && Math.round(d.T), d && d.pH && d.pH.toFixed(1), it.flags.reading, it.heaterOn, it.flags.water, it.flags.cracked, it.flags.current, d && d.volume_mL.toFixed(1)]);
+    const sig = JSON.stringify([d && d.items.map((x) => [x.id, x.phase, x.mol.toPrecision(2)]), d && Math.round(d.T), d && d.pH && d.pH.toFixed(1), it.flags.reading, it.heaterOn, it.flags.water, it.flags.cracked, it.flags.current, d && d.volume_mL.toFixed(1), !!it.parentLink, this.ctx.bench.graph.connectionsOf(it.id).length]);
     if (!force && sig === this.sig) return;
     this.sig = sig;
     this.render(it, d);

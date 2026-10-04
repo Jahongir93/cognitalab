@@ -163,8 +163,11 @@ export class Guided {
     for (const k of v.contents.keys()) if (k.startsWith(`${id}@`)) return true;
     const s = db.sub(id);
     if (s?.dissociation) {
-      const ions = Object.keys(s.dissociation).filter((x) => x !== 'H^+' && x !== 'H2O');
-      if (ions.length && ions.every((ion) => chem.get(v, ion, 'aq') > 1e-9 || (db.formToSystem.get(ion)?.sys.forms || []).some((f) => chem.get(v, f, 'aq') > 1e-9))) return true;
+      // reaksiyada sarflanmaydigan ionlardan biri (masalan, NaOH uchun Na⁺) bo'lsa — modda qo'shilgan
+      let ions = Object.keys(s.dissociation).filter((x) => !['H^+', 'OH^-', 'H2O'].includes(x));
+      if (!ions.length) ions = Object.keys(s.dissociation).filter((x) => x !== 'H2O');
+      const has = (ion) => chem.get(v, ion, 'aq') > 1e-9 || chem.get(v, ion, 's') > 1e-9 || (db.formToSystem.get(ion)?.sys.forms || []).some((f) => chem.get(v, f, 'aq') > 1e-9);
+      if (ions.some(has)) return true;
     }
     if (s?.dissolve_molecular) return Object.keys(s.dissolve_molecular).some((x) => chem.get(v, x, 'aq') > 1e-9);
     try { return chem.concOf(v, id) > 1e-7; } catch { return false; }

@@ -1,0 +1,1608 @@
+{
+  "version": 1,
+  "viewBox": [0, 0, 720, 300],
+  "param_labels_uz": {
+    "substrate": "Substrat",
+    "nucleophile": "Nukleofil",
+    "leaving_group": "Chiqib ketuvchi guruh",
+    "leaving": "Chiqib ketuvchi guruh",
+    "product": "Mahsulot",
+    "carbocation": "Karbokation",
+    "reagent": "Reagent",
+    "radical": "Radikal",
+    "alkyl_radical": "Alkil radikali",
+    "byproduct": "Qo'shimcha mahsulot",
+    "base": "Asos",
+    "alkene": "To'yinmagan birikma",
+    "electrophile": "Elektrofil",
+    "intermediate": "Oraliq zarracha",
+    "arene": "Aren",
+    "catalyst": "Katalizator",
+    "sigma_complex": "σ-kompleks",
+    "carbonyl": "Karbonil birikma",
+    "enolate": "Enolat",
+    "acyl": "Atsil birikma",
+    "oxidant": "Oksidlovchi",
+    "reductant": "Qaytaruvchi",
+    "monomer": "Monomer",
+    "monomer1": "1-monomer",
+    "monomer2": "2-monomer",
+    "initiator": "Initsiator",
+    "polymer": "Polimer"
+  },
+  "templates": {
+    "SN2": {
+      "name_uz": "Nukleofil almashinish S_N2",
+      "summary_uz": "Bir bosqichli (bimolekulyar) jarayon: nukleofil uglerodga chiqib ketuvchi guruhga qarama-qarshi tomondan hujum qiladi, yangi bog' hosil bo'lishi va eski bog' uzilishi bir vaqtda boradi. Tezlik = k[RX][Nu]. Konfiguratsiya teskari aylanadi (Valden inversiyasi).",
+      "tokens": {
+        "Nu": { "param": "nucleophile", "def": "Nu⁻" },
+        "X": { "param": "leaving_group", "def": "X⁻" },
+        "Xa": { "param": "leaving_group", "def": "X", "map": { "H2O": "OH2", "Br⁻": "Br", "Cl⁻": "Cl", "I⁻": "I", "NH3": "NH3" } },
+        "S": { "param": "substrate", "def": "R–X", "max": 40 }
+      },
+      "legend": ["substrate", "nucleophile", "leaving_group", "product"],
+      "steps": [
+        {
+          "title_uz": "Orqa tomondan hujum",
+          "text_uz": "{Nu} nukleofilining elektron jufti δ+ uglerodga {Xa} guruhiga qarama-qarshi tomondan (180°) yo'naladi; C–{Xa} bog'ining elektronlari {Xa} tomon siljiy boshlaydi.",
+          "atoms": [
+            { "id": "nu", "x": 120, "y": 150, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["e"], "role": "nu" },
+            { "id": "c", "x": 340, "y": 150, "t": "C", "charge": "δ+" },
+            { "id": "x", "x": 455, "y": 150, "t": "{Xa}", "charge": "{S:c|δ−}", "role": "lg" },
+            { "id": "r", "x": 300, "y": 82, "t": "R" },
+            { "id": "h1", "x": 285, "y": 212, "t": "H" },
+            { "id": "h2", "x": 330, "y": 226, "t": "H" }
+          ],
+          "bonds": [{ "a": "c", "b": "x" }, { "a": "c", "b": "r" }, { "a": "c", "b": "h1", "s": "wedge" }, { "a": "c", "b": "h2", "s": "hash" }],
+          "arrows": [{ "from": "nu", "to": "c", "bend": -0.32 }, { "from": "c-x", "to": "x", "bend": 0.7 }],
+          "text": [{ "x": 230, "y": 262, "t": "180° — orqa tomondan", "cls": "note" }]
+        },
+        {
+          "title_uz": "O'tish holati",
+          "text_uz": "Beshta o'rinbosarli (pentakoordinatsion) o'tish holati: Nu···C va C···{Xa} bog'lari qisman, uchta o'rinbosar bir tekislikda (C — sp²). Bu bitta bosqich, oraliq birikma hosil bo'lmaydi.",
+          "atoms": [
+            { "id": "nu", "x": 195, "y": 150, "t": "{Nu:b}", "charge": "{Nu:d}", "role": "nu" },
+            { "id": "c", "x": 340, "y": 150, "t": "C" },
+            { "id": "x", "x": 485, "y": 150, "t": "{Xa}", "charge": "{X:d}", "role": "lg" },
+            { "id": "r", "x": 340, "y": 74, "t": "R" },
+            { "id": "h1", "x": 292, "y": 214, "t": "H" },
+            { "id": "h2", "x": 388, "y": 214, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "nu", "b": "c", "s": "partial" },
+            { "a": "c", "b": "x", "s": "partial" },
+            { "a": "c", "b": "r" },
+            { "a": "c", "b": "h1" },
+            { "a": "c", "b": "h2" }
+          ],
+          "brackets": [{ "x1": 140, "y1": 44, "x2": 545, "y2": 250, "ts": true }],
+          "text": [{ "x": 340, "y": 280, "t": "pentakoordinatsion o'tish holati", "cls": "note" }]
+        },
+        {
+          "title_uz": "Valden inversiyasi",
+          "text_uz": "Nu–C bog'i to'liq hosil bo'ldi, {X} ajraldi. Uchta o'rinbosar soyabon shamolda ag'darilgandek teskari tomonga o'tdi — xiral markaz konfiguratsiyasi teskari aylanadi.",
+          "atoms": [
+            { "id": "nu", "x": 230, "y": 150, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 340, "y": 150, "t": "C" },
+            { "id": "x", "x": 580, "y": 150, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+            { "id": "r", "x": 380, "y": 82, "t": "R" },
+            { "id": "h1", "x": 395, "y": 212, "t": "H" },
+            { "id": "h2", "x": 350, "y": 226, "t": "H" }
+          ],
+          "bonds": [{ "a": "nu", "b": "c" }, { "a": "c", "b": "r" }, { "a": "c", "b": "h1", "s": "wedge" }, { "a": "c", "b": "h2", "s": "hash" }],
+          "text": [{ "x": 330, "y": 278, "t": "konfiguratsiya teskari aylandi", "cls": "note" }]
+        }
+      ]
+    },
+    "SN1": {
+      "name_uz": "Nukleofil almashinish S_N1",
+      "summary_uz": "Ikki bosqichli (monomolekulyar) jarayon: avval C–X bog'i geterolitik uziladi va karbokation hosil bo'ladi (sekin bosqich), so'ng nukleofil tekis karbokationga ikki tomondan birikadi. Tezlik = k[RX]. Uchlamchi substratlar uchun xos; xiral markazda ratsemizatsiya kuzatiladi.",
+      "tokens": {
+        "Nu": { "param": "nucleophile", "def": "Nu⁻" },
+        "X": { "param": "leaving_group", "def": "X⁻" },
+        "Xa": { "param": "leaving_group", "def": "X", "map": { "H2O": "OH2", "Br⁻": "Br", "Cl⁻": "Cl", "I⁻": "I" } },
+        "S": { "param": "substrate", "def": "R–X", "max": 40 },
+        "Cat": { "param": "carbocation", "def": "R₃C⁺", "max": 16 }
+      },
+      "legend": ["substrate", "carbocation", "nucleophile", "leaving_group", "product"],
+      "steps": [
+        {
+          "title_uz": "Ionlanish (sekin bosqich)",
+          "text_uz": "C–{Xa} bog'ining elektron jufti to'liq {Xa} ga o'tadi (geterolitik uzilish). Bu eng sekin bosqich — reaksiya tezligini belgilaydi va faqat substrat konsentratsiyasiga bog'liq.",
+          "atoms": [
+            { "id": "c", "x": 330, "y": 150, "t": "C", "charge": "δ+" },
+            { "id": "x", "x": 445, "y": 150, "t": "{Xa}", "charge": "{S:c|δ−}", "role": "lg" },
+            { "id": "r1", "x": 300, "y": 80, "t": "R" },
+            { "id": "r2", "x": 268, "y": 206, "t": "R" },
+            { "id": "r3", "x": 322, "y": 228, "t": "R" }
+          ],
+          "bonds": [{ "a": "c", "b": "x" }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2", "s": "wedge" }, { "a": "c", "b": "r3", "s": "hash" }],
+          "arrows": [{ "from": "c-x", "to": "x", "bend": 0.7 }],
+          "text": [{ "x": 560, "y": 70, "t": "sekin", "cls": "note" }]
+        },
+        {
+          "title_uz": "Karbokation",
+          "text_uz": "Hosil bo'lgan karbokation ({Cat}) tekis: markaziy C atomi sp² holatida, bo'sh p-orbital tekislikka perpendikulyar. Barqarorlik: uchlamchi > ikkilamchi > birlamchi.",
+          "atoms": [
+            { "id": "c", "x": 330, "y": 150, "t": "C", "charge": "+" },
+            { "id": "x", "x": 590, "y": 150, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+            { "id": "r1", "x": 330, "y": 70, "t": "R" },
+            { "id": "r2", "x": 262, "y": 194, "t": "R" },
+            { "id": "r3", "x": 398, "y": 194, "t": "R" }
+          ],
+          "bonds": [{ "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }, { "a": "c", "b": "r3" }],
+          "shapes": [{ "type": "lobes", "x": 330, "y": 150, "dx": 44, "ry": 22 }],
+          "text": [{ "x": 330, "y": 268, "t": "karbokation: sp², bo'sh p-orbital", "cls": "note" }]
+        },
+        {
+          "title_uz": "Nukleofil hujumi (tez bosqich)",
+          "text_uz": "{Nu} tekis karbokationga ikkala tomondan bir xil ehtimollik bilan birikadi. Shuning uchun xiral markazda ikkala enantiomer teng hosil bo'ladi — ratsemizatsiya.",
+          "atoms": [
+            { "id": "nu", "x": 140, "y": 150, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["e"], "role": "nu" },
+            { "id": "nu2", "x": 540, "y": 150, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["w"], "role": "nu", "ghost": true },
+            { "id": "c", "x": 330, "y": 150, "t": "C", "charge": "+" },
+            { "id": "r1", "x": 330, "y": 70, "t": "R" },
+            { "id": "r2", "x": 262, "y": 194, "t": "R" },
+            { "id": "r3", "x": 398, "y": 194, "t": "R" }
+          ],
+          "bonds": [{ "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }, { "a": "c", "b": "r3" }],
+          "shapes": [{ "type": "lobes", "x": 330, "y": 150, "dx": 44, "ry": 22 }],
+          "arrows": [{ "from": "nu", "to": "c", "bend": -0.3 }, { "from": "nu2", "to": "c", "bend": 0.3, "ghost": true }],
+          "text": [{ "x": 330, "y": 268, "t": "ikki tomondan hujum → ratsemat", "cls": "note" }]
+        },
+        {
+          "title_uz": "Mahsulot",
+          "text_uz": "Nu–C bog'i hosil bo'ldi. Agar nukleofil neytral bo'lsa (H₂O, ROH), oxirida proton (H⁺) ajralib, neytral mahsulot olinadi.",
+          "atoms": [
+            { "id": "nu", "x": 220, "y": 150, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 330, "y": 150, "t": "C" },
+            { "id": "r1", "x": 365, "y": 80, "t": "R" },
+            { "id": "r2", "x": 392, "y": 206, "t": "R" },
+            { "id": "r3", "x": 340, "y": 228, "t": "R" }
+          ],
+          "bonds": [{ "a": "nu", "b": "c" }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2", "s": "wedge" }, { "a": "c", "b": "r3", "s": "hash" }],
+          "text": [{ "x": 560, "y": 150, "t": "+ ko'zgu aksi (50 : 50)", "cls": "note" }]
+        }
+      ]
+    },
+    "E2": {
+      "name_uz": "Ajralish E2",
+      "summary_uz": "Bir bosqichli bimolekulyar ajralish: asos β-uglerod atomidagi protonni tortib oladi, shu paytning o'zida C=C π-bog'i hosil bo'ladi va chiqib ketuvchi guruh ajraladi. H va X anti-periplanar joylashishi kerak. Zaysev qoidasi bo'yicha ko'proq almashingan alken ustun hosil bo'ladi.",
+      "tokens": {
+        "Bs": { "param": "base", "def": "B⁻" },
+        "X": { "param": "leaving_group", "def": "X⁻" },
+        "Xa": { "param": "leaving_group", "def": "X", "map": { "Br⁻": "Br", "Cl⁻": "Cl", "I⁻": "I", "H2O": "OH2" } },
+        "S": { "param": "substrate", "def": "R–X", "max": 40 }
+      },
+      "legend": ["substrate", "base", "leaving_group", "product", "byproduct"],
+      "steps": [
+        {
+          "title_uz": "Anti-periplanar joylashuv",
+          "text_uz": "β-H va {Xa} bir tekislikda, qarama-qarshi tomonlarda (dihedral burchak 180°). Asos ({Bs}) β-protonga hujum qiladi; C–H elektronlari C–C orasiga, C–{Xa} elektronlari {Xa} ga siljiydi.",
+          "atoms": [
+            { "id": "b", "x": 120, "y": 62, "t": "{Bs:b}", "charge": "{Bs:c}", "lp": ["e"], "role": "base" },
+            { "id": "h", "x": 258, "y": 78, "t": "H" },
+            { "id": "cb", "x": 258, "y": 160, "t": "C" },
+            { "id": "ca", "x": 378, "y": 160, "t": "C" },
+            { "id": "x", "x": 378, "y": 252, "t": "{Xa}", "charge": "{S:c|δ−}", "role": "lg" },
+            { "id": "r1", "x": 196, "y": 200, "t": "R" },
+            { "id": "h3", "x": 196, "y": 124, "t": "H" },
+            { "id": "r2", "x": 440, "y": 124, "t": "R" },
+            { "id": "h4", "x": 440, "y": 200, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "cb", "b": "h" },
+            { "a": "cb", "b": "ca" },
+            { "a": "ca", "b": "x" },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "h4" }
+          ],
+          "arrows": [{ "from": "b", "to": "h", "bend": 0.35 }, { "from": "cb-h", "to": "cb-ca", "bend": 0.7 }, { "from": "ca-x", "to": "x", "bend": 0.6 }],
+          "text": [{ "x": 580, "y": 150, "t": "H va X: 180°", "cls": "note" }]
+        },
+        {
+          "title_uz": "O'tish holati",
+          "text_uz": "Bitta o'tish holatida uchta jarayon bir vaqtda: B···H bog'i hosil bo'lmoqda, C–H va C–{Xa} bog'lari uzilmoqda, C=C π-bog'i shakllanmoqda. Tezlik = k[substrat][asos].",
+          "atoms": [
+            { "id": "b", "x": 178, "y": 50, "t": "{Bs:b}", "charge": "{Bs:d}", "role": "base" },
+            { "id": "h", "x": 252, "y": 92, "t": "H" },
+            { "id": "cb", "x": 262, "y": 160, "t": "C" },
+            { "id": "ca", "x": 374, "y": 160, "t": "C" },
+            { "id": "x", "x": 386, "y": 248, "t": "{Xa}", "charge": "{X:d}", "role": "lg" },
+            { "id": "r1", "x": 200, "y": 200, "t": "R" },
+            { "id": "h3", "x": 198, "y": 128, "t": "H" },
+            { "id": "r2", "x": 436, "y": 124, "t": "R" },
+            { "id": "h4", "x": 438, "y": 200, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "b", "b": "h", "s": "partial" },
+            { "a": "cb", "b": "h", "s": "partial" },
+            { "a": "cb", "b": "ca", "o": 1.5 },
+            { "a": "ca", "b": "x", "s": "partial" },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "h4" }
+          ],
+          "brackets": [{ "x1": 120, "y1": 18, "x2": 480, "y2": 286, "ts": true }]
+        },
+        {
+          "title_uz": "Alken hosil bo'ldi",
+          "text_uz": "C=C qo'sh bog' hosil bo'ldi, asos protonlandi, {X} ajraldi. Bir necha β-H bo'lsa, Zaysev qoidasiga ko'ra ko'proq almashingan (barqarorroq) alken asosiy mahsulot bo'ladi.",
+          "atoms": [
+            { "id": "b", "x": 150, "y": 52, "t": "{Bs:b}", "charge": "{Bs:p}", "role": "base" },
+            { "id": "h", "x": 222, "y": 52, "t": "H" },
+            { "id": "cb", "x": 270, "y": 160, "t": "C" },
+            { "id": "ca", "x": 370, "y": 160, "t": "C" },
+            { "id": "x", "x": 580, "y": 250, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+            { "id": "r1", "x": 214, "y": 208, "t": "R" },
+            { "id": "h3", "x": 214, "y": 112, "t": "H" },
+            { "id": "r2", "x": 426, "y": 112, "t": "R" },
+            { "id": "h4", "x": 426, "y": 208, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "b", "b": "h" },
+            { "a": "cb", "b": "ca", "o": 2 },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "h4" }
+          ],
+          "text": [{ "x": 320, "y": 262, "t": "alken (Zaysev mahsuloti)", "cls": "note" }]
+        }
+      ]
+    },
+    "E1": {
+      "name_uz": "Ajralish E1",
+      "summary_uz": "Ikki bosqichli monomolekulyar ajralish: avval chiqib ketuvchi guruh ajralib karbokation hosil bo'ladi (sekin bosqich), so'ng asos qo'shni (β) uglerod atomidan proton tortib oladi. Odatda uchlamchi spirtlarning kislotali degidratatsiyasida kuzatiladi; Zaysev qoidasi bajariladi.",
+      "tokens": {
+        "Bs": { "param": "base", "def": "B" },
+        "X": { "param": ["leaving_group", "byproduct"], "def": "X⁻" },
+        "Xa": { "param": ["leaving_group", "byproduct"], "def": "X", "map": { "H2O": "OH2", "Br⁻": "Br", "Cl⁻": "Cl" } },
+        "S": { "param": "substrate", "def": "R–X", "max": 40 },
+        "Cat": { "param": ["carbocation", "intermediate"], "def": "R₃C⁺", "max": 16 }
+      },
+      "legend": ["substrate", "carbocation", "intermediate", "base", "leaving_group", "product", "byproduct"],
+      "steps": [
+        {
+          "title_uz": "Ionlanish (sekin bosqich)",
+          "text_uz": "C–{Xa} bog'i geterolitik uziladi: elektron jufti {Xa} bilan ketadi. Spirtlarda avval OH guruhi kislota ta'sirida protonlanadi va yaxshi chiqib ketuvchi guruh — H₂O hosil bo'ladi.",
+          "atoms": [
+            { "id": "h", "x": 250, "y": 72, "t": "H" },
+            { "id": "cb", "x": 250, "y": 150, "t": "C" },
+            { "id": "ca", "x": 362, "y": 150, "t": "C" },
+            { "id": "x", "x": 362, "y": 246, "t": "{Xa}", "charge": "{S:c|δ−}", "role": "lg" },
+            { "id": "r1", "x": 190, "y": 190, "t": "R" },
+            { "id": "h3", "x": 188, "y": 112, "t": "H" },
+            { "id": "r2", "x": 424, "y": 108, "t": "R" },
+            { "id": "r3", "x": 428, "y": 192, "t": "R" }
+          ],
+          "bonds": [
+            { "a": "cb", "b": "h" },
+            { "a": "cb", "b": "ca" },
+            { "a": "ca", "b": "x" },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "r3" }
+          ],
+          "arrows": [{ "from": "ca-x", "to": "x", "bend": 0.6 }],
+          "text": [{ "x": 560, "y": 70, "t": "sekin", "cls": "note" }]
+        },
+        {
+          "title_uz": "Karbokation va deprotonlanish",
+          "text_uz": "Tekis karbokation ({Cat}) hosil bo'ldi. Asos ({Bs}) qo'shni uglerod atomidagi protonni tortib oladi; C–H bog'ining elektron jufti C–C orasiga o'tib π-bog' hosil qiladi.",
+          "atoms": [
+            { "id": "b", "x": 120, "y": 56, "t": "{Bs:b}", "charge": "{Bs:c}", "lp": ["e"], "role": "base" },
+            { "id": "h", "x": 250, "y": 72, "t": "H" },
+            { "id": "cb", "x": 250, "y": 150, "t": "C" },
+            { "id": "ca", "x": 362, "y": 150, "t": "C", "charge": "+" },
+            { "id": "x", "x": 590, "y": 246, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+            { "id": "r1", "x": 190, "y": 190, "t": "R" },
+            { "id": "h3", "x": 188, "y": 112, "t": "H" },
+            { "id": "r2", "x": 422, "y": 108, "t": "R" },
+            { "id": "r3", "x": 422, "y": 192, "t": "R" }
+          ],
+          "bonds": [
+            { "a": "cb", "b": "h" },
+            { "a": "cb", "b": "ca" },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "r3" }
+          ],
+          "arrows": [{ "from": "b", "to": "h", "bend": 0.35 }, { "from": "cb-h", "to": "cb-ca", "bend": 0.7 }],
+          "text": [{ "x": 362, "y": 258, "t": "karbokation", "cls": "note" }]
+        },
+        {
+          "title_uz": "Alken",
+          "text_uz": "Qo'sh bog' hosil bo'ldi, asos protonlandi. Bir necha yo'nalish mumkin bo'lsa, ko'proq almashingan alken (Zaysev mahsuloti) ustun bo'ladi.",
+          "atoms": [
+            { "id": "b", "x": 140, "y": 56, "t": "{Bs:b}", "charge": "{Bs:p}", "role": "base" },
+            { "id": "h", "x": 212, "y": 56, "t": "H" },
+            { "id": "cb", "x": 262, "y": 150, "t": "C" },
+            { "id": "ca", "x": 362, "y": 150, "t": "C" },
+            { "id": "x", "x": 590, "y": 246, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+            { "id": "r1", "x": 206, "y": 198, "t": "R" },
+            { "id": "h3", "x": 206, "y": 102, "t": "H" },
+            { "id": "r2", "x": 418, "y": 102, "t": "R" },
+            { "id": "r3", "x": 418, "y": 198, "t": "R" }
+          ],
+          "bonds": [
+            { "a": "b", "b": "h" },
+            { "a": "cb", "b": "ca", "o": 2 },
+            { "a": "cb", "b": "r1" },
+            { "a": "cb", "b": "h3" },
+            { "a": "ca", "b": "r2" },
+            { "a": "ca", "b": "r3" }
+          ],
+          "text": [{ "x": 312, "y": 262, "t": "alken (Zaysev mahsuloti)", "cls": "note" }]
+        }
+      ]
+    },
+    "SR": {
+      "name_uz": "Radikal almashinish S_R",
+      "summary_uz": "Zanjirli radikal jarayon (alkanlarning yorug'likda galogenlanishi): initsirlanish — galogen molekulasi gomolitik uziladi; zanjir o'sishi — galogen radikali alkandan H atomini tortib oladi, alkil radikali galogen molekulasidan atom tortib oladi; zanjir uzilishi — radikallar o'zaro birikadi. Barqarorlik: uchlamchi > ikkilamchi > birlamchi radikal.",
+      "tokens": {
+        "X": { "param": "radical", "def": "X•" },
+        "Rr": { "param": "alkyl_radical", "def": "•R", "max": 12 },
+        "Rg": { "param": "reagent", "def": "X–X" },
+        "S": { "param": "substrate", "def": "R–H", "max": 20 }
+      },
+      "legend": ["substrate", "reagent", "radical", "alkyl_radical", "product", "byproduct"],
+      "steps": [
+        {
+          "title_uz": "Zanjirning boshlanishi (initsirlanish)",
+          "text_uz": "Yorug'lik kvanti (hν) yoki qizdirish ta'sirida {Rg} molekulasidagi bog' gomolitik uziladi: har bir atom bittadan elektron oladi va ikkita {X} radikali hosil bo'ladi. Bir elektronning siljishi yarim uchli («qarmoq») strelka bilan ko'rsatiladi.",
+          "atoms": [
+            { "id": "xa", "x": 115, "y": 150, "t": "{Rg:1}", "role": "rad" },
+            { "id": "xb", "x": 245, "y": 150, "t": "{Rg:2}", "role": "rad" },
+            { "id": "xc", "x": 500, "y": 150, "t": "{X:b}", "rad": "e", "role": "rad" },
+            { "id": "xd", "x": 620, "y": 150, "t": "{X:b}", "rad": "e", "role": "rad" }
+          ],
+          "bonds": [{ "a": "xa", "b": "xb" }],
+          "arrows": [{ "from": "xa-xb", "to": "xa", "half": true, "bend": 0.9 }, { "from": "xa-xb", "to": "xb", "half": true, "bend": -0.9 }],
+          "rxn": [{ "x1": 300, "y1": 150, "x2": 420, "y2": 150, "t": "hν yoki t°" }],
+          "text": [{ "x": 560, "y": 150, "t": "+", "cls": "plus" }]
+        },
+        {
+          "title_uz": "Zanjirning o'sishi (1)",
+          "text_uz": "{X} radikali substrat molekulasidan vodorod atomini tortib oladi: H–{X:b} molekulasi va alkil radikali ({Rr}) hosil bo'ladi. Uchta qarmoq-strelka: ikki elektron yangi H–{X:b} bog'ini hosil qiladi, bittasi uglerodda qoladi.",
+          "atoms": [
+            { "id": "r", "x": 110, "y": 150, "t": "{Rr:b}", "role": "r" },
+            { "id": "h", "x": 225, "y": 150, "t": "H" },
+            { "id": "x", "x": 330, "y": 150, "t": "{X:b}", "rad": "w", "role": "rad" },
+            { "id": "r2", "x": 495, "y": 150, "t": "{Rr:b}", "rad": "e", "role": "r" },
+            { "id": "h2", "x": 600, "y": 150, "t": "H" },
+            { "id": "x2", "x": 665, "y": 150, "t": "{X:b}", "role": "rad" }
+          ],
+          "bonds": [{ "a": "r", "b": "h" }, { "a": "h2", "b": "x2" }],
+          "arrows": [
+            { "from": "x", "to": "h-x", "half": true, "bend": 0.8 },
+            { "from": "r-h", "to": "h-x", "half": true, "bend": 0.6 },
+            { "from": "r-h", "to": "r", "half": true, "bend": -0.8 }
+          ],
+          "rxn": [{ "x1": 375, "y1": 150, "x2": 430, "y2": 150 }],
+          "text": [{ "x": 560, "y": 150, "t": "+", "cls": "plus" }]
+        },
+        {
+          "title_uz": "Zanjirning o'sishi (2)",
+          "text_uz": "Alkil radikali {Rg} molekulasiga hujum qilib, galogen atomini tortib oladi: mahsulot hosil bo'ladi va yangi {X} radikali chiqadi — u yana 1-bosqichga qaytadi. Shu tariqa bitta kvant minglab molekulani o'zgartiradi.",
+          "atoms": [
+            { "id": "r", "x": 100, "y": 150, "t": "{Rr:b}", "rad": "e", "role": "r" },
+            { "id": "xa", "x": 240, "y": 150, "t": "{Rg:1}", "role": "rad" },
+            { "id": "xb", "x": 320, "y": 150, "t": "{Rg:2}", "role": "rad" },
+            { "id": "r3", "x": 475, "y": 150, "t": "{Rr:b}", "role": "r" },
+            { "id": "x3", "x": 575, "y": 150, "t": "{Rg:1}", "role": "rad" },
+            { "id": "x4", "x": 680, "y": 150, "t": "{X:b}", "rad": "e", "role": "rad" }
+          ],
+          "bonds": [{ "a": "xa", "b": "xb" }, { "a": "r3", "b": "x3" }],
+          "arrows": [
+            { "from": "r", "to": "r-xa", "half": true, "bend": 0.8 },
+            { "from": "xa-xb", "to": "r-xa", "half": true, "bend": 0.7 },
+            { "from": "xa-xb", "to": "xb", "half": true, "bend": -0.9 }
+          ],
+          "rxn": [{ "x1": 360, "y1": 150, "x2": 415, "y2": 150 }],
+          "text": [{ "x": 628, "y": 150, "t": "+", "cls": "plus" }]
+        },
+        {
+          "title_uz": "Zanjirning uzilishi",
+          "text_uz": "Ikki radikal uchrashganda juft elektron hosil qilib birikadi va zanjir uziladi. Radikallar konsentratsiyasi juda kichik bo'lgani uchun bu kam uchraydigan, lekin zanjirni to'xtatuvchi jarayon.",
+          "atoms": [
+            { "id": "a1", "x": 110, "y": 70, "t": "{X:b}", "rad": "e", "role": "rad" },
+            { "id": "a2", "x": 210, "y": 70, "t": "{X:b}", "rad": "w", "role": "rad" },
+            { "id": "a3", "x": 420, "y": 70, "t": "{X:b}", "role": "rad" },
+            { "id": "a4", "x": 495, "y": 70, "t": "{X:b}", "role": "rad" },
+            { "id": "b1", "x": 110, "y": 150, "t": "{Rr:b}", "rad": "e", "role": "r" },
+            { "id": "b2", "x": 230, "y": 150, "t": "{X:b}", "rad": "w", "role": "rad" },
+            { "id": "b3", "x": 420, "y": 150, "t": "{Rr:b}", "role": "r" },
+            { "id": "b4", "x": 515, "y": 150, "t": "{X:b}", "role": "rad" },
+            { "id": "c1", "x": 110, "y": 230, "t": "{Rr:b}", "rad": "e", "role": "r" },
+            { "id": "c2", "x": 230, "y": 230, "t": "{Rr:b}", "rad": "w", "role": "r" },
+            { "id": "c3", "x": 420, "y": 230, "t": "{Rr:b}", "role": "r" },
+            { "id": "c4", "x": 530, "y": 230, "t": "{Rr:b}", "role": "r" }
+          ],
+          "bonds": [{ "a": "a3", "b": "a4" }, { "a": "b3", "b": "b4" }, { "a": "c3", "b": "c4" }],
+          "arrows": [{ "from": "a1", "to": "a1-a2", "half": true, "bend": 0.9 }, { "from": "a2", "to": "a1-a2", "half": true, "bend": -0.9 }],
+          "rxn": [
+            { "x1": 280, "y1": 70, "x2": 350, "y2": 70 },
+            { "x1": 290, "y1": 150, "x2": 350, "y2": 150 },
+            { "x1": 300, "y1": 230, "x2": 350, "y2": 230 }
+          ]
+        }
+      ]
+    },
+    "AdE": {
+      "name_uz": "Elektrofil birikish Ad_E",
+      "summary_uz": "Qo'sh (uch) bog'ning π-elektronlari elektrofilga hujum qiladi: avval karbokation (yoki galogenlar uchun siklik galogenoniy ioni) hosil bo'ladi, so'ng nukleofil birikadi. Nosimmetrik alkenlarda Markovnikov qoidasi: vodorod ko'proq vodorodli uglerodga birikadi, chunki barqarorroq karbokation hosil bo'ladi.",
+      "tokens": {
+        "E": { "param": "electrophile", "def": "H⁺" },
+        "Nu": { "param": "nucleophile", "def": "X⁻" },
+        "Int": { "param": "intermediate", "def": "karbokation", "max": 18 }
+      },
+      "legend": ["alkene", "reagent", "electrophile", "nucleophile", "intermediate", "product"],
+      "variants": {
+        "halonium": {
+          "when": { "param": ["intermediate", "electrophile"], "regex": "oniy|onium|^(Br|Cl|I)" },
+          "tokens": { "X": { "param": "electrophile", "def": "Br⁺" }, "Y": { "param": "nucleophile", "def": "Br⁻" } },
+          "steps": [
+            {
+              "title_uz": "π-kompleks va qutblanish",
+              "text_uz": "Galogen molekulasi qo'sh bog'ning π-elektron buluti ta'sirida qutblanadi (Xᵟ⁺–Xᵟ⁻). π-elektronlar musbat qutbdagi atomga hujum qiladi, X–X bog'i geterolitik uziladi.",
+              "atoms": [
+                { "id": "c1", "x": 262, "y": 190, "t": "C" },
+                { "id": "c2", "x": 372, "y": 190, "t": "C" },
+                { "id": "h1", "x": 205, "y": 150, "t": "H" },
+                { "id": "h2", "x": 205, "y": 230, "t": "H" },
+                { "id": "r", "x": 430, "y": 150, "t": "R" },
+                { "id": "h3", "x": 430, "y": 230, "t": "H" },
+                { "id": "xa", "x": 317, "y": 108, "t": "{X:b}", "charge": "δ+", "role": "e" },
+                { "id": "xb", "x": 317, "y": 36, "t": "{Y:b}", "charge": "δ−", "role": "nu" }
+              ],
+              "bonds": [
+                { "a": "c1", "b": "c2", "o": 2 },
+                { "a": "c1", "b": "h1" },
+                { "a": "c1", "b": "h2" },
+                { "a": "c2", "b": "r" },
+                { "a": "c2", "b": "h3" },
+                { "a": "xa", "b": "xb" }
+              ],
+              "arrows": [{ "from": "c1-c2", "to": "xa", "bend": -0.6 }, { "from": "xa-xb", "to": "xb", "bend": -0.8 }]
+            },
+            {
+              "title_uz": "Galogenoniy ioni",
+              "text_uz": "Uch a'zoli siklik galogenoniy (masalan, bromoniy) kationi hosil bo'ladi: galogen atomi ikkala uglerod bilan bog'langan. {Y} anioni galogen ko'prigiga qarama-qarshi tomondan hujum qiladi.",
+              "atoms": [
+                { "id": "c1", "x": 262, "y": 180, "t": "C" },
+                { "id": "c2", "x": 372, "y": 180, "t": "C" },
+                { "id": "h1", "x": 205, "y": 150, "t": "H" },
+                { "id": "h2", "x": 212, "y": 238, "t": "H" },
+                { "id": "r", "x": 430, "y": 150, "t": "R" },
+                { "id": "h3", "x": 424, "y": 238, "t": "H" },
+                { "id": "xa", "x": 317, "y": 98, "t": "{X:b}", "charge": "+", "role": "e" },
+                { "id": "xb", "x": 520, "y": 262, "t": "{Y:b}", "charge": "{Y:c}", "lp": ["w"], "role": "nu" }
+              ],
+              "bonds": [
+                { "a": "c1", "b": "c2" },
+                { "a": "c1", "b": "xa" },
+                { "a": "c2", "b": "xa" },
+                { "a": "c1", "b": "h1" },
+                { "a": "c1", "b": "h2" },
+                { "a": "c2", "b": "r" },
+                { "a": "c2", "b": "h3" }
+              ],
+              "arrows": [{ "from": "xb", "to": "c2", "bend": -0.35 }, { "from": "c2-xa", "to": "xa", "bend": 0.7 }],
+              "text": [{ "x": 317, "y": 282, "t": "galogenoniy ioni", "cls": "note" }]
+            },
+            {
+              "title_uz": "Anti-birikish mahsuloti",
+              "text_uz": "Ikkala galogen atomi qo'sh bog'ga qarama-qarshi tomonlardan birikdi (anti-birikish). Bromli suv rangsizlanishi — qo'sh bog'ga sifat reaksiyasi.",
+              "atoms": [
+                { "id": "c1", "x": 262, "y": 160, "t": "C" },
+                { "id": "c2", "x": 372, "y": 160, "t": "C" },
+                { "id": "h1", "x": 205, "y": 205, "t": "H" },
+                { "id": "h2", "x": 200, "y": 130, "t": "H" },
+                { "id": "r", "x": 430, "y": 130, "t": "R" },
+                { "id": "h3", "x": 432, "y": 200, "t": "H" },
+                { "id": "xa", "x": 262, "y": 70, "t": "{X:b}", "role": "e" },
+                { "id": "xb", "x": 372, "y": 252, "t": "{Y:b}", "role": "nu" }
+              ],
+              "bonds": [
+                { "a": "c1", "b": "c2" },
+                { "a": "c1", "b": "xa" },
+                { "a": "c2", "b": "xb" },
+                { "a": "c1", "b": "h1" },
+                { "a": "c1", "b": "h2" },
+                { "a": "c2", "b": "r" },
+                { "a": "c2", "b": "h3" }
+              ],
+              "text": [{ "x": 560, "y": 160, "t": "anti (trans) birikish", "cls": "note" }]
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "title_uz": "Elektrofil hujumi",
+          "text_uz": "C=C π-bog'ining elektron jufti {E} elektrofiliga hujum qiladi. Elektrofil ko'proq vodorod atomi bor uglerodga (CH₂ uchiga) birikadi.",
+          "atoms": [
+            { "id": "c1", "x": 262, "y": 170, "t": "C" },
+            { "id": "c2", "x": 372, "y": 170, "t": "C" },
+            { "id": "h1", "x": 205, "y": 130, "t": "H" },
+            { "id": "h2", "x": 205, "y": 212, "t": "H" },
+            { "id": "r", "x": 430, "y": 130, "t": "R" },
+            { "id": "h3", "x": 430, "y": 212, "t": "H" },
+            { "id": "e", "x": 300, "y": 58, "t": "{E:b}", "charge": "{E:c}", "role": "e" }
+          ],
+          "bonds": [{ "a": "c1", "b": "c2", "o": 2 }, { "a": "c1", "b": "h1" }, { "a": "c1", "b": "h2" }, { "a": "c2", "b": "r" }, { "a": "c2", "b": "h3" }],
+          "arrows": [{ "from": "c1-c2", "to": "e", "bend": -0.5 }]
+        },
+        {
+          "title_uz": "Karbokation (Markovnikov)",
+          "text_uz": "Barqarorroq — ko'proq alkil guruhli uglerodda musbat zaryadli karbokation hosil bo'ladi (3° > 2° > 1°): alkil guruhlar zaryadni induktiv va giperkonyugatsiya hisobiga kamaytiradi. Nukleofil {Nu} karbokationga hujum qiladi.",
+          "atoms": [
+            { "id": "c1", "x": 262, "y": 170, "t": "C" },
+            { "id": "c2", "x": 372, "y": 170, "t": "C", "charge": "+" },
+            { "id": "h1", "x": 200, "y": 140, "t": "H" },
+            { "id": "h2", "x": 210, "y": 228, "t": "H" },
+            { "id": "r", "x": 426, "y": 120, "t": "R" },
+            { "id": "h3", "x": 426, "y": 220, "t": "H" },
+            { "id": "e", "x": 262, "y": 84, "t": "{E:b}", "role": "e" },
+            { "id": "nu", "x": 580, "y": 170, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["w"], "role": "nu" }
+          ],
+          "bonds": [
+            { "a": "c1", "b": "c2" },
+            { "a": "c1", "b": "h1" },
+            { "a": "c1", "b": "h2" },
+            { "a": "c2", "b": "r" },
+            { "a": "c2", "b": "h3" },
+            { "a": "c1", "b": "e" }
+          ],
+          "arrows": [{ "from": "nu", "to": "c2", "bend": 0.3 }],
+          "text": [{ "x": 372, "y": 270, "t": "barqarorroq karbokation", "cls": "note" }]
+        },
+        {
+          "title_uz": "Markovnikov mahsuloti",
+          "text_uz": "Nukleofil karbokation markaziga birikdi. Natija: vodorod ko'proq vodorodli uglerodga, nukleofil esa kam vodorodli uglerodga birikkan (Markovnikov qoidasi). Neytral nukleofil (H₂O) bo'lsa, oxirida H⁺ ajraladi.",
+          "atoms": [
+            { "id": "c1", "x": 262, "y": 160, "t": "C" },
+            { "id": "c2", "x": 372, "y": 160, "t": "C" },
+            { "id": "h1", "x": 200, "y": 130, "t": "H" },
+            { "id": "h2", "x": 210, "y": 220, "t": "H" },
+            { "id": "r", "x": 426, "y": 110, "t": "R" },
+            { "id": "h3", "x": 436, "y": 196, "t": "H" },
+            { "id": "e", "x": 262, "y": 74, "t": "{E:b}", "role": "e" },
+            { "id": "nu", "x": 372, "y": 252, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" }
+          ],
+          "bonds": [
+            { "a": "c1", "b": "c2" },
+            { "a": "c1", "b": "h1" },
+            { "a": "c1", "b": "h2" },
+            { "a": "c2", "b": "r" },
+            { "a": "c2", "b": "h3" },
+            { "a": "c1", "b": "e" },
+            { "a": "c2", "b": "nu" }
+          ],
+          "text": [{ "x": 570, "y": 160, "t": "Markovnikov mahsuloti", "cls": "note" }]
+        }
+      ]
+    },
+    "AdR": {
+      "name_uz": "Radikal birikish Ad_R",
+      "summary_uz": "Zanjirli radikal birikish: initsiator (peroksid yoki yorug'lik) radikal hosil qiladi, radikal qo'sh bog'ga birikib barqarorroq uglerod radikalini beradi, u reagentdan atom tortib olib zanjirni davom ettiradi. HBr peroksidlar ishtirokida Markovnikov qoidasiga teskari birikadi (Xarash peroksid effekti).",
+      "tokens": {
+        "X": { "param": "radical", "def": "Br•" },
+        "In": { "param": "initiator", "def": "ROOR, t°", "formula": false, "max": 14 },
+        "Rg": { "param": "reagent", "def": "H–Br" }
+      },
+      "legend": ["alkene", "reagent", "initiator", "radical", "product"],
+      "steps": [
+        {
+          "title_uz": "Initsirlanish",
+          "text_uz": "Initsiator ({In}) ta'sirida radikallar hosil bo'ladi: peroksiddagi O–O bog'i (yoki {Rg} dagi bog') gomolitik uziladi. Initsiator radikali (In•) {Rg} dan atom tortib olib, {X} radikalini hosil qiladi.",
+          "atoms": [
+            { "id": "i1", "x": 110, "y": 80, "t": "In" },
+            { "id": "i2", "x": 190, "y": 80, "t": "In" },
+            { "id": "i3", "x": 420, "y": 80, "t": "In", "rad": "e" },
+            { "id": "i4", "x": 100, "y": 210, "t": "In", "rad": "e" },
+            { "id": "ya", "x": 215, "y": 210, "t": "{Rg:1}" },
+            { "id": "yb", "x": 295, "y": 210, "t": "{Rg:2}", "role": "rad" },
+            { "id": "i5", "x": 450, "y": 210, "t": "In" },
+            { "id": "ya2", "x": 520, "y": 210, "t": "{Rg:1}" },
+            { "id": "yb2", "x": 640, "y": 210, "t": "{X:b}", "rad": "e", "role": "rad" }
+          ],
+          "bonds": [{ "a": "i1", "b": "i2" }, { "a": "ya", "b": "yb" }, { "a": "i5", "b": "ya2" }],
+          "arrows": [
+            { "from": "i1-i2", "to": "i1", "half": true, "bend": 0.9 },
+            { "from": "i1-i2", "to": "i2", "half": true, "bend": -0.9 },
+            { "from": "i4", "to": "i4-ya", "half": true, "bend": 0.8 },
+            { "from": "ya-yb", "to": "i4-ya", "half": true, "bend": 0.6 },
+            { "from": "ya-yb", "to": "yb", "half": true, "bend": -0.9 }
+          ],
+          "rxn": [{ "x1": 250, "y1": 80, "x2": 350, "y2": 80, "t": "{In}" }, { "x1": 340, "y1": 210, "x2": 400, "y2": 210 }],
+          "text": [{ "x": 390, "y": 80, "t": "2", "cls": "coef" }, { "x": 585, "y": 210, "t": "+", "cls": "plus" }]
+        },
+        {
+          "title_uz": "Radikalning qo'sh bog'ga birikishi",
+          "text_uz": "{X} radikali π-bog'ning bitta elektroni bilan juftlashib, kam almashingan (CH₂) uglerodga birikadi. Ikkinchi π-elektron qo'shni uglerodda qoladi.",
+          "atoms": [
+            { "id": "xr", "x": 120, "y": 160, "t": "{X:b}", "rad": "e", "role": "rad" },
+            { "id": "c1", "x": 270, "y": 160, "t": "C" },
+            { "id": "c2", "x": 375, "y": 160, "t": "C" },
+            { "id": "h1", "x": 222, "y": 112, "t": "H" },
+            { "id": "h2", "x": 222, "y": 208, "t": "H" },
+            { "id": "r", "x": 428, "y": 112, "t": "R" },
+            { "id": "h3", "x": 428, "y": 208, "t": "H" }
+          ],
+          "bonds": [{ "a": "c1", "b": "c2", "o": 2 }, { "a": "c1", "b": "h1" }, { "a": "c1", "b": "h2" }, { "a": "c2", "b": "r" }, { "a": "c2", "b": "h3" }],
+          "arrows": [
+            { "from": "xr", "to": "xr-c1", "half": true, "bend": 0.8 },
+            { "from": "c1-c2", "to": "xr-c1", "half": true, "bend": -0.9 },
+            { "from": "c1-c2", "to": "c2", "half": true, "bend": -0.9 }
+          ]
+        },
+        {
+          "title_uz": "Barqaror radikal va zanjir uzatilishi",
+          "text_uz": "Barqarorroq (ko'proq almashingan) uglerod radikali hosil bo'ladi. U {Rg} molekulasidan atom tortib oladi va yangi {X} radikali ajraladi. Shuning uchun HBr bu sharoitda Markovnikov qoidasiga teskari birikadi.",
+          "atoms": [
+            { "id": "xr", "x": 200, "y": 160, "t": "{X:b}", "role": "rad" },
+            { "id": "c1", "x": 285, "y": 160, "t": "C" },
+            { "id": "c2", "x": 385, "y": 160, "t": "C", "rad": "nw" },
+            { "id": "h1", "x": 285, "y": 80, "t": "H" },
+            { "id": "h2", "x": 285, "y": 240, "t": "H" },
+            { "id": "r", "x": 430, "y": 238, "t": "R" },
+            { "id": "h3", "x": 430, "y": 82, "t": "H" },
+            { "id": "ya", "x": 540, "y": 160, "t": "{Rg:1}" },
+            { "id": "yb", "x": 620, "y": 160, "t": "{Rg:2}", "role": "rad" }
+          ],
+          "bonds": [
+            { "a": "xr", "b": "c1" },
+            { "a": "c1", "b": "c2" },
+            { "a": "c1", "b": "h1" },
+            { "a": "c1", "b": "h2" },
+            { "a": "c2", "b": "r" },
+            { "a": "c2", "b": "h3" },
+            { "a": "ya", "b": "yb" }
+          ],
+          "arrows": [
+            { "from": "c2", "to": "c2-ya", "half": true, "bend": 0.6 },
+            { "from": "ya-yb", "to": "c2-ya", "half": true, "bend": 0.7 },
+            { "from": "ya-yb", "to": "yb", "half": true, "bend": -0.9 }
+          ],
+          "text": [{ "x": 385, "y": 282, "t": "barqarorroq radikal", "cls": "note" }]
+        },
+        {
+          "title_uz": "Mahsulot va zanjir davomi",
+          "text_uz": "Birikish mahsuloti hosil bo'ldi; ajralgan {X} radikali yangi molekulaga hujum qilib zanjirni davom ettiradi. Zanjir radikallar o'zaro birikkanda uziladi.",
+          "atoms": [
+            { "id": "xr", "x": 200, "y": 160, "t": "{X:b}", "role": "rad" },
+            { "id": "c1", "x": 285, "y": 160, "t": "C" },
+            { "id": "c2", "x": 385, "y": 160, "t": "C" },
+            { "id": "h1", "x": 285, "y": 80, "t": "H" },
+            { "id": "h2", "x": 285, "y": 240, "t": "H" },
+            { "id": "r", "x": 385, "y": 240, "t": "R" },
+            { "id": "h3", "x": 385, "y": 80, "t": "H" },
+            { "id": "ya", "x": 470, "y": 160, "t": "{Rg:1}" },
+            { "id": "yb", "x": 640, "y": 160, "t": "{X:b}", "rad": "e", "role": "rad" }
+          ],
+          "bonds": [
+            { "a": "xr", "b": "c1" },
+            { "a": "c1", "b": "c2" },
+            { "a": "c1", "b": "h1" },
+            { "a": "c1", "b": "h2" },
+            { "a": "c2", "b": "r" },
+            { "a": "c2", "b": "h3" },
+            { "a": "c2", "b": "ya" }
+          ],
+          "text": [{ "x": 560, "y": 160, "t": "+", "cls": "plus" }, { "x": 640, "y": 240, "t": "zanjir davom etadi", "cls": "note" }]
+        }
+      ]
+    },
+    "SEAr": {
+      "name_uz": "Aromatik elektrofil almashinish S_EAr",
+      "summary_uz": "Aromatik halqaning π-elektron sekteti elektrofilga hujum qiladi: aromatiklik vaqtincha buziladi va σ-kompleks (arenoniy ioni) hosil bo'ladi; so'ng asos protonni tortib oladi va aromatiklik tiklanadi. Natija — birikish emas, almashinish. O'rinbosarlar halqani faollashtiradi va yo'naltiradi: I tur (–OH, –NH₂, –CH₃, galogenlar) — orto/para; II tur (–NO₂, –COOH, –SO₃H) — meta.",
+      "tokens": {
+        "E": { "param": "electrophile", "def": "E⁺" },
+        "Bs": { "param": "byproduct", "def": "B⁻", "map": { "HBr": "Br⁻", "HCl": "Cl⁻", "H2O": "HSO4⁻" }, "mapOnly": true },
+        "Z": { "param": "arene", "regex": ["^C6H5–?(.+)$"], "def": "" },
+        "Cat": { "param": "catalyst", "def": "", "formula": false, "max": 20 }
+      },
+      "legend": ["arene", "reagent", "catalyst", "electrophile", "sigma_complex", "product", "byproduct"],
+      "steps": [
+        {
+          "title_uz": "Elektrofil va π-sekstet",
+          "text_uz": "Reagent katalizator yordamida faollashib, kuchli elektrofil {E} hosil qiladi (masalan, Br₂ + FeBr₃ → Br⁺[FeBr₄]⁻; HNO₃ + H₂SO₄ → NO₂⁺). Halqaning π-elektronlari elektrofilga hujum qiladi.",
+          "atoms": [
+            { "id": "v0", "x": 250, "y": 102, "t": "" },
+            { "id": "v1", "x": 300.2, "y": 131, "t": "" },
+            { "id": "v2", "x": 300.2, "y": 189, "t": "" },
+            { "id": "v3", "x": 250, "y": 218, "t": "" },
+            { "id": "v4", "x": 199.8, "y": 189, "t": "" },
+            { "id": "v5", "x": 199.8, "y": 131, "t": "" },
+            { "id": "h", "x": 338.3, "y": 109, "t": "H" },
+            { "id": "z", "x": 160, "y": 212, "t": "{Z}", "if": "Z" },
+            { "id": "e", "x": 450, "y": 66, "t": "{E:b}", "charge": "{E:c|+}", "role": "e" }
+          ],
+          "bonds": [
+            { "a": "v0", "b": "v1", "o": 2 },
+            { "a": "v1", "b": "v2" },
+            { "a": "v2", "b": "v3", "o": 2 },
+            { "a": "v3", "b": "v4" },
+            { "a": "v4", "b": "v5", "o": 2 },
+            { "a": "v5", "b": "v0" },
+            { "a": "v1", "b": "h" },
+            { "a": "v4", "b": "z" }
+          ],
+          "arrows": [{ "from": "v0-v1", "to": "e", "bend": -0.55 }],
+          "text": [{ "x": 560, "y": 160, "t": "elektrofil: {E}", "cls": "note" }]
+        },
+        {
+          "title_uz": "σ-kompleks (arenoniy ioni)",
+          "text_uz": "Elektrofil bitta uglerod bilan σ-bog' hosil qildi; bu uglerod sp³ holatiga o'tdi va aromatiklik buzildi. Musbat zaryad qolgan beshta uglerod bo'ylab (orto- va para-holatlarda) delokallangan. Bu bosqich eng sekin.",
+          "atoms": [
+            { "id": "v0", "x": 250, "y": 102, "t": "" },
+            { "id": "v1", "x": 300.2, "y": 131, "t": "" },
+            { "id": "v2", "x": 300.2, "y": 189, "t": "" },
+            { "id": "v3", "x": 250, "y": 218, "t": "" },
+            { "id": "v4", "x": 199.8, "y": 189, "t": "" },
+            { "id": "v5", "x": 199.8, "y": 131, "t": "" },
+            { "id": "h", "x": 309.3, "y": 88, "t": "H" },
+            { "id": "z", "x": 160, "y": 212, "t": "{Z}", "if": "Z" },
+            { "id": "e", "x": 349.1, "y": 141.4, "t": "{E:b}", "role": "e" }
+          ],
+          "bonds": [
+            { "a": "v0", "b": "v1" },
+            { "a": "v1", "b": "v2" },
+            { "a": "v2", "b": "v3" },
+            { "a": "v3", "b": "v4" },
+            { "a": "v4", "b": "v5" },
+            { "a": "v5", "b": "v0" },
+            { "a": "v1", "b": "h" },
+            { "a": "v1", "b": "e" },
+            { "a": "v4", "b": "z" }
+          ],
+          "shapes": [{ "type": "arc", "cx": 250, "cy": 160, "r": 36, "a1": 25, "a2": 275, "dashed": true }],
+          "text": [{ "x": 242, "y": 166, "t": "+", "cls": "big" }, { "x": 560, "y": 160, "t": "σ-kompleks", "cls": "note" }],
+          "brackets": [{ "x1": 140, "y1": 50, "x2": 420, "y2": 262, "label": "" }]
+        },
+        {
+          "title_uz": "Deprotonlanish",
+          "text_uz": "Asos ({Bs}) sp³-uglerod atomidagi protonni tortib oladi; C–H bog'ining elektron jufti halqaga qaytadi va aromatik sekstet tiklanadi.",
+          "atoms": [
+            { "id": "v0", "x": 250, "y": 102, "t": "" },
+            { "id": "v1", "x": 300.2, "y": 131, "t": "" },
+            { "id": "v2", "x": 300.2, "y": 189, "t": "" },
+            { "id": "v3", "x": 250, "y": 218, "t": "" },
+            { "id": "v4", "x": 199.8, "y": 189, "t": "" },
+            { "id": "v5", "x": 199.8, "y": 131, "t": "" },
+            { "id": "h", "x": 309.3, "y": 88, "t": "H" },
+            { "id": "z", "x": 160, "y": 212, "t": "{Z}", "if": "Z" },
+            { "id": "e", "x": 349.1, "y": 141.4, "t": "{E:b}", "role": "e" },
+            { "id": "b", "x": 470, "y": 50, "t": "{Bs:b}", "charge": "{Bs:c}", "lp": ["w"], "role": "base" }
+          ],
+          "bonds": [
+            { "a": "v0", "b": "v1" },
+            { "a": "v1", "b": "v2" },
+            { "a": "v2", "b": "v3" },
+            { "a": "v3", "b": "v4" },
+            { "a": "v4", "b": "v5" },
+            { "a": "v5", "b": "v0" },
+            { "a": "v1", "b": "h" },
+            { "a": "v1", "b": "e" },
+            { "a": "v4", "b": "z" }
+          ],
+          "shapes": [{ "type": "arc", "cx": 250, "cy": 160, "r": 36, "a1": 25, "a2": 275, "dashed": true }],
+          "text": [{ "x": 242, "y": 166, "t": "+", "cls": "big" }],
+          "arrows": [{ "from": "b", "to": "h", "bend": 0.4 }, { "from": "v1-h", "to": "v1-v2", "bend": -0.7 }]
+        },
+        {
+          "title_uz": "Aromatik mahsulot",
+          "text_uz": "Aromatiklik tiklandi: vodorod atomi elektrofil bilan almashindi. Halqadagi o'rinbosar keyingi almashinish holatini belgilaydi: I tur — orto/para, II tur — meta.",
+          "atoms": [
+            { "id": "v0", "x": 250, "y": 102, "t": "" },
+            { "id": "v1", "x": 300.2, "y": 131, "t": "" },
+            { "id": "v2", "x": 300.2, "y": 189, "t": "" },
+            { "id": "v3", "x": 250, "y": 218, "t": "" },
+            { "id": "v4", "x": 199.8, "y": 189, "t": "" },
+            { "id": "v5", "x": 199.8, "y": 131, "t": "" },
+            { "id": "z", "x": 160, "y": 212, "t": "{Z}", "if": "Z" },
+            { "id": "e", "x": 343.5, "y": 106, "t": "{E:b}", "role": "e" },
+            { "id": "hb", "x": 520, "y": 60, "t": "H" },
+            { "id": "b", "x": 590, "y": 60, "t": "{Bs:b}", "charge": "{Bs:p}", "role": "base" }
+          ],
+          "bonds": [
+            { "a": "v0", "b": "v1" },
+            { "a": "v1", "b": "v2" },
+            { "a": "v2", "b": "v3" },
+            { "a": "v3", "b": "v4" },
+            { "a": "v4", "b": "v5" },
+            { "a": "v5", "b": "v0" },
+            { "a": "v1", "b": "e" },
+            { "a": "v4", "b": "z" },
+            { "a": "hb", "b": "b" }
+          ],
+          "shapes": [{ "type": "circle", "cx": 250, "cy": 160, "r": 36 }],
+          "text": [{ "x": 560, "y": 200, "t": "H → E almashinishi", "cls": "note" }]
+        }
+      ]
+    },
+    "AdN": {
+      "name_uz": "Karbonil guruhga nukleofil birikish Ad_N",
+      "summary_uz": "Karbonil guruhdagi C=O bog' qutblangan: uglerod δ+, kislorod δ−. Nukleofil δ+ uglerodga hujum qiladi, π-elektronlar kislorodga o'tadi va tetraedrik alkoksid-anion hosil bo'ladi; u protonlanib birikish mahsulotini beradi. Aldegidlar ketonlarga qaraganda faolroq.",
+      "tokens": {
+        "Nu": { "param": "nucleophile", "def": "Nu⁻" },
+        "R1": { "param": "carbonyl", "regex": ["^(.+?)–CHO$", "^(.+?)–CO–.+$"], "def": "R" },
+        "R2": { "param": "carbonyl", "regex": ["^.+?–C(H)O$", "^.+?–CO–(.+)$"], "def": "R'" }
+      },
+      "legend": ["carbonyl", "nucleophile", "intermediate", "product"],
+      "steps": [
+        {
+          "title_uz": "Nukleofil hujumi",
+          "text_uz": "{Nu} nukleofilining elektron jufti karbonil uglerodiga hujum qiladi; C=O π-bog'ining elektronlari kislorod atomiga siljiydi.",
+          "atoms": [
+            { "id": "nu", "x": 140, "y": 170, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["e"], "role": "nu" },
+            { "id": "c", "x": 340, "y": 170, "t": "C", "charge": "δ+" },
+            { "id": "o", "x": 340, "y": 76, "t": "O", "charge": "δ−", "lp": ["w", "e"] },
+            { "id": "r1", "x": 282, "y": 222, "t": "{R1}" },
+            { "id": "r2", "x": 398, "y": 222, "t": "{R2}" }
+          ],
+          "bonds": [{ "a": "c", "b": "o", "o": 2 }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }],
+          "arrows": [{ "from": "nu", "to": "c", "bend": 0.3 }, { "from": "c-o", "to": "o", "bend": -0.9 }],
+          "text": [{ "x": 560, "y": 170, "t": "C — sp² (tekis)", "cls": "note" }]
+        },
+        {
+          "title_uz": "Tetraedrik alkoksid-anion",
+          "text_uz": "Uglerod sp³ holatiga o'tdi, kislorodda manfiy zaryad paydo bo'ldi. Alkoksid kislorodi proton manbaidan (suv, kislota yoki reagentning o'zi) H⁺ ni tortib oladi.",
+          "atoms": [
+            { "id": "nu", "x": 240, "y": 170, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 340, "y": 170, "t": "C" },
+            { "id": "o", "x": 352, "y": 80, "t": "O", "charge": "−", "lp": ["w"] },
+            { "id": "r1", "x": 312, "y": 248, "t": "{R1}" },
+            { "id": "r2", "x": 410, "y": 232, "t": "{R2}" },
+            { "id": "ha", "x": 488, "y": 66, "t": "H" },
+            { "id": "a", "x": 560, "y": 66, "t": "A" }
+          ],
+          "bonds": [{ "a": "c", "b": "o" }, { "a": "c", "b": "nu" }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }, { "a": "ha", "b": "a" }],
+          "arrows": [{ "from": "o", "to": "ha", "bend": 0.4 }, { "from": "ha-a", "to": "a", "bend": 0.9 }],
+          "text": [{ "x": 524, "y": 110, "t": "H–A: proton manbai", "cls": "note" }]
+        },
+        {
+          "title_uz": "Birikish mahsuloti",
+          "text_uz": "Kislorod protonlanib, gidroksil guruh hosil bo'ldi. Umumiy natija: Nu va H qo'sh bog' bo'yicha birikdi (C=O → C–OH).",
+          "atoms": [
+            { "id": "nu", "x": 240, "y": 170, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 340, "y": 170, "t": "C" },
+            { "id": "o", "x": 352, "y": 80, "t": "O" },
+            { "id": "r1", "x": 312, "y": 248, "t": "{R1}" },
+            { "id": "r2", "x": 410, "y": 232, "t": "{R2}" },
+            { "id": "ha", "x": 420, "y": 56, "t": "H" },
+            { "id": "a", "x": 600, "y": 120, "t": "A", "charge": "−" }
+          ],
+          "bonds": [{ "a": "c", "b": "o" }, { "a": "c", "b": "nu" }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }, { "a": "o", "b": "ha" }],
+          "text": [{ "x": 560, "y": 220, "t": "sp² → sp³", "cls": "note" }]
+        }
+      ]
+    },
+    "atsil": {
+      "name_uz": "Atsil nukleofil almashinish",
+      "summary_uz": "Karbon kislotalar va ularning hosilalari (efirlar, angidridlar, xlorangidridlar, amidlar) uchun birikish–ajralish mexanizmi: nukleofil karbonil uglerodiga birikib tetraedrik oraliq birikma hosil qiladi, so'ng C=O tiklanib chiqib ketuvchi guruh ajraladi. Eterifikatsiya (kislota katalizi, qaytar), efir gidrolizi va sovunlanish (ishqoriy, qaytmas) shu yo'l bilan boradi.",
+      "tokens": {
+        "Nu": { "param": "nucleophile", "def": "Nu⁻" },
+        "L": { "param": "leaving", "def": "L⁻" },
+        "La": {
+          "param": "leaving",
+          "def": "L",
+          "map": { "H2O": "OH", "NH3": "NH2", "C2H5–OH": "OC2H5", "C2H5–O⁻": "OC2H5", "C2H5OH": "OC2H5", "CH3–OH": "OCH3" },
+          "mapOnly": true
+        },
+        "R": { "param": "acyl", "regex": ["^(.+?)–CO–"], "def": "R", "max": 10 }
+      },
+      "legend": ["acyl", "nucleophile", "intermediate", "leaving", "product"],
+      "steps": [
+        {
+          "title_uz": "Birikish: nukleofil hujumi",
+          "text_uz": "{Nu} karbonil uglerodiga hujum qiladi, π-elektronlar kislorodga o'tadi. Eterifikatsiyada kislota katalizatori avval C=O kislorodini protonlab, uglerodning δ+ zaryadini oshiradi.",
+          "atoms": [
+            { "id": "nu", "x": 130, "y": 170, "t": "{Nu:b}", "charge": "{Nu:c}", "lp": ["e"], "role": "nu" },
+            { "id": "c", "x": 330, "y": 170, "t": "C", "charge": "δ+" },
+            { "id": "o", "x": 330, "y": 76, "t": "O", "charge": "δ−", "lp": ["w", "e"] },
+            { "id": "r", "x": 268, "y": 224, "t": "{R}" },
+            { "id": "l", "x": 398, "y": 224, "t": "{La}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "c", "b": "o", "o": 2 }, { "a": "c", "b": "r" }, { "a": "c", "b": "l" }],
+          "arrows": [{ "from": "nu", "to": "c", "bend": 0.3 }, { "from": "c-o", "to": "o", "bend": -0.9 }]
+        },
+        {
+          "title_uz": "Tetraedrik oraliq birikma",
+          "text_uz": "sp³-uglerodli tetraedrik oraliq birikma hosil bo'ldi. Endi kislorodning elektron jufti qaytib C=O ni tiklaydi va eng yaxshi chiqib ketuvchi guruh ({L}) ajraladi.",
+          "atoms": [
+            { "id": "nu", "x": 230, "y": 160, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 330, "y": 170, "t": "C" },
+            { "id": "o", "x": 330, "y": 78, "t": "O", "charge": "−", "lp": ["w", "e"] },
+            { "id": "r", "x": 296, "y": 252, "t": "{R}" },
+            { "id": "l", "x": 420, "y": 228, "t": "{La}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "c", "b": "o" }, { "a": "c", "b": "nu" }, { "a": "c", "b": "r" }, { "a": "c", "b": "l" }],
+          "arrows": [{ "from": "o", "to": "c-o", "bend": 0.9, "fromOffset": [14, 0] }, { "from": "c-l", "to": "l", "bend": 0.6 }],
+          "brackets": [{ "x1": 170, "y1": 36, "x2": 480, "y2": 282, "label": "" }],
+          "text": [{ "x": 590, "y": 160, "t": "tetraedrik", "cls": "note" }, { "x": 590, "y": 182, "t": "oraliq birikma", "cls": "note" }]
+        },
+        {
+          "title_uz": "Ajralish: mahsulot",
+          "text_uz": "C=O tiklandi, {L} ajraldi — natijada atsil guruh {L} o'rniga {Nu} ga ko'chdi. Neytral nukleofil (spirt, suv) ishlatilganda oxirida H⁺ ajraladi; sovunlanishda karboksilat-anion hosil bo'lgani uchun reaksiya qaytmas.",
+          "atoms": [
+            { "id": "nu", "x": 236, "y": 170, "t": "{Nu:b}", "charge": "{Nu:p}", "role": "nu" },
+            { "id": "c", "x": 330, "y": 170, "t": "C" },
+            { "id": "o", "x": 330, "y": 78, "t": "O", "lp": ["w", "e"] },
+            { "id": "r", "x": 388, "y": 222, "t": "{R}" },
+            { "id": "l", "x": 580, "y": 240, "t": "{L:b}", "charge": "{L:c}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "c", "b": "o", "o": 2 }, { "a": "c", "b": "nu" }, { "a": "c", "b": "r" }],
+          "text": [{ "x": 560, "y": 110, "t": "birikish–ajralish", "cls": "note" }]
+        }
+      ]
+    },
+    "aldol": {
+      "name_uz": "Aldol kondensatsiya",
+      "summary_uz": "Ishqor ta'sirida karbonil birikmaning α-uglerodidan proton ajraladi va enolat-ion hosil bo'ladi. Enolat (C-nukleofil) ikkinchi molekulaning karbonil uglerodiga birikadi; alkoksid protonlanib β-gidroksialdegid (aldol) hosil bo'ladi. Qizdirilganda suv ajralib α,β-to'yinmagan aldegid olinadi (krotonli kondensatsiya).",
+      "tokens": { "R": { "param": "carbonyl", "regex": ["^(.+?)–CHO$", "^(.+?)–CO–"], "def": "R" }, "Bs": { "param": "base", "def": "OH⁻" } },
+      "legend": ["carbonyl", "enolate", "product"],
+      "steps": [
+        {
+          "title_uz": "Enolat hosil bo'lishi",
+          "text_uz": "{Bs} karbonil guruhga qo'shni (α) uglerod atomidagi protonni tortib oladi. α-H kislotali, chunki hosil bo'lgan anion C=O bilan rezonans orqali barqarorlashadi.",
+          "atoms": [
+            { "id": "b", "x": 90, "y": 60, "t": "{Bs:b}", "charge": "{Bs:c}", "lp": ["e"], "role": "base" },
+            { "id": "h", "x": 214, "y": 92, "t": "H" },
+            { "id": "ca", "x": 250, "y": 170, "t": "C" },
+            { "id": "h2", "x": 190, "y": 210, "t": "H" },
+            { "id": "h3", "x": 250, "y": 252, "t": "H" },
+            { "id": "c", "x": 350, "y": 170, "t": "C" },
+            { "id": "o", "x": 395, "y": 95, "t": "O", "lp": ["e"] },
+            { "id": "hc", "x": 400, "y": 240, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "ca", "b": "h" },
+            { "a": "ca", "b": "h2" },
+            { "a": "ca", "b": "h3" },
+            { "a": "ca", "b": "c" },
+            { "a": "c", "b": "o", "o": 2 },
+            { "a": "c", "b": "hc" }
+          ],
+          "arrows": [{ "from": "b", "to": "h", "bend": 0.35 }, { "from": "ca-h", "to": "ca-c", "bend": -0.8 }, { "from": "c-o", "to": "o", "bend": -0.8 }],
+          "text": [{ "x": 560, "y": 170, "t": "α-uglerod", "cls": "note" }]
+        },
+        {
+          "title_uz": "Enolat karbonilga hujum qiladi",
+          "text_uz": "Enolat-ionning manfiy α-uglerodi ikkinchi aldegid molekulasining karbonil uglerodiga hujum qiladi — yangi C–C bog' hosil bo'ladi.",
+          "atoms": [
+            { "id": "o", "x": 92, "y": 98, "t": "O" },
+            { "id": "c", "x": 130, "y": 170, "t": "C" },
+            { "id": "hc", "x": 92, "y": 238, "t": "H" },
+            { "id": "ca", "x": 225, "y": 170, "t": "C", "charge": "−", "lp": ["s"] },
+            { "id": "h2", "x": 225, "y": 92, "t": "H" },
+            { "id": "h3", "x": 290, "y": 236, "t": "H" },
+            { "id": "c2", "x": 430, "y": 170, "t": "C", "charge": "δ+" },
+            { "id": "o2", "x": 430, "y": 80, "t": "O", "charge": "δ−", "lp": ["w", "e"] },
+            { "id": "r2", "x": 490, "y": 218, "t": "{R}" },
+            { "id": "hc2", "x": 372, "y": 222, "t": "H" }
+          ],
+          "bonds": [
+            { "a": "o", "b": "c", "o": 2 },
+            { "a": "c", "b": "hc" },
+            { "a": "c", "b": "ca" },
+            { "a": "ca", "b": "h2" },
+            { "a": "ca", "b": "h3" },
+            { "a": "c2", "b": "o2", "o": 2 },
+            { "a": "c2", "b": "r2" },
+            { "a": "c2", "b": "hc2" }
+          ],
+          "arrows": [{ "from": "ca", "to": "c2", "bend": 0.35, "fromOffset": [10, 0] }, { "from": "c2-o2", "to": "o2", "bend": -0.9 }],
+          "text": [{ "x": 160, "y": 282, "t": "enolat-ion", "cls": "note" }]
+        },
+        {
+          "title_uz": "Alkoksid protonlanadi",
+          "text_uz": "Hosil bo'lgan alkoksid-anion suvdan protonni tortib oladi va gidroksid ioni qayta hosil bo'ladi (katalizator sarflanmaydi).",
+          "atoms": [
+            { "id": "o", "x": 92, "y": 98, "t": "O" },
+            { "id": "c", "x": 130, "y": 170, "t": "C" },
+            { "id": "hc", "x": 92, "y": 238, "t": "H" },
+            { "id": "ca", "x": 230, "y": 170, "t": "C" },
+            { "id": "h2", "x": 230, "y": 92, "t": "H" },
+            { "id": "h3", "x": 230, "y": 250, "t": "H" },
+            { "id": "c2", "x": 330, "y": 170, "t": "C" },
+            { "id": "o2", "x": 330, "y": 80, "t": "O", "charge": "−", "lp": ["w", "n"] },
+            { "id": "r2", "x": 380, "y": 236, "t": "{R}" },
+            { "id": "hc2", "x": 410, "y": 140, "t": "H" },
+            { "id": "hw", "x": 480, "y": 66, "t": "H" },
+            { "id": "ow", "x": 550, "y": 66, "t": "OH" }
+          ],
+          "bonds": [
+            { "a": "o", "b": "c", "o": 2 },
+            { "a": "c", "b": "hc" },
+            { "a": "c", "b": "ca" },
+            { "a": "ca", "b": "h2" },
+            { "a": "ca", "b": "h3" },
+            { "a": "ca", "b": "c2" },
+            { "a": "c2", "b": "o2" },
+            { "a": "c2", "b": "r2" },
+            { "a": "c2", "b": "hc2" },
+            { "a": "hw", "b": "ow" }
+          ],
+          "arrows": [{ "from": "o2", "to": "hw", "bend": 0.4 }, { "from": "hw-ow", "to": "ow", "bend": 0.9 }]
+        },
+        {
+          "title_uz": "Aldol (β-gidroksialdegid)",
+          "text_uz": "β-gidroksialdegid — aldol hosil bo'ldi. Qizdirilganda α-H va β-OH suv shaklida ajralib, α,β-to'yinmagan aldegid (masalan, krotonaldegid) hosil bo'ladi.",
+          "atoms": [
+            { "id": "o", "x": 92, "y": 98, "t": "O" },
+            { "id": "c", "x": 130, "y": 170, "t": "C" },
+            { "id": "hc", "x": 92, "y": 238, "t": "H" },
+            { "id": "ca", "x": 230, "y": 170, "t": "C" },
+            { "id": "h2", "x": 230, "y": 92, "t": "H" },
+            { "id": "h3", "x": 230, "y": 250, "t": "H" },
+            { "id": "c2", "x": 330, "y": 170, "t": "C" },
+            { "id": "o2", "x": 330, "y": 80, "t": "O" },
+            { "id": "r2", "x": 380, "y": 236, "t": "{R}" },
+            { "id": "hc2", "x": 410, "y": 140, "t": "H" },
+            { "id": "hw", "x": 388, "y": 60, "t": "H" },
+            { "id": "ow", "x": 600, "y": 90, "t": "OH", "charge": "−" }
+          ],
+          "bonds": [
+            { "a": "o", "b": "c", "o": 2 },
+            { "a": "c", "b": "hc" },
+            { "a": "c", "b": "ca" },
+            { "a": "ca", "b": "h2" },
+            { "a": "ca", "b": "h3" },
+            { "a": "ca", "b": "c2" },
+            { "a": "c2", "b": "o2" },
+            { "a": "c2", "b": "r2" },
+            { "a": "c2", "b": "hc2" },
+            { "a": "o2", "b": "hw" }
+          ],
+          "text": [
+            { "x": 560, "y": 220, "t": "aldol", "cls": "note" },
+            { "x": 330, "y": 290, "t": "β", "cls": "note" },
+            { "x": 230, "y": 290, "t": "α", "cls": "note" }
+          ]
+        }
+      ]
+    },
+    "oksidlanish": {
+      "name_uz": "Spirtlar va aldegidlarning oksidlanishi",
+      "summary_uz": "Oksidlanishda uglerod atomining oksidlanish darajasi ortadi: birlamchi spirt → aldegid → karbon kislota; ikkilamchi spirt → keton. Har bir bosqichda ikki vodorod atomi ajraladi (O–H dan proton, C–H dan gidrid oksidlovchiga o'tadi). Ketonlarda karbonil uglerodida H bo'lmagani uchun ular yumshoq oksidlovchilar bilan oksidlanmaydi — kumush ko'zgu va Feling reaksiyalari aldegidlarni ajratadi.",
+      "tokens": {
+        "R": { "param": ["substrate", "product"], "regex": ["^(.+?)–CH2–?OH$", "^(.+?)–CHO$", "^(.+?)–COO(?:H|⁻)$"], "def": "R", "max": 10 },
+        "Ox": { "param": "oxidant", "def": "[O]", "max": 10 }
+      },
+      "legend": ["substrate", "oxidant", "product"],
+      "steps": [
+        {
+          "title_uz": "Spirt → aldegid",
+          "text_uz": "Asos (B) O–H protonini oladi, O–H bog'ining elektronlari C=O π-bog'ini hosil qiladi, C–H bog'ining elektron jufti esa vodorod bilan birga (gidrid) oksidlovchiga ({Ox}) o'tadi. Uglerod: C⁻¹ → C⁺¹ (R — alkil bo'lganda).",
+          "atoms": [
+            { "id": "r", "x": 215, "y": 170, "t": "{R}" },
+            { "id": "c", "x": 310, "y": 170, "t": "C" },
+            { "id": "h1", "x": 310, "y": 92, "t": "H" },
+            { "id": "h2", "x": 310, "y": 250, "t": "H" },
+            { "id": "o", "x": 400, "y": 170, "t": "O", "lp": ["s"] },
+            { "id": "ho", "x": 455, "y": 120, "t": "H" },
+            { "id": "bb", "x": 560, "y": 70, "t": "B", "lp": ["w"], "role": "base" },
+            { "id": "ox", "x": 470, "y": 262, "t": "{Ox}", "role": "e" }
+          ],
+          "bonds": [{ "a": "r", "b": "c" }, { "a": "c", "b": "h1" }, { "a": "c", "b": "h2" }, { "a": "c", "b": "o" }, { "a": "o", "b": "ho" }],
+          "arrows": [{ "from": "bb", "to": "ho", "bend": 0.4 }, { "from": "o-ho", "to": "c-o", "bend": 0.9 }, { "from": "c-h2", "to": "h2-ox", "bend": -0.5 }]
+        },
+        {
+          "title_uz": "Aldegid gidratlanadi",
+          "text_uz": "Hosil bo'lgan aldegid suvli muhitda suv molekulasini biriktirib gidrat (gem-diol) hosil qiladi — unda yana C–H va O–H bog'lari bor.",
+          "atoms": [
+            { "id": "r", "x": 238, "y": 218, "t": "{R}" },
+            { "id": "c", "x": 310, "y": 170, "t": "C", "charge": "δ+" },
+            { "id": "h1", "x": 382, "y": 218, "t": "H" },
+            { "id": "o", "x": 310, "y": 80, "t": "O", "lp": ["w", "e"] },
+            { "id": "ow", "x": 140, "y": 170, "t": "H₂O", "lp": ["e"], "role": "nu" }
+          ],
+          "bonds": [{ "a": "r", "b": "c" }, { "a": "c", "b": "h1" }, { "a": "c", "b": "o", "o": 2 }],
+          "arrows": [{ "from": "ow", "to": "c", "bend": 0.35 }, { "from": "c-o", "to": "o", "bend": -0.9 }],
+          "text": [{ "x": 560, "y": 170, "t": "aldegid: C⁺¹", "cls": "note" }]
+        },
+        {
+          "title_uz": "Gidrat → karbon kislota",
+          "text_uz": "Gidratning C–H bog'i ham xuddi 1-bosqichdagidek oksidlanadi: proton asosga, gidrid oksidlovchiga o'tadi. Kumush ko'zgu reaksiyasida oksidlovchi Ag⁺ (Ag⁺ + e⁻ → Ag), Feling suyuqligida Cu²⁺ (→ Cu₂O).",
+          "atoms": [
+            { "id": "r", "x": 215, "y": 170, "t": "{R}" },
+            { "id": "c", "x": 310, "y": 170, "t": "C" },
+            { "id": "h1", "x": 310, "y": 250, "t": "H" },
+            { "id": "o", "x": 310, "y": 80, "t": "O" },
+            { "id": "hx", "x": 368, "y": 56, "t": "H" },
+            { "id": "ow", "x": 400, "y": 170, "t": "O", "lp": ["s"] },
+            { "id": "ho", "x": 455, "y": 120, "t": "H" },
+            { "id": "bb", "x": 560, "y": 70, "t": "B", "lp": ["w"], "role": "base" },
+            { "id": "ox", "x": 470, "y": 262, "t": "{Ox}", "role": "e" }
+          ],
+          "bonds": [
+            { "a": "r", "b": "c" },
+            { "a": "c", "b": "h1" },
+            { "a": "c", "b": "o" },
+            { "a": "o", "b": "hx" },
+            { "a": "c", "b": "ow" },
+            { "a": "ow", "b": "ho" }
+          ],
+          "arrows": [{ "from": "bb", "to": "ho", "bend": 0.4 }, { "from": "ow-ho", "to": "c-ow", "bend": 0.9 }, { "from": "c-h1", "to": "h1-ox", "bend": -0.5 }]
+        },
+        {
+          "title_uz": "Karbon kislota",
+          "text_uz": "Karboksil guruh hosil bo'ldi: uglerod C⁺³. Ishqoriy muhitda (kumush ko'zgu, Feling) kislota tuzi — karboksilat-anion holida bo'ladi. Oksidlovchi ({Ox}) bu vaqtda qaytariladi.",
+          "atoms": [
+            { "id": "r", "x": 225, "y": 170, "t": "{R}" },
+            { "id": "c", "x": 310, "y": 170, "t": "C" },
+            { "id": "o", "x": 310, "y": 80, "t": "O" },
+            { "id": "hx", "x": 368, "y": 56, "t": "H" },
+            { "id": "ow", "x": 380, "y": 215, "t": "O" }
+          ],
+          "bonds": [{ "a": "r", "b": "c" }, { "a": "c", "b": "o" }, { "a": "o", "b": "hx" }, { "a": "c", "b": "ow", "o": 2 }],
+          "text": [{ "x": 560, "y": 170, "t": "karbon kislota: C⁺³", "cls": "note" }]
+        }
+      ]
+    },
+    "qaytarilish": {
+      "name_uz": "Karbonil birikmalarning qaytarilishi",
+      "summary_uz": "Qaytarilishda uglerodning oksidlanish darajasi kamayadi. Katalitik gidrogenlashda (H₂, Ni/Pt/Pd) vodorod katalizator sirtida atomlarga ajralib qo'sh bog'ga bir tomondan birikadi: aldegid → birlamchi spirt, keton → ikkilamchi spirt, alken → alkan. Faol metallar (Na) elektron berib, O–H vodorodini H₂ gacha qaytaradi.",
+      "tokens": {
+        "Cat": { "param": "reductant", "regex": ["\\((.+?)\\)"], "def": "Ni", "max": 6 },
+        "R1": { "param": "substrate", "regex": ["^(.+?)–CHO$", "^(.+?)–CO–.+$"], "def": "R" },
+        "R2": { "param": "substrate", "regex": ["^.+?–C(H)O$", "^.+?–CO–(.+)$"], "def": "R'" }
+      },
+      "legend": ["substrate", "reductant", "product"],
+      "variants": {
+        "metall": {
+          "when": { "param": "reductant", "regex": "^(Na|K|Li|Ca|Mg)\\b" },
+          "tokens": { "M": { "param": "reductant", "def": "Na" }, "R": { "param": "substrate", "regex": ["^(.+?)O–H$", "^(.+?)–OH$"], "def": "R", "max": 10 } },
+          "steps": [
+            {
+              "title_uz": "Elektron ko'chishi",
+              "text_uz": "Faol metall ({M}) qaytaruvchi: o'zining valent elektronini O–H guruhidagi musbat qutblangan vodorodga beradi. O–H bog'ining elektron jufti kislorodda qoladi.",
+              "atoms": [
+                { "id": "m", "x": 110, "y": 150, "t": "{M:b}", "rad": "e", "role": "e" },
+                { "id": "r", "x": 300, "y": 150, "t": "{R}" },
+                { "id": "o", "x": 390, "y": 150, "t": "O", "lp": ["n", "s"] },
+                { "id": "h", "x": 470, "y": 150, "t": "H", "charge": "δ+" }
+              ],
+              "bonds": [{ "a": "r", "b": "o" }, { "a": "o", "b": "h" }],
+              "arrows": [{ "from": "m", "to": "h", "half": true, "bend": 0.4 }, { "from": "o-h", "to": "o", "bend": 0.9 }],
+              "text": [{ "x": 300, "y": 262, "t": "M⁰ − e⁻ → M⁺", "cls": "note" }]
+            },
+            {
+              "title_uz": "Alkogolyat va vodorod",
+              "text_uz": "Metall kationi va alkogolyat (fenolyat) anioni hosil bo'ldi; vodorod atomlari juftlashib H₂ gazini hosil qiladi: 2H⁰ → H₂↑. Umumiy: 2ROH + 2M → 2ROM + H₂↑.",
+              "atoms": [
+                { "id": "m", "x": 150, "y": 150, "t": "{M:b}", "charge": "+", "role": "e" },
+                { "id": "r", "x": 300, "y": 150, "t": "{R}" },
+                { "id": "o", "x": 390, "y": 150, "t": "O", "charge": "−", "lp": ["n", "s", "e"] },
+                { "id": "h", "x": 560, "y": 150, "t": "H", "rad": "w" },
+                { "id": "h2", "x": 640, "y": 150, "t": "H", "rad": "e", "ghost": true }
+              ],
+              "bonds": [{ "a": "r", "b": "o" }],
+              "arrows": [{ "from": "h", "to": "h-h2", "half": true, "bend": 0.9 }, { "from": "h2", "to": "h-h2", "half": true, "bend": -0.9 }],
+              "text": [{ "x": 600, "y": 220, "t": "2H• → H₂↑", "cls": "note" }]
+            }
+          ]
+        },
+        "alken": {
+          "when": { "param": "substrate", "regex": "=CH|C=C|≡|C6H6" },
+          "tokens": { "Cat": { "param": "reductant", "regex": ["\\((.+?)\\)"], "def": "Ni", "max": 6 } },
+          "steps": [
+            {
+              "title_uz": "H₂ katalizator sirtida",
+              "text_uz": "Vodorod molekulasi metall katalizator ({Cat}) sirtiga adsorbsiyalanadi va H–H bog'i zaiflashib, alohida H atomlariga ajraladi.",
+              "atoms": [{ "id": "ha", "x": 280, "y": 120, "t": "H" }, { "id": "hb", "x": 350, "y": 120, "t": "H" }],
+              "bonds": [{ "a": "ha", "b": "hb" }],
+              "arrows": [
+                { "from": "ha", "to": "ha", "kind": "move", "bend": 0.25, "toOffset": [-40, 100] },
+                { "from": "hb", "to": "hb", "kind": "move", "bend": -0.25, "toOffset": [40, 100] }
+              ],
+              "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }]
+            },
+            {
+              "title_uz": "Alken sirtga yotadi",
+              "text_uz": "To'yinmagan birikma π-bog'i bilan sirtga adsorbsiyalanadi. H atomlari qo'sh bog'ning bir tomonidan (sin-birikish) ketma-ket o'tadi.",
+              "atoms": [
+                { "id": "ha", "x": 280, "y": 230, "t": "H" },
+                { "id": "hb", "x": 400, "y": 230, "t": "H" },
+                { "id": "c1", "x": 285, "y": 150, "t": "C" },
+                { "id": "c2", "x": 395, "y": 150, "t": "C" },
+                { "id": "s1", "x": 230, "y": 100, "t": "H" },
+                { "id": "s2", "x": 200, "y": 160, "t": "H" },
+                { "id": "s3", "x": 450, "y": 100, "t": "R" },
+                { "id": "s4", "x": 480, "y": 160, "t": "H" }
+              ],
+              "bonds": [
+                { "a": "c1", "b": "c2", "o": 2 },
+                { "a": "c1", "b": "s1" },
+                { "a": "c1", "b": "s2" },
+                { "a": "c2", "b": "s3" },
+                { "a": "c2", "b": "s4" }
+              ],
+              "arrows": [{ "from": "ha", "to": "c1", "kind": "move", "bend": 0.4 }, { "from": "hb", "to": "c2", "kind": "move", "bend": -0.4 }],
+              "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }]
+            },
+            {
+              "title_uz": "To'yingan mahsulot",
+              "text_uz": "Ikki H atomi birikdi, π-bog' yo'qoldi; to'yingan mahsulot sirtdan ajraladi (desorbsiya). Uglerod atomlarining oksidlanish darajasi kamaydi — bu qaytarilish.",
+              "atoms": [
+                { "id": "ha", "x": 285, "y": 210, "t": "H" },
+                { "id": "hb", "x": 395, "y": 210, "t": "H" },
+                { "id": "c1", "x": 285, "y": 130, "t": "C" },
+                { "id": "c2", "x": 395, "y": 130, "t": "C" },
+                { "id": "s1", "x": 230, "y": 80, "t": "H" },
+                { "id": "s2", "x": 210, "y": 140, "t": "H" },
+                { "id": "s3", "x": 450, "y": 80, "t": "R" },
+                { "id": "s4", "x": 470, "y": 140, "t": "H" }
+              ],
+              "bonds": [
+                { "a": "c1", "b": "c2" },
+                { "a": "c1", "b": "s1" },
+                { "a": "c1", "b": "s2" },
+                { "a": "c2", "b": "s3" },
+                { "a": "c2", "b": "s4" },
+                { "a": "c1", "b": "ha" },
+                { "a": "c2", "b": "hb" }
+              ],
+              "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }],
+              "text": [{ "x": 560, "y": 60, "t": "sin-birikish", "cls": "note" }]
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "title_uz": "H₂ katalizator sirtida",
+          "text_uz": "Vodorod molekulasi metall katalizator ({Cat}) sirtiga adsorbsiyalanadi; H–H bog'i uzilib, sirt bilan bog'langan faol H atomlari hosil bo'ladi.",
+          "atoms": [{ "id": "ha", "x": 280, "y": 120, "t": "H" }, { "id": "hb", "x": 350, "y": 120, "t": "H" }],
+          "bonds": [{ "a": "ha", "b": "hb" }],
+          "arrows": [
+            { "from": "ha", "to": "ha", "kind": "move", "bend": 0.25, "toOffset": [-40, 100] },
+            { "from": "hb", "to": "hb", "kind": "move", "bend": -0.25, "toOffset": [40, 100] }
+          ],
+          "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }]
+        },
+        {
+          "title_uz": "Karbonil guruh adsorbsiyasi",
+          "text_uz": "C=O π-bog'i katalizator sirti bilan ta'sirlashib faollashadi. Ikkala H atomi bir tomondan ketma-ket uglerod va kislorodga o'tadi.",
+          "atoms": [
+            { "id": "ha", "x": 285, "y": 230, "t": "H" },
+            { "id": "hb", "x": 395, "y": 230, "t": "H" },
+            { "id": "c", "x": 285, "y": 150, "t": "C" },
+            { "id": "o", "x": 395, "y": 150, "t": "O", "lp": ["n", "e"] },
+            { "id": "r1", "x": 225, "y": 105, "t": "{R1}" },
+            { "id": "r2", "x": 210, "y": 170, "t": "{R2}" }
+          ],
+          "bonds": [{ "a": "c", "b": "o", "o": 2 }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }],
+          "arrows": [{ "from": "ha", "to": "c", "kind": "move", "bend": 0.4 }, { "from": "hb", "to": "o", "kind": "move", "bend": -0.4 }],
+          "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }]
+        },
+        {
+          "title_uz": "Spirt hosil bo'ldi",
+          "text_uz": "C=O → CH–OH: aldegiddan birlamchi, ketondan ikkilamchi spirt hosil bo'ladi. Karbonil uglerodining oksidlanish darajasi 2 birlikka kamayadi (masalan, C⁺¹ → C⁻¹).",
+          "atoms": [
+            { "id": "ha", "x": 285, "y": 200, "t": "H" },
+            { "id": "hb", "x": 445, "y": 165, "t": "H" },
+            { "id": "c", "x": 285, "y": 120, "t": "C" },
+            { "id": "o", "x": 395, "y": 120, "t": "O", "lp": ["n"] },
+            { "id": "r1", "x": 225, "y": 75, "t": "{R1}" },
+            { "id": "r2", "x": 205, "y": 140, "t": "{R2}" }
+          ],
+          "bonds": [{ "a": "c", "b": "o" }, { "a": "c", "b": "r1" }, { "a": "c", "b": "r2" }, { "a": "c", "b": "ha" }, { "a": "o", "b": "hb" }],
+          "shapes": [{ "type": "surface", "x1": 70, "x2": 650, "y": 252, "label": "{Cat}" }],
+          "text": [{ "x": 570, "y": 120, "t": "sin-birikish", "cls": "note" }]
+        }
+      ]
+    },
+    "polimer-radikal": {
+      "name_uz": "Radikal polimerlanish",
+      "summary_uz": "Zanjirli jarayon: initsirlanish — initsiator (peroksid, yorug'lik, issiqlik) radikal hosil qiladi va u monomerning qo'sh bog'iga birikadi; zanjir o'sishi — o'suvchi radikal ketma-ket monomer molekulalarini biriktiradi; zanjir uzilishi — ikki radikalning birikishi (rekombinatsiya) yoki disproporsionlanishi.",
+      "tokens": {
+        "In": { "param": "initiator", "def": "R", "max": 8 },
+        "Y1": { "param": "monomer", "regex": ["^CH2=CH–?([A-Z].*)$", "^(.+?)–CH=CH2$", "^CH2=C\\(CH3\\)–(.+)$", "^CH2=C(H)2$"], "def": "R", "max": 8 },
+        "Y2": { "param": "monomer", "regex": ["^CH2=C\\((CH3)\\)"], "def": "H" },
+        "M": { "param": "monomer", "def": "CH₂=CHR", "max": 24 },
+        "P": { "param": "polymer", "def": "(–CH₂–CHR–)n", "max": 30 }
+      },
+      "legend": ["monomer", "initiator", "radical", "polymer"],
+      "steps": [
+        {
+          "title_uz": "Initsirlanish",
+          "text_uz": "Initsiator parchalanib radikal hosil qiladi (masalan, peroksiddagi O–O bog'i uziladi). Radikal monomerning qo'sh bog'iga birikib, yangi — monomerli radikalni hosil qiladi.",
+          "atoms": [
+            { "id": "i1", "x": 110, "y": 70, "t": "{In:b}" },
+            { "id": "i2", "x": 200, "y": 70, "t": "{In:b}" },
+            { "id": "i3", "x": 440, "y": 70, "t": "{In:b}", "rad": "e", "role": "rad" },
+            { "id": "i4", "x": 90, "y": 200, "t": "{In:b}", "rad": "e", "role": "rad" },
+            { "id": "c1", "x": 210, "y": 200, "t": "CH2" },
+            { "id": "c2", "x": 305, "y": 200, "t": "C" },
+            { "id": "y1", "x": 305, "y": 135, "t": "{Y1}" },
+            { "id": "y2", "x": 305, "y": 265, "t": "{Y2}" },
+            { "id": "i5", "x": 450, "y": 200, "t": "{In:b}" },
+            { "id": "c3", "x": 535, "y": 200, "t": "CH2" },
+            { "id": "c4", "x": 625, "y": 200, "t": "C", "rad": "e", "role": "rad" },
+            { "id": "y3", "x": 625, "y": 135, "t": "{Y1}" },
+            { "id": "y4", "x": 625, "y": 265, "t": "{Y2}" }
+          ],
+          "bonds": [
+            { "a": "i1", "b": "i2" },
+            { "a": "c1", "b": "c2", "o": 2 },
+            { "a": "c2", "b": "y1" },
+            { "a": "c2", "b": "y2" },
+            { "a": "i5", "b": "c3" },
+            { "a": "c3", "b": "c4" },
+            { "a": "c4", "b": "y3" },
+            { "a": "c4", "b": "y4" }
+          ],
+          "arrows": [
+            { "from": "i1-i2", "to": "i1", "half": true, "bend": 0.9 },
+            { "from": "i1-i2", "to": "i2", "half": true, "bend": -0.9 },
+            { "from": "i4", "to": "i4-c1", "half": true, "bend": 0.8 },
+            { "from": "c1-c2", "to": "i4-c1", "half": true, "bend": 0.9 },
+            { "from": "c1-c2", "to": "c2", "half": true, "bend": -0.6 }
+          ],
+          "rxn": [{ "x1": 260, "y1": 70, "x2": 360, "y2": 70, "t": "t°, hν" }, { "x1": 355, "y1": 200, "x2": 405, "y2": 200 }],
+          "text": [{ "x": 405, "y": 70, "t": "2", "cls": "coef" }]
+        },
+        {
+          "title_uz": "Zanjirning o'sishi",
+          "text_uz": "O'suvchi radikal navbatdagi monomer molekulasining qo'sh bog'iga birikadi; radikal markaz zanjir uchiga ko'chadi. Bu bosqich minglab marta takrorlanadi.",
+          "atoms": [
+            { "id": "p", "x": 80, "y": 150, "t": "~CH2" },
+            { "id": "c", "x": 175, "y": 150, "t": "C", "rad": "e", "role": "rad" },
+            { "id": "y1", "x": 175, "y": 85, "t": "{Y1}" },
+            { "id": "y2", "x": 175, "y": 215, "t": "{Y2}" },
+            { "id": "m1", "x": 330, "y": 150, "t": "CH2" },
+            { "id": "m2", "x": 430, "y": 150, "t": "C" },
+            { "id": "y3", "x": 430, "y": 85, "t": "{Y1}" },
+            { "id": "y4", "x": 430, "y": 215, "t": "{Y2}" }
+          ],
+          "bonds": [
+            { "a": "p", "b": "c" },
+            { "a": "c", "b": "y1" },
+            { "a": "c", "b": "y2" },
+            { "a": "m1", "b": "m2", "o": 2 },
+            { "a": "m2", "b": "y3" },
+            { "a": "m2", "b": "y4" }
+          ],
+          "arrows": [
+            { "from": "c", "to": "c-m1", "half": true, "bend": 0.8 },
+            { "from": "m1-m2", "to": "c-m1", "half": true, "bend": 0.9 },
+            { "from": "m1-m2", "to": "m2", "half": true, "bend": -0.6 }
+          ],
+          "text": [{ "x": 590, "y": 150, "t": "× n marta", "cls": "note" }]
+        },
+        {
+          "title_uz": "O'sgan zanjir",
+          "text_uz": "Radikal markaz yangi biriktirilgan monomer bo'g'iniga ko'chdi, zanjir bir bo'g'inga uzaydi.",
+          "atoms": [
+            { "id": "p", "x": 80, "y": 150, "t": "~CH2" },
+            { "id": "c", "x": 175, "y": 150, "t": "C" },
+            { "id": "y1", "x": 175, "y": 85, "t": "{Y1}" },
+            { "id": "y2", "x": 175, "y": 215, "t": "{Y2}" },
+            { "id": "m1", "x": 270, "y": 150, "t": "CH2" },
+            { "id": "m2", "x": 370, "y": 150, "t": "C", "rad": "e", "role": "rad" },
+            { "id": "y3", "x": 370, "y": 85, "t": "{Y1}" },
+            { "id": "y4", "x": 370, "y": 215, "t": "{Y2}" }
+          ],
+          "bonds": [
+            { "a": "p", "b": "c" },
+            { "a": "c", "b": "y1" },
+            { "a": "c", "b": "y2" },
+            { "a": "c", "b": "m1" },
+            { "a": "m1", "b": "m2" },
+            { "a": "m2", "b": "y3" },
+            { "a": "m2", "b": "y4" }
+          ],
+          "text": [{ "x": 560, "y": 150, "t": "zanjir uzaydi", "cls": "note" }]
+        },
+        {
+          "title_uz": "Zanjirning uzilishi",
+          "text_uz": "Ikki o'suvchi radikal uchrashib birikadi (rekombinatsiya) yoki biri ikkinchisidan H atomini tortib oladi (disproporsionlanish). Natijada polimer: n {M} → {P}.",
+          "atoms": [
+            { "id": "a", "x": 120, "y": 120, "t": "~C", "rad": "e", "role": "rad" },
+            { "id": "b", "x": 240, "y": 120, "t": "C~", "rad": "w", "role": "rad" },
+            { "id": "a2", "x": 450, "y": 120, "t": "~C" },
+            { "id": "b2", "x": 530, "y": 120, "t": "C~" }
+          ],
+          "bonds": [{ "a": "a2", "b": "b2" }],
+          "arrows": [{ "from": "a", "to": "a-b", "half": true, "bend": 0.9 }, { "from": "b", "to": "a-b", "half": true, "bend": -0.9 }],
+          "rxn": [{ "x1": 300, "y1": 120, "x2": 390, "y2": 120, "t": "rekombinatsiya" }],
+          "text": [{ "x": 360, "y": 230, "t": "n {M}  →  {P}", "cls": "formula" }]
+        }
+      ]
+    },
+    "polimer-ion": {
+      "name_uz": "Ion polimerlanish",
+      "summary_uz": "Faol markaz — radikal emas, ion: anion polimerlanishda karbanion (initsiator — ishqoriy metallar, metallorganik birikmalar, NH₂⁻), kation polimerlanishda karbokation (initsiator — H⁺, BF₃, AlCl₃). Anion polimerlanishda aralashmalar bo'lmasa, zanjir uzilmaydi («tirik» polimerlar).",
+      "tokens": {
+        "In": { "param": "initiator", "def": "B⁻", "max": 8 },
+        "Y1": { "param": "monomer", "regex": ["^CH2=CH–?([A-Z].*)$", "^(.+?)–CH=CH2$", "^CH2=C\\(CH3\\)–(.+)$"], "def": "R", "max": 8 },
+        "Y2": { "param": "monomer", "regex": ["^CH2=C\\((CH3)\\)"], "def": "H" },
+        "M": { "param": "monomer", "def": "CH₂=CHR", "max": 24 },
+        "P": { "param": "polymer", "def": "(–CH₂–CHR–)n", "max": 30 }
+      },
+      "legend": ["monomer", "initiator", "polymer"],
+      "variants": {
+        "kation": {
+          "when": { "param": "initiator", "regex": "H⁺|BF3|AlCl3|H2SO4|kation" },
+          "tokens": {},
+          "steps": [
+            {
+              "title_uz": "Initsirlanish (kation)",
+              "text_uz": "Kislota (masalan, BF₃·H₂O dan H⁺) monomerning qo'sh bog'iga Markovnikov qoidasi bo'yicha birikadi va karbokation hosil bo'ladi.",
+              "atoms": [
+                { "id": "e", "x": 110, "y": 150, "t": "H", "charge": "+", "role": "e" },
+                { "id": "c1", "x": 260, "y": 150, "t": "CH2" },
+                { "id": "c2", "x": 360, "y": 150, "t": "C" },
+                { "id": "y1", "x": 360, "y": 85, "t": "{Y1}" },
+                { "id": "y2", "x": 360, "y": 215, "t": "{Y2}" }
+              ],
+              "bonds": [{ "a": "c1", "b": "c2", "o": 2 }, { "a": "c2", "b": "y1" }, { "a": "c2", "b": "y2" }],
+              "arrows": [{ "from": "c1-c2", "to": "e", "bend": 0.6 }]
+            },
+            {
+              "title_uz": "Zanjir o'sishi (kation)",
+              "text_uz": "Karbokation navbatdagi monomerning π-elektronlarini tortadi; musbat zaryad zanjir uchiga ko'chadi.",
+              "atoms": [
+                { "id": "e", "x": 90, "y": 150, "t": "H" },
+                { "id": "c1", "x": 170, "y": 150, "t": "CH2" },
+                { "id": "c2", "x": 265, "y": 150, "t": "C", "charge": "+" },
+                { "id": "y1", "x": 265, "y": 85, "t": "{Y1}" },
+                { "id": "y2", "x": 265, "y": 215, "t": "{Y2}" },
+                { "id": "m1", "x": 420, "y": 150, "t": "CH2" },
+                { "id": "m2", "x": 520, "y": 150, "t": "C" },
+                { "id": "y3", "x": 520, "y": 85, "t": "{Y1}" },
+                { "id": "y4", "x": 520, "y": 215, "t": "{Y2}" }
+              ],
+              "bonds": [
+                { "a": "e", "b": "c1" },
+                { "a": "c1", "b": "c2" },
+                { "a": "c2", "b": "y1" },
+                { "a": "c2", "b": "y2" },
+                { "a": "m1", "b": "m2", "o": 2 },
+                { "a": "m2", "b": "y3" },
+                { "a": "m2", "b": "y4" }
+              ],
+              "arrows": [{ "from": "m1-m2", "to": "c2", "bend": 0.5 }]
+            },
+            {
+              "title_uz": "Zanjir uzilishi (kation)",
+              "text_uz": "Zanjir karbokationdan proton ajralishi yoki qarshi ion bilan birikish natijasida uziladi.",
+              "atoms": [
+                { "id": "p", "x": 140, "y": 150, "t": "~CH2" },
+                { "id": "c2", "x": 240, "y": 150, "t": "C", "charge": "+" },
+                { "id": "y1", "x": 240, "y": 85, "t": "{Y1}" },
+                { "id": "y2", "x": 240, "y": 215, "t": "{Y2}" },
+                { "id": "a", "x": 420, "y": 150, "t": "A", "charge": "−", "lp": ["w"] }
+              ],
+              "bonds": [{ "a": "p", "b": "c2" }, { "a": "c2", "b": "y1" }, { "a": "c2", "b": "y2" }],
+              "arrows": [{ "from": "a", "to": "c2", "bend": 0.4 }],
+              "text": [{ "x": 360, "y": 270, "t": "n {M}  →  {P}", "cls": "formula" }]
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "title_uz": "Initsirlanish (anion)",
+          "text_uz": "Anion initsiator (B⁻: masalan, C₄H₉⁻, NH₂⁻; natriy esa elektron berib anion-radikal hosil qiladi) monomerning CH₂ uchiga hujum qiladi; π-elektronlar qo'shni uglerodga o'tib karbanion hosil bo'ladi.",
+          "atoms": [
+            { "id": "b", "x": 110, "y": 150, "t": "B", "charge": "−", "lp": ["e"], "role": "nu" },
+            { "id": "c1", "x": 260, "y": 150, "t": "CH2" },
+            { "id": "c2", "x": 360, "y": 150, "t": "C" },
+            { "id": "y1", "x": 360, "y": 85, "t": "{Y1}" },
+            { "id": "y2", "x": 360, "y": 215, "t": "{Y2}" }
+          ],
+          "bonds": [{ "a": "c1", "b": "c2", "o": 2 }, { "a": "c2", "b": "y1" }, { "a": "c2", "b": "y2" }],
+          "arrows": [{ "from": "b", "to": "c1", "bend": 0.4 }, { "from": "c1-c2", "to": "c2", "bend": 0.9 }],
+          "text": [{ "x": 560, "y": 150, "t": "initsiator: {In}", "cls": "note" }]
+        },
+        {
+          "title_uz": "Zanjir o'sishi",
+          "text_uz": "Karbanion navbatdagi monomer molekulasiga hujum qiladi; manfiy zaryad zanjirning o'suvchi uchiga ko'chadi.",
+          "atoms": [
+            { "id": "b", "x": 90, "y": 150, "t": "B", "role": "nu" },
+            { "id": "c1", "x": 170, "y": 150, "t": "CH2" },
+            { "id": "c2", "x": 265, "y": 150, "t": "C", "charge": "−", "lp": ["e"] },
+            { "id": "y1", "x": 265, "y": 85, "t": "{Y1}" },
+            { "id": "y2", "x": 265, "y": 215, "t": "{Y2}" },
+            { "id": "m1", "x": 420, "y": 150, "t": "CH2" },
+            { "id": "m2", "x": 520, "y": 150, "t": "C" },
+            { "id": "y3", "x": 520, "y": 85, "t": "{Y1}" },
+            { "id": "y4", "x": 520, "y": 215, "t": "{Y2}" }
+          ],
+          "bonds": [
+            { "a": "b", "b": "c1" },
+            { "a": "c1", "b": "c2" },
+            { "a": "c2", "b": "y1" },
+            { "a": "c2", "b": "y2" },
+            { "a": "m1", "b": "m2", "o": 2 },
+            { "a": "m2", "b": "y3" },
+            { "a": "m2", "b": "y4" }
+          ],
+          "arrows": [{ "from": "c2", "to": "m1", "bend": 0.4, "fromOffset": [12, 0] }, { "from": "m1-m2", "to": "m2", "bend": 0.9 }]
+        },
+        {
+          "title_uz": "Zanjir uzilishi",
+          "text_uz": "«Tirik» karbanion faqat proton manbai (suv, spirt, kislota) qo'shilganda so'nadi: karbanion protonni tortib oladi va zanjir o'sishi to'xtaydi.",
+          "atoms": [
+            { "id": "p", "x": 140, "y": 150, "t": "~CH2" },
+            { "id": "c2", "x": 240, "y": 150, "t": "C", "charge": "−", "lp": ["e"] },
+            { "id": "y1", "x": 240, "y": 85, "t": "{Y1}" },
+            { "id": "y2", "x": 240, "y": 215, "t": "{Y2}" },
+            { "id": "hw", "x": 400, "y": 150, "t": "H" },
+            { "id": "ow", "x": 470, "y": 150, "t": "OH" }
+          ],
+          "bonds": [{ "a": "p", "b": "c2" }, { "a": "c2", "b": "y1" }, { "a": "c2", "b": "y2" }, { "a": "hw", "b": "ow" }],
+          "arrows": [{ "from": "c2", "to": "hw", "bend": 0.4, "fromOffset": [12, 0] }, { "from": "hw-ow", "to": "ow", "bend": 0.9 }],
+          "text": [{ "x": 360, "y": 272, "t": "n {M}  →  {P}", "cls": "formula" }]
+        }
+      ]
+    },
+    "polikondensatlanish": {
+      "name_uz": "Polikondensatlanish",
+      "summary_uz": "Ikki (yoki undan ko'p) funksional guruhli monomerlar bosqichma-bosqich birikadi va har bir yangi bog' hosil bo'lganda kichik molekula (H₂O, HCl, NH₃) ajraladi. Shuning uchun polimerning element tarkibi monomerlar yig'indisidan farq qiladi. Misollar: fenolformaldegid smolalari, poliamidlar (neylon), poliefirlar (lavsan).",
+      "tokens": {
+        "M1": { "param": "monomer1", "def": "H–A–H", "max": 28 },
+        "M2": { "param": "monomer2", "def": "X–B–X", "max": 28 },
+        "P": { "param": "polymer", "def": "[–A–B–]n", "max": 32 },
+        "W": { "param": "byproduct", "def": "H2O" },
+        "Xg": { "param": "byproduct", "map": { "H2O": "OH", "HCl": "Cl", "NH3": "NH2" }, "mapOnly": true, "def": "OH" }
+      },
+      "legend": ["monomer1", "monomer2", "polymer", "byproduct"],
+      "steps": [
+        {
+          "title_uz": "Bifunksional monomerlar",
+          "text_uz": "Har bir monomerning ikkala uchida reaksiyaga kirishuvchi guruh bor: {M1} va {M2}. Bir monomerning H atomi va ikkinchisining {Xg} guruhi birga ajralib {W} hosil qiladi.",
+          "atoms": [
+            { "id": "ha", "x": 70, "y": 110, "t": "H" },
+            { "id": "a1", "x": 150, "y": 110, "t": "A", "box": true, "role": "nu" },
+            { "id": "ha2", "x": 230, "y": 110, "t": "H" },
+            { "id": "xb", "x": 420, "y": 110, "t": "{Xg}", "role": "lg" },
+            { "id": "b1", "x": 520, "y": 110, "t": "B", "box": true, "role": "e" },
+            { "id": "xb2", "x": 620, "y": 110, "t": "{Xg}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "ha", "b": "a1" }, { "a": "a1", "b": "ha2" }, { "a": "xb", "b": "b1" }, { "a": "b1", "b": "xb2" }],
+          "shapes": [{ "type": "oval", "cx": 325, "cy": 110, "rx": 125, "ry": 34 }],
+          "arrows": [{ "from": "ha2", "to": "xb", "kind": "move", "bend": 0.35 }],
+          "text": [{ "x": 325, "y": 205, "t": "{M1}   +   {M2}", "cls": "formula" }, { "x": 325, "y": 36, "t": "{W} ajraladi", "cls": "note" }]
+        },
+        {
+          "title_uz": "Dimer va kichik molekula",
+          "text_uz": "A va B qoldiqlari o'rtasida yangi kovalent bog' (masalan, amid –CO–NH– yoki efir –CO–O– bog'i) hosil bo'ldi, {W} molekulasi ajraldi. Dimer uchlarida yana reaksiyaga kirishuvchi guruhlar qoladi.",
+          "atoms": [
+            { "id": "ha", "x": 90, "y": 150, "t": "H" },
+            { "id": "a1", "x": 180, "y": 150, "t": "A", "box": true, "role": "nu" },
+            { "id": "b1", "x": 300, "y": 150, "t": "B", "box": true, "role": "e" },
+            { "id": "xb2", "x": 400, "y": 150, "t": "{Xg}", "role": "lg" },
+            { "id": "w", "x": 590, "y": 150, "t": "{W}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "ha", "b": "a1" }, { "a": "a1", "b": "b1", "s": "forming" }, { "a": "b1", "b": "xb2" }],
+          "text": [{ "x": 520, "y": 150, "t": "+", "cls": "plus" }]
+        },
+        {
+          "title_uz": "Polimer",
+          "text_uz": "Jarayon ko'p marta takrorlanib uzun zanjir hosil bo'ladi: {P}. Har n bo'g'in uchun (2n − 1) molekula {W} ajraladi; monomerlarning ekvimolyar nisbati uzun zanjir olish uchun muhim.",
+          "atoms": [
+            { "id": "l", "x": 150, "y": 150, "t": "" },
+            { "id": "a1", "x": 230, "y": 150, "t": "A", "box": true, "role": "nu" },
+            { "id": "b1", "x": 350, "y": 150, "t": "B", "box": true, "role": "e" },
+            { "id": "rr", "x": 430, "y": 150, "t": "" },
+            { "id": "w", "x": 590, "y": 150, "t": "(2n−1) {W}", "role": "lg" }
+          ],
+          "bonds": [{ "a": "l", "b": "a1" }, { "a": "a1", "b": "b1" }, { "a": "b1", "b": "rr" }],
+          "brackets": [{ "x1": 170, "y1": 105, "x2": 410, "y2": 195, "sub": "n" }],
+          "text": [{ "x": 510, "y": 150, "t": "+", "cls": "plus" }, { "x": 320, "y": 255, "t": "{P}", "cls": "formula" }]
+        }
+      ]
+    }
+  }
+}

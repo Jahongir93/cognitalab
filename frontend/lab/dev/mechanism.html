@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mexanizm paneli — sinov sahifasi</title>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/mechanism.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--c-bg); color: var(--c-text); font-family: var(--font-sans); }
+  .bar { position: sticky; top: 0; z-index: 5; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 10px 16px; background: var(--c-overlay); border-bottom: 1px solid var(--c-border); }
+  .bar h1 { font-size: 17px; margin: 0 12px 0 0; }
+  .bar label { font-size: 13px; color: var(--c-text-2); display: flex; gap: 6px; align-items: center; }
+  .bar select, .bar button { font: inherit; font-size: 13px; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--c-border-strong); background: var(--c-surface); color: var(--c-text); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: 16px; padding: 16px; }
+  .card h2 { font-size: 14px; margin: 0 0 6px; color: var(--c-text-2); font-weight: 600; }
+  .card h2 code { font-family: var(--font-mono); color: var(--c-text-3); font-weight: 400; }
+  .err { color: var(--c-danger); padding: 16px; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Mexanizm paneli</h1>
+  <label>Ko'rinish
+    <select id="filter">
+      <option value="all">Hammasi</option>
+      <option value="organic">Organik andozalar</option>
+      <option value="inorganic">Anorganik turlar</option>
+    </select>
+  </label>
+  <label>Mavzu
+    <select id="theme">
+      <option value="">Tizim</option>
+      <option value="light">Yorug'</option>
+      <option value="dark">Qorong'i</option>
+    </select>
+  </label>
+  <span id="count" style="font-size:13px;color:var(--c-text-3)"></span>
+</div>
+<main class="grid" id="grid"></main>
+<script type="module">
+  // Ishlatish (frontend/lab dan serve qilinganda): /dev/mechanism.html
+  //   ?filter=organic|inorganic  ?ids=spirt-0010,neytr-0001  ?tab=anim|eq|balance|steps  ?step=1  ?theme=dark  ?tpl=SN2,SEAr
+  import { renderMechanism } from '../js/ui/mechanism.js';
+
+  const q = new URLSearchParams(location.search);
+  const grid = document.getElementById('grid');
+  const themeSel = document.getElementById('theme');
+  const filterSel = document.getElementById('filter');
+  const setTheme = (t) => { if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; };
+  themeSel.value = q.get('theme') || ''; setTheme(themeSel.value);
+  filterSel.value = q.get('filter') || 'all';
+  const reload = () => { const u = new URL(location.href); u.searchParams.set('filter', filterSel.value); if (themeSel.value) u.searchParams.set('theme', themeSel.value); else u.searchParams.delete('theme'); location.href = u.href; };
+  themeSel.addEventListener('change', () => setTheme(themeSel.value));
+  filterSel.addEventListener('change', reload);
+
+  // Har bir andoza (va variant) uchun namunaviy yozuvlar
+  const ORGANIC = ['spirt-0010', 'spirt-0011', 'uglevod-0023', 'spirt-0019', 'uglevod-0003', 'uglevod-0021', 'uglevod-0001',
+    'uglevod-0039', 'uglevod-0038', 'aldegid-0015', 'karbon-0016', 'aldegid-0019', 'spirt-0006', 'aldegid-0021', 'uglevod-0017', 'spirt-0001',
+    'polimer-0002', 'polimer-0009', 'polimer-0007'];
+  const INORGANIC_TYPES = ['neytrallanish', 'ion-almashinish', 'oksidlanish-qaytarilish', 'kompleks', 'gidroliz', 'elektroliz', 'galvanik',
+    'termik-parchalanish', 'birikish', "o'rin-olish", 'sifat-reaksiya', 'fizik'];
+
+  try {
+    const [mech, index] = await Promise.all([
+      fetch('../data/mechanisms.json').then((r) => r.json()),
+      fetch('../data/reactions/index.json').then((r) => r.json()),
+    ]);
+    const files = index.categories.map((c) => c.file);
+    const all = (await Promise.all(files.map((f) => fetch(`../data/reactions/${f}`).then((r) => r.json()).catch(() => ({ reactions: [] })))))
+      .flatMap((j) => j.reactions || j);
+    const byId = new Map(all.map((r) => [r.id, r]));
+
+    let picks = [];
+    if (q.get('ids')) picks = q.get('ids').split(',').map((id) => byId.get(id.trim())).filter(Boolean);
+    else {
+      if (filterSel.value !== 'inorganic') {
+        const seen = new Set();
+        for (const id of ORGANIC) { const r = byId.get(id); if (r) { picks.push(r); seen.add(r.mechanism.organic?.template); } }
+        // zaxira: ro'yxatda bo'lmagan andozalar uchun birinchi yozuv
+        for (const tid of Object.keys(mech.templates)) if (!seen.has(tid)) { const r = all.find((x) => x.mechanism?.organic?.template === tid); if (r) picks.push(r); }
+      }
+      if (filterSel.value !== 'organic') {
+        for (const t of INORGANIC_TYPES) {
+          // tenglamasi bor yozuvni afzal ko'ramiz
+          const r = all.find((x) => x.mechanism?.type === t && x.equation?.ionic_net && (t !== 'oksidlanish-qaytarilish' || x.equation.electron_balance))
+            || all.find((x) => x.mechanism?.type === t && x.equation?.molecular) || all.find((x) => x.mechanism?.type === t);
+          if (r) picks.push(r);
+        }
+      }
+    }
+    const tplFilter = q.get('tpl')?.split(',');
+    if (tplFilter) picks = picks.filter((r) => tplFilter.includes(r.mechanism?.organic?.template) || tplFilter.includes(r.mechanism?.type));
+
+    for (const r of picks) {
+      const card = document.createElement('article');
+      card.className = 'card';
+      const h2 = document.createElement('h2');
+      h2.textContent = `${r.title_uz} `;
+      const code = document.createElement('code');
+      code.textContent = `${r.id} · ${r.mechanism?.organic?.template || r.mechanism?.type}`;
+      h2.appendChild(code);
+      card.appendChild(h2);
+      grid.appendChild(card);
+      renderMechanism(card, r, mech, { tab: q.get('tab') || undefined, step: q.get('step') ? Number(q.get('step')) : 0 });
+    }
+    document.getElementById('count').textContent = `${picks.length} ta yozuv`;
+  } catch (e) {
+    const p = document.createElement('p'); p.className = 'err'; p.textContent = `Xato: ${e.message}`; grid.appendChild(p);
+    console.error(e);
+  }
+  window.__ready = true;
+</script>
+</body>
+</html>

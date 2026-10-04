@@ -2,7 +2,7 @@
 // Kimyoviy ma'lumotlar (moddalar nomi, tajriba matnlari) data/ fayllarida.
 export const uz = {
   app: { title: 'Virtual kimyo laboratoriyasi', short: 'Laboratoriya', loading: 'Laboratoriya yuklanmoqda…', loadingData: "Ma'lumotlar yuklanmoqda…", error: 'Yuklashda xato', webglMissing: "Brauzeringiz WebGL'ni qo'llab-quvvatlamaydi yoki u o'chirilgan. Laboratoriya ishlashi uchun WebGL kerak." },
-  mode: { guided: "Yo'riqnomali tajriba", free: 'Erkin laboratoriya', demo: "Ko'rgazma rejimi" },
+  mode: { guided: "Yo'riqnomali tajriba", free: 'Erkin laboratoriya', guidedShort: "Yo'riqnoma", freeShort: 'Erkin', demo: "Ko'rgazma rejimi" },
   toolbar: {
     catalog: 'Tajribalar', reagents: 'Reaktivlar', equipment: 'Jihozlar', templates: 'Asboblar', journal: 'Jurnal', settings: 'Sozlamalar',
     save: 'Saqlash', load: 'Ochish', reset: 'Stolni tozalash', view: "Umumiy ko'rinish", help: 'Yordam', time: 'Vaqt',

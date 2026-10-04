@@ -50,8 +50,8 @@ export class LabUI {
     const tb = h('header', { class: 'toolbar', role: 'toolbar', 'aria-label': t('app.title') });
     const brand = h('div', { class: 'brand' }, icon('atom', 22), h('span', { class: 'brand-text' }, t('app.short')));
     this.modeBtn = h('div', { class: 'seg', role: 'group', 'aria-label': 'Rejim' },
-      h('button', { class: 'seg-btn', 'data-mode': 'free', 'aria-pressed': 'true', onclick: () => this.setMode('free') }, t('mode.free')),
-      h('button', { class: 'seg-btn', 'data-mode': 'guided', 'aria-pressed': 'false', onclick: () => this.setMode('guided') }, t('mode.guided')));
+      h('button', { class: 'seg-btn', 'data-mode': 'free', 'aria-pressed': 'true', 'aria-label': t('mode.free'), onclick: () => this.setMode('free') }, h('span', { class: 'seg-long' }, t('mode.free')), h('span', { class: 'seg-short' }, t('mode.freeShort'))),
+      h('button', { class: 'seg-btn', 'data-mode': 'guided', 'aria-pressed': 'false', 'aria-label': t('mode.guided'), onclick: () => this.setMode('guided') }, h('span', { class: 'seg-long' }, t('mode.guided')), h('span', { class: 'seg-short' }, t('mode.guidedShort'))));
     const tbtn = (key, ic, fn, extra = {}) => h('button', { class: 'tb-btn', title: t(key), 'aria-label': t(key), onclick: fn, ...extra }, icon(ic), h('span', { class: 'tb-label' }, t(key)));
     this.tbButtons = {
       catalog: tbtn('toolbar.catalog', 'book', () => this.openPanel('catalog')),
