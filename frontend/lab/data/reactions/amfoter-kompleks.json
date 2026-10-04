@@ -1,0 +1,3439 @@
+{
+ "category": "amfoter-kompleks",
+ "reactions": [
+  {
+   "id": "amfot-0001",
+   "category": "amfoter-kompleks",
+   "title_uz": "Rux gidroksidni olish (rux sulfat va ishqor)",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "ZnSO4 + 2NaOH = Zn(OH)2↓ + Na2SO4",
+    "ionic_full": "Zn²⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = Zn(OH)2↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Zn²⁺ + 2OH⁻ = Zn(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada Zn²⁺ va OH⁻ ionlari uchrashadi.",
+     "Ular erimaydigan rux gidroksidni hosil qilib, cho'kmaga tushadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Zn(OH)2",
+     "color": "#f4f6f6",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml rux sulfat eritmasi quying.",
+    "Tomizgich bilan natriy gidroksid eritmasini tomchilab qo'shing.",
+    "Cho'kma hosil bo'lishini kuzating. Cho'kmani keyingi tajribalar uchun ikki probirkaga bo'ling."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Rux tuzlariga ishqor qo'shilganda erimaydigan rux gidroksid cho'kadi. Ishqor ehtiyotkorlik bilan, tomchilab qo'shiladi, chunki ortiqcha ishqorda cho'kma eriydi.",
+   "questions_uz": [
+    "Nima uchun ishqorni tomchilab qo'shish kerak?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0002",
+   "category": "amfoter-kompleks",
+   "title_uz": "Rux gidroksidning xlorid kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Oldingi tajribada olingan yangi cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Zn(OH)2 + 2HCl = ZnCl2 + 2H2O",
+    "ionic_full": "Zn(OH)2 + 2H⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + 2H2O",
+    "ionic_net": "Zn(OH)2 + 2H⁺ = Zn²⁺ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Zn(OH)2 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma kislotada eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Rux gidroksid cho'kmasi bo'lgan probirkaga tomizgich bilan xlorid kislota qo'shing.",
+    "Probirkani chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Rux gidroksid kislotalar bilan reaksiyada asos xossasini namoyon qiladi: tuz va suv hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada Zn(OH)2 qanday xossani namoyon qiladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0003",
+   "category": "amfoter-kompleks",
+   "title_uz": "Rux gidroksidning natriy gidroksid eritmasida erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Oldingi tajribada olingan yangi cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Zn(OH)2 + 2NaOH = Na2[Zn(OH)4]",
+    "ionic_full": "Zn(OH)2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + [Zn(OH)4]²⁻",
+    "ionic_net": "Zn(OH)2 + 2OH⁻ = [Zn(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan ta'sirlashganda Zn(OH)2 kislota xossasini namoyon qiladi.",
+     "Zn²⁺ markaziy ioni atrofida to'rtta OH⁻ ligand joylashib [Zn(OH)4]²⁻ kompleks ioni hosil bo'ladi.",
+     "Kompleks ion suvda eriydi, shuning uchun cho'kma yo'qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma ishqorning ortiqcha miqdorida eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Rux gidroksid cho'kmasi bo'lgan ikkinchi probirkaga tomizgich bilan natriy gidroksid eritmasi qo'shing.",
+    "Probirkani chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Rux gidroksid ham kislotalarda, ham ishqorlarda eriydi — demak, u amfoter gidroksid. Ishqorda natriy tetragidroksosinkat — kompleks tuz hosil bo'ladi.",
+   "questions_uz": [
+    "Amfoter gidroksid deb nimaga aytiladi?",
+    "[Zn(OH)4]²⁻ ionida markaziy ion, ligand va koordinatsion sonni ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0004",
+   "category": "amfoter-kompleks",
+   "title_uz": "Rux sulfat eritmasiga ishqorni bosqichma-bosqich qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor avval oz-ozdan, keyin ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "ZnSO4 + 4NaOH = Na2[Zn(OH)4] + Na2SO4",
+    "ionic_full": "Zn²⁺ + SO4²⁻ + 4Na⁺ + 4OH⁻ = 4Na⁺ + [Zn(OH)4]²⁻ + SO4²⁻",
+    "ionic_net": "Zn²⁺ + 4OH⁻ = [Zn(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Birinchi tomchilarda Zn(OH)2 cho'kmasi hosil bo'ladi: Zn²⁺ + 2OH⁻ = Zn(OH)2↓.",
+     "Ishqor ortiqcha bo'lganda cho'kma OH⁻ ionlarini biriktiradi: Zn(OH)2 + 2OH⁻ = [Zn(OH)4]²⁻.",
+     "Kompleks ion eriydi va eritma yana tiniq bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq iviqsimon cho'kma hosil bo'ladi, ishqor qo'shishni davom ettirganda u eriydi va eritma tiniq bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Ishqor qo'shishni cho'kma to'liq erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Amfoter gidroksid hosil qiluvchi metall tuziga ishqor qo'shilganda natija ishqor miqdoriga bog'liq: kam bo'lsa — gidroksid cho'kadi, ortiqcha bo'lsa — eriydigan gidroksokompleks hosil bo'ladi. Shuning uchun rux gidroksidni olishda ishqor tomchilab qo'shiladi.",
+   "questions_uz": [
+    "Cho'kma hosil bo'lishi va erishining ionli tenglamalarini alohida yozing.",
+    "ZnSO4 va NaOH ning qanday mol nisbatida cho'kma to'liq eriydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0005",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksosinkat eritmasiga kislotani oz miqdorda qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2[Zn(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Na2[Zn(OH)4] + 2HCl = Zn(OH)2↓ + 2NaCl + 2H2O",
+    "ionic_full": "2Na⁺ + [Zn(OH)4]²⁻ + 2H⁺ + 2Cl⁻ = Zn(OH)2↓ + 2Na⁺ + 2Cl⁻ + 2H2O",
+    "ionic_net": "[Zn(OH)4]²⁻ + 2H⁺ = Zn(OH)2↓ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "H⁺ ionlari kompleks tarkibidagi ikkita OH⁻ ligandini suvga aylantiradi.",
+     "Kompleks parchalanadi va erimaydigan Zn(OH)2 cho'kmaga tushadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Zn(OH)2",
+     "color": "#f4f6f6",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritmada oq iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy tetragidroksosinkat eritmasi quying.",
+    "Tomizgich bilan xlorid kislotani tomchilab qo'shing.",
+    "Cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Gidroksokompleks kislota ta'sirida parchalanadi. Kislota kam bo'lganda amfoter gidroksid qayta cho'kadi; kislota ortiqcha bo'lsa, u ham eriydi.",
+   "questions_uz": [
+    "Kislota ortiqcha qo'shilsa nima kuzatiladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0006",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksosinkat eritmasiga ortiqcha kislota qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2[Zn(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Na2[Zn(OH)4] + 4HCl = ZnCl2 + 2NaCl + 4H2O",
+    "ionic_full": "2Na⁺ + [Zn(OH)4]²⁻ + 4H⁺ + 4Cl⁻ = Zn²⁺ + 2Cl⁻ + 2Na⁺ + 2Cl⁻ + 4H2O",
+    "ionic_net": "[Zn(OH)4]²⁻ + 4H⁺ = Zn²⁺ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Birinchi tomchilarda Zn(OH)2 cho'kmasi hosil bo'ladi.",
+     "Kislota ortiqcha bo'lganda Zn(OH)2 asos sifatida eriydi va Zn²⁺ ionlari hosil bo'ladi.",
+     "Natijada barcha to'rtta OH⁻ ligand suvga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq cho'kma hosil bo'ladi, kislota qo'shishni davom ettirganda u eriydi va eritma tiniq bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy tetragidroksosinkat eritmasi quying.",
+    "Xlorid kislotani tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Kislota qo'shishni cho'kma erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Gidroksokompleks eritmasiga kislota qo'shilganda ham natija kislota miqdoriga bog'liq. Ortiqcha kislotada rux gidroksid erib, oddiy rux tuzi hosil bo'ladi.",
+   "questions_uz": [
+    "Kompleks eritmasiga kislota qo'shilganda nima uchun cho'kma avval hosil bo'lib, keyin eriydi?",
+    "To'liq ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0007",
+   "category": "amfoter-kompleks",
+   "title_uz": "Alyuminiy gidroksidni olish (alyuminiy xlorid va ishqor)",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AlCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "AlCl3 + 3NaOH = Al(OH)3↓ + 3NaCl",
+    "ionic_full": "Al³⁺ + 3Cl⁻ + 3Na⁺ + 3OH⁻ = Al(OH)3↓ + 3Na⁺ + 3Cl⁻",
+    "ionic_net": "Al³⁺ + 3OH⁻ = Al(OH)3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada Al³⁺ va OH⁻ ionlari uchrashadi.",
+     "Erimaydigan alyuminiy gidroksid hosil bo'lib cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon (kisel ko'rinishidagi) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml alyuminiy xlorid eritmasi quying.",
+    "Tomizgich bilan natriy gidroksid eritmasini tomchilab qo'shing.",
+    "Cho'kmani kuzating va keyingi tajribalar uchun ikki probirkaga bo'ling."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Alyuminiy tuzlariga ishqor qo'shilganda oq iviqsimon alyuminiy gidroksid cho'kadi. Ishqor ortiqcha bo'lsa, cho'kma eriydi.",
+   "questions_uz": [
+    "Alyuminiy gidroksidni olishda nima uchun ishqor emas, ammiak eritmasi qulayroq?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0008",
+   "category": "amfoter-kompleks",
+   "title_uz": "Alyuminiy gidroksidning xlorid kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al(OH)3",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Al(OH)3 + 3HCl = AlCl3 + 3H2O",
+    "ionic_full": "Al(OH)3 + 3H⁺ + 3Cl⁻ = Al³⁺ + 3Cl⁻ + 3H2O",
+    "ionic_net": "Al(OH)3 + 3H⁺ = Al³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Al(OH)3 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma kislotada eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Alyuminiy gidroksid cho'kmasi bo'lgan probirkaga xlorid kislota tomizing.",
+    "Chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Alyuminiy gidroksid kislotalar bilan asos sifatida reaksiyaga kirishib tuz va suv hosil qiladi. Oshqozon kislotaliligini kamaytiruvchi dorilar tarkibida Al(OH)3 bo'lishi shu xossaga asoslangan.",
+   "questions_uz": [
+    "Al(OH)3 bu reaksiyada qanday xossani namoyon qiladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0009",
+   "category": "amfoter-kompleks",
+   "title_uz": "Alyuminiy gidroksidning natriy gidroksid eritmasida erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al(OH)3",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Al(OH)3 + NaOH = Na[Al(OH)4]",
+    "ionic_full": "Al(OH)3 + Na⁺ + OH⁻ = Na⁺ + [Al(OH)4]⁻",
+    "ionic_net": "Al(OH)3 + OH⁻ = [Al(OH)4]⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan Al(OH)3 kislota xossasini namoyon qiladi.",
+     "Al³⁺ atrofida to'rtinchi OH⁻ ligand joylashib [Al(OH)4]⁻ kompleks ioni hosil bo'ladi.",
+     "Kompleks ion suvda eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma ishqorda eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Alyuminiy gidroksid cho'kmasi bo'lgan ikkinchi probirkaga natriy gidroksid eritmasi tomizing.",
+    "Chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Alyuminiy gidroksid ishqorlarda erib natriy tetragidroksoalyuminat hosil qiladi. Kislotada ham, ishqorda ham erishi uning amfoter ekanligini ko'rsatadi.",
+   "questions_uz": [
+    "Al(OH)3 ning amfoterligini isbotlovchi ikki tenglamani yozing.",
+    "Na[Al(OH)4] ni nomlang va kompleks ionni ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0010",
+   "category": "amfoter-kompleks",
+   "title_uz": "Alyuminiy xlorid eritmasiga ishqorni bosqichma-bosqich qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AlCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor avval tomchilab, keyin ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "AlCl3 + 4NaOH = Na[Al(OH)4] + 3NaCl",
+    "ionic_full": "Al³⁺ + 3Cl⁻ + 4Na⁺ + 4OH⁻ = Na⁺ + [Al(OH)4]⁻ + 3Na⁺ + 3Cl⁻",
+    "ionic_net": "Al³⁺ + 4OH⁻ = [Al(OH)4]⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval Al(OH)3 cho'kmasi hosil bo'ladi: Al³⁺ + 3OH⁻ = Al(OH)3↓.",
+     "Ishqor ortiqcha bo'lganda: Al(OH)3 + OH⁻ = [Al(OH)4]⁻.",
+     "Eritma yana tiniq bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq iviqsimon cho'kma hosil bo'ladi, ishqor qo'shish davom ettirilganda u eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml alyuminiy xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shing va cho'kmani kuzating.",
+    "Ishqor qo'shishni cho'kma erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Alyuminiy tuziga qo'shilgan ishqor miqdori kam bo'lsa gidroksid cho'kadi, ortiqcha bo'lsa — eriydigan gidroksokompleks hosil bo'ladi. Bu xossa alyuminiy ionini magniy ionidan farqlashda ishlatiladi.",
+   "questions_uz": [
+    "AlCl3 va NaOH ning qanday mol nisbatida cho'kma to'liq eriydi?",
+    "MgCl2 eritmasi bilan shu tajriba o'tkazilsa, natija qanday bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0011",
+   "category": "amfoter-kompleks",
+   "title_uz": "Alyuminiy xloridga ortiqcha ammiak eritmasi qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AlCl3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "AlCl3 + 3NH3·H2O = Al(OH)3↓ + 3NH4Cl",
+    "ionic_full": "Al³⁺ + 3Cl⁻ + 3NH3·H2O = Al(OH)3↓ + 3NH4⁺ + 3Cl⁻",
+    "ionic_net": "Al³⁺ + 3NH3·H2O = Al(OH)3↓ + 3NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Ammiak eritmasi kuchsiz asos: NH3·H2O ⇄ NH4⁺ + OH⁻.",
+     "Hosil bo'lgan OH⁻ ionlari Al³⁺ ni Al(OH)3 holida cho'ktiradi.",
+     "Ammiak eritmasida OH⁻ konsentratsiyasi past, Al³⁺ esa ammiak bilan kompleks hosil qilmaydi — cho'kma erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi va ammiak eritmasi ortiqcha qo'shilganda ham erimaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml alyuminiy xlorid eritmasi quying.",
+    "Ammiak eritmasini avval tomchilab, so'ng ortiqcha miqdorda qo'shing.",
+    "Cho'kmaning erimasligini kuzating."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Ammiak eritmasi kuchsiz asos bo'lgani uchun alyuminiy gidroksidni gidroksokompleksga aylantira olmaydi. Shuning uchun laboratoriyada Al(OH)3 ni olishda ishqor o'rniga ammiak eritmasi ishlatiladi. Rux gidroksid esa ortiqcha ammiakda ammiakat hosil qilib eriydi.",
+   "questions_uz": [
+    "Nima uchun Al(OH)3 ortiqcha ammiakda erimaydi?",
+    "Zn²⁺ va Al³⁺ ionlarini ammiak eritmasi yordamida qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0012",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksoalyuminat eritmasiga kislotani oz miqdorda qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na[Al(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Na[Al(OH)4] + HCl = Al(OH)3↓ + NaCl + H2O",
+    "ionic_full": "Na⁺ + [Al(OH)4]⁻ + H⁺ + Cl⁻ = Al(OH)3↓ + Na⁺ + Cl⁻ + H2O",
+    "ionic_net": "[Al(OH)4]⁻ + H⁺ = Al(OH)3↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "H⁺ ioni kompleks tarkibidagi bitta OH⁻ ligandini suvga aylantiradi.",
+     "Kompleks parchalanib, erimaydigan Al(OH)3 cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritmada oq iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy tetragidroksoalyuminat eritmasi quying.",
+    "Xlorid kislotani tomchilab qo'shing va cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Gidroksokompleks kislota ta'sirida parchalanadi va alyuminiy gidroksid qayta cho'kadi. Kislota ortiqcha qo'shilsa, cho'kma erib alyuminiy tuzi hosil bo'ladi.",
+   "questions_uz": [
+    "Kislota ortiqcha qo'shilsa nima bo'ladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0013",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksoalyuminat eritmasiga ortiqcha kislota qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na[Al(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Na[Al(OH)4] + 4HCl = AlCl3 + NaCl + 4H2O",
+    "ionic_full": "Na⁺ + [Al(OH)4]⁻ + 4H⁺ + 4Cl⁻ = Al³⁺ + 3Cl⁻ + Na⁺ + Cl⁻ + 4H2O",
+    "ionic_net": "[Al(OH)4]⁻ + 4H⁺ = Al³⁺ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Birinchi tomchilarda Al(OH)3 cho'kmasi hosil bo'ladi.",
+     "Kislota ortiqcha bo'lganda Al(OH)3 asos sifatida eriydi: Al(OH)3 + 3H⁺ = Al³⁺ + 3H2O."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq cho'kma hosil bo'ladi, kislota qo'shish davom ettirilganda u eriydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy tetragidroksoalyuminat eritmasi quying.",
+    "Xlorid kislotani tomchilab qo'shing va cho'kmani kuzating.",
+    "Kislota qo'shishni cho'kma erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Ortiqcha kuchli kislota gidroksokompleksni to'liq parchalab, alyuminiy tuziga aylantiradi. Shuning uchun aluminatdan Al(OH)3 olishda kuchli kislota o'rniga CO2 ishlatish qulay.",
+   "questions_uz": [
+    "Nima uchun aluminat eritmasidan Al(OH)3 olishda CO2 qulayroq?",
+    "To'liq ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0014",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksoalyuminat eritmasiga karbonat angidrid o'tkazish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na[Al(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 3
+    },
+    {
+     "species": "CO2",
+     "state": "g",
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na[Al(OH)4] + CO2 = Al(OH)3↓ + NaHCO3",
+    "ionic_full": "Na⁺ + [Al(OH)4]⁻ + CO2 = Al(OH)3↓ + Na⁺ + HCO3⁻",
+    "ionic_net": "[Al(OH)4]⁻ + CO2 = Al(OH)3↓ + HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "CO2 suvda kuchsiz karbonat kislota hosil qiladi.",
+     "U kompleksdagi OH⁻ ligandini neytrallab HCO3⁻ ga aylanadi.",
+     "Kompleks parchalanib Al(OH)3 cho'kadi; kuchsiz kislota ortiqcha bo'lsa ham gidroksid erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz o'tkazilganda eritmada oq iviqsimon cho'kma hosil bo'ladi; CO2 ortiqcha bo'lsa ham cho'kma erimaydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml natriy tetragidroksoalyuminat eritmasi quying.",
+    "Kipp apparatidan karbonat angidridni gaz o'tkazgich naycha orqali o'tkazing.",
+    "Cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Gaz o'tkazgich naychani suyuqlikdan chiqarib, so'ng gaz oqimini to'xtating.",
+   "explanation_uz": "Karbonat kislota juda kuchsiz bo'lgani uchun alyuminiy gidroksidni erita olmaydi, lekin gidroksokompleksni parchalashga yetarli. Sanoatda boksitdan olingan aluminat eritmasidan Al(OH)3 shu usulda ajratiladi.",
+   "questions_uz": [
+    "Nima uchun ortiqcha CO2 Al(OH)3 cho'kmasini eritmaydi?",
+    "Bu reaksiya sanoatda qayerda qo'llaniladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0015",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy tetragidroksoalyuminat eritmasining ammoniy xlorid bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na[Al(OH)4]",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiakni haydash uchun aralashma isitiladi."
+   },
+   "equation": {
+    "molecular": "Na[Al(OH)4] + NH4Cl = Al(OH)3↓ + NH3↑ + NaCl + H2O",
+    "ionic_full": "Na⁺ + [Al(OH)4]⁻ + NH4⁺ + Cl⁻ = Al(OH)3↓ + NH3↑ + Na⁺ + Cl⁻ + H2O",
+    "ionic_net": "[Al(OH)4]⁻ + NH4⁺ = Al(OH)3↓ + NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "NH4⁺ ioni kuchsiz kislota sifatida protonini kompleksdagi OH⁻ ligandiga beradi.",
+     "Kompleks parchalanib Al(OH)3 cho'kadi, NH4⁺ esa NH3 ga aylanadi.",
+     "Isitilganda ammiak gaz holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi; isitilganda ammiakning o'tkir hidi seziladi, ho'llangan qizil lakmus qog'ozi ko'karadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy tetragidroksoalyuminat eritmasi quying.",
+    "Unga 2 ml ammoniy xlorid eritmasi qo'shing va cho'kmani kuzating.",
+    "Probirkani biroz isiting va og'ziga ho'llangan qizil lakmus qog'ozini tuting."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing. Isitishda probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ammoniy ioni kuchsiz kislota bo'lib, gidroksokompleksni parchalaydi va alyuminiy gidroksidni cho'ktiradi. Bu reaksiya alyuminiyni eritmadan to'liq cho'ktirishda ishlatiladi.",
+   "questions_uz": [
+    "Bu reaksiyada NH4⁺ ioni qanday vazifani bajaradi?",
+    "Ajralgan ammiakni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0016",
+   "category": "amfoter-kompleks",
+   "title_uz": "Xrom(III) gidroksidni olish",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CrCl3",
+     "state": "aq",
+     "conc_M": 0.2,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CrCl3 + 3NaOH = Cr(OH)3↓ + 3NaCl",
+    "ionic_full": "Cr³⁺ + 3Cl⁻ + 3Na⁺ + 3OH⁻ = Cr(OH)3↓ + 3Na⁺ + 3Cl⁻",
+    "ionic_net": "Cr³⁺ + 3OH⁻ = Cr(OH)3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada Cr³⁺ va OH⁻ ionlari uchrashadi.",
+     "Erimaydigan xrom(III) gidroksid cho'kmaga tushadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cr(OH)3",
+     "color": "#6f8f6a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#5f8a6e",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Kulrang-yashil iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml xrom(III) xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shing.",
+    "Cho'kma rangini kuzating, cho'kmani ikki probirkaga bo'ling."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning. Xrom birikmalari zararli — qo'lqop taqing.",
+   "explanation_uz": "Xrom(III) tuzlariga ishqor qo'shilganda kulrang-yashil xrom(III) gidroksid cho'kadi. U ham rux va alyuminiy gidroksidlari kabi amfoter xossaga ega.",
+   "questions_uz": [
+    "Qisqartirilgan ionli tenglamani yozing.",
+    "Cr(OH)3 ning amfoterligini qanday tajriba bilan isbotlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0017",
+   "category": "amfoter-kompleks",
+   "title_uz": "Xrom(III) gidroksidning sulfat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cr(OH)3",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "2Cr(OH)3 + 3H2SO4 = Cr2(SO4)3 + 6H2O",
+    "ionic_full": "2Cr(OH)3 + 6H⁺ + 3SO4²⁻ = 2Cr³⁺ + 3SO4²⁻ + 6H2O",
+    "ionic_net": "Cr(OH)3 + 3H⁺ = Cr³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Cr(OH)3 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#5f8a6e"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Kulrang-yashil cho'kma kislotada eriydi, ko'kimtir-yashil eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Xrom(III) gidroksid cho'kmasi bo'lgan probirkaga suyultirilgan sulfat kislota tomizing.",
+    "Chayqatib, cho'kmaning erishini va eritma rangini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning. Xrom birikmalari zararli.",
+   "explanation_uz": "Xrom(III) gidroksid kislotalar bilan asos sifatida reaksiyaga kirishib xrom(III) tuzlarini hosil qiladi. Eritmaning rangi gidratlangan Cr³⁺ ionlariga bog'liq.",
+   "questions_uz": [
+    "Bu reaksiyada Cr(OH)3 qanday xossani namoyon qiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0018",
+   "category": "amfoter-kompleks",
+   "title_uz": "Xrom(III) xlorid eritmasiga ortiqcha ishqor qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CrCl3",
+     "state": "aq",
+     "conc_M": 0.2,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor avval tomchilab, keyin ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CrCl3 + 6NaOH = Na3[Cr(OH)6] + 3NaCl",
+    "ionic_full": "Cr³⁺ + 3Cl⁻ + 6Na⁺ + 6OH⁻ = 3Na⁺ + [Cr(OH)6]³⁻ + 3Na⁺ + 3Cl⁻",
+    "ionic_net": "Cr³⁺ + 6OH⁻ = [Cr(OH)6]³⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval kulrang-yashil Cr(OH)3 cho'kmasi hosil bo'ladi.",
+     "Ishqor ortiqcha bo'lganda Cr(OH)3 uchta OH⁻ ionini biriktiradi: Cr(OH)3 + 3OH⁻ = [Cr(OH)6]³⁻.",
+     "Geksagidroksoxromat(III) ioni eritmani zumrad-yashil rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#5f8a6e",
+     "to": "#3f9a4a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval kulrang-yashil cho'kma hosil bo'ladi, ortiqcha ishqorda u erib, zumrad-yashil eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml xrom(III) xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Ishqor qo'shishni cho'kma erib ketguncha davom ettiring va eritma rangini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning. Xrom birikmalari zararli.",
+   "explanation_uz": "Xrom(III) gidroksid ortiqcha ishqorda erib yashil geksagidroksoxromat(III) kompleksini hosil qiladi. Bu Cr(OH)3 ning amfoterligini ko'rsatadi.",
+   "questions_uz": [
+    "[Cr(OH)6]³⁻ ionida koordinatsion son nechaga teng?",
+    "Cho'kma hosil bo'lishi va erishining ionli tenglamalarini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0019",
+   "category": "amfoter-kompleks",
+   "title_uz": "Natriy geksagidroksoxromat(III) eritmasiga kislotani oz miqdorda qo'shish",
+   "level": "10-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na3[Cr(OH)6]",
+     "state": "aq",
+     "conc_M": 0.2,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Na3[Cr(OH)6] + 3HCl = Cr(OH)3↓ + 3NaCl + 3H2O",
+    "ionic_full": "3Na⁺ + [Cr(OH)6]³⁻ + 3H⁺ + 3Cl⁻ = Cr(OH)3↓ + 3Na⁺ + 3Cl⁻ + 3H2O",
+    "ionic_net": "[Cr(OH)6]³⁻ + 3H⁺ = Cr(OH)3↓ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "H⁺ ionlari kompleksdagi uchta OH⁻ ligandini suvga aylantiradi.",
+     "Kompleks parchalanib, kulrang-yashil Cr(OH)3 qayta cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cr(OH)3",
+     "color": "#6f8f6a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#3f9a4a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Zumrad-yashil eritmada kulrang-yashil cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy geksagidroksoxromat(III) eritmasi quying.",
+    "Xlorid kislotani tomchilab qo'shing.",
+    "Cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning. Xrom birikmalari zararli.",
+   "explanation_uz": "Gidroksokompleks kislota ta'sirida parchalanadi va amfoter gidroksid qayta cho'kadi. Kislota ortiqcha bo'lsa, cho'kma erib xrom(III) tuzi hosil bo'ladi.",
+   "questions_uz": [
+    "Kislota ortiqcha qo'shilsa qanday o'zgarish kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0020",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qo'rg'oshin(II) gidroksidni olish",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Pb(NO3)2 + 2NaOH = Pb(OH)2↓ + 2NaNO3",
+    "ionic_full": "Pb²⁺ + 2NO3⁻ + 2Na⁺ + 2OH⁻ = Pb(OH)2↓ + 2Na⁺ + 2NO3⁻",
+    "ionic_net": "Pb²⁺ + 2OH⁻ = Pb(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada Pb²⁺ va OH⁻ ionlari uchrashadi.",
+     "Erimaydigan oq qo'rg'oshin(II) gidroksid cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Pb(OH)2",
+     "color": "#f4f4f0",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml qo'rg'oshin(II) nitrat eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shing.",
+    "Cho'kmani kuzating va ikki probirkaga bo'ling."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: qo'lqopda ishlang, chiqindilarni alohida idishga yig'ing, ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Qo'rg'oshin(II) tuzlariga ishqor qo'shilganda oq qo'rg'oshin(II) gidroksid cho'kadi. U amfoter gidroksid bo'lgani uchun ortiqcha ishqorda eriydi.",
+   "questions_uz": [
+    "Qisqartirilgan ionli tenglamani yozing.",
+    "Pb(OH)2 ning amfoterligini isbotlovchi reaksiyalarni ayting."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0021",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qo'rg'oshin(II) gidroksidning nitrat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Pb(OH)2 + 2HNO3 = Pb(NO3)2 + 2H2O",
+    "ionic_full": "Pb(OH)2 + 2H⁺ + 2NO3⁻ = Pb²⁺ + 2NO3⁻ + 2H2O",
+    "ionic_net": "Pb(OH)2 + 2H⁺ = Pb²⁺ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Pb(OH)2 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma kislotada eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Qo'rg'oshin(II) gidroksid cho'kmasi bo'lgan probirkaga suyultirilgan nitrat kislota tomizing.",
+    "Chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: qo'lqopda ishlang, chiqindilarni alohida idishga yig'ing, ishdan so'ng qo'lni yuving. Nitrat kislota terini kuydiradi.",
+   "explanation_uz": "Qo'rg'oshin(II) gidroksid kislotalarda asos sifatida eriydi. Nitrat kislota tanlanadi, chunki xlorid va sulfat kislotalar bilan qo'rg'oshinning kam eriydigan tuzlari hosil bo'ladi.",
+   "questions_uz": [
+    "Nima uchun Pb(OH)2 ni eritish uchun H2SO4 ishlatilmaydi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0022",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qo'rg'oshin(II) gidroksidning natriy gidroksid eritmasida erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Pb(OH)2 + 2NaOH = Na2[Pb(OH)4]",
+    "ionic_full": "Pb(OH)2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + [Pb(OH)4]²⁻",
+    "ionic_net": "Pb(OH)2 + 2OH⁻ = [Pb(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan Pb(OH)2 kislota xossasini namoyon qiladi.",
+     "Pb²⁺ atrofida to'rtta OH⁻ ligand joylashib [Pb(OH)4]²⁻ kompleks ioni hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma ishqorda eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Qo'rg'oshin(II) gidroksid cho'kmasi bo'lgan ikkinchi probirkaga natriy gidroksid eritmasi tomizing.",
+    "Chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: qo'lqopda ishlang, chiqindilarni alohida idishga yig'ing, ishdan so'ng qo'lni yuving. Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Qo'rg'oshin(II) gidroksid ishqorda erib natriy tetragidroksoplyumbat(II) hosil qiladi. Kislotada ham, ishqorda ham erishi uning amfoterligini ko'rsatadi.",
+   "questions_uz": [
+    "Na2[Pb(OH)4] ni nomlang.",
+    "Pb(OH)2 ning amfoterligini isbotlovchi ikki tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0023",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qalay(II) gidroksidni olish",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "SnCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "SnCl2 + 2NaOH = Sn(OH)2↓ + 2NaCl",
+    "ionic_full": "Sn²⁺ + 2Cl⁻ + 2Na⁺ + 2OH⁻ = Sn(OH)2↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Sn²⁺ + 2OH⁻ = Sn(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada Sn²⁺ va OH⁻ ionlari uchrashadi.",
+     "Erimaydigan oq qalay(II) gidroksid cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Sn(OH)2",
+     "color": "#f4f4f0",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml qalay(II) xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shing.",
+    "Cho'kmani kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Qalay(II) tuzlariga ishqor qo'shilganda oq qalay(II) gidroksid cho'kadi. U amfoter gidroksid bo'lib, kislotalarda ham, ishqorlarda ham eriydi.",
+   "questions_uz": [
+    "Qisqartirilgan ionli tenglamani yozing.",
+    "Qaysi metallar amfoter gidroksidlar hosil qiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0024",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qalay(II) gidroksidning xlorid kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Sn(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Sn(OH)2 + 2HCl = SnCl2 + 2H2O",
+    "ionic_full": "Sn(OH)2 + 2H⁺ + 2Cl⁻ = Sn²⁺ + 2Cl⁻ + 2H2O",
+    "ionic_net": "Sn(OH)2 + 2H⁺ = Sn²⁺ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Sn(OH)2 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma kislotada eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Qalay(II) gidroksid cho'kmasi bo'lgan probirkaga xlorid kislota tomizing.",
+    "Chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Qalay(II) gidroksid kislotalarda asos sifatida erib qalay(II) tuzlarini hosil qiladi.",
+   "questions_uz": [
+    "Bu reaksiyada Sn(OH)2 qanday xossani namoyon qiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0025",
+   "category": "amfoter-kompleks",
+   "title_uz": "Qalay(II) xlorid eritmasiga ortiqcha ishqor qo'shish",
+   "level": "9-sinf",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "SnCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor avval tomchilab, keyin ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "SnCl2 + 4NaOH = Na2[Sn(OH)4] + 2NaCl",
+    "ionic_full": "Sn²⁺ + 2Cl⁻ + 4Na⁺ + 4OH⁻ = 2Na⁺ + [Sn(OH)4]²⁻ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Sn²⁺ + 4OH⁻ = [Sn(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval Sn(OH)2 cho'kmasi hosil bo'ladi.",
+     "Ortiqcha ishqorda cho'kma ikkita OH⁻ ionini biriktiradi: Sn(OH)2 + 2OH⁻ = [Sn(OH)4]²⁻."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq cho'kma hosil bo'ladi, ortiqcha ishqorda u eriydi va eritma tiniq bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml qalay(II) xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini tomchilab qo'shing va cho'kmani kuzating.",
+    "Ishqor qo'shishni cho'kma erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Qalay(II) gidroksid ortiqcha ishqorda natriy tetragidroksostannat(II) hosil qilib eriydi. Bu eritma kuchli qaytaruvchi bo'lib, analitik kimyoda ishlatiladi.",
+   "questions_uz": [
+    "Na2[Sn(OH)4] ni nomlang.",
+    "Cho'kma hosil bo'lishi va erishining ionli tenglamalarini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0026",
+   "category": "amfoter-kompleks",
+   "title_uz": "Temir(III) gidroksidning xlorid kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe(OH)3",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan cho'kma ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Fe(OH)3 + 3HCl = FeCl3 + 3H2O",
+    "ionic_full": "Fe(OH)3 + 3H⁺ + 3Cl⁻ = Fe³⁺ + 3Cl⁻ + 3H2O",
+    "ionic_net": "Fe(OH)3 + 3H⁺ = Fe³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda Fe(OH)3 asos kabi gidroksid ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanib suv hosil qiladi, metall kationi eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir cho'kma kislotada eriydi, sariq-qo'ng'ir eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Temir(III) gidroksid cho'kmasi bo'lgan probirkaga xlorid kislota tomizing.",
+    "Chayqatib, cho'kmaning erishini va eritma rangini kuzating.",
+    "Natijani keyingi tajriba (ishqor bilan) natijasi bilan solishtiring."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Temir(III) gidroksid kislotalarda oson eriydi, ya'ni asos xossasi ustun. Uning kislotali xossasi juda kuchsiz: suyultirilgan ishqorlarda u erimaydi.",
+   "questions_uz": [
+    "Fe(OH)3 ni asos yoki amfoter gidroksid deyish to'g'rimi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0027",
+   "category": "amfoter-kompleks",
+   "title_uz": "Temir(III) gidroksidning suyultirilgan ishqorda erimasligi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Fe(OH)3",
+    "OH⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Fe(OH)3",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "conc_max_M": 6
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Fe(OH)3 ning kislotali xossasi juda kuchsiz.",
+     "Suyultirilgan ishqordagi OH⁻ ionlari gidroksokompleks hosil qilishga yetarli emas."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qizil-qo'ng'ir cho'kma suyultirilgan ishqorda erimaydi, o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Temir(III) gidroksid cho'kmasi bo'lgan probirkaga 3 ml natriy gidroksid eritmasi qo'shing.",
+    "Chayqatib, bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Temir(III) gidroksid suyultirilgan ishqorlarda erimaydi; u faqat konsentrlangan ishqorlarda qizdirilganda yoki suyuqlantirilganda qisman reaksiyaga kirishadi. Shuning uchun Fe(OH)3 kuchsiz amfoter gidroksid hisoblanadi va Al³⁺ ni Fe³⁺ dan ortiqcha ishqor yordamida ajratish mumkin.",
+   "questions_uz": [
+    "Al³⁺ va Fe³⁺ ionlari aralashmasini ortiqcha ishqor yordamida qanday ajratish mumkin?",
+    "Fe(OH)3 ning amfoterligi qanday sharoitda namoyon bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "amfot-0028",
+   "category": "amfoter-kompleks",
+   "title_uz": "Magniy gidroksidning ishqorda erimasligi (amfoter emasligi)",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlar",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "Mg(OH)2",
+    "OH⁻"
+   ],
+   "reactants": [
+    {
+     "species": "Mg(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Mg(OH)2 — asos, unda kislotali xossa yo'q.",
+     "Ishqordagi OH⁻ ionlari Mg²⁺ bilan eriydigan kompleks hosil qilmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Oq cho'kma ishqorda erimaydi, hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Magniy gidroksid cho'kmasi bo'lgan probirkaga 3 ml natriy gidroksid eritmasi qo'shing.",
+    "Chayqatib kuzating.",
+    "Natijani rux yoki alyuminiy gidroksid bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi: himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Magniy gidroksid faqat kislotalarda eriydi, ishqorlarda erimaydi — u amfoter emas, balki asos. Bu xossa Mg²⁺ ni Al³⁺ va Zn²⁺ ionlaridan ajratishda ishlatiladi.",
+   "questions_uz": [
+    "Mg(OH)2 va Al(OH)3 ni qanday reaktiv yordamida farqlash mumkin?",
+    "Asos va amfoter gidroksidning farqi nimada?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0029",
+   "category": "amfoter-kompleks",
+   "title_uz": "Mis(II) gidroksidning konsentrlangan ishqorda erishi",
+   "level": "litsey",
+   "topic_uz": "Gidroksokomplekslar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 8,
+     "volume_mL": 3,
+     "excess": true,
+     "conc_min_M": 6
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Faqat konsentrlangan ishqor eritmasida (taxminan 6 M va undan yuqori) qizdirilganda kuzatiladi; suyultirilgan ishqorda Cu(OH)2 erimaydi."
+   },
+   "equation": {
+    "molecular": "Cu(OH)2 + 2NaOH = Na2[Cu(OH)4]",
+    "ionic_full": "Cu(OH)2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + [Cu(OH)4]²⁻",
+    "ionic_net": "Cu(OH)2 + 2OH⁻ = [Cu(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Mis(II) gidroksidning kislotali xossasi juda kuchsiz.",
+     "OH⁻ konsentratsiyasi juda yuqori bo'lgandagina Cu²⁺ atrofida to'rtta OH⁻ ligand joylashib [Cu(OH)4]²⁻ hosil bo'ladi.",
+     "Kompleks ion eritmani ko'k-binafsha rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#3c6fd0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Ko'k cho'kma konsentrlangan ishqorda qizdirilganda qisman eriydi, eritma ko'k-binafsha tusga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga yangi olingan mis(II) gidroksid cho'kmasidan oz miqdorda oling.",
+    "Ustiga 3 ml konsentrlangan natriy gidroksid eritmasi quying.",
+    "Ehtiyotkorlik bilan isiting va eritma rangini kuzating."
+   ],
+   "safety_uz": "Konsentrlangan ishqor juda o'yuvchi, isitilganda sachrashi mumkin: ko'zoynak, qo'lqop taqing, probirka og'zini o'zingizga qaratmang. Kuchli qizdirilganda Cu(OH)2 qora CuO ga parchalanadi.",
+   "explanation_uz": "Mis(II) gidroksid asosan asos xossasiga ega, lekin juda konsentrlangan ishqorda kuchsiz amfoterlikni namoyon qilib tetragidroksokuprat(II) hosil qiladi. Suyultirilgan ishqorlarda bu reaksiya bormaydi.",
+   "questions_uz": [
+    "Nima uchun Cu(OH)2 odatda amfoter gidroksidlar qatoriga kiritilmaydi?",
+    "Qizdirish vaqtida qora rang paydo bo'lsa, bu nimani bildiradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "amfot-0030",
+   "category": "amfoter-kompleks",
+   "title_uz": "Mis(II) sulfat eritmasiga oz miqdorda ammiak eritmasi qo'shish",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CuSO4 + 2NH3·H2O = Cu(OH)2↓ + (NH4)2SO4",
+    "ionic_full": "Cu²⁺ + SO4²⁻ + 2NH3·H2O = Cu(OH)2↓ + 2NH4⁺ + SO4²⁻",
+    "ionic_net": "Cu²⁺ + 2NH3·H2O = Cu(OH)2↓ + 2NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Ammiak eritmasi kuchsiz asos: NH3·H2O ⇄ NH4⁺ + OH⁻.",
+     "OH⁻ ionlari Cu²⁺ bilan ko'k Cu(OH)2 cho'kmasini hosil qiladi.",
+     "Haqiqatda dastlab yashil-ko'k asosli tuz (CuOH)2SO4 ham hosil bo'lishi mumkin."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu(OH)2",
+     "color": "#4a9be0",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Havorang eritmada ko'k (yashil-ko'k) iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml mis(II) sulfat eritmasi quying.",
+    "Tomizgich bilan ammiak eritmasini oz-ozdan, tomchilab qo'shing.",
+    "Cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Ammiak eritmasi oz miqdorda qo'shilganda u oddiy kuchsiz asos sifatida ta'sir qiladi va mis(II) gidroksid (aniqrog'i, asosli tuz) cho'kadi. Ammiak ortiqcha bo'lsa, cho'kma kompleks hosil qilib eriydi.",
+   "questions_uz": [
+    "Ammiak eritmasi qanday qilib OH⁻ ionlarini hosil qiladi?",
+    "Ammiak ortiqcha qo'shilsa nima kuzatiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "amfot-0031",
+   "category": "amfoter-kompleks",
+   "title_uz": "Tetraamminmis(II) sulfat hosil bo'lishi (ortiqcha ammiak)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CuSO4 + 4NH3·H2O = [Cu(NH3)4]SO4 + 4H2O",
+    "ionic_full": "Cu²⁺ + SO4²⁻ + 4NH3·H2O = [Cu(NH3)4]²⁺ + SO4²⁻ + 4H2O",
+    "ionic_net": "Cu²⁺ + 4NH3·H2O = [Cu(NH3)4]²⁺ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval ko'k Cu(OH)2 cho'kmasi hosil bo'ladi.",
+     "Ortiqcha NH3 molekulalari azot atomidagi bo'linmagan elektron jufti hisobiga Cu²⁺ bilan donor-akseptor bog' hosil qiladi.",
+     "To'rtta ammiak ligandli [Cu(NH3)4]²⁺ kompleks ioni hosil bo'lib, cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#2346c8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval ko'k cho'kma hosil bo'ladi, ortiqcha ammiakda u erib, to'q ko'k (ko'k-binafsha) tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasi quying.",
+    "Ammiak eritmasini tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Ammiak qo'shishni cho'kma to'liq erib ketguncha davom ettiring va rangni dastlabki eritma bilan solishtiring."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Mis(II) ioni ammiak bilan barqaror kompleks — tetraamminmis(II) ionini hosil qiladi. Uning to'q ko'k rangi gidratlangan Cu²⁺ ionining havorang tusidan ancha kuchli, shuning uchun bu reaksiya mis ionlarini aniqlashda ham ishlatiladi.",
+   "questions_uz": [
+    "[Cu(NH3)4]²⁺ ionida markaziy ion, ligand va koordinatsion sonni ko'rsating.",
+    "Kompleksdagi bog' qanday mexanizm bo'yicha hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0032",
+   "category": "amfoter-kompleks",
+   "title_uz": "Tetraamminmis(II) kompleksining kislota ta'sirida parchalanishi",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "[Cu(NH3)4]SO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kislota tomchilab, rang o'zgarguncha qo'shiladi."
+   },
+   "equation": {
+    "molecular": "[Cu(NH3)4]SO4 + 4HCl = CuSO4 + 4NH4Cl",
+    "ionic_full": "[Cu(NH3)4]²⁺ + SO4²⁻ + 4H⁺ + 4Cl⁻ = Cu²⁺ + SO4²⁻ + 4NH4⁺ + 4Cl⁻",
+    "ionic_net": "[Cu(NH3)4]²⁺ + 4H⁺ = Cu²⁺ + 4NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "H⁺ ionlari NH3 ligandlari bilan barqaror NH4⁺ ionlarini hosil qiladi.",
+     "Ligandlarini yo'qotgan kompleks parchalanadi, Cu²⁺ ionlari gidratlangan holga qaytadi.",
+     "Eritmaning to'q ko'k rangi havorang tusga o'zgaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#2346c8",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "To'q ko'k eritma kislota qo'shilganda havorang tusga o'tadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml tetraamminmis(II) sulfat eritmasi (oldingi tajriba mahsuloti) quying.",
+    "Xlorid kislotani tomchilab qo'shing va rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Ammiakat komplekslari kislotali muhitda barqaror emas: H⁺ ionlari ammiakni NH4⁺ holida bog'lab oladi va kompleks parchalanadi. Kompleks hosil bo'lishi va parchalanishi muvozanatini muhitni o'zgartirib boshqarish mumkin.",
+   "questions_uz": [
+    "Nima uchun ammiakat kislotali muhitda parchalanadi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0033",
+   "category": "amfoter-kompleks",
+   "title_uz": "Mis(II) gidroksidning ammiak eritmasida erishi (Shveytser reaktivi)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan mis(II) gidroksid cho'kmasi ishlatiladi."
+   },
+   "equation": {
+    "molecular": "Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4](OH)2 + 4H2O",
+    "ionic_full": "Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4]²⁺ + 2OH⁻ + 4H2O",
+    "ionic_net": "Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4]²⁺ + 2OH⁻ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "NH3 molekulalari Cu²⁺ bilan donor-akseptor bog'lar hosil qiladi.",
+     "Gidroksid ionlari tashqi sferaga o'tadi va [Cu(NH3)4](OH)2 hosil bo'ladi.",
+     "Kompleks asos suvda eriydi, eritma to'q ko'k rangga kiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#2346c8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Ko'k cho'kma ammiak eritmasida eriydi, to'q ko'k tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga yangi olingan mis(II) gidroksid cho'kmasidan oz miqdorda oling.",
+    "Ustiga 3 ml konsentrlangan ammiak eritmasi qo'shing va chayqating.",
+    "Cho'kmaning erishini va eritma rangini kuzating."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Mis(II) gidroksid ammiak eritmasida erib kompleks asos — tetraamminmis(II) gidroksid hosil qiladi. Bu eritma Shveytser reaktivi deb ataladi va sellyulozani eritish xossasiga ega (mis-ammiakli tola olishda ishlatilgan).",
+   "questions_uz": [
+    "Shveytser reaktivi qayerda ishlatiladi?",
+    "[Cu(NH3)4](OH)2 da ichki va tashqi sferani ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0034",
+   "category": "amfoter-kompleks",
+   "title_uz": "Rux sulfat eritmasiga ortiqcha ammiak eritmasi qo'shish",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "ZnSO4 + 4NH3·H2O = [Zn(NH3)4]SO4 + 4H2O",
+    "ionic_full": "Zn²⁺ + SO4²⁻ + 4NH3·H2O = [Zn(NH3)4]²⁺ + SO4²⁻ + 4H2O",
+    "ionic_net": "Zn²⁺ + 4NH3·H2O = [Zn(NH3)4]²⁺ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval oq Zn(OH)2 cho'kmasi hosil bo'ladi.",
+     "Ortiqcha NH3 molekulalari Zn²⁺ bilan to'rtta donor-akseptor bog' hosil qiladi.",
+     "Rangsiz [Zn(NH3)4]²⁺ kompleks ioni hosil bo'lib, cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq cho'kma hosil bo'ladi, ortiqcha ammiakda u eriydi va eritma rangsiz tiniq bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasi quying.",
+    "Ammiak eritmasini tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Ammiak qo'shishni cho'kma erib ketguncha davom ettiring. Natijani alyuminiy xlorid bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Rux gidroksid ortiqcha ammiakda tetraamminrux kompleksini hosil qilib eriydi, alyuminiy gidroksid esa erimaydi. Bu farq Zn²⁺ va Al³⁺ ionlarini ajratishda ishlatiladi.",
+   "questions_uz": [
+    "Zn(OH)2 va Al(OH)3 ammiakka munosabati bilan qanday farq qiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0035",
+   "category": "amfoter-kompleks",
+   "title_uz": "Nikel(II) sulfat eritmasiga oz miqdorda ammiak eritmasi qo'shish",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "NiSO4 + 2NH3·H2O = Ni(OH)2↓ + (NH4)2SO4",
+    "ionic_full": "Ni²⁺ + SO4²⁻ + 2NH3·H2O = Ni(OH)2↓ + 2NH4⁺ + SO4²⁻",
+    "ionic_net": "Ni²⁺ + 2NH3·H2O = Ni(OH)2↓ + 2NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Ammiak eritmasidagi OH⁻ ionlari Ni²⁺ bilan yashil Ni(OH)2 cho'kmasini hosil qiladi.",
+     "Haqiqatda dastlab asosli tuz ham hosil bo'lishi mumkin."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ni(OH)2",
+     "color": "#7ec27a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Yashil eritmada och yashil iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml nikel(II) sulfat eritmasi quying.",
+    "Ammiak eritmasini tomchilab qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing. Nikel birikmalari allergiya chaqiradi va kanserogen: qo'lqop taqing.",
+   "explanation_uz": "Oz miqdordagi ammiak eritmasi kuchsiz asos sifatida nikel(II) gidroksidni cho'ktiradi. Ammiak ortiqcha bo'lsa, cho'kma geksaamminnikel(II) kompleksini hosil qilib eriydi.",
+   "questions_uz": [
+    "Ammiak ortiqcha qo'shilsa qanday o'zgarish kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "amfot-0036",
+   "category": "amfoter-kompleks",
+   "title_uz": "Geksaamminnikel(II) sulfat hosil bo'lishi (ortiqcha ammiak)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "NiSO4 + 6NH3·H2O = [Ni(NH3)6]SO4 + 6H2O",
+    "ionic_full": "Ni²⁺ + SO4²⁻ + 6NH3·H2O = [Ni(NH3)6]²⁺ + SO4²⁻ + 6H2O",
+    "ionic_net": "Ni²⁺ + 6NH3·H2O = [Ni(NH3)6]²⁺ + 6H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval yashil Ni(OH)2 cho'kmasi hosil bo'ladi.",
+     "Ortiqcha NH3 molekulalari Ni²⁺ atrofida oktaedr shaklida joylashadi.",
+     "Oltita ammiak ligandli [Ni(NH3)6]²⁺ ioni eritmani ko'k-binafsha rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#7a7ae0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval yashil cho'kma hosil bo'ladi, ortiqcha ammiakda u erib, ko'k-binafsha tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasi quying.",
+    "Ammiak eritmasini tomchilab qo'shib, cho'kma hosil bo'lishini kuzating.",
+    "Ammiak qo'shishni cho'kma erib ketguncha davom ettiring va rangni kuzating."
+   ],
+   "safety_uz": "Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing. Nikel birikmalari allergiya chaqiradi va kanserogen: qo'lqop taqing.",
+   "explanation_uz": "Nikel(II) ioni ammiak bilan koordinatsion soni 6 bo'lgan kompleks hosil qiladi. Ligandlar almashinishi (suv molekulalari o'rniga ammiak) eritma rangini yashildan ko'k-binafshaga o'zgartiradi.",
+   "questions_uz": [
+    "[Ni(NH3)6]²⁺ ionida koordinatsion son nechaga teng va kompleks qanday shaklga ega?",
+    "Nima uchun ligand almashinganda eritma rangi o'zgaradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0037",
+   "category": "amfoter-kompleks",
+   "title_uz": "Kumush nitrat eritmasiga oz miqdorda ammiak eritmasi qo'shish",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "2AgNO3 + 2NH3·H2O = Ag2O↓ + 2NH4NO3 + H2O",
+    "ionic_full": "2Ag⁺ + 2NO3⁻ + 2NH3·H2O = Ag2O↓ + 2NH4⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "2Ag⁺ + 2NH3·H2O = Ag2O↓ + 2NH4⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Ammiak eritmasidagi OH⁻ ionlari Ag⁺ bilan beqaror AgOH ni hosil qiladi.",
+     "AgOH darhol parchalanib qo'ng'ir kumush(I) oksidga aylanadi: 2AgOH = Ag2O + H2O."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ag2O",
+     "color": "#3a2a20",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Rangsiz eritmada qo'ng'ir cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml kumush nitrat eritmasi quying.",
+    "Ammiak eritmasini 1–2 tomchi qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king.",
+   "explanation_uz": "Kumush gidroksid beqaror bo'lgani uchun Ag⁺ ioniga asos ta'sir ettirilganda darhol kumush(I) oksid cho'kadi. Ammiak ortiqcha bo'lsa, cho'kma diamminkumush kompleksini hosil qilib eriydi.",
+   "questions_uz": [
+    "Nima uchun AgOH o'rniga Ag2O cho'kadi?",
+    "Ammiak ortiqcha qo'shilsa nima kuzatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0038",
+   "category": "amfoter-kompleks",
+   "title_uz": "Diamminkumush(I) nitrat hosil bo'lishi (ortiqcha ammiak)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiak eritmasi avval tomchilab, so'ng cho'kma eriguncha qo'shiladi."
+   },
+   "equation": {
+    "molecular": "AgNO3 + 2NH3·H2O = [Ag(NH3)2]NO3 + 2H2O",
+    "ionic_full": "Ag⁺ + NO3⁻ + 2NH3·H2O = [Ag(NH3)2]⁺ + NO3⁻ + 2H2O",
+    "ionic_net": "Ag⁺ + 2NH3·H2O = [Ag(NH3)2]⁺ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Avval qo'ng'ir Ag2O cho'kmasi hosil bo'ladi.",
+     "Ortiqcha NH3 molekulalari Ag⁺ bilan ikkita donor-akseptor bog' hosil qiladi.",
+     "Chiziqli [Ag(NH3)2]⁺ kompleks ioni hosil bo'lib, cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval qo'ng'ir cho'kma hosil bo'ladi, ortiqcha ammiakda u eriydi va eritma rangsiz tiniq bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml kumush nitrat eritmasi quying.",
+    "Ammiak eritmasini tomchilab qo'shing va qo'ng'ir cho'kmani kuzating.",
+    "Ammiak qo'shishni cho'kma to'liq erib ketguncha davom ettiring."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king.",
+   "explanation_uz": "Kumush(I) ioni ammiak bilan koordinatsion soni 2 bo'lgan diamminkumush kompleksini hosil qiladi. Bunday eritma (kumush ko'zgu reaksiyasida ishlatiladigan Tollens reaktivi kabi) faqat tajriba oldidan tayyorlanadi.",
+   "questions_uz": [
+    "[Ag(NH3)2]⁺ ionida koordinatsion son nechaga teng?",
+    "Nima uchun kumush ammiakatli eritmalar uzoq saqlanmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0039",
+   "category": "amfoter-kompleks",
+   "title_uz": "Kumush xloridning ammiak eritmasida erishi",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgCl",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan AgCl cho'kmasi ishlatiladi."
+   },
+   "equation": {
+    "molecular": "AgCl + 2NH3·H2O = [Ag(NH3)2]Cl + 2H2O",
+    "ionic_full": "AgCl + 2NH3·H2O = [Ag(NH3)2]⁺ + Cl⁻ + 2H2O",
+    "ionic_net": "AgCl + 2NH3·H2O = [Ag(NH3)2]⁺ + Cl⁻ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "AgCl cho'kmasi ustida eritmada juda oz miqdorda Ag⁺ ionlari bo'ladi.",
+     "Ammiak bu ionlarni barqaror [Ag(NH3)2]⁺ kompleksiga bog'laydi.",
+     "Muvozanat siljiydi va cho'kma to'liq eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq suzmasimon cho'kma ammiak eritmasida eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkadagi yangi olingan kumush xlorid cho'kmasiga ammiak eritmasini qo'shing.",
+    "Probirkani chayqatib, cho'kmaning erishini kuzating.",
+    "Eritmani keyingi tajriba uchun saqlang."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king. Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Kumush xlorid suvda erimaydi, lekin ammiak eritmasida diamminkumush kompleksi hosil qilib eriydi. Kumush bromid ammiakda qisman, kumush yodid esa amalda erimaydi — bu galogenidlarni farqlashda ishlatiladi.",
+   "questions_uz": [
+    "AgCl, AgBr va AgI ning ammiakdagi eruvchanligi qanday farq qiladi?",
+    "Ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0040",
+   "category": "amfoter-kompleks",
+   "title_uz": "Diamminkumush(I) xlorid kompleksining nitrat kislota ta'sirida parchalanishi",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "[Ag(NH3)2]Cl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nitrat kislota muhit kislotali bo'lguncha qo'shiladi."
+   },
+   "equation": {
+    "molecular": "[Ag(NH3)2]Cl + 2HNO3 = AgCl↓ + 2NH4NO3",
+    "ionic_full": "[Ag(NH3)2]⁺ + Cl⁻ + 2H⁺ + 2NO3⁻ = AgCl↓ + 2NH4⁺ + 2NO3⁻",
+    "ionic_net": "[Ag(NH3)2]⁺ + Cl⁻ + 2H⁺ = AgCl↓ + 2NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "H⁺ ionlari ammiak ligandlarini NH4⁺ holida bog'laydi.",
+     "Kompleks parchalanib erkin Ag⁺ ionlari hosil bo'ladi.",
+     "Ag⁺ eritmadagi Cl⁻ bilan qayta AgCl cho'kmasini hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritmada yana oq suzmasimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Oldingi tajribada olingan diamminkumush xlorid eritmasiga nitrat kislotani tomchilab qo'shing.",
+    "Muhitni indikator qog'ozi bilan tekshirib, kislotali bo'lguncha qo'shing.",
+    "Oq cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king. Nitrat kislota terini kuydiradi.",
+   "explanation_uz": "Kislotali muhitda ammiakat parchalanadi va kumush xlorid qayta cho'kadi. Kumush xlorid cho'kmasini ammiakda eritib, so'ng nitrat kislota bilan qayta cho'ktirish xlorid ionini aniqlashda tasdiqlovchi bosqich sifatida ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun kislota qo'shilganda AgCl qayta cho'kadi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0041",
+   "category": "amfoter-kompleks",
+   "title_uz": "Kumush yodidning ammiak eritmasida erimasligi",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar: ammiakatlar",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "AgI",
+    "NH3"
+   ],
+   "reactants": [
+    {
+     "species": "AgI",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "AgI juda kam eriydi: uning ustidagi eritmada Ag⁺ ionlari juda kam.",
+     "Ammiak bu oz miqdordagi Ag⁺ ni bog'lasa ham, cho'kmani eritish uchun yetarli emas."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Sariq cho'kma ammiak eritmasida erimaydi, o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkadagi yangi olingan kumush yodid cho'kmasiga 3 ml ammiak eritmasi qo'shing.",
+    "Chayqatib kuzating va natijani AgCl bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king. Ammiak eritmasi o'tkir hidli, ko'z va nafas yo'llarini qitiqlaydi: shamollatiladigan joyda ishlang, hidlamang, ko'zoynak taqing.",
+   "explanation_uz": "Kumush yodid kumush xloridga qaraganda ancha kam eriydi, shuning uchun ammiak uni kompleksga aylantira olmaydi. Bu xossa Cl⁻ va I⁻ ionlarini farqlashda ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun AgCl ammiakda eriydi, AgI esa erimaydi?",
+    "AgI ni qanday reaktiv eritishi mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0042",
+   "category": "amfoter-kompleks",
+   "title_uz": "Kumush bromidning natriy tiosulfat eritmasida erishi (fotografik fiksaj)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "AgBr",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "Na2S2O3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "AgBr + 2Na2S2O3 = Na3[Ag(S2O3)2] + NaBr",
+    "ionic_full": "AgBr + 4Na⁺ + 2S2O3²⁻ = 3Na⁺ + [Ag(S2O3)2]³⁻ + Na⁺ + Br⁻",
+    "ionic_net": "AgBr + 2S2O3²⁻ = [Ag(S2O3)2]³⁻ + Br⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Tiosulfat ioni S2O3²⁻ oltingugurt atomi orqali Ag⁺ bilan juda barqaror bog' hosil qiladi.",
+     "Ikkita tiosulfat ligandli [Ag(S2O3)2]³⁻ kompleks ioni hosil bo'ladi.",
+     "Kumush bromid cho'kmasi eriydi, Br⁻ ionlari eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Och sariq cho'kma natriy tiosulfat eritmasida eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkada yangi olingan kumush bromid cho'kmasini tayyorlang.",
+    "Ustiga 3 ml natriy tiosulfat eritmasi qo'shing va chayqating.",
+    "Cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Kumush tuzlari teri va kiyimni qoraytiradi: qo'lqop taqing. Kumush ammiakatli eritmalarni uzoq saqlamang — ular quriganda portlovchi moddalar hosil qilishi mumkin; tajribadan so'ng kislota bilan zararsizlantirib to'king.",
+   "explanation_uz": "Tiosulfat ionlari kumush bilan juda barqaror kompleks hosil qiladi, shuning uchun ammiakda kam eriydigan AgBr ham tiosulfatda oson eriydi. Fotografiyada yorug'lik ta'sir etmagan AgBr fiksaj eritmasi (natriy tiosulfat) bilan shu tarzda yuvib tashlanadi.",
+   "questions_uz": [
+    "Fotografiyada natriy tiosulfat qanday vazifani bajaradi?",
+    "Kompleks ionni nomlang va koordinatsion sonni aniqlang."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0043",
+   "category": "amfoter-kompleks",
+   "title_uz": "Simob(II) nitratga kaliy yodid qo'shish: simob(II) yodid cho'kmasi",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Hg(NO3)2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kaliy yodid tomchilab, ortiqcha bo'lmaydigan miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "Hg(NO3)2 + 2KI = HgI2↓ + 2KNO3",
+    "ionic_full": "Hg²⁺ + 2NO3⁻ + 2K⁺ + 2I⁻ = HgI2↓ + 2K⁺ + 2NO3⁻",
+    "ionic_net": "Hg²⁺ + 2I⁻ = HgI2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Hg²⁺ va I⁻ ionlari uchrashib, suvda erimaydigan simob(II) yodidni hosil qiladi.",
+     "Cho'kma yorqin to'q sariq-qizil rangga ega."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "HgI2",
+     "color": "#e0301e",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Rangsiz eritmada yorqin qizil (to'q sariq-qizil) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Tajriba o'qituvchi nazoratida o'tkaziladi.",
+    "Probirkaga 1 ml simob(II) nitrat eritmasi quying.",
+    "Kaliy yodid eritmasini tomchilab qo'shing va cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Simob birikmalari juda zaharli: faqat qo'lqopda, o'qituvchi nazoratida ishlang; chiqindilarni maxsus idishga yig'ing, kanalizatsiyaga to'kmang.",
+   "explanation_uz": "Simob(II) ionlari yodid ionlari bilan erimaydigan qizil simob(II) yodid hosil qiladi. Yodid ortiqcha bo'lsa, bu cho'kma kompleks hosil qilib eriydi.",
+   "questions_uz": [
+    "Kaliy yodid ortiqcha qo'shilsa nima kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "amfot-0044",
+   "category": "amfoter-kompleks",
+   "title_uz": "Simob(II) yodidning ortiqcha kaliy yodidda erishi (kaliy tetrayodomerkurat hosil bo'lishi)",
+   "level": "umumiy",
+   "topic_uz": "Kompleks birikmalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "HgI2",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi olingan HgI2 cho'kmasiga KI eritmasi ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "HgI2 + 2KI = K2[HgI4]",
+    "ionic_full": "HgI2 + 2K⁺ + 2I⁻ = 2K⁺ + [HgI4]²⁻",
+    "ionic_net": "HgI2 + 2I⁻ = [HgI4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ortiqcha I⁻ ionlari ligand sifatida Hg²⁺ ga birikadi.",
+     "Tetraedrik [HgI4]²⁻ kompleks ioni hosil bo'ladi va qizil cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizil cho'kma ortiqcha kaliy yodidda eriydi, rangsiz (och sarg'ish) tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Oldingi tajribada olingan simob(II) yodid cho'kmasiga kaliy yodid eritmasini qo'shishni davom ettiring.",
+    "Probirkani chayqatib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Simob birikmalari juda zaharli: faqat qo'lqopda, o'qituvchi nazoratida ishlang; chiqindilarni maxsus idishga yig'ing, kanalizatsiyaga to'kmang.",
+   "explanation_uz": "Ortiqcha yodid ionlari simob(II) bilan barqaror tetrayodomerkurat(II) kompleksini hosil qiladi va cho'kma eriydi. Bu kompleksning ishqoriy eritmasi ammoniy ionini aniqlashda ishlatiladigan Nessler reaktivining asosini tashkil etadi.",
+   "questions_uz": [
+    "[HgI4]²⁻ ionida markaziy ion, ligand va koordinatsion sonni ko'rsating.",
+    "Nessler reaktivi nima uchun ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

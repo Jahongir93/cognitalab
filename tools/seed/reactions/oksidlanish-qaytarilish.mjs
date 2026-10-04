@@ -154,7 +154,7 @@ function records() {
     // ---------------------------------------------------------- KMnO4
     {
       t: "Kaliy permanganatning neytral muhitda natriy sulfit bilan qaytarilishi", lv: '9-sinf', tp: "Oksidlanish-qaytarilish reaksiyalari; muhitning ta'siri",
-      re: [aq('KMnO4', 0.02, 2), aq('Na2SO3', 0.1, 2)], c: { medium: 'neytral', note_uz: "Kislota ham, ishqor ham qo'shilmaydi." },
+      re: [aq('KMnO4', 0.02, 2), aq('Na2SO3', 0.1, 2)], c: { note_uz: "Kislota ham, ishqor ham qo'shilmaydi (neytral muhit)." },
       mol: "2KMnO4 + 3Na2SO3 + H2O = 2MnO2↓ + 3Na2SO4 + 2KOH",
       net: "2MnO4⁻ + 3SO3²⁻ + H2O = 2MnO2↓ + 3SO4²⁻ + 2OH⁻",
       eb: ["Mn⁺⁷ + 3e⁻ = Mn⁺⁴", "S⁺⁴ − 2e⁻ = S⁺⁶"],
@@ -168,7 +168,7 @@ function records() {
     },
     {
       t: "Kaliy permanganatning ishqoriy muhitda natriy sulfit bilan qaytarilishi", lv: '9-sinf', tp: "Oksidlanish-qaytarilish reaksiyalari; muhitning ta'siri",
-      re: [aq('KMnO4', 0.02, 2), aq('KOH', 2, 1), aq('Na2SO3', 0.05, 1)], c: { medium: 'ishqoriy', note_uz: "Permanganat avval ishqor bilan aralashtiriladi; sulfit oz miqdorda, tomchilab qo'shiladi." },
+      re: [aq('KMnO4', 0.05, 2), aq('KOH', 6, 1, { conc_min_M: 0.05, excess: true }), aq('Na2SO3', 0.1, 1)], c: { medium: 'ishqoriy', note_uz: "Permanganat avval ishqor bilan aralashtiriladi; sulfit oz miqdorda, tomchilab qo'shiladi." },
       mol: "2KMnO4 + Na2SO3 + 2KOH = 2K2MnO4 + Na2SO4 + H2O",
       net: "2MnO4⁻ + SO3²⁻ + 2OH⁻ = 2MnO4²⁻ + SO4²⁻ + H2O",
       eb: ["Mn⁺⁷ + 1e⁻ = Mn⁺⁶", "S⁺⁴ − 2e⁻ = S⁺⁶"],
@@ -200,7 +200,7 @@ function records() {
       eb: ["Mn⁺⁷ + 5e⁻ = Mn⁺²", "2O⁻¹ − 2e⁻ = O2⁰"],
       st: ["Bu reaksiyada H₂O₂ qaytaruvchi: kislorodning oksidlanish darajasi −1 dan 0 gacha oshadi.", "Oksidlovchi — MnO₄⁻; Mn⁺⁷ beshta elektron qabul qilib Mn²⁺ ga aylanadi.", "Har bir H₂O₂ molekulasi ikki elektron berib bitta O₂ molekulasini hosil qiladi.", "Elektron balans: 2 MnO₄⁻ ga 5 H₂O₂."],
       o: { gas: 'O2', col: [MNO4, NONE], eff: ['bubbles', 'swirl'], txt: "Binafsha eritma rangsizlanadi, gaz pufakchalari ajraladi; cho'g'langan cho'p gaz ta'sirida alangalanadi." },
-      k: 'tez',
+      k: 'bir-zumda',
       ap: ['probirka', 'tomizgich', 'chop-chogllangan'],
       pr: ["Probirkaga 2 ml kaliy permanganat eritmasidan quying va 1 ml suyultirilgan sulfat kislota qo'shing.", "3% li vodorod peroksid eritmasini tomchilab qo'shing.", "Gaz pufakchalari va rang o'zgarishini kuzating.", "Probirka og'ziga cho'g'langan cho'p tutib, ajralgan gazni aniqlang."],
       sf: SF_H2O2 + " Kaliy permanganat kiyimni bo'yaydi.",
@@ -276,6 +276,7 @@ function records() {
       cf: 'o',
     },
     {
+      skip: true, // gazlar toifasida bor
       t: "Kaliy permanganatning konsentrlangan xlorid kislota bilan reaksiyasi (xlor olish)", lv: '9-sinf', tp: "Galogenlar; xlorning olinishi",
       re: [sol('KMnO4', 0.3, 'kristall'), aq('HCl', 11.6, 3, { conc_min_M: 6 })], c: { note_uz: "Faqat konsentrlangan (≥ 6 M) xlorid kislota bilan; reaksiya qizdirmasdan boradi." },
       mol: "2KMnO4 + 16HCl(kons.) = 2KCl + 2MnCl2 + 5Cl2↑ + 8H2O",
@@ -293,7 +294,7 @@ function records() {
     },
     {
       t: "Vodorod peroksidning neytral muhitda kaliy permanganat bilan oksidlanishi", lv: '10-sinf', tp: "Vodorod peroksidning qaytaruvchilik xossasi; muhitning ta'siri",
-      re: [aq('KMnO4', 0.02, 2), aq('H2O2', 0.88, 1)], c: { medium: 'neytral', note_uz: "Kislota qo'shilmaydi." },
+      re: [aq('KMnO4', 0.02, 2), aq('H2O2', 0.88, 1)], c: { note_uz: "Kislota qo'shilmaydi (neytral muhit)." },
       mol: "2KMnO4 + 3H2O2 = 2MnO2↓ + 3O2↑ + 2KOH + 2H2O",
       net: "2MnO4⁻ + 3H2O2 = 2MnO2↓ + 3O2↑ + 2OH⁻ + 2H2O",
       eb: ["Mn⁺⁷ + 3e⁻ = Mn⁺⁴", "2O⁻¹ − 2e⁻ = O2⁰"],
@@ -321,6 +322,7 @@ function records() {
       cf: 'o',
     },
     {
+      skip: true, // gazlar toifasida bor
       t: "Oltingugurt(IV) oksidning kaliy permanganat eritmasini rangsizlantirishi", lv: '9-sinf', tp: "Oltingugurt(IV) oksidning qaytaruvchilik xossasi",
       re: [aq('KMnO4', 0.01, 3), gas('SO2')], c: { medium: 'kislotali', note_uz: "SO₂ gazi permanganat eritmasi orqali o'tkaziladi; erigan SO₂ eritmani o'zi kislotali qiladi." },
       mol: "2KMnO4 + 5SO2 + 2H2O = 2MnSO4 + K2SO4 + 2H2SO4",
@@ -338,7 +340,7 @@ function records() {
     },
     {
       t: "Kaliy permanganatning konsentrlangan ishqorda qizdirilganda manganatga aylanishi", lv: 'litsey', tp: "Marganes birikmalari",
-      re: [aq('KMnO4', 0.02, 2), aq('KOH', 8, 2, { conc_min_M: 4 })], c: { heating: true, temp_min_C: 70, note_uz: "Faqat konsentrlangan (≈ 30–40%) kaliy gidroksid bilan, qizdirilganda." },
+      re: [sol('KMnO4', 0.1, 'kristall'), aq('KOH', 8, 2, { conc_min_M: 4 })], c: { heating: true, temp_min_C: 70, note_uz: "Faqat konsentrlangan (≈ 30–40%) kaliy gidroksid bilan, qizdirilganda." },
       mol: "4KMnO4 + 4KOH = 4K2MnO4 + O2↑ + 2H2O",
       net: "4MnO4⁻ + 4OH⁻ = 4MnO4²⁻ + O2↑ + 2H2O",
       eb: ["Mn⁺⁷ + 1e⁻ = Mn⁺⁶", "2O⁻² − 4e⁻ = O2⁰"],
@@ -346,7 +348,7 @@ function records() {
       o: { gas: 'O2', col: [MNO4, MNO42], eff: ['bubbles'], txt: "Qizdirilganda binafsha eritma asta-sekin yashil rangga kiradi, mayda pufakchalar ajraladi." },
       k: "o'rtacha",
       ap: ['probirka', 'tomizgich', 'spirt-lampasi', 'probirka-qisqichi'],
-      pr: ["Probirkaga 2 ml kaliy permanganat eritmasidan quying.", "Ehtiyotlik bilan 2 ml konsentrlangan kaliy gidroksid eritmasini qo'shing.", "Probirkani qisqich bilan ushlab, spirt lampasida qizdiring.", "Eritma rangining binafsha → yashil o'zgarishini kuzating; so'ng sovutib, suv bilan suyultiring."],
+      pr: ["Probirkaga 2 ml konsentrlangan kaliy gidroksid eritmasidan quying.", "Unga bir necha kristall kaliy permanganat soling.", "Probirkani qisqich bilan ushlab, spirt lampasida qizdiring.", "Eritma rangining binafsha → yashil o'zgarishini kuzating; so'ng sovutib, suv bilan suyultiring."],
       sf: "Konsentrlangan ishqor ko'z va terini kuchli kuydiradi: ko'zoynak va qo'lqop majburiy, probirka og'zini odamlarga qaratmang.",
       ex: "Kuchli ishqoriy muhitda va qizdirilganda permanganat ioni gidroksid ionlarini kislorodgacha oksidlab, o'zi yashil manganatga qaytariladi. Manganat faqat kuchli ishqoriy eritmada barqaror; suyultirilganda yoki kislotalanganda u disproporsiyalanib yana permanganat va MnO₂ beradi («kimyoviy xameleon»).",
       q: ["Manganat ionidagi marganesning oksidlanish darajasi qancha?", "Nima uchun manganat eritmasi faqat kuchli ishqoriy muhitda barqaror?"],
@@ -497,7 +499,7 @@ function records() {
     // ---------------------------------------------------------- Cr(III) -> CrO4 (ishqoriy)
     {
       t: "Natriy geksagidroksoxromat(III) ning vodorod peroksid bilan xromatgacha oksidlanishi", lv: '11-sinf', tp: "Xrom birikmalari; muhitning ta'siri",
-      re: [aq('Na3[Cr(OH)6]', 0.05, 2), aq('H2O2', 0.88, 1)], c: { heating: true, temp_min_C: 60, medium: 'ishqoriy', note_uz: "Yashil xromit eritmasi xrom(III) tuziga ortiqcha ishqor qo'shib tayyorlanadi; aralashma qizdiriladi." },
+      re: [aq('Na3[Cr(OH)6]', 0.05, 2), aq('H2O2', 0.88, 1)], c: { heating: true, temp_min_C: 60, note_uz: "Yashil xromit eritmasi xrom(III) tuziga ortiqcha ishqor qo'shib tayyorlanadi; aralashma qizdiriladi." },
       mol: "2Na3[Cr(OH)6] + 3H2O2 = 2Na2CrO4 + 2NaOH + 8H2O",
       net: "2[Cr(OH)6]³⁻ + 3H2O2 = 2CrO4²⁻ + 2OH⁻ + 8H2O",
       eb: ["Cr⁺³ − 3e⁻ = Cr⁺⁶", "2O⁻¹ + 2e⁻ = 2O⁻²"],
@@ -905,6 +907,7 @@ function records() {
       cf: 'o',
     },
     {
+      skip: true, // gazlar toifasida bor
       t: "Bromli suvning oltingugurt(IV) oksid bilan rangsizlanishi", lv: '9-sinf', tp: "Oltingugurt(IV) oksidning qaytaruvchilik xossasi",
       re: [mix('bromli-suv', 3), gas('SO2')], c: { note_uz: "SO₂ gazi bromli suv orqali o'tkaziladi." },
       mol: "Br2 + SO2 + 2H2O = 2HBr + H2SO4",
@@ -997,9 +1000,9 @@ function records() {
     {
       t: "Kaliy bromidning konsentrlangan sulfat kislota bilan reaksiyasi", lv: '10-sinf', tp: "Sulfat kislotaning oksidlovchilik xossasi; galogenlar",
       re: [sol('KBr', 0.5, 'kristall'), aq('H2SO4', 18, 1, { conc_min_M: 12 })], c: { note_uz: "Faqat konsentrlangan sulfat kislota bilan." },
-      mol: "2KBr + 2H2SO4(kons.) = K2SO4 + Br2 + SO2↑ + 2H2O",
-      full: "2K⁺ + 2Br⁻ + 2H2SO4(kons.) = 2K⁺ + SO4²⁻ + Br2 + SO2↑ + 2H2O",
-      net: "2Br⁻ + 2H2SO4 = Br2 + SO2↑ + SO4²⁻ + 2H2O",
+      mol: "2KBr + 3H2SO4(kons.) = 2KHSO4 + Br2 + SO2↑ + 2H2O",
+      full: "2K⁺ + 2Br⁻ + 3H2SO4(kons.) = 2K⁺ + 2HSO4⁻ + Br2 + SO2↑ + 2H2O",
+      net: "2Br⁻ + 3H2SO4 = Br2 + SO2↑ + 2HSO4⁻ + 2H2O",
       eb: ["2Br⁻ − 2e⁻ = Br2⁰", "S⁺⁶ + 2e⁻ = S⁺⁴"],
       st: ["Konsentrlangan sulfat kislotada oksidlovchi — sulfat kislota tarkibidagi S⁺⁶.", "Qaytaruvchi — bromid ioni; ikki Br⁻ ikki elektron berib Br₂ hosil qiladi.", "S⁺⁶ ikki elektron qabul qilib SO₂ (S⁺⁴) ga qaytariladi.", "Bromid HCl dan kuchliroq qaytaruvchi, ammo yodiddan kuchsiz — shuning uchun sulfat kislota faqat SO₂ gacha qaytariladi."],
       o: { gas: 'SO2', col: [NONE, BR2], heat: 'ekzotermik', eff: ['color-gas', 'fog'], txt: "Kristallar ustida qo'ng'ir-qizg'ish brom bug'lari paydo bo'ladi, o'tkir hidli SO₂ ajraladi." },
@@ -1013,9 +1016,9 @@ function records() {
     {
       t: "Kaliy yodidning konsentrlangan sulfat kislota bilan reaksiyasi", lv: '10-sinf', tp: "Sulfat kislotaning oksidlovchilik xossasi; galogenlar",
       re: [sol('KI', 0.5, 'kristall'), aq('H2SO4', 18, 1, { conc_min_M: 12 })], c: { note_uz: "Faqat konsentrlangan sulfat kislota bilan." },
-      mol: "8KI + 5H2SO4(kons.) = 4K2SO4 + 4I2 + H2S↑ + 4H2O",
-      full: "8K⁺ + 8I⁻ + 5H2SO4(kons.) = 8K⁺ + 4SO4²⁻ + 4I2 + H2S↑ + 4H2O",
-      net: "8I⁻ + 5H2SO4 = 4I2 + H2S↑ + 4SO4²⁻ + 4H2O",
+      mol: "8KI + 9H2SO4(kons.) = 8KHSO4 + 4I2 + H2S↑ + 4H2O",
+      full: "8K⁺ + 8I⁻ + 9H2SO4(kons.) = 8K⁺ + 8HSO4⁻ + 4I2 + H2S↑ + 4H2O",
+      net: "8I⁻ + 9H2SO4 = 4I2 + H2S↑ + 8HSO4⁻ + 4H2O",
       eb: ["2I⁻ − 2e⁻ = I2⁰", "S⁺⁶ + 8e⁻ = S⁻²"],
       st: ["Oksidlovchi — kons. sulfat kislotadagi S⁺⁶, qaytaruvchi — yodid ioni.", "Yodid kuchli qaytaruvchi bo'lgani uchun S⁺⁶ ni sakkiz elektron bilan H₂S (S⁻²) gacha qaytaradi.", "Sakkiz I⁻ ioni sakkiz elektron berib to'rt I₂ molekulasini hosil qiladi.", "Amalda SO₂ va erkin oltingugurt ham hosil bo'ladi."],
       o: { gas: 'H2S', col: [NONE, I2], heat: 'ekzotermik', eff: ['color-gas'], txt: "Kristallar qorayadi, binafsha yod bug'lari va qo'ng'ir massa hosil bo'ladi, palag'da tuxum hidi (H₂S) seziladi." },
@@ -1134,7 +1137,7 @@ function records() {
       t: "Natriy sulfid va natriy sulfit aralashmasining kislota ta'sirida oltingugurt hosil qilishi", lv: 'litsey', tp: "Oltingugurt birikmalari; komproporsiyalanish",
       re: [aq('Na2S', 0.1, 2), aq('Na2SO3', 0.1, 1), aq('H2SO4', 1, 2)], c: { medium: 'kislotali', note_uz: "Sulfid va sulfit aralashmasiga kislota qo'shiladi." },
       mol: "2Na2S + Na2SO3 + 3H2SO4 = 3S↓ + 3Na2SO4 + 3H2O",
-      net: "2S²⁻ + SO3²⁻ + 6H⁺ = 3S↓ + 3H2O",
+      net: "2H2S + H2SO3 = 3S↓ + 3H2O",
       eb: ["S⁻² − 2e⁻ = S⁰", "S⁺⁴ + 4e⁻ = S⁰"],
       st: ["Oksidlovchi — sulfit ionidagi S⁺⁴, qaytaruvchi — sulfid ionidagi S⁻².", "Ikki S⁻² to'rt elektron beradi, bitta S⁺⁴ to'rt elektron qabul qiladi.", "Ikkala oltingugurt ham erkin oltingugurtga (S⁰) aylanadi — komproporsiyalanish.", "Kislota ionlarni H₂S va H₂SO₃ ga aylantirib reaksiyani boshlab beradi."],
       o: { ppt: ['S', 'kolloid'], eff: ['turbidity'], txt: "Kislota qo'shilishi bilan eritma quyuq sarg'ish-oq loyqaga aylanadi." },
@@ -1145,6 +1148,7 @@ function records() {
       q: ["Nima uchun kislota qo'shilmaguncha reaksiya bormaydi?", "Komproporsiyalanishga yana qanday misol keltirish mumkin?"],
     },
     {
+      skip: true, // gazlar toifasida bor
       t: "Vodorod sulfid va oltingugurt(IV) oksidning suvdagi o'zaro ta'siri", lv: '9-sinf', tp: "Oltingugurt birikmalari; komproporsiyalanish",
       re: [aq('H2S', 0.1, 4), gas('SO2')], c: { medium: 'kislotali', note_uz: "SO₂ gazi vodorod sulfidli suv orqali o'tkaziladi." },
       mol: "2H2S + SO2 = 3S↓ + 2H2O",
@@ -1253,6 +1257,7 @@ function records() {
     },
     // ---------------------------------------------------------- xlor olish, xlorat, gipoxlorit
     {
+      skip: true, // gazlar toifasida bor
       t: "Marganes(IV) oksidning konsentrlangan xlorid kislota bilan qizdirilishi (xlor olish)", lv: '9-sinf', tp: "Galogenlar; xlorning laboratoriyada olinishi",
       re: [sol('MnO2', 0.5, 'kukun'), aq('HCl', 11.6, 3, { conc_min_M: 6 })], c: { heating: true, temp_min_C: 60, note_uz: "Konsentrlangan xlorid kislota bilan qizdiriladi." },
       mol: "MnO2 + 4HCl(kons.) = MnCl2 + Cl2↑ + 2H2O",
@@ -1436,6 +1441,21 @@ function records() {
       ex: "Qizdirilganda kislotali muhitda MnO₂ oksalat kislotani CO₂ gacha oksidlaydi va o'zi Mn²⁺ ga qaytariladi. Bu reaksiya ham pirolyuzitning oksidlovchilik qobiliyatini aniqlashda qo'llaniladi.",
       q: ["Ajralgan gazni qanday aniqlash mumkin?", "Uglerodning oksidlanish darajasi qanday o'zgaradi?"],
       cf: 'o',
+    },
+    {
+      t: "Marganes(IV) oksidning kislotali muhitda natriy sulfit bilan qaytarilishi", lv: '10-sinf', tp: "Marganes birikmalari; oltingugurt birikmalari",
+      re: [sol('MnO2', 0.1, 'kukun'), aq('H2SO4', 1, 2), aq('Na2SO3', 0.5, 2)], c: { medium: 'kislotali' },
+      mol: "MnO2 + Na2SO3 + H2SO4 = MnSO4 + Na2SO4 + H2O",
+      net: "MnO2 + SO3²⁻ + 2H⁺ = Mn²⁺ + SO4²⁻ + H2O",
+      eb: ["Mn⁺⁴ + 2e⁻ = Mn⁺²", "S⁺⁴ − 2e⁻ = S⁺⁶"],
+      st: ["Oksidlovchi — MnO₂ (Mn⁺⁴), qaytaruvchi — sulfit (S⁺⁴).", "Mn⁺⁴ ikki elektron qabul qilib eriydigan Mn²⁺ ga aylanadi.", "S⁺⁴ ikki elektron berib sulfat ioniga oksidlanadi.", "Elektron balans: 1 MnO₂ ga 1 SO₃²⁻."],
+      o: { solid: ['#2a2420', '#f6dfe4'], eff: ['dissolve'], txt: "Qora-qo'ng'ir kukun eriydi, deyarli rangsiz eritma hosil bo'ladi." },
+      k: 'tez',
+      ap: ['probirka', 'shpatel', 'tomizgich'],
+      pr: ["Probirkaga shpatel uchida marganes(IV) oksid soling.", "2 ml suyultirilgan sulfat kislota qo'shing.", "Natriy sulfit eritmasini oz-ozdan qo'shib chayqating.", "Kukunning erishini kuzating."],
+      sf: "Kislotali sulfit eritmasidan SO₂ ajralishi mumkin — yaxshi shamollatiladigan joyda ishlang, ko'zoynak taqing.",
+      ex: "Kislotali muhitda sulfit (yoki SO₂) marganes(IV) oksidni Mn²⁺ gacha qaytaradi, shuning uchun qora kukun eriydi. Shu reaksiyadan permanganat va MnO₂ dog'larini tozalashda hamda marganes rudalarini eritishda foydalaniladi.",
+      q: ["Nima uchun qora kukun eriydi?", "Shu maqsadda sulfit o'rniga yana qanday qaytaruvchilarni ishlatish mumkin?"],
     },
     // ---------------------------------------------------------- boshqalar
     {

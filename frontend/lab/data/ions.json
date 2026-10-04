@@ -88,7 +88,8 @@
    "color": "#ff5a1f",
    "desc_uz": "g'isht-qizil"
   },
-  "pKa_h": 12.7
+  "pKa_h": 12.7,
+  "hydroxide_pH": 12.4
  },
  "Mg^2+": {
   "id": "Mg^2+",
@@ -101,7 +102,8 @@
   "M": 24.305,
   "color": null,
   "flame": null,
-  "pKa_h": 11.4
+  "pKa_h": 11.4,
+  "hydroxide_pH": 10
  },
  "Ba^2+": {
   "id": "Ba^2+",
@@ -117,7 +119,8 @@
    "color": "#a6d22a",
    "desc_uz": "sarg'ish-yashil"
   },
-  "pKa_h": 13.4
+  "pKa_h": 13.4,
+  "hydroxide_pH": 13.5
  },
  "Sr^2+": {
   "id": "Sr^2+",
@@ -133,7 +136,8 @@
    "color": "#ff1a2a",
    "desc_uz": "qizil (karmin)"
   },
-  "pKa_h": 13.2
+  "pKa_h": 13.2,
+  "hydroxide_pH": 13
  },
  "Al^3+": {
   "id": "Al^3+",
@@ -146,7 +150,8 @@
   "M": 26.982,
   "color": null,
   "flame": null,
-  "pKa_h": 5
+  "pKa_h": 5,
+  "hydroxide_pH": 4
  },
  "Zn^2+": {
   "id": "Zn^2+",
@@ -159,7 +164,8 @@
   "M": 65.38,
   "color": null,
   "flame": null,
-  "pKa_h": 9
+  "pKa_h": 9,
+  "hydroxide_pH": 6.5
  },
  "Fe^2+": {
   "id": "Fe^2+",
@@ -175,7 +181,8 @@
    "ref_M": 0.5
   },
   "flame": null,
-  "pKa_h": 9.5
+  "pKa_h": 9.5,
+  "hydroxide_pH": 7.5
  },
  "Fe^3+": {
   "id": "Fe^3+",
@@ -191,7 +198,8 @@
    "ref_M": 0.1
   },
   "flame": null,
-  "pKa_h": 2.2
+  "pKa_h": 2.2,
+  "hydroxide_pH": 2.5
  },
  "Cu^2+": {
   "id": "Cu^2+",
@@ -210,7 +218,8 @@
    "color": "#21c47a",
    "desc_uz": "yashil (ko'kimtir-yashil)"
   },
-  "pKa_h": 7.5
+  "pKa_h": 7.5,
+  "hydroxide_pH": 5.5
  },
  "Ag^+": {
   "id": "Ag^+",
@@ -223,7 +232,8 @@
   "M": 107.87,
   "color": null,
   "flame": null,
-  "pKa_h": 12
+  "pKa_h": 12,
+  "hydroxide_pH": 8.5
  },
  "Pb^2+": {
   "id": "Pb^2+",
@@ -236,7 +246,8 @@
   "M": 207.2,
   "color": null,
   "flame": null,
-  "pKa_h": 7.7
+  "pKa_h": 7.7,
+  "hydroxide_pH": 6.5
  },
  "Mn^2+": {
   "id": "Mn^2+",
@@ -252,7 +263,8 @@
    "ref_M": 0.5
   },
   "flame": null,
-  "pKa_h": 10.6
+  "pKa_h": 10.6,
+  "hydroxide_pH": 8.6
  },
  "Cr^3+": {
   "id": "Cr^3+",
@@ -268,7 +280,8 @@
    "ref_M": 0.2
   },
   "flame": null,
-  "pKa_h": 4
+  "pKa_h": 4,
+  "hydroxide_pH": 5
  },
  "Ni^2+": {
   "id": "Ni^2+",
@@ -284,7 +297,8 @@
    "ref_M": 0.5
   },
   "flame": null,
-  "pKa_h": 9.9
+  "pKa_h": 9.9,
+  "hydroxide_pH": 7.5
  },
  "Co^2+": {
   "id": "Co^2+",
@@ -300,7 +314,8 @@
    "ref_M": 0.2
   },
   "flame": null,
-  "pKa_h": 9.6
+  "pKa_h": 9.6,
+  "hydroxide_pH": 7.5
  },
  "Sn^2+": {
   "id": "Sn^2+",
@@ -313,7 +328,8 @@
   "M": 118.71,
   "color": null,
   "flame": null,
-  "pKa_h": 3.4
+  "pKa_h": 3.4,
+  "hydroxide_pH": 2
  },
  "[Cu(NH3)4]^2+": {
   "id": "[Cu(NH3)4]^2+",
@@ -1148,6 +1164,61 @@
   "flame": null,
   "pKa_h": null,
   "acid_system": "salitsilat"
+ },
+ "AlOH^2+": {
+  "id": "AlOH^2+",
+  "formula": "AlOH^2+",
+  "display": "AlOH²⁺",
+  "name_uz": "gidroksoalyuminiy ioni",
+  "name_short_uz": "gidroksoalyuminiy",
+  "kind": "kation",
+  "charge": 2,
+  "M": 43.989,
+  "color": null,
+  "flame": null,
+  "pKa_h": null
+ },
+ "FeOH^2+": {
+  "id": "FeOH^2+",
+  "formula": "FeOH^2+",
+  "display": "FeOH²⁺",
+  "name_uz": "gidroksotemir(III) ioni",
+  "name_short_uz": "gidroksotemir(III)",
+  "kind": "kation",
+  "charge": 2,
+  "M": 72.852,
+  "color": {
+   "hex": "#d9a03a",
+   "ref_M": 0.1
+  },
+  "flame": null,
+  "pKa_h": null
+ },
+ "CuOH^+": {
+  "id": "CuOH^+",
+  "formula": "CuOH^+",
+  "display": "CuOH⁺",
+  "name_uz": "gidroksomis(II) ioni",
+  "name_short_uz": "gidroksomis(II)",
+  "kind": "kation",
+  "charge": 1,
+  "M": 80.553,
+  "color": null,
+  "flame": null,
+  "pKa_h": null
+ },
+ "ZnOH^+": {
+  "id": "ZnOH^+",
+  "formula": "ZnOH^+",
+  "display": "ZnOH⁺",
+  "name_uz": "gidroksorux ioni",
+  "name_short_uz": "gidroksorux",
+  "kind": "kation",
+  "charge": 1,
+  "M": 82.387,
+  "color": null,
+  "flame": null,
+  "pKa_h": null
  },
  "C10H14N2O8^2-": {
   "id": "C10H14N2O8^2-",

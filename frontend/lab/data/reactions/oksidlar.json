@@ -1,0 +1,4403 @@
+{
+ "category": "oksidlar",
+ "reactions": [
+  {
+   "id": "oksid-0001",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning suv bilan reaksiyasi (ohakni so'ndirish)",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 1,
+     "form": "bo'lak"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaO + H2O = Ca(OH)2",
+    "ionic_full": "CaO + H2O = Ca²⁺ + 2OH⁻",
+    "ionic_net": "CaO + H2O = Ca²⁺ + 2OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Oksid ioni O²⁻ suv molekulasidan protonni tortib oladi: O²⁻ + H2O → 2OH⁻.",
+     "Ca²⁺ va OH⁻ ionlaridan kalsiy gidroksid (so'ndirilgan ohak) hosil bo'ladi.",
+     "Ca(OH)2 suvda kam eriydi: bir qismi eritmaga o'tadi, qolgani oq bo'tqa (ohak suti) holida qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Kesak qiziydi, bug' chiqadi va oq kukunga sochilib ketadi; oq loyqa suyuqlik hosil bo'ladi. Fenolftalein to'q pushti (malina) rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "chinni-kosacha",
+    "tomizgich",
+    "shisha-tayoqcha"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga bir bo'lak kalsiy oksid (so'ndirilmagan ohak) qo'ying.",
+    "Tomizgich bilan ustiga oz-ozdan suv tomizing va o'zgarishlarni kuzating.",
+    "Hosil bo'lgan bo'tqaga yana suv qo'shib, shisha tayoqcha bilan aralashtiring.",
+    "Aralashmaga 1–2 tomchi fenolftalein tomizing va rangini kuzating."
+   ],
+   "safety_uz": "Reaksiya kuchli issiqlik chiqaradi, suyuqlik sachrashi mumkin: kosachaga engashmang, ko'zoynak taqing. Ohak terini quritadi va ko'zga juda xavfli.",
+   "explanation_uz": "Kalsiy oksid asosli oksid bo'lib, suv bilan birikib asos — kalsiy gidroksid hosil qiladi. Reaksiya ko'p issiqlik chiqaradi, shuning uchun suv qaynab bug'lanadi. Eritma ishqoriy muhitga ega bo'lgani uchun fenolftalein pushti rangga bo'yaladi.",
+   "questions_uz": [
+    "Nima uchun bu jarayon 'ohakni so'ndirish' deyiladi?",
+    "Qaysi metallarning oksidlari suv bilan ishqor hosil qiladi?",
+    "Ohak suti va ohakli suvning farqi nimada?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0002",
+   "category": "oksidlar",
+   "title_uz": "Natriy oksidning suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2O",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2O + H2O = 2NaOH",
+    "ionic_full": "Na2O + H2O = 2Na⁺ + 2OH⁻",
+    "ionic_net": "Na2O + H2O = 2Na⁺ + 2OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Na2O kristallidagi O²⁻ ioni suvdan proton oladi va ikki OH⁻ ioni hosil bo'ladi.",
+     "Na⁺ ionlari gidratlanib eritmaga o'tadi — natriy gidroksid eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun shiddat bilan eriydi, probirka isiydi. Fenolftalein qo'shilganda eritma to'q pushti rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv quying.",
+    "Shpatel uchida ozroq natriy oksid kukunini soling va probirkani silkiting.",
+    "Probirka devorini ushlab haroratni sezing.",
+    "Eritmaga 1–2 tomchi fenolftalein tomizing."
+   ],
+   "safety_uz": "Natriy oksid va hosil bo'lgan ishqor o'yuvchi; kukunni qo'l bilan ushlamang, ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Ishqoriy metall oksidlari suv bilan shiddatli reaksiyaga kirishib ishqor hosil qiladi. Eritmada OH⁻ ionlari ko'p bo'lgani uchun muhit kuchli ishqoriy, fenolftalein pushti rangga kiradi.",
+   "questions_uz": [
+    "Na2O qaysi turdagi oksid?",
+    "Natriy oksidning suv bilan reaksiyasi tenglamasini yozing va hosil bo'lgan moddani nomlang."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0003",
+   "category": "oksidlar",
+   "title_uz": "Kaliy oksidning suv bilan reaksiyasi va universal indikator",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2O",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "universal-indikator",
+     "state": "aq",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2O + H2O = 2KOH",
+    "ionic_full": "K2O + H2O = 2K⁺ + 2OH⁻",
+    "ionic_net": "K2O + H2O = 2K⁺ + 2OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "K2O dagi O²⁻ ioni suv molekulasidan proton tortib oladi.",
+     "Ikki gidroksid ioni va kaliy ionlari eritmaga o'tadi — kaliy gidroksid (o'yuvchi kaliy) hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#7cc23a",
+     "to": "#3b1f6e"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Kukun tez eriydi, eritma isiydi. Universal indikator yashil rangdan to'q binafsha rangga o'tadi (pH 13–14)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv va 2–3 tomchi universal indikator qo'shing.",
+    "Shpatel uchida ozroq kaliy oksid soling va silkiting.",
+    "Indikator rangini shkala bilan solishtirib, pH ni aniqlang."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi; himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kaliy oksid ishqoriy metall oksidi bo'lgani uchun suv bilan kuchli asos KOH hosil qiladi. Universal indikatorning to'q binafsha rangi kuchli ishqoriy muhitni ko'rsatadi.",
+   "questions_uz": [
+    "Universal indikator kuchli ishqoriy muhitda qanday rangga kiradi?",
+    "K2O va Na2O ning suv bilan reaksiyalari nimasi bilan o'xshash?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0004",
+   "category": "oksidlar",
+   "title_uz": "Bariy oksidning suv bilan reaksiyasi (barit suvi olish)",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaO",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 10
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaO + H2O = Ba(OH)2",
+    "ionic_full": "BaO + H2O = Ba²⁺ + 2OH⁻",
+    "ionic_net": "BaO + H2O = Ba²⁺ + 2OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "BaO dagi O²⁻ ioni suvdan proton olib ikkita OH⁻ ioniga aylanadi.",
+     "Ba²⁺ va OH⁻ ionlari eritmaga o'tadi — bariy gidroksid (barit suvi) hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d81b8c"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun issiqlik chiqarib eriydi. Fenolftalein qo'shilganda eritma to'q pushti rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 10 ml suv quying.",
+    "Shpatel uchida ozroq bariy oksid soling va yaxshilab silkiting.",
+    "Eritmaga 1–2 tomchi fenolftalein tomizib rangini kuzating."
+   ],
+   "safety_uz": "Bariy birikmalari zaharli, BaO va Ba(OH)2 o'yuvchi: qo'lqop va ko'zoynak taqing, moddani og'izga tekkizmang, tajribadan so'ng qo'lni yuving.",
+   "explanation_uz": "Ishqoriy-yer metallaridan bariy oksidi suv bilan oson birikib, suvda yaxshi eriydigan kuchli asos Ba(OH)2 hosil qiladi. Uning eritmasi 'barit suvi' deb ataladi va CO2 ni aniqlashda ishlatiladi.",
+   "questions_uz": [
+    "Barit suvi qanday maqsadda ishlatiladi?",
+    "BaO, CaO va MgO ning suvga munosabatini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0005",
+   "category": "oksidlar",
+   "title_uz": "Magniy oksidning issiq suv bilan sekin reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 90,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma uzoq vaqt qaynatiladi; sovuq suvda reaksiya deyarli sezilmaydi."
+   },
+   "equation": {
+    "molecular": "MgO + H2O = Mg(OH)2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "MgO kristall panjarasi mustahkam, shuning uchun O²⁻ ionlari suv bilan faqat sirtda va sekin ta'sirlashadi.",
+     "Qizdirilganda sirtda Mg(OH)2 qatlami hosil bo'ladi.",
+     "Mg(OH)2 suvda juda kam eriydi, shuning uchun eritma kuchsiz ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq kukun ko'rinishidan deyarli o'zgarmaydi, suyuqlik loyqa bo'lib qoladi; reaksiya juda sekin boradi."
+   },
+   "kinetics": "juda-sekin",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq magniy oksid kukuni soling va 5 ml suv quying.",
+    "Probirkani qisqich bilan ushlab, bir necha daqiqa qaynatib turing.",
+    "Sovigach, loyqa suyuqlikni kuzating; indikator qo'shib muhitni tekshirish mumkin."
+   ],
+   "safety_uz": "Qaynayotgan suyuqlik sachrashi mumkin: probirka og'zini o'zingizga va boshqalarga qaratmang.",
+   "explanation_uz": "Magniy oksid asosli oksid, lekin u kalsiy va bariy oksidlaridan farqli ravishda suv bilan juda sekin, faqat qizdirilganda ta'sirlashadi. Hosil bo'ladigan Mg(OH)2 suvda deyarli erimaydi, shuning uchun eritma ishqoriyligi kuchsiz.",
+   "questions_uz": [
+    "Nima uchun MgO suv bilan CaO ga qaraganda sekin reaksiyaga kirishadi?",
+    "Mg(OH)2 ishqor hisoblanadimi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0006",
+   "category": "oksidlar",
+   "title_uz": "Fosfor(V) oksidning suv bilan reaksiyasi va lakmus",
+   "level": "8-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "P2O5",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "lakmus",
+     "state": "aq",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "P2O5 + 3H2O = 2H3PO4",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "P2O5 molekulasidagi musbat qutblangan fosfor atomlariga suv molekulasining kislorodi birikadi.",
+     "P–O–P ko'priklari uziladi va protonlar ko'chib o'tib ortofosfat kislota H3PO4 hosil bo'ladi.",
+     "H3PO4 eritmada qisman dissotsilanib H⁺ ionlarini beradi — lakmus qizaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#8a4fb3",
+     "to": "#d42a3a"
+    },
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun vishillab eriydi, eritma isiydi. Binafsha rangli lakmus qizil rangga o'tadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv quying va 2–3 tomchi lakmus qo'shing.",
+    "Shpatel uchida juda oz fosfor(V) oksid soling (ko'p solmang!).",
+    "O'zgarishlarni va lakmus rangini kuzating."
+   ],
+   "safety_uz": "P2O5 suvni shiddat bilan tortib oladi va terini kuydiradi; uni quruq shpatel bilan, oz miqdorda oling, ko'zoynak va qo'lqop taqing.",
+   "explanation_uz": "Fosfor(V) oksid kislotali oksid bo'lib, suv bilan birikib ortofosfat kislota hosil qiladi. Reaksiya ko'p issiqlik chiqaradi, shuning uchun P2O5 kuchli qurituvchi modda sifatida ishlatiladi. Kislotali muhitda lakmus qizil rangga kiradi.",
+   "questions_uz": [
+    "Nima uchun P2O5 gazlarni quritishda ishlatiladi?",
+    "Kislotali oksidni suvda eritilganda lakmus qanday rangga kiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0007",
+   "category": "oksidlar",
+   "title_uz": "Oltingugurt(VI) oksidning suv bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "SO3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kristall"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "SO3 + H2O = H2SO4",
+    "ionic_full": "SO3 + H2O = 2H⁺ + SO4²⁻",
+    "ionic_net": "SO3 + H2O = 2H⁺ + SO4²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Suv molekulasining kislorod atomi SO3 dagi elektron yetishmaydigan oltingugurt atomiga birikadi.",
+     "Proton ko'chishi natijasida sulfat kislota hosil bo'ladi.",
+     "H2SO4 kuchli kislota sifatida eritmada H⁺ va SO4²⁻ ionlariga ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "fog"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oq kristallar suv bilan shiddat bilan, vishillab reaksiyaga kirishadi; ustida oq tuman (sulfat kislota tomchilari) paydo bo'ladi, eritma qiziydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-shtativi"
+   ],
+   "procedure_uz": [
+    "Tajriba o'qituvchi tomonidan mo'rili shkafda ko'rsatiladi.",
+    "Probirkaga 5 ml suv quying va shtativga o'rnating.",
+    "Shpatel bilan juda oz miqdorda SO3 kristallaridan soling.",
+    "Hosil bo'lgan tuman va eritma isishini kuzating."
+   ],
+   "safety_uz": "SO3 juda o'yuvchi, havodagi namlik bilan sulfat kislota tumanini hosil qiladi: faqat mo'rili shkafda, ko'zoynak, qo'lqop va xalatda ishlang.",
+   "explanation_uz": "Oltingugurt(VI) oksid kislotali oksid bo'lib, suv bilan birikib sulfat kislota hosil qiladi. Reaksiya juda ko'p issiqlik chiqargani uchun sanoatda SO3 suvga emas, konsentrlangan sulfat kislotaga yuttiriladi (oleum hosil bo'ladi).",
+   "questions_uz": [
+    "Nima uchun sanoatda SO3 suvga emas, sulfat kislotaga yuttiriladi?",
+    "SO3 va SO2 ning suv bilan reaksiyasi mahsulotlarini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0008",
+   "category": "oksidlar",
+   "title_uz": "Oltingugurt(IV) oksidning suvda erishi va lakmus",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "SO2",
+     "state": "g"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "lakmus",
+     "state": "aq",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "SO2 + H2O = H2SO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "SO2 molekulasi suv bilan birikib sulfit kislota hosil qiladi (jarayon qaytar).",
+     "H2SO3 o'rtacha kuchli kislota: H2SO3 ⇄ H⁺ + HSO3⁻.",
+     "Eritmada H⁺ ionlari paydo bo'lgani uchun lakmus qizaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#8a4fb3",
+     "to": "#d42a3a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz pufakchalari suvda yaxshi yutiladi; binafsha lakmus qizil rangga o'tadi, eritmadan o'tkir hid keladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "probirka-yon-naychali"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml suv quying va 2–3 tomchi lakmus qo'shing.",
+    "Gaz olish asbobidan chiqayotgan SO2 ni gaz o'tkazgich naycha orqali suvga 1–2 daqiqa o'tkazing.",
+    "Lakmus rangining o'zgarishini kuzating."
+   ],
+   "safety_uz": "SO2 zaharli, nafas yo'llarini qitiqlaydi: tajribani mo'rili shkafda o'tkazing, gazni hidlamang.",
+   "explanation_uz": "Oltingugurt(IV) oksid kislotali oksid, u suvda yaxshi eriydi va beqaror sulfit kislota hosil qiladi. Eritmadagi H⁺ ionlari lakmusni qizil rangga bo'yaydi. Karbonat angidrid ham suv bilan xuddi shunday, lekin ancha kuchsiz kislota hosil qiladi.",
+   "questions_uz": [
+    "Sulfit kislota nima uchun faqat eritmada mavjud?",
+    "SO2 ning suvdagi eritmasini qizdirsak nima kuzatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0009",
+   "category": "oksidlar",
+   "title_uz": "Kremniy(IV) oksidning suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "SiO2",
+    "H2O"
+   ],
+   "reactants": [
+    {
+     "species": "SiO2",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "neytral",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "SiO2 — atom kristall panjarali modda: har bir Si atomi to'rtta O atomi bilan kovalent bog'langan.",
+     "Suv molekulalari bu mustahkam uch o'lchamli panjarani buza olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qum (SiO2) suvda erimaydi va hech qanday o'zgarish kuzatilmaydi; lakmus rangi o'zgarmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq toza qum yoki kvars kukuni soling.",
+    "Ustiga 5 ml suv quyib chayqating, so'ng 1–2 tomchi lakmus qo'shing.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Kvars changini nafas bilan olmang; kukun bilan ehtiyotkor ishlang.",
+   "explanation_uz": "Kremniy(IV) oksid kislotali oksid, lekin u suv bilan reaksiyaga kirishmaydi — bu kislotali oksidlar orasidagi muhim istisno. Shuning uchun silikat kislota bevosita SiO2 dan emas, silikatlarga kislota ta'sir ettirib olinadi.",
+   "questions_uz": [
+    "Silikat kislotani qanday olish mumkin?",
+    "Qaysi boshqa oksidlar suv bilan reaksiyaga kirishmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0010",
+   "category": "oksidlar",
+   "title_uz": "Mis(II) oksidning suv bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "CuO",
+    "H2O"
+   ],
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "neytral",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "CuO ga mos keladigan gidroksid Cu(OH)2 suvda erimaydi.",
+     "Shu sababli CuO suv bilan bevosita birikmaydi; eritmada OH⁻ ionlari paydo bo'lmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qora kukun suvda erimaydi, idish tubiga cho'kadi; fenolftalein rangsizligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq mis(II) oksid kukuni soling.",
+    "Ustiga 5 ml suv quyib yaxshilab chayqating.",
+    "1–2 tomchi fenolftalein qo'shib rangini kuzating."
+   ],
+   "safety_uz": "Mis birikmalari zararli: kukunni yutmang, ishdan keyin qo'lni yuving.",
+   "explanation_uz": "Faqat ishqoriy va ishqoriy-yer metallarining (Ca, Sr, Ba) oksidlari suv bilan reaksiyaga kirishib ishqor hosil qiladi. Erimaydigan asoslarga mos keladigan oksidlar (CuO, FeO, Fe2O3 va boshqalar) suv bilan reaksiyaga kirishmaydi, ularning gidroksidlari bilvosita — tuz eritmasiga ishqor ta'sir ettirib olinadi.",
+   "questions_uz": [
+    "Cu(OH)2 ni qanday olish mumkin?",
+    "Qaysi metallarning oksidlari suv bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0011",
+   "category": "oksidlar",
+   "title_uz": "Kremniy(IV) oksidning xlorid kislota bilan reaksiyaga kirishmasligi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "SiO2",
+    "H⁺"
+   ],
+   "reactants": [
+    {
+     "species": "SiO2",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Kislotali oksid kislotalarning H⁺ ionlari bilan ta'sirlashmaydi — ikkalasi ham kislotali xossaga ega.",
+     "SiO2 ning atom kristall panjarasi juda mustahkam."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qum xlorid kislotada erimaydi, hech qanday o'zgarish kuzatilmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq qum (SiO2) soling.",
+    "Ustiga 3 ml xlorid kislota quying va chayqating.",
+    "Bir necha daqiqa kuzating."
+   ],
+   "safety_uz": "Xlorid kislota terini qitiqlaydi va kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kislotali oksidlar kislotalar bilan reaksiyaga kirishmaydi. SiO2 faqat ftorid kislota (HF) bilan ta'sirlashadi — shu sababli HF shishani yemiradi va polietilen idishda saqlanadi.",
+   "questions_uz": [
+    "Qaysi kislota shishani yemiradi va nima uchun?",
+    "SiO2 qanday moddalar bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0012",
+   "category": "oksidlar",
+   "title_uz": "Mis(II) oksidning sulfat kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiyani tezlatish uchun aralashma biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "CuO + H2SO4 = CuSO4 + H2O",
+    "ionic_full": "CuO + 2H⁺ + SO4²⁻ = Cu²⁺ + SO4²⁻ + H2O",
+    "ionic_net": "CuO + 2H⁺ = Cu²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislotaning H⁺ ionlari CuO sirtidagi O²⁻ ionlariga birikib suv hosil qiladi.",
+     "Bo'shagan Cu²⁺ ionlari gidratlanib eritmaga o'tadi va uni ko'k rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qora kukun qizdirilganda asta-sekin eriydi, eritma ko'k rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida mis(II) oksid soling.",
+    "Ustiga 3–4 ml suyultirilgan sulfat kislota quying.",
+    "Probirkani qisqich bilan ushlab, qaynatmasdan sekin isiting.",
+    "Kukunning erishi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Sulfat kislota terini kuydiradi; isitilganda probirka og'zini o'zingizga qaratmang, ko'zoynak taqing.",
+   "explanation_uz": "Mis(II) oksid asosli oksid bo'lib, kislotalar bilan tuz va suv hosil qiladi. Eritmaning ko'k rangi gidratlangan Cu²⁺ ionlariga bog'liq. Bu usulda laboratoriyada mis kuporosi olinadi.",
+   "questions_uz": [
+    "Eritmaning ko'k rangi qaysi zarrachaga bog'liq?",
+    "CuO va H2SO4 reaksiyasining qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0013",
+   "category": "oksidlar",
+   "title_uz": "Mis(II) oksidning xlorid kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CuO + 2HCl = CuCl2 + H2O",
+    "ionic_full": "CuO + 2H⁺ + 2Cl⁻ = Cu²⁺ + 2Cl⁻ + H2O",
+    "ionic_net": "CuO + 2H⁺ = Cu²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "H⁺ ionlari CuO tarkibidagi kislorod bilan suv hosil qiladi.",
+     "Cu²⁺ ionlari eritmaga o'tadi; xlorid ionlari ishtirokida eritma yashil-ko'k tusga ega bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qora kukun eriydi, eritma yashil-ko'k rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida mis(II) oksid soling.",
+    "Ustiga 3 ml xlorid kislota quying va chayqating.",
+    "Kerak bo'lsa, biroz isiting va eritma rangini kuzating."
+   ],
+   "safety_uz": "Xlorid kislota bug'lari nafas yo'llarini qitiqlaydi: ko'zoynak va qo'lqopdan foydalaning, yaxshi shamollatiladigan joyda ishlang.",
+   "explanation_uz": "Asosli oksid kislota bilan tuz va suv hosil qiladi. Mis(II) xlorid eritmasining rangi konsentratsiyaga bog'liq: suyultirilganda ko'k, konsentrlanganda yashil bo'ladi.",
+   "questions_uz": [
+    "Nima uchun CuCl2 eritmasi CuSO4 eritmasidan rangi bilan farq qilishi mumkin?",
+    "Bu reaksiya qaysi turga kiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0014",
+   "category": "oksidlar",
+   "title_uz": "Mis(II) oksidning nitrat kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Suyultirilgan nitrat kislota ishlatiladi, aralashma biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "CuO + 2HNO3 = Cu(NO3)2 + H2O",
+    "ionic_full": "CuO + 2H⁺ + 2NO3⁻ = Cu²⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "CuO + 2H⁺ = Cu²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Nitrat kislotaning H⁺ ionlari CuO dagi kislorod bilan suv hosil qiladi.",
+     "Misning oksidlanish darajasi o'zgarmaydi (+2), shuning uchun gaz ajralmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qora kukun eriydi, eritma havorang-ko'k tusga kiradi; gaz ajralmaydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida mis(II) oksid soling.",
+    "Ustiga 3 ml suyultirilgan nitrat kislota quying.",
+    "Biroz isitib, kukunning erishini kuzating."
+   ],
+   "safety_uz": "Nitrat kislota terini sarg'aytiradi va kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Mis(II) oksid nitrat kislota bilan oddiy almashinish reaksiyasiga kirishadi, chunki misning oksidlanish darajasi allaqachon +2. Mis metalidan farqli ravishda bu reaksiyada azot oksidlari ajralmaydi.",
+   "questions_uz": [
+    "Mis metali va mis(II) oksidning nitrat kislota bilan reaksiyalari qanday farq qiladi?",
+    "Reaksiyaning ionli tenglamalarini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0015",
+   "category": "oksidlar",
+   "title_uz": "Magniy oksidning xlorid kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgO + 2HCl = MgCl2 + H2O",
+    "ionic_full": "MgO + 2H⁺ + 2Cl⁻ = Mg²⁺ + 2Cl⁻ + H2O",
+    "ionic_net": "MgO + 2H⁺ = Mg²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "H⁺ ionlari MgO dagi O²⁻ ionlari bilan suv hosil qiladi.",
+     "Mg²⁺ ionlari eritmaga o'tadi — rangsiz magniy xlorid eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun kislotada tez eriydi, rangsiz tiniq eritma hosil bo'ladi, probirka biroz isiydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida magniy oksid soling.",
+    "Ustiga 3–4 ml xlorid kislota quyib chayqating.",
+    "Kukunning erishini kuzating."
+   ],
+   "safety_uz": "Xlorid kislota bilan ehtiyot bo'ling: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Magniy oksid suv bilan juda sekin ta'sirlashsa ham, kislotalarda oson eriydi — bu uning asosli oksid ekanligini ko'rsatadi. Natijada tuz (MgCl2) va suv hosil bo'ladi.",
+   "questions_uz": [
+    "MgO ning suv va kislotaga munosabatini solishtiring.",
+    "Oshqozon kislotaliligini kamaytiruvchi dorilarda nima uchun MgO ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0016",
+   "category": "oksidlar",
+   "title_uz": "Magniy oksidning sirka kislota bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgO + 2CH3COOH = (CH3COO)2Mg + H2O",
+    "ionic_full": "MgO + 2CH3COOH = Mg²⁺ + 2CH3COO⁻ + H2O",
+    "ionic_net": "MgO + 2CH3COOH = Mg²⁺ + 2CH3COO⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Sirka kislota kuchsiz elektrolit — eritmada asosan molekula holida bo'ladi.",
+     "CH3COOH molekulalari protonini MgO dagi kislorodga beradi, suv hosil bo'ladi.",
+     "Mg²⁺ va atsetat ionlari eritmada qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun sirka kislotada asta-sekin eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida magniy oksid soling.",
+    "Ustiga 4 ml sirka kislota eritmasi quying va chayqating.",
+    "Kukunning erish tezligini xlorid kislotadagi tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Sirka kislota o'tkir hidli, ko'zni qitiqlaydi: ko'zoynak taqing, bug'ini hidlamang.",
+   "explanation_uz": "Magniy oksid kuchli asosli xossaga ega bo'lgani uchun kuchsiz sirka kislota bilan ham reaksiyaga kirishadi. Kuchsiz kislota bo'lgani uchun reaksiya xlorid kislotaga qaraganda sekinroq boradi; ionli tenglamada sirka kislota molekula holida yoziladi.",
+   "questions_uz": [
+    "Nima uchun ionli tenglamada CH3COOH molekula holida yoziladi?",
+    "MgO ning HCl va CH3COOH da erish tezligi nima uchun farq qiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0017",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning xlorid kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaO + 2HCl = CaCl2 + H2O",
+    "ionic_full": "CaO + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + H2O",
+    "ionic_net": "CaO + 2H⁺ = Ca²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Suvli eritmada CaO avval suv bilan Ca(OH)2 ga aylanadi.",
+     "Gidroksid ionlari kislotaning H⁺ ionlari bilan neytrallanib suv hosil qiladi.",
+     "Natijada rangsiz kalsiy xlorid eritmasi qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oq kukun issiqlik chiqarib tez eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida kalsiy oksid soling.",
+    "Ustiga oz-ozdan 3–4 ml xlorid kislota quying.",
+    "Probirka isishini va kukunning erishini kuzating."
+   ],
+   "safety_uz": "Reaksiya issiqlik chiqaradi, kislotani oz-ozdan qo'shing; ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kalsiy oksid asosli oksid sifatida kislota bilan tuz va suv hosil qiladi. Ohak suvga qaraganda kislotada to'liq eriydi, chunki hosil bo'lgan CaCl2 suvda yaxshi eriydi.",
+   "questions_uz": [
+    "Bu reaksiyaning qisqartirilgan ionli tenglamasini yozing.",
+    "Nima uchun reaksiya issiqlik chiqarishi bilan boradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0018",
+   "category": "oksidlar",
+   "title_uz": "Temir(II) oksidning sulfat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "FeO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeO + H2SO4 = FeSO4 + H2O",
+    "ionic_full": "FeO + 2H⁺ + SO4²⁻ = Fe²⁺ + SO4²⁻ + H2O",
+    "ionic_net": "FeO + 2H⁺ = Fe²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "H⁺ ionlari FeO dagi kislorod bilan suv hosil qiladi.",
+     "Fe²⁺ ionlari eritmaga o'tib, uni och yashil rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#c9e6b4"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qora kukun eriydi, och yashil tusli eritma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida temir(II) oksid soling.",
+    "Ustiga 4 ml suyultirilgan sulfat kislota quying va chayqating.",
+    "Eritma rangini kuzating; uni uzoq havoda qoldirsangiz, sarg'ayishi mumkin."
+   ],
+   "safety_uz": "Sulfat kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Temir(II) oksid asosli oksid bo'lib, kislota bilan temir(II) tuzi hosil qiladi. Fe²⁺ ionlari havodagi kislorod ta'sirida asta-sekin Fe³⁺ ga oksidlanadi, shuning uchun eritma vaqt o'tishi bilan sarg'ayadi.",
+   "questions_uz": [
+    "Fe²⁺ eritmasi havoda nima uchun o'zgaradi?",
+    "FeO va Fe2O3 ning kislota bilan reaksiyalari mahsulotlari qanday farq qiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0019",
+   "category": "oksidlar",
+   "title_uz": "Temir(III) oksidning xlorid kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Temir(III) oksid xona haroratida sekin eriydi, shuning uchun aralashma isitiladi."
+   },
+   "equation": {
+    "molecular": "Fe2O3 + 6HCl = 2FeCl3 + 3H2O",
+    "ionic_full": "Fe2O3 + 6H⁺ + 6Cl⁻ = 2Fe³⁺ + 6Cl⁻ + 3H2O",
+    "ionic_net": "Fe2O3 + 6H⁺ = 2Fe³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Qizdirilganda H⁺ ionlari Fe2O3 sirtidagi kislorod ionlari bilan suv hosil qiladi.",
+     "Fe³⁺ ionlari eritmaga o'tib, uni sariq-qo'ng'ir rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir kukun isitilganda asta-sekin eriydi, eritma sariq-qo'ng'ir rangga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida temir(III) oksid soling.",
+    "Ustiga 4–5 ml xlorid kislota quying.",
+    "Probirkani qisqich bilan ushlab, qaynatmasdan isiting va eritma rangini kuzating."
+   ],
+   "safety_uz": "Isitilgan xlorid kislotadan HCl bug'lari ajraladi: mo'rili shkafda ishlang, ko'zoynak taqing.",
+   "explanation_uz": "Temir(III) oksid kislotalar bilan temir(III) tuzlarini hosil qiladi. Eritmaning sariq-qo'ng'ir rangi Fe³⁺ ionlariga bog'liq. Bu reaksiya temir buyumlarni zangdan tozalashda ishlatiladi.",
+   "questions_uz": [
+    "Zang tarkibi qanday?",
+    "Nima uchun reaksiyani tezlatish uchun isitish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0020",
+   "category": "oksidlar",
+   "title_uz": "Temir(III) oksidning sulfat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Fe2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 6,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma isitiladi; xona haroratida reaksiya juda sekin."
+   },
+   "equation": {
+    "molecular": "Fe2O3 + 3H2SO4 = Fe2(SO4)3 + 3H2O",
+    "ionic_full": "Fe2O3 + 6H⁺ + 3SO4²⁻ = 2Fe³⁺ + 3SO4²⁻ + 3H2O",
+    "ionic_net": "Fe2O3 + 6H⁺ = 2Fe³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Isitilganda sulfat kislotaning H⁺ ionlari oksid sirtidagi kislorodni suvga aylantiradi.",
+     "Fe³⁺ ionlari eritmaga o'tadi — temir(III) sulfat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir kukun isitilganda eriydi, eritma sarg'ish tusga kiradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida temir(III) oksid soling.",
+    "Ustiga 5–6 ml suyultirilgan sulfat kislota quying.",
+    "Probirkani qisqich bilan ushlab, ehtiyotkorlik bilan isiting va o'zgarishni kuzating."
+   ],
+   "safety_uz": "Isitilgan sulfat kislota sachrasa kuchli kuydiradi: probirka og'zini o'zingizga qaratmang, ko'zoynak taqing.",
+   "explanation_uz": "Temir(III) oksid asosli xossani namoyon qilib, kislota bilan tuz va suv hosil qiladi. Temirning oksidlanish darajasi +3 bo'lgani uchun temir(III) sulfat hosil bo'ladi.",
+   "questions_uz": [
+    "Fe2O3 ning sulfat kislota bilan reaksiyasining ionli tenglamalarini yozing.",
+    "Fe2O3 qaysi turdagi oksid?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0021",
+   "category": "oksidlar",
+   "title_uz": "Temir(II,III) oksidning xlorid kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe3O4",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Fe3O4 (temir kuyindisi, magnetit) xlorid kislotada isitilganda eriydi."
+   },
+   "equation": {
+    "molecular": "Fe3O4 + 8HCl = FeCl2 + 2FeCl3 + 4H2O",
+    "ionic_full": "Fe3O4 + 8H⁺ + 8Cl⁻ = Fe²⁺ + 2Fe³⁺ + 8Cl⁻ + 4H2O",
+    "ionic_net": "Fe3O4 + 8H⁺ = Fe²⁺ + 2Fe³⁺ + 4H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Fe3O4 — aralash oksid: tarkibida bitta Fe²⁺ va ikkita Fe³⁺ ioni bor (FeO·Fe2O3).",
+     "H⁺ ionlari to'rtta kislorod ionini suvga aylantiradi.",
+     "Eritmaga ikki xil tuz — temir(II) xlorid va temir(III) xlorid o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#d39a2a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qora kukun isitilganda eriydi, sariq-qo'ng'ir tusli eritma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida temir(II,III) oksid soling.",
+    "Ustiga 5 ml xlorid kislota quying.",
+    "Probirkani qisqich bilan ushlab isiting va kukunning erishini kuzating."
+   ],
+   "safety_uz": "Isitilgan xlorid kislotadan HCl bug'lari ajraladi: mo'rili shkafda ishlang, ko'zoynak taqing.",
+   "explanation_uz": "Temir(II,III) oksid ikki oksidning birikmasi (FeO·Fe2O3) sifatida qaraladi, shuning uchun kislota bilan bir vaqtda temir(II) va temir(III) tuzlarini hosil qiladi. Reaksiyada temirning oksidlanish darajalari o'zgarmaydi.",
+   "questions_uz": [
+    "Fe3O4 ni nima uchun aralash oksid deyiladi?",
+    "Eritmada Fe²⁺ va Fe³⁺ ionlari borligini qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0022",
+   "category": "oksidlar",
+   "title_uz": "Kumush(I) oksidning nitrat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ag2O",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ag2O + 2HNO3 = 2AgNO3 + H2O",
+    "ionic_full": "Ag2O + 2H⁺ + 2NO3⁻ = 2Ag⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "Ag2O + 2H⁺ = 2Ag⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "H⁺ ionlari Ag2O dagi kislorod bilan suv hosil qiladi.",
+     "Ag⁺ ionlari eritmaga o'tadi — rangsiz kumush nitrat eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qo'ng'ir-qora kukun eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq kumush(I) oksid soling.",
+    "Ustiga 3 ml suyultirilgan nitrat kislota quyib chayqating.",
+    "Kukunning erishini kuzating."
+   ],
+   "safety_uz": "Nitrat kislota va kumush tuzlari terini qoraytiradi va kuydiradi: qo'lqop va ko'zoynakdan foydalaning.",
+   "explanation_uz": "Kumush(I) oksid asosli oksid bo'lib, nitrat kislotada erib, suvda yaxshi eriydigan kumush nitrat hosil qiladi. Hosil bo'lgan Ag⁺ ionlarini xloridlar yordamida aniqlash mumkin.",
+   "questions_uz": [
+    "Hosil bo'lgan eritmaga NaCl qo'shilsa nima kuzatiladi?",
+    "Ag2O ga mos keladigan gidroksid nima uchun mavjud emas?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0023",
+   "category": "oksidlar",
+   "title_uz": "Kumush(I) oksidning xlorid kislota bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ag2O",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ag2O + 2HCl = 2AgCl↓ + H2O",
+    "ionic_full": "Ag2O + 2H⁺ + 2Cl⁻ = 2AgCl↓ + H2O",
+    "ionic_net": "Ag2O + 2H⁺ + 2Cl⁻ = 2AgCl↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "H⁺ ionlari Ag2O dagi kislorod bilan suv hosil qiladi.",
+     "Bo'shagan Ag⁺ ionlari darhol Cl⁻ ionlari bilan erimaydigan AgCl ga birikadi.",
+     "Qo'ng'ir oksid oq suzmasimon tuzga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qo'ng'ir-qora kukun o'rnida oq suzmasimon cho'kma hosil bo'ladi, eritma rangsizligicha qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq kumush(I) oksid soling.",
+    "Ustiga 3 ml xlorid kislota quyib chayqating.",
+    "Qattiq moddaning rangi va ko'rinishi o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kumush birikmalari terini qoraytiradi: qo'lqopdan foydalaning, ko'zoynak taqing.",
+   "explanation_uz": "Asosli oksid kislota bilan tuz va suv hosil qiladi, lekin bu holda hosil bo'lgan tuz — AgCl suvda erimaydi va cho'kmaga tushadi. Shuning uchun oksid eritmaga o'tmaydi, balki oq tuzga aylanadi.",
+   "questions_uz": [
+    "Nima uchun Ag2O xlorid kislotada eritma hosil qilmaydi?",
+    "Ag2O ni eritish uchun qaysi kislotani tanlash kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0024",
+   "category": "oksidlar",
+   "title_uz": "Simob(II) oksidning nitrat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "HgO",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "HgO + 2HNO3 = Hg(NO3)2 + H2O",
+    "ionic_full": "HgO + 2H⁺ + 2NO3⁻ = Hg²⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "HgO + 2H⁺ = Hg²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "H⁺ ionlari HgO dagi kislorod bilan suv hosil qiladi.",
+     "Hg²⁺ ionlari eritmaga o'tadi — rangsiz simob(II) nitrat eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "To'q sariq-qizil kukun eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Tajriba o'qituvchi tomonidan mo'rili shkafda ko'rsatiladi.",
+    "Probirkaga juda oz miqdorda simob(II) oksid soling.",
+    "Ustiga 3 ml suyultirilgan nitrat kislota quyib chayqating va erishini kuzating."
+   ],
+   "safety_uz": "Simob birikmalari juda zaharli: faqat qo'lqopda, mo'rili shkafda ishlang; chiqindilarni maxsus idishga yig'ing, kanalizatsiyaga to'kmang.",
+   "explanation_uz": "Simob(II) oksid asosli oksid bo'lib, nitrat kislotada erib simob(II) nitrat hosil qiladi. Simob birikmalari zaharli bo'lgani uchun bunday tajribalar faqat namoyish sifatida o'tkaziladi.",
+   "questions_uz": [
+    "HgO qizdirilganda qanday parchalanadi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0025",
+   "category": "oksidlar",
+   "title_uz": "Bariy oksidning sulfat kislota bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaO + H2SO4 = BaSO4↓ + H2O",
+    "ionic_full": "BaO + 2H⁺ + SO4²⁻ = BaSO4↓ + H2O",
+    "ionic_net": "BaO + 2H⁺ + SO4²⁻ = BaSO4↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "BaO suvli eritmada Ba²⁺ va OH⁻ ionlarini beradi.",
+     "OH⁻ ionlari H⁺ bilan neytrallanadi, Ba²⁺ ionlari SO4²⁻ bilan erimaydigan BaSO4 hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaSO4",
+     "color": "#f4f4ee",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Oq mayda kristall cho'kma hosil bo'ladi, probirka biroz isiydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml suyultirilgan sulfat kislota quying.",
+    "Shpatel uchida ozroq bariy oksid soling va chayqating.",
+    "Hosil bo'lgan cho'kmani kuzating."
+   ],
+   "safety_uz": "Bariy birikmalari zaharli: qo'lqop taqing, moddani og'izga tekkizmang, ishdan so'ng qo'lni yuving.",
+   "explanation_uz": "Asosli oksid kislota bilan tuz va suv hosil qiladi. Bariy sulfat suvda ham, kislotalarda ham erimaydi, shuning uchun oq cho'kma tushadi.",
+   "questions_uz": [
+    "Nima uchun BaSO4 cho'kmasi kislotada erimaydi?",
+    "BaO ning HCl bilan reaksiyasida cho'kma hosil bo'ladimi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0026",
+   "category": "oksidlar",
+   "title_uz": "Mis(I) oksidning suyultirilgan sulfat kislota bilan reaksiyasi (disproporsiyalanish)",
+   "level": "litsey",
+   "topic_uz": "Asosli oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu2O",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 4,
+     "excess": true,
+     "conc_max_M": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Cu2O + H2SO4 = CuSO4 + Cu + H2O",
+    "ionic_full": "Cu2O + 2H⁺ + SO4²⁻ = Cu²⁺ + SO4²⁻ + Cu + H2O",
+    "ionic_net": "Cu2O + 2H⁺ = Cu²⁺ + Cu + H2O",
+    "electron_balance": [
+     "Cu⁺¹ − 1e⁻ = Cu⁺²",
+     "Cu⁺¹ + 1e⁻ = Cu"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislotada Cu2O dan Cu⁺ ionlari hosil bo'ladi, lekin ular suvli eritmada beqaror.",
+     "Bir Cu⁺ ioni elektron berib Cu²⁺ ga oksidlanadi.",
+     "Ikkinchi Cu⁺ ioni shu elektronni olib metall misga qaytariladi — disproporsiyalanish."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Qizil kukun qizg'ish-qo'ng'ir mis kukuniga aylanadi, eritma esa havorang-ko'k tusga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq mis(I) oksid soling.",
+    "Ustiga 4 ml suyultirilgan sulfat kislota quyib chayqating.",
+    "Cho'kma rangining o'zgarishini va eritma rangini kuzating."
+   ],
+   "safety_uz": "Sulfat kislota terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Mis(I) ionlari suvli eritmada beqaror va disproporsiyalanadi: bir qismi Cu²⁺ ga oksidlanadi, bir qismi metall misga qaytariladi. Shuning uchun Cu2O suyultirilgan sulfat kislotada mis(I) sulfat emas, mis(II) sulfat va mis hosil qiladi.",
+   "questions_uz": [
+    "Disproporsiyalanish reaksiyasi deganda nimani tushunasiz?",
+    "Elektron balans tuzing va oksidlovchi hamda qaytaruvchini ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0027",
+   "category": "oksidlar",
+   "title_uz": "Rux oksidning xlorid kislotada erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "ZnO + 2HCl = ZnCl2 + H2O",
+    "ionic_full": "ZnO + 2H⁺ + 2Cl⁻ = Zn²⁺ + 2Cl⁻ + H2O",
+    "ionic_net": "ZnO + 2H⁺ = Zn²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan ta'sirlashganda ZnO asos xossasini namoyon qiladi.",
+     "H⁺ ionlari kislorodni suvga aylantiradi, Zn²⁺ ionlari eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun kislotada eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida rux oksid soling.",
+    "Ustiga 3 ml xlorid kislota quyib chayqating.",
+    "Kukunning erishini kuzating. Natijani ishqor bilan o'tkaziladigan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Xlorid kislota bilan ehtiyot bo'ling: ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Rux oksid amfoter oksid: kislotalar bilan reaksiyada asosli oksid kabi tuz va suv hosil qiladi. Uning ishqorlar bilan ham reaksiyaga kirishishi keyingi tajribada ko'rsatiladi.",
+   "questions_uz": [
+    "Amfoter oksid deb qanday oksidlarga aytiladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0028",
+   "category": "oksidlar",
+   "title_uz": "Rux oksidning natriy gidroksid eritmasida erishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "ZnO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Konsentrlanganroq ishqor eritmasi bilan biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "ZnO + 2NaOH + H2O = Na2[Zn(OH)4]",
+    "ionic_full": "ZnO + 2Na⁺ + 2OH⁻ + H2O = 2Na⁺ + [Zn(OH)4]²⁻",
+    "ionic_net": "ZnO + 2OH⁻ + H2O = [Zn(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan ta'sirlashganda ZnO kislotali oksid xossasini namoyon qiladi.",
+     "Zn²⁺ markaziy ioni atrofida to'rtta OH⁻ ligandi joylashib, [Zn(OH)4]²⁻ gidroksokompleks hosil bo'ladi.",
+     "Kompleks ion suvda eriydi — natriy tetragidroksosinkat eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun ishqor eritmasida isitilganda eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida rux oksid soling.",
+    "Ustiga 4 ml natriy gidroksid eritmasi quying.",
+    "Probirkani qisqich bilan ushlab, qaynatmasdan isiting va kukunning erishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi; himoya ko'zoynagi va qo'lqopdan foydalaning. Isitilgan ishqor sachrashi mumkin — probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Rux oksid ishqor eritmalarida erib gidroksokompleks — tetragidroksosinkat hosil qiladi. Shunday qilib, ZnO ham kislotalar, ham ishqorlar bilan reaksiyaga kirishadi, ya'ni amfoter oksid hisoblanadi.",
+   "questions_uz": [
+    "ZnO ning amfoterligini isbotlovchi ikki reaksiya tenglamasini yozing.",
+    "[Zn(OH)4]²⁻ ionida markaziy ion va ligandlarni ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0029",
+   "category": "oksidlar",
+   "title_uz": "Rux oksidning natriy gidroksid bilan suyuqlantirilishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "ZnO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "granula"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma tigelda kuchli qizdirib suyuqlantiriladi (NaOH 318 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "ZnO + 2NaOH = Na2ZnO2 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Suyuqlanmada suv yo'q, shuning uchun kompleks emas, 'suvsiz' tuz — natriy sinkat hosil bo'ladi.",
+     "ZnO bu reaksiyada kislotali oksid vazifasini bajaradi (H2ZnO2 'kislota'siga mos keladi).",
+     "Hosil bo'lgan suv yuqori haroratda bug' holida chiqib ketadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Aralashma suyuqlanadi, suv bug'i ajraladi; sovigach oq qotishma qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Temir tigelga rux oksid va natriy gidroksid granulalarini soling.",
+    "Tigelni chinni uchburchakka qo'yib, gorelka alangasida kuchli qizdiring.",
+    "Aralashma suyuqlanib, bug' ajralishi to'xtaguncha qizdiring, so'ng sovuting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Suyuqlantirishda ZnO ishqor bilan suvsiz tuz — natriy sinkat Na2ZnO2 hosil qiladi. Suvli eritmada esa xuddi shu jarayon gidroksokompleks [Zn(OH)4]²⁻ hosil bo'lishi bilan boradi. Ikkala holat ham ZnO ning kislotali xossasini ko'rsatadi.",
+   "questions_uz": [
+    "Suyuqlanmada va eritmada ZnO ning ishqor bilan reaksiyasi mahsulotlari nima uchun farq qiladi?",
+    "Na2ZnO2 ni nomlang va rux oksidlanish darajasini aniqlang."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0030",
+   "category": "oksidlar",
+   "title_uz": "Alyuminiy oksidning sulfat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Al2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 6,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kuchli kuydirilgan alyuminiy oksid (korund) kislotalarda deyarli erimaydi; tajriba uchun yangi olingan (kuydirilmagan) Al2O3 olinadi va isitiladi."
+   },
+   "equation": {
+    "molecular": "Al2O3 + 3H2SO4 = Al2(SO4)3 + 3H2O",
+    "ionic_full": "Al2O3 + 6H⁺ + 3SO4²⁻ = 2Al³⁺ + 3SO4²⁻ + 3H2O",
+    "ionic_net": "Al2O3 + 6H⁺ = 2Al³⁺ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan reaksiyada Al2O3 asosli oksid xossasini namoyon qiladi.",
+     "H⁺ ionlari kislorod ionlarini suvga aylantiradi, Al³⁺ ionlari eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq kukun isitilganda asta-sekin eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida alyuminiy oksid soling.",
+    "Ustiga 5–6 ml suyultirilgan sulfat kislota quying.",
+    "Probirkani qisqich bilan ushlab, uzoqroq isiting va kukunning erishini kuzating."
+   ],
+   "safety_uz": "Isitilgan sulfat kislota sachrasa kuchli kuydiradi: ko'zoynak taqing, probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Alyuminiy oksid amfoter oksid: kislotalar bilan tuz va suv hosil qiladi. Uning kristall panjarasi juda mustahkam bo'lgani uchun reaksiya sekin, faqat isitilganda boradi.",
+   "questions_uz": [
+    "Nima uchun korund kislotalarda erimaydi?",
+    "Al2O3 ning amfoterligini ko'rsatuvchi reaksiyalarni yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0031",
+   "category": "oksidlar",
+   "title_uz": "Alyuminiy oksidning natriy gidroksid eritmasida erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Al2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Konsentrlangan ishqor eritmasi bilan uzoq qizdiriladi; kuydirilgan Al2O3 deyarli erimaydi."
+   },
+   "equation": {
+    "molecular": "Al2O3 + 2NaOH + 3H2O = 2Na[Al(OH)4]",
+    "ionic_full": "Al2O3 + 2Na⁺ + 2OH⁻ + 3H2O = 2Na⁺ + 2[Al(OH)4]⁻",
+    "ionic_net": "Al2O3 + 2OH⁻ + 3H2O = 2[Al(OH)4]⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan ta'sirlashganda Al2O3 kislotali oksid xossasini namoyon qiladi.",
+     "Al³⁺ atrofida to'rtta OH⁻ ligandi joylashib [Al(OH)4]⁻ gidroksokompleks hosil bo'ladi.",
+     "Kompleks ion suvda eriydi — natriy tetragidroksoalyuminat eritmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Oq kukun konsentrlangan ishqorda uzoq qizdirilganda asta-sekin eriydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga shpatel uchida alyuminiy oksid soling.",
+    "Ustiga 5 ml konsentrlangan natriy gidroksid eritmasi quying.",
+    "Probirkani qisqich bilan ushlab, uzoq vaqt ehtiyotkorlik bilan qizdiring va o'zgarishni kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi; himoya ko'zoynagi va qo'lqopdan foydalaning. Qaynayotgan ishqor sachrasa juda xavfli: probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Alyuminiy oksid ishqor eritmalarida erib tetragidroksoalyuminat hosil qiladi — bu uning kislotali xossasini ko'rsatadi. Sanoatda boksitdan toza alyuminiy oksid olish (Bayer usuli) shu reaksiyaga asoslangan.",
+   "questions_uz": [
+    "Al2O3 ning NaOH eritmasi va suyuqlanmasi bilan reaksiyasi mahsulotlarini solishtiring.",
+    "Bayer usulining mohiyati nimada?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0032",
+   "category": "oksidlar",
+   "title_uz": "Alyuminiy oksidning natriy gidroksid bilan suyuqlantirilishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Al2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "granula"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma tigelda kuchli qizdirib suyuqlantiriladi (NaOH 318 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "Al2O3 + 2NaOH = 2NaAlO2 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Suyuqlanmada Al2O3 kislotali oksid vazifasini bajaradi (HAlO2 metaalyuminat kislotasiga mos keladi).",
+     "Ishqor bilan suvsiz tuz — natriy metaalyuminat hosil bo'ladi.",
+     "Ajralgan suv yuqori haroratda bug'lanib ketadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Aralashma suyuqlanadi, suv bug'i ajraladi; sovigach oq qotishma qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Temir yoki nikel tigelga alyuminiy oksid va natriy gidroksid soling.",
+    "Tigelni chinni uchburchakka qo'yib, kuchli qizdiring.",
+    "Aralashma to'liq suyuqlanib, bug' ajralishi to'xtagach, sovuting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Suyuqlantirishda alyuminiy oksid ishqor bilan suvsiz tuz — natriy metaalyuminat NaAlO2 hosil qiladi. Bu Al2O3 ning kislotali xossasini ko'rsatadi; suvli eritmada esa xuddi shu jarayon [Al(OH)4]⁻ kompleksining hosil bo'lishi bilan boradi.",
+   "questions_uz": [
+    "NaAlO2 suvda eritilsa, eritmada qanday ion hosil bo'ladi?",
+    "Al2O3 ning amfoterligini ko'rsatuvchi tenglamalarni yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0033",
+   "category": "oksidlar",
+   "title_uz": "Alyuminiy oksidning soda bilan suyuqlantirilishi",
+   "level": "10-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Al2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "Na2CO3",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 900,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma mufel pechida yuqori haroratda suyuqlantiriladi (Na2CO3 851 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "Al2O3 + Na2CO3 = 2NaAlO2 + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Yuqori haroratda kam uchuvchan Al2O3 uchuvchan kislotali oksid CO2 ni karbonatdan siqib chiqaradi.",
+     "Al2O3 kislotali oksid vazifasini bajarib natriy metaalyuminat hosil qiladi.",
+     "CO2 gaz holida chiqib ketadi, shuning uchun reaksiya oxirigacha boradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Suyuqlanmada gaz pufakchalari ajraladi; sovigach oq qotishma qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi"
+   ],
+   "procedure_uz": [
+    "Tigelda alyuminiy oksid va suvsiz soda aralashmasini tayyorlang.",
+    "Tigelni mufel pechiga qo'yib, aralashma suyuqlanguncha qizdiring.",
+    "Gaz ajralishi to'xtagach, tigelni qisqich bilan chiqarib sovuting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Suyuqlanmada amfoter Al2O3 kislotali oksid sifatida karbonatdan uchuvchan CO2 ni siqib chiqaradi. Bu reaksiya alyuminiy birikmalari ishlab chiqarishda boksitni qayta ishlash usullaridan biri hisoblanadi.",
+   "questions_uz": [
+    "Nima uchun bu reaksiya faqat suyuqlanmada boradi?",
+    "SiO2 ning soda bilan reaksiyasi bilan qanday o'xshashlik bor?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0034",
+   "category": "oksidlar",
+   "title_uz": "Qo'rg'oshin(II) oksidning nitrat kislotada erishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "PbO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "PbO + 2HNO3 = Pb(NO3)2 + H2O",
+    "ionic_full": "PbO + 2H⁺ + 2NO3⁻ = Pb²⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "PbO + 2H⁺ = Pb²⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kislota bilan PbO asosli oksid kabi ta'sirlashadi.",
+     "H⁺ ionlari kislorodni suvga aylantiradi, Pb²⁺ ionlari eritmaga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Sariq kukun eriydi, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq qo'rg'oshin(II) oksid soling.",
+    "Ustiga 3 ml suyultirilgan nitrat kislota quyib chayqating.",
+    "Kukunning erishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: qo'lqopda ishlang, changini nafas bilan olmang, chiqindilarni alohida idishga yig'ing.",
+   "explanation_uz": "Qo'rg'oshin(II) oksid amfoter oksid. Uni eritish uchun nitrat kislota tanlanadi, chunki qo'rg'oshin(II) nitrat suvda yaxshi eriydi, xlorid va sulfat esa kam eriydi.",
+   "questions_uz": [
+    "Nima uchun PbO ni eritish uchun sulfat kislota yaramaydi?",
+    "PbO ning ishqor bilan reaksiyasi tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0035",
+   "category": "oksidlar",
+   "title_uz": "Qo'rg'oshin(II) oksidning konsentrlangan ishqor eritmasida erishi",
+   "level": "10-sinf",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "PbO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 4,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Konsentrlangan ishqor eritmasi bilan isitiladi."
+   },
+   "equation": {
+    "molecular": "PbO + 2NaOH + H2O = Na2[Pb(OH)4]",
+    "ionic_full": "PbO + 2Na⁺ + 2OH⁻ + H2O = 2Na⁺ + [Pb(OH)4]²⁻",
+    "ionic_net": "PbO + 2OH⁻ + H2O = [Pb(OH)4]²⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ishqor bilan ta'sirlashganda PbO kislotali xossasini namoyon qiladi.",
+     "Pb²⁺ atrofida to'rtta OH⁻ ligand joylashib [Pb(OH)4]²⁻ gidroksokompleks hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Sariq kukun isitilgan konsentrlangan ishqorda asta-sekin eriydi, rangsiz eritma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shpatel",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq qo'rg'oshin(II) oksid soling.",
+    "Ustiga 5 ml konsentrlangan natriy gidroksid eritmasi quying.",
+    "Probirkani qisqich bilan ushlab isiting va kukunning erishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli, ishqor o'yuvchi: qo'lqop va ko'zoynakda ishlang, isitilgan ishqor sachrashidan ehtiyot bo'ling.",
+   "explanation_uz": "Qo'rg'oshin(II) oksid ishqor eritmasida erib tetragidroksoplyumbat(II) hosil qiladi. Bu PbO ning amfoter oksid ekanligini tasdiqlaydi.",
+   "questions_uz": [
+    "[Pb(OH)4]²⁻ ionini nomlang.",
+    "PbO ning amfoterligini ko'rsatuvchi ikkita reaksiya tenglamasini yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0036",
+   "category": "oksidlar",
+   "title_uz": "Xrom(III) oksidning natriy gidroksid bilan suyuqlantirilishi",
+   "level": "litsey",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cr2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "granula"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma tigelda kuchli qizdirib suyuqlantiriladi (NaOH 318 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "Cr2O3 + 2NaOH = 2NaCrO2 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Cr2O3 amfoter oksid; suyuqlanmada ishqor bilan kislotali oksid sifatida ta'sirlashadi.",
+     "Natriy xromit (NaCrO2, metaxromit kislota tuzi) hosil bo'ladi.",
+     "Ajralgan suv bug' holida chiqib ketadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Yashil kukun ishqor bilan suyuqlantirilganda suv bug'i ajraladi, yashil qotishma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Temir tigelga xrom(III) oksid va natriy gidroksid soling.",
+    "Tigelni chinni uchburchakka qo'yib, kuchli qizdiring.",
+    "Aralashma suyuqlanib, bug' ajralishi to'xtagach, sovuting va rangini kuzating."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi. Xrom birikmalari zararli.",
+   "explanation_uz": "Xrom(III) oksid kislotalarda ham, ishqor eritmalarida ham juda qiyin eriydi, lekin suyuqlantirishda ishqor bilan xromit hosil qiladi — bu uning kislotali xossasini ko'rsatadi. Havo kislorodi yoki oksidlovchi ishtirokida suyuqlanmada sariq xromat ham hosil bo'lishi mumkin.",
+   "questions_uz": [
+    "Cr2O3 ning amfoterligini qanday tajribalar bilan ko'rsatish mumkin?",
+    "NaCrO2 da xromning oksidlanish darajasini aniqlang."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0037",
+   "category": "oksidlar",
+   "title_uz": "Temir(III) oksidning natriy gidroksid bilan suyuqlantirilishi",
+   "level": "litsey",
+   "topic_uz": "Amfoter oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe2O3",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "granula"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma tigelda kuchli qizdirib suyuqlantiriladi (NaOH 318 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "Fe2O3 + 2NaOH = 2NaFeO2 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Fe2O3 asosan asosli oksid, ammo kuchsiz amfoter xossaga ham ega.",
+     "Suyuqlanmada ishqor bilan natriy ferrit NaFeO2 hosil bo'ladi.",
+     "Eritmada bu reaksiya deyarli bormaydi — faqat suyuqlanmada kuzatiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir kukun ishqor bilan suyuqlantirilganda suv bug'i ajraladi, qo'ng'ir qotishma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Temir tigelga temir(III) oksid va natriy gidroksid soling.",
+    "Tigelni chinni uchburchakka qo'yib, kuchli qizdiring.",
+    "Bug' ajralishi to'xtagach, tigelni sovuting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Temir(III) oksidning kislotali xossasi juda kuchsiz: u ishqor eritmalarida amalda erimaydi, ammo ishqor bilan suyuqlantirilganda ferrit hosil qiladi. Shu sababli Fe2O3 kuchsiz amfoter oksid hisoblanadi.",
+   "questions_uz": [
+    "Fe2O3 ning amfoterligi ZnO va Al2O3 nikidan qanday farq qiladi?",
+    "Ferritlar qayerda ishlatiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0038",
+   "category": "oksidlar",
+   "title_uz": "Karbonat angidridning ohakli suv bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca(OH)2",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ohakli suv — kalsiy gidroksidning to'yingan eritmasi."
+   },
+   "equation": {
+    "molecular": "Ca(OH)2 + CO2 = CaCO3↓ + H2O",
+    "ionic_full": "Ca²⁺ + 2OH⁻ + CO2 = CaCO3↓ + H2O",
+    "ionic_net": "Ca²⁺ + 2OH⁻ + CO2 = CaCO3↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "CO2 suvda erib karbonat kislota hosil qiladi va OH⁻ ionlari bilan neytrallanadi.",
+     "Hosil bo'lgan CO3²⁻ ionlari Ca²⁺ bilan erimaydigan CaCO3 ni hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CaCO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz o'tkazilganda tiniq ohakli suv loyqalanadi — oq cho'kma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml tiniq ohakli suv quying.",
+    "Kipp apparatidan chiqayotgan karbonat angidridni gaz o'tkazgich naycha orqali ohakli suvga o'tkazing.",
+    "Eritmaning loyqalanishini kuzating."
+   ],
+   "safety_uz": "Gaz o'tkazgich naychani suyuqlikdan chiqarmasdan gaz oqimini to'xtatmang (suyuqlik orqaga so'rilishi mumkin).",
+   "explanation_uz": "Kislotali oksid CO2 asos bilan tuz va suv hosil qiladi. Kalsiy karbonat suvda erimaydi, shuning uchun ohakli suv loyqalanadi. Bu reaksiya karbonat angidridni aniqlashda ishlatiladi.",
+   "questions_uz": [
+    "Ohakli suv yordamida nafas bilan chiqarilgan havoda CO2 borligini qanday isbotlash mumkin?",
+    "Reaksiyaning ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0039",
+   "category": "oksidlar",
+   "title_uz": "Ohakli suvga ortiqcha karbonat angidrid o'tkazish (loyqaning yo'qolishi)",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca(OH)2",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g",
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "CO2 uzoq vaqt, ortiqcha miqdorda o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "Ca(OH)2 + 2CO2 = Ca(HCO3)2",
+    "ionic_full": "Ca²⁺ + 2OH⁻ + 2CO2 = Ca²⁺ + 2HCO3⁻",
+    "ionic_net": "OH⁻ + CO2 = HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Avval CaCO3 cho'kmasi hosil bo'ladi: Ca(OH)2 + CO2 = CaCO3↓ + H2O.",
+     "Ortiqcha CO2 suv bilan karbonat kislota hosil qiladi va u CO3²⁻ ionlarini HCO3⁻ ga aylantiradi.",
+     "Kalsiy gidrokarbonat suvda eriydi, shuning uchun loyqa yo'qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval ohakli suv loyqalanadi, gaz o'tkazish davom ettirilganda esa loyqa asta-sekin yo'qolib, eritma yana tiniq bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml tiniq ohakli suv quying.",
+    "Unga Kipp apparatidan karbonat angidrid o'tkazing va loyqalanishni kuzating.",
+    "Gaz o'tkazishni loyqa yo'qolguncha davom ettiring.",
+    "Tiniq eritmani qaynatib ko'ring: u yana loyqalanadi."
+   ],
+   "safety_uz": "Gaz o'tkazgich naychani suyuqlikdan chiqarib, so'ng gaz oqimini to'xtating; qaynatishda probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Ortiqcha CO2 suvda erimaydigan o'rta tuz CaCO3 ni eriydigan nordon tuz Ca(HCO3)2 ga aylantiradi. Tabiatda ohaktoshlarning erishi, g'orlar hosil bo'lishi va suvning vaqtinchalik qattiqligi shu jarayon bilan bog'liq. Qaynatilganda gidrokarbonat parchalanib, yana CaCO3 cho'kadi.",
+   "questions_uz": [
+    "Nima uchun loyqa yo'qoladi?",
+    "Suvning vaqtinchalik qattiqligi qanday yo'qotiladi?",
+    "G'orlarda stalaktitlar qanday hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0040",
+   "category": "oksidlar",
+   "title_uz": "Oltingugurt(IV) oksidning ohakli suv bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ca(OH)2",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 5
+    },
+    {
+     "species": "SO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ca(OH)2 + SO2 = CaSO3↓ + H2O",
+    "ionic_full": "Ca²⁺ + 2OH⁻ + SO2 = CaSO3↓ + H2O",
+    "ionic_net": "Ca²⁺ + 2OH⁻ + SO2 = CaSO3↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "SO2 suvda sulfit kislota hosil qiladi va u OH⁻ ionlari bilan neytrallanadi.",
+     "Hosil bo'lgan SO3²⁻ ionlari Ca²⁺ bilan erimaydigan CaSO3 ni hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CaSO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz o'tkazilganda ohakli suv loyqalanadi — oq cho'kma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "probirka-yon-naychali"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml tiniq ohakli suv quying.",
+    "Gaz olish asbobidan SO2 ni gaz o'tkazgich naycha orqali ohakli suvga o'tkazing.",
+    "Eritmaning loyqalanishini kuzating."
+   ],
+   "safety_uz": "SO2 zaharli: tajribani mo'rili shkafda o'tkazing, gazni hidlamang.",
+   "explanation_uz": "Oltingugurt(IV) oksid ham CO2 kabi ohakli suvni loyqalantiradi, shuning uchun ohakli suv bilan bu ikki gazni farqlab bo'lmaydi. SO2 ni o'tkir hidi va kaliy permanganat yoki bromli suvni rangsizlantirishi bilan farqlash mumkin.",
+   "questions_uz": [
+    "CO2 va SO2 ni qanday farqlash mumkin?",
+    "Issiqlik elektr stansiyalarida tutun tarkibidagi SO2 ni ushlashda ohakdan nima uchun foydalaniladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0041",
+   "category": "oksidlar",
+   "title_uz": "Karbonat angidridning barit suvi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Ba(OH)2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Ba(OH)2 + CO2 = BaCO3↓ + H2O",
+    "ionic_full": "Ba²⁺ + 2OH⁻ + CO2 = BaCO3↓ + H2O",
+    "ionic_net": "Ba²⁺ + 2OH⁻ + CO2 = BaCO3↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "CO2 ishqoriy eritmada OH⁻ ionlari bilan CO3²⁻ ga aylanadi.",
+     "CO3²⁻ ionlari Ba²⁺ bilan erimaydigan BaCO3 hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaCO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz o'tkazilganda barit suvi tez loyqalanadi, oq cho'kma tushadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml barit suvi (bariy gidroksid eritmasi) quying.",
+    "Kipp apparatidan karbonat angidridni gaz o'tkazgich naycha orqali o'tkazing.",
+    "Loyqalanishni ohakli suv bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Bariy birikmalari zaharli: qo'lqop taqing, moddani og'izga tekkizmang.",
+   "explanation_uz": "Barit suvi ohakli suvdan konsentrlanganroq, chunki Ba(OH)2 suvda Ca(OH)2 ga qaraganda ancha yaxshi eriydi. Shuning uchun u CO2 ning juda oz miqdorini ham sezgir aniqlaydi.",
+   "questions_uz": [
+    "Nima uchun barit suvi ohakli suvga qaraganda sezgirroq?",
+    "Reaksiyaning ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0042",
+   "category": "oksidlar",
+   "title_uz": "Karbonat angidridning natriy gidroksid eritmasiga yutilishi",
+   "level": "8-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5,
+     "excess": true
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaOH + CO2 = Na2CO3 + H2O",
+    "ionic_full": "2Na⁺ + 2OH⁻ + CO2 = 2Na⁺ + CO3²⁻ + H2O",
+    "ionic_net": "2OH⁻ + CO2 = CO3²⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "CO2 suvda karbonat kislotaga aylanadi va ishqorning OH⁻ ionlari bilan neytrallanadi.",
+     "Ishqor ortiqcha bo'lganda o'rta tuz — natriy karbonat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz pufakchalari eritmaga to'liq yutiladi, ko'rinadigan o'zgarish bo'lmaydi; eritma ishqoriyligicha qoladi (fenolftalein pushti)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy gidroksid eritmasi quying va 1 tomchi fenolftalein qo'shing.",
+    "Kipp apparatidan CO2 ni qisqa vaqt o'tkazing.",
+    "Gaz pufakchalarining yutilishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi; himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Kislotali oksid ishqor bilan tuz va suv hosil qiladi. Ishqor ortiqcha bo'lganda o'rta tuz Na2CO3 hosil bo'ladi; uning eritmasi gidroliz tufayli ishqoriy muhitga ega. Bu reaksiya gazlarni CO2 dan tozalashda ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun natriy gidroksid saqlanadigan idish og'zi zich yopilishi kerak?",
+    "CO2 ortiqcha bo'lsa, qanday tuz hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0043",
+   "category": "oksidlar",
+   "title_uz": "Natriy gidroksid eritmasiga ortiqcha karbonat angidrid o'tkazish",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g",
+     "excess": true
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "CO2 ortiqcha miqdorda, uzoq vaqt o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "NaOH + CO2 = NaHCO3",
+    "ionic_full": "Na⁺ + OH⁻ + CO2 = Na⁺ + HCO3⁻",
+    "ionic_net": "OH⁻ + CO2 = HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Avval natriy karbonat hosil bo'ladi.",
+     "Ortiqcha CO2 suv bilan CO3²⁻ ionlarini HCO3⁻ ga aylantiradi: CO3²⁻ + CO2 + H2O = 2HCO3⁻.",
+     "Natijada nordon tuz — natriy gidrokarbonat hosil bo'ladi, muhit kuchsiz ishqoriy bo'lib qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d81b8c",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz o'tkazish davomida fenolftaleinning to'q pushti rangi oqarib, deyarli rangsizlanadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy gidroksid eritmasi quying va 1 tomchi fenolftalein qo'shing.",
+    "Kipp apparatidan CO2 ni uzoq vaqt o'tkazing.",
+    "Indikator rangining asta-sekin o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi teri va ko'zni yemiradi; himoya ko'zoynagi va qo'lqopdan foydalaning.",
+   "explanation_uz": "Ishqor va kislotali oksid nisbatiga qarab o'rta yoki nordon tuz hosil bo'ladi. CO2 ortiqcha bo'lganda natriy gidrokarbonat hosil bo'ladi; uning eritmasi juda kuchsiz ishqoriy (pH ≈ 8), shuning uchun fenolftalein rangi deyarli yo'qoladi.",
+   "questions_uz": [
+    "O'rta va nordon tuzlarning farqi nimada?",
+    "NaHCO3 ning maishiy nomi va qo'llanilishini ayting."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0044",
+   "category": "oksidlar",
+   "title_uz": "Oltingugurt(IV) oksidning natriy gidroksid eritmasiga yutilishi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5,
+     "excess": true
+    },
+    {
+     "species": "SO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaOH + SO2 = Na2SO3 + H2O",
+    "ionic_full": "2Na⁺ + 2OH⁻ + SO2 = 2Na⁺ + SO3²⁻ + H2O",
+    "ionic_net": "2OH⁻ + SO2 = SO3²⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "SO2 eritmada sulfit kislotaga aylanadi.",
+     "Ishqor ortiqcha bo'lganda ikkala proton ham OH⁻ bilan neytrallanadi va o'rta tuz Na2SO3 hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz eritmaga to'liq yutiladi, o'tkir hid sezilmaydi; ko'rinadigan boshqa o'zgarish bo'lmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "probirka-yon-naychali"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy gidroksid eritmasi quying.",
+    "Gaz olish asbobidan SO2 ni gaz o'tkazgich naycha orqali qisqa vaqt o'tkazing.",
+    "Gazning yutilishini kuzating."
+   ],
+   "safety_uz": "SO2 zaharli, ishqor o'yuvchi: mo'rili shkafda, ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "SO2 kislotali oksid sifatida ishqor bilan tuz va suv hosil qiladi. Laboratoriyada ortiqcha SO2 ni zararsizlantirish uchun gaz ishqor eritmasiga yuttiriladi.",
+   "questions_uz": [
+    "Laboratoriyada zaharli kislotali gazlar qanday zararsizlantiriladi?",
+    "SO2 ortiqcha bo'lsa, qanday tuz hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0045",
+   "category": "oksidlar",
+   "title_uz": "Natriy gidroksid eritmasiga ortiqcha oltingugurt(IV) oksid o'tkazish",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5
+    },
+    {
+     "species": "SO2",
+     "state": "g",
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "SO2 ortiqcha miqdorda o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "NaOH + SO2 = NaHSO3",
+    "ionic_full": "Na⁺ + OH⁻ + SO2 = Na⁺ + HSO3⁻",
+    "ionic_net": "OH⁻ + SO2 = HSO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Avval natriy sulfit hosil bo'ladi.",
+     "Ortiqcha SO2 suv bilan SO3²⁻ ionlarini HSO3⁻ ga aylantiradi.",
+     "Natijada nordon tuz — natriy gidrosulfit hosil bo'ladi va muhit kuchsiz kislotali bo'lib qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz avval to'liq yutiladi; oxirida eritma ustida SO2 ning o'tkir hidi seziladi, eritma kislotali bo'lib qoladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "probirka-yon-naychali"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy gidroksid eritmasi quying.",
+    "SO2 ni ortiqcha miqdorda, uzoq vaqt o'tkazing.",
+    "Eritma muhitini universal indikator qog'ozi bilan tekshiring."
+   ],
+   "safety_uz": "SO2 zaharli: faqat mo'rili shkafda ishlang, gazni hidlamang.",
+   "explanation_uz": "Ikki negizli kislotaga mos keladigan kislotali oksid ortiqcha bo'lganda nordon tuz hosil bo'ladi. NaHSO3 eritmasi kuchsiz kislotali, chunki HSO3⁻ ionining dissotsilanishi gidrolizidan ustun turadi.",
+   "questions_uz": [
+    "Na2SO3 va NaHSO3 eritmalarining muhiti qanday?",
+    "SO2 va NaOH ning qanday nisbatida o'rta, qanday nisbatida nordon tuz hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0046",
+   "category": "oksidlar",
+   "title_uz": "Fosfor(V) oksidning natriy gidroksid eritmasi bilan reaksiyasi",
+   "level": "8-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "P2O5",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "P2O5 + 6NaOH = 2Na3PO4 + 3H2O",
+    "ionic_full": "P2O5 + 6Na⁺ + 6OH⁻ = 6Na⁺ + 2PO4³⁻ + 3H2O",
+    "ionic_net": "P2O5 + 6OH⁻ = 2PO4³⁻ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "P2O5 suv bilan ortofosfat kislotaga aylanadi.",
+     "Ishqor ortiqcha bo'lganda kislotaning uchala protoni ham OH⁻ bilan neytrallanadi.",
+     "O'rta tuz — natriy ortofosfat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oq kukun ishqor eritmasida vishillab eriydi, eritma qiziydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy gidroksid eritmasi quying.",
+    "Shpatel uchida juda oz fosfor(V) oksid soling.",
+    "Erish va isishni kuzating."
+   ],
+   "safety_uz": "P2O5 va ishqor terini kuydiradi: ko'zoynak va qo'lqopdan foydalaning, P2O5 ni oz miqdorda qo'shing.",
+   "explanation_uz": "Kislotali oksid ishqor bilan tuz va suv hosil qiladi. Uch negizli kislotaga mos keladigan P2O5 ishqor ortiqcha bo'lganda o'rta tuz — ortofosfat hosil qiladi; ishqor kam bo'lsa, nordon tuzlar (gidro- va digidrofosfatlar) hosil bo'ladi.",
+   "questions_uz": [
+    "P2O5 va NaOH nisbati 1:2 bo'lsa, qanday tuz hosil bo'ladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0047",
+   "category": "oksidlar",
+   "title_uz": "Azot(IV) oksidning natriy gidroksid eritmasiga yutilishi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NO2",
+     "state": "g"
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NO2 + 2NaOH = NaNO3 + NaNO2 + H2O",
+    "ionic_full": "2NO2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + NO3⁻ + NO2⁻ + H2O",
+    "ionic_net": "2NO2 + 2OH⁻ = NO3⁻ + NO2⁻ + H2O",
+    "electron_balance": [
+     "N⁺⁴ − 1e⁻ = N⁺⁵",
+     "N⁺⁴ + 1e⁻ = N⁺³"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "NO2 ishqor bilan ta'sirlashganda disproporsiyalanadi.",
+     "Bir azot atomi +5 holatga (nitrat ioniga) oksidlanadi, ikkinchisi +3 holatga (nitrit ioniga) qaytariladi.",
+     "Ikki tuz — natriy nitrat va natriy nitrit aralashmasi hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qo'ng'ir gaz ishqor eritmasiga tez yutilib rangsizlanadi; eritma rangsizligicha qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "gaz-silindri",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Tajriba o'qituvchi tomonidan mo'rili shkafda ko'rsatiladi.",
+    "NO2 bilan to'ldirilgan silindrga 5 ml natriy gidroksid eritmasi quying.",
+    "Silindrni tiqin bilan yopib chayqating va qo'ng'ir rangning yo'qolishini kuzating."
+   ],
+   "safety_uz": "NO2 juda zaharli, ishqor o'yuvchi: faqat mo'rili shkafda, ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "NO2 ga bitta kislota mos kelmaydi, shuning uchun u ishqor bilan ikki xil tuz hosil qiladi. Bu reaksiya sanoatda chiqindi gazlarni azot oksidlaridan tozalashda qo'llaniladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchi qaysi modda?",
+    "Nima uchun NO2 ning ishqor bilan reaksiyasida ikki xil tuz hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0048",
+   "category": "oksidlar",
+   "title_uz": "Kremniy(IV) oksidning natriy gidroksid bilan suyuqlantirilishi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "SiO2",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "granula"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma tigelda kuchli qizdirib suyuqlantiriladi (NaOH 318 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "SiO2 + 2NaOH = Na2SiO3 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Yuqori haroratda SiO2 ning mustahkam panjarasi ishqor ta'sirida buziladi.",
+     "SiO2 kislotali oksid sifatida ishqor bilan natriy silikat hosil qiladi.",
+     "Suv bug' holida ajralib chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Aralashma suyuqlanadi, suv bug'i ajraladi; sovigach shishasimon massa — natriy silikat qoladi, u suvda eriydi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Temir yoki nikel tigelga toza qum va natriy gidroksid granulalarini soling.",
+    "Tigelni chinni uchburchakka qo'yib, kuchli qizdiring.",
+    "Suyuqlanma bir xil bo'lib, bug' ajralishi to'xtagach, sovuting.",
+    "Sovigan massaning bir qismini suvda eriting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Kremniy(IV) oksid suv va kislotalar bilan reaksiyaga kirishmaydi, lekin kislotali oksid sifatida ishqorlar bilan suyuqlantirilganda silikat hosil qiladi. Natriy silikatning konsentrlangan eritmasi 'suyuq shisha' deb ataladi.",
+   "questions_uz": [
+    "Nima uchun ishqor eritmalari shisha idishlarda uzoq saqlanmaydi?",
+    "'Suyuq shisha' qayerda ishlatiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0049",
+   "category": "oksidlar",
+   "title_uz": "Kremniy(IV) oksidning soda bilan suyuqlantirilishi (shisha olish asosi)",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "SiO2",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "Na2CO3",
+     "state": "s",
+     "mass_g": 0.4,
+     "form": "kukun"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 900,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma mufel pechida yuqori haroratda suyuqlantiriladi (Na2CO3 851 °C da suyuqlanadi); harorat chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "SiO2 + Na2CO3 = Na2SiO3 + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Yuqori haroratda kam uchuvchan kislotali oksid SiO2 uchuvchan CO2 ni karbonatdan siqib chiqaradi.",
+     "Natriy silikat hosil bo'ladi, CO2 gaz holida chiqib ketadi.",
+     "Gaz chiqib ketgani uchun muvozanat mahsulotlar tomoniga siljiydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Suyuqlanmadan gaz pufakchalari ajraladi; sovigach shishasimon massa qoladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi"
+   ],
+   "procedure_uz": [
+    "Tigelda toza qum va suvsiz soda aralashmasini tayyorlang.",
+    "Tigelni mufel pechiga qo'yib, aralashma suyuqlanguncha qizdiring.",
+    "Gaz ajralishi to'xtagach, tigelni qisqich bilan chiqarib sovuting."
+   ],
+   "safety_uz": "Suyuqlanma juda issiq va o'yuvchi: himoya ko'zoynagi, qo'lqop va tigel qisqichidan foydalaning, tigelga engashmang. Ishqor suyuqlanmasi chinni va shishani yemiradi — temir yoki nikel tigel ishlatiladi.",
+   "explanation_uz": "Suvli eritmada karbonat kislota silikat kislotadan kuchli, ammo suyuqlanmada uchuvchan bo'lmagan SiO2 uchuvchan CO2 ni siqib chiqaradi. Oddiy deraza shishasi qum, soda va ohaktosh aralashmasini suyuqlantirib olinadi.",
+   "questions_uz": [
+    "Nima uchun eritmada CO2 silikatdan silikat kislotani siqib chiqaradi, suyuqlanmada esa aksincha?",
+    "Oddiy shisha tarkibini yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0050",
+   "category": "oksidlar",
+   "title_uz": "Karbonat angidridning soda eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + CO2 + H2O = 2NaHCO3",
+    "ionic_full": "2Na⁺ + CO3²⁻ + CO2 + H2O = 2Na⁺ + 2HCO3⁻",
+    "ionic_net": "CO3²⁻ + CO2 + H2O = 2HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "CO2 suvda karbonat kislota hosil qiladi.",
+     "H2CO3 bitta protonini CO3²⁻ ioniga beradi va ikkita HCO3⁻ ioni hosil bo'ladi.",
+     "O'rta tuz nordon tuzga — natriy gidrokarbonatga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Gaz eritmaga yutiladi; konsentrlangan eritmada natriy gidrokarbonatning oq kristallari ajralishi mumkin."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml soda eritmasi quying.",
+    "Kipp apparatidan CO2 ni uzoq vaqt o'tkazing.",
+    "Eritma muhitini tajribadan oldin va keyin universal indikator qog'ozi bilan solishtiring."
+   ],
+   "safety_uz": "Gaz o'tkazgich naychani suyuqlikdan chiqarib, so'ng gaz oqimini to'xtating.",
+   "explanation_uz": "Karbonat angidrid o'rta tuz eritmasi bilan ta'sirlashib uni nordon tuzga aylantiradi. Muhit kuchli ishqoriydan kuchsiz ishqoriyga o'zgaradi. Bu reaksiya soda ishlab chiqarishning ammiakli usulida muhim bosqich hisoblanadi.",
+   "questions_uz": [
+    "Na2CO3 va NaHCO3 eritmalarining pH qiymatlari qanday farq qiladi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0051",
+   "category": "oksidlar",
+   "title_uz": "Karbonat angidridning natriy silikat eritmasi bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kislotali oksidlarning xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2SiO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    },
+    {
+     "species": "CO2",
+     "state": "g",
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "CO2 ortiqcha miqdorda o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "Na2SiO3 + 2CO2 + 2H2O = H2SiO3↓ + 2NaHCO3",
+    "ionic_full": "2Na⁺ + SiO3²⁻ + 2CO2 + 2H2O = H2SiO3↓ + 2Na⁺ + 2HCO3⁻",
+    "ionic_net": "SiO3²⁻ + 2CO2 + 2H2O = H2SiO3↓ + 2HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "CO2 suvda karbonat kislota hosil qiladi; u silikat kislotadan kuchliroq.",
+     "Kuchliroq kislota kuchsizroq kislotani tuzidan siqib chiqaradi.",
+     "Silikat kislota suvda erimaydi va iviqsimon cho'kma hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "H2SiO3",
+     "color": "#f2f2ee",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Gaz o'tkazilganda eritmada oq iviqsimon (kisel ko'rinishidagi) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml natriy silikat eritmasi quying.",
+    "Kipp apparatidan CO2 ni uzoq vaqt o'tkazing.",
+    "Iviqsimon cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Natriy silikat eritmasi ishqoriy, teri va ko'zni qitiqlaydi: ko'zoynak taqing.",
+   "explanation_uz": "Karbonat kislota silikat kislotadan kuchli bo'lgani uchun uni tuzidan siqib chiqaradi. Shu sababli havoda ochiq qoldirilgan 'suyuq shisha' asta-sekin loyqalanadi.",
+   "questions_uz": [
+    "Nima uchun ochiq qoldirilgan natriy silikat eritmasi loyqalanadi?",
+    "Kislotalarning kuch qatorida karbonat va silikat kislotalarning o'rnini ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0052",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning karbonat angidrid bilan birikishi",
+   "level": "8-sinf",
+   "topic_uz": "Oksidlarning o'zaro ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "temp_max_C": 800,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq kalsiy oksid CO2 oqimida qizdiriladi; xona haroratida reaksiya juda sekin. Harorat kalsiy karbonatning parchalanish haroratidan past bo'lishi kerak (chegaralar taxminiy)."
+   },
+   "equation": {
+    "molecular": "CaO + CO2 = CaCO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Asosli oksid (CaO) kislotali oksid (CO2) bilan suvsiz sharoitda bevosita birikadi.",
+     "O²⁻ ioni CO2 molekulasining uglerod atomiga birikib CO3²⁻ ionini hosil qiladi.",
+     "Natijada tuz — kalsiy karbonat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Oq kukunning tashqi ko'rinishi deyarli o'zgarmaydi; massasi ortadi. Mahsulot kislota ta'sirida CO2 ajratadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "chinni-qayiqcha",
+    "gaz-naycha-togri",
+    "kipp-apparati",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Chinni qayiqchaga kalsiy oksid kukunini soling va uni shisha naycha ichiga joylashtiring.",
+    "Naycha orqali Kipp apparatidan quruq CO2 o'tkazing.",
+    "Naychani qayiqcha joylashgan qismida qizdiring.",
+    "Sovigach, mahsulotning bir qismiga xlorid kislota tomizib, gaz ajralishini tekshiring."
+   ],
+   "safety_uz": "Qizigan shisha naychani sovimaguncha ushlamang; ko'zoynak taqing.",
+   "explanation_uz": "Asosli va kislotali oksidlar o'zaro birikib tuz hosil qiladi. Ohak havoda saqlanganda CO2 ni yutib, asta-sekin kalsiy karbonatga aylanadi — shuning uchun so'ndirilmagan ohak germetik idishda saqlanadi.",
+   "questions_uz": [
+    "Oksidlarning o'zaro ta'siriga yana qanday misollar keltira olasiz?",
+    "Mahsulot tarkibida karbonat borligini qanday isbotlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0053",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning kremniy(IV) oksid bilan suyuqlantirilishi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlarning o'zaro ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    },
+    {
+     "species": "SiO2",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 1000,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya juda yuqori haroratda (taxminan 1000 °C dan yuqori), sanoatda — domna pechida shlak hosil bo'lishida boradi."
+   },
+   "equation": {
+    "molecular": "CaO + SiO2 = CaSiO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Asosli oksid CaO kislotali oksid SiO2 bilan suyuqlanmada birikadi.",
+     "Silikat ioni hosil bo'lib, tuz — kalsiy silikat (shlak) hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Aralashma juda yuqori haroratda suyuqlanib, sovigach shishasimon (shlak) massaga aylanadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi"
+   ],
+   "procedure_uz": [
+    "Tigelda kalsiy oksid va qum aralashmasini tayyorlang.",
+    "Tigelni mufel pechida juda yuqori haroratgacha qizdiring.",
+    "Sovigach hosil bo'lgan massani kuzating."
+   ],
+   "safety_uz": "Yuqori haroratli pech bilan faqat o'qituvchi ishlaydi; maxsus qo'lqop va tigel qisqichidan foydalaning.",
+   "explanation_uz": "Asosli oksid CaO va kislotali oksid SiO2 yuqori haroratda birikib kalsiy silikat hosil qiladi. Metallurgiyada ohaktosh flyus sifatida qo'shiladi: u ruda tarkibidagi qum bilan oson suyuqlanadigan shlak hosil qiladi.",
+   "questions_uz": [
+    "Domna pechiga ohaktosh nima uchun qo'shiladi?",
+    "Bu reaksiyada qaysi oksid asosli, qaysi biri kislotali?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0054",
+   "category": "oksidlar",
+   "title_uz": "Natriy oksidning karbonat angidrid bilan birikishi",
+   "level": "8-sinf",
+   "topic_uz": "Oksidlarning o'zaro ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Na2O",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq natriy oksid quruq CO2 bilan ta'sirlashadi."
+   },
+   "equation": {
+    "molecular": "Na2O + CO2 = Na2CO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Kuchli asosli oksid Na2O kislotali oksid CO2 ni oson biriktiradi.",
+     "O²⁻ ioni CO2 ga birikib karbonat ioni hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Oq kukun ko'rinishi deyarli o'zgarmaydi, lekin natriy karbonatga aylanadi; mahsulot kislota ta'sirida gaz ajratadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "chinni-kosacha",
+    "gaz-naycha-egilgan",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Quruq chinni kosachaga ozroq natriy oksid soling.",
+    "Kukun ustiga quruq CO2 oqimini yuboring.",
+    "Mahsulotning bir qismini suvda eritib, xlorid kislota qo'shing va gaz ajralishini kuzating."
+   ],
+   "safety_uz": "Natriy oksid o'yuvchi: qo'lqop va ko'zoynakdan foydalaning.",
+   "explanation_uz": "Asosli oksid kislotali oksid bilan birikib tuz hosil qiladi. Natriy oksid kuchli asosli bo'lgani uchun havodagi CO2 va namlikni yutadi, shuning uchun germetik idishda saqlanadi.",
+   "questions_uz": [
+    "Nima uchun Na2O ochiq havoda saqlanmaydi?",
+    "Oksidlarning o'zaro ta'sirida qanday mahsulot hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "oksid-0055",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning fosfor(V) oksid bilan birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlarning o'zaro ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    },
+    {
+     "species": "P2O5",
+     "state": "s",
+     "mass_g": 0.25,
+     "form": "kukun"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq oksidlar aralashmasi tigelda qizdiriladi."
+   },
+   "equation": {
+    "molecular": "3CaO + P2O5 = Ca3(PO4)2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Asosli oksid CaO va kislotali oksid P2O5 qizdirilganda bevosita birikadi.",
+     "Oksid ionlari P2O5 bilan ortofosfat ionlarini hosil qiladi.",
+     "Natijada tuz — kalsiy ortofosfat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Quruq oq kukunlar aralashmasi qizdirilganda qiziydi va oq qattiq massaga aylanadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Quruq tigelga kalsiy oksid va fosfor(V) oksid aralashmasini soling (P2O5 ni namlikdan saqlang).",
+    "Tigelni chinni uchburchakka qo'yib qizdiring.",
+    "Sovigach hosil bo'lgan massani kuzating."
+   ],
+   "safety_uz": "P2O5 namlik bilan shiddatli reaksiyaga kirishadi va terini kuydiradi: quruq asboblar bilan ishlang, ko'zoynak va qo'lqop taqing.",
+   "explanation_uz": "Asosli va kislotali oksidlar o'zaro ta'sirlashib tuz hosil qiladi. Kalsiy ortofosfat suyak va fosforitlar tarkibiga kiradi.",
+   "questions_uz": [
+    "Kalsiy ortofosfat tabiatda qanday minerallar tarkibida uchraydi?",
+    "CaO va P2O5 ning qanday nisbatida o'rta tuz hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "oksid-0056",
+   "category": "oksidlar",
+   "title_uz": "Kalsiy oksidning oltingugurt(VI) oksid bilan birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlarning o'zaro ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaO",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    },
+    {
+     "species": "SO3",
+     "state": "s",
+     "mass_g": 0.4,
+     "form": "kristall"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq oksidlar o'zaro ta'sirlashadi; namoyish o'qituvchi tomonidan mo'rili shkafda o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "CaO + SO3 = CaSO4",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "birikish",
+    "steps_uz": [
+     "Asosli oksid CaO kuchli kislotali oksid SO3 bilan bevosita birikadi.",
+     "O²⁻ ioni SO3 ga birikib sulfat ionini hosil qiladi.",
+     "Tuz — kalsiy sulfat hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oksidlar aralashtirilganda massa qiziydi va oq qattiq tuzga aylanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "chinni-kosacha",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Quruq chinni kosachaga kalsiy oksid kukunini soling.",
+    "Mo'rili shkafda ustiga oz miqdorda oltingugurt(VI) oksid qo'shing va quruq shpatel bilan aralashtiring.",
+    "Isish va mahsulot ko'rinishini kuzating."
+   ],
+   "safety_uz": "SO3 juda o'yuvchi va havodagi namlik bilan sulfat kislota tumanini hosil qiladi: faqat mo'rili shkafda, ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Asosli va kislotali oksidlar suvsiz sharoitda bevosita birikib tuz hosil qiladi. Oksidlarning kislota-asos xossalari qanchalik farq qilsa, ular shunchalik oson ta'sirlashadi.",
+   "questions_uz": [
+    "Oksidlar o'zaro ta'sirlashganda nima uchun tuz hosil bo'ladi?",
+    "CaO ning SO2 bilan reaksiyasida qanday tuz hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  }
+ ]
+}

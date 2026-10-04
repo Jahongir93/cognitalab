@@ -647,8 +647,11 @@ export class Chemistry {
     }
     if (!bases.length) return false;
     let changed = false;
+    const pHnow = this.pH(v);
     for (const [cat, nCat] of this.inPhase(v, 'aq')) {
       if (!db.isIon(cat) || db.ions[cat].charge <= 0 || cat === 'H^+' || nCat <= EPS) continue;
+      // kuchsiz asos gidroksidni faqat yetarli pH da cho'ktiradi (masalan, NH4Cl ishtirokida Mg(OH)2 cho'kmaydi)
+      if (db.ions[cat].hydroxide_pH !== undefined && pHnow !== null && pHnow < db.ions[cat].hydroxide_pH) continue;
       const code = db.solubility(cat, 'OH^-');
       const special = db.specialPairs.find((p) => p.cation === cat && p.anion === 'OH^-');
       if (code !== 'N' && !special) continue;

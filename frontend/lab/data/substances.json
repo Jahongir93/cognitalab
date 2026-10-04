@@ -1,4 +1,31 @@
 {
+ "(C12H21O11)2Cu": {
+  "formula": "(C12H21O11)2Cu",
+  "display": "(C₁₂H₂₁O₁₁)₂Cu",
+  "name_uz": "mis(II) saxarati",
+  "class": "kompleks",
+  "state": "aq",
+  "M": 746.124,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "to'q ko'k eritma; soddalashtirilgan formula"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "Cu(C12H21O11)2"
+  ],
+  "aq_color": {
+   "hex": "#2a50c8",
+   "ref_M": 0.05
+  },
+  "solubility": "R",
+  "id": "(C12H21O11)2Cu"
+ },
  "(C15H31COO)3C3H5": {
   "formula": "(C15H31COO)3C3H5",
   "display": "(C₁₅H₃₁COO)₃C₃H₅",
@@ -17,6 +44,25 @@
   "miscible_water": false,
   "solubility": "N",
   "id": "(C15H31COO)3C3H5"
+ },
+ "(C17H33Br2COO)3C3H5": {
+  "formula": "(C17H33Br2COO)3C3H5",
+  "display": "(C₁₇H₃₃Br₂COO)₃C₃H₅",
+  "name_uz": "trioleinning bromli hosilasi (glitserin tri(9,10-dibromstearati))",
+  "class": "yog'",
+  "state": "l",
+  "M": 1364.877,
+  "appearance": {
+   "color": null,
+   "form": "suyuqlik",
+   "desc_uz": "o'simlik moyiga brom birikkanda hosil bo'ladi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "miscible_water": false,
+  "id": "(C17H33Br2COO)3C3H5",
+  "solubility": "N"
  },
  "(C17H33COO)3C3H5": {
   "formula": "(C17H33COO)3C3H5",
@@ -145,33 +191,6 @@
   "miscible_water": false,
   "solubility": "N",
   "id": "(C17H35COO)3C3H5"
- },
- "(C3H5(OH)2O)2Cu": {
-  "formula": "(C3H5(OH)2O)2Cu",
-  "display": "(C₃H₅(OH)₂O)₂Cu",
-  "name_uz": "mis(II) glitserat",
-  "class": "kompleks",
-  "state": "aq",
-  "M": 245.718,
-  "appearance": {
-   "color": null,
-   "form": "eritma",
-   "desc_uz": "to'q ko'k (ko'k-binafsharang) eritma; soddalashtirilgan formula"
-  },
-  "hazards": [
-   "zararli"
-  ],
-  "storage": "tiqinli-sklyanka",
-  "reagent": false,
-  "aliases": [
-   "Cu(C3H7O3)2"
-  ],
-  "aq_color": {
-   "hex": "#1a3fb0",
-   "ref_M": 0.05
-  },
-  "solubility": "R",
-  "id": "(C3H5(OH)2O)2Cu"
  },
  "(C6H10O5)n": {
   "formula": "(C6H10O5)n",
@@ -321,6 +340,27 @@
   "reagent": true,
   "solubility": "N",
   "id": "(CH2C(CH3)=CHCH2)n"
+ },
+ "(CH2CBr(CH3)CHBrCH2)n": {
+  "formula": "(–CH2–CBr(CH3)–CHBr–CH2–)n",
+  "display": "(–CH₂–CBr(CH₃)–CHBr–CH₂–)ₙ",
+  "name_uz": "bromlangan poliizopren (kauchukning brom bilan birikish mahsuloti)",
+  "class": "polimer",
+  "state": "s",
+  "M": 227.927,
+  "appearance": {
+   "color": "#e8dcc0",
+   "form": "bo'lak",
+   "desc_uz": "tabiiy kauchukning qo'shbog'lariga brom birikkanda hosil bo'ladi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "(C5H8Br2)n"
+  ],
+  "solubility": "N",
+  "id": "(CH2CBr(CH3)CHBrCH2)n"
  },
  "(CH2CH(C6H5))n": {
   "formula": "(–CH2–CH(C6H5)–)n",
@@ -1186,6 +1226,28 @@
   "solubility": "N",
   "id": "(CuOH)2CO3"
  },
+ "(CuOH)2SO4": {
+  "formula": "(CuOH)2SO4",
+  "display": "(CuOH)₂SO₄",
+  "name_uz": "mis(II) gidroksosulfat",
+  "class": "tuz",
+  "state": "aq",
+  "M": 257.162,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "CuOH^+": 2,
+   "SO4^2-": 1
+  },
+  "solubility": "R",
+  "id": "(CuOH)2SO4"
+ },
  "(H2NCH2COO)2Cu": {
   "formula": "(H2NCH2COO)2Cu",
   "display": "(H₂NCH₂COO)₂Cu",
@@ -1235,33 +1297,6 @@
   },
   "solubility": "R",
   "id": "(HCOO)2Ca"
- },
- "(HOCH2CH2O)2Cu": {
-  "formula": "(HOCH2CH2O)2Cu",
-  "display": "(HOCH₂CH₂O)₂Cu",
-  "name_uz": "mis(II) etilenglikolyat",
-  "class": "kompleks",
-  "state": "aq",
-  "M": 185.666,
-  "appearance": {
-   "color": null,
-   "form": "eritma",
-   "desc_uz": "to'q ko'k eritma; soddalashtirilgan formula"
-  },
-  "hazards": [
-   "zararli"
-  ],
-  "storage": "tiqinli-sklyanka",
-  "reagent": false,
-  "aliases": [
-   "Cu(OCH2CH2OH)2"
-  ],
-  "aq_color": {
-   "hex": "#1a3fb0",
-   "ref_M": 0.05
-  },
-  "solubility": "R",
-  "id": "(HOCH2CH2O)2Cu"
  },
  "(NH4)2C2O4": {
   "formula": "(NH4)2C2O4",
@@ -1629,6 +1664,28 @@
   ],
   "id": "(NH4)3PO4"
  },
+ "(ZnOH)2SO4": {
+  "formula": "(ZnOH)2SO4",
+  "display": "(ZnOH)₂SO₄",
+  "name_uz": "rux gidroksosulfat",
+  "class": "tuz",
+  "state": "aq",
+  "M": 260.83,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "ZnOH^+": 2,
+   "SO4^2-": 1
+  },
+  "solubility": "R",
+  "id": "(ZnOH)2SO4"
+ },
  "[Ag(NH3)2]Cl": {
   "formula": "[Ag(NH3)2]Cl",
   "display": "[Ag(NH₃)₂]Cl",
@@ -1737,6 +1794,24 @@
   "reagent": false,
   "solubility": null,
   "id": "[C6H7O2(OCOCH3)3]n"
+ },
+ "[C6H7O2(OH)3]n": {
+  "formula": "[C6H7O2(OH)3]n",
+  "display": "[C₆H₇O₂(OH)₃]ₙ",
+  "name_uz": "sellyuloza (tenglamalar uchun [C6H7O2(OH)3]n yozuvi)",
+  "class": "uglevod",
+  "state": "s",
+  "M": 162.141,
+  "appearance": {
+   "color": "#fafaf6",
+   "form": "tola",
+   "desc_uz": "paxta, filtr qog'oz; glyukoza qoldiqlaridan tuzilgan polisaxarid (har bir zvenoda uchta OH guruh ajratib yozilgan)"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "solubility": null,
+  "id": "[C6H7O2(OH)3]n"
  },
  "[C6H7O2(ONO2)3]n": {
   "formula": "[C6H7O2(ONO2)3]n",
@@ -2068,6 +2143,25 @@
   },
   "solubility": "R",
   "id": "[Zn(NH3)4]SO4"
+ },
+ "achitqi": {
+  "formula": null,
+  "display": null,
+  "name_uz": "achitqi (xamirturush zamburug'lari)",
+  "class": "biokatalizator",
+  "state": "s",
+  "M": null,
+  "appearance": {
+   "color": "#d8c8a0",
+   "form": "kukun",
+   "desc_uz": "spirtli bijg'ish fermentlarini tutuvchi bir hujayrali zamburug'lar"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "solubility": null,
+  "id": "achitqi"
  },
  "Ag": {
   "formula": "Ag",
@@ -2972,6 +3066,50 @@
    }
   ],
   "id": "AlI3"
+ },
+ "AlOHCl2": {
+  "formula": "AlOHCl2",
+  "display": "AlOHCl₂",
+  "name_uz": "alyuminiy gidroksoxlorid",
+  "class": "tuz",
+  "state": "aq",
+  "M": 114.889,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "AlOH^2+": 1,
+   "Cl^-": 2
+  },
+  "solubility": "R",
+  "id": "AlOHCl2"
+ },
+ "AlOHSO4": {
+  "formula": "AlOHSO4",
+  "display": "AlOHSO₄",
+  "name_uz": "alyuminiy gidroksosulfat",
+  "class": "tuz",
+  "state": "aq",
+  "M": 140.045,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "AlOH^2+": 1,
+   "SO4^2-": 1
+  },
+  "solubility": "R",
+  "id": "AlOHSO4"
  },
  "AlPO4": {
   "formula": "AlPO4",
@@ -3986,6 +4124,30 @@
   "bp": 287,
   "miscible_water": false,
   "id": "C16H34",
+  "solubility": "N"
+ },
+ "C17H33Br2COOH": {
+  "formula": "C17H33Br2COOH",
+  "display": "C₁₇H₃₃Br₂COOH",
+  "name_uz": "9,10-dibromstearin kislota",
+  "class": "karbon-kislota",
+  "state": "l",
+  "M": 442.276,
+  "appearance": {
+   "color": null,
+   "form": "suyuqlik",
+   "desc_uz": "olein kislotaning bromli hosilasi; rangsiz moysimon modda"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "CH3(CH2)7CHBrCHBr(CH2)7COOH"
+  ],
+  "miscible_water": false,
+  "id": "C17H33Br2COOH",
   "solubility": "N"
  },
  "C17H33COOH": {
@@ -8510,9 +8672,9 @@
   "state": "s",
   "M": 129.833,
   "appearance": {
-   "color": "#c8507a",
+   "color": "#2f4fc0",
    "form": "kristall",
-   "desc_uz": "pushti kristallar (kristallogidrat)"
+   "desc_uz": "ko'k kukun (suvsiz); namlikda pushtilanadi"
   },
   "hazards": [
    "zararli",
@@ -10612,6 +10774,28 @@
   "solubility": "N",
   "id": "FeO(OH)"
  },
+ "FeOHCl2": {
+  "formula": "FeOHCl2",
+  "display": "FeOHCl₂",
+  "name_uz": "temir(III) gidroksoxlorid",
+  "class": "tuz",
+  "state": "aq",
+  "M": 143.752,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "FeOH^2+": 1,
+   "Cl^-": 2
+  },
+  "solubility": "R",
+  "id": "FeOHCl2"
+ },
  "FePO4": {
   "formula": "FePO4",
   "display": "FePO₄",
@@ -10733,9 +10917,9 @@
   "state": "s",
   "M": 151.901,
   "appearance": {
-   "color": "#b4d8a8",
+   "color": "#eeeee4",
    "form": "kristall",
-   "desc_uz": null
+   "desc_uz": "oq-kulrang kukun (suvsiz)"
   },
   "hazards": [],
   "storage": "tiqinli-sklyanka",
@@ -11860,6 +12044,31 @@
   },
   "solubility": "R",
   "id": "HI"
+ },
+ "HMnO4": {
+  "formula": "HMnO4",
+  "display": "HMnO₄",
+  "name_uz": "permanganat kislota",
+  "class": "kislota",
+  "state": "aq",
+  "M": 119.942,
+  "appearance": {
+   "color": "#8e1a8e",
+   "form": "eritma",
+   "desc_uz": "faqat suyultirilgan eritmada mavjud; binafsha-qizil"
+  },
+  "hazards": [
+   "oksidlovchi",
+   "korroziv"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "H^+": 1,
+   "MnO4^-": 1
+  },
+  "solubility": "R",
+  "id": "HMnO4"
  },
  "HNO2": {
   "formula": "HNO2",
@@ -15256,6 +15465,28 @@
   "solubility": "R",
   "id": "Na[Al(OH)4]"
  },
+ "Na2[CaC10H12N2O8]": {
+  "formula": "Na2[CaC10H12N2O8]",
+  "display": "Na₂[CaC₁₀H₁₂N₂O₈]",
+  "name_uz": "natriy kalsiy-etilendiamintetraatsetat (CaY²⁻ kompleksi)",
+  "class": "tuz",
+  "state": "aq",
+  "M": 374.27,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "Na^+": 2,
+   "[CaC10H12N2O8]^2-": 1
+  },
+  "solubility": "R",
+  "id": "Na2[CaC10H12N2O8]"
+ },
  "Na2[Cu(OH)4]": {
   "formula": "Na2[Cu(OH)4]",
   "display": "Na₂[Cu(OH)₄]",
@@ -15279,6 +15510,28 @@
   },
   "solubility": "R",
   "id": "Na2[Cu(OH)4]"
+ },
+ "Na2[MgC10H12N2O8]": {
+  "formula": "Na2[MgC10H12N2O8]",
+  "display": "Na₂[MgC₁₀H₁₂N₂O₈]",
+  "name_uz": "natriy magniy-etilendiamintetraatsetat (MgY²⁻ kompleksi)",
+  "class": "tuz",
+  "state": "aq",
+  "M": 358.497,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "Na^+": 2,
+   "[MgC10H12N2O8]^2-": 1
+  },
+  "solubility": "R",
+  "id": "Na2[MgC10H12N2O8]"
  },
  "Na2[Pb(OH)4]": {
   "formula": "Na2[Pb(OH)4]",
@@ -16139,6 +16392,31 @@
   },
   "solubility": "R",
   "id": "NaClO"
+ },
+ "NaClO3": {
+  "formula": "NaClO3",
+  "display": "NaClO₃",
+  "name_uz": "natriy xlorat",
+  "class": "tuz",
+  "state": "s",
+  "M": 106.437,
+  "appearance": {
+   "color": "#f8f8f6",
+   "form": "kristall",
+   "desc_uz": "gipoxloritning qizdirilganda disproporsiyalanishidan hosil bo'ladi"
+  },
+  "hazards": [
+   "oksidlovchi",
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "Na^+": 1,
+   "ClO3^-": 1
+  },
+  "solubility": "R",
+  "id": "NaClO3"
  },
  "NaCrO2": {
   "formula": "NaCrO2",

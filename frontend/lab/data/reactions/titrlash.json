@@ -1,0 +1,2220 @@
+{
+ "category": "titrlash",
+ "generated_by": "tools/seed/reactions",
+ "reactions": [
+  {
+   "id": "titr-0001",
+   "category": "titrlash",
+   "title_uz": "Xlorid kislotani natriy gidroksid bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 6.4,
+    "max": 7.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "HCl",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "NaOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "HCl + NaOH = NaCl + H2O",
+    "ionic_full": "H⁺ + Cl⁻ + Na⁺ + OH⁻ = Na⁺ + Cl⁻ + H2O",
+    "ionic_net": "H⁺ + OH⁻ = H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml xlorid kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani natriy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Kuchli kislotani kuchli asos bilan titrlashda ekvivalent nuqtada pH = 7; fenolftalein bitta ortiqcha tomchida rangsizdan pushti rangga o'tadi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, xlorid kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0002",
+   "category": "titrlash",
+   "title_uz": "Natriy gidroksidni xlorid kislota bilan titrlash (indikator — metiloranj)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 6.4,
+    "max": 7.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "NaOH",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "HCl",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C14H14N3NaO3S"
+   },
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaOH + HCl = NaCl + H2O",
+    "ionic_full": "Na⁺ + OH⁻ + H⁺ + Cl⁻ = Na⁺ + Cl⁻ + H2O",
+    "ionic_net": "OH⁻ + H⁺ = H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2c21b",
+     "to": "#f08a1c"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada metiloranj rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml natriy gidroksid eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi metiloranj qo'shing.",
+    "Byuretkani xlorid kislota eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Ishqorni kislota bilan titrlashda metiloranj sariq rangdan to'q sariq rangga o'tgan payt oxirgi nuqta hisoblanadi; titrlash sakrashi keng bo'lgani uchun xato juda kichik.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, natriy gidroksid konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0003",
+   "category": "titrlash",
+   "title_uz": "Sirka kislotani natriy gidroksid bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 8.2,
+    "max": 9.3
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "CH3COOH",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "NaOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CH3COOH + NaOH = CH3COONa + H2O",
+    "ionic_full": "CH3COOH + Na⁺ + OH⁻ = Na⁺ + CH3COO⁻ + H2O",
+    "ionic_net": "CH3COOH + OH⁻ = CH3COO⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml sirka kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani natriy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; yonuvchan moddalarni ochiq alangadan uzoqda tuting. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Kuchsiz kislota titrlanganda ekvivalent nuqtada hosil bo'lgan CH₃COONa gidrolizlanib muhitni ishqoriy qiladi (pH ≈ 8,7) — shuning uchun indikator sifatida fenolftalein tanlanadi, metiloranj yaroqsiz.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, sirka kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0004",
+   "category": "titrlash",
+   "title_uz": "Ammiakli suvni xlorid kislota bilan titrlash (indikator — metiloranj)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 4.8,
+    "max": 5.8
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "NH3·H2O",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "HCl",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C14H14N3NaO3S"
+   },
+   "reactants": [
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NH3·H2O + HCl = NH4Cl + H2O",
+    "ionic_full": "NH3·H2O + H⁺ + Cl⁻ = NH4⁺ + Cl⁻ + H2O",
+    "ionic_net": "NH3·H2O + H⁺ = NH4⁺ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2c21b",
+     "to": "#f08a1c"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada metiloranj rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml ammiakli suv eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi metiloranj qo'shing.",
+    "Byuretkani xlorid kislota eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Kuchsiz asos titrlanganda ekvivalent nuqtada NH₄Cl gidrolizi tufayli muhit kuchsiz kislotali (pH ≈ 5,3) — metiloranj mos keladi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, ammiakli suv konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0005",
+   "category": "titrlash",
+   "title_uz": "Natriy karbonatni xlorid kislota bilan titrlash (indikator — metiloranj)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 3.4,
+    "max": 5.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "Na2CO3",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "HCl",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 20,
+    "indicator": "C14H14N3NaO3S"
+   },
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 20
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2c21b",
+     "to": "#f08a1c"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada metiloranj rangi o'zgaradi; sarflangan titrant hajmi ≈ 20 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml natriy karbonat eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi metiloranj qo'shing.",
+    "Byuretkani xlorid kislota eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Natriy karbonat ikki bosqichda titrlanadi; metiloranj bilan ikkala bosqich birga (CO₂ gacha) aniqlanadi. Oxiriga yaqin eritmani qaynatib CO₂ chiqarib yuborish aniqlikni oshiradi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 20 ml o'rniga 22 ml titrant sarflansa, natriy karbonat konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0006",
+   "category": "titrlash",
+   "title_uz": "Natriy karbonatni xlorid kislota bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 7.9,
+    "max": 8.8
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "Na2CO3",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "HCl",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3 + HCl = NaHCO3 + NaCl",
+    "ionic_full": "2Na⁺ + CO3²⁻ + H⁺ + Cl⁻ = 2Na⁺ + HCO3⁻ + Cl⁻",
+    "ionic_net": "CO3²⁻ + H⁺ = HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f7b6d8",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml natriy karbonat eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani xlorid kislota eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Fenolftalein bilan titrlashda faqat birinchi bosqich — NaHCO₃ hosil bo'lguncha (pH ≈ 8,3) aniqlanadi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, natriy karbonat konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0007",
+   "category": "titrlash",
+   "title_uz": "Sulfat kislotani natriy gidroksid bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 6.4,
+    "max": 7.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "H2SO4",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "NaOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 20,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 20
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "H2SO4 + 2NaOH = Na2SO4 + 2H2O",
+    "ionic_full": "2H⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = 2Na⁺ + SO4²⁻ + 2H2O",
+    "ionic_net": "H⁺ + OH⁻ = H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 20 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml sulfat kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani natriy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Sulfat kislota ikki negizli: 1 mol H₂SO₄ ga 2 mol NaOH sarflanadi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 20 ml o'rniga 22 ml titrant sarflansa, sulfat kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0008",
+   "category": "titrlash",
+   "title_uz": "Fosfat (ortofosfat) kislotani natriy gidroksid bilan titrlash (indikator — metiloranj)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 4,
+    "max": 5.2
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "H3PO4",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "NaOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C14H14N3NaO3S"
+   },
+   "reactants": [
+    {
+     "species": "H3PO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "H3PO4 + NaOH = NaH2PO4 + H2O",
+    "ionic_full": "H3PO4 + Na⁺ + OH⁻ = Na⁺ + H2PO4⁻ + H2O",
+    "ionic_net": "H3PO4 + OH⁻ = H2PO4⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e0312b",
+     "to": "#f2c21b"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada metiloranj rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml fosfat (ortofosfat) kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi metiloranj qo'shing.",
+    "Byuretkani natriy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Fosfat kislota metiloranj bilan birinchi bosqichgacha (NaH₂PO₄, pH ≈ 4,7) titrlanadi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, fosfat (ortofosfat) kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0009",
+   "category": "titrlash",
+   "title_uz": "Oksalat kislotani natriy gidroksid bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 7.6,
+    "max": 9.2
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "H2C2O4",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "NaOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 20,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "H2C2O4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 20
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "H2C2O4 + 2NaOH = Na2C2O4 + 2H2O",
+    "ionic_full": "H2C2O4 + 2Na⁺ + 2OH⁻ = 2Na⁺ + C2O4²⁻ + 2H2O",
+    "ionic_net": "H2C2O4 + 2OH⁻ = C2O4²⁻ + 2H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 20 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml oksalat kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani natriy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Oksalat kislota (H₂C₂O₄·2H₂O) natriy gidroksid eritmasining aniq konsentratsiyasini aniqlash (standartlash) uchun boshlang'ich modda sifatida ishlatiladi.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 20 ml o'rniga 22 ml titrant sarflansa, oksalat kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0010",
+   "category": "titrlash",
+   "title_uz": "Nitrat kislotani kaliy gidroksid bilan titrlash (indikator — fenolftalein)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 6.4,
+    "max": 7.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "HNO3",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "KOH",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H14O4"
+   },
+   "reactants": [
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C20H14O4",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "HNO3 + KOH = KNO3 + H2O",
+    "ionic_full": "H⁺ + NO3⁻ + K⁺ + OH⁻ = K⁺ + NO3⁻ + H2O",
+    "ionic_net": "H⁺ + OH⁻ = H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7b6d8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada fenolftalein rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml nitrat kislota eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi fenolftalein qo'shing.",
+    "Byuretkani kaliy gidroksid eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Nitrat kislota kuchli kislota: kaliy gidroksid bilan titrlashda ekvivalent nuqtada muhit neytral.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, nitrat kislota konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0011",
+   "category": "titrlash",
+   "title_uz": "Natriy gidrokarbonatni xlorid kislota bilan titrlash (indikator — metiloranj)",
+   "level": "litsey",
+   "topic_uz": "Kislota-asos titrlash (neytrallash usuli)",
+   "engine": "rules",
+   "expected_pH": {
+    "min": 3.4,
+    "max": 5.6
+   },
+   "titration": {
+    "method": "kislota-asos",
+    "analyte": {
+     "species": "NaHCO3",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "HCl",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "C14H14N3NaO3S"
+   },
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "C14H14N3NaO3S",
+     "state": "aq",
+     "conc_M": 0.003,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NaHCO3 + HCl = NaCl + CO2↑ + H2O",
+    "ionic_full": "Na⁺ + HCO3⁻ + H⁺ + Cl⁻ = Na⁺ + Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "HCO3⁻ + H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Byuretkadan titrant tomchilab qo'shiladi; har bir tomchi kislota (yoki asos)ning bir qismini neytrallaydi.",
+     "Ekvivalent nuqta yaqinida pH keskin o'zgaradi (titrlash sakrashi).",
+     "Indikator rangining o'zgarishi oxirgi nuqtani ko'rsatadi; c(aniqlanuvchi) = c(titrant)·V(titrant)·k / V(aniqlanuvchi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2c21b",
+     "to": "#f08a1c"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada metiloranj rangi o'zgaradi; sarflangan titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "oddiy-voronka"
+   ],
+   "procedure_uz": [
+    "Mor pipetkasi bilan 10 ml natriy gidrokarbonat eritmasini konussimon kolbaga o'lchab oling.",
+    "2–3 tomchi metiloranj qo'shing.",
+    "Byuretkani xlorid kislota eritmasi (0,1 M) bilan to'ldirib, nol belgisiga keltiring.",
+    "Kolbani doimiy chayqatib, titrantni tomchilab qo'shing; indikator rangi 30 soniya saqlanib qolganda titrlashni to'xtating.",
+    "Sarflangan hajmni yozing va konsentratsiyani hisoblang; titrlashni 3 marta takrorlang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning. Pipetkani og'iz bilan emas, nok (rezina ballon) bilan to'ldiring.",
+   "explanation_uz": "Ichimlik sodasi (NaHCO₃) tarkibini metiloranj bilan titrlab aniqlash mumkin.",
+   "questions_uz": [
+    "Ekvivalent nuqta va titrlash oxirgi nuqtasi nima?",
+    "Bu titrlash uchun indikator qanday tanlanadi?",
+    "Agar 10 ml o'rniga 11 ml titrant sarflansa, natriy gidrokarbonat konsentratsiyasi qanday chiqadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0012",
+   "category": "titrlash",
+   "title_uz": "Temir(II) ni kaliy permanganat bilan titrlash (permanganatometriya)",
+   "level": "litsey",
+   "topic_uz": "Oksidlanish-qaytarilish titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "oksidimetriya",
+    "analyte": {
+     "species": "(NH4)2Fe(SO4)2·6H2O",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "KMnO4",
+     "conc_M": 0.01
+    },
+    "equivalence_mL": 10,
+    "indicator": null
+   },
+   "reactants": [
+    {
+     "species": "(NH4)2Fe(SO4)2·6H2O",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "10(NH4)2Fe(SO4)2·6H2O + 2KMnO4 + 8H2SO4 = 5Fe2(SO4)3 + 2MnSO4 + K2SO4 + 10(NH4)2SO4 + 68H2O",
+    "ionic_full": null,
+    "ionic_net": "MnO4⁻ + 5Fe²⁺ + 8H⁺ = Mn²⁺ + 5Fe³⁺ + 4H2O",
+    "electron_balance": [
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²",
+     "Fe⁺² − 1e⁻ = Fe⁺³"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oksidlovchi va qaytaruvchi: Mn⁺⁷ + 5e⁻ = Mn⁺²; Fe⁺² − 1e⁻ = Fe⁺³.",
+     "Ekvivalent nuqtada oksidlovchi va qaytaruvchining ekvivalentlar soni teng bo'ladi.",
+     "Titrantning ortiqcha tomchisi eritmani bo'yaydi — titrant o'zi indikator."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7c8e8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma rangi o'zgaradi; titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Konussimon kolbaga pipetka bilan 10 ml Mor tuzi eritmasini o'lchab oling.",
+    "10 ml suyultirilgan sulfat kislota qo'shing.",
+    "Byuretkadan kaliy permanganat eritmasini (0,01 M) tomchilab qo'shing.",
+    "Och pushti rang 30 soniya yo'qolmay qolganda titrlashni to'xtating.",
+    "Hajmni yozib, konsentratsiyani hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Permanganat o'zi indikator vazifasini bajaradi: ekvivalent nuqtagacha qo'shilgan MnO₄⁻ darhol rangsizlanadi, bitta ortiqcha tomchi eritmani och pushti rangga bo'yaydi. Titrlash sulfat kislotali muhitda olib boriladi.",
+   "questions_uz": [
+    "Oksidlanish-qaytarilish titrlashda ekvivalentlar qonuni qanday qo'llaniladi?",
+    "Nima uchun titrlash kislotali muhitda olib boriladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0013",
+   "category": "titrlash",
+   "title_uz": "Oksalat kislotani kaliy permanganat bilan titrlash (qizdirib)",
+   "level": "litsey",
+   "topic_uz": "Oksidlanish-qaytarilish titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "oksidimetriya",
+    "analyte": {
+     "species": "H2C2O4",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "KMnO4",
+     "conc_M": 0.02
+    },
+    "equivalence_mL": 10,
+    "indicator": null
+   },
+   "reactants": [
+    {
+     "species": "H2C2O4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 10
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Eritma 70–80 °C gacha isitiladi."
+   },
+   "equation": {
+    "molecular": "5H2C2O4 + 2KMnO4 + 3H2SO4 = 10CO2↑ + 2MnSO4 + K2SO4 + 8H2O",
+    "ionic_full": null,
+    "ionic_net": "2MnO4⁻ + 5H2C2O4 + 6H⁺ = 2Mn²⁺ + 10CO2↑ + 8H2O",
+    "electron_balance": [
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²",
+     "C⁺³ − 1e⁻ = C⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oksidlovchi va qaytaruvchi: Mn⁺⁷ + 5e⁻ = Mn⁺²; C⁺³ − 1e⁻ = C⁺⁴.",
+     "Ekvivalent nuqtada oksidlovchi va qaytaruvchining ekvivalentlar soni teng bo'ladi.",
+     "Titrantning ortiqcha tomchisi eritmani bo'yaydi — titrant o'zi indikator."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7c8e8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma rangi o'zgaradi; titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "elektr-plitka",
+    "termometr"
+   ],
+   "procedure_uz": [
+    "Konussimon kolbaga pipetka bilan 10 ml oksalat kislota eritmasini o'lchab oling.",
+    "10 ml suyultirilgan sulfat kislota qo'shing.",
+    "Eritmani 70–80 °C gacha isiting.",
+    "Byuretkadan kaliy permanganat eritmasini (0,02 M) tomchilab qo'shing.",
+    "Och pushti rang 30 soniya yo'qolmay qolganda titrlashni to'xtating.",
+    "Hajmni yozib, konsentratsiyani hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Reaksiya sovuqda sekin boradi, shuning uchun eritma 70–80 °C gacha isitiladi. Hosil bo'lgan Mn²⁺ ionlari reaksiyani tezlashtiradi (avtokataliz) — dastlabki tomchilar sekin, keyingilari tez rangsizlanadi. Bu usul KMnO₄ eritmasini standartlash uchun qo'llaniladi.",
+   "questions_uz": [
+    "Oksidlanish-qaytarilish titrlashda ekvivalentlar qonuni qanday qo'llaniladi?",
+    "Nima uchun titrlash kislotali muhitda olib boriladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0014",
+   "category": "titrlash",
+   "title_uz": "Vodorod peroksidni kaliy permanganat bilan titrlash",
+   "level": "litsey",
+   "topic_uz": "Oksidlanish-qaytarilish titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "oksidimetriya",
+    "analyte": {
+     "species": "H2O2",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "KMnO4",
+     "conc_M": 0.02
+    },
+    "equivalence_mL": 10,
+    "indicator": null
+   },
+   "reactants": [
+    {
+     "species": "H2O2",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 10
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "5H2O2 + 2KMnO4 + 3H2SO4 = 5O2↑ + 2MnSO4 + K2SO4 + 8H2O",
+    "ionic_full": null,
+    "ionic_net": "2MnO4⁻ + 5H2O2 + 6H⁺ = 2Mn²⁺ + 5O2↑ + 8H2O",
+    "electron_balance": [
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²",
+     "2O⁻¹ − 2e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oksidlovchi va qaytaruvchi: Mn⁺⁷ + 5e⁻ = Mn⁺²; 2O⁻¹ − 2e⁻ = O2⁰.",
+     "Ekvivalent nuqtada oksidlovchi va qaytaruvchining ekvivalentlar soni teng bo'ladi.",
+     "Titrantning ortiqcha tomchisi eritmani bo'yaydi — titrant o'zi indikator."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#f7c8e8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma rangi o'zgaradi; titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Konussimon kolbaga pipetka bilan 10 ml vodorod peroksid eritmasini o'lchab oling.",
+    "10 ml suyultirilgan sulfat kislota qo'shing.",
+    "Byuretkadan kaliy permanganat eritmasini (0,02 M) tomchilab qo'shing.",
+    "Och pushti rang 30 soniya yo'qolmay qolganda titrlashni to'xtating.",
+    "Hajmni yozib, konsentratsiyani hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Vodorod peroksid bu reaksiyada qaytaruvchi: undagi O⁻¹ kislorod molekulasigacha oksidlanadi. Oxirgi nuqtani permanganatning o'z rangi ko'rsatadi.",
+   "questions_uz": [
+    "Oksidlanish-qaytarilish titrlashda ekvivalentlar qonuni qanday qo'llaniladi?",
+    "Nima uchun titrlash kislotali muhitda olib boriladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0015",
+   "category": "titrlash",
+   "title_uz": "Yodni natriy tiosulfat bilan titrlash (yodometriya, indikator — kraxmal)",
+   "level": "litsey",
+   "topic_uz": "Oksidlanish-qaytarilish titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "oksidimetriya",
+    "analyte": {
+     "species": "Lugol",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "Na2S2O3",
+     "conc_M": 0.1
+    },
+    "equivalence_mL": 10,
+    "indicator": "(C6H10O5)n"
+   },
+   "reactants": [
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 10
+    },
+    {
+     "species": "Na2S2O3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 10
+    },
+    {
+     "species": "(C6H10O5)n",
+     "state": "aq",
+     "conc_M": 0.06,
+     "volume_mL": 1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "I2 + 2Na2S2O3 = 2NaI + Na2S4O6",
+    "ionic_full": null,
+    "ionic_net": "I2 + 2S2O3²⁻ = 2I⁻ + S4O6²⁻",
+    "electron_balance": [
+     "I2 + 2e⁻ = 2I⁻",
+     "2S2O3²⁻ − 2e⁻ = S4O6²⁻"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oksidlovchi va qaytaruvchi: I2⁰ + 2e⁻ = 2I⁻¹; 2S₂O₃²⁻ − 2e⁻ = S₄O₆²⁻.",
+     "Ekvivalent nuqtada oksidlovchi va qaytaruvchining ekvivalentlar soni teng bo'ladi.",
+     "Indikator yod bilan rangli kompleks hosil qiladi; yod tugashi bilan rang yo'qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#1a1a6a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma rangi o'zgaradi; titrant hajmi ≈ 10 ml."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Konussimon kolbaga pipetka bilan 10 ml yod eritmasi (Lugol) eritmasini o'lchab oling.",
+    "Byuretkadan natriy tiosulfat eritmasini (0,1 M) tomchilab qo'shing.",
+    "Eritma och sariq rangga kirganda 1 ml kraxmal eritmasi qo'shing va ko'k rang yo'qolguncha titrlang.",
+    "Hajmni yozib, konsentratsiyani hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Tiosulfat yodni yodid ionlarigacha qaytaradi, o'zi tetrationat ioniga oksidlanadi. Kraxmal titrlash oxiriga yaqin (eritma och sariq bo'lganda) qo'shiladi; to'q ko'k rangning yo'qolishi oxirgi nuqtani ko'rsatadi.",
+   "questions_uz": [
+    "Oksidlanish-qaytarilish titrlashda ekvivalentlar qonuni qanday qo'llaniladi?",
+    "Nima uchun titrlash kislotali muhitda olib boriladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0016",
+   "category": "titrlash",
+   "title_uz": "Mis(II) ionlarini yodometrik aniqlash",
+   "level": "universitet",
+   "topic_uz": "Yodometriya (o'rinbosarli titrlash)",
+   "engine": "rules",
+   "titration": {
+    "method": "yodometriya",
+    "analyte": {
+     "species": "CuSO4",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "Na2S2O3",
+     "conc_M": 0.05
+    },
+    "equivalence_mL": 10,
+    "indicator": "(C6H10O5)n"
+   },
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 4,
+     "excess": true
+    },
+    {
+     "species": "Na2S2O3",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "(C6H10O5)n",
+     "state": "aq",
+     "conc_M": 0.06,
+     "volume_mL": 1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "KI ortiqcha olinadi."
+   },
+   "equation": {
+    "molecular": "2CuSO4 + 4KI + 2Na2S2O3 = 2CuI↓ + 2K2SO4 + Na2S4O6 + 2NaI",
+    "ionic_full": null,
+    "ionic_net": "2Cu²⁺ + 2I⁻ + 2S2O3²⁻ = 2CuI↓ + S4O6²⁻",
+    "electron_balance": [
+     "Cu⁺² + 1e⁻ = Cu⁺¹",
+     "2S2O3²⁻ − 2e⁻ = S4O6²⁻"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "1-bosqich: 2Cu²⁺ + 4I⁻ → 2CuI↓ + I₂ (Cu²⁺ yodidni oksidlaydi).",
+     "2-bosqich: ajralgan yod tiosulfat bilan titrlanadi: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
+     "Sarflangan tiosulfat miqdori mis(II) miqdoriga ekvivalent."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CuI",
+     "color": "#f2eee0",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#1a1a6a",
+     "to": "#f2eee0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "KI qo'shilganda oq cho'kma va qo'ng'ir yod hosil bo'ladi; titrlash oxirida kraxmalning ko'k rangi yo'qoladi, oq CuI cho'kmasi qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Kolbaga 10 ml mis(II) sulfat eritmasini o'lchab oling.",
+    "Ortiqcha miqdorda (4 ml) kaliy yodid eritmasi qo'shing — qo'ng'ir rang va oq cho'kma paydo bo'ladi.",
+    "Ajralgan yodni natriy tiosulfat bilan och sariq rangga qadar titrlang, so'ng kraxmal qo'shib, ko'k rang yo'qolguncha titrlashni davom ettiring."
+   ],
+   "safety_uz": "Chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Bu o'rinbosarli titrlash: mis(II) to'g'ridan-to'g'ri titrlanmaydi, balki unga ekvivalent miqdorda ajralgan yod titrlanadi. Mis(II) yodid beqaror bo'lgani uchun Cu²⁺ yodidni oksidlaydi va CuI cho'kmasi hosil bo'ladi.",
+   "questions_uz": [
+    "Nima uchun KI ortiqcha olinadi?",
+    "O'rinbosarli titrlash nima?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "titr-0017",
+   "category": "titrlash",
+   "title_uz": "Kalsiy ionlarini Trilon B bilan titrlash (suvning qattiqligi)",
+   "level": "universitet",
+   "topic_uz": "Kompleksonometrik titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "kompleksonometriya",
+    "analyte": {
+     "species": "CaCl2",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "C10H14N2Na2O8·2H2O",
+     "conc_M": 0.01
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H12N3NaO7S"
+   },
+   "reactants": [
+    {
+     "species": "CaCl2",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    {
+     "species": "C10H14N2Na2O8·2H2O",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "role": "bufer"
+    },
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2,
+     "role": "bufer"
+    },
+    {
+     "species": "C20H12N3NaO7S",
+     "state": "aq",
+     "conc_M": 0.002,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiakli bufer (pH ≈ 10) muhitida."
+   },
+   "equation": {
+    "molecular": "CaCl2 + C10H14N2Na2O8·2H2O + 2NH3·H2O = Na2[CaC10H12N2O8] + 2NH4Cl + 4H2O",
+    "ionic_full": null,
+    "ionic_net": "Ca²⁺ + C10H14N2O8²⁻ + 2NH3 = [CaC10H12N2O8]²⁻ + 2NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Trilon B anioni (H₂Y²⁻) metall ioni bilan 1:1 nisbatda barqaror ichki kompleks (xelat) hosil qiladi.",
+     "Ajralgan H⁺ ionlari buferdagi ammiak tomonidan bog'lanadi (NH₄⁺ hosil bo'ladi).",
+     "Oxirgi nuqtada indikator metall bilan bog'langan qizil-binafsha shakldan erkin ko'k shaklga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b3263a",
+     "to": "#3043b0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma vino-qizil rangdan ko'k rangga o'tadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "olchov-silindri"
+   ],
+   "procedure_uz": [
+    "Kolbaga 10 ml kalsiy tuzi eritmasi (yoki tekshiriladigan suv) o'lchab oling.",
+    "2 ml ammiakli bufer va ozgina erioxrom qora T qo'shing — eritma vino-qizil tusga kiradi.",
+    "Trilon B eritmasi bilan rang ko'k bo'lguncha titrlang.",
+    "Sarflangan hajm bo'yicha qattiqlikni hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Kompleksonometriyada EDTA (Trilon B) metall ionlari bilan barqaror 1:1 komplekslar hosil qiladi. Bu usulda suvning umumiy qattiqligi (Ca²⁺ va Mg²⁺ yig'indisi) aniqlanadi.",
+   "questions_uz": [
+    "Suvning qattiqligi nima va u qanday ifodalanadi?",
+    "Nima uchun titrlash ammiakli bufer muhitida olib boriladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "titr-0018",
+   "category": "titrlash",
+   "title_uz": "Magniy ionlarini Trilon B bilan titrlash (suvning qattiqligi)",
+   "level": "universitet",
+   "topic_uz": "Kompleksonometrik titrlash",
+   "engine": "record",
+   "titration": {
+    "method": "kompleksonometriya",
+    "analyte": {
+     "species": "MgSO4",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "C10H14N2Na2O8·2H2O",
+     "conc_M": 0.01
+    },
+    "equivalence_mL": 10,
+    "indicator": "C20H12N3NaO7S"
+   },
+   "reactants": [
+    {
+     "species": "MgSO4",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    {
+     "species": "C10H14N2Na2O8·2H2O",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 10
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "role": "bufer"
+    },
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2,
+     "role": "bufer"
+    },
+    {
+     "species": "C20H12N3NaO7S",
+     "state": "aq",
+     "conc_M": 0.002,
+     "volume_mL": 0.1,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiakli bufer (pH ≈ 10) muhitida."
+   },
+   "equation": {
+    "molecular": "MgSO4 + C10H14N2Na2O8·2H2O + 2NH3·H2O = Na2[MgC10H12N2O8] + (NH4)2SO4 + 4H2O",
+    "ionic_full": null,
+    "ionic_net": "Mg²⁺ + C10H14N2O8²⁻ + 2NH3 = [MgC10H12N2O8]²⁻ + 2NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Trilon B anioni (H₂Y²⁻) metall ioni bilan 1:1 nisbatda barqaror ichki kompleks (xelat) hosil qiladi.",
+     "Ajralgan H⁺ ionlari buferdagi ammiak tomonidan bog'lanadi (NH₄⁺ hosil bo'ladi).",
+     "Oxirgi nuqtada indikator metall bilan bog'langan qizil-binafsha shakldan erkin ko'k shaklga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b3263a",
+     "to": "#3043b0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Oxirgi nuqtada eritma vino-qizil rangdan ko'k rangga o'tadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi",
+    "olchov-silindri"
+   ],
+   "procedure_uz": [
+    "Kolbaga 10 ml magniy tuzi eritmasi (yoki tekshiriladigan suv) o'lchab oling.",
+    "2 ml ammiakli bufer va ozgina erioxrom qora T qo'shing — eritma vino-qizil tusga kiradi.",
+    "Trilon B eritmasi bilan rang ko'k bo'lguncha titrlang.",
+    "Sarflangan hajm bo'yicha qattiqlikni hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Kompleksonometriyada EDTA (Trilon B) metall ionlari bilan barqaror 1:1 komplekslar hosil qiladi. Bu usulda suvning umumiy qattiqligi (Ca²⁺ va Mg²⁺ yig'indisi) aniqlanadi.",
+   "questions_uz": [
+    "Suvning qattiqligi nima va u qanday ifodalanadi?",
+    "Nima uchun titrlash ammiakli bufer muhitida olib boriladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "titr-0019",
+   "category": "titrlash",
+   "title_uz": "Xlorid ionlarini kumush nitrat bilan titrlash (Mor usuli)",
+   "level": "universitet",
+   "topic_uz": "Cho'ktirish usulida titrlash (argentometriya)",
+   "engine": "rules",
+   "titration": {
+    "method": "argentometriya",
+    "analyte": {
+     "species": "NaCl",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "AgNO3",
+     "conc_M": 0.05
+    },
+    "equivalence_mL": 10,
+    "indicator": "K2CrO4"
+   },
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 0.5,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Neytral yoki kuchsiz ishqoriy muhitda."
+   },
+   "equation": {
+    "molecular": "NaCl + AgNO3 = AgCl↓ + NaNO3",
+    "ionic_full": "Na⁺ + Cl⁻ + Ag⁺ + NO3⁻ = AgCl↓ + Na⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + Cl⁻ = AgCl↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Avval kamroq eriydigan AgCl cho'kadi.",
+     "Xlorid ionlari tugagach, ortiqcha Ag⁺ ionlari xromat bilan g'isht-qizil Ag₂CrO₄ hosil qiladi — bu oxirgi nuqta."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Titrlash davomida oq suzmasimon cho'kma tushadi; oxirgi nuqtada g'isht-qizil tus paydo bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Kolbaga 10 ml natriy xlorid eritmasini oling va 0,5 ml kaliy xromat qo'shing (sariq rang).",
+    "Byuretkadan kumush nitrat eritmasini chayqatib turib qo'shing.",
+    "G'isht-qizil tus yo'qolmay qolganda titrlashni to'xtating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; zaharli moddalar bilan ishlaganda ularni og'izga, teriga tekkizmang, ishdan so'ng qo'lni yuving; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; kanserogen moddalar bilan faqat qo'lqopda, oz miqdorda ishlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Mor usuli cho'kmalarning eruvchanligi farqiga asoslangan: AgCl Ag₂CrO₄ ga qaraganda kamroq eriydi va birinchi cho'kadi. Xlorid tugashi bilan g'isht-qizil kumush xromat hosil bo'lib, oxirgi nuqtani ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun avval AgCl cho'kadi?",
+    "Mor usulida titrlashni kislotali muhitda olib borish mumkinmi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "titr-0020",
+   "category": "titrlash",
+   "title_uz": "Kumush ionlarini tiotsianat bilan titrlash (Folgard usuli)",
+   "level": "universitet",
+   "topic_uz": "Argentometriya",
+   "engine": "rules",
+   "titration": {
+    "method": "argentometriya",
+    "analyte": {
+     "species": "AgNO3",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    "titrant": {
+     "species": "KSCN",
+     "conc_M": 0.05
+    },
+    "equivalence_mL": 10,
+    "indicator": "Fe(NO3)3"
+   },
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "KSCN",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 10
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1,
+     "role": "muhit"
+    },
+    {
+     "species": "Fe(NO3)3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 0.5,
+     "role": "indikator"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Nitrat kislotali muhitda."
+   },
+   "equation": {
+    "molecular": "AgNO3 + KSCN = AgSCN↓ + KNO3",
+    "ionic_full": "Ag⁺ + NO3⁻ + K⁺ + SCN⁻ = AgSCN↓ + K⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + SCN⁻ = AgSCN↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Tiotsianat ionlari kumush bilan oq AgSCN cho'kmasini hosil qiladi.",
+     "Kumush tugagach, ortiqcha SCN⁻ ionlari Fe³⁺ bilan qizil kompleks hosil qiladi — oxirgi nuqta."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgSCN",
+     "color": "#f6f6f2",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq cho'kma tushadi; oxirgi nuqtada eritma och qizil-qo'ng'ir tusga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "byuretka",
+    "shtativ",
+    "qisqich-lapka",
+    "konussimon-kolba",
+    "mor-pipetkasi"
+   ],
+   "procedure_uz": [
+    "Kolbaga 10 ml kumush nitrat eritmasini oling, 1 ml nitrat kislota va indikator (Fe³⁺ tuzi) qo'shing.",
+    "Kaliy tiotsianat eritmasi bilan titrlang.",
+    "Barqaror qizg'ish tus paydo bo'lganda to'xtating."
+   ],
+   "safety_uz": "Kislota va ishqorlar terini kuydiradi — ko'zoynak va qo'lqopdan foydalaning; oksidlovchilarni yonuvchan moddalardan uzoqda saqlang; chiqindini rakovinaga emas, maxsus chiqindi idishiga to'king.",
+   "explanation_uz": "Folgard usulida indikator — temir(III) ionlari: ekvivalent nuqtadan keyingi birinchi ortiqcha SCN⁻ ionlari qizil [Fe(SCN)]²⁺ kompleksini hosil qiladi. Usul kislotali muhitda ishlaydi.",
+   "questions_uz": [
+    "Folgard usuli Mor usulidan qanday farq qiladi?",
+    "Nima uchun titrlash nitrat kislotali muhitda olib boriladi?"
+   ],
+   "confidence": "o'rta"
+  }
+ ]
+}

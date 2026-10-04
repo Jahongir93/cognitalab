@@ -34,6 +34,7 @@ function addIon(i, kind) {
     color: i.color || null,
     flame: i.flame ? { color: i.flame, desc_uz: i.flame_uz } : null,
     pKa_h: i.pKa_h ?? null,
+    ...(i.hyd_pH !== undefined ? { hydroxide_pH: i.hyd_pH } : {}),
   };
 }
 CATIONS.forEach((c) => addIon(c, 'kation'));
@@ -313,7 +314,7 @@ for (const s of Object.values(substances)) if (s.class === 'organik') s.class = 
 
 // erimaydigan maxsus tuzlar uchun ionlar tarkibini topish (BaCrO4 -> Ba2+ + CrO4 2-), cho'kma qoidasi ishlashi uchun
 {
-  const cats = Object.values(ions).filter((i) => i.charge > 0 && i.id !== 'H^+');
+  const cats = Object.values(ions).filter((i) => i.charge > 0 && i.id !== 'H^+' && !i.formula.includes('OH'));
   const ans = Object.values(ions).filter((i) => i.charge < 0);
   const same = (a, b) => { const ka = Object.keys(a), kb = Object.keys(b); return ka.length === kb.length && ka.every((k) => a[k] === b[k]); };
   for (const s of Object.values(substances)) {

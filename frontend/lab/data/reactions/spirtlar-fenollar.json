@@ -1,0 +1,2543 @@
+{
+ "category": "spirtlar-fenollar",
+ "reactions": [
+  {
+   "id": "spirt-0001",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning natriy bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: gidroksil guruhdagi vodorodning o'rin olishi",
+   "engine": "record",
+   "blocks_rules": false,
+   "reactants": [
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 2
+    },
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "bo'lak"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Suvsiz (absolyut) etanol ishlatiladi."
+   },
+   "equation": {
+    "molecular": "2C2H5OH + 2Na → 2C2H5ONa + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Kislorod vodorodga nisbatan elektromanfiy, shuning uchun O–H bog'ining elektron jufti kislorodga siljigan — vodorod biroz musbat qutblangan.",
+     "Natriy atomi elektron beradi, gidroksil vodorodi H⁰ gacha qaytarilib H₂ molekulasi hosil qiladi.",
+     "Natriy kationi etilat anioni C₂H₅O⁻ bilan natriy etilat hosil qiladi."
+    ],
+    "organic": {
+     "template": "qaytarilish",
+     "params": {
+      "substrate": "C2H5O–H",
+      "reductant": "Na",
+      "product": "C2H5ONa + H2"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Natriy bo'lagi idish tubida sokin \"erib\" ketadi va gaz pufakchalari (vodorod) ajraladi; reaksiya suvdagiga qaraganda ancha sekin boradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "pinset",
+    "gaz-naycha-toraytirilgan"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 2 ml suvsiz etanol quying.",
+    "Pinset bilan kichik natriy bo'lagini soling.",
+    "Ajralayotgan gazni probirka og'ziga gugurt tutib sinang (vodorod ohista \"chiyillab\" yonadi).",
+    "Reaksiyani suv bilan natriy reaksiyasi tezligi bilan solishtiring."
+   ],
+   "safety_uz": "Natriyni faqat pinset bilan oling, kerosindan filtr qog'oz bilan arting; bo'lagi no'xatdan katta bo'lmasin. Ajraladigan vodorod yonuvchan. Etanol oson alangalanadi: spirt solingan idishlarni ochiq alangadan uzoqda tuting, qizdirishni suv hammomida bajaring.",
+   "explanation_uz": "Spirtlar gidroksil guruhi hisobiga faol metallar bilan reaksiyaga kirishib alkogolyatlar va vodorod hosil qiladi. Etil radikali elektronodonor bo'lgani uchun etanolning kislotali xossasi suvnikidan ham kuchsiz, shuning uchun natriy etanol bilan suvga qaraganda sokinroq reaksiyaga kirishadi.",
+   "questions_uz": [
+    "Natriyning suv va etanol bilan reaksiyasi tezligini solishtiring va tushuntiring.",
+    "23 g natriy etanol bilan reaksiyaga kirishsa (n.sh.da) necha litr vodorod ajraladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0002",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Natriy etilatning gidrolizi (ishqoriy muhit)",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: alkogolyatlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5ONa",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Etanol bilan natriy reaksiyasidan qolgan qattiq natriy etilatga suv va fenolftalein qo'shiladi."
+   },
+   "equation": {
+    "molecular": "C2H5ONa + H2O → C2H5OH + NaOH",
+    "ionic_full": "C2H5ONa + H2O → C2H5OH + Na⁺ + OH⁻",
+    "ionic_net": "C2H5ONa + H2O → C2H5OH + Na⁺ + OH⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "gidroliz",
+    "steps_uz": [
+     "Etilat anioni C₂H₅O⁻ suvning gidroksid anionidan kuchliroq asos.",
+     "C₂H₅O⁻ suv molekulasidan protonni tortib oladi — etanol va OH⁻ ionlari hosil bo'ladi.",
+     "Eritmada OH⁻ ionlari to'planadi va muhit ishqoriy bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#e0207a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Natriy etilat suvda eriydi; fenolftalein qo'shilganda eritma to'q pushti (malina) rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Natriy etilat solingan probirkaga 3 ml suv quying.",
+    "1–2 tomchi fenolftalein qo'shing.",
+    "Eritma rangini kuzating."
+   ],
+   "safety_uz": "Natriy etilat va hosil bo'ladigan ishqor o'yuvchi: ko'zoynak taqing, teriga tegizmang.",
+   "explanation_uz": "Alkogolyatlar suvda to'liq gidrolizlanadi, chunki spirt suvdan ham kuchsiz kislota. Natijada spirt va ishqor hosil bo'ladi — fenolftalein buni pushti rang bilan ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun alkogolyatlarni suvli eritmada olib bo'lmaydi?",
+    "Etanol va suvning kislotalik kuchini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0003",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning yonishi",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: yonish reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 1
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Chinni kosachadagi ozgina etanol (yoki spirt lampasi) yondiriladi.",
+    "ignition": true,
+    "ignition_C": 400
+   },
+   "equation": {
+    "molecular": "C2H5OH + 3O2 → 2CO2↑ + 3H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Etanol bug'lari alangada radikallarga parchalanadi.",
+     "Molekulada kislorod borligi sababli yonish to'liqroq boradi va qurum deyarli hosil bo'lmaydi.",
+     "Uglerod CO₂ gacha, vodorod H₂O gacha oksidlanadi; ko'p issiqlik ajraladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "C2H5OH",
+      "oxidant": "O2",
+      "product": "CO2 + H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#4a6cf0",
+     "desc_uz": "ko'kimtir, tutunsiz, kunduzi zo'rg'a ko'rinadigan alanga"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     },
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Etanol ko'kimtir, tutunsiz alanga bilan yonadi; alanga ustida tutilgan sovuq stakan devorida suv tomchilari paydo bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "chinni-kosacha",
+    "gugurt",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga 1 ml etanol quying.",
+    "Uzun cho'p bilan yondiring.",
+    "Alanga ustida sovuq quruq stakan tutib suv tomchilarini, so'ng ohakli suv bilan CO₂ ni aniqlang."
+   ],
+   "safety_uz": "Etanol oson alangalanadi: spirt solingan idishlarni ochiq alangadan uzoqda tuting, qizdirishni suv hammomida bajaring. Yonayotgan spirtga spirt quymang; o'chirish uchun kosachani soat oynasi bilan yoping.",
+   "explanation_uz": "Spirtlar to'liq yonib CO₂ va suv hosil qiladi. Etanol tutunsiz va issiq alanga bergani uchun spirt lampalarida yoqilg'i sifatida, shuningdek, benzinga qo'shimcha (bioetanol) sifatida ishlatiladi.",
+   "questions_uz": [
+    "Etanolning yonish tenglamasini tuzing va 1 mol etanol uchun kislorod hajmini hisoblang.",
+    "Nima uchun etanol alangasi tutamaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0004",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning mis(II) oksid bilan oksidlanishi — atsetaldegid olish",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: birlamchi spirtlarning aldegidlargacha oksidlanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "sim"
+    },
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Mis sim spiral alangada qizdirilib (sirti qora CuO bilan qoplanadi), darhol etanolli probirkaga tushiriladi."
+   },
+   "equation": {
+    "molecular": "C2H5OH + CuO → CH3CHO↑ + Cu + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "C⁻¹ − 2e⁻ = C⁺¹",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Qizdirilgan CuO yuzasida etanolning gidroksil guruhidagi va unga qo'shni uglerod atomidagi vodorod atomlari ajratib olinadi.",
+     "Uglerod atomi va kislorod o'rtasida qo'shbog' (C=O) hosil bo'ladi — atsetaldegid.",
+     "Mis(II) oksid ikki elektron olib metall misgacha qaytariladi, kislorod suv tarkibida chiqadi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CH2–OH",
+      "oxidant": "CuO",
+      "product": "CH3–CHO"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "solid_color_change": {
+     "from": "#1a1a1a",
+     "to": "#c27a4a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qora mis spiral etanolga tushirilganda darhol qizil-yaltiroq rangga kiradi (metall mis qaytariladi); o'tkir, chirigan olma hidi (atsetaldegid) seziladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml etanol quying.",
+    "Mis simdan spiral yasab, qisqich bilan ushlab alangada qorayguncha qizdiring.",
+    "Qizigan spiralni darhol etanolga tushiring.",
+    "Spiral rangi o'zgarishini kuzating; amalni 3–4 marta takrorlang va hidni ehtiyotkorlik bilan (qo'l bilan yelpib) aniqlang."
+   ],
+   "safety_uz": "Etanol oson alangalanadi: spirt solingan idishlarni ochiq alangadan uzoqda tuting, qizdirishni suv hammomida bajaring. Qizigan spiralni probirkaga tushirganda etanol bug'lari alangalanishi mumkin — probirkani alangadan uzoqda ushlang.",
+   "explanation_uz": "Birlamchi spirtlar yumshoq oksidlovchilar (qizdirilgan CuO) ta'sirida aldegidlarga oksidlanadi, ikkilamchi spirtlar esa ketonlarga. Spiralning qoradan qizilga o'tishi misning qaytarilganini, o'ziga xos hid esa aldegid hosil bo'lganini ko'rsatadi.",
+   "questions_uz": [
+    "Propanol-1 va propanol-2 ning CuO bilan oksidlanish mahsulotlarini yozing.",
+    "Bu reaksiyada oksidlovchi va qaytaruvchini ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0005",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning kaliy dixromat bilan kislotali muhitda oksidlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: oksidlanish (spirt sinovi)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "K2Cr2O7",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Dixromat eritmasi sulfat kislota bilan kislotalanib, keyin etanol qo'shiladi."
+   },
+   "equation": {
+    "molecular": "3C2H5OH + K2Cr2O7 + 4H2SO4 → 3CH3CHO + Cr2(SO4)3 + K2SO4 + 7H2O",
+    "ionic_full": "3C2H5OH + 2K⁺ + Cr2O7²⁻ + 8H⁺ + 4SO4²⁻ → 3CH3CHO + 2Cr³⁺ + 3SO4²⁻ + 2K⁺ + SO4²⁻ + 7H2O",
+    "ionic_net": "3C2H5OH + Cr2O7²⁻ + 8H⁺ → 3CH3CHO + 2Cr³⁺ + 7H2O",
+    "electron_balance": [
+     "C⁻¹ − 2e⁻ = C⁺¹",
+     "2Cr⁺⁶ + 6e⁻ = 2Cr⁺³"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Kislotali muhitda dixromat ioni spirt bilan xromat efirini hosil qiladi.",
+     "Efirdan α-vodorod va xrom guruhining ajralishi natijasida C=O bog'i hosil bo'ladi — atsetaldegid.",
+     "Cr⁺⁶ (to'q sariq) uch elektrondan qabul qilib Cr³⁺ (yashil) ga qaytariladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CH2–OH",
+      "oxidant": "Cr2O7²⁻, H⁺",
+      "product": "CH3–CHO"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ef7d1a",
+     "to": "#5f8a6e"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "To'q sariq eritma bir necha daqiqada yashil-ko'kimtir rangga o'tadi; atsetaldegid hidi seziladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml kaliy dixromat eritmasidan quying.",
+    "2 ml suyultirilgan sulfat kislota qo'shing.",
+    "0,5 ml etanol qo'shib chayqating va rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kaliy dixromat zaharli va kanserogen (Cr⁺⁶): qo'lqopda ishlang, chiqindini alohida yig'ing. Sulfat kislota o'yuvchi.",
+   "explanation_uz": "Kaliy dixromat kislotali muhitda birlamchi spirtlarni aldegidlarga (ortiqcha oksidlovchida — karbon kislotalarga) oksidlaydi. To'q sariq rangning yashilga o'tishi spirt bug'ini aniqlovchi eski \"alkotest\" naychalarining ishlash asosidir; uchlamchi spirtlar bu sharoitda oksidlanmaydi.",
+   "questions_uz": [
+    "Elektron balans usulida tenglamani tenglashtiring.",
+    "tret-Butanol bu reaksiyani beradimi? Nima uchun?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0006",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning kislotali muhitda kaliy permanganat bilan sirka kislotagacha oksidlanishi",
+   "level": "litsey",
+   "topic_uz": "Spirtlar: kuchli oksidlovchilar ta'sirida oksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Kislotalangan permanganat eritmasiga etanol qo'shiladi va iliq suv hammomida biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "5C2H5OH + 4KMnO4 + 6H2SO4 → 5CH3COOH + 4MnSO4 + 2K2SO4 + 11H2O",
+    "ionic_full": "5C2H5OH + 4K⁺ + 4MnO4⁻ + 12H⁺ + 6SO4²⁻ → 5CH3COOH + 4Mn²⁺ + 4SO4²⁻ + 4K⁺ + 2SO4²⁻ + 11H2O",
+    "ionic_net": "5C2H5OH + 4MnO4⁻ + 12H⁺ → 5CH3COOH + 4Mn²⁺ + 11H2O",
+    "electron_balance": [
+     "C⁻¹ − 4e⁻ = C⁺³",
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Permanganat avval etanolni atsetaldegidgacha oksidlaydi.",
+     "Kislotali muhitda aldegid kuchli oksidlovchi bilan tez sirka kislotagacha oksidlanadi (C⁻¹ → C⁺³, 4 e⁻).",
+     "Mn⁺⁷ besh elektron olib rangsiz Mn²⁺ ga qaytariladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CH2–OH",
+      "oxidant": "MnO4⁻, H⁺",
+      "product": "CH3–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#8e1a8e",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Iliq eritmada binafsha rang tez yo'qoladi; eritmadan sirka hidi kela boshlaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml KMnO₄ eritmasi va 2 ml suyultirilgan sulfat kislota quying.",
+    "0,5 ml etanol qo'shib chayqating.",
+    "Probirkani iliq suv hammomiga qo'yib, rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kaliy permanganat kuchli oksidlovchi, terini va kiyimni bo'yaydi; ko'zoynak taqing. Sulfat kislota o'yuvchi.",
+   "explanation_uz": "Kuchli oksidlovchilar kislotali muhitda birlamchi spirtlarni oraliq aldegid orqali karbon kislotalargacha oksidlaydi. Mahsulot oksidlovchining kuchi va miqdoriga bog'liq: yumshoq oksidlovchi (CuO) bilan aldegidda to'xtatish mumkin.",
+   "questions_uz": [
+    "Bu reaksiyada etanolning bitta molekulasi nechta elektron beradi?",
+    "Aldegidni oksidlanishdan saqlab qolish uchun qanday usul qo'llaniladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0007",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning 140 °C da sulfat kislota ishtirokida degidratlanishi — dietil efir olish",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: molekulalararo degidratlanish, oddiy efirlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 140,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "Etanol va konsentrlangan sulfat kislota aralashmasi (spirt ortiqcha) 140 °C da qizdiriladi; hosil bo'lgan efir haydalib sovutiladi. 170 °C dan yuqorida etilen hosil bo'ladi."
+   },
+   "equation": {
+    "molecular": "2C2H5OH → C2H5OC2H5↑ + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Sulfat kislota spirtning gidroksil kislorodini protonlaydi: C₂H₅–OH₂⁺ hosil bo'ladi va suv yaxshi ketuvchi guruhga aylanadi.",
+     "Ikkinchi etanol molekulasi kislorodining taqsimlanmagan elektron jufti bilan protonlangan spirt uglerodiga orqa tomondan hujum qiladi, suv molekulasi ajraladi (S_N2).",
+     "Hosil bo'lgan protonlangan efir protonni qaytarib beradi — dietil efir va qayta tiklangan katalizator."
+    ],
+    "organic": {
+     "template": "SN2",
+     "params": {
+      "substrate": "CH3–CH2–OH2⁺ (protonlangan spirt)",
+      "nucleophile": "C2H5–OH",
+      "leaving_group": "H2O",
+      "product": "C2H5–O–C2H5"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     },
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Aralashma qaynaydi; sovutgichdan o'tgan bug'lar o'ziga xos o'tkir hidli, juda uchuvchan rangsiz suyuqlik — dietil efir sifatida kondensatlanadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "vyurs-kolbasi",
+    "termometr",
+    "libix-sovutgichi",
+    "tomchi-voronka",
+    "kolba-isitgich"
+   ],
+   "procedure_uz": [
+    "Vyurs kolbasiga etanol va konsentrlangan sulfat kislotani (ehtiyotkorlik bilan, sovitib) aralashtiring.",
+    "Termometr va sovutgich o'rnatib, aralashmani 140 °C gacha qizdiring.",
+    "Tomchi voronkadan etanolni hosil bo'layotgan efir tezligida qo'shib boring.",
+    "Muz bilan sovitilgan qabul qiluvchida efirni yig'ing."
+   ],
+   "safety_uz": "Dietil efir juda uchuvchan va oson alangalanadi, bug'lari havodan og'ir va uzoqqa tarqaladi: yaqinda ochiq alanga yoki qizigan plitka bo'lmasin. Konsentrlangan kislotalar terini kuydiradi: ko'zoynak va qo'lqopda ishlang. Faqat o'qituvchi namoyishi; qizdirish elektr isitgichda.",
+   "explanation_uz": "Spirtlarning degidratlanish yo'nalishi haroratga va reagentlar nisbatiga bog'liq: ~140 °C da va spirt ortiqcha bo'lganda ikki molekula orasidan suv ajralib oddiy efir hosil bo'ladi, 170 °C dan yuqorida esa bir molekula ichidan suv ajralib etilen hosil bo'ladi.",
+   "questions_uz": [
+    "Etanolning molekulalararo va molekula ichidagi degidratlanish mahsulotlarini solishtiring.",
+    "Metanol va etanol aralashmasidan qanday efirlar hosil bo'lishi mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0008",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Metanolning mis(II) oksid bilan oksidlanishi — formaldegid olish",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: metanolning oksidlanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "sim"
+    },
+    {
+     "species": "CH3OH",
+     "state": "l",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Qizdirilgan mis spiral metanolli probirkaga tushiriladi."
+   },
+   "equation": {
+    "molecular": "CH3OH + CuO → HCHO↑ + Cu + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "C⁻² − 2e⁻ = C⁰",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Qizdirilgan CuO metanolning O–H va C–H bog'laridagi ikki vodorod atomini tortib oladi.",
+     "Uglerod va kislorod o'rtasida qo'shbog' hosil bo'ladi — formaldegid.",
+     "CuO metall misgacha qaytariladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–OH",
+      "oxidant": "CuO",
+      "product": "H–CHO"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "HCHO",
+     "desc_uz": "o'tkir, bo'g'uvchi hidli gaz"
+    },
+    "solution_color_change": null,
+    "solid_color_change": {
+     "from": "#1a1a1a",
+     "to": "#c27a4a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qora spiral metanolga tushirilganda qizarib yaltiraydi; o'tkir, nafasni qisadigan formaldegid hidi paydo bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml metanol quying.",
+    "Mis spiralni alangada qorayguncha qizdiring.",
+    "Darhol metanolga tushiring va spiral rangini kuzating; amalni bir necha marta takrorlang."
+   ],
+   "safety_uz": "Metanol o'ta zaharli (ichilsa ko'r qiladi va o'ldiradi), formaldegid zaharli va kanserogen: mo'rili shkafda ishlang, hidni faqat qo'l bilan yelpib aniqlang.",
+   "explanation_uz": "Metanol birlamchi spirt sifatida aldegidga — formaldegidga oksidlanadi. Sanoatda formaldegid metanol bug'larini havo bilan mis yoki kumush katalizatori ustidan o'tkazib olinadi; uning 40% li eritmasi formalin deyiladi.",
+   "questions_uz": [
+    "Formaldegidning 40% li suvli eritmasi qanday ataladi va qayerda ishlatiladi?",
+    "Nima uchun metanolni ichish mutlaqo mumkin emas?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0009",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Propanol-2 ning mis(II) oksid bilan oksidlanishi — aseton olish",
+   "level": "litsey",
+   "topic_uz": "Spirtlar: ikkilamchi spirtlarning ketonlargacha oksidlanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "sim"
+    },
+    {
+     "species": "CH3CH(OH)CH3",
+     "state": "l",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Qizdirilgan mis spiral izopropil spirtiga tushiriladi."
+   },
+   "equation": {
+    "molecular": "CH3CH(OH)CH3 + CuO → CH3COCH3↑ + Cu + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "C⁰ − 2e⁻ = C⁺²",
+     "Cu⁺² + 2e⁻ = Cu⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "CuO ikkilamchi uglerod atomidagi yagona vodorodni va gidroksil vodorodini tortib oladi.",
+     "Ikkilamchi uglerod atomida C=O guruhi hosil bo'ladi — keton (aseton).",
+     "Ketonda karbonil uglerodida vodorod bo'lmagani uchun oksidlanish shu yerda to'xtaydi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CH(OH)–CH3",
+      "oxidant": "CuO",
+      "product": "CH3–CO–CH3"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "solid_color_change": {
+     "from": "#1a1a1a",
+     "to": "#c27a4a"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qora spiral spirtga tushirilganda qizarib yaltiraydi; asetonning o'ziga xos (lak eritgich) hidi paydo bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml propanol-2 quying.",
+    "Mis spiralni alangada qorayguncha qizdiring va darhol spirtga tushiring.",
+    "Spiral rangi va hidni kuzating; mahsulotni kumush ko'zgu reaksiyasi bilan sinab ko'ring (natija manfiy)."
+   ],
+   "safety_uz": "Propanol-2 va aseton oson alangalanadi: probirkani alangadan uzoqda ushlang.",
+   "explanation_uz": "Ikkilamchi spirtlar oksidlanganda ketonlar hosil bo'ladi. Ketonlar aldegidlardan farqli ravishda kumush ko'zgu reaksiyasini bermaydi — bu orqali birlamchi va ikkilamchi spirtlarning oksidlanish mahsulotlarini farqlash mumkin.",
+   "questions_uz": [
+    "Propanol-1 va propanol-2 ni oksidlanish mahsulotlari bo'yicha qanday farqlash mumkin?",
+    "Uchlamchi spirtlar CuO bilan oksidlanadimi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0010",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanoldan brometan olish (spirtlarning vodorod galogenidlar bilan reaksiyasi)",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlar: gidroksil guruhning galogenga almashinishi (S_N)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 2
+    },
+    {
+     "species": "NaBr",
+     "state": "s",
+     "mass_g": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Etanol, natriy bromid va konsentrlangan sulfat kislota aralashmasi ohista qizdiriladi; brometan haydalib muzli suv ostida yig'iladi."
+   },
+   "equation": {
+    "molecular": "C2H5OH + NaBr + H2SO4 → C2H5Br↑ + NaHSO4 + H2O",
+    "ionic_full": "C2H5OH + Na⁺ + Br⁻ + H⁺ + HSO4⁻ → C2H5Br↑ + Na⁺ + HSO4⁻ + H2O",
+    "ionic_net": "C2H5OH + H⁺ + Br⁻ → C2H5Br↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Sulfat kislota natriy bromiddan HBr hosil qiladi va spirtning gidroksil guruhini protonlaydi (C₂H₅–OH₂⁺).",
+     "Br⁻ ioni uglerod atomiga suv ketuvchi guruhga qarama-qarshi tomondan hujum qiladi.",
+     "C–O bog'ining elektron jufti suv molekulasi bilan ketadi, yangi C–Br bog'i hosil bo'ladi (bir bosqichli S_N2)."
+    ],
+    "organic": {
+     "template": "SN2",
+     "params": {
+      "substrate": "CH3–CH2–OH2⁺",
+      "nucleophile": "Br⁻",
+      "leaving_group": "H2O",
+      "product": "CH3–CH2–Br"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "C2H5Br",
+     "desc_uz": "haydalayotgan bug'; sovutilganda og'ir rangsiz suyuqlik"
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     },
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "layers"
+     }
+    ],
+    "text_uz": "Qizdirilganda haydalgan bug'lar muzli suvga tushib, uning tubida og'ir, rangsiz, suvda erimaydigan moysimon suyuqlik — brometan tomchilari to'planadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "dumaloq-tubli-kolba",
+    "gaz-naycha-egilgan",
+    "probirka",
+    "kimyoviy-stakan",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Kolbaga 2 ml etanol, 2 ml konsentrlangan sulfat kislota (sovitib turib) va 2 g natriy bromid soling.",
+    "Gaz naychasining uchini muzli suvli probirka tubiga tushiring.",
+    "Aralashmani suv hammomida ohista qizdiring.",
+    "Probirka tubida yig'ilgan og'ir moysimon qatlamni kuzating."
+   ],
+   "safety_uz": "Konsentrlangan kislotalar terini kuydiradi: ko'zoynak va qo'lqopda ishlang. Brometan uchuvchan va zararli; qizdirishni to'xtatishdan oldin naychani suvdan chiqaring.",
+   "explanation_uz": "Spirtlar vodorod galogenidlar bilan reaksiyaga kirishib galogenalkanlar hosil qiladi; gidroksil guruh kislotada protonlangandan keyin suv ko'rinishida oson ajraladi. Brometan suvdan og'ir va unda erimagani uchun tubga cho'kadi.",
+   "questions_uz": [
+    "Nima uchun spirt kislotasiz bromid ionlari bilan reaksiyaga kirishmaydi?",
+    "Brometandan etanolni qanday qayta olish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0011",
+   "category": "spirtlar-fenollar",
+   "title_uz": "tret-Butanolning konsentrlangan xlorid kislota bilan reaksiyasi (S_N1)",
+   "level": "litsey",
+   "topic_uz": "Spirtlar: uchlamchi spirtlarda nukleofil o'rin olish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(CH3)3COH",
+     "state": "l",
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 11.6,
+     "volume_mL": 3,
+     "conc_min_M": 4,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Xona haroratida chayqatiladi."
+   },
+   "equation": {
+    "molecular": "(CH3)3COH + HCl → (CH3)3CCl + H2O",
+    "ionic_full": "(CH3)3COH + H⁺ + Cl⁻ → (CH3)3CCl + H2O",
+    "ionic_net": "(CH3)3COH + H⁺ + Cl⁻ → (CH3)3CCl + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "H⁺ ioni spirtning gidroksil kislorodiga birikadi: (CH₃)₃C–OH₂⁺.",
+     "C–O bog'ining elektron jufti to'liq kislorodga o'tadi va suv molekulasi ajraladi — barqaror uchlamchi karbokation (CH₃)₃C⁺ hosil bo'ladi (sekin bosqich).",
+     "Cl⁻ ioni o'zining elektron jufti bilan karbokationga tez birikadi."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "(CH3)3C–OH2⁺",
+      "nucleophile": "Cl⁻",
+      "carbocation": "(CH3)3C⁺",
+      "leaving_group": "H2O",
+      "product": "(CH3)3C–Cl"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "layers"
+     }
+    ],
+    "text_uz": "Chayqatilgach bir necha daqiqada eritma loyqalanadi va ustida suvda erimaydigan moysimon qatlam (tret-butilxlorid) ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml konsentrlangan xlorid kislota quying.",
+    "1 ml tret-butanol qo'shing va chayqating.",
+    "Loyqalanish va qatlam hosil bo'lish vaqtini qayd eting."
+   ],
+   "safety_uz": "Konsentrlangan xlorid kislota bug'lari bo'g'uvchi: mo'rili shkafda ishlang, ko'zoynak taqing. tret-Butanol yonuvchan.",
+   "explanation_uz": "Uchlamchi spirtlar karbokation orqali (S_N1) juda oson reaksiyaga kirishadi, chunki uchlamchi karbokation barqaror. Birlamchi spirtlar bu sharoitda deyarli reaksiyaga kirishmaydi — spirtlarni farqlovchi Lukas sinovi shunga asoslangan.",
+   "questions_uz": [
+    "Nima uchun uchlamchi spirt birlamchi spirtga qaraganda tezroq reaksiyaga kirishadi?",
+    "S_N1 va S_N2 mexanizmlarini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0012",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Propanol-1 ning xona haroratida konsentrlangan xlorid kislota bilan reaksiyaga kirishmasligi",
+   "level": "litsey",
+   "topic_uz": "Spirtlar: birlamchi, ikkilamchi va uchlamchi spirtlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "CH3CH2CH2OH",
+    "H⁺",
+    "Cl⁻"
+   ],
+   "reactants": [
+    {
+     "species": "CH3CH2CH2OH",
+     "state": "l",
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 11.6,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Rux xloridsiz, xona haroratida chayqatiladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Birlamchi karbokation juda beqaror, shuning uchun S_N1 yo'li yopiq.",
+     "Cl⁻ ioni suvli eritmada kuchsiz nukleofil — katalizatorsiz va qizdirilmasdan S_N2 ham amalda bormaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Eritma tiniqligicha qoladi, loyqalanish va qatlam ajralishi kuzatilmaydi (propanol-1 suv bilan aralashib ketadi)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml konsentrlangan xlorid kislota quying.",
+    "1 ml propanol-1 qo'shib chayqating.",
+    "Natijani tret-butanol bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Konsentrlangan xlorid kislota bug'lari bo'g'uvchi: mo'rili shkafda ishlang.",
+   "explanation_uz": "Birlamchi spirtlar konsentrlangan xlorid kislota bilan xona haroratida amalda reaksiyaga kirishmaydi: barqaror karbokation hosil bo'lmaydi. Ularni xlorlash uchun ZnCl₂ katalizatori va qizdirish yoki boshqa reagentlar (PCl₅, SOCl₂) kerak.",
+   "questions_uz": [
+    "Lukas reaktivi tarkibiga nimalar kiradi?",
+    "Qaysi spirt HCl bilan eng tez reaksiyaga kirishadi: propanol-1, propanol-2 yoki tret-butanol?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0013",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Propanol-2 ning Lukas reaktivi bilan reaksiyasi",
+   "level": "universitet",
+   "topic_uz": "Spirtlar: Lukas sinovi (ikkilamchi spirt)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CH(OH)CH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 11.6,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "ZnCl2",
+    "medium": null,
+    "light": false,
+    "note_uz": "Lukas reaktivi — suvsiz ZnCl₂ ning konsentrlangan xlorid kislotadagi eritmasi; xona haroratida chayqatiladi."
+   },
+   "equation": {
+    "molecular": "CH3CH(OH)CH3 + HCl → CH3CHClCH3 + H2O",
+    "ionic_full": "CH3CH(OH)CH3 + H⁺ + Cl⁻ → CH3CHClCH3 + H2O",
+    "ionic_net": "CH3CH(OH)CH3 + H⁺ + Cl⁻ → CH3CHClCH3 + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "ZnCl₂ (Lyuis kislotasi) gidroksil kislorodiga koordinatsiyalanib, OH guruhini yaxshi ketuvchi guruhga aylantiradi.",
+     "Ketuvchi guruh ajralib ikkilamchi karbokation CH₃–CH⁺–CH₃ hosil bo'ladi.",
+     "Cl⁻ ioni karbokationga birikib 2-xlorpropan hosil bo'ladi; u suvda erimagani uchun eritma loyqalanadi."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "CH3–CH(O⁺H–ZnCl2⁻)–CH3",
+      "nucleophile": "Cl⁻",
+      "carbocation": "CH3–CH⁺–CH3",
+      "leaving_group": "[Zn(OH)Cl2]⁻",
+      "product": "CH3–CHCl–CH3"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Bir necha (5–10) daqiqadan so'ng eritma loyqalanadi; uchlamchi spirt bilan loyqalanish darhol, birlamchi spirt bilan esa xona haroratida kuzatilmaydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "sekundomer"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml Lukas reaktividan quying.",
+    "0,5 ml propanol-2 qo'shib chayqating.",
+    "Loyqalanish boshlangan vaqtni qayd eting va uni tret-butanol hamda propanol-1 natijalari bilan solishtiring."
+   ],
+   "safety_uz": "Lukas reaktivi o'yuvchi va bo'g'uvchi bug'lar chiqaradi: mo'rili shkafda, ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Lukas sinovida spirtlarning reaksiya tezligi karbokation barqarorligiga mos: uchlamchi — darhol, ikkilamchi — bir necha daqiqada, birlamchi — xona haroratida deyarli reaksiyaga kirishmaydi. Loyqalanish suvda erimaydigan galogenalkan hosil bo'lganini ko'rsatadi.",
+   "questions_uz": [
+    "Lukas sinovining natijalarini karbokationlar barqarorligi bilan tushuntiring.",
+    "Nima uchun bu sinov faqat suvda eriydigan (kichik) spirtlar uchun qo'llaniladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0014",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning yodoform reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Spirtlar: CH₃–CH(OH)– guruhga sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 3
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Etanolga yodning KI dagi eritmasi va NaOH eritmasi (yod rangi yo'qolguncha) qo'shilib, iliq suv hammomida isitiladi."
+   },
+   "equation": {
+    "molecular": "C2H5OH + 4I2 + 6NaOH → CHI3↓ + HCOONa + 5NaI + 5H2O",
+    "ionic_full": "C2H5OH + 4I2 + 6Na⁺ + 6OH⁻ → CHI3↓ + HCOO⁻ + Na⁺ + 5Na⁺ + 5I⁻ + 5H2O",
+    "ionic_net": "C2H5OH + 4I2 + 6OH⁻ → CHI3↓ + HCOO⁻ + 5I⁻ + 5H2O",
+    "electron_balance": [
+     "C⁻¹ − 2e⁻ = C⁺¹",
+     "I2⁰ + 2e⁻ = 2I⁻"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Ishqoriy muhitda yod etanolni atsetaldegidgacha oksidlaydi.",
+     "Atsetaldegidning metil guruhidagi uchta vodorod atomi ketma-ket yodga almashinadi (enolat orqali): CI₃–CHO.",
+     "OH⁻ ioni karbonil uglerodga hujum qiladi, C–C bog'i uzilib CHI₃ (yodoform) va formiat ioni hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CH2–OH",
+      "oxidant": "I2 + OH⁻ (gipoyodit)",
+      "product": "CHI3 + HCOO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CHI3",
+     "color": "#f2d23a",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Yod rangi yo'qoladi va o'ziga xos \"dorixona\" hidli och sariq mayda kristall cho'kma — yodoform tushadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml etanol va 3 ml yodning kaliy yodiddagi eritmasidan quying.",
+    "NaOH eritmasini tomchilab, yod rangi yo'qolguncha qo'shing.",
+    "Probirkani 50–60 °C li suv hammomida biroz isitib, so'ng sovuting.",
+    "Sariq cho'kmani va hidni kuzating."
+   ],
+   "safety_uz": "NaOH eritmasi o'yuvchi: ko'zoynak taqing. Yod bug'larini hidlamang.",
+   "explanation_uz": "Yodoform reaksiyasi CH₃–CO– yoki CH₃–CH(OH)– guruhi bor birikmalar (etanol, propanol-2, atsetaldegid, aseton) uchun sifat reaksiyasi. Metanol va propanol-1 bu reaksiyani bermaydi, shuning uchun etanolni metanoldan farqlash mumkin.",
+   "questions_uz": [
+    "Metanol va etanolni qanday farqlash mumkin?",
+    "Quyidagilardan qaysilari yodoform reaksiyasini beradi: propanol-1, propanol-2, aseton, propanal?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0015",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Dietil efirning alangalanishi",
+   "level": "10-sinf",
+   "topic_uz": "Oddiy efirlar: fizik va yong'in xavfi xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5OC2H5",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Chinni kosachadagi bir necha tomchi efir uzun cho'p bilan yondiriladi (mo'rili shkafda).",
+    "ignition": true,
+    "ignition_C": 180
+   },
+   "equation": {
+    "molecular": "C2H5OC2H5 + 6O2 → 4CO2↑ + 5H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Efir juda uchuvchan: kosacha ustida doimo bug'larining havo bilan aralashmasi bo'ladi.",
+     "Alanga yaqinlashtirilganda bug'-havo aralashmasi bir zumda alangalanadi.",
+     "Efir to'liq yonib CO₂ va suv hosil qiladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "C2H5–O–C2H5",
+      "oxidant": "O2",
+      "product": "CO2 + H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#ffcc60",
+     "desc_uz": "yorqin sarg'ish, tez tarqaladigan alanga"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Efir bug'lari cho'p yaqinlashtirilishi bilan \"lop\" etib alangalanadi va yorqin alanga bilan tez yonib ketadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "chinni-kosacha",
+    "gugurt"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga 3–5 tomchi dietil efir tomizing (mo'rili shkafda, boshqa efir idishlari uzoqda bo'lsin).",
+    "Uzun cho'p bilan alangani yuqoridan yaqinlashtiring.",
+    "Alangalanish tezligini etanol bilan solishtiring."
+   ],
+   "safety_uz": "Dietil efir juda uchuvchan va oson alangalanadi, bug'lari havodan og'ir va uzoqqa tarqaladi: yaqinda ochiq alanga yoki qizigan plitka bo'lmasin. Faqat o'qituvchi namoyishi, juda oz miqdorda.",
+   "explanation_uz": "Dietil efir past haroratda qaynaydi va bug'lari havo bilan juda oson alangalanadigan aralashma hosil qiladi. Shu sababli efir bilan ishlashda ochiq alanga va qizigan sirtlar butunlay chetlashtiriladi; efir uzoq saqlansa portlovchi peroksidlar ham hosil qilishi mumkin.",
+   "questions_uz": [
+    "Nima uchun efir etanolga qaraganda yong'in jihatidan xavfliroq?",
+    "Dietil efirning yonish tenglamasini tuzing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0016",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Dietil efirning natriy bilan reaksiyaga kirishmasligi",
+   "level": "10-sinf",
+   "topic_uz": "Oddiy efirlar va spirtlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C2H5OC2H5",
+    "Na"
+   ],
+   "blocks_rules": false,
+   "reactants": [
+    {
+     "species": "C2H5OC2H5",
+     "state": "l",
+     "volume_mL": 2
+    },
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "bo'lak"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Efir molekulasida kislorod ikki uglerod atomi bilan bog'langan, O–H bog'i yo'q.",
+     "Natriy qaytaradigan harakatchan (kislotali) vodorod atomi bo'lmagani uchun reaksiya ketmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Natriy bo'lagi efirda o'zgarmay qoladi, gaz ajralmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 2 ml suvsiz dietil efir quying.",
+    "Kichik natriy bo'lagini soling.",
+    "Natijani etanol bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Dietil efir juda uchuvchan va oson alangalanadi, bug'lari havodan og'ir va uzoqqa tarqaladi: yaqinda ochiq alanga yoki qizigan plitka bo'lmasin. Natriyni faqat pinset bilan oling, kerosindan filtr qog'oz bilan arting; bo'lagi no'xatdan katta bo'lmasin. Ajraladigan vodorod yonuvchan.",
+   "explanation_uz": "Etanol va dietil efir tarkibida kislorod bo'lsa-da, faqat spirtda gidroksil guruh bor. Shuning uchun natriy etanoldan vodorodni siqib chiqaradi, efir bilan esa reaksiyaga kirishmaydi — hatto efirni suvdan tozalash (quritish) uchun natriy ishlatiladi.",
+   "questions_uz": [
+    "Etanol va dimetil efir izomerlarmi? Ularni qanday farqlash mumkin?",
+    "Nima uchun natriy efirni quritishda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0017",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Brometanning ishqorning suvli eritmasi bilan gidrolizi — etanol olish",
+   "level": "10-sinf",
+   "topic_uz": "Spirtlarni olish: galogenalkanlarning gidrolizi (S_N2)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C2H5Br",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma qaytar sovutgich bilan chayqatib turib qizdiriladi."
+   },
+   "equation": {
+    "molecular": "C2H5Br + NaOH → C2H5OH + NaBr",
+    "ionic_full": "C2H5Br + Na⁺ + OH⁻ → C2H5OH + Na⁺ + Br⁻",
+    "ionic_net": "C2H5Br + OH⁻ → C2H5OH + Br⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "C–Br bog'i qutblangan: uglerod atomida qisman musbat zaryad bor.",
+     "OH⁻ ioni taqsimlanmagan elektron jufti bilan uglerodga bromga qarama-qarshi tomondan hujum qiladi.",
+     "O'tish holatida C–O bog'i hosil bo'layotganda C–Br bog'i uziladi va Br⁻ ajraladi (bir bosqichli S_N2, konfiguratsiya almashinadi)."
+    ],
+    "organic": {
+     "template": "SN2",
+     "params": {
+      "substrate": "CH3–CH2–Br",
+      "nucleophile": "OH⁻",
+      "leaving_group": "Br⁻",
+      "product": "CH3–CH2–OH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "layers"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Chayqatib qizdirilganda tubdagi og'ir brometan qatlami asta-sekin yo'qoladi. Eritma nitrat kislota bilan kislotalanib AgNO₃ qo'shilsa, och sariq AgBr cho'kmasi tushadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "dumaloq-tubli-kolba",
+    "sharikli-sovutgich",
+    "suv-hammomi",
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Kolbaga 3 ml NaOH eritmasi va 0,5 ml brometan soling.",
+    "Qaytar sovutgich o'rnatib, suv hammomida chayqatib turib 10 daqiqa qizdiring.",
+    "Sovigan eritmaning bir qismini nitrat kislota bilan kislotalang va AgNO₃ eritmasi qo'shib Br⁻ ionini aniqlang."
+   ],
+   "safety_uz": "NaOH o'yuvchi, brometan uchuvchan va zararli: ko'zoynak taqing, mo'rili shkafda ishlang.",
+   "explanation_uz": "Galogenalkanlar ishqorning suvli eritmasida nukleofil o'rin olish reaksiyasiga kirishib spirtlar hosil qiladi. Erituvchi muhim: spirtli eritmada xuddi shu reagentlar eliminirlanish (alken hosil bo'lishi) ga olib keladi.",
+   "questions_uz": [
+    "Brometanga KOH ning suvli va spirtli eritmalari ta'siri natijalarini solishtiring.",
+    "Br⁻ ioni hosil bo'lganini qanday isbotlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0018",
+   "category": "spirtlar-fenollar",
+   "title_uz": "tret-Butilxloridning kumush nitrat bilan reaksiyasi (S_N1 gidroliz)",
+   "level": "universitet",
+   "topic_uz": "Galogenalkanlar va spirtlar: karbokation mexanizmi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(CH3)3CCl",
+     "state": "l",
+     "volume_mL": 0.3
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "AgNO₃ ning suvli-spirtli eritmasiga xona haroratida bir necha tomchi tret-butilxlorid qo'shiladi."
+   },
+   "equation": {
+    "molecular": "(CH3)3CCl + AgNO3 + H2O → (CH3)3COH + AgCl↓ + HNO3",
+    "ionic_full": "(CH3)3CCl + Ag⁺ + NO3⁻ + H2O → (CH3)3COH + AgCl↓ + H⁺ + NO3⁻",
+    "ionic_net": "(CH3)3CCl + Ag⁺ + H2O → (CH3)3COH + AgCl↓ + H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "C–Cl bog'i geterolitik uzilib (Ag⁺ ioni xlorni tortib oladi) uchlamchi karbokation (CH₃)₃C⁺ hosil bo'ladi.",
+     "Ajralgan Cl⁻ darhol Ag⁺ bilan oq AgCl cho'kmasini hosil qiladi.",
+     "Suv molekulasi karbokationga birikadi va proton ajralib tret-butanol hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "(CH3)3C–Cl",
+      "nucleophile": "H2O",
+      "carbocation": "(CH3)3C⁺",
+      "leaving_group": "Cl⁻ (AgCl↓)",
+      "product": "(CH3)3C–OH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Xona haroratida deyarli darhol oq suzmasimon AgCl cho'kmasi tushadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml AgNO₃ ning suvli-spirtli eritmasidan quying.",
+    "Bir necha tomchi tret-butilxlorid qo'shib chayqating.",
+    "Cho'kma tushish tezligini birlamchi galogenalkan (masalan, 1-brompropan) bilan solishtiring."
+   ],
+   "safety_uz": "Kumush nitrat terini qoraytiradi, galogenalkanlar zararli va yonuvchan: qo'lqopda ishlang.",
+   "explanation_uz": "Uchlamchi galogenalkanlar karbokation orqali (S_N1) tez gidrolizlanadi va ajralgan galogenid ioni kumush ionlari bilan darhol cho'kma beradi. Birlamchi galogenalkanlar bu sharoitda juda sekin reaksiyaga kirishadi — bu galogenalkanlar tuzilishini aniqlash usullaridan biri.",
+   "questions_uz": [
+    "Nima uchun uchlamchi galogenalkanlar S_N1 mexanizmi bo'yicha reaksiyaga kirishadi?",
+    "Bu reaksiyada qaysi bosqich tezlikni belgilaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0019",
+   "category": "spirtlar-fenollar",
+   "title_uz": "tret-Butanolning degidratlanishi — izobutilen olish (E1)",
+   "level": "universitet",
+   "topic_uz": "Spirtlar: molekula ichidagi degidratlanish, E1 mexanizmi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(CH3)3COH",
+     "state": "l",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "tret-Butanol suyultirilgan (~20%) sulfat kislota bilan qizdiriladi; ajralgan gaz bromli suv orqali o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "(CH3)3COH → (CH3)2C=CH2↑ + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Kislota gidroksil guruhni protonlaydi: (CH₃)₃C–OH₂⁺.",
+     "Suv molekulasi ajralib, barqaror uchlamchi karbokation hosil bo'ladi (sekin bosqich).",
+     "Asos (H₂O yoki HSO₄⁻) qo'shni CH₃ guruhdan protonni tortib oladi; C–H bog'ining elektron jufti C=C π-bog'ini hosil qiladi."
+    ],
+    "organic": {
+     "template": "E1",
+     "params": {
+      "substrate": "(CH3)3C–OH2⁺",
+      "carbocation": "(CH3)3C⁺",
+      "base": "H2O / HSO4⁻",
+      "product": "(CH3)2C=CH2",
+      "byproduct": "H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "(CH3)2C=CH2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qizdirilganda gaz ajraladi; u bromli suvni rangsizlantiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml tret-butanol va 2 ml suyultirilgan sulfat kislota quying.",
+    "Gaz chiqarish naychali tiqin bilan berkitib, suv hammomida qizdiring.",
+    "Ajralgan gazni bromli suv orqali o'tkazing."
+   ],
+   "safety_uz": "Sulfat kislota o'yuvchi; tret-butanol va izobutilen yonuvchan — ochiq alangada qizdirmang.",
+   "explanation_uz": "Uchlamchi spirtlar barqaror karbokation hosil qilgani uchun nisbatan yumshoq sharoitda (suyultirilgan kislota, ~80–90 °C) degidratlanadi, birlamchi spirtlar uchun esa konsentrlangan kislota va yuqori harorat (etanol uchun ~170 °C) kerak. Degidratlanish E1 mexanizmi bo'yicha boradi.",
+   "questions_uz": [
+    "Spirtlarning degidratlanish osonligini birlamchi, ikkilamchi va uchlamchi qatorida taqqoslang.",
+    "Butanol-2 degidratlanganda qaysi alken asosiy mahsulot bo'ladi (Zaysev qoidasi)?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0020",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Glitserinning mis(II) gidroksid bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Ko'p atomli spirtlarga sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "C3H5(OH)3",
+     "state": "l",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Mis(II) gidroksid CuSO₄ eritmasiga ortiqcha NaOH qo'shib yangi tayyorlanadi, so'ng glitserin qo'shiladi."
+   },
+   "equation": {
+    "molecular": "2C3H5(OH)3 + Cu(OH)2 → Cu(C3H7O3)2 + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Glitserin molekulasida qo'shni uglerod atomlarida joylashgan OH guruhlari bor.",
+     "Ikki glitserin molekulasining qo'shni gidroksil kislorodlari Cu²⁺ ioni bilan halqasimon (xelat) bog'lar hosil qiladi; vodorod atomlari suv tarkibida ajraladi.",
+     "Hosil bo'lgan mis glitserat kompleks suvda eriydi va to'q ko'k rang beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#1a3fb0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Ko'k iviqsimon Cu(OH)₂ cho'kmasi glitserin qo'shilganda eriydi va to'q ko'k (ko'k-binafsha) tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml CuSO₄ eritmasi va 2 ml NaOH eritmasi quyib, Cu(OH)₂ cho'kmasini oling.",
+    "Unga 0,5 ml glitserin qo'shib chayqating.",
+    "Cho'kmaning erishini va eritma rangini kuzating; tajribani etanol bilan solishtiring."
+   ],
+   "safety_uz": "NaOH eritmasi o'yuvchi: ko'zoynak taqing.",
+   "explanation_uz": "Qo'shni uglerod atomlarida gidroksil guruhlari bo'lgan ko'p atomli spirtlar (etilenglikol, glitserin) yangi tayyorlangan mis(II) gidroksidni eritib to'q ko'k kompleks hosil qiladi. Bir atomli spirtlar bu reaksiyani bermaydi, shuning uchun u ko'p atomli spirtlarga sifat reaksiyasi hisoblanadi.",
+   "questions_uz": [
+    "Etanol va glitserinni qanday farqlash mumkin?",
+    "Bu reaksiyani yana qaysi moddalar beradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0021",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etilenglikolning mis(II) gidroksid bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Ko'p atomli spirtlar: sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "HOCH2CH2OH",
+     "state": "l",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi tayyorlangan Cu(OH)₂ cho'kmasiga etilenglikol qo'shiladi."
+   },
+   "equation": {
+    "molecular": "2HOCH2CH2OH + Cu(OH)2 → Cu(C2H5O2)2 + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Etilenglikolning ikkita qo'shni OH guruhi Cu²⁺ ioni bilan besh a'zoli xelat halqasini hosil qiladi.",
+     "Gidroksil vodorodlari Cu(OH)₂ dagi OH guruhlar bilan suv hosil qilib ajraladi.",
+     "Hosil bo'lgan kompleks eriydi va eritma to'q ko'k rangga kiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#1a3fb0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Ko'k cho'kma eriydi va to'q ko'k tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkada CuSO₄ va ortiqcha NaOH eritmalaridan Cu(OH)₂ cho'kmasini oling.",
+    "0,5 ml etilenglikol qo'shib chayqating.",
+    "Cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Etilenglikol zaharli (ichilsa o'ldiradi) — og'izga tegizmang; NaOH o'yuvchi.",
+   "explanation_uz": "Etilenglikol ikki atomli spirt bo'lib, glitserin kabi qo'shni gidroksil guruhlari hisobiga mis(II) ionlari bilan eriydigan to'q ko'k kompleks hosil qiladi. Bu reaksiya ko'p atomli spirtlarning bir atomli spirtlarga nisbatan kuchliroq kislotali xossasini ham ko'rsatadi.",
+   "questions_uz": [
+    "Etilenglikol qayerda ishlatiladi va nima uchun zaharli?",
+    "Bu reaksiya natijasini etanol bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0022",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Etanolning mis(II) gidroksid bilan reaksiyaga kirishmasligi",
+   "level": "10-sinf",
+   "topic_uz": "Bir va ko'p atomli spirtlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C2H5OH",
+    "Cu(OH)2"
+   ],
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "C2H5OH",
+     "state": "l",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Etanol molekulasida bitta gidroksil guruh bor — xelat halqasi hosil bo'lmaydi.",
+     "Etanolning kislotali xossasi juda kuchsiz, u Cu(OH)₂ ni erita olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Ko'k Cu(OH)₂ cho'kmasi o'zgarmay qoladi, eritma rangi o'zgarmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkada yangi Cu(OH)₂ cho'kmasini oling.",
+    "1 ml etanol qo'shib chayqating.",
+    "Natijani glitserin bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Etanol oson alangalanadi: spirt solingan idishlarni ochiq alangadan uzoqda tuting, qizdirishni suv hammomida bajaring. NaOH o'yuvchi.",
+   "explanation_uz": "Bir atomli spirtlar mis(II) gidroksid bilan kompleks hosil qilmaydi. Shuning uchun Cu(OH)₂ bilan reaksiya bir atomli va ko'p atomli spirtlarni bir-biridan farqlashga imkon beradi.",
+   "questions_uz": [
+    "Qaysi reaktiv yordamida etanol va etilenglikolni farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0023",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning natriy gidroksid eritmasida erishi",
+   "level": "10-sinf",
+   "topic_uz": "Fenol: kislotali xossalari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Fenolning suv bilan loyqa emulsiyasiga NaOH eritmasi qo'shiladi."
+   },
+   "equation": {
+    "molecular": "C6H5OH + NaOH → C6H5ONa + H2O",
+    "ionic_full": "C6H5OH + Na⁺ + OH⁻ → C6H5O⁻ + Na⁺ + H2O",
+    "ionic_net": "C6H5OH + OH⁻ → C6H5O⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Benzol halqasi kislorodning taqsimlanmagan elektron juftini o'ziga tortadi (tutashish), O–H bog'i spirtlardagidan ko'ra qutbliroq bo'ladi.",
+     "OH⁻ ioni fenoldan protonni tortib oladi — suv va fenolyat ioni C₆H₅O⁻ hosil bo'ladi.",
+     "Fenolyat ionidagi manfiy zaryad halqa bo'ylab tarqalgani uchun u barqaror; natriy fenolyat suvda yaxshi eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Fenolning loyqa suvli emulsiyasi ishqor qo'shilganda tiniq eritmaga aylanadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq fenol va 2 ml suv solib chayqating — loyqa emulsiya hosil bo'ladi.",
+    "Tomizgich bilan NaOH eritmasini qo'shib chayqating.",
+    "Eritma tiniqlashishini kuzating."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving. NaOH o'yuvchi.",
+   "explanation_uz": "Fenol spirtlardan farqli ravishda ishqorlar bilan reaksiyaga kirishadi, ya'ni kuchsiz kislota xossasini namoyon qiladi (tarixiy nomi — karbol kislota). Bunga sabab — benzol halqasining gidroksil guruhga ta'siri: fenolyat ioni halqa hisobiga barqarorlashadi.",
+   "questions_uz": [
+    "Nima uchun etanol ishqor bilan reaksiyaga kirishmaydi, fenol esa kirishadi?",
+    "Fenolning kislotali xossasi karbonat kislotanikidan kuchlimi yoki kuchsizmi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0024",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Natriy fenolyat eritmasiga karbonat angidrid ta'siri",
+   "level": "10-sinf",
+   "topic_uz": "Fenol: juda kuchsiz kislota (karbonat kislotadan ham kuchsiz)",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "C6H5ONa",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "CO2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Natriy fenolyat eritmasi orqali CO₂ o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "C6H5ONa + CO2 + H2O → C6H5OH + NaHCO3",
+    "ionic_full": "C6H5O⁻ + Na⁺ + CO2 + H2O → C6H5OH + Na⁺ + HCO3⁻",
+    "ionic_net": "C6H5O⁻ + CO2 + H2O → C6H5OH + HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "CO₂ suvda erib karbonat kislota H₂CO₃ hosil qiladi.",
+     "Karbonat kislota fenoldan kuchliroq kislota: u fenolyat ioniga proton beradi.",
+     "Erkin fenol ajralib chiqadi (suvda kam eriydi — emulsiya), HCO₃⁻ eritmada qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritma CO₂ o'tkazilganda loyqalanadi — ajralgan fenol mayda tomchilar (emulsiya) hosil qiladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy fenolyat eritmasidan quying.",
+    "Gaz naychasi orqali karbonat angidrid o'tkazing.",
+    "Eritmaning loyqalanishini kuzating."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving.",
+   "explanation_uz": "Kuchliroq kislota kuchsizroq kislotani uning tuzidan siqib chiqaradi. Hatto karbonat kislota ham fenolni fenolyatdan siqib chiqaradi — demak, fenol karbonat kislotadan kuchsiz kislota; shu sababli fenol gidrokarbonatlardan CO₂ siqib chiqara olmaydi.",
+   "questions_uz": [
+    "Bu tajriba fenolning kislotaligi haqida qanday xulosa beradi?",
+    "Natriy fenolyat havoda uzoq turib qolsa nima sodir bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0025",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Natriy fenolyatdan xlorid kislota ta'sirida fenolni ajratish",
+   "level": "10-sinf",
+   "topic_uz": "Fenol: tuzlarining kuchli kislotalar bilan reaksiyasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "C6H5ONa",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "C6H5ONa + HCl → C6H5OH + NaCl",
+    "ionic_full": "C6H5O⁻ + Na⁺ + H⁺ + Cl⁻ → C6H5OH + Na⁺ + Cl⁻",
+    "ionic_net": "C6H5O⁻ + H⁺ → C6H5OH",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kuchli kislota to'liq dissotsilangan, eritmada H⁺ ionlari ko'p.",
+     "H⁺ ioni fenolyat kislorodining elektron jufti bilan bog'lanadi — molekulyar fenol hosil bo'ladi.",
+     "Fenol suvda kam eriydi va emulsiya holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq fenolyat eritmasi kislota qo'shilganda oqarib loyqalanadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy fenolyat eritmasidan quying.",
+    "Tomizgich bilan suyultirilgan xlorid kislota qo'shing.",
+    "Loyqalanishni kuzating."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving.",
+   "explanation_uz": "Fenolyatlar kuchli kislotalar ta'sirida parchalanadi va erkin fenol ajraladi. Fenolning ishqorda erib, kislotada yana ajralishi uni neytral organik moddalardan ajratib olishda ishlatiladi.",
+   "questions_uz": [
+    "Fenolni benzol bilan aralashmasidan qanday ajratib olish mumkin?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0026",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning natriy karbonat eritmasida erishi (CO₂ ajralmasdan)",
+   "level": "litsey",
+   "topic_uz": "Fenol: kislotaligini karbonat va gidrokarbonat bilan solishtirish",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "C6H5OH + Na2CO3 → C6H5ONa + NaHCO3",
+    "ionic_full": "C6H5OH + 2Na⁺ + CO3²⁻ → C6H5O⁻ + Na⁺ + Na⁺ + HCO3⁻",
+    "ionic_net": "C6H5OH + CO3²⁻ → C6H5O⁻ + HCO3⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Karbonat ioni CO₃²⁻ fenolyat ionidan kuchliroq asos.",
+     "CO₃²⁻ fenoldan protonni tortib olib HCO₃⁻ ga aylanadi.",
+     "HCO₃⁻ ioni fenoldan proton olish uchun juda kuchsiz asos — shuning uchun H₂CO₃ va CO₂ hosil bo'lmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Fenol emulsiyasi soda eritmasida eriydi, ammo gaz pufakchalari ajralmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkada fenolning suvli emulsiyasini tayyorlang.",
+    "Natriy karbonat eritmasini qo'shib chayqating.",
+    "Eritmaning tiniqlashishini va gaz ajralmasligini kuzating; natijani sirka kislota bilan solishtiring."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving.",
+   "explanation_uz": "Fenol kislotaligi bo'yicha karbonat kislota (birinchi bosqich) dan kuchsiz, gidrokarbonat ionidan esa kuchli. Shuning uchun u sodada erib gidrokarbonat hosil qiladi, lekin karbon kislotalardan farqli ravishda karbonatlardan CO₂ siqib chiqarmaydi.",
+   "questions_uz": [
+    "Sirka kislota va fenolni soda eritmasi yordamida qanday farqlash mumkin?",
+    "Kislotalarni kuchi bo'yicha tartiblang: CH₃COOH, H₂CO₃, C₆H₅OH, HCO₃⁻."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0027",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning natriy gidrokarbonat bilan reaksiyaga kirishmasligi",
+   "level": "litsey",
+   "topic_uz": "Fenol va karbon kislotalarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C6H5OH",
+    "HCO3⁻"
+   ],
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaHCO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "HCO₃⁻ ionining protonlangan shakli H₂CO₃ fenoldan kuchliroq kislota.",
+     "Kuchsiz kislota (fenol) kuchliroq kislotani (H₂CO₃) uning tuzidan siqib chiqara olmaydi — CO₂ ajralmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Fenol emulsiyasi loyqaligicha qoladi, gaz pufakchalari ajralmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkada fenolning suvli emulsiyasini tayyorlang.",
+    "Natriy gidrokarbonat eritmasini qo'shib chayqating.",
+    "Natijani sirka kislota va natriy gidrokarbonat reaksiyasi bilan solishtiring."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving.",
+   "explanation_uz": "Karbon kislotalar gidrokarbonatlardan CO₂ siqib chiqaradi, fenol esa yo'q, chunki u karbonat kislotadan kuchsiz kislota. Bu oddiy sinov karboksil guruhli moddalarni fenollardan farqlashga imkon beradi.",
+   "questions_uz": [
+    "Benzoy kislota va fenolni qanday oddiy reaktiv bilan farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0028",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning bromli suv bilan reaksiyasi — 2,4,6-tribromfenol",
+   "level": "10-sinf",
+   "topic_uz": "Fenol: benzol halqasidagi o'rin olish (S_EAr), sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "bromli-suv",
+     "state": "aq",
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "C6H5OH + 3Br2 → C6H2Br3OH↓ + 3HBr",
+    "ionic_full": "C6H5OH + 3Br2 → C6H2Br3OH↓ + 3H⁺ + 3Br⁻",
+    "ionic_net": "C6H5OH + 3Br2 → C6H2Br3OH↓ + 3H⁺ + 3Br⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Gidroksil guruh kislorodining taqsimlanmagan elektron jufti halqa bilan tutashib, orto- va para-holatlarda elektron zichligini keskin oshiradi.",
+     "Shu sababli bromli suvdagi brom molekulasi katalizatorsiz ham qutblanib, orto- va para-holatlarga elektrofil hujum qiladi (σ-kompleks orqali).",
+     "Uchala faol holatdagi vodorod atomlari bromga almashinadi; suvda erimaydigan 2,4,6-tribromfenol cho'kadi, HBr eritmada qoladi."
+    ],
+    "organic": {
+     "template": "SEAr",
+     "params": {
+      "arene": "C6H5OH",
+      "reagent": "Br2 (bromli suv)",
+      "catalyst": "kerak emas (OH halqani faollashtiradi)",
+      "electrophile": "Br^δ+ (qutblangan Br2)",
+      "sigma_complex": "[HOC6H5Br]⁺ (σ-kompleks)",
+      "product": "C6H2Br3OH",
+      "byproduct": "HBr"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "C6H2Br3OH",
+     "color": "#f6f6f0",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e8a040",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Bromli suv bir zumda rangsizlanadi va oq cho'kma — 2,4,6-tribromfenol tushadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml fenolli suv quying.",
+    "Tomizgich bilan bromli suvni tomchilab, chayqatib qo'shing.",
+    "Rangsizlanish va oq cho'kmani kuzating; tajribani benzol bilan solishtiring."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving. Brom zaharli va terini kuydiradi; bromli suv bilan mo'rili shkafda ishlang, bug'ini hidlamang.",
+   "explanation_uz": "Benzol bromli suv bilan reaksiyaga kirishmaydi, fenol esa katalizatorsiz, bir zumda uchta brom atomini biriktiradi: bu gidroksil guruhning benzol halqasiga ta'sirini (halqani faollashtirishini) ko'rsatadi. Oq cho'kma hosil bo'lishi fenolni aniqlashning sezgir sifat reaksiyasi.",
+   "questions_uz": [
+    "Nima uchun fenol benzoldan farqli ravishda bromli suv bilan oson reaksiyaga kirishadi?",
+    "9,4 g fenol bilan necha gramm brom reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "spirt-0029",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning temir(III) xlorid bilan rangli reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Fenollar: sifat reaksiyasi",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Fenol Fe³⁺ ionlari bilan murakkab tarkibli binafsha rangli kompleks fenolyatlar hosil qiladi; kompleksning aniq tarkibi sharoitga bog'liq, shuning uchun tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Fenol kislorodining elektron juftlari Fe³⁺ ioni bilan koordinatsion bog' hosil qiladi.",
+     "Fenolyat ligandlari bilan hosil bo'lgan temir(III) kompleksi ko'rinadigan nurni kuchli yutadi.",
+     "Eritma binafsha rangga kiradi; kuchli kislota qo'shilsa kompleks parchalanib rang yo'qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e8d8a0",
+     "to": "#6a2a8a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Fenol eritmasiga bir-ikki tomchi FeCl₃ qo'shilganda eritma binafsha rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml fenolli suv quying.",
+    "1–2 tomchi suyultirilgan FeCl₃ eritmasi qo'shing.",
+    "Rang o'zgarishini kuzating; taqqoslash uchun etanol bilan ham sinab ko'ring."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving.",
+   "explanation_uz": "Temir(III) xlorid bilan binafsha rang hosil bo'lishi fenollar (gidroksil guruhi bevosita aromatik halqaga bog'langan birikmalar) uchun xos sifat reaksiya. Spirtlar, jumladan benzil spirti, bu rangni bermaydi.",
+   "questions_uz": [
+    "Fenol va benzil spirtini qanday farqlash mumkin?",
+    "Qaysi boshqa birikmalar FeCl₃ bilan rangli reaksiya beradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "spirt-0030",
+   "category": "spirtlar-fenollar",
+   "title_uz": "Fenolning natriy bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Fenol: faol metallar bilan reaksiyasi",
+   "engine": "record",
+   "blocks_rules": false,
+   "reactants": [
+    {
+     "species": "C6H5OH",
+     "state": "s",
+     "mass_g": 1
+    },
+    {
+     "species": "Na",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "bo'lak"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 45,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Fenol ehtiyotkorlik bilan suyuqlantiriladi (~41 °C) va natriy bo'lagi tashlanadi."
+   },
+   "equation": {
+    "molecular": "2C6H5OH + 2Na → 2C6H5ONa + H2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Na⁰ − 1e⁻ = Na⁺",
+     "2H⁺ + 2e⁻ = H2"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Fenolning O–H bog'i spirtlarnikidan qutbliroq — vodorod osonroq ajraladi.",
+     "Natriy elektron beradi, gidroksil vodorodi H₂ gacha qaytariladi.",
+     "Natriy fenolyat hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "qaytarilish",
+     "params": {
+      "substrate": "C6H5O–H",
+      "reductant": "Na",
+      "product": "C6H5ONa + H2"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Suyuqlantirilgan fenolda natriy bo'lagi atrofidan vodorod pufakchalari ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq fenol soling va uni suv hammomida suyuqlantiring.",
+    "Pinset bilan kichik natriy bo'lagini tashlang.",
+    "Gaz ajralishini kuzating."
+   ],
+   "safety_uz": "Fenol zaharli va terini kuydiradi (teri orqali so'riladi): qo'lqop va ko'zoynakda ishlang; teriga tushsa ko'p suv va spirt bilan yuving. Natriyni faqat pinset bilan oling, kerosindan filtr qog'oz bilan arting; bo'lagi no'xatdan katta bo'lmasin. Ajraladigan vodorod yonuvchan. Faqat o'qituvchi namoyishi.",
+   "explanation_uz": "Fenol ham spirtlar kabi faol metallar bilan reaksiyaga kirishib vodorod ajratadi, lekin undan farqli ravishda ishqorlar bilan ham reaksiyaga kirishadi. Bu fenolning kislotali xossasi spirtlarnikidan kuchliroq ekanini ko'rsatadi.",
+   "questions_uz": [
+    "Fenolning natriy va natriy gidroksid bilan reaksiyalarini yozing.",
+    "Etanol va fenoldan qaysi biri NaOH bilan reaksiyaga kirishadi?"
+   ],
+   "confidence": "o'rta"
+  }
+ ]
+}

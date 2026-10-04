@@ -166,7 +166,9 @@ export function checkReaction(chem, r, opts = {}) {
       const isGas = t.mark === '↑' || (s?.state === 'g' && t.mark !== '↓');
       const isPpt = t.mark === '↓';
       if (isGas) {
-        const got = (gas[t.id] || 0) + present(t.id);
+        let got = (gas[t.id] || 0) + present(t.id);
+        // eritmada qolgan uchuvchan shakl (CO2 -> H2CO3 va h.k.)
+        for (const sys of db.systems.values()) if (sys.volatile && db.keyOf(sys.volatile.gas) === t.id) got += sys.forms.reduce((a, f) => a + chem.get(v, f, 'aq'), 0) * 0 + chem.get(v, db.keyOf(sys.volatile.form), 'aq');
         if (got < expected * 0.3) problems.push(`gaz ${t.id} kutilgan ${expected.toExponential(2)}, olingan ${got.toExponential(2)}`);
       } else if (isPpt) {
         const got = Math.max(chem.get(v, t.id, 's'), ppt[t.id] || 0, deposits[t.id] || 0);

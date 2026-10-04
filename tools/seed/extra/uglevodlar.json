@@ -1,4 +1,43 @@
 [
- {"f": "(C12H21O11)2Cu", "aliases": ["Cu(C12H21O11)2"], "n": "mis(II) saxarati", "c": "kompleks", "st": "aq", "aq": {"col": "#2a50c8", "ref": 0.05}, "hz": ["zararli"], "reagent": false, "desc": "to'q ko'k eritma; soddalashtirilgan formula"},
- {"f": "achitqi", "formula_null": true, "n": "achitqi (xamirturush zamburug'lari)", "c": "biokatalizator", "st": "s", "col": "#d8c8a0", "form": "kukun", "hz": [], "reagent": true, "desc": "spirtli bijg'ish fermentlarini tutuvchi bir hujayrali zamburug'lar"}
+ {
+  "f": "(C12H21O11)2Cu",
+  "aliases": [
+   "Cu(C12H21O11)2"
+  ],
+  "n": "mis(II) saxarati",
+  "c": "kompleks",
+  "st": "aq",
+  "aq": {
+   "col": "#2a50c8",
+   "ref": 0.05
+  },
+  "hz": [
+   "zararli"
+  ],
+  "reagent": false,
+  "desc": "to'q ko'k eritma; soddalashtirilgan formula"
+ },
+ {
+  "f": "achitqi",
+  "formula_null": true,
+  "n": "achitqi (xamirturush zamburug'lari)",
+  "c": "biokatalizator",
+  "st": "s",
+  "col": "#d8c8a0",
+  "form": "kukun",
+  "hz": [],
+  "reagent": true,
+  "desc": "spirtli bijg'ish fermentlarini tutuvchi bir hujayrali zamburug'lar"
+ },
+ {
+  "f": "[C6H7O2(OH)3]n",
+  "n": "sellyuloza (tenglamalar uchun [C6H7O2(OH)3]n yozuvi)",
+  "c": "uglevod",
+  "st": "s",
+  "col": "#fafaf6",
+  "form": "tola",
+  "hz": [],
+  "reagent": true,
+  "desc": "paxta, filtr qog'oz; glyukoza qoldiqlaridan tuzilgan polisaxarid (har bir zvenoda uchta OH guruh ajratib yozilgan)"
+ }
 ]

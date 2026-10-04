@@ -1,0 +1,1339 @@
+{
+ "category": "uglevodlar",
+ "reactions": [
+  {
+   "id": "sakarid-0001",
+   "category": "uglevodlar",
+   "title_uz": "Glyukozaning \"kumush ko'zgu\" reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H12O6",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 4
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Probirka 60–70 °C li suv hammomida chayqatmasdan qizdiriladi."
+   },
+   "equation": {
+    "molecular": "C6H12O6 + 2[Ag(NH3)2]OH → 2Ag↓ + C6H11O7NH4 + 3NH3 + H2O",
+    "ionic_full": null,
+    "ionic_net": "C6H12O6 + 2[Ag(NH3)2]⁺ + 2OH⁻ → 2Ag↓ + C6H11O7NH4 + 3NH3 + H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Ag⁺ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Glyukozaning ochiq zanjirli shaklida aldegid guruhi (–CHO) bor.",
+     "Ammiakli eritmada diamminkumush(I) ionlari aldegid guruhini karboksil guruhgacha oksidlaydi (ammiakli muhitda ammoniy glyukonat hosil bo'ladi).",
+     "Ag⁺ ionlari metall kumushgacha qaytarilib, probirka devoriga ko'zgu qatlami bo'lib o'tiradi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH2OH–(CHOH)4–CHO",
+      "oxidant": "[Ag(NH3)2]⁺",
+      "product": "CH2OH–(CHOH)4–COONH4"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "mirror"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Bir necha daqiqadan so'ng probirka devorlarida yaltiroq kumush ko'zgu qatlami hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich",
+    "termometr"
+   ],
+   "procedure_uz": [
+    "Yaxshi yuvilgan (ishqor bilan yog'sizlantirilgan) probirkaga 2–4 ml yangi tayyorlangan Tollens reaktivi quying.",
+    "Unga 1 ml glyukoza eritmasi qo'shing.",
+    "Probirkani 60–70 °C li suv hammomiga qo'ying va chayqatmasdan kuzating."
+   ],
+   "safety_uz": "Tollens reaktivini faqat tajriba oldidan tayyorlang va saqlamang — eskirganda portlovchi birikmalar hosil bo'lishi mumkin; qoldiqni darhol suyultirilgan nitrat kislota bilan zararsizlantiring.",
+   "explanation_uz": "Glyukoza aldegid guruhi tutgani uchun aldegidlar kabi \"kumush ko'zgu\" reaksiyasini beradi va glyukon kislotagacha (ammiakli muhitda uning ammoniyli tuzigacha) oksidlanadi. Bu reaksiya glyukozani aniqlashda va oyna (ko'zgu) ishlab chiqarishda qo'llaniladi.",
+   "questions_uz": [
+    "Glyukoza molekulasidagi qaysi guruh \"kumush ko'zgu\" reaksiyasini beradi?",
+    "Saxaroza bu reaksiyani beradimi? Nima uchun?",
+    "Glyukoza qaysi moddagacha oksidlanadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0002",
+   "category": "uglevodlar",
+   "title_uz": "Glyukozaning ko'p atomli spirt sifatida mis(II) gidroksid bilan reaksiyasi (sovuqda)",
+   "level": "10-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Glyukozaning qo'shni gidroksil guruhlari Cu²⁺ bilan ko'k rangli kompleks hosil qiladi; kompleks tarkibi muhit va nisbatlarga bog'liq bo'lgani uchun aniq tenglama yozilmaydi (darsliklarda soddalashtirilgan sxema beriladi).",
+   "reactants": [
+    {
+     "species": "C6H12O6",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.05
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Cu(OH)₂ ortiqcha NaOH ishtirokida CuSO₄ dan yangi cho'ktirib olinadi; reaksiya xona haroratida o'tkaziladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Glyukoza molekulasida beshta gidroksil guruh bor, ulardan qo'shnilari ko'p atomli spirtlar kabi ta'sir ko'rsatadi.",
+     "Ishqoriy muhitda qo'shni OH guruhlari Cu²⁺ ioni bilan halqali kompleks hosil qiladi.",
+     "Cu(OH)₂ cho'kmasi erib, to'q ko'k eritma hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#2a50c8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Havorang Cu(OH)₂ cho'kmasi glyukoza eritmasida eriydi, to'q ko'k tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml NaOH eritmasidan quying va 2–3 tomchi CuSO₄ eritmasi qo'shib Cu(OH)₂ cho'kmasini oling.",
+    "Ustiga 2 ml glyukoza eritmasi qo'shib chayqating.",
+    "Cho'kmaning erishini va eritma rangini kuzating (eritmani keyingi tajriba uchun saqlang)."
+   ],
+   "safety_uz": "Ishqor eritmasi ko'zga xavfli — ko'zoynak taqing; mis tuzlari zaharli.",
+   "explanation_uz": "Glyukoza ikki xil funksional guruh tutadi: gidroksil guruhlari hisobiga u glitserin kabi Cu(OH)₂ ni eritib to'q ko'k eritma beradi, aldegid guruhi hisobiga esa qizdirilganda Cu(OH)₂ ni qaytaradi. Demak, glyukoza aldegidospirt.",
+   "questions_uz": [
+    "Bu tajriba glyukoza molekulasida qaysi guruhlar borligini isbotlaydi?",
+    "Glitserin bilan Cu(OH)₂ ning reaksiyasi bu reaksiyaga qanday o'xshaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0003",
+   "category": "uglevodlar",
+   "title_uz": "Glyukozaning mis(II) gidroksid bilan qizdirilgandagi oksidlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H12O6",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Cu(OH)₂ ortiqcha ishqor ishtirokida yangi cho'ktirib olinadi; aralashmaning yuqori qismi qizdiriladi."
+   },
+   "equation": {
+    "molecular": "C6H12O6 + 2Cu(OH)2 → C6H12O7 + Cu2O↓ + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Cu⁺² + 1e⁻ = Cu⁺¹"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Qizdirilganda glyukozaning aldegid guruhi Cu(OH)₂ tomonidan karboksil guruhgacha oksidlanadi.",
+     "Cu⁺² bir elektron qabul qilib Cu⁺¹ ga qaytariladi.",
+     "Avval sariq CuOH, so'ng qizil mis(I) oksid cho'kmasi hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH2OH–(CHOH)4–CHO",
+      "oxidant": "Cu(OH)2",
+      "product": "CH2OH–(CHOH)4–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu2O",
+     "color": "#b8321e",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qizdirilganda to'q ko'k eritma avval sarg'ayadi, so'ng g'isht-qizil Cu₂O cho'kmasi tushadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Oldingi tajribada olingan glyukozaning Cu(OH)₂ bilan hosil qilgan to'q ko'k eritmasini oling (yoki yangidan tayyorlang).",
+    "Probirkani qisqichga olib, eritmaning yuqori qismini spirt lampasida qizdiring.",
+    "Rang o'zgarishini va cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Ishqoriy eritma qizdirilganda sachrashi mumkin — probirka og'zini odamlarga qaratmang, ko'zoynak taqing.",
+   "explanation_uz": "Glyukoza aldegid guruhi hisobiga qizdirilganda mis(II) gidroksidni mis(I) oksidgacha qaytaradi, o'zi esa glyukon kislotagacha oksidlanadi. Bu reaksiya (shuningdek Feling suyuqligi bilan) qon va siydikda qand miqdorini aniqlashda qo'llanilgan.",
+   "questions_uz": [
+    "Nima uchun sovuqda va qizdirilganda Cu(OH)₂ bilan turlicha natija kuzatiladi?",
+    "Bu reaksiyada oksidlovchi va qaytaruvchini ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0004",
+   "category": "uglevodlar",
+   "title_uz": "Saxarozaning \"kumush ko'zgu\" reaksiyasini bermasligi",
+   "level": "10-sinf",
+   "topic_uz": "Disaxaridlar: saxaroza",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C12H22O11",
+    "[Ag(NH3)2]⁺"
+   ],
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "aq",
+     "conc_M": 0.3,
+     "volume_mL": 1
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Taqqoslash uchun glyukoza bilan ham parallel tajriba o'tkaziladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Saxaroza molekulasida glyukoza va fruktoza qoldiqlari o'zlarining yarimatsetal (glikozid) gidroksillari orqali bog'langan.",
+     "Shu sababli saxaroza eritmada ochiq zanjirli aldegid shaklga o'ta olmaydi.",
+     "Aldegid guruhi bo'lmagani uchun diamminkumush(I) ionlari qaytarilmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qizdirilganda ham kumush ko'zgu hosil bo'lmaydi, eritma tiniq qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Ikki toza probirkaga 2 ml dan Tollens reaktivi quying.",
+    "Biriga 1 ml saxaroza, ikkinchisiga 1 ml glyukoza eritmasi qo'shing.",
+    "Ikkala probirkani 60–70 °C li suv hammomida qizdiring va natijalarni solishtiring."
+   ],
+   "safety_uz": "Tollens reaktivini oldindan tayyorlab qo'ymang; tajribadan so'ng qoldiqni darhol zararsizlantiring.",
+   "explanation_uz": "Saxaroza qaytaruvchi bo'lmagan disaxarid: uning molekulasida erkin aldegid guruhi yo'q. Shuning uchun u \"kumush ko'zgu\" reaksiyasini bermaydi va Cu(OH)₂ ni qizdirilganda qaytarmaydi. Maltoza va laktoza esa qaytaruvchi disaxaridlar.",
+   "questions_uz": [
+    "Nima uchun saxaroza qaytaruvchi xossaga ega emas?",
+    "Qaysi disaxaridlar \"kumush ko'zgu\" reaksiyasini beradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0005",
+   "category": "uglevodlar",
+   "title_uz": "Saxarozaning kislotali gidrolizi",
+   "level": "10-sinf",
+   "topic_uz": "Disaxaridlar: saxaroza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "aq",
+     "conc_M": 0.3,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 70,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "Katalizator — 1 ml suyultirilgan sulfat kislota; aralashma 5 daqiqa qaynatiladi, so'ng NaOH bilan neytrallanib, Cu(OH)₂ bilan sinaladi."
+   },
+   "equation": {
+    "molecular": "C12H22O11 + H2O → C6H12O6 + C6H12O6",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "H⁺ ioni glyukoza va fruktoza qoldiqlarini bog'lovchi glikozid kislorod atomini protonlaydi.",
+     "Glikozid bog'i uziladi, suv molekulasi qoldiqlarga OH va H tarzida birikadi.",
+     "Natijada glyukoza va fruktoza aralashmasi (invert shakar) hosil bo'ladi; tenglamadagi birinchi C₆H₁₂O₆ — glyukoza, ikkinchisi — fruktoza."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "saxaroza (glikozid bog'i)",
+      "nucleophile": "H2O",
+      "leaving_group": "fruktoza (glyukoza) qoldig'i",
+      "product": "C6H12O6 + C6H12O6"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qaynatishda tashqi o'zgarish ko'rinmaydi; neytrallangan gidrolizat Cu(OH)₂ bilan qizdirilganda qizil Cu₂O cho'kmasi beradi, gidrolizlanmagan saxaroza esa bermaydi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml saxaroza eritmasi va 1 ml suyultirilgan sulfat kislota quying.",
+    "Aralashmani 5 daqiqa qaynating.",
+    "Sovigach, NaOH eritmasi bilan ishqoriy muhitgacha neytrallang.",
+    "Unga 2–3 tomchi CuSO₄ eritmasi qo'shib qizdiring va qizil cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Kislotali va ishqoriy eritmalarni qizdirishda probirka og'zini odamlarga qaratmang; ko'zoynak taqing.",
+   "explanation_uz": "Saxaroza kislotalar (yoki fermentlar) ta'sirida gidrolizlanib, glyukoza va fruktozaga parchalanadi. Gidroliz mahsulotlari qaytaruvchi bo'lgani uchun Cu(OH)₂ ni qaytaradi, saxarozaning o'zi esa qaytarmaydi. Asal asosan glyukoza va fruktoza aralashmasidan iborat.",
+   "questions_uz": [
+    "Nima uchun gidrolizdan keyin eritma Cu(OH)₂ ni qaytaradi?",
+    "Nima uchun Cu(OH)₂ bilan sinashdan oldin eritmani neytrallash kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0006",
+   "category": "uglevodlar",
+   "title_uz": "Kraxmalning yod bilan sifat reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Polisaxaridlar: kraxmal va sellyuloza",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Yod molekulalari kraxmal (amiloza) spiralining ichiga kirib, o'zgaruvchan tarkibli rangli birikma hosil qiladi; kimyoviy bog' hosil bo'lmagani uchun tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "(C6H10O5)n",
+     "state": "aq",
+     "conc_M": 0.06,
+     "volume_mL": 2
+    },
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 0.1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kraxmalning amiloza qismi spiral shaklidagi uzun zanjirlardan iborat.",
+     "Yod molekulalari (I₂ va I₃⁻) spiral ichiga joylashib, \"kiritilish birikmasi\" hosil qiladi.",
+     "Bu birikma ko'k rangga ega; qizdirilganda spiral yoyilib rang yo'qoladi, sovutilganda qaytadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#1a1a6a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Kraxmal kleysteri yod tomizilganda to'q ko'k rangga kiradi; qizdirilganda rang yo'qoladi, sovutilganda yana paydo bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml kraxmal kleysteri quying.",
+    "Unga 1–2 tomchi yodning kaliy yodiddagi eritmasini (Lugol) qo'shing.",
+    "Rang o'zgarishini kuzating.",
+    "Probirkani qizdirib, so'ng sovutib, rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Yod eritmasi terini va kiyimni bo'yaydi; qizdirishda probirka og'zini odamlarga qaratmang.",
+   "explanation_uz": "Kraxmal yod bilan to'q ko'k rang beradi — bu kraxmalga (va yodga) xos sifat reaksiya. U yordamida oziq-ovqat mahsulotlarida (kartoshka, non, guruch) kraxmal borligini aniqlash mumkin.",
+   "questions_uz": [
+    "Kartoshka kesimiga yod tomizilganda qanday o'zgarish kuzatiladi?",
+    "Nima uchun qizdirilganda ko'k rang yo'qoladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0007",
+   "category": "uglevodlar",
+   "title_uz": "Kraxmalning kislotali gidrolizi",
+   "level": "10-sinf",
+   "topic_uz": "Polisaxaridlar: kraxmal va sellyuloza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(C6H10O5)n",
+     "state": "aq",
+     "conc_M": 0.06,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 90,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "Katalizator — 1 ml suyultirilgan sulfat kislota; aralashma 10–15 daqiqa qaynatiladi, vaqti-vaqti bilan bir tomchisi yod bilan sinab turiladi."
+   },
+   "equation": {
+    "molecular": "(C6H10O5)n + nH2O → nC6H12O6",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "H⁺ ioni glyukoza qoldiqlari orasidagi glikozid bog'larining kislorod atomini protonlaydi.",
+     "Glikozid bog'lari suv ta'sirida ketma-ket uziladi: kraxmal → dekstrinlar → maltoza → glyukoza.",
+     "Gidroliz tugaganda eritma yod bilan ko'k rang bermaydi, lekin Cu(OH)₂ ni qaytaradi."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "kraxmal (α-1,4-glikozid bog'lari)",
+      "nucleophile": "H2O",
+      "leaving_group": "glyukoza qoldig'i",
+      "product": "C6H12O6"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qaynatish davomida olingan namunalarning yod bilan rangi ko'kdan binafsha, qizg'ish-qo'ng'ir rangga o'tadi va oxirida rang bermaydi; neytrallangan gidrolizat Cu(OH)₂ bilan qizil cho'kma beradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "spirt-lampasi",
+    "tomchi-plastinkasi",
+    "tomizgich",
+    "shisha-tayoqcha"
+   ],
+   "procedure_uz": [
+    "Stakanga 5 ml kraxmal kleysteri va 1 ml suyultirilgan sulfat kislota quying.",
+    "Aralashmani qaynating; har 2–3 daqiqada bir tomchisini tomchi plastinkasiga olib, yod eritmasi bilan sinang.",
+    "Yod bilan rang bermay qolgach, eritmani sovutib NaOH bilan neytrallang.",
+    "Gidrolizatni Cu(OH)₂ bilan qizdirib, qizil cho'kma hosil bo'lishini tekshiring."
+   ],
+   "safety_uz": "Kislotali eritmani qaynatishda sachrashdan ehtiyot bo'ling, ko'zoynak taqing.",
+   "explanation_uz": "Kraxmal polisaxarid bo'lib, kislota yoki fermentlar ta'sirida bosqichma-bosqich gidrolizlanadi va oxirida glyukoza hosil bo'ladi. Sanoatda kraxmaldan shu usulda glyukoza va qiyom (patoka) olinadi; organizmda kraxmal fermentlar ta'sirida gidrolizlanadi.",
+   "questions_uz": [
+    "Kraxmal gidrolizining oraliq mahsulotlarini ayting.",
+    "Gidroliz tugaganini qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0008",
+   "category": "uglevodlar",
+   "title_uz": "Glyukozaning spirtli bijg'ishi",
+   "level": "10-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H12O6",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 20
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "achitqi",
+    "medium": null,
+    "light": false,
+    "note_uz": "Glyukoza eritmasiga ozgina achitqi qo'shilib, iliq joyda (25–35 °C) bir necha soat qoldiriladi; ajralgan gaz ohakli suvga o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "C6H12O6 → 2C2H5OH + 2CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Achitqi zamburug'lari tarkibidagi fermentlar glyukozani ko'p bosqichli jarayonda parchalaydi.",
+     "Avval glyukoza pirouzum kislotaga, so'ng atsetaldegid va CO₂ ga aylanadi.",
+     "Atsetaldegid etanolgacha qaytariladi; jarayon kislorodsiz sharoitda boradi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "C6H12O6",
+      "oxidant": "ichki oksidlanish-qaytarilish (achitqi fermentlari)",
+      "product": "2C2H5OH + 2CO2"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Bir necha soatdan so'ng eritmadan gaz pufakchalari ajrala boshlaydi, yuzada ko'pik hosil bo'ladi; gaz ohakli suvni loyqalantiradi, eritmadan spirt hidi keladi."
+   },
+   "kinetics": "juda-sekin",
+   "apparatus": [
+    "konussimon-kolba",
+    "rezina-tiqin-1-teshikli-orta",
+    "gaz-naycha-egilgan",
+    "probirka",
+    "termometr"
+   ],
+   "procedure_uz": [
+    "Kolbaga 20 ml glyukoza eritmasi quying va ozgina achitqi qo'shing.",
+    "Kolbani gaz chiqarish naychali tiqin bilan yoping; naycha uchini ohakli suvli probirkaga tushiring.",
+    "Kolbani iliq joyda (25–35 °C) bir necha soat qoldiring.",
+    "Gaz ajralishini, ohakli suvning loyqalanishini va eritma hidini kuzating."
+   ],
+   "safety_uz": "Kolbani germetik yopmang — gaz chiqish yo'li ochiq bo'lishi kerak, aks holda bosim oshadi. Hosil bo'lgan eritmani tatib ko'rmang.",
+   "explanation_uz": "Spirtli bijg'ish — achitqi fermentlari ta'sirida glyukozaning etil spirti va karbonat angidridga parchalanishi. Non yopishda xamirning ko'pchishi va vino tayyorlash shu jarayonga asoslangan. Jarayon biokimyoviy va ko'p bosqichli; tenglama faqat umumiy natijani ko'rsatadi.",
+   "questions_uz": [
+    "Xamir ko'pchishiga qaysi gaz sabab bo'ladi?",
+    "Sut kislotali bijg'ishning tenglamasini yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sakarid-0009",
+   "category": "uglevodlar",
+   "title_uz": "Saxarozaning konsentrlangan sulfat kislota ta'sirida ko'mirlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Disaxaridlar: saxaroza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "s",
+     "mass_g": 10
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 18,
+     "volume_mL": 8,
+     "conc_min_M": 15
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "Konsentrlangan sulfat kislota suvni tortib oluvchi modda sifatida ta'sir ko'rsatadi; uning bir qismi hosil bo'lgan ko'mirni oksidlab, SO₂ va CO₂ ajratadi."
+   },
+   "equation": {
+    "molecular": "C12H22O11 → 12C + 11H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Konsentrlangan sulfat kislota saxaroza molekulasidagi –CH(OH)– guruhlarini protonlaydi; suv ajralib, karbokationlar va qo'shbog'lar hosil bo'ladi (kislotali degidratlanish).",
+     "Degidratlanish ketma-ket takrorlanib, uglerod skeleti ko'mirga aylanadi; ko'p issiqlik ajraladi, suv bug'lanadi.",
+     "Qisman C + 2H₂SO₄ = CO₂ + 2SO₂ + 2H₂O reaksiyasi ham boradi — ajralgan gazlar qora massani ko'pirtirib ko'taradi."
+    ],
+    "organic": {
+     "template": "E1",
+     "params": {
+      "substrate": "–CH(OH)–CH– (saxaroza qoldiqlari)",
+      "base": "HSO4⁻ / H2O",
+      "leaving_group": "H2O",
+      "intermediate": "karbokation",
+      "product": "C (ko'mir)",
+      "byproduct": "H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "volcano"
+     },
+     {
+      "type": "smoke"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Oq shakar avval sarg'ayadi, so'ng qorayadi; qora g'ovak massa \"ilon\" kabi stakandan yuqoriga ko'tariladi, bug' va o'tkir hidli gaz (SO₂) ajraladi, stakan qattiq qiziydi.",
+    "solid_color_change": {
+     "from": "#f8f8f6",
+     "to": "#1e1e1e"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "shisha-tayoqcha"
+   ],
+   "procedure_uz": [
+    "Kimyoviy stakanga 10 g shakar (saxaroza) soling va ozgina suv bilan namlang.",
+    "Mo'rili shkafda ehtiyotlik bilan 8 ml konsentrlangan sulfat kislota quying va shisha tayoqcha bilan bir marta aralashtiring.",
+    "Stakanni qo'zg'atmasdan, uzoqroqda turib kuzating."
+   ],
+   "safety_uz": "Faqat o'qituvchi ko'rsatadi, mo'rili shkafda. Konsentrlangan sulfat kislota og'ir kuyish keltiradi, ajraladigan SO₂ zaharli; massa juda qiziydi — himoya ko'zoynagi, qo'lqop va xalat majburiy, stakanga engashmang.",
+   "explanation_uz": "Konsentrlangan sulfat kislota kuchli suv tortib oluvchi modda: u uglevodlardan suvni tortib olib, ularni ko'mirga aylantiradi. Uglevodlarning nomi ham ularning tarkibi Cₙ(H₂O)ₘ kabi yozilishi bilan bog'liq. Ajralgan gazlar ko'mirni ko'pirtirib, g'ovak massa hosil qiladi.",
+   "questions_uz": [
+    "Nima uchun bu tajribada SO₂ hidi seziladi?",
+    "Konsentrlangan sulfat kislota bilan ishlashda qanday ehtiyot choralari ko'riladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sakarid-0010",
+   "category": "uglevodlar",
+   "title_uz": "Saxarozaning qizdirilganda karamellanishi va ko'mirlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Disaxaridlar: saxaroza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq probirkada shakar avval suyuqlanadi (karamel), keyin kuchli qizdirilganda ko'mirlanadi."
+   },
+   "equation": {
+    "molecular": "C12H22O11 → 12C + 11H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda saxaroza suyuqlanadi va qisman suv yo'qotib jigarrang karamelga aylanadi.",
+     "Kuchli qizdirishda molekulalar to'liq parchalanib, suv bug'i ajraladi.",
+     "Probirkada qora ko'mir qoladi; bu uglevod tarkibida uglerod borligini isbotlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "smoke"
+     }
+    ],
+    "text_uz": "Shakar suyuqlanib sarg'ayadi, so'ng jigarrang karamelga aylanadi va kuyik hidi chiqadi; oxirida qora ko'mir qoladi, probirka devorida suv tomchilari paydo bo'ladi.",
+    "solid_color_change": {
+     "from": "#f8f8f6",
+     "to": "#1e1e1e"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozgina shakar soling.",
+    "Probirkani qisqichga olib, og'zini biroz pastga qaratib, spirt lampasida qizdiring.",
+    "Rang o'zgarishini, hid va probirka devoridagi tomchilarni kuzating."
+   ],
+   "safety_uz": "Suyuqlangan shakar juda issiq va teriga yopishib kuydiradi; probirka og'zini odamlarga qaratmang, tutunni hidlamang.",
+   "explanation_uz": "Uglevodlar qizdirilganda parchalanib, ko'mir va suv hosil qiladi. Bu ularning tarkibida uglerod, vodorod va kislorod borligini ko'rsatadi. Oraliq bosqichda hosil bo'ladigan karamel qandolatchilikda ishlatiladi.",
+   "questions_uz": [
+    "Bu tajriba saxaroza tarkibida qaysi elementlar borligini isbotlaydi?",
+    "Karamel qanday hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sakarid-0011",
+   "category": "uglevodlar",
+   "title_uz": "Sellyulozaning (paxtaning) yonishi",
+   "level": "10-sinf",
+   "topic_uz": "Polisaxaridlar: kraxmal va sellyuloza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "[C6H7O2(OH)3]n",
+     "state": "s",
+     "mass_g": 0.2
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Paxta momig'i yoki filtr qog'oz bo'lagi pinset bilan alangaga tutiladi.",
+    "ignition": true
+   },
+   "equation": {
+    "molecular": "[C6H7O2(OH)3]n + 6nO2 → 6nCO2 + 5nH2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Sellyuloza — glyukoza qoldiqlaridan tuzilgan polisaxarid.",
+     "Yonganda uglerod atomlari CO₂ gacha, vodorod atomlari suvgacha oksidlanadi.",
+     "Tarkibida azot va oltingugurt bo'lmagani uchun kuygan qog'oz hidi seziladi, kul ozgina qoladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "[C6H7O2(OH)3]n (sellyuloza)",
+      "oxidant": "O2",
+      "product": "CO2 + H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#f8b030",
+     "desc_uz": "yorqin sariq alanga"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     },
+     {
+      "type": "smoke"
+     }
+    ],
+    "text_uz": "Paxta tez va yorqin sariq alanga bilan yonadi, kuygan qog'oz hidi keladi, oz miqdorda kulrang kul qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "pinset",
+    "spirt-lampasi",
+    "chinni-kosacha"
+   ],
+   "procedure_uz": [
+    "Kichik paxta bo'lagini pinset bilan ushlang.",
+    "Uni spirt lampasi alangasiga tuting va yonishini kuzating (ostiga chinni kosacha qo'ying).",
+    "Hidni yelpib hidlang va qoldiqni jun ipi yonganidan keyingi qoldiq bilan solishtiring."
+   ],
+   "safety_uz": "Paxta juda tez yonadi — kichik bo'lak oling, pinsetda ushlang, yonuvchan moddalarni yaqinda qoldirmang.",
+   "explanation_uz": "Sellyuloza to'liq yonganda karbonat angidrid va suv hosil qiladi. Paxta, zig'ir kabi o'simlik tolalari yonganda kuygan qog'oz hidi chiqadi va kul qoladi; oqsil tolalar (jun, ipak) esa kuygan pat hidini beradi — bu tolalarni farqlash usuli.",
+   "questions_uz": [
+    "Paxta va jun tolalarini yondirib qanday farqlash mumkin?",
+    "Sellyuloza va kraxmalning yonish tenglamalari nima uchun bir xil?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0012",
+   "category": "uglevodlar",
+   "title_uz": "Sellyulozaning (filtr qog'ozning) kislotali gidrolizi",
+   "level": "10-sinf",
+   "topic_uz": "Polisaxaridlar: kraxmal va sellyuloza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "[C6H7O2(OH)3]n",
+     "state": "s",
+     "mass_g": 0.2
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 90,
+    "catalyst": "H2SO4",
+    "medium": null,
+    "light": false,
+    "note_uz": "Filtr qog'oz bo'lakchalari ozgina konsentrlangan sulfat kislotada eritilib, eritma suv bilan suyultiriladi va 10–15 daqiqa qaynatiladi."
+   },
+   "equation": {
+    "molecular": "[C6H7O2(OH)3]n + nH2O → nC6H12O6",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Konsentrlangan sulfat kislota sellyuloza tolalarini bo'kib eritadi.",
+     "Suyultirilib qaynatilganda H⁺ ionlari β-1,4-glikozid bog'larining uzilishini tezlashtiradi.",
+     "Oxirgi mahsulot — glyukoza; u Cu(OH)₂ bilan qizdirilganda qizil cho'kma beradi."
+    ],
+    "organic": {
+     "template": "SN1",
+     "params": {
+      "substrate": "sellyuloza (β-1,4-glikozid bog'lari)",
+      "nucleophile": "H2O",
+      "leaving_group": "glyukoza qoldig'i",
+      "product": "C6H12O6"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qog'oz bo'lakchalari kislotada erib, rangsiz (biroz sarg'ish) quyuq eritma hosil bo'ladi; qaynatilib neytrallangan eritma Cu(OH)₂ bilan qizdirilganda qizil Cu₂O cho'kmasi beradi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "chinni-kosacha",
+    "shisha-tayoqcha",
+    "kimyoviy-stakan",
+    "spirt-lampasi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga mayda qirqilgan filtr qog'oz soling va ustiga 2–3 ml konsentrlangan sulfat kislota quyib, shisha tayoqcha bilan qog'oz eriguncha aralashtiring.",
+    "Hosil bo'lgan quyuq eritmani ehtiyotlik bilan 10 ml suvli stakanga quying.",
+    "Eritmani 10–15 daqiqa qaynating, sovutib NaOH bilan neytrallang.",
+    "Bir qismini Cu(OH)₂ bilan qizdirib, qizil cho'kma hosil bo'lishini tekshiring."
+   ],
+   "safety_uz": "Konsentrlangan sulfat kislotani suvga quying, aksincha emas; kuyishdan ehtiyot bo'ling — ko'zoynak, qo'lqop va xalat majburiy.",
+   "explanation_uz": "Sellyuloza ham kraxmal kabi glyukoza qoldiqlaridan tuzilgan, shuning uchun kislotali gidrolizda glyukoza hosil qiladi. Sanoatda yog'och qipiqlarini gidrolizlab glyukoza, undan esa bijg'itib etil spirti olinadi (gidroliz spirti).",
+   "questions_uz": [
+    "Sellyuloza va kraxmal tuzilishida qanday farq bor?",
+    "Nima uchun inson oshqozonida sellyuloza hazm bo'lmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sakarid-0013",
+   "category": "uglevodlar",
+   "title_uz": "Kraxmal kleysterini tayyorlash",
+   "level": "10-sinf",
+   "topic_uz": "Polisaxaridlar: kraxmal va sellyuloza",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Kleyster hosil bo'lishi — kraxmal donachalarining issiq suvda bo'kib, kolloid eritma hosil qilishi; kimyoviy o'zgarish yo'q.",
+   "reactants": [
+    {
+     "species": "(C6H10O5)n",
+     "state": "s",
+     "mass_g": 0.5
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 70,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kraxmal avval ozgina sovuq suvda aralashtirilib, qaynoq suvga quyiladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Sovuq suvda kraxmal donachalari erimaydi va tindirilganda cho'kadi.",
+     "Qizdirilganda suv molekulalari donachalar ichiga kirib, ularni bo'ktiradi.",
+     "Donachalar yorilib, amiloza va amilopektin molekulalari kolloid eritma (kleyster) hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Sovuq suvda oq loyqa hosil bo'ladi va tez cho'kadi; qaynoq suvga quyilganda opalsimon, yopishqoq kleyster hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "shisha-tayoqcha",
+    "spirt-lampasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Probirkada 0,5 g kraxmalni 2 ml sovuq suv bilan aralashtiring va bir oz tindiring — kraxmal cho'kadi.",
+    "Stakanda 8 ml suvni qaynating.",
+    "Aralashtirib turgan holda kraxmal suspenziyasini qaynoq suvga quying.",
+    "Hosil bo'lgan kleysterning ko'rinishini kuzating."
+   ],
+   "safety_uz": "Qaynoq suv va issiq kleyster teriga yopishib kuydiradi — ehtiyot bo'ling.",
+   "explanation_uz": "Kraxmal sovuq suvda erimaydi, issiq suvda esa bo'kib kolloid eritma — kleyster hosil qiladi. Kleyster yelim sifatida, to'qimachilikda va kraxmalning yod bilan reaksiyasini o'tkazishda ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun kraxmal sovuq suvda erimaydi?",
+    "Kleyster qayerlarda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0014",
+   "category": "uglevodlar",
+   "title_uz": "Saxarozaning ko'p atomli spirt sifatida mis(II) gidroksid bilan reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Disaxaridlar: saxaroza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C12H22O11",
+     "state": "aq",
+     "conc_M": 0.3,
+     "volume_mL": 2
+    },
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.05
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Cu(OH)₂ ortiqcha ishqor ishtirokida yangi cho'ktirib olinadi; reaksiya xona haroratida boradi."
+   },
+   "equation": {
+    "molecular": "2C12H22O11 + Cu(OH)2 → (C12H21O11)2Cu + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Saxaroza molekulasida sakkizta gidroksil guruh bor; qo'shni OH guruhlar ko'p atomli spirtlar kabi ta'sir ko'rsatadi.",
+     "Ishqoriy muhitda ular Cu²⁺ bilan halqali kompleks — mis(II) saxaratini hosil qiladi.",
+     "Kompleks suvda eriydi va to'q ko'k rang beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#2a50c8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Havorang Cu(OH)₂ cho'kmasi eriydi, to'q ko'k eritma hosil bo'ladi; qizdirilganda qizil cho'kma hosil bo'lmaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml NaOH eritmasi va 2–3 tomchi CuSO₄ eritmasi qo'shib, Cu(OH)₂ cho'kmasini oling.",
+    "Ustiga 2 ml saxaroza eritmasi qo'shib chayqating.",
+    "Eritma rangini kuzating, so'ng uni qizdirib, qizil cho'kma hosil bo'lmasligini tekshiring."
+   ],
+   "safety_uz": "Ishqor eritmasi bilan ko'zoynakda ishlang; qizdirishda probirka og'zini odamlarga qaratmang.",
+   "explanation_uz": "Saxaroza ko'p atomli spirt xossasini namoyon qiladi va Cu(OH)₂ bilan to'q ko'k eritma hosil qiladi. Ammo molekulasida erkin aldegid guruhi bo'lmagani uchun qizdirilganda Cu(OH)₂ ni Cu₂O gacha qaytarmaydi — glyukozadan farqi shunda.",
+   "questions_uz": [
+    "Saxaroza va glyukozani Cu(OH)₂ yordamida qanday farqlash mumkin?",
+    "Mis(II) saxarati formulasi nima uchun soddalashtirilgan deyiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sakarid-0015",
+   "category": "uglevodlar",
+   "title_uz": "Glyukozaning bromli suv bilan oksidlanishi",
+   "level": "11-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H12O6",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "bromli-suv",
+     "state": "aq",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "C6H12O6 + Br2 + H2O → C6H12O7 + 2HBr",
+    "ionic_full": "C6H12O6 + Br2 + H2O → C6H12O7 + 2H⁺ + 2Br⁻",
+    "ionic_net": "C6H12O6 + Br2 + H2O → C6H12O7 + 2H⁺ + 2Br⁻",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Br2⁰ + 2e⁻ = 2Br⁻"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Bromli suv kuchsiz oksidlovchi bo'lib, faqat aldegid guruhini oksidlaydi.",
+     "Glyukozaning aldegid guruhi karboksil guruhgacha oksidlanadi — glyukon kislota hosil bo'ladi.",
+     "Brom bromid ionlarigacha qaytariladi, eritma rangsizlanadi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH2OH–(CHOH)4–CHO",
+      "oxidant": "Br2 (bromli suv)",
+      "product": "CH2OH–(CHOH)4–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e8a040",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Sariq bromli suv glyukoza eritmasi bilan aralashtirilganda bir necha daqiqada rangsizlanadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml glyukoza eritmasi quying.",
+    "Unga 2 ml bromli suv qo'shing va chayqating.",
+    "Bir necha daqiqa davomida rang o'zgarishini kuzating; taqqoslash uchun fruktoza eritmasi bilan ham tajriba qiling."
+   ],
+   "safety_uz": "Brom zaharli — bromli suv bilan mo'rili shkafda ishlang, bug'ini hidlamang.",
+   "explanation_uz": "Bromli suv aldozalarni (aldegid guruhli monosaxaridlarni) glyukon kislota kabi kislotalargacha oksidlaydi, ketozalarni (fruktozani) esa bu sharoitda oksidlamaydi. Shu sababli bromli suv yordamida glyukoza va fruktozani farqlash mumkin.",
+   "questions_uz": [
+    "Glyukoza va fruktozani bromli suv yordamida qanday farqlash mumkin?",
+    "Glyukon kislota molekulasida qaysi funksional guruhlar bor?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sakarid-0016",
+   "category": "uglevodlar",
+   "title_uz": "Fruktozaning bromli suvni rangsizlantirmasligi",
+   "level": "11-sinf",
+   "topic_uz": "Monosaxaridlar: glyukoza va fruktoza",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C6H12O6|fruktoza",
+    "Br2"
+   ],
+   "reactants": [
+    {
+     "species": "C6H12O6|fruktoza",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 2
+    },
+    {
+     "species": "bromli-suv",
+     "state": "aq",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Fruktoza ketoza: uning ochiq zanjirli shaklida aldegid emas, keton guruhi (C=O zanjir ichida) bor.",
+     "Kuchsiz oksidlovchi bo'lgan bromli suv kislotali-neytral muhitda keton guruhini oksidlay olmaydi.",
+     "Shu sababli bromli suvning rangi saqlanib qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Bromli suvning sariq rangi uzoq vaqt saqlanib qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml fruktoza eritmasi quying.",
+    "Unga 2 ml bromli suv qo'shing va chayqating.",
+    "Rangni glyukoza bilan o'tkazilgan parallel tajriba natijasi bilan solishtiring."
+   ],
+   "safety_uz": "Brom zaharli — mo'rili shkafda ishlang.",
+   "explanation_uz": "Fruktoza glyukozaning izomeri, lekin keton guruhi tutadi. Bromli suv kabi yumshoq oksidlovchilar uni oksidlamaydi. Ishqoriy muhitda esa fruktoza glyukozaga izomerlanishi mumkin, shuning uchun u Tollens va Feling reaktivlari bilan musbat natija beradi.",
+   "questions_uz": [
+    "Glyukoza va fruktoza tuzilishida qanday farq bor?",
+    "Nima uchun fruktoza ishqoriy muhitdagi \"kumush ko'zgu\" reaksiyasini beradi, bromli suvni esa rangsizlantirmaydi?"
+   ],
+   "confidence": "o'rta"
+  }
+ ]
+}

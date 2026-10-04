@@ -466,7 +466,7 @@ Y({
   eb: ['H2⁰ − 2e⁻ = 2H⁺¹', 'S⁰ + 2e⁻ = S⁻²'],
   mech: 'oksidlanish-qaytarilish',
   steps: ["Yuqori haroratda oltingugurt bug'i vodorod bilan to'qnashadi.", "Oltingugurt vodorodni oksidlab, vodorod sulfid hosil qiladi; reaksiya qaytar, shuning uchun to'liq bormaydi."],
-  obs: { gas: gas('H2S'), heat: 'ekzotermik', effects: [E('color-gas')], text_uz: "Chiquvchi gaz palag'da tuxum hidiga ega bo'ladi; naycha uchiga tutilgan qo'rg'oshin atsetatli qog'oz qorayadi." },
+  obs: { gas: gas('H2S'), heat: 'ekzotermik', effects: [], text_uz: "Chiquvchi gaz palag'da tuxum hidiga ega bo'ladi; naycha uchiga tutilgan qo'rg'oshin atsetatli qog'oz qorayadi." },
   kin: "o'rtacha",
   app: ['probirka-yon-naychali', 'kipp-apparati', 'rezina-shlang', 'spirt-lampasi', 'filtr-qogoz', 'shtativ', 'qisqich-lapka'],
   proc: ["Yon naychali probirkaga oltingugurt soling va shtativga mahkamlang.", "Kipp apparatidan vodorodni probirka orqali o'tkazib, havoni siqib chiqaring (vodorod tozaligini tekshiring).", "Oltingugurtni qaynaguncha qizdiring.", "Chiquvchi gazga qo'rg'oshin atsetat eritmasi bilan ho'llangan filtr qog'ozni tuting."],

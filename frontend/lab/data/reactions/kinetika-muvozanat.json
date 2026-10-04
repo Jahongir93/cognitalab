@@ -1,0 +1,836 @@
+{
+ "category": "kinetika-muvozanat",
+ "reactions": [
+  {
+   "id": "kinetik-0001",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Natriy tiosulfat va sulfat kislota reaksiyasi tezligiga konsentratsiya va haroratning ta'siri",
+   "level": "9-sinf",
+   "topic_uz": "Kimyoviy reaksiya tezligi va unga ta'sir etuvchi omillar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Na2S2O3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 5
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Bir xil hajmdagi, lekin turli suyultirilgan tiosulfat eritmalari bilan (konsentratsiya ta'siri) va turli haroratdagi suv hammomlarida (harorat ta'siri) takrorlanadi; loyqalik paydo bo'lguncha vaqt sekundomer bilan o'lchanadi."
+   },
+   "equation": {
+    "molecular": "Na2S2O3 + H2SO4 = Na2SO4 + S↓ + SO2↑ + H2O",
+    "ionic_full": "2Na⁺ + S2O3²⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + S↓ + SO2↑ + H2O",
+    "ionic_net": "S2O3²⁻ + 2H⁺ = S↓ + SO2↑ + H2O",
+    "electron_balance": [
+     "S⁺² + 2e⁻ = S⁰",
+     "S⁺² − 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislotali muhitda tiosulfat ioni beqaror tiosulfat kislotaga aylanadi.",
+     "U disproporsiyalanib, kolloid oltingugurt va SO₂ hosil qiladi.",
+     "Oltingugurt zarrachalari yiriklashgani sari eritma loyqalanadi — loyqalik paydo bo'lish vaqti reaksiya tezligiga teskari proporsional."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "S",
+     "color": "#f2dc3a",
+     "texture": "kolloid"
+    },
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritma birozdan keyin opalessensiyalanib, sarg'ish-oq loyqaga aylanadi; tiosulfat konsentratsiyasi yoki harorat qanchalik yuqori bo'lsa, loyqalik shuncha tez paydo bo'ladi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "olchov-silindri",
+    "sekundomer",
+    "termometr",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Uchta stakanga mos ravishda 15, 10 va 5 ml natriy tiosulfat eritmasidan quying va har biriga hajmni 15 ml gacha yetkazish uchun suv qo'shing.",
+    "Stakan tagiga qora \"X\" belgili qog'oz qo'ying.",
+    "Birinchi stakanga 5 ml sulfat kislota quyib, sekundomerni yoqing; belgi ko'rinmay qolguncha vaqtni yozing. Qolgan stakanlar bilan takrorlang.",
+    "Tajribani bir xil konsentratsiyada, lekin 20, 30 va 40 °C da suv hammomida takrorlang.",
+    "Natijalar bo'yicha tezlikning konsentratsiya va haroratga bog'liqlik grafigini chizing."
+   ],
+   "safety_uz": "SO₂ bo'g'uvchi gaz — xonani shamollating yoki mo'rili shkafda ishlang. Sulfat kislota terini kuydiradi; ko'zoynak taqing.",
+   "explanation_uz": "Ta'sir etuvchi massalar qonuniga ko'ra reaksiya tezligi reagentlar konsentratsiyasiga bog'liq: konsentratsiya kamaysa, loyqalik kechroq paydo bo'ladi. Vant-Goff qoidasiga ko'ra harorat har 10 °C ga oshganda ko'pchilik reaksiyalar tezligi taxminan 2–4 marta ortadi.",
+   "questions_uz": [
+    "Nima uchun reaksiya tezligi sifatida loyqalik paydo bo'lish vaqtiga teskari kattalik olinadi?",
+    "Vant-Goff qoidasini ta'riflang.",
+    "Bu reaksiyada oltingugurtning oksidlanish darajalari qanday o'zgaradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0002",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Marmar bo'lagi va marmar kukunining xlorid kislota bilan reaksiya tezligi (sirt yuzasining ta'siri)",
+   "level": "9-sinf",
+   "topic_uz": "Geterogen reaksiyalar tezligi: reagentlarning maydalanish darajasi",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 1,
+     "form": "bo'lak"
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 10
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Bir xil massadagi marmar bo'lagi va marmar kukuni bir xil hajm va konsentratsiyadagi kislotaga bir vaqtda solinadi."
+   },
+   "equation": {
+    "molecular": "CaCO3 + 2HCl = CaCl2 + CO2↑ + H2O",
+    "ionic_full": "CaCO3 + 2H⁺ + 2Cl⁻ = Ca²⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CaCO3 + 2H⁺ = Ca²⁺ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Geterogen reaksiya faqat qattiq modda va eritma chegarasida — marmar sirtida boradi.",
+     "Kukunning umumiy sirt yuzasi bo'lakkiga qaraganda ko'p marta katta, shuning uchun vaqt birligida ko'proq H⁺ ionlari CaCO₃ bilan to'qnashadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Kukunli probirkada gaz shiddat bilan, ko'pirib ajraladi va reaksiya tez tugaydi; bo'lakli probirkada gaz sekin, bir tekis ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-shtativi",
+    "olchov-silindri",
+    "elektron-tarozi",
+    "sekundomer"
+   ],
+   "procedure_uz": [
+    "Ikki probirkaga 10 ml dan 1 M xlorid kislota quying.",
+    "Bir xil massadagi (masalan, 0,5 g) marmar bo'lagi va marmar kukunini tortib oling.",
+    "Ularni bir vaqtda probirkalarga soling va sekundomerni yoqing.",
+    "Gaz ajralish shiddatini va reaksiya tugash vaqtini solishtiring."
+   ],
+   "safety_uz": "Xlorid kislota terini kuydiradi; ko'zoynak taqing. Kukunli probirkada ko'pik toshib chiqishi mumkin — kislotani ko'p olmang.",
+   "explanation_uz": "Geterogen reaksiyalar tezligi reagentlar tegib turgan sirt yuzasiga bog'liq: modda qanchalik mayda bo'lsa, reaksiya shuncha tez boradi. Shu sababli kukunsimon moddalar (un, ko'mir changi) havoda portlovchi aralashma hosil qilishi mumkin.",
+   "questions_uz": [
+    "Gomogen va geterogen reaksiyalarga misollar keltiring.",
+    "Nima uchun yog'och qipig'i yaxlit g'o'ladan tezroq yonadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0003",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Ruxning xlorid va sirka kislotalar bilan reaksiya tezligi (reagentlar tabiatining ta'siri)",
+   "level": "9-sinf",
+   "topic_uz": "Reaksiya tezligiga reagentlar tabiatining ta'siri",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Zn",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "granula"
+    },
+    {
+     "species": "CH3COOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Taqqoslash uchun ikkinchi probirkada xuddi shunday rux granulasi bir xil konsentratsiyali (1 M) xlorid kislotaga solinadi."
+   },
+   "equation": {
+    "molecular": "Zn + 2CH3COOH = (CH3COO)2Zn + H2↑",
+    "ionic_full": "Zn + 2CH3COOH = Zn²⁺ + 2CH3COO⁻ + H2↑",
+    "ionic_net": "Zn + 2CH3COOH = Zn²⁺ + 2CH3COO⁻ + H2↑",
+    "electron_balance": [
+     "Zn⁰ − 2e⁻ = Zn⁺²",
+     "2H⁺¹ + 2e⁻ = H2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "o'rin-olish",
+    "steps_uz": [
+     "Ikkala kislotada ham rux H⁺ ionlarini qaytaradi.",
+     "Xlorid kislota kuchli elektrolit — eritmada H⁺ ionlari ko'p; sirka kislota kuchsiz elektrolit — bir xil konsentratsiyada H⁺ ionlari ancha kam.",
+     "H⁺ konsentratsiyasi kam bo'lgani uchun sirka kislotada vodorod ancha sekin ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Xlorid kislotadagi rux sirtidan vodorod pufakchalari shiddatli ajraladi; sirka kislotada esa pufakchalar juda sekin va kam chiqadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "probirka-shtativi",
+    "olchov-silindri",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Ikki probirkaga mos ravishda 5 ml 1 M xlorid kislota va 5 ml 1 M sirka kislota quying.",
+    "Pinset bilan har biriga bir xil o'lchamdagi rux granulasini tushiring.",
+    "Ikkala probirkada gaz ajralish shiddatini solishtiring."
+   ],
+   "safety_uz": "Kislotalar bilan ehtiyot bo'ling, ko'zoynak taqing. Ajralayotgan vodorodni ochiq alanga yaqinida to'plamang.",
+   "explanation_uz": "Reaksiya tezligi reagentlarning tabiatiga bog'liq: bir xil molyar konsentratsiyada kuchli kislota eritmasida H⁺ ionlari kuchsiz kislotanikiga qaraganda ko'p marta ko'p. Shuning uchun rux xlorid kislota bilan tez, sirka kislota bilan sekin reaksiyaga kirishadi.",
+   "questions_uz": [
+    "Kuchli va kuchsiz elektrolitlarning farqi nimada?",
+    "Reaksiya tezligini oshirishning yana qanday usullarini bilasiz?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0004",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Vodorod peroksidning kaliy yodid katalizatorligida parchalanishi (\"fil tish pastasi\")",
+   "level": "9-sinf",
+   "topic_uz": "Katalizatorlar va kataliz",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "H2O2",
+     "state": "aq",
+     "conc_M": 9.8,
+     "volume_mL": 10
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "KI",
+    "medium": null,
+    "light": false,
+    "note_uz": "Silindrdagi vodorod peroksidga ozroq suyuq sovun qo'shiladi, so'ng kaliy yodid eritmasi tez quyiladi."
+   },
+   "equation": {
+    "molecular": "2H2O2 = 2H2O + O2↑",
+    "ionic_full": null,
+    "ionic_net": "2H2O2 = 2H2O + O2↑",
+    "electron_balance": [
+     "2O⁻¹ − 2e⁻ = O2⁰",
+     "O⁻¹ + 1e⁻ = O⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "1-bosqich: H₂O₂ + I⁻ = H₂O + IO⁻ (sekin bosqich).",
+     "2-bosqich: H₂O₂ + IO⁻ = H₂O + O₂ + I⁻ (tez bosqich) — yodid ioni qayta tiklanadi, ya'ni katalizator sarflanmaydi.",
+     "Ajralgan kislorod sovunli eritmani ko'pirtirib, ko'pik ustunini hosil qiladi; ozgina hosil bo'lgan yod ko'pikni sarg'ish-qo'ng'ir rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#e8c070"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "foam"
+     },
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Kaliy yodid qo'shilishi bilan silindrdan issiq, bug'lanib turgan sarg'ish ko'pik ustuni otilib chiqadi; ko'pikka cho'g'langan cho'p tekkizilsa alangalanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "olchov-silindri",
+    "kristallizator",
+    "tomizgich",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Katta o'lchov silindrini kristallizator (yoki keng idish) ichiga qo'ying.",
+    "Silindrga 10 ml vodorod peroksid va bir necha tomchi suyuq sovun quying, aralashtiring.",
+    "Silindrga tezda 2 ml kaliy yodid eritmasini quying va darhol uzoqlashing.",
+    "Ko'pik ustunini kuzating; ko'pikka cho'g'langan cho'pni tekkizing."
+   ],
+   "safety_uz": "30% li H₂O₂ terini kuydiradi va oqartiradi — qo'lqop va ko'zoynakda ishlang; tajribani faqat o'qituvchi o'tkazadi. Ko'pik issiq va tarkibida yod bor — qo'l bilan ushlamang.",
+   "explanation_uz": "Katalizator reaksiyaning boshqa, faollanish energiyasi kichikroq yo'lini ochib beradi: yodid ioni oraliq bosqichda IO⁻ ga aylanadi, so'ng qayta tiklanadi. Shu sababli oz miqdordagi KI ko'p H₂O₂ ning tez parchalanishini ta'minlaydi; reaksiya ekzotermik bo'lgani uchun ko'pik qiziydi.",
+   "questions_uz": [
+    "Katalizator reaksiya tezligini qanday oshiradi?",
+    "Yodid ioni sarflanmasligini mexanizm bosqichlari asosida tushuntiring.",
+    "H₂O₂ ning parchalanishini yana qaysi katalizatorlar tezlashtiradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "kinetik-0005",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Temir(III) xlorid va kaliy rodanid orasidagi muvozanatning siljishi",
+   "level": "9-sinf",
+   "topic_uz": "Kimyoviy muvozanat; Le Shatelye prinsipi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 5
+    },
+    {
+     "species": "KSCN",
+     "state": "aq",
+     "conc_M": 0.03,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Suyultirilgan eritmalar aralashtirilib, to'rt probirkaga bo'linadi: biriga FeCl₃, ikkinchisiga KSCN eritmasi, uchinchisiga qattiq KCl qo'shiladi, to'rtinchisi taqqoslash uchun qoldiriladi."
+   },
+   "equation": {
+    "molecular": "FeCl3 + 3KSCN ⇄ Fe(SCN)3 + 3KCl",
+    "ionic_full": "Fe³⁺ + 3Cl⁻ + 3K⁺ + 3SCN⁻ ⇄ Fe(SCN)3 + 3K⁺ + 3Cl⁻",
+    "ionic_net": "Fe³⁺ + 3SCN⁻ ⇄ Fe(SCN)3",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Fe³⁺ va SCN⁻ ionlari qon-qizil rangli temir(III) tiotsianat hosil qiladi; reaksiya qaytar.",
+     "FeCl₃ yoki KSCN qo'shilsa, boshlang'ich moddalar konsentratsiyasi ortadi va muvozanat o'ngga siljiydi — rang quyuqlashadi.",
+     "KCl qo'shilsa, eritmaning ion kuchi ortib, muvozanat chapga siljiydi — rang biroz ochiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#b3101a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Och sariq eritmalar aralashtirilganda qon-qizil rang paydo bo'ladi; FeCl₃ yoki KSCN qo'shilgan probirkalarda rang quyuqlashadi, KCl qo'shilganida biroz ochiladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "probirka-shtativi",
+    "kimyoviy-stakan",
+    "tomizgich",
+    "shpatel"
+   ],
+   "procedure_uz": [
+    "Stakanda 5 ml suyultirilgan FeCl₃ va 5 ml KSCN eritmalarini aralashtiring va to'rt probirkaga teng bo'ling.",
+    "Birinchi probirkaga bir necha tomchi konsentrlangan FeCl₃ eritmasi qo'shing.",
+    "Ikkinchisiga bir necha tomchi KSCN eritmasi qo'shing.",
+    "Uchinchisiga shpatel uchida qattiq KCl qo'shib chayqating.",
+    "Rangini to'rtinchi (taqqoslash) probirka bilan solishtiring."
+   ],
+   "safety_uz": "Temir(III) xlorid eritmasi terini va kiyimni bo'yaydi; tiotsianatlarni kislotalar bilan qizdirmang. Ko'zoynak taqing.",
+   "explanation_uz": "Le Shatelye prinsipiga ko'ra muvozanatdagi sistemaga tashqi ta'sir ko'rsatilsa, muvozanat shu ta'sirni kamaytiruvchi tomonga siljiydi. Boshlang'ich moddalardan biri qo'shilganda mahsulot ko'proq hosil bo'ladi va rang quyuqlashadi. (Virtual laboratoriyada reaksiya oxirigacha boradigan model sifatida hisoblanadi; KCl ta'siri faqat matnda tushuntiriladi.)",
+   "questions_uz": [
+    "Le Shatelye prinsipini ta'riflang.",
+    "Mahsulotlardan biri qo'shilsa muvozanat qaysi tomonga siljiydi?",
+    "Bu reaksiya Fe³⁺ ionini aniqlashda qanday qo'llaniladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "kinetik-0006",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Xromat ionlarining kislotali muhitda dixromatga o'tishi (muvozanatning siljishi)",
+   "level": "11-sinf",
+   "topic_uz": "Kimyoviy muvozanat; muhitning ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Sariq kaliy xromat eritmasiga suyultirilgan sulfat kislota tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "2K2CrO4 + H2SO4 ⇄ K2Cr2O7 + K2SO4 + H2O",
+    "ionic_full": "4K⁺ + 2CrO4²⁻ + 2H⁺ + SO4²⁻ ⇄ 4K⁺ + Cr2O7²⁻ + SO4²⁻ + H2O",
+    "ionic_net": "2CrO4²⁻ + 2H⁺ ⇄ Cr2O7²⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Eritmada 2CrO₄²⁻ + 2H⁺ ⇄ Cr₂O₇²⁻ + H₂O muvozanati mavjud.",
+     "Kislota qo'shilganda H⁺ konsentratsiyasi ortadi va muvozanat o'ngga — to'q sariq dixromat ionlari tomonga siljiydi.",
+     "Xromning oksidlanish darajasi (+6) o'zgarmaydi — bu oksidlanish-qaytarilish reaksiyasi emas."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2d22e",
+     "to": "#ef7d1a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Sariq eritma kislota qo'shilishi bilan to'q sariq (zarg'aldoq) rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-shtativi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml kaliy xromat eritmasidan quying va rangiga e'tibor bering.",
+    "Tomizgich bilan suyultirilgan sulfat kislotani tomchilab qo'shing.",
+    "Rang o'zgarishini kuzating; so'ng shu probirkaga ishqor qo'shib, teskari o'zgarishni kuzating."
+   ],
+   "safety_uz": "Xrom(VI) birikmalari zaharli va kanserogen: qo'lqop va ko'zoynakda ishlang, chiqindini maxsus idishga to'king.",
+   "explanation_uz": "Xromat va dixromat ionlari orasidagi muvozanat eritma muhitiga bog'liq: kislotali muhitda dixromat (to'q sariq), ishqoriy muhitda xromat (sariq) ustunlik qiladi. Bu Le Shatelye prinsipining yaqqol namunasi — H⁺ ionlari qo'shilganda muvozanat ularni sarflovchi tomonga siljiydi.",
+   "questions_uz": [
+    "Bu reaksiyada xromning oksidlanish darajasi o'zgaradimi?",
+    "Ishqor qo'shilganda muvozanat qaysi tomonga siljiydi va nima uchun?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0007",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Dixromat ionlarining ishqoriy muhitda xromatga o'tishi (muvozanatning siljishi)",
+   "level": "11-sinf",
+   "topic_uz": "Kimyoviy muvozanat; muhitning ta'siri",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "K2Cr2O7",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 3
+    },
+    {
+     "species": "KOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "To'q sariq kaliy dixromat eritmasiga ishqor eritmasi tomchilab qo'shiladi."
+   },
+   "equation": {
+    "molecular": "K2Cr2O7 + 2KOH ⇄ 2K2CrO4 + H2O",
+    "ionic_full": "2K⁺ + Cr2O7²⁻ + 2K⁺ + 2OH⁻ ⇄ 4K⁺ + 2CrO4²⁻ + H2O",
+    "ionic_net": "Cr2O7²⁻ + 2OH⁻ ⇄ 2CrO4²⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "ion-almashinish",
+    "steps_uz": [
+     "Ishqor qo'shilganda OH⁻ ionlari H⁺ ionlarini bog'laydi (suv hosil bo'ladi).",
+     "H⁺ konsentratsiyasi kamaygani uchun muvozanat chapga — sariq xromat ionlari tomonga siljiydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ef7d1a",
+     "to": "#f2d22e"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "To'q sariq eritma ishqor qo'shilganda sariq rangga kiradi; unga yana kislota qo'shilsa, to'q sariq rang qaytadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "probirka-shtativi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml kaliy dixromat eritmasidan quying.",
+    "Tomizgich bilan kaliy gidroksid eritmasini tomchilab qo'shing va rang o'zgarishini kuzating.",
+    "So'ng shu probirkaga suyultirilgan sulfat kislota tomizib, rangning qaytishini kuzating."
+   ],
+   "safety_uz": "Xrom(VI) birikmalari zaharli va kanserogen, ishqor terini kuydiradi: qo'lqop va ko'zoynakda ishlang, chiqindini maxsus idishga to'king.",
+   "explanation_uz": "Dixromat ioni ishqoriy muhitda xromatga aylanadi; kislota va ishqorni navbatma-navbat qo'shib, rangni bir necha marta o'zgartirish mumkin. Bu jarayonning qaytarligini va muvozanatning muhitga bog'liqligini ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun rangni ko'p marta almashtirish mumkin?",
+    "Kaliy dixromat eritmasi qaysi muhitda kuchli oksidlovchi bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0008",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Natriy gidroksidning suvda erishidagi issiqlik effekti (ekzotermik erish)",
+   "level": "8-sinf",
+   "topic_uz": "Eritmalar; erishning issiqlik effekti",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Kimyoviy reaksiya emas, fizik-kimyoviy jarayon: NaOH kristall panjarasi buziladi (issiqlik yutiladi) va hosil bo'lgan Na⁺ va OH⁻ ionlari gidratlanadi (ko'proq issiqlik ajraladi). Shuning uchun tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "NaOH",
+     "state": "s",
+     "mass_g": 2,
+     "form": "granula"
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 20
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Stakandagi suvning boshlang'ich harorati termometr bilan o'lchanadi, so'ng NaOH granulalari solinib aralashtiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Erishda kristall panjara buziladi — bu jarayon issiqlik yutadi.",
+     "Ionlar suv molekulalari bilan o'ralib gidratlanadi — bu jarayon issiqlik ajratadi.",
+     "NaOH uchun gidratlanish issiqligi kattaroq, shuning uchun eritma qiziydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Granulalar eriyotganda eritma sezilarli darajada qiziydi, termometr ko'rsatkichi ko'tariladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "termometr",
+    "shisha-tayoqcha",
+    "olchov-silindri",
+    "elektron-tarozi"
+   ],
+   "procedure_uz": [
+    "Stakanga 20 ml suv quyib, uning haroratini o'lchang.",
+    "2 g natriy gidroksid granulasini torting (qo'l bilan ushlamang).",
+    "Granulalarni suvga solib, shisha tayoqcha bilan aralashtiring.",
+    "Haroratni har 30 soniyada yozib boring va eng yuqori qiymatni aniqlang."
+   ],
+   "safety_uz": "NaOH terini va ko'zni kuchli kuydiradi: qo'lqop va ko'zoynakda ishlang, granulalarni faqat shpatel bilan oling. Eritma qizib ketishi mumkin.",
+   "explanation_uz": "Moddaning erishi fizik-kimyoviy jarayon: panjaraning buzilishi issiqlik yutadi, ionlarning gidratlanishi esa issiqlik ajratadi. Natija ikkalasining nisbatiga bog'liq: NaOH, H₂SO₄ (kons.) eriganda eritma qiziydi.",
+   "questions_uz": [
+    "Erish nima uchun fizik-kimyoviy jarayon deb ataladi?",
+    "Konsentrlangan sulfat kislotani suyultirishda nima uchun kislota suvga quyiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0009",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Ammoniy xloridning suvda erishidagi issiqlik effekti (endotermik erish)",
+   "level": "8-sinf",
+   "topic_uz": "Eritmalar; erishning issiqlik effekti",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Kimyoviy reaksiya emas: NH₄Cl kristall panjarasining buzilishiga ketadigan issiqlik ionlarning gidratlanishida ajraladigan issiqlikdan ko'p, shuning uchun eritma soviydi. Tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "s",
+     "mass_g": 5
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 20
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Suvning boshlang'ich harorati o'lchanadi, so'ng ammoniy xlorid solinib aralashtiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Kristall panjara buzilishi uchun issiqlik yutiladi.",
+     "Ionlarning gidratlanishida ajraladigan issiqlik bundan kam — natijada eritma soviydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Kristallar eriyotganda eritma soviydi, termometr ko'rsatkichi pasayadi; stakan tashqi devori sovib, unda nam paydo bo'lishi mumkin."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "termometr",
+    "shisha-tayoqcha",
+    "olchov-silindri",
+    "elektron-tarozi"
+   ],
+   "procedure_uz": [
+    "Stakanga 20 ml suv quyib, uning haroratini o'lchang.",
+    "5 g ammoniy xlorid torting.",
+    "Tuzni suvga solib, shisha tayoqcha bilan aralashtiring.",
+    "Haroratni har 30 soniyada yozib boring va eng past qiymatni aniqlang."
+   ],
+   "safety_uz": "Ammoniy xlorid kam zaharli, lekin uni tatib ko'rmang; ko'zga tushishidan ehtiyot bo'ling.",
+   "explanation_uz": "Ba'zi moddalar (NH₄Cl, NH₄NO₃, KNO₃) eriganda issiqlik yutiladi va eritma soviydi, chunki panjarani buzish uchun gidratlanishda ajraladigandan ko'proq energiya kerak. Bu xossadan bir martalik sovutuvchi paketlarda foydalaniladi.",
+   "questions_uz": [
+    "NaOH va NH₄Cl ning erishidagi issiqlik effektlarini solishtiring va tushuntiring.",
+    "Sovutuvchi paketlar qanday ishlaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "kinetik-0010",
+   "category": "kinetika-muvozanat",
+   "title_uz": "Neytrallanish reaksiyasining issiqlik effektini o'lchash",
+   "level": "9-sinf",
+   "topic_uz": "Termokimyo: reaksiyalarning issiqlik effekti",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 20
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 20
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Bir xil haroratdagi eritmalar issiqlik izolyatsiyalangan stakanda (kalorimetrda) aralashtiriladi."
+   },
+   "equation": {
+    "molecular": "HCl + NaOH = NaCl + H2O",
+    "ionic_full": "H⁺ + Cl⁻ + Na⁺ + OH⁻ = Na⁺ + Cl⁻ + H2O",
+    "ionic_net": "H⁺ + OH⁻ = H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "neytrallanish",
+    "steps_uz": [
+     "Kuchli kislota va kuchli asos eritmalarida neytrallanishning mohiyati bitta: H⁺ + OH⁻ = H₂O.",
+     "Shuning uchun har qanday kuchli kislota va kuchli ishqorning neytrallanish issiqligi deyarli bir xil — 1 mol suv hosil bo'lganda taxminan 57 kJ."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritmalar aralashtirilganda harorat bir necha gradusga ko'tariladi; tashqi o'zgarish ko'rinmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "kimyoviy-stakan",
+    "termometr",
+    "olchov-silindri",
+    "shisha-tayoqcha"
+   ],
+   "procedure_uz": [
+    "Ikki stakanga 20 ml dan 1 M xlorid kislota va 1 M natriy gidroksid eritmalarini o'lchab quying va haroratlarini o'lchang.",
+    "Kislotani issiqlik izolyatsiyalangan stakanga (kalorimetrga) o'tkazing.",
+    "Ustiga ishqor eritmasini tez quyib, aralashtiring va eng yuqori haroratni yozing.",
+    "Ajralgan issiqlikni Q = m·c·Δt formulasi bilan hisoblang va 1 mol suvga nisbatan hisoblang."
+   ],
+   "safety_uz": "Kislota va ishqor terini kuydiradi — ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Neytrallanish ekzotermik reaksiya: kuchli kislota va kuchli asos eritmalari uchun issiqlik effekti kislota va asosning tabiatiga deyarli bog'liq emas, chunki har doim H⁺ + OH⁻ = H₂O jarayoni boradi. Kuchsiz kislota yoki asos ishtirokida issiqlik biroz kamroq, chunki uning dissotsilanishiga energiya sarflanadi.",
+   "questions_uz": [
+    "Nima uchun HCl + NaOH va HNO₃ + KOH neytrallanish issiqligi deyarli bir xil?",
+    "Sirka kislota bilan o'lchanganda issiqlik nima uchun kamroq chiqadi?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

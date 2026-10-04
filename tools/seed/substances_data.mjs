@@ -156,7 +156,7 @@ export const SALT_SOLID_COLOR = {
 };
 export const SALT_SOLID_OVERRIDE = {
   CuSO4: ['#f2f2ee', 'oq kukun (suvsiz); suv yutib ko\'karadi'], CuCl2: ['#3aa88a', 'ko\'kimtir-yashil kristallar'], FeCl3: ['#7a3a12', 'to\'q qo\'ng\'ir kristallar'],
-  CoCl2: ['#c8507a', 'pushti kristallar (kristallogidrat)'], 'Fe2(SO4)3': ['#e8d8a8', 'och sarg\'ish kukun'], 'Cr2(SO4)3': ['#5a4a8a', 'binafsha kristallar'],
+  CoCl2: ['#2f4fc0', "ko'k kukun (suvsiz); namlikda pushtilanadi"], FeSO4: ['#eeeee4', "oq-kulrang kukun (suvsiz)"], 'Fe2(SO4)3': ['#e8d8a8', 'och sarg\'ish kukun'], 'Cr2(SO4)3': ['#5a4a8a', 'binafsha kristallar'],
   CrCl3: ['#3d6b4f', 'to\'q yashil kristallar'], 'Fe(NO3)3': ['#d8c8e0', 'och binafsha kristallar'], 'Co(NO3)2': ['#c02a3a', 'qizil kristallar'],
 };
 
@@ -244,6 +244,8 @@ export const SPECIAL_INORGANIC = [
   { f: 'S4O6^2-', ion_only: true },
   { f: 'MnO(OH)2', n: 'marganes(IV) gidroksid (oksid-gidrat)', col: '#3a2418', form: 'kukun', hz: [], tex: 'iviqsimon', reagent: false },
   { f: 'MnO(OH)', aliases: [], n: 'marganes(III) oksid-gidroksid', col: '#4a2c1a', form: 'kukun', hz: [], tex: 'iviqsimon', reagent: false },
+  { f: 'Na2[CaC10H12N2O8]', n: 'natriy kalsiy-etilendiamintetraatsetat (CaY²⁻ kompleksi)', st: 'aq', diss: { 'Na^+': 2, '[CaC10H12N2O8]^2-': 1 }, hz: [], reagent: false },
+  { f: 'Na2[MgC10H12N2O8]', n: 'natriy magniy-etilendiamintetraatsetat (MgY²⁻ kompleksi)', st: 'aq', diss: { 'Na^+': 2, '[MgC10H12N2O8]^2-': 1 }, hz: [], reagent: false },
   { f: 'AlOHCl2', n: 'alyuminiy gidroksoxlorid', st: 'aq', diss: { 'AlOH^2+': 1, 'Cl^-': 2 }, hz: [], reagent: false },
   { f: 'AlOHSO4', n: 'alyuminiy gidroksosulfat', st: 'aq', diss: { 'AlOH^2+': 1, 'SO4^2-': 1 }, hz: [], reagent: false },
   { f: 'FeOHCl2', n: 'temir(III) gidroksoxlorid', st: 'aq', diss: { 'FeOH^2+': 1, 'Cl^-': 2 }, hz: [], reagent: false },

@@ -8,18 +8,3436 @@
    "level": "8-sinf",
    "topic_uz": "Asoslarning xossalari: erimaydigan asoslarning parchalanishi",
    "engine": "record",
-   "reactants": [{"species": "Cu(OH)2", "state": "s", "mass_g": 0.2}],
-   "conditions": {"heating": true, "temp_min_C": 100, "catalyst": null, "medium": null, "light": false, "note_uz": "Probirka spirt lampasi alangasida qizdiriladi."},
-   "equation": {"molecular": "Cu(OH)2 = CuO + H2O↑", "ionic_full": null, "ionic_net": null, "electron_balance": null},
-   "mechanism": {"type": "termik-parchalanish", "steps_uz": ["Qizdirilganda gidroksid guruhlari o'rtasidagi bog' uziladi.", "Suv molekulasi ajralib, qora mis(II) oksid qoladi."], "organic": null},
-   "observations": {"precipitate": null, "gas": null, "solution_color_change": null, "solid_color_change": {"from": "#4a9be0", "to": "#1a1a1a"}, "heat": "endotermik", "flame": null, "effects": [{"type": "condensate"}], "text_uz": "Ko'k modda qorayadi, probirka og'zi yaqinidagi sovuq devorda suv tomchilari paydo bo'ladi."},
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 100,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Probirka spirt lampasi alangasida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "Cu(OH)2 = CuO + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda gidroksid guruhlari o'rtasidagi bog' uziladi.",
+     "Suv molekulasi ajralib, qora mis(II) oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "solid_color_change": {
+     "from": "#4a9be0",
+     "to": "#1a1a1a"
+    },
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Ko'k modda qorayadi, probirka og'zi yaqinidagi sovuq devorda suv tomchilari paydo bo'ladi."
+   },
    "kinetics": "tez",
-   "apparatus": ["probirka", "probirka-qisqichi", "spirt-lampasi"],
-   "procedure_uz": ["Probirkaga ozroq mis(II) gidroksid soling.", "Probirkani qisqich bilan ushlab, og'zini biroz pastga qaratib spirt lampasi alangasida qizdiring.", "Moddaning rangi va probirka devoridagi o'zgarishni kuzating."],
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq mis(II) gidroksid soling.",
+    "Probirkani qisqich bilan ushlab, og'zini biroz pastga qaratib spirt lampasi alangasida qizdiring.",
+    "Moddaning rangi va probirka devoridagi o'zgarishni kuzating."
+   ],
    "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
    "explanation_uz": "Suvda erimaydigan asoslar qizdirilganda oksid va suvga parchalanadi. Ishqorlar (NaOH, KOH) esa bunday sharoitda parchalanmaydi.",
-   "questions_uz": ["Qaysi asoslar qizdirilganda parchalanadi?", "Nima uchun probirka og'zi pastga qaratiladi?"],
+   "questions_uz": [
+    "Qaysi asoslar qizdirilganda parchalanadi?",
+    "Nima uchun probirka og'zi pastga qaratiladi?"
+   ],
    "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0002",
+   "category": "termik-parchalanish",
+   "title_uz": "Temir(III) gidroksidning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Asoslarning xossalari: erimaydigan asoslarning parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe(OH)3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Quruq probirkada spirt lampasi alangasida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "2Fe(OH)3 = Fe2O3 + 3H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda gidroksid ionlari orasidan suv molekulalari ajralib chiqadi.",
+     "Qizil-qo'ng'ir temir(III) oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Qo'ng'ir modda qizil-qo'ng'ir kukunga aylanadi, probirkaning sovuq qismida suv tomchilari paydo bo'ladi.",
+    "solid_color_change": {
+     "from": "#9a4a1c",
+     "to": "#8e2f1c"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq temir(III) gidroksid soling (oldindan quritilgan cho'kma).",
+    "Probirkani og'zini biroz pastga qaratib qisqichga mahkamlang.",
+    "Avval butun probirkani, so'ng modda turgan qismini qizdiring.",
+    "Moddaning rangini va probirka devoridagi tomchilarni kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Temir(III) gidroksid suvda erimaydigan asos bo'lgani uchun qizdirilganda oksid va suvga parchalanadi. Hosil bo'lgan Fe₂O₃ tabiatda gematit minerali sifatida uchraydi va qizil bo'yoq (mumiyo) sifatida ishlatiladi.",
+   "questions_uz": [
+    "Fe(OH)₃ ning parchalanish tenglamasini yozing va koeffitsiyentlarni tushuntiring.",
+    "Nima uchun NaOH qizdirilganda bunday parchalanmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0003",
+   "category": "termik-parchalanish",
+   "title_uz": "Alyuminiy gidroksidning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Al(OH)3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 300,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Al(OH)3 = Al2O3 + 3H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda Al(OH)₃ bosqichma-bosqich suv yo'qotadi.",
+     "Oxirida oq alyuminiy oksid (glinozem) qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq modda tashqi ko'rinishini deyarli o'zgartirmaydi, lekin probirka devorida suv tomchilari to'planadi; qoldiq massasi kamayadi.",
+    "solid_color_change": {
+     "from": "#f2f4f4",
+     "to": "#f6f6f2"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq alyuminiy gidroksid soling.",
+    "Probirkani og'zini biroz pastga qaratib qisqichga mahkamlang va kuchli qizdiring.",
+    "Probirkaning sovuq qismidagi suv tomchilarini kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Alyuminiy gidroksid suvda erimaydi, shuning uchun qizdirilganda oksid va suvga parchalanadi. Rang o'zgarmagani uchun reaksiya borganini suv tomchilari va qoldiq massasining kamayishi ko'rsatadi; Al₂O₃ juda qattiq va qiyin suyuqlanadigan modda.",
+   "questions_uz": [
+    "Rang o'zgarmasa, reaksiya ketganini qanday isbotlash mumkin?",
+    "Alyuminiy oksid qayerda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0004",
+   "category": "termik-parchalanish",
+   "title_uz": "Rux gidroksidning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Amfoter gidroksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn(OH)2",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 130,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Zn(OH)2 = ZnO + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Rux gidroksiddan suv ajralib chiqadi.",
+     "Rux oksid hosil bo'ladi; u qizdirilganda sarg'ayadi, sovuganda yana oqaradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq modda qizdirilganda sarg'ayadi, sovutilganda yana oq bo'ladi; probirka devorida suv tomchilari paydo bo'ladi.",
+    "solid_color_change": {
+     "from": "#f4f6f6",
+     "to": "#f6f6f0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq rux gidroksid soling.",
+    "Probirkani og'zini biroz pastga qaratib qizdiring.",
+    "Issiq holatdagi va sovigandan keyingi qoldiq rangini solishtiring."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Rux gidroksid erimaydigan (amfoter) gidroksid, qizdirilganda rux oksidga aylanadi. ZnO issiq holatda sariq, sovuqda oq rangda bo'ladi — bu kristall panjaradagi o'zgarish bilan bog'liq fizik hodisa (termoxromizm).",
+   "questions_uz": [
+    "ZnO ning qizdirilganda sarg'ayishi kimyoviy o'zgarishmi yoki fizik hodisami?",
+    "Zn(OH)₂ ning amfoterligini isbotlovchi reaksiyalarni yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0005",
+   "category": "termik-parchalanish",
+   "title_uz": "Xrom(III) gidroksidning qizdirilganda parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Amfoter gidroksidlarning xossalari; xrom birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cr(OH)3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 300,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Cr(OH)3 = Cr2O3 + 3H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Kulrang-yashil gidroksid qizdirilganda suv yo'qotadi.",
+     "To'q yashil xrom(III) oksid hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Kulrang-yashil modda to'q yashil kukunga aylanadi, probirka devorida suv tomchilari paydo bo'ladi.",
+    "solid_color_change": {
+     "from": "#6f8f6a",
+     "to": "#3f7a3a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq xrom(III) gidroksid soling.",
+    "Probirkani og'zini biroz pastga qaratib kuchli qizdiring.",
+    "Qoldiq rangini va suv tomchilarini kuzating."
+   ],
+   "safety_uz": "Xrom birikmalari zararli; changini nafas olmang, qo'lqopda ishlang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Xrom(III) gidroksid erimaydigan amfoter gidroksid bo'lib, qizdirilganda Cr₂O₃ va suvga parchalanadi. Cr₂O₃ — barqaror yashil pigment (\"xrom yashili\"), u bo'yoq va abraziv sifatida ishlatiladi.",
+   "questions_uz": [
+    "Cr₂O₃ qanday xossali oksid?",
+    "Cr(OH)₃ ni qanday qilib olish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0006",
+   "category": "termik-parchalanish",
+   "title_uz": "Magniy gidroksidning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Asoslarning xossalari: erimaydigan asoslarning parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg(OH)2",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mg(OH)2 = MgO + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda Mg(OH)₂ dan suv molekulasi ajraladi.",
+     "Oq magniy oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq kukun ko'rinishi o'zgarmaydi, probirkaning sovuq qismida suv tomchilari to'planadi.",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#f6f6f2"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq magniy gidroksid soling.",
+    "Probirkani og'zini biroz pastga qaratib kuchli qizdiring.",
+    "Probirka devoridagi suv tomchilarini kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Magniy gidroksid kam eriydigan asos va u ishqorlarga qaraganda ancha oson parchalanadi. Hosil bo'lgan MgO o'tga chidamli material sifatida ishlatiladi.",
+   "questions_uz": [
+    "Mg(OH)₂ va NaOH ning qizdirilgandagi xatti-harakatini solishtiring.",
+    "MgO suv bilan qanday reaksiyaga kirishadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0007",
+   "category": "termik-parchalanish",
+   "title_uz": "Kalsiy gidroksidning kuchli qizdirilganda parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Ishqoriy-yer metallarining birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ca(OH)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 520,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Spirt lampasi alangasi yetarli emas — tigelda gorelka bilan kuchli qizdiriladi."
+   },
+   "equation": {
+    "molecular": "Ca(OH)2 = CaO + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "So'ndirilgan ohak ancha yuqori haroratda suv yo'qotadi.",
+     "So'ndirilmagan ohak (CaO) hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oq kukun tashqi ko'rinishini o'zgartirmaydi; sovigan qoldiqqa bir tomchi suv tomizilsa, u qiziydi (CaO so'nadi).",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#f2f2ec"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Tigelga ozroq kalsiy gidroksid soling va uni chinni uchburchakka o'rnating.",
+    "Gorelka alangasida 10–15 daqiqa kuchli qizdiring.",
+    "Tigelni qisqich bilan olib, sovushini kuting.",
+    "Qoldiqqa bir-ikki tomchi suv tomizib, qizishini kuzating."
+   ],
+   "safety_uz": "CaO va Ca(OH)₂ ko'z va terini kuydiradi; ko'zoynak taqing. Issiq tigelni faqat qisqich bilan ushlang.",
+   "explanation_uz": "Kalsiy gidroksid ishqor bo'lsa-da, NaOH va KOH dan farqli ravishda yuqori haroratda oksid va suvga parchalanadi. Hosil bo'lgan CaO suv bilan qizib, yana Ca(OH)₂ ga aylanadi (ohakni so'ndirish).",
+   "questions_uz": [
+    "Nima uchun bu tajribada spirt lampasi yetarli emas?",
+    "CaO ga suv qo'shilganda nima uchun issiqlik ajraladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0008",
+   "category": "termik-parchalanish",
+   "title_uz": "Silikat kislotaning qizdirilganda parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Kremniy va uning birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "H2SiO3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Silikat kislota iviq cho'kmasi oldindan quritiladi."
+   },
+   "equation": {
+    "molecular": "H2SiO3 = SiO2 + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Silikat kislota beqaror, qizdirilganda suv yo'qotadi.",
+     "Kremniy(IV) oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq modda qizdirilganda suv ajratadi (probirka devorida tomchilar), qoldiq oq kukun — kremniy(IV) oksid.",
+    "solid_color_change": {
+     "from": "#f2f2ee",
+     "to": "#f0ece0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quritilgan silikat kislotani quruq probirkaga soling.",
+    "Probirkani og'zini biroz pastga qaratib qizdiring.",
+    "Suv tomchilarini kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Silikat kislota suvda erimaydigan, beqaror kislota bo'lib, qizdirilganda kislotali oksid (SiO₂) va suvga parchalanadi. Shu jarayonda g'ovak silikagel olinadi — u yaxshi adsorbent va quritgich.",
+   "questions_uz": [
+    "Silikat kislotani qanday qilib olish mumkin?",
+    "Silikagel nima uchun quritgich sifatida ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0009",
+   "category": "termik-parchalanish",
+   "title_uz": "Kalsiy karbonatning (ohaktosh, marmar) termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Uglerod birikmalari: karbonatlar; ohak olish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaCO3",
+     "state": "s",
+     "mass_g": 1,
+     "form": "bo'lak"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 900,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Marmar bo'lagi gorelkaning eng issiq alangasida yoki mufel pechida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "CaCO3 = CaO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Yuqori haroratda karbonat ioni CO₂ va O²⁻ ga parchalanadi.",
+     "Kalsiy oksid (so'ndirilmagan ohak) qoladi, CO₂ gaz holida chiqadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qattiq qizdirilgan marmar bo'lagi yorqin oq nur sochadi; sovutilgandan keyin unga suv tomizilsa qiziydi va fenolftalein qo'shilsa eritma to'q pushti rangga bo'yaladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Marmar bo'lagini tigelga qo'yib, chinni uchburchakka o'rnating.",
+    "Gorelka alangasida 15–20 daqiqa kuchli qizdiring.",
+    "Sovigan bo'lakni probirkaga olib, ustiga ozroq suv tomizing va qizishini kuzating.",
+    "Hosil bo'lgan aralashmaga fenolftalein tomizing."
+   ],
+   "safety_uz": "Gorelka bilan ehtiyot bo'ling; CaO terini va ko'zni kuydiradi — ko'zoynak taqing, qo'l bilan ushlamang.",
+   "explanation_uz": "Kalsiy karbonat faqat yuqori haroratda (taxminan 900 °C atrofida) parchalanadi; sanoatda ohak shu usulda ohak pechlarida kuydiriladi. Qizdirilgan CaO yorqin nur sochadi (\"ohak nuri\"), hosil bo'lgan oksid suv bilan ishqor beradi.",
+   "questions_uz": [
+    "Ohak kuydirish reaksiyasi ekzotermikmi yoki endotermikmi?",
+    "Qoldiqda CaO borligini qanday isbotlash mumkin?",
+    "Ohaktosh qayerlarda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0010",
+   "category": "termik-parchalanish",
+   "title_uz": "Magniy karbonatning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Karbonatlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "MgCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 450,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgCO3 = MgO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda MgCO₃ karbonat aniondan CO₂ ajraladi.",
+     "Oq magniy oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq kukun o'zgarmaydi; gaz o'tkazuvchi naycha ohakli suvga tushirilsa, ohakli suv loyqalanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga magniy karbonat soling va gaz chiqarish naychali tiqin bilan berkiting.",
+    "Naycha uchini ohakli suvli probirkaga tushiring.",
+    "Probirkani kuchli qizdiring va ohakli suvni kuzating.",
+    "Qizdirishni to'xtatishdan oldin naychani ohakli suvdan chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini suyuqlikdan chiqaring, aks holda suyuqlik issiq probirkaga so'rilib, uni yorib yuboradi.",
+   "explanation_uz": "Magniy karbonat kalsiy karbonatga qaraganda pastroq haroratda parchalanadi: kationning zaryad zichligi qanchalik katta bo'lsa, karbonat shuncha oson parchalanadi. Ajralgan CO₂ ohakli suvni loyqalatishi bilan aniqlanadi.",
+   "questions_uz": [
+    "CO₂ ni qanday aniqlash mumkin?",
+    "MgCO₃ va CaCO₃ ning parchalanish haroratini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0011",
+   "category": "termik-parchalanish",
+   "title_uz": "Rux karbonatning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Karbonatlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "ZnCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 300,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "ZnCO3 = ZnO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda ZnCO₃ dan CO₂ ajraladi.",
+     "Rux oksid qoladi; u issiqda sariq, sovuqda oq."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq kukun qizdirilganda sarg'ayadi va sovuganda yana oqaradi; ajralgan gaz ohakli suvni loyqalatadi.",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#f6f6f0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga rux karbonat soling, gaz chiqarish naychali tiqin bilan berkiting.",
+    "Naycha uchini ohakli suvga tushiring va probirkani qizdiring.",
+    "Qoldiqning issiq va sovuq holatdagi rangini solishtiring.",
+    "Qizdirishni to'xtatishdan oldin naychani ohakli suvdan chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini suyuqlikdan chiqaring. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Og'ir metallarning karbonatlari ishqoriy metallar karbonatlariga qaraganda ancha oson parchalanadi. ZnO ning issiqda sarg'ayishi — uning sifat belgisi.",
+   "questions_uz": [
+    "Qoldiq ZnO ekanini qanday belgi bilan aniqlash mumkin?",
+    "Nima uchun Na₂CO₃ qizdirilganda parchalanmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0012",
+   "category": "termik-parchalanish",
+   "title_uz": "Malaxitning (mis(II) gidroksokarbonat) termik parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Murakkab moddalarning parchalanishi; tuzlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(CuOH)2CO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "(CuOH)2CO3 = 2CuO + CO2↑ + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda asosli tuz parchalanadi: gidroksid guruhlaridan suv, karbonatdan CO₂ ajraladi.",
+     "Qora mis(II) oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Yashil kukun qorayadi, probirka devorida suv tomchilari paydo bo'ladi, ajralgan gaz ohakli suvni loyqalatadi.",
+    "solid_color_change": {
+     "from": "#3fa36b",
+     "to": "#1a1a1a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga malaxit kukunini soling va uni og'zini biroz pastga qaratib shtativga mahkamlang.",
+    "Gaz chiqarish naychasini ohakli suvli probirkaga tushiring.",
+    "Probirkani avval butunlay, so'ng modda turgan joyidan qizdiring.",
+    "Rang o'zgarishi, suv tomchilari va ohakli suvni kuzating; oxirida avval naychani chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini ohakli suvdan chiqaring. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Malaxit — asosli tuz, uning tarkibida ham gidroksid, ham karbonat guruhi bor, shuning uchun parchalanganda uch xil modda: oksid, suv va karbonat angidrid hosil bo'ladi. Bu tajriba parchalanish reaksiyasining klassik namunasi.",
+   "questions_uz": [
+    "Mahsulotlarning har birini qanday aniqlash mumkin?",
+    "Malaxit tarkibidagi elementlarni ayting.",
+    "Bu reaksiya qaysi turga kiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0013",
+   "category": "termik-parchalanish",
+   "title_uz": "Qo'rg'oshin(II) karbonatning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Karbonatlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "PbCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "PbCO3 = PbO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda PbCO₃ dan CO₂ ajraladi.",
+     "Sariq qo'rg'oshin(II) oksid (glyot) qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq kukun sarg'ayadi, ajralgan gaz ohakli suvni loyqalatadi.",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#e8b830"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga oz miqdorda qo'rg'oshin karbonat soling, gaz chiqarish naychali tiqin bilan berkiting.",
+    "Naycha uchini ohakli suvga tushiring va probirkani qizdiring.",
+    "Qoldiq rangini kuzating; oxirida avval naychani chiqaring."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: changini nafas olmang, qo'lqopda ishlang, qoldiqni maxsus idishga yig'ing. Qizdirish to'xtatilishidan oldin naychani suyuqlikdan chiqaring.",
+   "explanation_uz": "Qo'rg'oshin karbonat nisbatan past haroratda parchalanib, sariq PbO hosil qiladi. Rangning oqdan sariqqa o'zgarishi va CO₂ ning ajralishi reaksiya borganini ko'rsatadi.",
+   "questions_uz": [
+    "PbO qanday rangda?",
+    "Karbonatlarning parchalanish harorati kationga qanday bog'liq?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0014",
+   "category": "termik-parchalanish",
+   "title_uz": "Bariy karbonatning juda yuqori haroratda parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Karbonatlarning termik barqarorligi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "BaCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 1050,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Gorelka alangasi yetarli emas — faqat yuqori haroratli mufel pechida; 1050 °C — taxminiy modellash chegarasi, amalda parchalanish yanada yuqori haroratda tez boradi."
+   },
+   "equation": {
+    "molecular": "BaCO3 = BaO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Ba²⁺ ioni katta va zaryad zichligi kichik, shuning uchun karbonat ionini kam qutblaydi.",
+     "Shu sababli BaCO₃ juda yuqori haroratdagina BaO va CO₂ ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Spirt lampasi va gorelkada qizdirilganda o'zgarish kuzatilmaydi; faqat juda yuqori haroratda massa kamayadi va CO₂ ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi"
+   ],
+   "procedure_uz": [
+    "Tigelga bariy karbonat soling va massasini o'lchang.",
+    "Tigelni mufel pechiga qo'yib, juda yuqori haroratda uzoq qizdiring.",
+    "Sovigandan keyin qoldiq massasini qayta o'lchang va solishtiring."
+   ],
+   "safety_uz": "Bariy birikmalari zaharli; changini nafas olmang. Mufel pechidan tigelni faqat uzun qisqich va himoya qo'lqopi bilan oling.",
+   "explanation_uz": "Ishqoriy-yer metallari karbonatlarining termik barqarorligi guruh bo'ylab pastga qarab ortadi: MgCO₃ < CaCO₃ < SrCO₃ < BaCO₃. Bariy karbonat eng barqaror, u maktab sharoitidagi qizdirishda parchalanmaydi.",
+   "questions_uz": [
+    "MgCO₃, CaCO₃ va BaCO₃ ni termik barqarorligi bo'yicha tartiblang.",
+    "Nima uchun kation radiusi ortishi bilan karbonat barqarorroq bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0015",
+   "category": "termik-parchalanish",
+   "title_uz": "Temir(II) karbonatning havosiz qizdirilganda parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Karbonatlarning xossalari; temir birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 450,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Havo kirmasligi uchun probirka gaz chiqarish naychali tiqin bilan berkitiladi; havoda qizdirilsa FeO oksidlanib Fe₂O₃ hosil bo'ladi."
+   },
+   "equation": {
+    "molecular": "FeCO3 = FeO + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda FeCO₃ dan CO₂ ajraladi.",
+     "Havo kirmasa qora temir(II) oksid qoladi; havoda u tezda Fe₂O₃ gacha oksidlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Kulrang-oq kukun qorayadi, ajralgan gaz ohakli suvni loyqalatadi.",
+    "solid_color_change": {
+     "from": "#d8dcc8",
+     "to": "#1c1c1a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga temir(II) karbonat soling va gaz chiqarish naychali tiqin bilan zich berkiting.",
+    "Naycha uchini ohakli suvga tushiring va probirkani qizdiring.",
+    "Qoldiq rangini kuzating; oxirida avval naychani chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini suyuqlikdan chiqaring. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Siderit (FeCO₃) qizdirilganda CO₂ yo'qotadi. Mahsulot tarkibi sharoitga bog'liq: havosiz FeO, havo ishtirokida esa temir(II) oksidlanib Fe₂O₃ hosil bo'ladi — temir rudalarini kuydirish shunga asoslangan.",
+   "questions_uz": [
+    "Havo ishtirokida FeCO₃ parchalanganda qanday mahsulot hosil bo'ladi? Tenglamasini yozing.",
+    "Bu reaksiyada temirning oksidlanish darajasi o'zgaradimi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0016",
+   "category": "termik-parchalanish",
+   "title_uz": "Natriy gidrokarbonatning (ichimlik sodasi) termik parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Tuzlarning xossalari: nordon tuzlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NaHCO3",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 120,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaHCO3 = Na2CO3 + CO2↑ + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda ikki HCO₃⁻ ionidan CO₂ va suv ajraladi.",
+     "Qattiq natriy karbonat qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq kukun tashqi ko'rinishini saqlaydi, probirka devorida suv tomchilari paydo bo'ladi, ajralgan gaz ohakli suvni loyqalatadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 1 g ichimlik sodasi soling, probirkani og'zini biroz pastga qaratib mahkamlang.",
+    "Gaz chiqarish naychasini ohakli suvga tushiring.",
+    "Probirkani qizdiring, ohakli suv va probirka devorini kuzating.",
+    "Qizdirishni to'xtatishdan oldin naychani ohakli suvdan chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini suyuqlikdan chiqaring. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Nordon tuzlar o'rta tuzlarga qaraganda beqaror: NaHCO₃ nisbatan past haroratda parchalanadi, Na₂CO₃ esa bunday sharoitda parchalanmaydi. Novvoychilikda xamirning ko'pchishi ham shu reaksiyada ajraladigan CO₂ hisobiga.",
+   "questions_uz": [
+    "Nima uchun ichimlik sodasi xamirni ko'pchitadi?",
+    "Qoldiq Na₂CO₃ ekanini qanday isbotlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0017",
+   "category": "termik-parchalanish",
+   "title_uz": "Kaliy gidrokarbonatning termik parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Tuzlarning xossalari: nordon tuzlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KHCO3",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2KHCO3 = K2CO3 + CO2↑ + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda gidrokarbonat ionlaridan CO₂ va suv ajraladi.",
+     "Kaliy karbonat (potash) qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq kristallar kukunga aylanadi, probirka devorida suv tomchilari to'planadi, ajralgan gaz ohakli suvni loyqalatadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga kaliy gidrokarbonat soling.",
+    "Gaz chiqarish naychasini ohakli suvga tushiring va probirkani qizdiring.",
+    "Ohakli suv va probirka devoridagi o'zgarishlarni kuzating; oxirida avval naychani chiqaring."
+   ],
+   "safety_uz": "Qizdirish to'xtatilishidan oldin gaz naychasini suyuqlikdan chiqaring. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Kaliy gidrokarbonat ham natriy gidrokarbonat kabi qizdirilganda o'rta tuz, CO₂ va suvga parchalanadi. Hosil bo'lgan K₂CO₃ (potash) esa termik barqaror.",
+   "questions_uz": [
+    "KHCO₃ va K₂CO₃ ning termik barqarorligini solishtiring.",
+    "Potash qayerda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0018",
+   "category": "termik-parchalanish",
+   "title_uz": "Ammoniy gidrokarbonatning qizdirilganda to'liq parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Ammoniy tuzlari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NH4HCO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NH4HCO3 = NH3↑ + CO2↑ + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Ammoniy ionidan proton gidrokarbonat ioniga o'tadi.",
+     "Hosil bo'lgan NH₃, CO₂ va suv gaz holida chiqib ketadi — probirkada qoldiq qolmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq kristallar qoldiqsiz yo'qoladi, ammiak hidi seziladi, probirka og'ziga tutilgan ho'l qizil lakmus qog'ozi ko'karadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq ammoniy gidrokarbonat soling.",
+    "Probirkani sekin qizdiring.",
+    "Probirka og'ziga ho'llangan qizil lakmus qog'ozini tuting.",
+    "Probirkada qoldiq qolganini tekshiring."
+   ],
+   "safety_uz": "Ammiakni to'g'ridan-to'g'ri hidlamang — havoni qo'l bilan o'zingizga yelpib hidlang. Tajribani yaxshi shamollatiladigan joyda o'tkazing.",
+   "explanation_uz": "Ammoniy gidrokarbonat past haroratda ham parchalanadi va barcha mahsulotlari uchuvchan bo'lgani uchun qoldiq qolmaydi. Shuning uchun u qandolatchilikda yumshatgich (\"ammoniy\") sifatida ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun probirkada qoldiq qolmaydi?",
+    "Ajralgan ammiakni qanday aniqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0019",
+   "category": "termik-parchalanish",
+   "title_uz": "Ammoniy karbonatning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Ammoniy tuzlari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(NH4)2CO3",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "(NH4)2CO3 = 2NH3↑ + CO2↑ + H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Ammoniy ionlari karbonat ioniga proton beradi.",
+     "NH₃, CO₂ va suv bug'i ajralib chiqadi, qoldiq qolmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Oq modda qoldiqsiz yo'qoladi, kuchli ammiak hidi seziladi, ho'l qizil lakmus qog'ozi ko'karadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq ammoniy karbonat soling.",
+    "Probirkani ehtiyotkorlik bilan qizdiring.",
+    "Probirka og'ziga ho'l qizil lakmus qog'ozini tuting."
+   ],
+   "safety_uz": "Ammiakni to'g'ridan-to'g'ri hidlamang; yaxshi shamollatiladigan joyda ishlang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Kuchsiz asos (NH₃) va kuchsiz kislota (H₂CO₃) dan hosil bo'lgan tuz termik beqaror. Qizdirilganda u o'zini tashkil etgan uchuvchan moddalarga to'liq parchalanadi.",
+   "questions_uz": [
+    "Ammoniy karbonat va natriy karbonatning qizdirilgandagi farqini tushuntiring.",
+    "\"Novshadil spirti\" hidi qaysi moddaga tegishli?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0020",
+   "category": "termik-parchalanish",
+   "title_uz": "Kalsiy gidrokarbonat eritmasini qaynatish (suvning vaqtinchalik qattiqligini yo'qotish)",
+   "level": "9-sinf",
+   "topic_uz": "Suvning qattiqligi va uni yumshatish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ca(HCO3)2",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 70,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Eritma qaynaguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": "Ca(HCO3)2 = CaCO3↓ + CO2↑ + H2O",
+    "ionic_full": "Ca²⁺ + 2HCO3⁻ = CaCO3↓ + CO2↑ + H2O",
+    "ionic_net": "Ca²⁺ + 2HCO3⁻ = CaCO3↓ + CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda gidrokarbonat ionlari CO₃²⁻, CO₂ va suvga aylanadi.",
+     "Hosil bo'lgan CO₃²⁻ ionlari Ca²⁺ bilan erimaydigan CaCO₃ ni cho'ktiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CaCO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Tiniq eritma qaynatilganda loyqalanadi va oq cho'kma tushadi, mayda gaz pufakchalari ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 5 ml kalsiy gidrokarbonat eritmasini (yoki qattiq suvni) quying.",
+    "Eritmani qaynaguncha qizdiring va bir necha daqiqa qaynating.",
+    "Hosil bo'lgan loyqalik va cho'kmani kuzating."
+   ],
+   "safety_uz": "Qaynayotgan eritma sachrashi mumkin: probirkani qiya ushlang va og'zini odamlarga qaratmang.",
+   "explanation_uz": "Kalsiy va magniy gidrokarbonatlari suvga vaqtinchalik qattiqlik beradi. Qaynatilganda ular parchalanib erimaydigan karbonatga aylanadi — choynak va qozonlarda quyqa (nakip) shu tarzda hosil bo'ladi.",
+   "questions_uz": [
+    "Vaqtinchalik va doimiy qattiqlik nima bilan farq qiladi?",
+    "Choynakdagi quyqani qanday moddalar bilan tozalash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0021",
+   "category": "termik-parchalanish",
+   "title_uz": "Ammoniy xloridning qizdirilganda parchalanishi va qayta birikishi (\"sublimatsiya\")",
+   "level": "9-sinf",
+   "topic_uz": "Ammoniy tuzlari; qaytar reaksiyalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 340,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Probirkaning faqat tubi qizdiriladi; yuqori sovuq qismida NH₃ va HCl qayta birikadi."
+   },
+   "equation": {
+    "molecular": "NH4Cl = NH3↑ + HCl↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda NH₄⁺ ionidan proton Cl⁻ ioniga o'tadi va ikki gaz — NH₃ va HCl hosil bo'ladi.",
+     "Gazlar probirkaning sovuq qismiga ko'tariladi va u yerda qayta birikib, yana NH₄Cl kristallarini hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "smoke"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Probirka tubidagi oq kristallar yo'qoladi, yuqori sovuq devorda esa yana oq g'ubor (NH₄Cl) yig'iladi; og'ziga tutilgan ho'l lakmus qog'ozi avval ko'karadi, so'ng qizaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq ammoniy xlorid soling.",
+    "Probirkani qiya ushlab, faqat tubini qizdiring.",
+    "Probirkaning yuqori sovuq qismida oq g'ubor paydo bo'lishini kuzating.",
+    "Probirka og'ziga ho'l lakmus qog'ozini tutib, rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ajraladigan HCl va NH₃ nafas yo'llarini qitiqlaydi — yaxshi shamollatiladigan joyda yoki mo'rili shkafda ishlang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Bu hodisa tashqi tomondan sublimatsiyaga o'xshaydi, lekin aslida kimyoviy jarayon: NH₄Cl issiqda NH₃ va HCl ga parchalanadi, sovuqda ular qayta birikadi (NH₃ + HCl = NH₄Cl). Yengilroq NH₃ tezroq tarqalgani uchun lakmus avval ko'karadi.",
+   "questions_uz": [
+    "Nima uchun bu jarayon haqiqiy sublimatsiya emas?",
+    "Lakmus qog'ozi rangining ketma-ket o'zgarishini tushuntiring.",
+    "Bu xossa NH₄Cl ni NaCl dan ajratishda qanday qo'llaniladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0022",
+   "category": "termik-parchalanish",
+   "title_uz": "Ammoniy dixromatning parchalanishi (\"vulqon\" tajribasi)",
+   "level": "9-sinf",
+   "topic_uz": "Ichki molekulyar oksidlanish-qaytarilish reaksiyalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(NH4)2Cr2O7",
+     "state": "s",
+     "mass_g": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 180,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kristallar uyumi cho'g'langan shisha tayoqcha yoki gugurt alangasi bilan bir joyidan qizdiriladi; reaksiya o'z-o'zidan davom etadi."
+   },
+   "equation": {
+    "molecular": "(NH4)2Cr2O7 = Cr2O3 + N2↑ + 4H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2N⁻³ − 6e⁻ = N2⁰",
+     "2Cr⁺⁶ + 6e⁻ = 2Cr⁺³"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Bir modda tarkibida ham oksidlovchi (Cr⁺⁶), ham qaytaruvchi (N⁻³) bor — ichki molekulyar oksidlanish-qaytarilish.",
+     "Reaksiya ekzotermik: boshlangandan keyin ajralgan issiqlik keyingi qatlamlarni qizdiradi.",
+     "Ajralgan azot va suv bug'i yengil Cr₂O₃ zarrachalarini otib chiqaradi — \"vulqon\" hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "N2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "volcano"
+     },
+     {
+      "type": "sparks"
+     },
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "To'q sariq kristallar uchqun sochib \"otiladi\", hajmi ancha katta bo'lgan yengil to'q yashil kukun (Cr₂O₃) qoladi.",
+    "solid_color_change": {
+     "from": "#e8661a",
+     "to": "#3f7a3a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "chinni-kosacha",
+    "shisha-tayoqcha",
+    "spirt-lampasi",
+    "gugurt"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga yoki o'tga chidamli taglikka 2 g ammoniy dixromatni uyum shaklida to'king.",
+    "Uyum uchiga spirt lampasida qizdirilgan shisha tayoqcha yoki yonib turgan gugurtni tekkizing.",
+    "Reaksiya boshlangach, olovni olib qo'ying va jarayonni xavfsiz masofadan kuzating.",
+    "Hosil bo'lgan yashil kukunning hajmini boshlang'ich moddaniki bilan solishtiring."
+   ],
+   "safety_uz": "Ammoniy dixromat zaharli va kanserogen (Cr⁺⁶): qo'lqopda ishlang, changini nafas olmang. Tajribani mo'rili shkafda o'tkazing; uchayotgan Cr₂O₃ zarrachalari stolga sochiladi — atrofni tozalab, chiqindini maxsus idishga yig'ing.",
+   "explanation_uz": "Ammoniy dixromatda xrom(VI) oksidlovchi, ammoniy azoti (N⁻³) esa qaytaruvchi vazifasini bajaradi, shuning uchun modda tashqi reagentsiz parchalanadi. Reaksiya ekzotermik bo'lgani uchun bir marta boshlansa o'zi davom etadi.",
+   "questions_uz": [
+    "Reaksiyada oksidlovchi va qaytaruvchini ko'rsating.",
+    "Nima uchun reaksiya boshlanganidan keyin qizdirish shart emas?",
+    "Ichki molekulyar oksidlanish-qaytarilish reaksiyalariga yana misollar keltiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0023",
+   "category": "termik-parchalanish",
+   "title_uz": "Ammoniy nitrit eritmasining qizdirilganda parchalanishi (azot olish)",
+   "level": "9-sinf",
+   "topic_uz": "Azot va uning olinishi; ichki molekulyar oksidlanish-qaytarilish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NH4NO2",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 70,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Konsentrlangan eritma ehtiyotkorlik bilan qizdiriladi; amalda ko'pincha NH₄Cl va NaNO₂ eritmalari aralashmasi ishlatiladi."
+   },
+   "equation": {
+    "molecular": "NH4NO2 = N2↑ + 2H2O",
+    "ionic_full": "NH4⁺ + NO2⁻ = N2↑ + 2H2O",
+    "ionic_net": "NH4⁺ + NO2⁻ = N2↑ + 2H2O",
+    "electron_balance": [
+     "N⁻³ − 3e⁻ = N⁰",
+     "N⁺³ + 3e⁻ = N⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ammoniy ionidagi azot (N⁻³) qaytaruvchi, nitrit ionidagi azot (N⁺³) oksidlovchi.",
+     "Ikkala azot atomi ham N⁰ gacha o'tadi — erkin azot hosil bo'ladi (konproporsiyalanish)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "N2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Qizdirilganda eritmadan rangsiz, hidsiz gaz pufakchalari ajraladi; gaz yig'ilgan probirkaga tushirilgan yonib turgan cho'p o'chadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "pnevmatik-vanna",
+    "chop-yonib-turgan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml ammoniy nitrit eritmasini quying va gaz chiqarish naychali tiqin bilan berkiting.",
+    "Probirkani shtativga mahkamlab, ehtiyotkorlik bilan qizdiring.",
+    "Ajralayotgan gazni suv ostida (pnevmatik vannada) probirkaga yig'ing.",
+    "Gaz to'ldirilgan probirkaga yonib turgan cho'pni tushirib, alanga o'chishini kuzating."
+   ],
+   "safety_uz": "Reaksiya ekzotermik — qizdirishni sekin olib boring, eritma qaynab ketsa alangani olib qo'ying. Qattiq ammoniy nitritni qizdirmang: u beqaror. Qizdirish to'xtatilishidan oldin naychani suvdan chiqaring.",
+   "explanation_uz": "Ammoniy nitritda bir xil element (azot) ham oksidlovchi, ham qaytaruvchi vazifasida bo'ladi, shuning uchun parchalanganda faqat N₂ va suv hosil bo'ladi. Laboratoriyada sof azot shu usulda olinadi; azot yonishni quvvatlamaydi.",
+   "questions_uz": [
+    "Bu reaksiyada azotning oksidlanish darajalari qanday o'zgaradi?",
+    "Azotni qanday usulda yig'ish mumkin va nima uchun?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0024",
+   "category": "termik-parchalanish",
+   "title_uz": "Natriy nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NaNO3",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Tuz avval suyuqlanadi, so'ng parchalanadi."
+   },
+   "equation": {
+    "molecular": "2NaNO3 = 2NaNO2 + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 2e⁻ = N⁺³",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Faol metallarning nitratlari qizdirilganda nitrit va kislorodga parchalanadi.",
+     "N⁺⁵ ikki elektron qabul qilib N⁺³ ga, kislorod O⁻² dan O₂⁰ ga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Oq tuz suyuqlanadi, suyuqlanmadan gaz pufakchalari ajraladi; probirkaga tushirilgan cho'g'langan cho'p alangalanib ketadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga natriy nitrat soling va uni qisqichga mahkamlang.",
+    "Tuz suyuqlanib, gaz ajrala boshlaguncha kuchli qizdiring.",
+    "Probirka og'ziga cho'g'langan cho'pni tushiring va alangalanishini kuzating."
+   ],
+   "safety_uz": "Nitrat suyuqlanmasi kuchli oksidlovchi: unga yog'och, qog'oz, oltingugurt va boshqa yonuvchan moddalar tushmasin. Cho'pni suyuqlanmaga tekkizmang.",
+   "explanation_uz": "Ishqoriy metallar nitratlari (litiydan tashqari) qizdirilganda nitrit va kislorodga parchalanadi. Ajralgan kislorod cho'g'langan cho'pni alangalatishi bilan aniqlanadi.",
+   "questions_uz": [
+    "Nitratlarning parchalanishi metallning faollik qatoridagi o'rniga qanday bog'liq?",
+    "Bu reaksiyada oksidlovchi va qaytaruvchini ko'rsating."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0025",
+   "category": "termik-parchalanish",
+   "title_uz": "Kaliy nitratning (selitra) termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KNO3",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2KNO3 = 2KNO2 + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 2e⁻ = N⁺³",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kaliy nitrat suyuqlangandan keyin parchalana boshlaydi.",
+     "Kaliy nitrit qoladi, kislorod ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Kristallar suyuqlanadi, suyuqlanmadan gaz pufakchalari chiqadi; cho'g'langan cho'p alangalanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga 1 g kaliy nitrat soling.",
+    "Probirkani kuchli qizdiring — tuz suyuqlanib, gaz ajrala boshlaydi.",
+    "Probirka og'ziga cho'g'langan cho'pni tushiring."
+   ],
+   "safety_uz": "Kaliy nitrat suyuqlanmasi kuchli oksidlovchi; unga yonuvchan moddalar (ko'mir, oltingugurt, qog'oz) tushsa shiddatli yonish yuz beradi. Cho'pni suyuqlanmaga tekkizmang.",
+   "explanation_uz": "Kaliy nitrat ham boshqa ishqoriy metallar nitratlari kabi nitrit va kislorodga parchalanadi. Ajralgan kislorod tufayli selitra yonish jarayonlarini kuchaytiradi.",
+   "questions_uz": [
+    "KNO₃ va Cu(NO₃)₂ ning parchalanish mahsulotlarini solishtiring.",
+    "Nima uchun selitra yonuvchan moddalar bilan birga saqlanmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0026",
+   "category": "termik-parchalanish",
+   "title_uz": "Mis(II) nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu(NO3)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Cu(NO3)2 = 2CuO + 4NO2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 1e⁻ = N⁺⁴",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Magniydan misgacha bo'lgan metallar nitratlari oksid, NO₂ va O₂ ga parchalanadi.",
+     "N⁺⁵ bir elektron qabul qilib N⁺⁴ (NO₂) ga, kislorod O⁻² dan O₂ ga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Ko'k kristallar avval o'z kristallanish suvida eriydi, so'ng qorayadi; probirkadan qo'ng'ir gaz (NO₂) chiqadi.",
+    "solid_color_change": {
+     "from": "#3a8fd6",
+     "to": "#1a1a1a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq mis(II) nitrat soling.",
+    "Probirkani mo'rili shkafda qizdiring.",
+    "Qo'ng'ir gaz ajralishini va qoldiq rangining o'zgarishini kuzating."
+   ],
+   "safety_uz": "NO₂ juda zaharli! Tajribani mo'rili shkafda o'tkazing, gazni hidlamang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Mis nitrati qizdirilganda qora mis(II) oksid, qo'ng'ir NO₂ va kislorod hosil bo'ladi. Bu faollik qatorining o'rta qismidagi metallar nitratlariga xos parchalanish turi.",
+   "questions_uz": [
+    "Qo'ng'ir gaz qaysi modda?",
+    "NaNO₃, Cu(NO₃)₂ va AgNO₃ ning parchalanishini solishtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0027",
+   "category": "termik-parchalanish",
+   "title_uz": "Qo'rg'oshin(II) nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 470,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Pb(NO3)2 = 2PbO + 4NO2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 1e⁻ = N⁺⁴",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda kristallar chirsillab yoriladi (dekrepitatsiya).",
+     "Sariq qo'rg'oshin(II) oksid, qo'ng'ir NO₂ va kislorod hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crack"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Oq kristallar chirsillab yoriladi, qo'ng'ir gaz ajraladi, qoldiq sariq rangga kiradi.",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#e8b830"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga ozroq qo'rg'oshin nitrat soling.",
+    "Probirkani mo'rili shkafda kuchli qizdiring.",
+    "Kristallarning chirsillashini, qo'ng'ir gazni va qoldiq rangini kuzating."
+   ],
+   "safety_uz": "NO₂ va qo'rg'oshin birikmalari zaharli! Tajribani mo'rili shkafda o'tkazing, qo'lqopda ishlang, qoldiqni maxsus idishga yig'ing.",
+   "explanation_uz": "Qo'rg'oshin nitrat — NO₂ ni laboratoriyada olishning klassik manbai. Kristallar ichidagi qoldiq namlik va gazlarning keskin kengayishi ularning chirsillab yorilishiga sabab bo'ladi.",
+   "questions_uz": [
+    "Nima uchun kristallar chirsillaydi?",
+    "Pb(NO₃)₂ ning parchalanish tenglamasini elektron balans usulida tenglashtiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0028",
+   "category": "termik-parchalanish",
+   "title_uz": "Kumush nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 440,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2AgNO3 = 2Ag + 2NO2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ag⁺¹ + 1e⁻ = Ag⁰",
+     "N⁺⁵ + 1e⁻ = N⁺⁴",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Vodoroddan keyin turadigan kam faol metallar nitratlari erkin metallgacha parchalanadi.",
+     "Ag⁺ va N⁺⁵ qaytariladi, kislorod oksidlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     },
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "Tuz suyuqlanadi, qo'ng'ir gaz chiqadi, probirka tubida kulrang-oq kumush qoladi.",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#d8d8d8"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq kumush nitrat soling.",
+    "Probirkani mo'rili shkafda kuchli qizdiring.",
+    "Qo'ng'ir gaz ajralishini va qoldiqni kuzating."
+   ],
+   "safety_uz": "NO₂ zaharli — tajribani mo'rili shkafda o'tkazing. Kumush nitrat teriga tegsa qora dog' qoldiradi va kuydiradi; qo'lqopda ishlang.",
+   "explanation_uz": "Kumush oksidi ham beqaror bo'lgani uchun kumush nitrat parchalanganda oksid emas, balki erkin metall hosil bo'ladi. Shunday qilib nitratlarning parchalanish mahsuloti metallning faolligiga bog'liq.",
+   "questions_uz": [
+    "Nima uchun mahsulot Ag₂O emas, balki Ag bo'ladi?",
+    "Bu reaksiyada ikkita oksidlovchi (Ag⁺¹, N⁺⁵) va bitta qaytaruvchi (O⁻²) bor: elektron balansni tuzing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0029",
+   "category": "termik-parchalanish",
+   "title_uz": "Magniy nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg(NO3)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Mg(NO3)2 = 2MgO + 4NO2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 1e⁻ = N⁺⁴",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Magniy nitrati ishqoriy metallar nitratlaridan farqli ravishda nitrit emas, oksid hosil qiladi.",
+     "Qo'ng'ir NO₂ va kislorod ajraladi, oq MgO qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Oq tuz qizdirilganda qo'ng'ir gaz ajratadi, probirkada oq kukun (MgO) qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq magniy nitrat soling.",
+    "Probirkani mo'rili shkafda kuchli qizdiring.",
+    "Qo'ng'ir gazni va qoldiqni kuzating."
+   ],
+   "safety_uz": "NO₂ zaharli — tajribani mo'rili shkafda o'tkazing. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Magniy faollik qatorida ishqoriy metallardan keyin turadi, uning nitrati qizdirilganda oksid, NO₂ va O₂ hosil qiladi. Bu qoidaning chegarasini ko'rsatuvchi misol.",
+   "questions_uz": [
+    "NaNO₃ va Mg(NO₃)₂ parchalanishining farqi nimada?",
+    "Bu reaksiyada qaysi elementlar oksidlanish darajasini o'zgartiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0030",
+   "category": "termik-parchalanish",
+   "title_uz": "Marganes(II) nitratning termik parchalanishi (MnO₂ olish)",
+   "level": "litsey",
+   "topic_uz": "Nitratlarning termik parchalanishi; marganes birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mn(NO3)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Mn(NO3)2 = MnO2 + 2NO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mn⁺² − 2e⁻ = Mn⁺⁴",
+     "2N⁺⁵ + 2e⁻ = 2N⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda nitrat ioni oksidlovchi vazifasini bajaradi va Mn²⁺ ni Mn⁺⁴ gacha oksidlaydi.",
+     "Qora marganes(IV) oksid qoladi, qo'ng'ir NO₂ ajraladi; kislorod ajralmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Och pushti tuz qizdirilganda suyuqlanadi, qo'ng'ir gaz chiqadi va qora kukun (MnO₂) qoladi.",
+    "solid_color_change": {
+     "from": "#f3c6cf",
+     "to": "#2a2420"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq marganes(II) nitrat soling.",
+    "Probirkani mo'rili shkafda qizdiring.",
+    "Qo'ng'ir gazni va qoldiq rangini kuzating."
+   ],
+   "safety_uz": "NO₂ zaharli — tajribani mo'rili shkafda o'tkazing. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Ko'pchilik nitratlardan farqli ravishda Mn(NO₃)₂ parchalanganda metall o'zi ham oksidlanadi: Mn⁺² → Mn⁺⁴, shuning uchun kislorod ajralmaydi. Shu usul bilan yupqa MnO₂ qatlamlari olinadi.",
+   "questions_uz": [
+    "Bu reaksiyada nima uchun O₂ ajralmaydi?",
+    "Elektron balansni tuzing va koeffitsiyentlarni tekshiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0031",
+   "category": "termik-parchalanish",
+   "title_uz": "Kaliy xloratning katalizatorsiz qizdirilishi (disproporsiyalanish)",
+   "level": "litsey",
+   "topic_uz": "Disproporsiyalanish reaksiyalari; katalizatorning roli",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KClO3",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Katalizatorsiz KClO₃ avval suyuqlanadi; 400 °C atrofida asosan perxlorat va xloridga aylanadi, kislorod kam ajraladi. Haroratni ancha oshirilsa KClO₄ ham KCl va O₂ ga parchalanadi."
+   },
+   "equation": {
+    "molecular": "4KClO3 = 3KClO4 + KCl",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cl⁺⁵ − 2e⁻ = Cl⁺⁷",
+     "Cl⁺⁵ + 6e⁻ = Cl⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Katalizator bo'lmasa, suyuqlangan KClO₃ da xlor atomlari o'zaro elektron almashadi.",
+     "Uchta Cl⁺⁵ oksidlanib Cl⁺⁷ (perxlorat) ga, bittasi qaytarilib Cl⁻ ga o'tadi — disproporsiyalanish."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Oq kristallar suyuqlanadi; gaz deyarli ajralmaydi, cho'g'langan cho'p alangalanmaydi. Suyuqlanma sovuganda yana qotadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga ozroq toza kaliy xlorat soling.",
+    "Probirkani ehtiyotkorlik bilan qizdiring, tuz suyuqlanishini kuzating.",
+    "Probirka og'ziga cho'g'langan cho'pni tuting va MnO₂ ishtirokidagi tajriba bilan solishtiring."
+   ],
+   "safety_uz": "KClO₃ suyuqlanmasi juda kuchli oksidlovchi: unga hech qanday yonuvchan modda (cho'p, qog'oz) tushmasin. Faqat o'qituvchi nazoratida, oz miqdorda, himoya ekrani ortida ishlang.",
+   "explanation_uz": "Katalizator nafaqat tezlikni, balki reaksiya yo'nalishini ham o'zgartirishi mumkin: MnO₂ bilan KClO₃ to'g'ridan-to'g'ri KCl va O₂ ga parchalanadi, usiz esa disproporsiyalanib KClO₄ va KCl hosil qiladi. Perxlorat ancha yuqori haroratdagina kislorod ajratadi.",
+   "questions_uz": [
+    "Disproporsiyalanish nima? Misol keltiring.",
+    "MnO₂ bilan va usiz o'tkazilgan tajribalar natijasini solishtiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0032",
+   "category": "termik-parchalanish",
+   "title_uz": "Simob(II) oksidning termik parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Kislorodning ochilishi tarixi; parchalanish reaksiyalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "HgO",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 450,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2HgO = 2Hg + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Hg⁺² + 2e⁻ = Hg⁰",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda HgO dagi Hg⁺² qaytarilib metall simobga, O⁻² oksidlanib kislorodga aylanadi.",
+     "Simob bug'i probirkaning sovuq qismida mayda yaltiroq tomchilar holida kondensatlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "mirror"
+     },
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "To'q sariq-qizil kukun qorayib kamayadi, probirkaning sovuq devorida kumushrang simob tomchilari paydo bo'ladi; cho'g'langan cho'p alangalanadi.",
+    "solid_color_change": {
+     "from": "#d8541a",
+     "to": "#c8ccd0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga juda oz miqdorda simob(II) oksid soling.",
+    "Mo'rili shkafda probirkani kuchli qizdiring.",
+    "Probirka og'ziga cho'g'langan cho'pni tushiring.",
+    "Probirkaning sovuq qismidagi metall tomchilarini kuzating."
+   ],
+   "safety_uz": "Simob va uning bug'lari o'ta zaharli! Tajribani faqat mo'rili shkafda, juda oz miqdorda, o'qituvchi o'tkazadi; simob tomchilarini yig'ib, demerkurizatsiya qiling (oltingugurt kukuni sepiladi).",
+   "explanation_uz": "1774 yilda J. Pristli kislorodni aynan shu reaksiya bilan olgan. Kam faol metallarning oksidlari qizdirilganda metall va kislorodga parchalanadi; bu reaksiya oddiy moddalardan murakkab modda hosil bo'lishining teskarisi.",
+   "questions_uz": [
+    "Kislorod kim tomonidan va qanday ochilgan?",
+    "Nima uchun bu tajriba mo'rili shkafda o'tkaziladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0033",
+   "category": "termik-parchalanish",
+   "title_uz": "Mis kuporosining suvsizlanishi (ko'k → oq)",
+   "level": "8-sinf",
+   "topic_uz": "Kristallogidratlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuSO4·5H2O",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CuSO4·5H2O = CuSO4 + 5H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda kristall panjaradagi suv molekulalari ajralib chiqadi.",
+     "Ko'k rang mis ioniga birikkan suv molekulalari bilan bog'liq, shuning uchun suvsiz CuSO₄ oq bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Ko'k kristallar asta-sekin oq kukunga aylanadi, probirka devorida suv tomchilari to'planadi. Sovigan oq kukunga suv tomizilsa, u yana ko'karadi va qiziydi.",
+    "solid_color_change": {
+     "from": "#2f7fd8",
+     "to": "#f2f2ee"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 1 g mis kuporosi kristallarini soling.",
+    "Probirkani og'zini biroz pastga qaratib, ehtiyotkorlik bilan qizdiring.",
+    "Rang o'zgarishini va suv tomchilarini kuzating.",
+    "Sovigan oq kukunga bir necha tomchi suv tomizing."
+   ],
+   "safety_uz": "Mis birikmalari zararli: kukunni og'izga va ko'zga tushirmang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Kristallogidratlar tarkibida ma'lum miqdorda kristallanish suvi bo'ladi; qizdirilganda u ajraladi. Suvsiz CuSO₄ suvni qayta biriktirib ko'karadi, shuning uchun u suvni (masalan, spirtdagi namlikni) aniqlashda ishlatiladi.",
+   "questions_uz": [
+    "Kristallogidrat nima?",
+    "Suvsiz mis sulfat qanday maqsadda ishlatiladi?",
+    "1 mol CuSO₄·5H₂O dan necha gramm suv ajraladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0034",
+   "category": "termik-parchalanish",
+   "title_uz": "Kobalt(II) xlorid geksagidratining suvsizlanishi (pushti → ko'k)",
+   "level": "9-sinf",
+   "topic_uz": "Kristallogidratlar; namlik indikatorlari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CoCl2·6H2O",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 130,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CoCl2·6H2O = CoCl2 + 6H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda Co²⁺ ioni atrofidagi suv molekulalari ajraladi.",
+     "Kobalt ionining koordinatsion muhiti o'zgaradi va rang pushtidan ko'kka o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Pushti-qizil kristallar ko'k kukunga aylanadi, probirka devorida suv tomchilari paydo bo'ladi; havoda turganda kukun asta-sekin yana pushti rangga kiradi.",
+    "solid_color_change": {
+     "from": "#c8466e",
+     "to": "#2f55c8"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq kobalt(II) xlorid kristallarini soling.",
+    "Probirkani ehtiyotkorlik bilan qizdiring.",
+    "Rang o'zgarishini kuzating, so'ng sovigan kukunni havoda qoldirib, rangini qayta kuzating."
+   ],
+   "safety_uz": "Kobalt birikmalari zaharli va kanserogen: qo'lqopda ishlang, changini nafas olmang.",
+   "explanation_uz": "Gidratlangan kobalt(II) tuzlari pushti, suvsizlari ko'k rangda bo'ladi. Bu xossadan namlik indikatorlarida (masalan, silikagel donachalarida) foydalaniladi: ko'k rang quruqlikni, pushti rang namlikni bildiradi.",
+   "questions_uz": [
+    "Silikageldagi kobalt indikatori nima uchun rangini o'zgartiradi?",
+    "Bu jarayon qaytarmi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0035",
+   "category": "termik-parchalanish",
+   "title_uz": "Temir kuporosining suvsizlanishi",
+   "level": "9-sinf",
+   "topic_uz": "Kristallogidratlar; temir birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeSO4·7H2O",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeSO4·7H2O = FeSO4 + 7H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda kristallanish suvi bosqichma-bosqich ajraladi.",
+     "Och yashil kristallar oq-kulrang suvsiz FeSO₄ ga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Och yashil kristallar oq-kulrang kukunga aylanadi, probirka devorida suv tomchilari to'planadi.",
+    "solid_color_change": {
+     "from": "#9fd4b0",
+     "to": "#e6e6dc"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 1 g temir kuporosi soling.",
+    "Probirkani og'zini biroz pastga qaratib, mo'tadil qizdiring.",
+    "Rang o'zgarishini va suv tomchilarini kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Temir kuporosi ham mis kuporosi kabi kristallogidrat. Suvsizlangan FeSO₄ ni yanada kuchli qizdirilsa, u Fe₂O₃, SO₂ va SO₃ ga parchalanadi.",
+   "questions_uz": [
+    "FeSO₄·7H₂O dagi suvning massa ulushini hisoblang.",
+    "Suvsiz FeSO₄ havoda uzoq tursa nima bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0036",
+   "category": "termik-parchalanish",
+   "title_uz": "Temir(II) sulfatning kuchli qizdirilganda parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Sulfatlarning termik parchalanishi; oksidlanish-qaytarilish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeSO4",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 550,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Oldindan suvsizlantirilgan FeSO₄ qiyin suyuqlanuvchan probirkada yoki tigelda kuchli qizdiriladi."
+   },
+   "equation": {
+    "molecular": "2FeSO4 = Fe2O3 + SO2↑ + SO3↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2Fe⁺² − 2e⁻ = 2Fe⁺³",
+     "S⁺⁶ + 2e⁻ = S⁺⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yuqori haroratda Fe²⁺ oksidlanib Fe³⁺ ga, bitta sulfat ionidagi S⁺⁶ esa qaytarilib S⁺⁴ (SO₂) ga o'tadi.",
+     "Ikkinchi sulfat ioni SO₃ holida ajraladi; qizil-qo'ng'ir Fe₂O₃ qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "SO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "smoke"
+     }
+    ],
+    "text_uz": "Oq-kulrang kukun qizil-qo'ng'ir rangga kiradi, probirkadan o'tkir hidli oq tutun (SO₃ va SO₂) chiqadi.",
+    "solid_color_change": {
+     "from": "#e6e6dc",
+     "to": "#8e2f1c"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Suvsiz temir(II) sulfatni qiyin suyuqlanuvchan probirkaga soling.",
+    "Mo'rili shkafda probirkani kuchli qizdiring.",
+    "Probirka og'ziga ho'l ko'k lakmus qog'ozini tuting va qoldiq rangini kuzating."
+   ],
+   "safety_uz": "SO₂ va SO₃ zaharli va bo'g'uvchi! Tajribani mo'rili shkafda o'tkazing. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "O'rta asrlarda sulfat kislota (\"kuporos moyi\") aynan temir kuporosini quruq haydash bilan olingan: ajralgan SO₃ suvda yutilib H₂SO₄ hosil qiladi. Qoldiq Fe₂O₃ qizil bo'yoq sifatida ishlatilgan.",
+   "questions_uz": [
+    "Bu reaksiyada qaysi element oksidlanadi, qaysi biri qaytariladi?",
+    "Ajralgan gazlar suvda eritilsa qanday kislotalar hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0037",
+   "category": "termik-parchalanish",
+   "title_uz": "Kristall sodaning suvsizlanishi",
+   "level": "8-sinf",
+   "topic_uz": "Kristallogidratlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Na2CO3·10H2O",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 110,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2CO3·10H2O = Na2CO3 + 10H2O↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda kristallar avval o'z kristallanish suvida eriydi.",
+     "Suv bug'lanib chiqib ketgach, oq suvsiz soda (kalsinatsiyalangan soda) qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Shaffof kristallar o'z suvida suyuqlanadi va \"qaynaydi\", so'ng oq quruq kukun qoladi; probirka devorida suv tomchilari to'planadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga 1 g kristall soda soling.",
+    "Probirkani og'zini biroz pastga qaratib qizdiring.",
+    "Kristallarning suyuqlanishini, suv ajralishini va qoldiqni kuzating."
+   ],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Kristall sodaning massasining yarmidan ko'pi kristallanish suvi. Qizdirilganda u suvni yo'qotib, suvsiz Na₂CO₃ ga aylanadi; karbonatning o'zi esa bu sharoitda parchalanmaydi.",
+   "questions_uz": [
+    "Na₂CO₃·10H₂O dagi suvning massa ulushini hisoblang.",
+    "Nima uchun kristall soda havoda ochiq qoldirilsa \"nuraydi\"?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0038",
+   "category": "termik-parchalanish",
+   "title_uz": "Kumush(I) oksidning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlarning xossalari; kam faol metallar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag2O",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Ag2O = 4Ag + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ag⁺¹ + 1e⁻ = Ag⁰",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kumush oksid beqaror: qizdirilganda Ag⁺ qaytarilib kumushga, O⁻² oksidlanib kislorodga aylanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "deposit"
+     }
+    ],
+    "text_uz": "To'q qo'ng'ir kukun oqish-kulrang metall kumushga aylanadi; cho'g'langan cho'p alangalanadi.",
+    "solid_color_change": {
+     "from": "#3a2a20",
+     "to": "#d8d8d8"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq kumush(I) oksid soling.",
+    "Probirkani kuchli qizdiring.",
+    "Probirka og'ziga cho'g'langan cho'pni tushiring va qoldiq rangini kuzating."
+   ],
+   "safety_uz": "Kumush birikmalari terini qoraytiradi; qo'lqopda ishlang. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Kam faol metallarning (Ag, Hg, Au) oksidlari nisbatan past haroratda metall va kislorodga parchalanadi. Shu sababli AgNO₃ parchalanganda ham oksid emas, metall kumush hosil bo'ladi.",
+   "questions_uz": [
+    "Ag₂O va CuO ning termik barqarorligini solishtiring.",
+    "Qoldiqning kumush ekanini qanday tekshirish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0039",
+   "category": "termik-parchalanish",
+   "title_uz": "Kalsiy oksalatning termik parchalanishi",
+   "level": "universitet",
+   "topic_uz": "Termogravimetrik tahlil; oksalatlarning parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CaC2O4",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 480,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Taxminan 500 °C atrofida CaCO₃ gacha; harorat 800 °C dan oshirilsa CaCO₃ ham CaO ga parchalanadi."
+   },
+   "equation": {
+    "molecular": "CaC2O4 = CaCO3 + CO↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "C⁺³ − 1e⁻ = C⁺⁴",
+     "C⁺³ + 1e⁻ = C⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oksalat ionidagi ikki uglerod atomi (C⁺³) orasidagi bog' uziladi.",
+     "Bitta uglerod C⁺⁴ ga oksidlanib karbonatda qoladi, ikkinchisi C⁺² ga qaytarilib CO holida ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": {
+     "color": "#4a6cff",
+     "desc_uz": "probirka og'zida ajralayotgan CO ko'k alanga bilan yonadi"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Oq kukun tashqi ko'rinishini o'zgartirmaydi; probirka og'ziga olov tutilsa, ajralayotgan gaz ko'kimtir alanga bilan yonadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "gugurt"
+   ],
+   "procedure_uz": [
+    "Quruq qiyin suyuqlanuvchan probirkaga kalsiy oksalat soling.",
+    "Mo'rili shkafda probirkani kuchli qizdiring.",
+    "Probirka og'ziga yonib turgan gugurt tutib, gazning yonishini kuzating."
+   ],
+   "safety_uz": "Uglerod(II) oksid (is gazi) juda zaharli, hidsiz! Tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Kalsiy oksalat qizdirilganda bosqichma-bosqich parchalanadi: avval kristallanish suvi, so'ng CO ajralib CaCO₃, yanada yuqori haroratda CO₂ ajralib CaO hosil bo'ladi. Bu bosqichlar termogravimetrik tahlilda massa kamayishining aniq pog'onalari sifatida ko'rinadi.",
+   "questions_uz": [
+    "Oksalat ionidagi uglerodning oksidlanish darajasi qancha?",
+    "CaC₂O₄ ni bosqichma-bosqich qizdirishda qaysi mahsulotlar hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0040",
+   "category": "termik-parchalanish",
+   "title_uz": "Mis(II) oksidning juda yuqori haroratda mis(I) oksidga aylanishi",
+   "level": "litsey",
+   "topic_uz": "Oksidlarning termik barqarorligi; mis birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuO",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 1050,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Faqat mufel pechida, 1000 °C dan yuqori haroratda; modellash chegarasi taxminiy."
+   },
+   "equation": {
+    "molecular": "4CuO = 2Cu2O + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cu⁺² + 1e⁻ = Cu⁺¹",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Juda yuqori haroratda Cu⁺² qaytarilib Cu⁺¹ ga o'tadi, kislorodning bir qismi O₂ holida ajraladi.",
+     "Qizil mis(I) oksid hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Qora kukun juda yuqori haroratda qizil-g'isht rangli Cu₂O ga aylanadi.",
+    "solid_color_change": {
+     "from": "#1a1a1a",
+     "to": "#b8321e"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi"
+   ],
+   "procedure_uz": [
+    "Tigelga qora mis(II) oksid soling.",
+    "Tigelni mufel pechida juda yuqori haroratda qizdiring.",
+    "Sovigandan keyin qoldiq rangini dastlabki modda bilan solishtiring."
+   ],
+   "safety_uz": "Mufel pechidan tigelni uzun qisqich va himoya qo'lqopi bilan oling; issiq tigelni o'tga chidamli taglikka qo'ying.",
+   "explanation_uz": "Yuqori haroratda bir xil metallning quyi oksidlanish darajali oksidi barqarorroq bo'ladi: CuO 1000 °C dan yuqorida Cu₂O ga aylanadi. Shu sababli mis eritish jarayonlarida Cu₂O hosil bo'ladi.",
+   "questions_uz": [
+    "Bu reaksiyada misning oksidlanish darajasi qanday o'zgaradi?",
+    "Spirt lampasida qizdirilganda CuO nima uchun parchalanmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0041",
+   "category": "termik-parchalanish",
+   "title_uz": "Xrom(VI) oksidning termik parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Xrom birikmalari; oksidlarning xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CrO3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 250,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "4CrO3 = 2Cr2O3 + 3O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Cr⁺⁶ + 3e⁻ = Cr⁺³",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda Cr⁺⁶ qaytarilib barqaror Cr⁺³ ga o'tadi.",
+     "Kislorod O⁻² dan O₂ gacha oksidlanib ajraladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [],
+    "text_uz": "To'q qizil kristallar qizdirilganda yashil kukunga aylanadi, kislorod ajraladi (cho'g'langan cho'p alangalanadi).",
+    "solid_color_change": {
+     "from": "#8a1410",
+     "to": "#3f7a3a"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga juda oz miqdorda xrom(VI) oksid soling.",
+    "Mo'rili shkafda probirkani qizdiring.",
+    "Rang o'zgarishini kuzating va cho'g'langan cho'p bilan gazni sinang."
+   ],
+   "safety_uz": "CrO₃ o'ta zaharli, kanserogen va kuchli oksidlovchi: organik moddalar bilan tegsa yonib ketishi mumkin. Qo'lqop va ko'zoynakda, mo'rili shkafda ishlang.",
+   "explanation_uz": "Xrom(VI) birikmalari kuchli oksidlovchilar va qizdirilganda barqarorroq xrom(III) birikmalariga o'tadi. Rangning qizildan yashilga o'zgarishi Cr⁺⁶ → Cr⁺³ o'tishining belgisi.",
+   "questions_uz": [
+    "Xromning qaysi oksidlanish darajalari barqaror?",
+    "CrO₃ qanday xossali oksid?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0042",
+   "category": "termik-parchalanish",
+   "title_uz": "Bariy peroksidning yuqori haroratda parchalanishi",
+   "level": "universitet",
+   "topic_uz": "Peroksidlar; qaytar reaksiyalar va harorat",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "BaO2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 800,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Mufel pechida 800 °C dan yuqorida; 500–600 °C da esa teskari jarayon — BaO ning kislorod biriktirishi boradi (taxminiy chegaralar)."
+   },
+   "equation": {
+    "molecular": "2BaO2 = 2BaO + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2O⁻¹ − 2e⁻ = O2⁰",
+     "O⁻¹ + 1e⁻ = O⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Peroksid ionidagi kislorod (O⁻¹) qisman oksidlanib O₂ ga, qisman qaytarilib O⁻² ga o'tadi.",
+     "Bariy oksid qoladi; bu jarayon qaytar va haroratga bog'liq."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Oq kukun tashqi ko'rinishini deyarli o'zgartirmaydi; ajralgan gaz cho'g'langan cho'pni alangalatadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "mufel-pechi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Tigelga bariy peroksid soling va massasini o'lchang.",
+    "Tigelni mufel pechida yuqori haroratda qizdiring.",
+    "Sovigandan keyin massani qayta o'lchab, ajralgan kislorod miqdorini hisoblang."
+   ],
+   "safety_uz": "Bariy birikmalari zaharli; BaO₂ kuchli oksidlovchi — yonuvchan moddalardan uzoqda saqlang. Mufel pechi bilan himoya qo'lqopida ishlang.",
+   "explanation_uz": "XIX asrda havodan kislorod olishning Brin usuli shu qaytar reaksiyaga asoslangan: 500–600 °C da BaO havodagi kislorodni biriktirib BaO₂ hosil qiladi, 800 °C dan yuqorida esa BaO₂ kislorodni qaytarib beradi.",
+   "questions_uz": [
+    "Harorat bu qaytar reaksiyaning yo'nalishiga qanday ta'sir qiladi?",
+    "BaO₂ dagi kislorodning oksidlanish darajasi qancha?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0043",
+   "category": "termik-parchalanish",
+   "title_uz": "Rux nitratning termik parchalanishi",
+   "level": "9-sinf",
+   "topic_uz": "Nitratlarning termik parchalanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Zn(NO3)2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 300,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2Zn(NO3)2 = 2ZnO + 4NO2↑ + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "N⁺⁵ + 1e⁻ = N⁺⁴",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Rux faollik qatorida magniy va mis orasida joylashgan, uning nitrati oksidgacha parchalanadi.",
+     "Qo'ng'ir NO₂ va kislorod ajraladi, rux oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO2",
+     "color": "#a8461c"
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Oq tuz suyuqlanadi, qo'ng'ir gaz ajraladi; qoldiq issiqda sarg'ish, sovuganda oq (ZnO).",
+    "solid_color_change": {
+     "from": "#f6f6f2",
+     "to": "#f6f6f0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq rux nitrat soling.",
+    "Probirkani mo'rili shkafda kuchli qizdiring.",
+    "Qo'ng'ir gazni va qoldiqning issiq hamda sovuq holatdagi rangini kuzating."
+   ],
+   "safety_uz": "NO₂ zaharli — tajribani mo'rili shkafda o'tkazing. Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Rux nitrat Mg(NO₃)₂ va Cu(NO₃)₂ kabi oksid, NO₂ va O₂ ga parchalanadi. Qoldiqning qizdirilganda sarg'ayib, sovuganda oqarishi uning ZnO ekanini ko'rsatadi.",
+   "questions_uz": [
+    "Faollik qatoriga ko'ra nitratlar parchalanishining uch turini ayting.",
+    "Qoldiq ZnO ekanini qanday tekshirasiz?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "termik-0044",
+   "category": "termik-parchalanish",
+   "title_uz": "Kumush karbonatning qizdirilganda parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Karbonatlarning termik barqarorligi; kumush birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag2CO3",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Mo'tadil qizdirishda Ag₂O hosil bo'ladi; kuchliroq qizdirilsa Ag₂O ham kumush va kislorodga parchalanadi."
+   },
+   "equation": {
+    "molecular": "Ag2CO3 = Ag2O + CO2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Kumush karbonat termik jihatdan beqaror: nisbatan past haroratda CO₂ yo'qotadi.",
+     "To'q qo'ng'ir kumush(I) oksid qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Och sarg'ish kukun qorayib, to'q qo'ng'ir rangga kiradi; ajralgan gaz ohakli suvni loyqalatadi.",
+    "solid_color_change": {
+     "from": "#f0e8c8",
+     "to": "#3a2a20"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "rezina-tiqin-1-teshikli-kichik",
+    "gaz-naycha-egilgan",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga ozroq kumush karbonat soling va gaz chiqarish naychali tiqin bilan berkiting.",
+    "Naycha uchini ohakli suvga tushiring va probirkani mo'tadil qizdiring.",
+    "Qoldiq rangini kuzating; oxirida avval naychani ohakli suvdan chiqaring."
+   ],
+   "safety_uz": "Kumush birikmalari terini qoraytiradi; qo'lqopda ishlang. Qizdirish to'xtatilishidan oldin naychani suyuqlikdan chiqaring.",
+   "explanation_uz": "Kam faol metallarning karbonatlari past haroratda parchalanadi. Kumush karbonat avval Ag₂O ga, yanada qizdirilganda esa metall kumushga aylanadi — kumush birikmalari termik beqarorligining namunasi.",
+   "questions_uz": [
+    "Ag₂CO₃ ni kuchli qizdirganda yakuniy mahsulot nima bo'ladi? Umumiy tenglamani yozing.",
+    "Ag₂CO₃ va CaCO₃ ning parchalanish haroratini solishtiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "termik-0045",
+   "category": "termik-parchalanish",
+   "title_uz": "Qo'rg'oshin(IV) oksidning qizdirilganda parchalanishi",
+   "level": "litsey",
+   "topic_uz": "Qo'rg'oshin birikmalari; oksidlarning termik barqarorligi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "PbO2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 600,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Parchalanish oraliq oksidlar (jumladan surik Pb₃O₄) orqali boradi; 600 °C — yakuniy PbO uchun taxminiy modellash chegarasi."
+   },
+   "equation": {
+    "molecular": "2PbO2 = 2PbO + O2↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Pb⁺⁴ + 2e⁻ = Pb⁺²",
+     "2O⁻² − 4e⁻ = O2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda Pb⁺⁴ barqarorroq Pb⁺² holatiga qaytariladi.",
+     "Kislorod O⁻² dan O₂ ga oksidlanib ajraladi; avval qizil surik, so'ng sariq PbO hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "O2",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [],
+    "text_uz": "To'q qo'ng'ir kukun qizdirilganda avval qizil-to'q sariq (surik), so'ng sariq rangga (PbO) kiradi; cho'g'langan cho'p alangalanadi.",
+    "solid_color_change": {
+     "from": "#3a2a1e",
+     "to": "#e8b830"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "tigel",
+    "tigel-qisqichi",
+    "chinni-uchburchak",
+    "uchoyoq",
+    "bunzen-gorelkasi",
+    "chop-chogllangan"
+   ],
+   "procedure_uz": [
+    "Tigelga ozroq qo'rg'oshin(IV) oksid soling va chinni uchburchakka o'rnating.",
+    "Gorelka alangasida kuchli qizdiring, rang o'zgarishlarini kuzating.",
+    "Tigel ustida cho'g'langan cho'pni tutib, kislorod ajralishini tekshiring."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli: changini nafas olmang, qo'lqopda ishlang, mo'rili shkafda qizdiring va qoldiqni maxsus idishga yig'ing.",
+   "explanation_uz": "Qo'rg'oshin uchun +2 oksidlanish darajasi +4 ga qaraganda barqarorroq (inert juftlik effekti), shuning uchun PbO₂ kuchli oksidlovchi va qizdirilganda kislorod ajratib PbO ga aylanadi.",
+   "questions_uz": [
+    "Nima uchun qo'rg'oshin uchun +2 oksidlanish darajasi barqarorroq?",
+    "PbO₂ akkumulyatorlarda qanday vazifani bajaradi?"
+   ],
+   "confidence": "o'rta"
   }
  ]
 }

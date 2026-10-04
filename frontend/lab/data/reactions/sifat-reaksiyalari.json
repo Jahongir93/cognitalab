@@ -1,0 +1,4933 @@
+{
+ "category": "sifat-reaksiyalari",
+ "reactions": [
+  {
+   "id": "sifat-0001",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kumush ionini xlorid kislota bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: kumush ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "AgNO3 + HCl = AgCl↓ + HNO3",
+    "ionic_full": "Ag⁺ + NO3⁻ + H⁺ + Cl⁻ = AgCl↓ + H⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + Cl⁻ = AgCl↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ag⁺ va Cl⁻ ionlari uchrashganda suvda deyarli erimaydigan AgCl hosil bo'ladi.",
+     "Cho'kma oq, ivib qolgan (suzmasimon) ko'rinishda bo'ladi.",
+     "AgCl nitrat kislotada erimaydi — bu boshqa oq cho'kmalardan farqlashga yordam beradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq suzmasimon cho'kma tushadi; yorug'likda asta-sekin qorayadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml tekshiriladigan eritma (kumush nitrat) quying.",
+    "Tomizgich bilan 2–3 tomchi suyultirilgan xlorid kislota qo'shing.",
+    "Hosil bo'lgan cho'kmaning rangi va ko'rinishini kuzating.",
+    "Cho'kmaga bir necha tomchi nitrat kislota qo'shib, erimasligiga ishonch hosil qiling."
+   ],
+   "safety_uz": "Kumush nitrat teri va kiyimni qoraytiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kumush ioni xlorid ionlari bilan kislotalarda erimaydigan oq suzmasimon AgCl cho'kmasini hosil qiladi. Shuning uchun xlorid kislota (yoki xloridlar) kumush ioniga, kumush nitrat esa xlorid ioniga reaktiv bo'ladi.",
+   "questions_uz": [
+    "Nima uchun Ag⁺ ni aniqlashda xloridlardan foydalaniladi?",
+    "AgCl cho'kmasini yorug'likda qoldirsak nima kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0002",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kumush xlorid cho'kmasining ammiakda erishi",
+   "level": "11-sinf",
+   "topic_uz": "Kompleks birikmalar; kumush ionini tasdiqlash",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgCl",
+     "state": "s",
+     "mass_g": 0.05,
+     "form": "kukun"
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Oldingi tajribada olingan AgCl cho'kmasiga ammiakli suv qo'shiladi."
+   },
+   "equation": {
+    "molecular": "AgCl + 2NH3 = [Ag(NH3)2]Cl",
+    "ionic_full": "AgCl + 2NH3 = [Ag(NH3)2]⁺ + Cl⁻",
+    "ionic_net": "AgCl + 2NH3 = [Ag(NH3)2]⁺ + Cl⁻",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Ammiak molekulalari azotning bo'linmagan elektron jufti hisobiga Ag⁺ ioniga birikadi.",
+     "Barqaror diamminkumush kompleks ioni [Ag(NH₃)₂]⁺ hosil bo'ladi.",
+     "Eritmadagi erkin Ag⁺ kamayib ketgani uchun AgCl cho'kmasi eriydi; nitrat kislota qo'shilsa kompleks parchalanib, AgCl qayta cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Oq cho'kma ammiakli suvda erib, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Kumush xlorid cho'kmasi bor probirkaga tomchilab ammiakli suv qo'shing va chayqating.",
+    "Cho'kmaning to'liq erishini kuzating.",
+    "Hosil bo'lgan eritmaga nitrat kislota tomizib, oq cho'kma qayta tushishini kuzating."
+   ],
+   "safety_uz": "Ammiakli suv o'tkir hidli — hidlamang. Kumush ammiakatli eritmani uzoq saqlamang (portlovchi birikmalar hosil bo'lishi mumkin) — tajribadan so'ng darhol kislotalab to'kib tashlang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kumush xlorid ammiakda eruvchan kompleks — diamminkumush xlorid hosil qilib eriydi, AgBr qisman, AgI esa umuman erimaydi. Bu xossa kumush ionini va galogenid ionlarini bir-biridan farqlashda qo'llaniladi.",
+   "questions_uz": [
+    "Nima uchun AgCl ammiakda eriydi?",
+    "Eritmaga nitrat kislota qo'shilsa nima uchun cho'kma qayta tushadi?",
+    "AgCl, AgBr va AgI ni ammiak yordamida qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0003",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kumush ionining kaliy xromat bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: kumush ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2AgNO3 + K2CrO4 = Ag2CrO4↓ + 2KNO3",
+    "ionic_full": "2Ag⁺ + 2NO3⁻ + 2K⁺ + CrO4²⁻ = Ag2CrO4↓ + 2K⁺ + 2NO3⁻",
+    "ionic_net": "2Ag⁺ + CrO4²⁻ = Ag2CrO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kumush ionlari xromat ionlari bilan kam eriydigan kumush xromat hosil qiladi.",
+     "Cho'kma g'isht-qizil rangli bo'ladi.",
+     "Bu reaksiya neytral muhitda olib boriladi: kislotada xromat dixromatga o'tadi, ishqorda esa Ag₂O cho'kadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ag2CrO4",
+     "color": "#a8321e",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2d22e",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Sariq eritmada g'isht-qizil cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasi quying.",
+    "2–3 tomchi kaliy xromat eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Xromatlar zaharli va kanserogen — qo'lqopda ishlang, chiqindini maxsus idishga to'king. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kumush xromat g'isht-qizil rangli kam eriydigan tuz. Bu reaksiya neytral muhitda kumush ionini aniqlashda, shuningdek xloridlarni kumush nitrat bilan titrlashda (Mor usuli) indikator reaksiya sifatida qo'llaniladi.",
+   "questions_uz": [
+    "Nima uchun reaksiya neytral muhitda olib boriladi?",
+    "Mor usulida kaliy xromat qanday vazifani bajaradi?",
+    "Kumush xromat cho'kmasi qanday rangda?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0004",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kumush ionining ishqor bilan reaksiyasi — kumush(I) oksid hosil bo'lishi",
+   "level": "10-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: kumush ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2AgNO3 + 2NaOH = Ag2O↓ + 2NaNO3 + H2O",
+    "ionic_full": "2Ag⁺ + 2NO3⁻ + 2Na⁺ + 2OH⁻ = Ag2O↓ + 2Na⁺ + 2NO3⁻ + H2O",
+    "ionic_net": "2Ag⁺ + 2OH⁻ = Ag2O↓ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ag⁺ ionlari OH⁻ ionlari bilan dastlab kumush gidroksid hosil qiladi.",
+     "AgOH beqaror bo'lib, darhol suv ajratib kumush(I) oksidga aylanadi.",
+     "Qo'ng'ir Ag₂O cho'kmasi tushadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ag2O",
+     "color": "#3a2a20",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qo'ng'ir (to'q jigarrang) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kumush nitrat eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Ishqor va kumush nitrat terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kumush gidroksid oddiy sharoitda mavjud bo'lmaydi: u hosil bo'lishi bilanoq qo'ng'ir kumush(I) oksidga parchalanadi. Bu kumush ionining ishqorlar bilan boshqa metall ionlaridan farq qiluvchi xususiyatidir.",
+   "questions_uz": [
+    "Nima uchun AgOH o'rniga Ag₂O cho'kadi?",
+    "Ag₂O ammiakli suvda erisa qanday reaktiv hosil bo'ladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0005",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Bariy ionini sulfat kislota bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: bariy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaCl2 + H2SO4 = BaSO4↓ + 2HCl",
+    "ionic_full": "Ba²⁺ + 2Cl⁻ + 2H⁺ + SO4²⁻ = BaSO4↓ + 2H⁺ + 2Cl⁻",
+    "ionic_net": "Ba²⁺ + SO4²⁻ = BaSO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ba²⁺ va SO₄²⁻ ionlari suvda amalda erimaydigan BaSO₄ ni hosil qiladi.",
+     "Cho'kma oq, mayda kristall holda tushadi.",
+     "BaSO₄ kislotalarda ham erimaydi — bu uni BaCO₃, BaSO₃ dan farqlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaSO4",
+     "color": "#f4f4ee",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq mayda kristall cho'kma tushadi; u xlorid va nitrat kislotalarda erimaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml bariy xlorid eritmasi quying.",
+    "Tomchilab suyultirilgan sulfat kislota qo'shing.",
+    "Cho'kmaga xlorid kislota qo'shib, erimasligini tekshiring."
+   ],
+   "safety_uz": "Eruvchan bariy tuzlari zaharli — og'izga tegmasin, ishdan so'ng qo'lingizni yuving. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Bariy ioni sulfat ionlari bilan kislotalarda ham erimaydigan oq bariy sulfat cho'kmasini beradi. Sulfat kislota yoki eruvchan sulfatlar bariy ioniga, bariy tuzlari esa sulfat ioniga reaktivdir.",
+   "questions_uz": [
+    "Bariy ionini qanday reaktiv bilan aniqlash mumkin?",
+    "Nima uchun BaSO₄ rentgen tekshiruvida zararsiz, BaCl₂ esa zaharli?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0006",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Bariy ionining kaliy xromat bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: bariy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "BaCl2 + K2CrO4 = BaCrO4↓ + 2KCl",
+    "ionic_full": "Ba²⁺ + 2Cl⁻ + 2K⁺ + CrO4²⁻ = BaCrO4↓ + 2K⁺ + 2Cl⁻",
+    "ionic_net": "Ba²⁺ + CrO4²⁻ = BaCrO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ba²⁺ ionlari xromat ionlari bilan sariq bariy xromatni hosil qiladi.",
+     "BaCrO₄ sirka kislotada erimaydi, kuchli kislotalarda esa eriydi.",
+     "Shu xossa bariyni kalsiy va stronsiydan ajratishda ishlatiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaCrO4",
+     "color": "#f5d31a",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Sariq kristall cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml bariy xlorid eritmasi quying.",
+    "2–3 tomchi kaliy xromat eritmasidan qo'shing.",
+    "Cho'kmaga sirka kislota qo'shib, erimasligini kuzating."
+   ],
+   "safety_uz": "Bariy tuzlari va xromatlar zaharli — qo'lqopda ishlang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Bariy ioni xromat ionlari bilan sariq bariy xromat cho'kmasini hosil qiladi. Kalsiy ioni bunday sharoitda cho'kma bermaydi, shuning uchun bu reaksiya bariyni kalsiydan farqlashga imkon beradi.",
+   "questions_uz": [
+    "Bariy xromat qanday rangda?",
+    "Bu reaksiya yordamida bariyni kalsiydan qanday farqlash mumkin?",
+    "Nima uchun cho'kmani sirka kislotada tekshirish kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0007",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kalsiy ionini ammoniy oksalat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: kalsiy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "(NH4)2C2O4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CaCl2 + (NH4)2C2O4 = CaC2O4↓ + 2NH4Cl",
+    "ionic_full": "Ca²⁺ + 2Cl⁻ + 2NH4⁺ + C2O4²⁻ = CaC2O4↓ + 2NH4⁺ + 2Cl⁻",
+    "ionic_net": "Ca²⁺ + C2O4²⁻ = CaC2O4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ca²⁺ va oksalat ionlari juda kam eriydigan kalsiy oksalatni hosil qiladi.",
+     "Oq mayda kristall cho'kma tushadi.",
+     "CaC₂O₄ sirka kislotada erimaydi, xlorid kislotada esa eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CaC2O4",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq mayda kristall cho'kma hosil bo'ladi; u sirka kislotada erimaydi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kalsiy xlorid eritmasi quying.",
+    "1 ml ammoniy oksalat eritmasi qo'shing.",
+    "Cho'kmani ikki qismga bo'lib, biriga sirka kislota, ikkinchisiga xlorid kislota qo'shing va solishtiring."
+   ],
+   "safety_uz": "Oksalatlar zaharli — og'izga tegmasin. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kalsiy ioni oksalat ionlari bilan sirka kislotada erimaydigan oq kalsiy oksalat cho'kmasini beradi — bu kalsiyga xos sifat reaksiya. Buyrak toshlarining asosiy qismi ham kalsiy oksalatdan iborat.",
+   "questions_uz": [
+    "Kalsiy oksalat qaysi kislotada eriydi, qaysisida erimaydi?",
+    "Bu reaksiya kalsiyni magniydan qanday farqlashga yordam beradi?",
+    "Organizmda kalsiy oksalat qayerda uchraydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0008",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Temir(II) ionini qizil qon tuzi bilan aniqlash (Turnbul ko'ki)",
+   "level": "9-sinf",
+   "topic_uz": "Temir ionlariga sifat reaksiyalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K3[Fe(CN)6]",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Temir(II) sulfat eritmasi yangi tayyorlangan bo'lishi kerak."
+   },
+   "equation": {
+    "molecular": "3FeSO4 + 2K3[Fe(CN)6] = Fe3[Fe(CN)6]2↓ + 3K2SO4",
+    "ionic_full": "3Fe²⁺ + 3SO4²⁻ + 6K⁺ + 2[Fe(CN)6]³⁻ = Fe3[Fe(CN)6]2↓ + 6K⁺ + 3SO4²⁻",
+    "ionic_net": "3Fe²⁺ + 2[Fe(CN)6]³⁻ = Fe3[Fe(CN)6]2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Fe²⁺ ionlari geksatsianoferrat(III) ionlari bilan birikadi.",
+     "To'q ko'k rangli cho'kma — Turnbul ko'ki hosil bo'ladi.",
+     "Fe³⁺ ionlari bu reaktiv bilan ko'k cho'kma bermaydi, shuning uchun reaksiya Fe²⁺ ga xos."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Fe3[Fe(CN)6]2",
+     "color": "#163a8a",
+     "texture": "kolloid"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Och yashil eritmada darhol to'q ko'k cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml yangi tayyorlangan temir(II) sulfat eritmasi quying.",
+    "1–2 tomchi kaliy geksatsianoferrat(III) (qizil qon tuzi) eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Qon tuzlarini kuchli kislotalar bilan qizdirmang — zaharli HCN ajralishi mumkin. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Temir(II) ioni qizil qon tuzi bilan to'q ko'k Turnbul ko'ki cho'kmasini hosil qiladi. Zamonaviy tadqiqotlarga ko'ra Turnbul ko'ki va Berlin lazuri tarkibi bir xil, ammo maktab kursida ular alohida formulalar bilan yoziladi. Bu reaksiya Fe²⁺ ni Fe³⁺ dan farqlashda qo'llaniladi.",
+   "questions_uz": [
+    "Fe²⁺ ioniga qaysi reaktiv sifat reaksiya beradi?",
+    "Fe³⁺ ionini qaysi reaktivlar bilan aniqlash mumkin?",
+    "Nima uchun temir(II) sulfat eritmasi yangi tayyorlangan bo'lishi kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0009",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Temir(III) ionini sariq qon tuzi bilan aniqlash (Berlin lazuri)",
+   "level": "9-sinf",
+   "topic_uz": "Temir ionlariga sifat reaksiyalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K4[Fe(CN)6]",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "4FeCl3 + 3K4[Fe(CN)6] = Fe4[Fe(CN)6]3↓ + 12KCl",
+    "ionic_full": "4Fe³⁺ + 12Cl⁻ + 12K⁺ + 3[Fe(CN)6]⁴⁻ = Fe4[Fe(CN)6]3↓ + 12K⁺ + 12Cl⁻",
+    "ionic_net": "4Fe³⁺ + 3[Fe(CN)6]⁴⁻ = Fe4[Fe(CN)6]3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Fe³⁺ ionlari geksatsianoferrat(II) ionlari bilan birikadi.",
+     "To'q ko'k rangli Berlin lazuri cho'kmasi hosil bo'ladi.",
+     "Fe²⁺ ionlari bu reaktiv bilan oq (havoda ko'karuvchi) cho'kma beradi, ko'k emas."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Fe4[Fe(CN)6]3",
+     "color": "#123a8a",
+     "texture": "kolloid"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Sarg'ish eritmada to'q ko'k cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) xlorid eritmasi quying.",
+    "1–2 tomchi kaliy geksatsianoferrat(II) (sariq qon tuzi) eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Qon tuzlarini kuchli kislotalar bilan qizdirmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Temir(III) ioni sariq qon tuzi bilan to'q ko'k Berlin lazuri cho'kmasini beradi. Bu juda sezgir reaksiya bo'lib, Fe³⁺ ning oz miqdorini ham aniqlashga imkon beradi; Berlin lazuri bo'yoq sifatida ham ishlatiladi.",
+   "questions_uz": [
+    "Fe³⁺ ga qaysi reaktivlar sifat reaksiya beradi?",
+    "Berlin lazuri va Turnbul ko'ki qanday reaktivlardan olinadi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0010",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Temir(III) ionini kaliy rodanid bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Temir ionlariga sifat reaksiyalar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 1
+    },
+    {
+     "species": "KSCN",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeCl3 + 3KSCN = Fe(SCN)3 + 3KCl",
+    "ionic_full": "Fe³⁺ + 3Cl⁻ + 3K⁺ + 3SCN⁻ = Fe(SCN)3 + 3K⁺ + 3Cl⁻",
+    "ionic_net": "Fe³⁺ + 3SCN⁻ = Fe(SCN)3",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Fe³⁺ ionlari tiotsianat (rodanid) ionlari bilan kompleks birikmalar hosil qiladi.",
+     "Temir(III) tiotsianat eritmani qon-qizil rangga bo'yaydi.",
+     "Fe²⁺ ionlari rodanid bilan bunday rang bermaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#d39a2a",
+     "to": "#b3101a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Och sariq eritma bir zumda qon-qizil rangga kiradi; cho'kma tushmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml suyultirilgan temir(III) xlorid eritmasi quying.",
+    "1–2 tomchi kaliy rodanid eritmasidan qo'shing.",
+    "Eritma rangini kuzating."
+   ],
+   "safety_uz": "Rodanidlarni kuchli kislotalar bilan qizdirmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Temir(III) ionlari rodanid ionlari bilan qon-qizil rangli kompleks hosil qiladi. Bu Fe³⁺ ga eng sezgir sifat reaksiyalardan biri: hatto juda oz miqdordagi temir(III) ham eritmani pushti-qizil rangga bo'yaydi.",
+   "questions_uz": [
+    "Bu reaksiyada cho'kma hosil bo'ladimi?",
+    "Fe²⁺ eritmasiga KSCN qo'shilsa nima kuzatiladi?",
+    "Eski FeSO₄ eritmasi KSCN bilan pushti rang bersa, bu nimani bildiradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0011",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Temir(III) ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Temir ionlariga sifat reaksiyalar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "FeCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeCl3 + 3NaOH = Fe(OH)3↓ + 3NaCl",
+    "ionic_full": "Fe³⁺ + 3Cl⁻ + 3Na⁺ + 3OH⁻ = Fe(OH)3↓ + 3Na⁺ + 3Cl⁻",
+    "ionic_net": "Fe³⁺ + 3OH⁻ = Fe(OH)3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Fe³⁺ ionlari gidroksid ionlari bilan erimaydigan temir(III) gidroksidni hosil qiladi.",
+     "Cho'kma qo'ng'ir-qizg'ish, iviqsimon ko'rinishda bo'ladi.",
+     "Fe(OH)₃ ortiqcha ishqorda erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Fe(OH)3",
+     "color": "#9a4a1c",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qo'ng'ir-qizg'ish iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml temir(III) xlorid eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating, ortiqcha ishqor qo'shib erimasligini tekshiring."
+   ],
+   "safety_uz": "Ishqor terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Temir(III) ioni ishqorlar bilan qo'ng'ir temir(III) gidroksid cho'kmasini beradi. Bu cho'kma rangi Fe³⁺ ni Fe²⁺ (yashil-oq cho'kma) dan oson farqlashga imkon beradi.",
+   "questions_uz": [
+    "Fe(OH)₃ va Fe(OH)₂ cho'kmalari rangi bilan qanday farq qiladi?",
+    "Fe(OH)₃ qizdirilsa nima hosil bo'ladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0012",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Temir(II) ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Temir ionlariga sifat reaksiyalar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "FeSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "FeSO4 + 2NaOH = Fe(OH)2↓ + Na2SO4",
+    "ionic_full": "Fe²⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = Fe(OH)2↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Fe²⁺ + 2OH⁻ = Fe(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Fe²⁺ ionlari gidroksid ionlari bilan temir(II) gidroksidni hosil qiladi.",
+     "Cho'kma yashil-oq (och yashil) iviqsimon bo'ladi.",
+     "Havoda Fe(OH)₂ kislorod ta'sirida asta-sekin qo'ng'ir Fe(OH)₃ ga oksidlanadi: 4Fe(OH)₂ + O₂ + 2H₂O = 4Fe(OH)₃."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Fe(OH)2",
+     "color": "#c8d8b0",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Och yashil iviqsimon cho'kma hosil bo'ladi; havoda yuqori qismidan boshlab asta-sekin qo'ng'irlashadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml yangi tayyorlangan temir(II) sulfat eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kma rangini darhol va 10–15 daqiqadan keyin kuzating."
+   ],
+   "safety_uz": "Ishqor terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Temir(II) ioni ishqor bilan yashil-oq temir(II) gidroksid cho'kmasini beradi. U havodagi kislorod ta'sirida temir(III) gidroksidga oksidlanib qo'ng'ir tusga kiradi — bu temir(II) birikmalarining qaytaruvchilik xossasini ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun Fe(OH)₂ cho'kmasi havoda qo'ng'irlashadi?",
+    "Fe²⁺ va Fe³⁺ ni ishqor yordamida qanday farqlash mumkin?",
+    "Fe(OH)₂ ning oksidlanish tenglamasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0013",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Mis(II) ionini ammiakli suv bilan aniqlash",
+   "level": "11-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: mis(II) ioni; kompleks birikmalar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiakli suv avval tomchilab, so'ng ortiqcha miqdorda qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CuSO4 + 4NH3 = [Cu(NH3)4]SO4",
+    "ionic_full": "Cu²⁺ + SO4²⁻ + 4NH3 = [Cu(NH3)4]²⁺ + SO4²⁻",
+    "ionic_net": "Cu²⁺ + 4NH3 = [Cu(NH3)4]²⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Oz miqdordagi ammiak eritmani ishqoriy qilib, havorang Cu(OH)₂ (asosli tuz) cho'kmasini hosil qiladi.",
+     "Ortiqcha ammiak molekulalari Cu²⁺ ioniga donor-akseptor bog' orqali birikadi.",
+     "To'q ko'k tetraamminmis(II) ioni [Cu(NH₃)₄]²⁺ hosil bo'lib, cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#2346c8"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Avval havorang cho'kma tushadi, ortiqcha ammiakda u erib, eritma to'q ko'k (ko'k-binafsha) rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasi quying.",
+    "Tomchilab ammiakli suv qo'shing va havorang cho'kma hosil bo'lishini kuzating.",
+    "Ammiakli suvni ortiqcha qo'shib, cho'kmaning erishi va eritma rangini kuzating."
+   ],
+   "safety_uz": "Ammiakli suv o'tkir hidli — hidlamang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Mis(II) ioni ortiqcha ammiak bilan to'q ko'k rangli tetraamminmis(II) kompleks ionini hosil qiladi. Bu rang juda yaqqol bo'lgani uchun reaksiya mis ionlarini aniqlashning eng qulay usulidir.",
+   "questions_uz": [
+    "Nima uchun dastlab cho'kma tushadi, keyin eriydi?",
+    "Kompleks iondagi ligand va markaziy ionni ko'rsating.",
+    "Qaysi boshqa metall gidroksidlari ortiqcha ammiakda eriydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0014",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Mis(II) ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: mis(II) ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "CuSO4 + 2NaOH = Cu(OH)2↓ + Na2SO4",
+    "ionic_full": "Cu²⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = Cu(OH)2↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Cu²⁺ + 2OH⁻ = Cu(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Cu²⁺ ionlari gidroksid ionlari bilan mis(II) gidroksidni hosil qiladi.",
+     "Havorang iviqsimon cho'kma tushadi.",
+     "Qizdirilganda Cu(OH)₂ qora CuO ga parchalanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu(OH)2",
+     "color": "#4a9be0",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Havorang iviqsimon cho'kma hosil bo'ladi; qizdirilganda qorayadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kmali probirkani ehtiyotkorlik bilan qizdirib, rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ishqor terini kuydiradi; qizdirishda probirka og'zini o'zingizga qaratmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Mis(II) ioni ishqorlar bilan havorang mis(II) gidroksid cho'kmasini beradi; qizdirilganda u qora mis(II) oksidga aylanadi. Cho'kmaning o'ziga xos rangi mis ionini aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Mis(II) gidroksid qanday rangda?",
+    "Cu(OH)₂ qizdirilganda qanday o'zgarish kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0015",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Mis(II) ionining sariq qon tuzi bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: mis(II) ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K4[Fe(CN)6]",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2CuSO4 + K4[Fe(CN)6] = Cu2[Fe(CN)6]↓ + 2K2SO4",
+    "ionic_full": "2Cu²⁺ + 2SO4²⁻ + 4K⁺ + [Fe(CN)6]⁴⁻ = Cu2[Fe(CN)6]↓ + 4K⁺ + 2SO4²⁻",
+    "ionic_net": "2Cu²⁺ + [Fe(CN)6]⁴⁻ = Cu2[Fe(CN)6]↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Cu²⁺ ionlari geksatsianoferrat(II) ionlari bilan birikadi.",
+     "Qizil-qo'ng'ir mis(II) geksatsianoferrat(II) cho'kmasi hosil bo'ladi.",
+     "Cho'kma suyultirilgan kislotalarda erimaydi, ammiakda eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu2[Fe(CN)6]",
+     "color": "#7a2a14",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasi quying.",
+    "1–2 tomchi sariq qon tuzi eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Qon tuzlarini kuchli kislotalar bilan qizdirmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Mis(II) ioni sariq qon tuzi bilan qizil-qo'ng'ir cho'kma beradi. Bu reaksiya juda sezgir bo'lib, ammiak bilan reaksiyani tasdiqlovchi qo'shimcha sinov sifatida qo'llaniladi.",
+   "questions_uz": [
+    "Cu²⁺ ga qanday sifat reaksiyalarni bilasiz?",
+    "Sariq qon tuzi Fe³⁺ va Cu²⁺ bilan qanday rangli cho'kmalar beradi?",
+    "Cho'kmaning formulasini yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0016",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Mis(II) ionining kaliy yodid bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: mis(II) ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CuSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2CuSO4 + 4KI = 2CuI↓ + I2 + 2K2SO4",
+    "ionic_full": "2Cu²⁺ + 2SO4²⁻ + 4K⁺ + 4I⁻ = 2CuI↓ + I2 + 4K⁺ + 2SO4²⁻",
+    "ionic_net": "2Cu²⁺ + 4I⁻ = 2CuI↓ + I2",
+    "electron_balance": [
+     "Cu⁺² + 1e⁻ = Cu⁺¹",
+     "2I⁻¹ − 2e⁻ = I2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Cu²⁺ ionlari yodid ionlarini erkin yodgacha oksidlaydi.",
+     "Mis +1 oksidlanish darajasigacha qaytarilib, erimaydigan oq mis(I) yodid hosil qiladi.",
+     "Ajralgan yod cho'kmani va eritmani qo'ng'ir rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CuI",
+     "color": "#f2eee0",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4aa3dc",
+     "to": "#b0682a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Qo'ng'ir eritma va iflos-oq (sarg'ish-qo'ng'ir tusli) cho'kma hosil bo'ladi; natriy tiosulfat bilan yod yo'qotilsa, cho'kmaning oq rangi ko'rinadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml mis(II) sulfat eritmasi quying.",
+    "1 ml kaliy yodid eritmasidan qo'shing.",
+    "Eritma va cho'kma rangini kuzating; bir necha tomchi natriy tiosulfat qo'shib, cho'kmaning oqarishini kuzating."
+   ],
+   "safety_uz": "Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Mis(II) ioni yodid ionlari bilan oksidlanish-qaytarilish reaksiyasiga kirishadi: oq mis(I) yodid cho'kadi va erkin yod ajraladi. Bu reaksiya misni yodometrik aniqlashning asosidir.",
+   "questions_uz": [
+    "Bu reaksiyada qaysi ion oksidlovchi?",
+    "Nima uchun cho'kma qo'ng'ir ko'rinadi?",
+    "Natriy tiosulfat qo'shilganda nima uchun cho'kma oqaradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0017",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Ammoniy ionini ishqor bilan qizdirib aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: ammoniy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "(NH4)2SO4",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma ehtiyotkorlik bilan isitiladi; probirka og'ziga ho'llangan qizil lakmus qog'ozi tutiladi."
+   },
+   "equation": {
+    "molecular": "(NH4)2SO4 + 2NaOH = Na2SO4 + 2NH3↑ + 2H2O",
+    "ionic_full": "2NH4⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = 2Na⁺ + SO4²⁻ + 2NH3↑ + 2H2O",
+    "ionic_net": "NH4⁺ + OH⁻ = NH3↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kuchli asos OH⁻ ammoniy ionidan proton tortib oladi.",
+     "Hosil bo'lgan ammiak isitilganda eritmadan gaz holida ajraladi.",
+     "Ammiak ho'l qizil lakmusni ko'k rangga bo'yaydi va o'ziga xos hidga ega."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NH3",
+     "color": null,
+     "smell_uz": "o'tkir (novshadil) hid"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Isitilganda novshadil hidi paydo bo'ladi; probirka og'zidagi ho'l qizil lakmus qog'ozi ko'karadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi",
+    "indikator-qogozi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml ammoniy tuzi eritmasini quying va 1 ml natriy gidroksid eritmasidan qo'shing.",
+    "Probirkani qisqich bilan ushlab, ehtiyotkorlik bilan isiting.",
+    "Probirka og'ziga (devorga tegizmasdan) ho'llangan qizil lakmus qog'ozini tuting.",
+    "Hidni qo'l bilan yelpib aniqlang."
+   ],
+   "safety_uz": "Ammiakni to'g'ridan-to'g'ri hidlamang; ishqor sachrashidan ehtiyot bo'ling. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Barcha ammoniy tuzlari ishqorlar bilan isitilganda ammiak ajratadi. Ammiak hidi va ho'l qizil lakmusning ko'karishi ammoniy ioniga xos sifat reaksiyadir.",
+   "questions_uz": [
+    "Nima uchun lakmus qog'ozi ho'llanadi?",
+    "Nima uchun qog'oz probirka devoriga tegmasligi kerak?",
+    "Ammoniy ionini aniqlashning yana qaysi usullarini bilasiz?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0018",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Ammoniy ionini Nessler reaktivi bilan aniqlash",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: ammoniy ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NH4Cl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "Nessler",
+     "state": "aq",
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NH4Cl + 2K2[HgI4] + 4KOH = [OHg2NH2]I↓ + KCl + 7KI + 3H2O",
+    "ionic_full": "NH4⁺ + Cl⁻ + 4K⁺ + 2[HgI4]²⁻ + 4K⁺ + 4OH⁻ = [OHg2NH2]I↓ + K⁺ + Cl⁻ + 7K⁺ + 7I⁻ + 3H2O",
+    "ionic_net": "NH4⁺ + 2[HgI4]²⁻ + 4OH⁻ = [OHg2NH2]I↓ + 7I⁻ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ishqoriy muhitda ammoniy ioni ammiakka aylanadi.",
+     "Ammiak tetrayodomerkurat(II) ionlari bilan reaksiyaga kirishib, qizil-qo'ng'ir oksodimerkurammoniy yodid hosil qiladi.",
+     "Ammoniy juda oz bo'lganda cho'kma o'rniga eritma sariq-qo'ng'ir tusga kiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "[OHg2NH2]I",
+     "color": "#8a4a1a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qizil-qo'ng'ir cho'kma hosil bo'ladi (juda oz NH₄⁺ bo'lsa — eritma sarg'ish-qo'ng'ir tusga kiradi)."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml tekshiriladigan eritma quying.",
+    "Ustiga 1–2 ml Nessler reaktivi qo'shing.",
+    "Cho'kma yoki rang hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Nessler reaktivi tarkibida simob birikmalari bor — juda zaharli. Qo'lqopda ishlang, chiqindini simob chiqindilari uchun maxsus idishga to'king.",
+   "explanation_uz": "Nessler reaktivi (K₂[HgI₄] ning ishqoriy eritmasi) ammoniy ioni bilan qizil-qo'ng'ir cho'kma beradi. Reaksiya juda sezgir bo'lgani uchun suvda ammoniyning juda oz miqdorini aniqlashda qo'llaniladi.",
+   "questions_uz": [
+    "Nessler reaktivi tarkibida qanday ionlar bor?",
+    "Nima uchun bu reaksiya suv sifatini tekshirishda ishlatiladi?",
+    "Ammoniyni aniqlashning ishqor bilan qizdirish usulidan farqi nimada?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0019",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Qo'rg'oshin(II) ionini kaliy yodid bilan aniqlash (\"oltin yomg'ir\")",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: qo'rg'oshin ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Pb(NO3)2 + 2KI = PbI2↓ + 2KNO3",
+    "ionic_full": "Pb²⁺ + 2NO3⁻ + 2K⁺ + 2I⁻ = PbI2↓ + 2K⁺ + 2NO3⁻",
+    "ionic_net": "Pb²⁺ + 2I⁻ = PbI2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Pb²⁺ va I⁻ ionlari sovuq suvda kam eriydigan qo'rg'oshin(II) yodidni hosil qiladi.",
+     "Yorqin sariq cho'kma tushadi.",
+     "PbI₂ issiq suvda eriydi, sovutilganda esa yaltiroq oltinrang plastinkalar holida qayta kristallanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "PbI2",
+     "color": "#ffd21a",
+     "texture": "oltin-yomg'ir"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Yorqin sariq cho'kma tushadi; qizdirib eritilib sovutilganda oltinrang yaltiroq kristallar (\"oltin yomg'ir\") paydo bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasi quying.",
+    "1 ml kaliy yodid eritmasidan qo'shing.",
+    "Cho'kmaga 3–4 ml suv qo'shib, u eriguncha qizdiring, so'ng probirkani sovuq suv ostida sovuting.",
+    "Kristallarning hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli — qo'lqopda ishlang, chiqindini maxsus idishga to'king, ishdan so'ng qo'lingizni yuving.",
+   "explanation_uz": "Qo'rg'oshin(II) ioni yodid ionlari bilan sariq qo'rg'oshin(II) yodid cho'kmasini hosil qiladi. Uning issiq suvda eriydigan va sovuganda chiroyli oltinrang kristallar hosil qiladigan xossasi qo'rg'oshin ionini ishonchli aniqlashga imkon beradi.",
+   "questions_uz": [
+    "\"Oltin yomg'ir\" tajribasida qanday fizik jarayon kuzatiladi?",
+    "Pb²⁺ ga yana qanday sifat reaksiyalarni bilasiz?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0020",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Qo'rg'oshin(II) ionining kaliy xromat bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: qo'rg'oshin ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Pb(NO3)2 + K2CrO4 = PbCrO4↓ + 2KNO3",
+    "ionic_full": "Pb²⁺ + 2NO3⁻ + 2K⁺ + CrO4²⁻ = PbCrO4↓ + 2K⁺ + 2NO3⁻",
+    "ionic_net": "Pb²⁺ + CrO4²⁻ = PbCrO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Pb²⁺ ionlari xromat ionlari bilan juda kam eriydigan qo'rg'oshin xromatni hosil qiladi.",
+     "Sariq cho'kma (\"xrom sarig'i\") tushadi.",
+     "PbCrO₄ sirka kislotada erimaydi, ishqorda esa eriydi — bu uni BaCrO₄ dan farqlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "PbCrO4",
+     "color": "#f7c400",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Yorqin sariq cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasi quying.",
+    "2–3 tomchi kaliy xromat eritmasidan qo'shing.",
+    "Cho'kmani ikkiga bo'lib, biriga sirka kislota, ikkinchisiga natriy gidroksid qo'shing."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari va xromatlar zaharli — qo'lqopda ishlang, chiqindini maxsus idishga to'king.",
+   "explanation_uz": "Qo'rg'oshin(II) ioni xromat ionlari bilan sariq qo'rg'oshin xromat cho'kmasini beradi. Bu modda ilgari \"xrom sarig'i\" bo'yog'i sifatida ishlatilgan; uning ishqorda erishi qo'rg'oshin gidroksidining amfoterligi bilan bog'liq.",
+   "questions_uz": [
+    "PbCrO₄ va BaCrO₄ ni qanday farqlash mumkin?",
+    "Nima uchun PbCrO₄ ishqorda eriydi?",
+    "Cho'kmaning rangi qanday?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0021",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Qo'rg'oshin(II) ionining xlorid kislota bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: qo'rg'oshin ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Pb(NO3)2",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Pb(NO3)2 + 2HCl = PbCl2↓ + 2HNO3",
+    "ionic_full": "Pb²⁺ + 2NO3⁻ + 2H⁺ + 2Cl⁻ = PbCl2↓ + 2H⁺ + 2NO3⁻",
+    "ionic_net": "Pb²⁺ + 2Cl⁻ = PbCl2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Konsentrlangan eritmalarda Pb²⁺ va Cl⁻ ionlari kam eriydigan PbCl₂ ni hosil qiladi.",
+     "Oq ignasimon kristall cho'kma tushadi.",
+     "PbCl₂ issiq suvda yaxshi eriydi — bu uni AgCl dan farqlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "PbCl2",
+     "color": "#f6f6f2",
+     "texture": "kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Oq kristall cho'kma tushadi; qizdirilganda eriydi, sovutilganda ignasimon kristallar holida qayta ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml qo'rg'oshin(II) nitrat eritmasi quying.",
+    "1 ml xlorid kislota qo'shing.",
+    "Cho'kmali probirkaga 2–3 ml suv qo'shib qizdiring, so'ng sovuting."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli — qo'lqopda ishlang, chiqindini maxsus idishga to'king.",
+   "explanation_uz": "Qo'rg'oshin(II) xlorid sovuq suvda kam, issiq suvda esa ancha yaxshi eriydi. Shu xossa sifat analizida PbCl₂ ni boshqa erimaydigan xloridlardan (AgCl dan) ajratishda qo'llaniladi.",
+   "questions_uz": [
+    "PbCl₂ va AgCl ni qanday farqlash mumkin?",
+    "Nima uchun suyultirilgan eritmalarda cho'kma tushmasligi mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0022",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Alyuminiy ionining ammiakli suv bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: alyuminiy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "AlCl3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "AlCl3 + 3NH3 + 3H2O = Al(OH)3↓ + 3NH4Cl",
+    "ionic_full": "Al³⁺ + 3Cl⁻ + 3NH3 + 3H2O = Al(OH)3↓ + 3NH4⁺ + 3Cl⁻",
+    "ionic_net": "Al³⁺ + 3NH3 + 3H2O = Al(OH)3↓ + 3NH4⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ammiak suvda kuchsiz asos bo'lib, OH⁻ ionlarini hosil qiladi.",
+     "Al³⁺ ionlari oq iviqsimon alyuminiy gidroksid holida cho'kadi.",
+     "Ammiak kuchsiz asos bo'lgani uchun ortiqcha ammiakda Al(OH)₃ erimaydi (ishqordan farqli)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Al(OH)3",
+     "color": "#f2f4f4",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi; ortiqcha ammiakli suvda u erimaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml alyuminiy xlorid eritmasi quying.",
+    "Tomchilab, so'ng ortiqcha miqdorda ammiakli suv qo'shing.",
+    "Cho'kmaning ortiqcha ammiakda erimasligini kuzating; ikkinchi probirkada uni ishqorda eritib solishtiring."
+   ],
+   "safety_uz": "Ammiakli suvni hidlamang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Alyuminiy ioni ammiakli suv bilan oq iviqsimon Al(OH)₃ cho'kmasini beradi. Ishqordan farqli ravishda ortiqcha ammiak bu cho'kmani eritmaydi; rux gidroksidi esa ortiqcha ammiakda eriydi — shu tufayli Al³⁺ va Zn²⁺ ni farqlash mumkin.",
+   "questions_uz": [
+    "Nima uchun Al(OH)₃ ortiqcha ammiakda erimaydi, ortiqcha NaOH da esa eriydi?",
+    "Al³⁺ va Zn²⁺ ni ammiak yordamida qanday farqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0023",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Rux ionining ortiqcha ammiakli suvda kompleks hosil qilishi",
+   "level": "11-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: rux ioni; kompleks birikmalar",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ammiakli suv avval tomchilab, so'ng ortiqcha qo'shiladi."
+   },
+   "equation": {
+    "molecular": "ZnSO4 + 4NH3 = [Zn(NH3)4]SO4",
+    "ionic_full": "Zn²⁺ + SO4²⁻ + 4NH3 = [Zn(NH3)4]²⁺ + SO4²⁻",
+    "ionic_net": "Zn²⁺ + 4NH3 = [Zn(NH3)4]²⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Oz miqdordagi ammiak oq Zn(OH)₂ cho'kmasini hosil qiladi.",
+     "Ortiqcha ammiak molekulalari Zn²⁺ ioniga birikib rangsiz [Zn(NH₃)₄]²⁺ kompleksini hosil qiladi.",
+     "Cho'kma eriydi va eritma tiniqlashadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     }
+    ],
+    "text_uz": "Avval oq cho'kma tushadi, ortiqcha ammiakli suvda u erib, rangsiz tiniq eritma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasi quying.",
+    "Tomchilab ammiakli suv qo'shing va oq cho'kmani kuzating.",
+    "Ammiakli suvni ortiqcha qo'shib, cho'kmaning erishini kuzating."
+   ],
+   "safety_uz": "Ammiakli suvni hidlamang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Rux ioni ortiqcha ammiak bilan eruvchan rangsiz tetraamminrux kompleksini hosil qiladi. Alyuminiy ionida bunday xossa yo'q, shuning uchun ammiak bu ikki ionni farqlashga imkon beradi.",
+   "questions_uz": [
+    "Qaysi metall gidroksidlari ortiqcha ammiakda eriydi?",
+    "Kompleks ionning tarkibini tushuntiring.",
+    "Zn²⁺ va Al³⁺ ni qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0024",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Rux ionining sariq qon tuzi bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: rux ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "K4[Fe(CN)6]",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3ZnSO4 + 2K4[Fe(CN)6] = K2Zn3[Fe(CN)6]2↓ + 3K2SO4",
+    "ionic_full": "3Zn²⁺ + 3SO4²⁻ + 8K⁺ + 2[Fe(CN)6]⁴⁻ = K2Zn3[Fe(CN)6]2↓ + 6K⁺ + 3SO4²⁻",
+    "ionic_net": "3Zn²⁺ + 2K⁺ + 2[Fe(CN)6]⁴⁻ = K2Zn3[Fe(CN)6]2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Zn²⁺ ionlari kaliy ionlari ishtirokida geksatsianoferrat(II) ionlari bilan qo'shaloq tuz hosil qiladi.",
+     "Oq iviqsimon cho'kma tushadi.",
+     "Cho'kma suyultirilgan kislotalarda erimaydi, ishqorlarda eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "K2Zn3[Fe(CN)6]2",
+     "color": "#f4f4ee",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasi quying.",
+    "2–3 tomchi sariq qon tuzi eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating; suyultirilgan xlorid kislotada erimasligini tekshiring."
+   ],
+   "safety_uz": "Qon tuzlarini kuchli kislotalar bilan qizdirmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Rux ioni sariq qon tuzi bilan kislotalarda erimaydigan oq kaliy-rux geksatsianoferrat(II) cho'kmasini hosil qiladi. Bu reaksiya ruxni alyuminiydan farqlashda qo'llaniladi.",
+   "questions_uz": [
+    "Zn²⁺ ga qanday sifat reaksiyalarni bilasiz?",
+    "Sariq qon tuzi Zn²⁺, Cu²⁺ va Fe³⁺ bilan qanday rangli cho'kmalar beradi?",
+    "Cho'kma tarkibida kaliy ioni bo'lishi nimani anglatadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0025",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Rux ionining natriy sulfid bilan reaksiyasi — oq sulfid hosil bo'lishi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: rux ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "ZnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "ZnSO4 + Na2S = ZnS↓ + Na2SO4",
+    "ionic_full": "Zn²⁺ + SO4²⁻ + 2Na⁺ + S²⁻ = ZnS↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Zn²⁺ + S²⁻ = ZnS↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Zn²⁺ va S²⁻ ionlari erimaydigan rux sulfidni hosil qiladi.",
+     "Ko'pchilik og'ir metall sulfidlari qora, ZnS esa oq rangli.",
+     "ZnS kuchli kislotalarda eriydi, sirka kislotada erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "ZnS",
+     "color": "#f4f4ee",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml rux sulfat eritmasi quying.",
+    "Tomchilab natriy sulfid eritmasidan qo'shing.",
+    "Cho'kma rangini boshqa metallar sulfidlari bilan solishtiring."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi: sulfidlar kislota bilan zaharli H₂S ajratadi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Rux sulfid oq rangli yagona keng tarqalgan erimaydigan sulfid bo'lib, bu rux ionini aniqlashga imkon beradi. Mis, qo'rg'oshin, kumush sulfidlari qora, marganes sulfidi esa pushti rangli.",
+   "questions_uz": [
+    "Qaysi metall sulfidlari qora, qaysilari rangli?",
+    "ZnS qanday kislotalarda eriydi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0026",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Nikel(II) ionini dimetilglioksim bilan aniqlash (Chugayev reaksiyasi)",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: nikel ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 1
+    },
+    {
+     "species": "C4H8N2O2",
+     "state": "aq",
+     "conc_M": 0.08,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Reaksiya neytral yoki kuchsiz ammiakli muhitda olib boriladi: ajralgan H⁺ ni bog'lash uchun 1–2 tomchi ammiakli suv qo'shiladi."
+   },
+   "equation": {
+    "molecular": "NiSO4 + 2C4H8N2O2 = Ni(C4H7N2O2)2↓ + H2SO4",
+    "ionic_full": "Ni²⁺ + SO4²⁻ + 2C4H8N2O2 = Ni(C4H7N2O2)2↓ + 2H⁺ + SO4²⁻",
+    "ionic_net": "Ni²⁺ + 2C4H8N2O2 = Ni(C4H7N2O2)2↓ + 2H⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Dimetilglioksimning har bir molekulasi bitta protonini yo'qotib, ikki azot atomi orqali Ni²⁺ ga birikadi.",
+     "Tekis kvadrat tuzilishli ichki kompleks (xelat) hosil bo'ladi.",
+     "Ajralgan H⁺ ionlari ammiak bilan neytrallanadi, aks holda kislotali muhitda cho'kma to'liq tushmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ni(C4H7N2O2)2",
+     "color": "#d81e4a",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Malina-qizil (qizil-pushti) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) tuzi eritmasi quying.",
+    "1–2 tomchi ammiakli suv qo'shing (cho'kma tushmasligi kerak).",
+    "1 ml dimetilglioksimning spirtli eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Nikel birikmalari allergen va kanserogen — qo'lqopda ishlang. Dimetilglioksim eritmasi spirtli — olovdan uzoq tuting. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Nikel(II) ioni dimetilglioksim (Chugayev reaktivi) bilan malina-qizil rangli ichki kompleks tuz hosil qiladi. Bu reaksiya nikelga juda tanlab ta'sir qiladi va uni kobalt va boshqa ionlar ishtirokida ham aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun reaksiya kuchli kislotali muhitda olib borilmaydi?",
+    "Ichki kompleks (xelat) deganda nimani tushunasiz?",
+    "Bu reaksiya qaysi olim nomi bilan ataladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0027",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Nikel(II) ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: nikel ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NiSO4 + 2NaOH = Ni(OH)2↓ + Na2SO4",
+    "ionic_full": "Ni²⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = Ni(OH)2↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Ni²⁺ + 2OH⁻ = Ni(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ni²⁺ ionlari gidroksid ionlari bilan nikel(II) gidroksidni hosil qiladi.",
+     "Och yashil iviqsimon cho'kma tushadi.",
+     "Ni(OH)₂ havoda oksidlanmaydi va ortiqcha ishqorda erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ni(OH)2",
+     "color": "#7ec27a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Och yashil iviqsimon cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating, ortiqcha ishqorda erimasligini tekshiring."
+   ],
+   "safety_uz": "Nikel birikmalari allergen — qo'lqopda ishlang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Nikel(II) ioni ishqorlar bilan och yashil nikel(II) gidroksid cho'kmasini beradi. Fe(OH)₂ dan farqli ravishda bu cho'kma havoda o'z rangini o'zgartirmaydi.",
+   "questions_uz": [
+    "Ni(OH)₂ va Fe(OH)₂ cho'kmalarini qanday farqlash mumkin?",
+    "Ni(OH)₂ ortiqcha ammiakda eriydimi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0028",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Nikel(II) ionining ortiqcha ammiakda kompleks hosil qilishi",
+   "level": "11-sinf",
+   "topic_uz": "Kompleks birikmalar: nikel ammiakati",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NiSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NH3·H2O",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 3,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "NiSO4 + 6NH3 = [Ni(NH3)6]SO4",
+    "ionic_full": "Ni²⁺ + SO4²⁻ + 6NH3 = [Ni(NH3)6]²⁺ + SO4²⁻",
+    "ionic_net": "Ni²⁺ + 6NH3 = [Ni(NH3)6]²⁺",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "kompleks",
+    "steps_uz": [
+     "Oz miqdordagi ammiak och yashil Ni(OH)₂ (asosli tuz) cho'kmasini hosil qiladi.",
+     "Ortiqcha ammiakda Ni²⁺ oltita ammiak molekulasini biriktiradi.",
+     "Ko'k-binafsha geksaamminnikel(II) ioni hosil bo'lib, cho'kma eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#62b872",
+     "to": "#7a7ae0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "dissolve"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Yashil eritmada avval och yashil cho'kma tushadi, ortiqcha ammiakda u erib, eritma ko'k-binafsha rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml nikel(II) sulfat eritmasi quying.",
+    "Tomchilab, so'ng ortiqcha ammiakli suv qo'shing.",
+    "Eritma rangini mis ammiakati rangi bilan solishtiring."
+   ],
+   "safety_uz": "Ammiakli suvni hidlamang; nikel birikmalari allergen. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Nikel(II) ioni ortiqcha ammiak bilan ko'k-binafsha geksaamminnikel(II) kompleksini hosil qiladi. Koordinatsion son 6 ga teng; mis ammiakati esa to'q ko'k rangli va koordinatsion soni 4.",
+   "questions_uz": [
+    "Kompleks ionning koordinatsion sonini aniqlang.",
+    "Nikel va mis ammiakatlari rangi bilan qanday farq qiladi?",
+    "Kompleks ion zaryadini qanday hisoblash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0029",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kobalt(II) ionining ishqor bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: kobalt ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CoCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqor ortiqcha qo'shiladi va aralashma biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "CoCl2 + 2NaOH = Co(OH)2↓ + 2NaCl",
+    "ionic_full": "Co²⁺ + 2Cl⁻ + 2Na⁺ + 2OH⁻ = Co(OH)2↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Co²⁺ + 2OH⁻ = Co(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Ishqor yetishmaganda avval ko'k rangli asosli tuz (CoOHCl) cho'kadi.",
+     "Ortiqcha ishqor va isitish ta'sirida u pushti rangli Co(OH)₂ ga aylanadi.",
+     "Havoda Co(OH)₂ asta-sekin qo'ng'irlashadi (Co(III) birikmalari hosil bo'ladi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Co(OH)2",
+     "color": "#d97a9a",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#e78fae",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Avval ko'k cho'kma tushadi, ortiqcha ishqor qo'shib isitilganda u pushti rangga kiradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kobalt(II) xlorid eritmasi quying.",
+    "Tomchilab natriy gidroksid qo'shing va ko'k cho'kmani kuzating.",
+    "Ortiqcha ishqor qo'shib, aralashmani biroz isiting va rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kobalt birikmalari zaharli va allergen — qo'lqopda ishlang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kobalt(II) ioni ishqor bilan dastlab ko'k asosli tuz, so'ng pushti kobalt(II) gidroksid hosil qiladi. Cho'kma rangining bunday o'zgarishi kobalt ioniga xosdir.",
+   "questions_uz": [
+    "Nima uchun avval ko'k, keyin pushti cho'kma kuzatiladi?",
+    "Co(OH)₂ havoda qanday o'zgaradi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sifat-0030",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Marganes(II) ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: marganes ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MnSO4 + 2NaOH = Mn(OH)2↓ + Na2SO4",
+    "ionic_full": "Mn²⁺ + SO4²⁻ + 2Na⁺ + 2OH⁻ = Mn(OH)2↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Mn²⁺ + 2OH⁻ = Mn(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Mn²⁺ ionlari gidroksid ionlari bilan oq marganes(II) gidroksidni hosil qiladi.",
+     "Havodagi kislorod ta'sirida Mn(OH)₂ tezda qo'ng'ir MnO(OH)₂ ga oksidlanadi.",
+     "Shuning uchun cho'kma sirtidan boshlab qo'ng'irlashadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Mn(OH)2",
+     "color": "#f0e2dc",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq (och pushti tusli) cho'kma hosil bo'ladi va havoda tezda qo'ng'irlashadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml marganes(II) sulfat eritmasi quying.",
+    "Tomchilab natriy gidroksid eritmasidan qo'shing.",
+    "Cho'kma rangining vaqt o'tishi bilan o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ishqor terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Marganes(II) ioni ishqor bilan oq gidroksid cho'kmasini beradi; u havoda tezda qo'ng'ir marganes(IV) birikmalariga oksidlanadi. Bu Mn(II) birikmalarining qaytaruvchilik xossasini ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun Mn(OH)₂ havoda qo'ng'irlashadi?",
+    "Mn(OH)₂ va Fe(OH)₂ ning havodagi o'zgarishlarini solishtiring.",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0031",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Marganes(II) ionini qo'rg'oshin(IV) oksid bilan permanganatgacha oksidlash",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: marganes ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mn(NO3)2",
+     "state": "aq",
+     "conc_M": 0.01,
+     "volume_mL": 1
+    },
+    {
+     "species": "PbO2",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "HNO3",
+     "state": "aq",
+     "conc_M": 6,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Marganes juda oz miqdorda olinadi; xlorid ionlari bo'lmasligi kerak. Aralashma qaynaguncha qizdiriladi va cho'kma tindiriladi."
+   },
+   "equation": {
+    "molecular": "2Mn(NO3)2 + 5PbO2 + 6HNO3 = 2HMnO4 + 5Pb(NO3)2 + 2H2O",
+    "ionic_full": "2Mn²⁺ + 4NO3⁻ + 5PbO2 + 6H⁺ + 6NO3⁻ = 2H⁺ + 2MnO4⁻ + 5Pb²⁺ + 10NO3⁻ + 2H2O",
+    "ionic_net": "2Mn²⁺ + 5PbO2 + 4H⁺ = 2MnO4⁻ + 5Pb²⁺ + 2H2O",
+    "electron_balance": [
+     "Mn⁺² − 5e⁻ = Mn⁺⁷",
+     "Pb⁺⁴ + 2e⁻ = Pb⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislotali muhitda qizdirilganda PbO₂ juda kuchli oksidlovchi.",
+     "Mn²⁺ beshta elektron berib permanganat ioniga (Mn⁺⁷) oksidlanadi.",
+     "Pb⁺⁴ ikki elektron olib Pb²⁺ ga qaytariladi; eritma binafsha-qizil rangga kiradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#8e1a8e"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Cho'kma tingach, uning ustidagi eritma binafsha-qizil (permanganat) rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozgina qo'rg'oshin(IV) oksid kukuni soling va 2 ml nitrat kislota (1:1) quying.",
+    "1–2 tomchi suyultirilgan marganes(II) tuzi eritmasidan qo'shing.",
+    "Aralashmani qaynaguncha qizdiring va 1–2 daqiqa qaynating.",
+    "Probirkani shtativga qo'yib, cho'kma tingach eritma rangini kuzating."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi. Qo'rg'oshin birikmalari zaharli, nitrat kislota o'yuvchi; qaynayotgan aralashma sachrashi mumkin — ko'zoynak va qo'lqopda ishlang.",
+   "explanation_uz": "Kislotali muhitda qo'rg'oshin(IV) oksid marganes(II) ionini binafsha-qizil permanganat ioniga oksidlaydi. Rang juda intensiv bo'lgani uchun reaksiya marganesning juda oz miqdorini ham aniqlashga imkon beradi; marganes ko'p bo'lsa, ortiqcha Mn²⁺ permanganatni qaytarib, rangni yo'qotadi.",
+   "questions_uz": [
+    "Nima uchun marganes tuzi juda oz miqdorda olinadi?",
+    "Nima uchun eritmada xlorid ionlari bo'lmasligi kerak?",
+    "Bu reaksiyada elektronlar qanday ko'chadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0032",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Marganes(II) ionining natriy sulfid bilan reaksiyasi — pushti sulfid",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: marganes ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MnSO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MnSO4 + Na2S = MnS↓ + Na2SO4",
+    "ionic_full": "Mn²⁺ + SO4²⁻ + 2Na⁺ + S²⁻ = MnS↓ + 2Na⁺ + SO4²⁻",
+    "ionic_net": "Mn²⁺ + S²⁻ = MnS↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Mn²⁺ va S²⁻ ionlari erimaydigan marganes(II) sulfidni hosil qiladi.",
+     "Cho'kma pushti (go'sht rangi) bo'ladi.",
+     "MnS hatto sirka kislotada ham eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "MnS",
+     "color": "#e8b7a0",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Och pushti (go'sht rangli) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml marganes(II) sulfat eritmasi quying.",
+    "Tomchilab natriy sulfid eritmasidan qo'shing.",
+    "Cho'kma rangini kuzating."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi: sulfidlar kislota bilan zaharli H₂S ajratadi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Marganes(II) sulfid boshqa metall sulfidlaridan farqli ravishda pushti rangli bo'lib, bu marganes ionini aniqlashga yordam beradi. U kislotalarda oson eriydi.",
+   "questions_uz": [
+    "MnS ning rangi qanday?",
+    "Rux va marganes sulfidlarini rangi bo'yicha qanday farqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0033",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Xrom(III) birikmasining ishqoriy muhitda vodorod peroksid bilan xromatgacha oksidlanishi",
+   "level": "litsey",
+   "topic_uz": "Kationlarga sifat reaksiyalar: xrom(III) ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Na3[Cr(OH)6]",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2O2",
+     "state": "aq",
+     "conc_M": 0.88,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": "ishqoriy",
+    "light": false,
+    "note_uz": "Natriy geksagidroksoxromat(III) eritmasi xrom(III) tuziga ortiqcha ishqor qo'shib olinadi."
+   },
+   "equation": {
+    "molecular": "2Na3[Cr(OH)6] + 3H2O2 = 2Na2CrO4 + 2NaOH + 8H2O",
+    "ionic_full": "6Na⁺ + 2[Cr(OH)6]³⁻ + 3H2O2 = 4Na⁺ + 2CrO4²⁻ + 2Na⁺ + 2OH⁻ + 8H2O",
+    "ionic_net": "2[Cr(OH)6]³⁻ + 3H2O2 = 2CrO4²⁻ + 2OH⁻ + 8H2O",
+    "electron_balance": [
+     "Cr⁺³ − 3e⁻ = Cr⁺⁶",
+     "2O⁻¹ + 2e⁻ = 2O⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqoriy muhitda xrom(III) geksagidroksoxromat ioni holida bo'ladi (yashil eritma).",
+     "Vodorod peroksid oksidlovchi: har bir O⁻¹ atomi bitta elektron olib O⁻² ga qaytariladi.",
+     "Xrom uch elektron berib +6 oksidlanish darajasigacha — sariq xromat ioniga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#3f9a4a",
+     "to": "#f2d22e"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Yashil eritma isitilganda sariq rangga kiradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml xrom(III) tuzi eritmasi quying va hosil bo'lgan kulrang-yashil cho'kma eriguncha natriy gidroksid qo'shing.",
+    "Yashil eritmaga 1 ml 3% li vodorod peroksid qo'shing.",
+    "Aralashmani ehtiyotkorlik bilan isiting va rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Xromatlar zaharli va kanserogen — qo'lqopda ishlang, chiqindini maxsus idishga to'king. Ishqor terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Ishqoriy muhitda vodorod peroksid yashil xrom(III) birikmalarini sariq xromat ionlarigacha oksidlaydi. Sariq rangning paydo bo'lishi xrom(III) ionini aniqlashda qo'llaniladi; xromatni so'ng BaCl₂ yoki AgNO₃ bilan tasdiqlash mumkin.",
+   "questions_uz": [
+    "Reaksiyada xromning oksidlanish darajasi qanday o'zgaradi?",
+    "Hosil bo'lgan xromat ionini qanday tasdiqlash mumkin?",
+    "Nima uchun reaksiya ishqoriy muhitda olib boriladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0034",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Magniy ionining ishqor bilan reaksiyasi",
+   "level": "9-sinf",
+   "topic_uz": "Kationlarga sifat reaksiyalar: magniy ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "MgCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "MgCl2 + 2NaOH = Mg(OH)2↓ + 2NaCl",
+    "ionic_full": "Mg²⁺ + 2Cl⁻ + 2Na⁺ + 2OH⁻ = Mg(OH)2↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Mg²⁺ + 2OH⁻ = Mg(OH)2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Mg²⁺ ionlari gidroksid ionlari bilan oq magniy gidroksidni hosil qiladi.",
+     "Mg(OH)₂ asos xossali — ortiqcha ishqorda erimaydi.",
+     "Bu uni amfoter Al(OH)₃ va Zn(OH)₂ dan farqlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Mg(OH)2",
+     "color": "#f6f6f2",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq iviqsimon cho'kma hosil bo'ladi; ortiqcha ishqorda erimaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml magniy xlorid eritmasi quying.",
+    "Natriy gidroksid eritmasini avval tomchilab, so'ng ortiqcha qo'shing.",
+    "Cho'kmaning ortiqcha ishqorda erimasligini kuzating."
+   ],
+   "safety_uz": "Ishqor terini kuydiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Magniy ioni ishqor bilan oq magniy gidroksid cho'kmasini beradi, u ortiqcha ishqorda erimaydi. Shu tufayli magniyni oq gidroksid hosil qiluvchi amfoter metallar (alyuminiy, rux) dan farqlash mumkin.",
+   "questions_uz": [
+    "Mg(OH)₂, Al(OH)₃ va Zn(OH)₂ ni qanday farqlash mumkin?",
+    "Mg(OH)₂ kislotalarda eriydimi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0035",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Litiy ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Li^+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida litiy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "LiCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Litiy uchun bu yorug'lik alangani to'q qizil (karmin) rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#d81b60",
+     "desc_uz": "to'q qizil (karmin)"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga to'q qizil (karmin) rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni LiCl eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Litiy birikmalari rangsiz alangani to'q qizil (karmin) rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0036",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Natriy ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Na^+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida natriy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Natriy uchun bu yorug'lik alangani sariq rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#ffb000",
+     "desc_uz": "sariq"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga sariq rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni NaCl eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Natriy birikmalari rangsiz alangani sariq rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi. Natriyning sariq rangi juda kuchli bo'lib, boshqa ionlar rangini to'sib qo'yadi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0037",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kaliy ionini alanga rangi bo'yicha aniqlash (kobalt shisha orqali)",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "K^+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida kaliy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "KCl",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kaliy alangasi natriy aralashmasi sariq rangini to'sib qo'yish uchun ko'k kobalt shisha orqali kuzatiladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Kaliy uchun bu yorug'lik alangani binafsha (och siyohrang) rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#b07ee0",
+     "desc_uz": "binafsha (och siyohrang)"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga binafsha (och siyohrang) rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni KCl eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini ko'k kobalt shisha orqali kuzating."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Kaliy birikmalari rangsiz alangani binafsha (och siyohrang) rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi. Natriy aralashmasining sariq rangini to'sish uchun ko'k kobalt shishadan foydalaniladi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun kaliy alangasi kobalt shisha orqali kuzatiladi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0038",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Kalsiy ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Ca^2+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida kalsiy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "CaCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Kalsiy uchun bu yorug'lik alangani g'isht-qizil rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#ff5a1f",
+     "desc_uz": "g'isht-qizil"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga g'isht-qizil rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni CaCl2 eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Kalsiy birikmalari rangsiz alangani g'isht-qizil rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0039",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Stronsiy ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Sr^2+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida stronsiy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "SrCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Stronsiy uchun bu yorug'lik alangani qizil (karmin) rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#ff1a2a",
+     "desc_uz": "qizil (karmin)"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga qizil (karmin) rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni SrCl2 eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Stronsiy birikmalari rangsiz alangani qizil (karmin) rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0040",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Bariy ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Ba^2+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida bariy atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Bariy uchun bu yorug'lik alangani sarg'ish-yashil rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#a6d22a",
+     "desc_uz": "sarg'ish-yashil"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga sarg'ish-yashil rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni BaCl2 eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang. Bariy tuzlari zaharli.",
+   "explanation_uz": "Bariy birikmalari rangsiz alangani sarg'ish-yashil rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0041",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Mis(II) ionini alanga rangi bo'yicha aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Alanga sinovi: metall ionlarini aniqlash",
+   "engine": "rules",
+   "flame_test": {
+    "ion": "Cu^2+"
+   },
+   "equation_free": true,
+   "equation_free_uz": "Alanga sinovi — fizik jarayon: alanga issiqligida mis atomlari (ionlari) qo'zg'aladi va asosiy holatga qaytishda faqat shu elementga xos to'lqin uzunlikdagi nur chiqaradi. Kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "CuCl2",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nixrom sim avval xlorid kislotada yuvilib, alanga rangsiz bo'lguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "fizik",
+    "steps_uz": [
+     "Alanga issiqligida tuz tarkibidagi metall atomlarining tashqi elektronlari yuqori energetik pog'onalarga o'tadi.",
+     "Qo'zg'algan elektronlar asosiy holatga qaytishda ma'lum to'lqin uzunlikdagi yorug'lik chiqaradi.",
+     "Mis uchun bu yorug'lik alangani yashil (ko'kimtir-yashil) rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": {
+     "color": "#21c47a",
+     "desc_uz": "yashil (ko'kimtir-yashil)"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Rangsiz alanga yashil (ko'kimtir-yashil) rangga bo'yaladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "nixrom-sim",
+    "bunzen-gorelkasi",
+    "probirka"
+   ],
+   "procedure_uz": [
+    "Nixrom sim uchini konsentrlangan xlorid kislotaga botirib, alanga rangsiz bo'lguncha gorelka alangasida qizdiring.",
+    "Toza simni CuCl2 eritmasiga (yoki kristallariga) botiring.",
+    "Simni gorelka alangasining rangsiz qismiga kiriting.",
+    "Alanga rangini kuzating va uni boshqa tuzlar alangasi bilan solishtiring."
+   ],
+   "safety_uz": "Gorelka alangasi bilan ehtiyot bo'ling, sochni yig'ib oling. Konsentrlangan xlorid kislota bug'larini hidlamang.",
+   "explanation_uz": "Mis birikmalari rangsiz alangani yashil (ko'kimtir-yashil) rangga bo'yaydi. Har bir element o'ziga xos nurlanish spektriga ega bo'lgani uchun alanga sinovi metall ionlarini tez aniqlashga imkon beradi.",
+   "questions_uz": [
+    "Nima uchun turli metallar alangani turli rangga bo'yaydi?",
+    "Nima uchun nixrom sim har bir sinovdan oldin xlorid kislotada tozalanadi?",
+    "Mushakbozlikda (salyutlarda) qaysi metallarning tuzlari ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0042",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Xlorid ionini kumush nitrat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: galogenid ionlari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaCl",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Tekshiriladigan eritma bir necha tomchi nitrat kislota bilan kislotalanadi (karbonat, fosfat ionlari xalaqit bermasligi uchun)."
+   },
+   "equation": {
+    "molecular": "NaCl + AgNO3 = AgCl↓ + NaNO3",
+    "ionic_full": "Na⁺ + Cl⁻ + Ag⁺ + NO3⁻ = AgCl↓ + Na⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + Cl⁻ = AgCl↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Cl⁻ ionlari Ag⁺ ionlari bilan erimaydigan AgCl ni hosil qiladi.",
+     "Nitrat kislotali muhitda Ag₂CO₃, Ag₃PO₄ kabi cho'kmalar hosil bo'lmaydi — reaksiya tanlab ta'sir qiladi.",
+     "Oq suzmasimon cho'kma ammiakda eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgCl",
+     "color": "#f8f8f4",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq suzmasimon cho'kma tushadi; u nitrat kislotada erimaydi, ammiakli suvda eriydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml tekshiriladigan eritma (natriy xlorid) quying va 2 tomchi nitrat kislota qo'shing.",
+    "2–3 tomchi kumush nitrat eritmasidan qo'shing.",
+    "Cho'kmaning rangi va ko'rinishini kuzating."
+   ],
+   "safety_uz": "Kumush nitrat terini qoraytiradi; nitrat kislota o'yuvchi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Xlorid ionlari kumush ionlari bilan nitrat kislotada erimaydigan oq suzmasimon AgCl cho'kmasini hosil qiladi. Shuning uchun kumush nitrat xlorid kislota va uning tuzlariga reaktivdir.",
+   "questions_uz": [
+    "Nima uchun eritma nitrat kislota bilan kislotalanadi?",
+    "Vodoprovod suvida xlorid ionlari borligini qanday aniqlash mumkin?",
+    "AgCl, AgBr va AgI ni rangi bo'yicha qanday farqlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0043",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Bromid ionini kumush nitrat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: galogenid ionlari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "KBr",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "KBr + AgNO3 = AgBr↓ + KNO3",
+    "ionic_full": "K⁺ + Br⁻ + Ag⁺ + NO3⁻ = AgBr↓ + K⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + Br⁻ = AgBr↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Br⁻ ionlari Ag⁺ ionlari bilan erimaydigan kumush bromidni hosil qiladi.",
+     "Cho'kma och sarg'ish (oq-sarg'ish) rangli.",
+     "AgBr nitrat kislotada erimaydi, ammiakda esa qisman eriydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgBr",
+     "color": "#f2ecc0",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Och sarg'ish suzmasimon cho'kma tushadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy bromid eritmasi quying.",
+    "2–3 tomchi kumush nitrat eritmasidan qo'shing.",
+    "Cho'kma rangini AgCl va AgI cho'kmalari bilan solishtiring."
+   ],
+   "safety_uz": "Kumush nitrat terini qoraytiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Bromid ionlari kumush ionlari bilan och sarg'ish kumush bromid cho'kmasini hosil qiladi. Kumush galogenidlarining rangi xloriddan yodidga qarab oqdan sariqqa o'zgaradi; AgBr yorug'likka sezgir bo'lgani uchun fotografiyada ishlatilgan.",
+   "questions_uz": [
+    "AgCl, AgBr, AgI cho'kmalarining ranglarini taqqoslang.",
+    "Kumush bromid qayerda ishlatilgan?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0044",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Yodid ionini kumush nitrat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: galogenid ionlari",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "KI + AgNO3 = AgI↓ + KNO3",
+    "ionic_full": "K⁺ + I⁻ + Ag⁺ + NO3⁻ = AgI↓ + K⁺ + NO3⁻",
+    "ionic_net": "Ag⁺ + I⁻ = AgI↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "I⁻ ionlari Ag⁺ ionlari bilan kumush galogenidlari ichida eng kam eriydigan AgI ni hosil qiladi.",
+     "Cho'kma sariq rangli.",
+     "AgI nitrat kislotada ham, ammiakda ham erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "AgI",
+     "color": "#f2df5a",
+     "texture": "suzmasimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Sariq suzmasimon cho'kma tushadi; u ammiakli suvda erimaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy yodid eritmasi quying.",
+    "2–3 tomchi kumush nitrat eritmasidan qo'shing.",
+    "Cho'kmaga ammiakli suv qo'shib, erimasligini tekshiring."
+   ],
+   "safety_uz": "Kumush nitrat terini qoraytiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Yodid ionlari kumush ionlari bilan sariq, ammiakda ham erimaydigan kumush yodid cho'kmasini hosil qiladi. Rangi va ammiakka munosabati bo'yicha AgI ni AgCl va AgBr dan farqlash mumkin.",
+   "questions_uz": [
+    "Nima uchun AgI ammiakda erimaydi?",
+    "Galogenid ionlarini bir-biridan qanday farqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0045",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Bromid ionini xlorli suv bilan aniqlash (organik qatlamda)",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: galogenlarning siqib chiqarilishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KBr",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "xlorli-suv",
+     "state": "aq",
+     "volume_mL": 1
+    },
+    {
+     "species": "C6H14",
+     "state": "l",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Eritma ustiga ozgina organik erituvchi (geksan) quyilib, xlorli suv tomizilgach chayqatiladi."
+   },
+   "equation": {
+    "molecular": "2KBr + Cl2 = 2KCl + Br2",
+    "ionic_full": "2K⁺ + 2Br⁻ + Cl2 = 2K⁺ + 2Cl⁻ + Br2",
+    "ionic_net": "2Br⁻ + Cl2 = 2Cl⁻ + Br2",
+    "electron_balance": [
+     "Cl2⁰ + 2e⁻ = 2Cl⁻¹",
+     "2Br⁻¹ − 2e⁻ = Br2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Xlor bromdan faolroq galogen bo'lgani uchun bromid ionlaridan elektron oladi.",
+     "Erkin brom ajraladi.",
+     "Brom suvga qaraganda organik erituvchida yaxshiroq eriydi va uni sariq-to'q sariq rangga bo'yaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#e8a040"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "layers"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Chayqatilgandan so'ng yuqoridagi organik qatlam sariq-to'q sariq rangga bo'yaladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy bromid eritmasi quying.",
+    "Ustiga 0,5–1 ml geksan (yoki boshqa suvda erimaydigan organik erituvchi) quying.",
+    "Tomchilab xlorli suv qo'shing va probirkani tiqin bilan yopib chayqating.",
+    "Qatlamlar ajralgach organik qatlam rangini kuzating."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi. Xlorli suv va brom bug'lari zaharli; organik erituvchi yonuvchi — olovdan uzoq tuting.",
+   "explanation_uz": "Xlor bromid ionlarini erkin bromgacha oksidlaydi. Ajralgan brom organik erituvchiga o'tib, uni sariq-to'q sariq rangga bo'yaydi. Yodid ionlari bilan esa organik qatlam binafsha rangga kiradi — shu bilan Br⁻ va I⁻ farqlanadi.",
+   "questions_uz": [
+    "Nima uchun brom organik qatlamga o'tadi?",
+    "Yodid ioni bo'lganda organik qatlam qanday rangga bo'yaladi?",
+    "Galogenlarning oksidlovchilik faolligi qanday tartibda o'zgaradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0046",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Sulfat ionini bariy xlorid bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: sulfat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2SO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Tekshiriladigan eritma oldindan xlorid kislota bilan kislotalanadi (karbonat va sulfit ionlari xalaqit bermasligi uchun)."
+   },
+   "equation": {
+    "molecular": "K2SO4 + BaCl2 = BaSO4↓ + 2KCl",
+    "ionic_full": "2K⁺ + SO4²⁻ + Ba²⁺ + 2Cl⁻ = BaSO4↓ + 2K⁺ + 2Cl⁻",
+    "ionic_net": "Ba²⁺ + SO4²⁻ = BaSO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "SO₄²⁻ ionlari Ba²⁺ ionlari bilan erimaydigan BaSO₄ ni hosil qiladi.",
+     "Kislotali muhitda BaCO₃ va BaSO₃ cho'kmaydi, shuning uchun oq cho'kma faqat sulfatga xos.",
+     "BaSO₄ kuchli kislotalarda ham erimaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaSO4",
+     "color": "#f4f4ee",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Kislotali eritmada oq mayda kristall cho'kma tushadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml tekshiriladigan eritma (kaliy sulfat) quying va 2–3 tomchi xlorid kislota qo'shing.",
+    "Bir necha tomchi bariy xlorid eritmasidan qo'shing.",
+    "Oq cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Bariy xlorid zaharli — og'izga tegmasin, ishdan so'ng qo'lingizni yuving. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Sulfat ionlari bariy ionlari bilan kislotalarda erimaydigan oq bariy sulfat cho'kmasini beradi. Eritmani avval kislotalash boshqa anionlar (CO₃²⁻, SO₃²⁻, PO₄³⁻) hosil qiladigan bariy cho'kmalarining xalaqitini yo'qotadi.",
+   "questions_uz": [
+    "Nima uchun eritma avval xlorid kislota bilan kislotalanadi?",
+    "Sulfat va karbonat ionlarini bariy xlorid yordamida qanday farqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0047",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Sulfit ionining bariy xlorid bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: sulfit ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2SO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SO3 + BaCl2 = BaSO3↓ + 2NaCl",
+    "ionic_full": "2Na⁺ + SO3²⁻ + Ba²⁺ + 2Cl⁻ = BaSO3↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Ba²⁺ + SO3²⁻ = BaSO3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Neytral eritmada SO₃²⁻ ionlari Ba²⁺ bilan oq BaSO₃ ni hosil qiladi.",
+     "BaSO₃ xlorid kislotada SO₂ ajratib eriydi.",
+     "Bu xossasi bilan u kislotada erimaydigan BaSO₄ dan farq qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaSO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq cho'kma tushadi; xlorid kislota qo'shilganda u o'tkir SO₂ hidi chiqarib eriydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy sulfit eritmasi quying.",
+    "Bir necha tomchi bariy xlorid eritmasidan qo'shing.",
+    "Cho'kmaga xlorid kislota tomizib, erishini va hidni (qo'l bilan yelpib) kuzating."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi: kislota qo'shilganda SO₂ ajraladi. Bariy tuzlari zaharli. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Sulfit ioni bariy ionlari bilan oq cho'kma beradi, ammo u bariy sulfatdan farqli ravishda kuchli kislotalarda SO₂ ajratib eriydi. Shu xossa sulfit va sulfat ionlarini farqlashga imkon beradi.",
+   "questions_uz": [
+    "BaSO₃ va BaSO₄ ni qanday farqlash mumkin?",
+    "BaSO₃ xlorid kislotada erish tenglamasini yozing.",
+    "Sulfit eritmasi havoda uzoq tursa qanday o'zgaradi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0048",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Sulfit ionining yod eritmasini rangsizlantirishi",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: sulfit ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Na2SO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SO3 + I2 + H2O = Na2SO4 + 2HI",
+    "ionic_full": "2Na⁺ + SO3²⁻ + I2 + H2O = 2Na⁺ + SO4²⁻ + 2H⁺ + 2I⁻",
+    "ionic_net": "SO3²⁻ + I2 + H2O = SO4²⁻ + 2I⁻ + 2H⁺",
+    "electron_balance": [
+     "I2⁰ + 2e⁻ = 2I⁻¹",
+     "S⁺⁴ − 2e⁻ = S⁺⁶"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Sulfit ionidagi oltingugurt (+4) qaytaruvchi.",
+     "Yod molekulasi ikki elektron olib rangsiz yodid ionlariga qaytariladi.",
+     "Oltingugurt sulfat ionigacha (+6) oksidlanadi va eritma rangsizlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Qo'ng'ir yod eritmasi sulfit qo'shilganda rangsizlanadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy sulfit eritmasi quying.",
+    "Tomchilab yodning kaliy yodiddagi eritmasidan qo'shing.",
+    "Yod rangining yo'qolishini kuzating."
+   ],
+   "safety_uz": "Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Sulfit ionlari yodni yodid ionlarigacha qaytarib, eritmani rangsizlantiradi; o'zlari sulfat ionlariga oksidlanadi. Bu sulfit ionlarining qaytaruvchilik xossasini ko'rsatadi va ularni aniqlashda qo'llaniladi.",
+   "questions_uz": [
+    "Bu reaksiyada qaysi ion qaytaruvchi?",
+    "Reaksiyadan keyin sulfat ioni hosil bo'lganini qanday isbotlash mumkin?",
+    "Sulfat ioni yodni rangsizlantiradimi? Nima uchun?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0049",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Sulfid ionini qo'rg'oshin(II) atsetat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: sulfid ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "(CH3COO)2Pb",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + (CH3COO)2Pb = PbS↓ + 2CH3COONa",
+    "ionic_full": "2Na⁺ + S²⁻ + Pb²⁺ + 2CH3COO⁻ = PbS↓ + 2Na⁺ + 2CH3COO⁻",
+    "ionic_net": "Pb²⁺ + S²⁻ = PbS↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "S²⁻ ionlari Pb²⁺ ionlari bilan juda kam eriydigan qo'rg'oshin sulfidni hosil qiladi.",
+     "Qora cho'kma tushadi.",
+     "Bu reaksiya juda sezgir — qo'rg'oshin atsetatli qog'oz sulfidning izlarini ham sezadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "PbS",
+     "color": "#151515",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Qora cho'kma hosil bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy sulfid eritmasi quying.",
+    "Bir necha tomchi qo'rg'oshin(II) atsetat eritmasidan qo'shing.",
+    "Qora cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin birikmalari zaharli; sulfidlarni kislotalar bilan aralashtirmang (H₂S ajraladi). Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Sulfid ionlari qo'rg'oshin(II) ionlari bilan qora qo'rg'oshin sulfid cho'kmasini hosil qiladi. Bu sulfid ionlari va vodorod sulfidga eng ko'p ishlatiladigan sifat reaksiyadir.",
+   "questions_uz": [
+    "Sulfid ionini yana qanday reaktivlar bilan aniqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing.",
+    "Nima uchun kumush buyumlar vaqt o'tishi bilan qorayadi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0050",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Sulfid ionining kislota bilan reaksiyasi — vodorod sulfid ajralishi",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: sulfid ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2S",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2S + 2HCl = 2NaCl + H2S↑",
+    "ionic_full": "2Na⁺ + S²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + H2S↑",
+    "ionic_net": "S²⁻ + 2H⁺ = H2S↑",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kuchli kislota H⁺ ionlari sulfid ionini protonlaydi.",
+     "Kuchsiz va uchuvchan vodorod sulfid hosil bo'ladi.",
+     "H₂S palag'da tuxum hidi va qo'rg'oshin atsetatli qog'ozni qoraytirishi bilan aniqlanadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "H2S",
+     "color": null,
+     "smell_uz": "palag'da tuxum hidi"
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Palag'da tuxum hidi paydo bo'ladi; probirka og'ziga tutilgan qo'rg'oshin atsetatli ho'l qog'oz qorayadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "filtr-qogoz"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy sulfid eritmasi quying.",
+    "Ustiga 1 ml suyultirilgan xlorid kislota qo'shing.",
+    "Probirka og'ziga qo'rg'oshin(II) atsetat eritmasi bilan ho'llangan filtr qog'ozini tuting."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi. H₂S juda zaharli — hidlamang, faqat oz miqdorda ishlang.",
+   "explanation_uz": "Sulfidlar kuchli kislotalar bilan vodorod sulfid ajratadi. Gazning hidi va qo'rg'oshin atsetatli qog'ozning qorayishi sulfid ionlari borligini tasdiqlaydi.",
+   "questions_uz": [
+    "Nima uchun sulfidlarni kislotalar bilan ishlash xavfli?",
+    "H₂S ni qanday aniqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0051",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Karbonat ionini kislota va ohakli suv yordamida aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: karbonat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2CO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ajralgan gaz gaz chiqarish naychasi orqali ohakli suvga o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "Na2CO3 + 2HCl = 2NaCl + CO2↑ + H2O",
+    "ionic_full": "2Na⁺ + CO3²⁻ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + CO2↑ + H2O",
+    "ionic_net": "CO3²⁻ + 2H⁺ = CO2↑ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kuchli kislota karbonat ionini beqaror karbonat kislotagacha protonlaydi.",
+     "H₂CO₃ CO₂ va suvga parchalanadi — eritma \"qaynaydi\".",
+     "Ajralgan CO₂ ohakli suvni loyqalantiradi (CaCO₃ cho'kmasi)."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "foam"
+     }
+    ],
+    "text_uz": "Shiddatli pufakchalar (\"qaynash\") kuzatiladi; ajralgan hidsiz gaz ohakli suvni loyqalantiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "gaz-naycha-egilgan",
+    "rezina-tiqin-1-teshikli-kichik"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy karbonat eritmasi quying.",
+    "Xlorid kislota qo'shib, probirkani darhol gaz chiqarish naychali tiqin bilan yoping.",
+    "Naycha uchini ohakli suvli probirkaga tushiring va loyqalanishni kuzating."
+   ],
+   "safety_uz": "Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Karbonatlar kislotalar bilan CO₂ ajratadi; gaz hidsiz bo'lib, ohakli suvni loyqalantiradi. Bu ikki belgining birgalikda kuzatilishi karbonat (yoki gidrokarbonat) ioni borligini tasdiqlaydi.",
+   "questions_uz": [
+    "Karbonat va sulfit ionlarini kislota ta'sirida qanday farqlash mumkin?",
+    "Ohakli suvning loyqalanish tenglamasini yozing.",
+    "Ohaktosh tarkibida karbonat borligini uyda qanday tekshirish mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0052",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Karbonat ionining bariy xlorid bilan reaksiyasi va cho'kmaning kislotada erishi",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: karbonat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "K2CO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "BaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "K2CO3 + BaCl2 = BaCO3↓ + 2KCl",
+    "ionic_full": "2K⁺ + CO3²⁻ + Ba²⁺ + 2Cl⁻ = BaCO3↓ + 2K⁺ + 2Cl⁻",
+    "ionic_net": "Ba²⁺ + CO3²⁻ = BaCO3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Neytral eritmada CO₃²⁻ ionlari Ba²⁺ bilan oq BaCO₃ ni hosil qiladi.",
+     "BaCO₃ kislotalarda CO₂ ajratib eriydi.",
+     "Bu xossasi bilan u BaSO₄ dan farq qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "BaCO3",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq cho'kma tushadi; xlorid kislota qo'shilganda pufakchalar chiqarib eriydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy karbonat eritmasi quying.",
+    "Bir necha tomchi bariy xlorid eritmasidan qo'shing.",
+    "Cho'kmaga xlorid kislota tomizib, gaz ajralib erishini kuzating."
+   ],
+   "safety_uz": "Bariy tuzlari zaharli. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Karbonat ioni bariy ionlari bilan oq cho'kma beradi, lekin bu cho'kma kislotada CO₂ ajratib eriydi. Shu bilan karbonat ionini kislotada erimaydigan BaSO₄ beruvchi sulfat ionidan farqlash mumkin.",
+   "questions_uz": [
+    "BaCO₃ ning xlorid kislotada erish tenglamasini yozing.",
+    "Sulfat va karbonat ionlarini qanday farqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0053",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Fosfat ionini kumush nitrat bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: fosfat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na3PO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "AgNO3",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na3PO4 + 3AgNO3 = Ag3PO4↓ + 3NaNO3",
+    "ionic_full": "3Na⁺ + PO4³⁻ + 3Ag⁺ + 3NO3⁻ = Ag3PO4↓ + 3Na⁺ + 3NO3⁻",
+    "ionic_net": "3Ag⁺ + PO4³⁻ = Ag3PO4↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "PO₄³⁻ ionlari Ag⁺ ionlari bilan erimaydigan kumush fosfatni hosil qiladi.",
+     "Cho'kma sariq rangli.",
+     "Ag₃PO₄ nitrat kislotada eriydi — bu uni AgI dan farqlaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Ag3PO4",
+     "color": "#f2d23a",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Sariq cho'kma hosil bo'ladi; u nitrat kislotada eriydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy fosfat eritmasi quying.",
+    "Bir necha tomchi kumush nitrat eritmasidan qo'shing.",
+    "Cho'kmaga nitrat kislota tomizib, erishini kuzating."
+   ],
+   "safety_uz": "Kumush nitrat terini qoraytiradi. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Fosfat ionlari kumush ionlari bilan sariq kumush fosfat cho'kmasini beradi. Bu cho'kma nitrat kislotada eriydi, sariq kumush yodid esa erimaydi — shu bilan bu ikki ion farqlanadi.",
+   "questions_uz": [
+    "Ag₃PO₄ va AgI ni qanday farqlash mumkin?",
+    "Mineral o'g'itlarda fosfat borligini qanday aniqlash mumkin?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0054",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Nitrat ionini mis va sulfat kislota bilan aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: nitrat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "KNO3",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "qirindi"
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 9,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Nitrat eritmasiga mis qirindisi va (1:1) sulfat kislota qo'shilib, kuchsiz qizdiriladi."
+   },
+   "equation": {
+    "molecular": "3Cu + 2KNO3 + 4H2SO4 = 3CuSO4 + K2SO4 + 2NO↑ + 4H2O",
+    "ionic_full": "3Cu + 2K⁺ + 2NO3⁻ + 8H⁺ + 4SO4²⁻ = 3Cu²⁺ + 3SO4²⁻ + 2K⁺ + SO4²⁻ + 2NO↑ + 4H2O",
+    "ionic_net": "3Cu + 2NO3⁻ + 8H⁺ = 3Cu²⁺ + 2NO↑ + 4H2O",
+    "electron_balance": [
+     "Cu⁰ − 2e⁻ = Cu⁺²",
+     "N⁺⁵ + 3e⁻ = N⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Sulfat kislota muhitida nitrat ionlari nitrat kislota kabi oksidlovchi bo'ladi.",
+     "Mis Cu²⁺ ga oksidlanadi, nitrat ionidagi azot (+5) NO gacha (+2) qaytariladi.",
+     "Rangsiz NO probirka og'zida havodagi kislorod bilan qo'ng'ir NO₂ ga aylanadi: 2NO + O₂ = 2NO₂."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#4aa3dc"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Qizdirilganda mis atrofida pufakchalar ajraladi, eritma ko'kimtir tusga kiradi; probirkaning yuqori qismida va og'zida qo'ng'ir gaz paydo bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml tekshiriladigan eritma (kaliy nitrat) quying va bir bo'lak mis qirindisi soling.",
+    "Ehtiyotkorlik bilan 1 ml (1:1) sulfat kislota qo'shing.",
+    "Probirkani kuchsiz qizdiring va oq qog'oz fonida probirka og'zidagi gaz rangini kuzating."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi: azot oksidlari juda zaharli. Sulfat kislota terini kuydiradi — ko'zoynak, qo'lqop va xalatda ishlang.",
+   "explanation_uz": "Nitrat ionlari kislotali muhitda misni oksidlaydi va azot(II) oksid ajraladi; u havoda qo'ng'ir NO₂ ga aylanadi. Nitratlar deyarli barcha kationlar bilan eriydigan tuzlar hosil qilgani uchun nitrat ioni cho'ktirish orqali emas, aynan shu oksidlovchilik xossasi bo'yicha aniqlanadi. Dvigatelda Cu + NO₃⁻ + H⁺ jarayoni gazlar toifasidagi suyultirilgan nitrat kislota yozuvi (gazolish) orqali bajariladi.",
+   "questions_uz": [
+    "Nima uchun nitrat ionini cho'ktirish reaksiyasi bilan aniqlab bo'lmaydi?",
+    "Probirka og'zida qo'ng'ir gaz paydo bo'lishini tenglama bilan tushuntiring.",
+    "Bu reaksiyada sulfat kislotaning vazifasi nima?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sifat-0055",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Silikat ionini kislota bilan aniqlash — silikat kislota iviqining hosil bo'lishi",
+   "level": "9-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: silikat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "Na2SiO3",
+     "state": "aq",
+     "conc_M": 0.5,
+     "volume_mL": 1
+    },
+    {
+     "species": "HCl",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "Na2SiO3 + 2HCl = H2SiO3↓ + 2NaCl",
+    "ionic_full": "2Na⁺ + SiO3²⁻ + 2H⁺ + 2Cl⁻ = H2SiO3↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "SiO3²⁻ + 2H⁺ = H2SiO3↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Silikat kislota juda kuchsiz kislota, shuning uchun kuchli kislotalar uni tuzlaridan siqib chiqaradi.",
+     "H₂SiO₃ suvda erimaydi.",
+     "U iviqsimon (gel) cho'kma yoki butun hajmni egallovchi iviq hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "H2SiO3",
+     "color": "#f2f2ee",
+     "texture": "iviqsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Rangsiz shaffof iviqsimon cho'kma hosil bo'ladi; konsentrlangan eritmalarda butun suyuqlik iviqqa aylanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy silikat (suyuq shisha) eritmasi quying.",
+    "Tomchilab xlorid kislota qo'shing va chayqating.",
+    "Iviqsimon cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Natriy silikat eritmasi ishqoriy — ko'zga tushishidan saqlaning. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Silikat ionlari kislotalar bilan suvda erimaydigan iviqsimon silikat kislota hosil qiladi. Bu silikat ioniga xos sifat reaksiya bo'lib, \"kuchli kislota kuchsiz kislotani tuzidan siqib chiqaradi\" qoidasini yaqqol ko'rsatadi.",
+   "questions_uz": [
+    "Nima uchun silikat kislota iviq holida ajraladi?",
+    "Natriy silikat eritmasiga CO₂ o'tkazilsa nima kuzatiladi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0056",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Atsetat ionini sulfat kislota bilan aniqlash (sirka kislota hidi)",
+   "level": "10-sinf",
+   "topic_uz": "Anionlarga sifat reaksiyalar: atsetat ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "CH3COONa",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma kuchsiz isitiladi va hid qo'l bilan yelpib aniqlanadi."
+   },
+   "equation": {
+    "molecular": "2CH3COONa + H2SO4 = Na2SO4 + 2CH3COOH",
+    "ionic_full": "2Na⁺ + 2CH3COO⁻ + 2H⁺ + SO4²⁻ = 2Na⁺ + SO4²⁻ + 2CH3COOH",
+    "ionic_net": "CH3COO⁻ + H⁺ = CH3COOH",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kuchli sulfat kislota atsetat ionlarini protonlaydi.",
+     "Kuchsiz va uchuvchan sirka kislota hosil bo'ladi.",
+     "Isitilganda sirka kislota bug'lari o'ziga xos o'tkir hidi bilan seziladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Isitilganda o'tkir sirka hidi paydo bo'ladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy atsetat eritmasi quying.",
+    "1 ml suyultirilgan sulfat kislota qo'shing.",
+    "Aralashmani kuchsiz isiting va hidni qo'l bilan yelpib aniqlang."
+   ],
+   "safety_uz": "Kislota bug'larini to'g'ridan-to'g'ri hidlamang; qizdirishda probirka og'zini o'zingizga qaratmang. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kuchli kislotalar atsetatlardan kuchsiz sirka kislotani siqib chiqaradi; uning o'tkir hidi atsetat ioni borligini ko'rsatadi. Bu reaksiyada cho'kma yoki rang o'zgarishi bo'lmagani uchun aniqlash hid bo'yicha amalga oshiriladi.",
+   "questions_uz": [
+    "Nima uchun sulfat kislota sirka kislotani tuzidan siqib chiqaradi?",
+    "Atsetat ionini aniqlashning yana qanday usullarini bilasiz?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "sifat-0057",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Xromat ionining kislotali muhitda dixromatga o'tishi",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: xromat va dixromat ionlari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "K2CrO4",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2K2CrO4 + H2SO4 = K2Cr2O7 + K2SO4 + H2O",
+    "ionic_full": "4K⁺ + 2CrO4²⁻ + 2H⁺ + SO4²⁻ = 2K⁺ + Cr2O7²⁻ + 2K⁺ + SO4²⁻ + H2O",
+    "ionic_net": "2CrO4²⁻ + 2H⁺ = Cr2O7²⁻ + H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kislotali muhitda xromat ionlari protonlanadi.",
+     "Ikki xromat ioni suv ajratib birlashadi va dixromat ionini hosil qiladi.",
+     "Eritma sariqdan to'q sariq rangga o'tadi; ishqor qo'shilsa jarayon teskari yo'nalishda boradi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#f2d22e",
+     "to": "#ef7d1a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Sariq eritma kislota qo'shilganda to'q sariq rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml kaliy xromat eritmasi quying.",
+    "Tomchilab suyultirilgan sulfat kislota qo'shing va rang o'zgarishini kuzating.",
+    "So'ng natriy gidroksid qo'shib, sariq rangning qaytishini kuzating."
+   ],
+   "safety_uz": "Xromatlar va dixromatlar zaharli va kanserogen — qo'lqopda ishlang, chiqindini maxsus idishga to'king. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Xromat va dixromat ionlari muhitga qarab bir-biriga o'tadi: kislotali muhitda to'q sariq dixromat, ishqoriy muhitda sariq xromat barqaror. Bu oksidlanish-qaytarilish emas — xromning oksidlanish darajasi ikkala ionda ham +6.",
+   "questions_uz": [
+    "Bu reaksiyada xromning oksidlanish darajasi o'zgaradimi?",
+    "Dixromat eritmasiga ishqor qo'shilsa nima kuzatiladi?",
+    "Muvozanatning siljishini Le Shatelye prinsipi asosida tushuntiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0058",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Yodni kraxmal yordamida aniqlash",
+   "level": "9-sinf",
+   "topic_uz": "Yodga sifat reaksiya",
+   "engine": "rules",
+   "equation_free": true,
+   "equation_free_uz": "Yod molekulalari kraxmal (amiloza) spiral molekulalari ichiga kirib, to'q ko'k rangli kiritma birikma (klatrat) hosil qiladi; bu birikma aniq stexiometrik tarkibga ega emas, shuning uchun kimyoviy tenglama yozilmaydi.",
+   "reactants": [
+    {
+     "species": "yodli-suv",
+     "state": "aq",
+     "volume_mL": 1
+    },
+    {
+     "species": "(C6H10O5)n",
+     "state": "aq",
+     "conc_M": 0.06,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "Kraxmal tarkibidagi amiloza molekulalari spiral shaklga ega.",
+     "Yod molekulalari (I₃⁻ zanjirlari) spiral ichiga joylashib qoladi.",
+     "Hosil bo'lgan kiritma birikma yorug'likni kuchli yutib, to'q ko'k rang beradi; qizdirilganda rang yo'qoladi, sovutilganda qaytadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#1a1a6a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Och sariq yodli suv kraxmal kleystri qo'shilganda to'q ko'k rangga kiradi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml yodli suv quying.",
+    "Bir necha tomchi kraxmal kleystri qo'shing.",
+    "Rangni kuzating; probirkani isitib, so'ng sovutib rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kraxmal yod bilan to'q ko'k rang beradi — bu juda sezgir reaksiya bo'lib, yodni ham, kraxmalni ham aniqlashda qo'llaniladi. Rang kimyoviy bog' emas, yodning kraxmal spirallari ichiga kirib qolishi bilan bog'liq, shuning uchun qizdirilganda yo'qolib, sovutilganda qaytadi.",
+   "questions_uz": [
+    "Kraxmal-yod reaksiyasi qayerlarda qo'llaniladi?",
+    "Nima uchun qizdirilganda ko'k rang yo'qoladi?",
+    "Kartoshka kesimiga yod tomizilsa nima kuzatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0059",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Ftorid ionini kalsiy xlorid bilan aniqlash",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: ftorid ioni",
+   "engine": "rules",
+   "reactants": [
+    {
+     "species": "NaF",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "CaCl2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaF + CaCl2 = CaF2↓ + 2NaCl",
+    "ionic_full": "2Na⁺ + 2F⁻ + Ca²⁺ + 2Cl⁻ = CaF2↓ + 2Na⁺ + 2Cl⁻",
+    "ionic_net": "Ca²⁺ + 2F⁻ = CaF2↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "sifat-reaksiya",
+    "steps_uz": [
+     "F⁻ ionlari Ca²⁺ ionlari bilan juda kam eriydigan kalsiy ftoridni hosil qiladi.",
+     "Oq, kolloidga yaqin mayda cho'kma tushadi.",
+     "Kumush ftorid esa suvda eriydi, shuning uchun F⁻ ni AgNO₃ bilan aniqlab bo'lmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CaF2",
+     "color": "#f6f6f2",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Oq mayda (shilimshiq) cho'kma hosil bo'ladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy ftorid eritmasi quying.",
+    "Bir necha tomchi kalsiy xlorid eritmasidan qo'shing.",
+    "Cho'kma hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Ftoridlar zaharli — og'izga tegmasin, ishdan so'ng qo'lingizni yuving. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Ftorid ioni boshqa galogenid ionlaridan farqli ravishda kumush bilan cho'kma bermaydi, ammo kalsiy bilan erimaydigan oq kalsiy ftorid (flyuorit) hosil qiladi. Tish pastasidagi ftoridlarning tish emalini mustahkamlashi ham kalsiy bilan birikishiga asoslangan.",
+   "questions_uz": [
+    "Nima uchun ftorid ionini kumush nitrat bilan aniqlab bo'lmaydi?",
+    "Tabiatda CaF₂ qanday mineral holida uchraydi?",
+    "Qisqartirilgan ionli tenglamani yozing."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "sifat-0060",
+   "category": "sifat-reaksiyalari",
+   "title_uz": "Nitrit ionini kaliy yodid bilan kislotali muhitda aniqlash",
+   "level": "litsey",
+   "topic_uz": "Anionlarga sifat reaksiyalar: nitrit ioni",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "NaNO2",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "KI",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "2NaNO2 + 2KI + 2H2SO4 = 2NO↑ + I2 + Na2SO4 + K2SO4 + 2H2O",
+    "ionic_full": "2Na⁺ + 2NO2⁻ + 2K⁺ + 2I⁻ + 4H⁺ + 2SO4²⁻ = 2NO↑ + I2 + 2Na⁺ + SO4²⁻ + 2K⁺ + SO4²⁻ + 2H2O",
+    "ionic_net": "2NO2⁻ + 2I⁻ + 4H⁺ = 2NO↑ + I2 + 2H2O",
+    "electron_balance": [
+     "N⁺³ + 1e⁻ = N⁺²",
+     "2I⁻¹ − 2e⁻ = I2⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kislotali muhitda nitrit ioni nitrit kislotaga aylanadi va oksidlovchi bo'ladi.",
+     "Azot (+3) bir elektron olib NO ga (+2) qaytariladi.",
+     "Yodid ionlari erkin yodgacha oksidlanadi — eritma qo'ng'irlashadi, kraxmal bilan ko'karadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "NO",
+     "color": null,
+     "smell_uz": null
+    },
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#b0682a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     },
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Eritma qo'ng'ir rangga kiradi (kraxmal bilan to'q ko'k), mayda pufakchalar ajraladi; probirka og'zida gaz havoda qo'ng'irlashadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy nitrit eritmasi quying.",
+    "1 ml kaliy yodid eritmasi va 1 ml suyultirilgan sulfat kislota qo'shing.",
+    "Eritma rangini kuzating; bir tomchi kraxmal kleystri qo'shib, ko'k rangni tekshiring."
+   ],
+   "safety_uz": "Tajriba mo'rili shkafda o'tkaziladi: azot oksidlari zaharli. Nitritlar zaharli — og'izga tegmasin. Ko'zoynak taqing; reaktivlarni tomizgich bilan oz miqdorda oling.",
+   "explanation_uz": "Kislotali muhitda nitrit ionlari yodid ionlarini erkin yodgacha oksidlaydi, o'zlari esa azot(II) oksidgacha qaytariladi. Nitrat ionlari bunday sharoitda yodni ajratmaydi, shuning uchun bu reaksiya nitritni nitratdan farqlashga imkon beradi.",
+   "questions_uz": [
+    "Nitrit va nitrat ionlarini qanday farqlash mumkin?",
+    "Bu reaksiyada nitrit ioni qanday xossani namoyon qiladi?",
+    "Oziq-ovqat mahsulotlarida nitritlarning ko'pligi nima uchun xavfli?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

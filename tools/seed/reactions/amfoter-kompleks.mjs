@@ -655,7 +655,7 @@ const list = [
   R({
     t: "Mis(II) gidroksidning konsentrlangan ishqorda erishi", lvl: 'litsey', topic: T_HK, engine: 'record',
     re: [solid('Cu(OH)2', 0.1), aq('NaOH', 8, 3, { excess: true, conc_min_M: 6 })], heat_c: true,
-    note: "Faqat konsentrlangan (taxminan 30–40 % li) ishqor eritmasida qizdirilganda kuzatiladi; suyultirilgan ishqorda Cu(OH)2 erimaydi.",
+    note: "Faqat konsentrlangan ishqor eritmasida (taxminan 6 M va undan yuqori) qizdirilganda kuzatiladi; suyultirilgan ishqorda Cu(OH)2 erimaydi.",
     mol: 'Cu(OH)2 + 2NaOH = Na2[Cu(OH)4]', full: 'Cu(OH)2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + [Cu(OH)4]²⁻', net: 'Cu(OH)2 + 2OH⁻ = [Cu(OH)4]²⁻',
     mech: 'kompleks', steps: [
       "Mis(II) gidroksidning kislotali xossasi juda kuchsiz.",
@@ -743,7 +743,7 @@ const list = [
     q: ["Nima uchun ammiakat kislotali muhitda parchalanadi?", "Qisqartirilgan ionli tenglamani yozing."],
   }),
   R({
-    t: "Mis(II) gidroksidning ammiak eritmasida erishi (Shveyser reaktivi)", lvl: 'umumiy', topic: T_AM,
+    t: "Mis(II) gidroksidning ammiak eritmasida erishi (Shveytser reaktivi)", lvl: 'umumiy', topic: T_AM,
     re: [solid('Cu(OH)2', 0.1), NH3aq(2, 3, { excess: true })],
     note: "Yangi olingan mis(II) gidroksid cho'kmasi ishlatiladi.",
     mol: 'Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4](OH)2 + 4H2O', full: 'Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4]²⁺ + 2OH⁻ + 4H2O', net: 'Cu(OH)2 + 4NH3·H2O = [Cu(NH3)4]²⁺ + 2OH⁻ + 4H2O',
@@ -761,8 +761,8 @@ const list = [
       "Cho'kmaning erishini va eritma rangini kuzating.",
     ],
     safe: SAFE_NH3,
-    expl: "Mis(II) gidroksid ammiak eritmasida erib kompleks asos — tetraamminmis(II) gidroksid hosil qiladi. Bu eritma Shveyser reaktivi deb ataladi va sellyulozani eritish xossasiga ega (mis-ammiakli tola olishda ishlatilgan).",
-    q: ["Shveyser reaktivi qayerda ishlatiladi?", "[Cu(NH3)4](OH)2 da ichki va tashqi sferani ko'rsating."],
+    expl: "Mis(II) gidroksid ammiak eritmasida erib kompleks asos — tetraamminmis(II) gidroksid hosil qiladi. Bu eritma Shveytser reaktivi deb ataladi va sellyulozani eritish xossasiga ega (mis-ammiakli tola olishda ishlatilgan).",
+    q: ["Shveytser reaktivi qayerda ishlatiladi?", "[Cu(NH3)4](OH)2 da ichki va tashqi sferani ko'rsating."],
   }),
   R({
     t: "Rux sulfat eritmasiga ortiqcha ammiak eritmasi qo'shish", lvl: 'umumiy', topic: T_AM,

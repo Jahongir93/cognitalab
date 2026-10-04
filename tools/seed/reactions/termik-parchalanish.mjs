@@ -106,7 +106,7 @@ T({
   obs: { solid_color_change: { from: col('Cr(OH)3'), to: col('Cr2O3') }, effects: [E('condensate')], text_uz: "Kulrang-yashil modda to'q yashil kukunga aylanadi, probirka devorida suv tomchilari paydo bo'ladi." },
   proc: ["Quruq probirkaga ozroq xrom(III) gidroksid soling.", "Probirkani og'zini biroz pastga qaratib kuchli qizdiring.", "Qoldiq rangini va suv tomchilarini kuzating."],
   safety: "Xrom birikmalari zararli; changini nafas olmang, qo'lqopda ishlang. " + TUBE_SAFE,
-  expl: "Xrom(III) gidroksid erimaydigan amfoter gidroksid bo'lib, qizdirilganda Cr₂O₃ va suvga parchalanadi. Cr₂O₃ — barqaror yashil pigment (\"xrom ko'ki\" emas, \"xrom yashili\"), bo'yoq va abraziv sifatida ishlatiladi.",
+  expl: "Xrom(III) gidroksid erimaydigan amfoter gidroksid bo'lib, qizdirilganda Cr₂O₃ va suvga parchalanadi. Cr₂O₃ — barqaror yashil pigment (\"xrom yashili\"), u bo'yoq va abraziv sifatida ishlatiladi.",
   q: ["Cr₂O₃ qanday xossali oksid?", "Cr(OH)₃ ni qanday qilib olish mumkin?"],
 });
 T({
@@ -334,7 +334,7 @@ T({
   note: "Probirkaning faqat tubi qizdiriladi; yuqori sovuq qismida NH₃ va HCl qayta birikadi.",
   mol: 'NH4Cl = NH3↑ + HCl↑',
   steps: ["Qizdirilganda NH₄⁺ ionidan proton Cl⁻ ioniga o'tadi va ikki gaz — NH₃ va HCl hosil bo'ladi.", "Gazlar probirkaning sovuq qismiga ko'tariladi va u yerda qayta birikib, yana NH₄Cl kristallarini hosil qiladi."],
-  obs: { gas: gas('NH3'), effects: [E('smoke'), E('deposit')], text_uz: "Probirka tubidagi oq kristallar yo'qoladi, yuqori sovuq devorda esa yana oq g'ubor (NH₄Cl) yig'iladi; og'ziga tutilgan ho'l lakmus qog'ozi avval ko'karadi, so'ng qizaradi." },
+  obs: { gas: gas('NH3'), heat: 'kuchli-endotermik', effects: [E('smoke'), E('deposit')], text_uz: "Probirka tubidagi oq kristallar yo'qoladi, yuqori sovuq devorda esa yana oq g'ubor (NH₄Cl) yig'iladi; og'ziga tutilgan ho'l lakmus qog'ozi avval ko'karadi, so'ng qizaradi." },
   app: [...TUBE, 'indikator-qogozi'],
   proc: ["Quruq probirkaga ozroq ammoniy xlorid soling.", "Probirkani qiya ushlab, faqat tubini qizdiring.", "Probirkaning yuqori sovuq qismida oq g'ubor paydo bo'lishini kuzating.", "Probirka og'ziga ho'l lakmus qog'ozini tutib, rang o'zgarishini kuzating."],
   safety: "Ajraladigan HCl va NH₃ nafas yo'llarini qitiqlaydi — yaxshi shamollatiladigan joyda yoki mo'rili shkafda ishlang. " + TUBE_SAFE,
@@ -460,7 +460,7 @@ T({
   proc: ["Quruq probirkaga ozroq kumush nitrat soling.", "Probirkani mo'rili shkafda kuchli qizdiring.", "Qo'ng'ir gaz ajralishini va qoldiqni kuzating."],
   safety: "NO₂ zaharli — " + HOOD.toLowerCase() + ". Kumush nitrat teriga tegsa qora dog' qoldiradi va kuydiradi; qo'lqopda ishlang.",
   expl: "Kumush oksidi ham beqaror bo'lgani uchun kumush nitrat parchalanganda oksid emas, balki erkin metall hosil bo'ladi. Shunday qilib nitratlarning parchalanish mahsuloti metallning faolligiga bog'liq.",
-  q: ["Nima uchun mahsulot Ag₂O emas, balki Ag bo'ladi?", "Ikkita qaytaruvchi va bitta oksidlovchi bor bu reaksiyada elektronlar qanday taqsimlangan?"],
+  q: ["Nima uchun mahsulot Ag₂O emas, balki Ag bo'ladi?", "Bu reaksiyada ikkita oksidlovchi (Ag⁺¹, N⁺⁵) va bitta qaytaruvchi (O⁻²) bor: elektron balansni tuzing."],
 });
 T({
   title: "Magniy nitratning termik parchalanishi",
