@@ -208,7 +208,7 @@ export function mediumReason(saltId, medium) {
 export function takenSignatures(exceptCategory) {
   const dir = join(ROOT, 'frontend', 'lab', 'data', 'reactions');
   const set = new Set();
-  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json') && !['index.json', 'engine.json'].includes(x))) {
     try {
       const j = JSON.parse(readFileSync(join(dir, f), 'utf8'));
       if (j.category === exceptCategory) continue;

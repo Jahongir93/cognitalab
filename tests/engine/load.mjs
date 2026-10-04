@@ -13,7 +13,7 @@ export function loadReactions() {
   const dir = join(DATA, 'reactions');
   if (!existsSync(dir)) return [];
   const out = [];
-  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json') && !['index.json', 'engine.json'].includes(x)).sort()) {
     const j = read(join(dir, f));
     out.push(...(j.reactions || j));
   }

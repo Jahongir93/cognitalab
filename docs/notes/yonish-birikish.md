@@ -1,15 +1,17 @@
 # yonish-birikish — muallif izohlari
 
 Generator: `tools/seed/reactions/yonish-birikish.mjs`. Qo'shimcha modda: `tools/seed/extra/yonish-birikish.json` (Cu₂S).
-Holat: 33 yozuv (maqsad 45), validator 0 xato, muvofiqlik 33/33; `o'rta` — 15 ta.
+Holat: 45 yozuv, validator 0 xato, muvofiqlik 45/45; `o'rta` — 25 ta.
 
-## Nega 45 emas
+2-bosqichda qo'shilgan (yonish-0034…0045): Mg + Cl₂, Fe + Br₂, Fe + I₂ (suv), Mg + I₂ (suv), Cu + I₂, Hg + I₂, Ag + S, Ag + H₂S + O₂ (qorayish), Pb + S, Si + O₂, H₂ + I₂ ⇄ 2HI, Mg + Si → Mg₂Si.
+Har biri qo'shishdan oldin barcha reaksiya fayllarida bir xil reaktivlar bo'yicha tekshirildi — takror yo'q.
+
+## Boshqa toifalarda bor (takrorlanmagan)
 Dastlabki rejadagi 10 ta klassik tajriba boshqa toifalarda aynan bir xil yozuv sifatida allaqachon bor.
 Dvigatel bir xil chap tomonli yozuvlardan faqat bittasini bajaradi, shuning uchun takrorlash ikkinchi yozuvni ishdan chiqaradi:
 - C + O₂ — `gazolish-0007`; 3Fe + 2O₂ — `gazolish-0008`; 2Mg + CO₂ — `gazolish-0013`; 2H₂ + O₂ (qarsillash) — `gazolish-0002`;
   4NH₃ + 3O₂ — `gazolish-0018`; 2H₂S + 3O₂ — `gazolish-0033`; 2NO + O₂ — `gazolish-0035`; NH₃ + HCl — `gazolish-0015`; Cu + Cl₂ — `gazolish-0024`.
 - Metan, etilen, atsetilen, benzol yonishi — `uglevodorodlar`/`gazlar` toifalarida.
-Qolgan bo'sh joylar ataylab to'ldirilmadi: K + Cl₂ va Al + Cl₂ dan boshqa variantlar (Mg + I₂, Fe + Br₂ ...) faqat takror bo'lardi.
 Al + S, Mg + S, Li + O₂ yozilmadi: Al₂S₃, MgS, Li₂O bazada yo'q; ularni `extra` formatida to'g'ri qo'shib bo'lmaydi
 (gidrolizlanish/oksid + suv xossalarini qisqa format ifodalay olmaydi).
 
