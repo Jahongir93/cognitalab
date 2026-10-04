@@ -36,6 +36,7 @@ liq3.setAppearance({ rgb: [0.55, 0.1, 0.55], intensity: 0.8 });
 lab.camera.position.set(0.05, BENCH.y + 0.32, BENCH.zc + 0.55);
 lab.controls.target.set(0.02, BENCH.y + 0.06, BENCH.zc + 0.05);
 lab.onFrame.push(() => { liq.update(); liq2.update(); liq3.update(); });
+if (params.get('gallery')) { for (const o of [beaker.group, flask.group, tube.group]) o.visible = false; const { gallery } = await import('./dev/gallery.js'); await gallery(lab, params.get('cat')); }
 lab.start();
 document.getElementById('boot').classList.add('hidden');
 window.__ready = true;
