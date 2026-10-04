@@ -42,7 +42,7 @@ async function main() {
   window.__lab = { ...ctx, ui };
 
   // kamera: stolning o'rta qismi
-  scene.camera.position.set(0.0, 1.36, 0.02);
+  scene.camera.position.set(0.08, 1.46, 0.3);
   scene.controls.target.set(0.0, 0.97, -0.92);
   scene.controls.update();
 
