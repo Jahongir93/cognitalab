@@ -255,7 +255,7 @@ export class Simulation extends EventTarget {
             st.lastRecord = r.id;
             this.emit('reaction', { item: it, record: r });
           }
-          if (r) this.effects?.recordEffects(it, r, e.xi / Math.max(e.xiMax, 1e-12));
+          if (r) this.effects?.recordEffects(it, r, e.xi, dt);
           this.pendingExplain.delete(it.id);
           break;
         }
@@ -276,6 +276,7 @@ export class Simulation extends EventTarget {
         case 'splash': this.effects?.splash(it); this.message('danger', 'warn.suv-kislotaga', null, `splash-${it.id}`, 3); break;
         case 'no-reaction': this.emit('noreaction', { item: it, reasons: [e.reason_uz] }); this.pendingExplain.delete(it.id); break;
         case 'flame': this.effects?.flash(it, e.color); break;
+        case 'electrode': this.effects?.electrode(it, e); break;
         case 'crystal': if (!it._crys) { it._crys = true; this.emit('observation', { item: it, kind: 'crystal', species: e.species }); } break;
         default: break;
       }
@@ -389,8 +390,9 @@ export class Simulation extends EventTarget {
     this.message('danger', 'warn.tiqin-otildi', null, `pop-${it.id}`, 2);
     if (c) {
       const stopper = this.bench.items.get(c.other.node);
+      const from = stopper.group.getWorldPosition(new THREE.Vector3());
       this.bench.detach(stopper);
-      this.effects?.popStopper(stopper);
+      this.effects?.popStopper(stopper, from);
     }
     for (const [gid, n] of this.chem.inPhase(it.vessel, 'g')) { this.chem.add(it.vessel, gid, 'g', -n); this.#release(it, gid, n, { type: 'havo', path: [it.id] }); }
     this.effects?.sound('pop');

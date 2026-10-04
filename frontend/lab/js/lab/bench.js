@@ -162,28 +162,37 @@ export class Bench extends EventTarget {
     return { ok: true };
   }
 
-  #attach(a, pa, b, pb, depth) {
+  /**
+   * b jihozi a ning portiga ulanganda egallaydigan dunyo holati (b ni o'zgartirmaydi) — oldindan ko'rinish uchun ham.
+   * @returns {{pos: THREE.Vector3, quat: THREE.Quaternion}}
+   */
+  attachPose(a, pa, b, pb, depth = null) {
     const A = this.portPose(a, pa);
     const bPort = b.model.ports[pb];
     const typeA = A.def.type, typeB = bPort.userData.port.type;
-    // b ni dunyoga qaytarib, yo'nalishni sozlaymiz
-    this.scene.world.attach(b.group);
-    const align = ALIGN_TYPES.has(typeB) || ALIGN_TYPES.has(typeA);
-    if (align) {
-      const d = bPort.userData.port.dir;
-      const dirB = new THREE.Vector3(d[0], d[1], d[2]).applyQuaternion(b.group.quaternion);
-      _q.setFromUnitVectors(dirB.normalize(), A.dir.clone().negate().normalize());
-      b.group.quaternion.premultiply(_q);
-    }
     b.group.updateMatrixWorld(true);
-    const bp = bPort.getWorldPosition(new THREE.Vector3());
-    const delta = A.pos.clone().sub(bp);
-    b.group.position.add(delta);
+    const quat = b.group.getWorldQuaternion(new THREE.Quaternion());
+    if (ALIGN_TYPES.has(typeB) || ALIGN_TYPES.has(typeA)) {
+      const d = bPort.userData.port.dir;
+      const dirB = new THREE.Vector3(d[0], d[1], d[2]).applyQuaternion(quat);
+      _q.setFromUnitVectors(dirB.normalize(), A.dir.clone().negate().normalize());
+      quat.premultiply(_q);
+    }
+    const pos = A.pos.clone().sub(bPort.position.clone().applyQuaternion(quat));
     // naychani idish ichiga chuqurroq tushirish (pufakchalar suyuqlik ichida chiqishi uchun)
     if ((typeB === 'naycha-uchi' || typeB === 'elektrod-uchi') && typeA === 'ogiz' && a.model.vessel) {
       const depthM = depth ?? Math.max((a.model.vessel.rimY - (a.model.vessel.inner[0][1] + 6)) * MM * 0.85, 0);
-      b.group.position.addScaledVector(A.dir, -depthM);
+      pos.addScaledVector(A.dir, -depthM);
     }
+    return { pos, quat };
+  }
+
+  #attach(a, pa, b, pb, depth) {
+    const { pos, quat } = this.attachPose(a, pa, b, pb, depth);
+    this.scene.world.attach(b.group);
+    b.group.position.copy(pos);
+    b.group.quaternion.copy(quat);
+    b.group.updateMatrixWorld(true);
     a.group.attach(b.group);
     b.parentLink = { item: a.id, port: pa, own: pb };
   }

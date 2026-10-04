@@ -93,4 +93,4 @@ Suyuqlik idishning ichki profilidan yasalgan aylanish jismi; uning sathi dunyo k
 
 ## 7. Platformaga ulanish
 
-`js/platform/api.js` backend mavjudligini tekshiradi (`/api/lab/ping`); bo'lmasa taraqqiyot, stol holati va jurnal `localStorage`ga saqlanadi. Backend — `backend/lab_router.py` (README'da ulash bosqichlari).
+`js/platform/api.js` backend mavjudligini tekshiradi (`/api/health`); bo'lmasa taraqqiyot, stol holati va jurnal `localStorage`ga saqlanadi. Backend — `backend/lab_router.py` (README'da ulash bosqichlari).
