@@ -2748,6 +2748,997 @@
     "Qo'rg'oshin va magniyning kislorod bilan reaksiyasini solishtiring."
    ],
    "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0034",
+   "category": "yonish-birikish",
+   "title_uz": "Magniyning xlorda yonishi",
+   "level": "9-sinf",
+   "topic_uz": "Galogenlar: xlorning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "lenta"
+    },
+    {
+     "species": "Cl2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Havoda yondirilgan magniy lentasi xlorli silindrga tushiriladi. Xlor to'ldirilgan silindr mo'rili shkafda turadi, tubida ozroq qum bo'ladi.",
+    "ignition": true,
+    "ignition_C": 650
+   },
+   "equation": {
+    "molecular": "Mg + Cl2 = MgCl2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Cl2⁰ + 2e⁻ = 2Cl⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yonayotgan magniy xlor muhitida ham yonishda davom etadi.",
+     "Mg atomlari ikki elektron berib Mg²⁺ ga, xlor atomlari Cl⁻ ga aylanadi; oq MgCl₂ tutun hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#ffffff",
+     "desc_uz": "yorqin oq"
+    },
+    "effects": [
+     {
+      "type": "light"
+     },
+     {
+      "type": "smoke"
+     }
+    ],
+    "text_uz": "Magniy xlorda yorqin oq alanga bilan yonishda davom etadi, silindr oq tutunga (MgCl₂) to'ladi, xlorning sarg'ish-yashil rangi yo'qoladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "gaz-silindri",
+    "tigel-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Silindrni mo'rili shkafda xlor bilan to'ldiring.",
+    "Magniy lentasini tigel qisqichida ushlab havoda yondiring.",
+    "Yonayotgan lentani darhol xlorli silindrga tushiring va yonishni kuzating."
+   ],
+   "safety_uz": "Xlor juda zaharli! Tajribani faqat o'qituvchi mo'rili shkafda bajaradi. Magniy alangasiga tik qaramang.",
+   "explanation_uz": "Magniy nafaqat kislorodda, balki xlorda ham yonadi: yonish — bu faqat kislorod bilan emas, har qanday kuchli oksidlovchi bilan boradigan, issiqlik va yorug'lik chiqaradigan jarayon. Mahsulot ion bog'li magniy xlorid.",
+   "questions_uz": [
+    "Yonish tushunchasini kengroq ta'riflang: kislorodsiz yonish mumkinmi?",
+    "MgCl₂ da qanday kimyoviy bog' bor?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "yonish-0035",
+   "category": "yonish-birikish",
+   "title_uz": "Temirning brom bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Galogenlar: bromning metallar bilan reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "qirindi"
+    },
+    {
+     "species": "Br2",
+     "state": "l",
+     "volume_mL": 0.5,
+     "excess": true
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Temir qirindisi ozgina suyuq brom bilan mo'rili shkafda iliqlatiladi; brom mo'l bo'lganda temir(III) bromid hosil bo'ladi."
+   },
+   "equation": {
+    "molecular": "2Fe + 3Br2 = 2FeBr3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Fe⁰ − 3e⁻ = Fe⁺³",
+     "Br2⁰ + 2e⁻ = 2Br⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Brom temirni oksidlaydi; brom mo'l bo'lsa temir +3 oksidlanish darajasigacha o'tadi.",
+     "Qizil-qo'ng'ir temir(III) bromid hosil bo'ladi; reaksiya ekzotermik."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     },
+     {
+      "type": "heat-haze"
+     }
+    ],
+    "text_uz": "Temir qirindisi qiziydi, ustida qizil-qo'ng'ir brom bug'lari ko'tariladi, qirindi to'q qizil-qo'ng'ir massaga (FeBr₃) aylanadi.",
+    "solid_color_change": {
+     "from": "#8a8d90",
+     "to": "#a8641e"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "spirt-lampasi",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Mo'rili shkafda probirkaga ozroq temir qirindisi soling va shtativga mahkamlang.",
+    "O'qituvchi probirkaga ozgina suyuq brom quyadi.",
+    "Probirkani ehtiyotkorlik bilan iliqlating va o'zgarishlarni kuzating."
+   ],
+   "safety_uz": "Brom o'ta zaharli va terini qattiq kuydiradi! Tajribani faqat o'qituvchi mo'rili shkafda, qo'lqop va ko'zoynakda o'tkazadi; yaqinda natriy tiosulfat eritmasi tayyor tursin.",
+   "explanation_uz": "Brom xlordan kuchsizroq, lekin baribir kuchli oksidlovchi: temir bilan temir(III) bromid hosil qiladi. Temir bromid benzolni bromlashda katalizator sifatida ishlatiladi (benzolga temir qirindisi qo'shilganda u brom bilan aynan shu reaksiya orqali FeBr₃ hosil qiladi).",
+   "questions_uz": [
+    "Benzolni bromlashda temir qirindisi qanday vazifani bajaradi?",
+    "Temir mo'l bo'lganda qanday bromid hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0036",
+   "category": "yonish-birikish",
+   "title_uz": "Temir va yodning suv ishtirokida birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Galogenlar: yodning oksidlovchi xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Fe",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "I2",
+     "state": "s",
+     "mass_g": 1
+    },
+    {
+     "species": "H2O",
+     "state": "l",
+     "volume_mL": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "H2O",
+    "medium": null,
+    "light": false,
+    "note_uz": "Temir kukuni va yod kristallari ozroq suvda chayqatiladi; jarayon sekin boradi, biroz iliqlatish tezlashtiradi."
+   },
+   "equation": {
+    "molecular": "Fe + I2 = FeI2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Fe⁰ − 2e⁻ = Fe⁺²",
+     "I2⁰ + 2e⁻ = 2I⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yod kuchsiz oksidlovchi, u temirni faqat +2 oksidlanish darajasigacha oksidlaydi.",
+     "Hosil bo'lgan FeI₂ suvda eriydi; yod sarflangan sari qo'ng'ir rang yo'qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#c8e0c0"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Avval yod tufayli qo'ng'ir bo'lgan suyuqlik chayqatilganda asta-sekin rangsizlanib, och yashil tusga kiradi (FeI₂ eritmasi)."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "rezina-tiqin-yaxlit-kichik",
+    "olchov-silindri"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 g temir kukuni va 1 g yod kristallarini soling.",
+    "5 ml suv qo'shib, probirkani tiqin bilan berkitib chayqating.",
+    "Eritma rangining qo'ng'irdan och yashilgacha o'zgarishini kuzating."
+   ],
+   "safety_uz": "Yod bug'lari zaharli, teriga tegsa dog' qoldiradi — qo'lqopda ishlang, yaxshi shamollatiladigan joyda chayqating.",
+   "explanation_uz": "Galogenlarning oksidlovchilik kuchi F₂ > Cl₂ > Br₂ > I₂ qatorida kamayadi: xlor va brom temirni Fe⁺³ gacha oksidlasa, yod faqat Fe⁺² gacha oksidlaydi (Fe³⁺ esa aksincha I⁻ ni I₂ gacha oksidlaydi). Bu reaksiya kaliy yodid olishda oraliq bosqich sifatida ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun temir yod bilan FeI₃ emas, FeI₂ hosil qiladi?",
+    "Fe, Cl₂ va I₂ reaksiyalarini solishtiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0037",
+   "category": "yonish-birikish",
+   "title_uz": "Magniy kukuni va yodning suv tomchisi ta'sirida birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Katalizatorlar; birikish reaksiyalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.2,
+     "form": "kukun"
+    },
+    {
+     "species": "I2",
+     "state": "s",
+     "mass_g": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": "H2O",
+    "medium": null,
+    "light": false,
+    "note_uz": "Magniy kukuni va maydalangan yod aralashmasiga bir tomchi suv tomiziladi."
+   },
+   "equation": {
+    "molecular": "Mg + I2 = MgI2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "I2⁰ + 2e⁻ = 2I⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Quruq aralashma deyarli reaksiyaga kirishmaydi.",
+     "Suv tomchisi reaksiyani boshlab beradi; ajralgan issiqlik yodni bug'latadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#c060e0",
+     "desc_uz": "binafsha bug' orasida chaqnash"
+    },
+    "effects": [
+     {
+      "type": "color-gas"
+     },
+     {
+      "type": "flame"
+     },
+     {
+      "type": "smoke"
+     }
+    ],
+    "text_uz": "Suv tomizilgach aralashmadan binafsha yod bug'lari ko'tariladi, aralashma chaqnab yonadi; oq-kulrang qoldiq qoladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "chinni-kosacha",
+    "shisha-tayoqcha",
+    "tomizgich",
+    "hovoncha"
+   ],
+   "procedure_uz": [
+    "Yodni hovonchada alohida maydalang va chinni kosachada magniy kukuni bilan ehtiyotkorlik bilan aralashtiring.",
+    "Aralashmani mo'rili shkafda o'tga chidamli taglikka uyum qilib qo'ying.",
+    "Uyum uchiga bir tomchi suv tomizing va darhol uzoqlashing.",
+    "Natijani alyuminiy va yod tajribasi bilan solishtiring."
+   ],
+   "safety_uz": "Yod bug'lari zaharli! Faqat mo'rili shkafda, oz miqdorda ishlang; suv tomizgandan keyin uyumga engashmang.",
+   "explanation_uz": "Suv bu reaksiyada katalizator vazifasini bajaradi va sarflanmaydi. Magniy faol metall bo'lgani uchun yod bilan shiddatli birikadi; reaksiya ekzotermik bo'lgani uchun yodning bir qismi bug'lanadi.",
+   "questions_uz": [
+    "Bu tajribada suvning roli nimada?",
+    "Mg + I₂ va Al + I₂ reaksiyalarini solishtiring."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0038",
+   "category": "yonish-birikish",
+   "title_uz": "Misning yod bug'ida qizdirilishi",
+   "level": "litsey",
+   "topic_uz": "Galogenlar; mis(I) birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "I2",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Probirkadagi yod qizdirilib bug'latiladi, bug'iga qizdirilgan mis sim tushiriladi."
+   },
+   "equation": {
+    "molecular": "2Cu + I2 = 2CuI",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2Cu⁰ − 2e⁻ = 2Cu⁺¹",
+     "I2⁰ + 2e⁻ = 2I⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yod kuchsiz oksidlovchi, u misni faqat +1 oksidlanish darajasigacha oksidlaydi.",
+     "Mis sirtida erimaydigan oq-kulrang mis(I) yodid qatlami hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Binafsha yod bug'iga tushirilgan qizdirilgan mis sim sirti oqish-kulrang qatlam (CuI) bilan qoplanadi, bug' rangi kamayadi.",
+    "solid_color_change": {
+     "from": "#c27a4a",
+     "to": "#f2eee0"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "shtativ",
+    "qisqich-lapka",
+    "spirt-lampasi",
+    "tigel-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq yod soling va shtativga mahkamlang.",
+    "Probirkani sekin qizdirib, binafsha yod bug'ini hosil qiling.",
+    "Spirt lampasida qizdirilgan mis simni yod bug'iga tushiring.",
+    "Sim sirtidagi o'zgarishni kuzating."
+   ],
+   "safety_uz": "Yod bug'lari zaharli — mo'rili shkafda ishlang. Issiq simni qo'l bilan ushlamang.",
+   "explanation_uz": "Mis(II) yodid barqaror emas (Cu²⁺ ioni I⁻ ni oksidlaydi), shuning uchun mis va yod faqat mis(I) yodid hosil qiladi. Bu xlor bilan reaksiyadan (CuCl₂ hosil bo'ladi) farqi.",
+   "questions_uz": [
+    "Nima uchun CuI₂ hosil bo'lmaydi?",
+    "Mis xlor va yod bilan qanday mahsulotlar hosil qiladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0039",
+   "category": "yonish-birikish",
+   "title_uz": "Simobning yod bilan ishqalanganda birikishi",
+   "level": "litsey",
+   "topic_uz": "Birikish reaksiyalari; simob birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Hg",
+     "state": "l",
+     "volume_mL": 0.05
+    },
+    {
+     "species": "I2",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Bir tomchi simob yod kristallari bilan hovonchada ishqalanadi (bir necha tomchi spirt bilan namlanadi)."
+   },
+   "equation": {
+    "molecular": "Hg + I2 = HgI2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Hg⁰ − 2e⁻ = Hg⁺²",
+     "I2⁰ + 2e⁻ = 2I⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Ishqalanganda simob mayda tomchilarga bo'linib, yod bilan kontakt yuzasi ortadi.",
+     "Simob yod bilan xona haroratida birikib, qizil simob(II) yodid hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Ishqalanganda simob tomchilari yo'qolib, aralashma to'q qizil rangga (HgI₂) kiradi.",
+    "solid_color_change": {
+     "from": "#3a2a4a",
+     "to": "#e0301e"
+    }
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "hovoncha",
+    "shpatel",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Hovonchaga 0,3 g yod soling.",
+    "O'qituvchi unga bir tomchi simob qo'shadi va bir necha tomchi spirt tomizadi.",
+    "Aralashmani simob tomchilari ko'rinmay qolguncha ishqalang.",
+    "Hosil bo'lgan qizil mahsulotni maxsus chiqindi idishiga yig'ing."
+   ],
+   "safety_uz": "Simob va uning birikmalari o'ta zaharli! Tajribani faqat o'qituvchi mo'rili shkafda, juda oz miqdorda bajaradi; real maktab sharoitida simob bilan ishlash tavsiya etilmaydi.",
+   "explanation_uz": "Simob kam faol metall bo'lsa-da, yod bilan xona haroratida birikadi. Hosil bo'lgan HgI₂ termoxrom modda: 127 °C atrofida qizil shakli sariq shaklga o'tadi (qizdirilganda sarg'ayadi).",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi va qaytaruvchini ko'rsating.",
+    "Simob bilan ishlashda qanday xavfsizlik choralari zarur?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0040",
+   "category": "yonish-birikish",
+   "title_uz": "Kumushning oltingugurt bilan qizdirilganda birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Oltingugurtning oksidlovchi xossalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "sim"
+    },
+    {
+     "species": "S",
+     "state": "s",
+     "mass_g": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 200,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Kumush sim oltingugurt kukuni bilan probirkada qizdiriladi."
+   },
+   "equation": {
+    "molecular": "2Ag + S = Ag2S",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "2Ag⁰ − 2e⁻ = 2Ag⁺¹",
+     "S⁰ + 2e⁻ = S⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Suyuqlangan oltingugurt va uning bug'i kumush sirti bilan birikadi.",
+     "Kumush sirtida qora kumush sulfid qatlami hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Yaltiroq kumush sim sirti qorayib, qora qatlam (Ag₂S) bilan qoplanadi.",
+    "solid_color_change": {
+     "from": "#d8d8d8",
+     "to": "#151515"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi",
+    "pinset"
+   ],
+   "procedure_uz": [
+    "Probirkaga ozroq oltingugurt kukuni va kumush sim bo'lagini soling.",
+    "Probirkani oltingugurt suyuqlanguncha va biroz ko'proq qizdiring.",
+    "Sovigach, simni pinset bilan olib, sirtini kuzating."
+   ],
+   "safety_uz": "Oltingugurt alangalansa SO₂ ajraladi — yaxshi shamollatiladigan joyda yoki mo'rili shkafda ishlang. Probirka og'zini o'zingizga qaratmang.",
+   "explanation_uz": "Oltingugurt kam faol metallarni ham sulfidlarga aylantiradi. Kumush buyumlarning qorayishi ham kumush sulfid hosil bo'lishi bilan bog'liq, faqat u havodagi vodorod sulfid ta'sirida sekin boradi.",
+   "questions_uz": [
+    "Kumush buyumlar nima uchun vaqt o'tishi bilan qorayadi?",
+    "Ag₂S dagi kumushning oksidlanish darajasi qancha?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0041",
+   "category": "yonish-birikish",
+   "title_uz": "Kumushning vodorod sulfid va havo ta'sirida qorayishi",
+   "level": "9-sinf",
+   "topic_uz": "Vodorod sulfidning xossalari; metallar korroziyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Ag",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "plastinka"
+    },
+    {
+     "species": "H2S",
+     "state": "g"
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yaltiroq kumush plastinka vodorod sulfid saqlovchi havoli idishga qo'yiladi (xona haroratida)."
+   },
+   "equation": {
+    "molecular": "4Ag + 2H2S + O2 = 2Ag2S + 2H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Ag⁰ − 1e⁻ = Ag⁺¹",
+     "O2⁰ + 4e⁻ = 2O⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Kumushni kislorod oksidlaydi, vodorod sulfid esa oltingugurt manbai bo'ladi.",
+     "Kumush sirtida yupqa qora Ag₂S qatlami hosil bo'ladi; vodorod suvga o'tadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Yaltiroq kumush plastinka sirti asta-sekin sarg'ayib, so'ng qo'ng'ir-qora rangga kiradi.",
+    "solid_color_change": {
+     "from": "#d8d8d8",
+     "to": "#151515"
+    }
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "eksikator",
+    "pinset",
+    "soat-oynasi"
+   ],
+   "procedure_uz": [
+    "Kumush plastinkani tozalab, yaltiroq holga keltiring.",
+    "Uni eksikator ichida ozgina vodorod sulfid manbai (masalan, FeS + HCl) yoniga qo'ying.",
+    "Bir necha soat davomida plastinka sirtining rangini kuzating."
+   ],
+   "safety_uz": "H₂S juda zaharli! Tajribani mo'rili shkafda o'tkazing; H₂S manbaini oz miqdorda oling.",
+   "explanation_uz": "Kumush kislorod va suyultirilgan kislotalar bilan reaksiyaga kirishmaydi, lekin havodagi vodorod sulfid va kislorod birgalikda uning sirtini qoraytiradi. Kumush taqinchoqlar va idishlarning qorayishi shu reaksiya bilan tushuntiriladi.",
+   "questions_uz": [
+    "Bu reaksiyada oksidlovchi qaysi modda?",
+    "Qoraygan kumushni qanday tozalash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "yonish-0042",
+   "category": "yonish-birikish",
+   "title_uz": "Qo'rg'oshin va oltingugurtning qizdirilganda birikishi",
+   "level": "9-sinf",
+   "topic_uz": "Oltingugurtning oksidlovchi xossalari; sulfidlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Pb",
+     "state": "s",
+     "mass_g": 1,
+     "form": "granula"
+    },
+    {
+     "species": "S",
+     "state": "s",
+     "mass_g": 0.2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 330,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Qo'rg'oshin qirindisi va oltingugurt aralashmasi qiyin suyuqlanuvchan probirkada qizdiriladi."
+   },
+   "equation": {
+    "molecular": "Pb + S = PbS",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Pb⁰ − 2e⁻ = Pb⁺²",
+     "S⁰ + 2e⁻ = S⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda qo'rg'oshin va oltingugurt suyuqlanadi va birikadi.",
+     "Qora qo'rg'oshin(II) sulfid (tabiatda galenit minerali) hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Aralashma qizdirilganda qisqa muddat cho'g'lanadi va qora massa (PbS) qoladi.",
+    "solid_color_change": {
+     "from": "#7d8189",
+     "to": "#151515"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "spirt-lampasi"
+   ],
+   "procedure_uz": [
+    "Qiyin suyuqlanuvchan probirkaga mayda qo'rg'oshin qirindisi va oltingugurt kukuni aralashmasini soling.",
+    "Probirkani mo'rili shkafda kuchli qizdiring.",
+    "Cho'g'lanishni va qora mahsulot hosil bo'lishini kuzating."
+   ],
+   "safety_uz": "Qo'rg'oshin zaharli, oltingugurt alangalansa SO₂ ajraladi! Mo'rili shkafda, qo'lqopda ishlang; qoldiqni maxsus idishga yig'ing.",
+   "explanation_uz": "Qo'rg'oshin oltingugurt bilan qizdirilganda qo'rg'oshin(II) sulfid hosil qiladi. Tabiatda u galenit — qo'rg'oshinning asosiy rudasi sifatida uchraydi; undan metall olish uchun ruda avval kuydiriladi.",
+   "questions_uz": [
+    "Galenit qanday mineral va undan qo'rg'oshin qanday olinadi?",
+    "Bu reaksiyada qo'rg'oshin oksidlovchimi yoki qaytaruvchimi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0043",
+   "category": "yonish-birikish",
+   "title_uz": "Kremniyning kislorodda yuqori haroratda yonishi",
+   "level": "9-sinf",
+   "topic_uz": "Kremniy va uning birikmalari",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Si",
+     "state": "s",
+     "mass_g": 0.1,
+     "form": "kukun"
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Mayda kremniy kukuni kislorod oqimida gorelkaning eng issiq alangasida kuchli qizdiriladi; 900 °C — taxminiy modellash chegarasi.",
+    "ignition": true,
+    "ignition_C": 900
+   },
+   "equation": {
+    "molecular": "Si + O2 = SiO2",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Si⁰ − 4e⁻ = Si⁺⁴",
+     "O2⁰ + 4e⁻ = 2O⁻²"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Oddiy sharoitda kremniy sirtidagi yupqa SiO₂ pardasi uni himoya qiladi.",
+     "Juda yuqori haroratda mayda kremniy kislorodda yonib, oq kremniy(IV) oksid hosil qiladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "sparks"
+     },
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Kuchli qizdirilgan kremniy kukuni kislorodda cho'g'lanib, uchqun sochib yonadi; oq kukun (SiO₂) qoladi.",
+    "solid_color_change": {
+     "from": "#5a5e66",
+     "to": "#f0ece0"
+    }
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "yondirish-qoshiqchasi",
+    "bunzen-gorelkasi",
+    "gaz-silindri"
+   ],
+   "procedure_uz": [
+    "Yondirish qoshiqchasiga ozroq mayda kremniy kukuni soling.",
+    "Uni gorelkaning eng issiq alangasida uzoq qizdiring.",
+    "Qizigan kukunni kislorodli silindrga tushiring va yonishni kuzating."
+   ],
+   "safety_uz": "Uchqunlar sochilishi mumkin — ko'zoynak taqing. Kremniy changini nafas olmang.",
+   "explanation_uz": "Kremniy oddiy sharoitda kimyoviy jihatdan passiv, chunki sirti zich oksid pardasi bilan qoplangan. Yuqori haroratda u kislorod bilan birikib, qumning asosiy tarkibiy qismi — SiO₂ ni hosil qiladi.",
+   "questions_uz": [
+    "Nima uchun kremniy oddiy sharoitda kislorod bilan reaksiyaga kirishmaydi?",
+    "SiO₂ qanday xossali oksid?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0044",
+   "category": "yonish-birikish",
+   "title_uz": "Vodorod va yod bug'ining birikishi (qaytar reaksiya)",
+   "level": "litsey",
+   "topic_uz": "Kimyoviy muvozanat; galogenvodorodlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "H2",
+     "state": "g"
+    },
+    {
+     "species": "I2",
+     "state": "s",
+     "mass_g": 0.3
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 350,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yod bug'i va vodorod aralashmasi yopiq idishda qizdiriladi; reaksiya qaytar va to'liq bormaydi (dvigatelda faqat to'g'ri yo'nalish modellashtiriladi)."
+   },
+   "equation": {
+    "molecular": "H2 + I2 ⇄ 2HI↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "H2⁰ − 2e⁻ = 2H⁺¹",
+     "I2⁰ + 2e⁻ = 2I⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Yuqori haroratda vodorod va yod molekulalari to'qnashib, vodorod yodid hosil qiladi.",
+     "Vodorod yodid qisman yana H₂ va I₂ ga parchalanadi — sistemada muvozanat qaror topadi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "HI",
+     "color": null
+    },
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "color-gas"
+     }
+    ],
+    "text_uz": "Idishdagi binafsha yod bug'ining rangi kamayadi, lekin to'liq yo'qolmaydi — muvozanat qaror topadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "dumaloq-tubli-kolba",
+    "shtativ",
+    "qisqich-lapka",
+    "kolba-isitgich",
+    "kipp-apparati"
+   ],
+   "procedure_uz": [
+    "Kolbaga ozroq yod soling va havoni tozaligi tekshirilgan vodorod bilan siqib chiqaring.",
+    "Kolbani berkitib, qizdirgichda qizdiring.",
+    "Yod bug'i rangining o'zgarishini kuzating."
+   ],
+   "safety_uz": "Vodorod havo bilan portlovchi aralashma hosil qiladi, yopiq idishni qizdirish bosim oshishiga olib keladi — bu tajriba faqat virtual laboratoriyada bajariladi.",
+   "explanation_uz": "H₂ + I₂ ⇄ 2HI reaksiyasi — kimyoviy muvozanatni o'rganishning klassik namunasi. Vodorodning xlor bilan reaksiyasidan farqli ravishda, yod bilan reaksiya sekin va qaytar, chunki yod kuchsiz oksidlovchi va H–I bog'i kuchsiz.",
+   "questions_uz": [
+    "Nima uchun H₂ + Cl₂ reaksiyasi shiddatli, H₂ + I₂ esa qaytar va sekin?",
+    "Bu muvozanatga bosim ta'sir qiladimi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "yonish-0045",
+   "category": "yonish-birikish",
+   "title_uz": "Magniy va kremniyning qizdirilganda birikishi (magniy silitsid)",
+   "level": "litsey",
+   "topic_uz": "Kremniy birikmalari; silitsidlar",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Mg",
+     "state": "s",
+     "mass_g": 0.5,
+     "form": "kukun"
+    },
+    {
+     "species": "Si",
+     "state": "s",
+     "mass_g": 0.3,
+     "form": "kukun"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 600,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Magniy va kremniy kukunlari aralashmasi qiyin suyuqlanuvchan probirkada havosiz (berkitilgan holda) kuchli qizdiriladi."
+   },
+   "equation": {
+    "molecular": "2Mg + Si = Mg2Si",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": [
+     "Mg⁰ − 2e⁻ = Mg⁺²",
+     "Si⁰ + 4e⁻ = Si⁻⁴"
+    ]
+   },
+   "mechanism": {
+    "type": "oksidlanish-qaytarilish",
+    "steps_uz": [
+     "Qizdirilganda faol metall magniy kremniyga elektron beradi.",
+     "Kremniy bu birikmada manfiy (−4) oksidlanish darajasida bo'ladi; ko'kimtir-kulrang magniy silitsid hosil bo'ladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "glow"
+     }
+    ],
+    "text_uz": "Aralashma qizdirilganda cho'g'lanib, ko'kimtir-kulrang massa (Mg₂Si) hosil qiladi; unga xlorid kislota tomizilsa, havoda o'z-o'zidan alangalanadigan gaz (silan) ajraladi.",
+    "solid_color_change": {
+     "from": "#9aa0a8",
+     "to": "#5a6a7a"
+    }
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "probirka-qisqichi",
+    "bunzen-gorelkasi"
+   ],
+   "procedure_uz": [
+    "Magniy va kremniy kukunlarini aralashtiring va qiyin suyuqlanuvchan probirkaga soling.",
+    "Probirkani gorelka alangasida kuchli qizdiring.",
+    "Cho'g'lanishni va mahsulot rangini kuzating."
+   ],
+   "safety_uz": "Magniy kukuni yonuvchan; mahsulotni kislotalar bilan faqat o'qituvchi mo'rili shkafda sinaydi (silan havoda o'z-o'zidan yonadi).",
+   "explanation_uz": "Kremniy faol metallar bilan silitsidlar hosil qiladi va ularda oksidlovchi vazifasini bajaradi (Si⁻⁴). Magniy silitsid kislota bilan reaksiyaga kirishib silan SiH₄ hosil qiladi — bu metan bilan o'xshash, lekin havoda o'z-o'zidan alangalanadigan gaz.",
+   "questions_uz": [
+    "Mg₂Si da kremniyning oksidlanish darajasi qancha?",
+    "Mg₂Si ning xlorid kislota bilan reaksiya tenglamasini yozing."
+   ],
+   "confidence": "o'rta"
   }
  ]
 }

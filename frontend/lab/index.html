@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Virtual kimyo laboratoriyasi — Cognita</title>
+  <meta name="description" content="Cognita: brauzerda ishlaydigan 3D virtual kimyo laboratoriyasi">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/lab.css">
+  <script type="importmap">
+  { "imports": { "three": "./vendor/three/build/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div id="stage" class="stage"></div>
+    <div id="ui"></div>
+    <div id="boot" class="boot" role="status" aria-live="polite"><div class="boot-spinner"></div><div id="boot-text">Laboratoriya yuklanmoqda…</div></div>
+  </div>
+  <noscript>Laboratoriya ishlashi uchun JavaScript yoqilgan bo'lishi kerak.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

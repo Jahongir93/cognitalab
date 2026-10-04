@@ -22,14 +22,33 @@ export function glass({ tint = 0xffffff, amber = false, thick = false } = {}) {
     });
   } else {
     m = new THREE.MeshPhysicalMaterial({
-      color: amber ? 0x6a3008 : 0xdfeee8, metalness: 0, roughness: 0.05, transparent: true, opacity: amber ? 0.72 : 0.2,
-      envMapIntensity: 1.6, clearcoat: Q?.id === 'past' ? 0 : 0.8, clearcoatRoughness: 0.05, side: THREE.DoubleSide, depthWrite: false,
-      specularIntensity: 1,
+      color: amber ? 0x6a3008 : 0xeef7f3, metalness: 0, roughness: 0.03, transparent: true, opacity: amber ? 0.7 : 0.08,
+      envMapIntensity: 2.2, clearcoat: Q?.id === 'past' ? 0 : 1, clearcoatRoughness: 0.03, side: THREE.DoubleSide, depthWrite: false,
+      specularIntensity: 1, ior: 1.5,
     });
+    fresnelAlpha(m, amber ? 0.7 : 0.06, amber ? 0.95 : 0.55);
   }
   m.userData.isGlass = true;
   cache.set(key, m);
   return m;
+}
+
+/**
+ * Shishaning chetlari (qiya burchak ostida) qalinroq ko'rinadi: alfa Frenel bo'yicha oshadi.
+ * Sinish (transmission) o'chirilgan darajalarda shishani tabiiyroq ko'rsatadi.
+ */
+export function fresnelAlpha(m, aMin, aMax, power = 2.6) {
+  m.onBeforeCompile = (sh) => {
+    sh.uniforms.uAlphaMin = { value: aMin };
+    sh.uniforms.uAlphaMax = { value: aMax };
+    sh.fragmentShader = sh.fragmentShader
+      .replace('#include <common>', '#include <common>\nuniform float uAlphaMin;\nuniform float uAlphaMax;')
+      .replace('#include <opaque_fragment>', `
+        float fres = pow(1.0 - clamp(abs(dot(normalize(vNormal), normalize(vViewPosition))), 0.0, 1.0), ${power.toFixed(2)});
+        diffuseColor.a = mix(uAlphaMin, uAlphaMax, fres);
+        #include <opaque_fragment>`);
+  };
+  m.customProgramCacheKey = () => `fresnel-${aMin}-${aMax}-${power}`;
 }
 
 /** Suyuqlik materiali — har bir idish uchun alohida (rangi o'zgaradi) */
@@ -40,6 +59,12 @@ export function liquid() {
     envMapIntensity: 0.8, side: THREE.DoubleSide, depthWrite: false,
   });
   m.userData.isLiquid = true;
+  // kesilgan hajmning orqa yuzalari suyuqlik sirti sifatida ko'rinadi: normal yuqoriga qaratiladi
+  m.onBeforeCompile = (sh) => {
+    sh.fragmentShader = sh.fragmentShader.replace('#include <normal_fragment_maps>', `#include <normal_fragment_maps>
+      if (!gl_FrontFacing) { normal = normalize((viewMatrix * vec4(0.0, 1.0, 0.0, 0.0)).xyz); }`);
+  };
+  m.customProgramCacheKey = () => 'liquid-cap';
   return m;
 }
 
