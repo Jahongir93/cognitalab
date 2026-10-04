@@ -168,7 +168,10 @@ function isMultiplierPosition(body, k) {
 
 const ARROW_RE = /\s(=|→|⇄|⇌|⟶|->)\s/;
 const MARK_RE = /(↓|↑)$/;
-const ANNOT_RE = /\((kons\.?|konts\.?|suyult\.?|suyultirilgan|konsentrlangan|eritma|aq|q|s|g|l|kr\.?|kristall|qattiq|gaz|suyuq|ortiqcha|yetishmaydi|tuyilgan|kukun|bo'lak|qizdirilgan|t°|t)\)$/;
+// Had oxiridagi izoh: holat/konsentratsiya ("kons.", "suyult.") yoki izomer belgisi ("fruktoza").
+// Formulalardagi qavslar doim katta harfli element belgilarini o'z ichiga oladi, shuning uchun
+// faqat kichik harfli qavs izoh hisoblanadi.
+const ANNOT_RE = /\(([a-zʻ'°.\- ]+)\)$/;
 
 /**
  * Koeffitsiyentni o'qiydi: "2", "n", "2n", "(2n–1)"

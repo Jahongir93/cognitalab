@@ -172,8 +172,14 @@ export class ChemDB {
       if (r.engine !== 'record' || !r._net || r._error) continue;
       for (const t of r._net.left) {
         if (!t.id) continue;
-        if (!this.recordsBySpecies.has(t.id)) this.recordsBySpecies.set(t.id, []);
-        this.recordsBySpecies.get(t.id).push(r);
+        // kislota-asos tizimi a'zosi bo'lsa — tizimning barcha shakllari bo'yicha indekslaymiz
+        const se = this.formToSystem.get(t.id);
+        const keys = se ? se.sys.forms : [t.id];
+        for (const k of keys) {
+          if (!this.recordsBySpecies.has(k)) this.recordsBySpecies.set(k, []);
+          const arr = this.recordsBySpecies.get(k);
+          if (!arr.includes(r)) arr.push(r);
+        }
       }
     }
   }

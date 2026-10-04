@@ -325,7 +325,7 @@
   ],
   "storage": "tiqinli-sklyanka",
   "reagent": false,
-  "solubility": null,
+  "solubility": "R",
   "id": "(CH2)6N4"
  },
  "(CH2C(CH3)(COOCH3))n": {
@@ -1296,7 +1296,7 @@
    "hex": "#2a5ad0",
    "ref_M": 0.05
   },
-  "solubility": null,
+  "solubility": "R",
   "id": "(H2NCH2COO)2Cu"
  },
  "(HCOO)2Ca": {
@@ -5650,7 +5650,8 @@
   "storage": "tiqinli-sklyanka",
   "reagent": true,
   "mp": 122.4,
-  "solubility": null,
+  "s_gL": 3.4,
+  "solubility": "M",
   "id": "C6H5COOH",
   "acid_system": "benzoat"
  },
@@ -5704,6 +5705,28 @@
   },
   "solubility": "R",
   "id": "C6H5COONa"
+ },
+ "C6H5COONH4": {
+  "formula": "C6H5COONH4",
+  "display": "C₆H₅COONH₄",
+  "name_uz": "ammoniy benzoat",
+  "class": "organik-tuz",
+  "state": "s",
+  "M": 139.154,
+  "appearance": {
+   "color": "#f6f6f2",
+   "form": "kristall",
+   "desc_uz": "oq kristall modda, suvda yaxshi eriydi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "NH4^+": 1,
+   "C6H5COO^-": 1
+  },
+  "solubility": "R",
+  "id": "C6H5COONH4"
  },
  "C6H5NH2": {
   "formula": "C6H5NH2",

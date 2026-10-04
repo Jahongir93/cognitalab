@@ -504,6 +504,8 @@ export class Chemistry {
       return 'aq';
     }
     if (s.state === 'g') return 'g';
+    // issiq idishda past qaynaydigan suyuq mahsulot darhol bug'ga aylanadi
+    if (s.state === 'l' && s.bp !== undefined && v.T > s.bp + 5) return 'g';
     if (s.state === 's') return s.solubility === 'R' && this.waterMol(v) > 1e-6 ? 'aq' : 's';
     if (s.miscible_water === false) return 'org';
     return 'aq';
@@ -528,7 +530,10 @@ export class Chemistry {
     if (this.#availableAny(v, id) > EPS) return true;
     const s = this.db.sub(id);
     if (s?.dissociation) {
-      return Object.keys(s.dissociation).filter((ion) => ion !== WATER && ion !== 'H^+' && ion !== 'OH^-').every((ion) => {
+      const ions = Object.keys(s.dissociation).filter((ion) => ion !== WATER);
+      if (ions.includes('H^+') && this.protonSupply(v) <= EPS) return false;
+      if (ions.includes('OH^-') && this.get(v, 'OH^-', 'aq') <= EPS) return false;
+      return ions.filter((ion) => ion !== 'H^+' && ion !== 'OH^-').every((ion) => {
         const e = this.db.formToSystem.get(ion);
         if (e) return e.sys.forms.some((f) => this.get(v, f, 'aq') > EPS);
         return this.#availableAny(v, ion) > EPS;

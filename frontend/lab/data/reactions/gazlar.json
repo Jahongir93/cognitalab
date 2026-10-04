@@ -1251,7 +1251,8 @@
     "catalyst": null,
     "medium": null,
     "light": false,
-    "note_uz": "Konsentrlangan ammiakli suv va konsentrlangan xlorid kislota bilan ho'llangan ikki shisha tayoqcha bir-biriga yaqinlashtiriladi (yoki ikki gaz silindri og'izma-og'iz qo'yiladi)."
+    "note_uz": "Konsentrlangan ammiakli suv va konsentrlangan xlorid kislota bilan ho'llangan ikki shisha tayoqcha bir-biriga yaqinlashtiriladi (yoki ikki gaz silindri og'izma-og'iz qo'yiladi).",
+    "temp_max_C": 300
    },
    "equation": {
     "molecular": "NH3 + HCl = NH4Cl",
@@ -2997,7 +2998,8 @@
     "catalyst": null,
     "medium": null,
     "light": false,
-    "note_uz": "Suv ostida yig'ilgan NO li probirka havoga ochiladi yoki unga kislorod kiritiladi."
+    "note_uz": "Suv ostida yig'ilgan NO li probirka havoga ochiladi yoki unga kislorod kiritiladi.",
+    "temp_max_C": 150
    },
    "equation": {
     "molecular": "2NO + O2 = 2NO2",

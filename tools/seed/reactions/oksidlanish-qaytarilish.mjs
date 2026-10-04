@@ -308,7 +308,7 @@ function records() {
     },
     {
       t: "Kaliy permanganat va marganes(II) sulfatning o'zaro ta'siri (komproporsiyalanish)", lv: 'litsey', tp: "Marganes birikmalari; komproporsiyalanish",
-      re: [aq('MnSO4', 0.1, 2), aq('CH3COONa', 1, 1), aq('KMnO4', 0.02, 2)], c: { note_uz: "Hosil bo'ladigan kislotani bog'lash uchun natriy atsetat qo'shiladi." },
+      re: [aq('MnSO4', 0.1, 2), aq('CH3COONa', 1, 1), aq('KMnO4', 0.02, 2)], c: { medium: 'neytral', note_uz: "Hosil bo'ladigan kislotani bog'lash uchun natriy atsetat qo'shiladi." },
       mol: "2KMnO4 + 3MnSO4 + 4CH3COONa + 2H2O = 5MnO2↓ + K2SO4 + 2Na2SO4 + 4CH3COOH",
       net: "2MnO4⁻ + 3Mn²⁺ + 4CH3COO⁻ + 2H2O = 5MnO2↓ + 4CH3COOH",
       eb: ["Mn⁺⁷ + 3e⁻ = Mn⁺⁴", "Mn⁺² − 2e⁻ = Mn⁺⁴"],

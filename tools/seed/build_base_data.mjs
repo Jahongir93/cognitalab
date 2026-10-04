@@ -117,6 +117,7 @@ function base(e, cls) {
   if (e.acid !== undefined) out.acid_soluble = e.acid;
   if (e.dehyd) out.dehydrates_to = e.dehyd;
   if (e.weak_base) out.weak_base = true;
+  if (e.sol_code) out.solubility = e.sol_code;
   return out;
 }
 
@@ -269,6 +270,7 @@ function addList(list, cls) {
     if (e.skip || e.custom_skip || e.ion_only) continue;
     const s = base(e, cls);
     if (s.state === 's' && s.solubility === undefined) s.solubility = e.diss ? 'R' : (e.tex ? 'N' : null);
+    if (e.sol_code) s.solubility = e.sol_code;
     if (s.state === 'aq' || s.dissociation) s.solubility = 'R';
     if (e.tex && !s.precipitate) s.precipitate = { color: e.col, texture: e.tex };
     if (e.tex) s.solubility = 'N';

@@ -381,7 +381,7 @@ export const ORGANIC = [
   { f: 'CH3CH(OH)SO3Na', n: 'atsetaldegidning gidrosulfitli birikmasi', st: 's', c: 'organik-tuz', col: '#f6f6f2', form: 'kristall', hz: [], tex: 'mayda-kristall', reagent: false },
   { f: '(CH3)2C(OH)SO3Na', n: 'asetonning gidrosulfitli birikmasi', st: 's', c: 'organik-tuz', col: '#f6f6f2', form: 'kristall', hz: [], tex: 'mayda-kristall', reagent: false },
   { f: 'C6H5CH2OH', n: 'benzil spirti', st: 'l', c: 'spirt', d: 1.044, bp: 205, hz: ['zararli'], miscible: false, reagent: false },
-  { f: '(CH2)6N4', n: 'urotropin (geksametilentetramin)', st: 's', c: 'amin', col: '#f8f8f6', form: 'kristall', hz: ['yonuvchan'], reagent: false },
+  { f: '(CH2)6N4', n: 'urotropin (geksametilentetramin)', st: 's', sol_code: 'R', c: 'amin', col: '#f8f8f6', form: 'kristall', hz: ['yonuvchan'], reagent: false },
   // karbon kislotalar va tuzlari
   { f: 'HCOOH', aliases: ['H–COOH', 'CH2O2'], n: 'chumoli kislota (metan kislota)', st: 'l', c: 'karbon-kislota', d: 1.22, bp: 100.8, hz: ['korroziv'], miscible: true, sto: 'shlif-tiqinli-sklyanka', sol: [[1, 'suyultirilgan', '1 M'], [22, 'konsentrlangan', '85%']] },
   { f: 'CH3COOH', aliases: ['CH3–COOH', 'C2H4O2'], n: 'sirka kislota (etan kislota)', st: 'l', c: 'karbon-kislota', d: 1.049, mp: 16.6, bp: 118, hz: ['korroziv', 'yonuvchan'], miscible: true, sto: 'shlif-tiqinli-sklyanka', sol: [[0.1, 'suyultirilgan', '0,1 M'], [1, 'suyultirilgan', '1 M'], [1.5, 'suyultirilgan', '9% (osh sirkasi)'], [17.4, 'konsentrlangan', 'muz sirka kislota']], desc: 'o\'tkir sirka hidli rangsiz suyuqlik' },
@@ -392,7 +392,7 @@ export const ORGANIC = [
   { f: 'C15H31COOH', n: 'palmitin kislota', st: 's', c: 'karbon-kislota', col: '#f8f8f4', form: 'bo\'lak', mp: 62.9, hz: [], miscible: false, reagent: false },
   { f: 'H2C2O4', aliases: ['HOOC–COOH', 'HOOC-COOH', '(COOH)2'], n: 'oksalat kislota (etandi kislota)', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', hz: ['zararli'], sto: 'tiqinli-sklyanka', sol: [[0.05, 'suyultirilgan', '0,05 M'], [0.5, 'suyultirilgan', '0,5 M']] },
   { f: 'H2C2O4·2H2O', n: 'oksalat kislota digidrat', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', hz: ['zararli'], sto: 'tiqinli-sklyanka', diss_mol: { H2C2O4: 1, H2O: 2 }, desc: 'titrlashda boshlang\'ich modda' },
-  { f: 'C6H5COOH', n: 'benzoy kislota', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', mp: 122.4, hz: ['zararli'], sto: 'tiqinli-sklyanka', desc: 'oq ignasimon kristallar, sublimatlanadi' },
+  { f: 'C6H5COOH', n: 'benzoy kislota', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', mp: 122.4, s: 3.4, sol_code: 'M', hz: ['zararli'], sto: 'tiqinli-sklyanka', desc: 'oq ignasimon kristallar, sublimatlanadi' },
   { f: 'CH3CH(OH)COOH', aliases: ['C3H6O3', 'CH3–CH(OH)–COOH'], n: 'sut kislota', st: 'l', c: 'karbon-kislota', d: 1.21, hz: ['korroziv'], miscible: true, sto: 'tiqinli-sklyanka' },
   { f: 'C3H5O(COOH)3', aliases: ['C6H8O7'], n: 'limon kislota', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', hz: ['zararli'], sto: 'tiqinli-sklyanka', sol: [[0.5, 'suyultirilgan', '0,5 M']] },
   { f: 'C6H4(OH)COOH', aliases: ['C7H6O3'], n: 'salitsil kislota', st: 's', c: 'karbon-kislota', col: '#f8f8f6', form: 'kristall', mp: 159, hz: ['zararli'], sto: 'tiqinli-sklyanka' },
@@ -453,7 +453,7 @@ export const ORGANIC = [
   { f: '[H3NCH2COOH]Cl', aliases: ['ClH3NCH2COOH'], n: 'glitsin gidroxloridi', st: 'aq', c: 'organik-tuz', hz: [], reagent: false },
   { f: 'H2NCH2CONHCH2COOH', n: 'glitsilglitsin (dipeptid)', st: 's', c: 'peptid', col: '#f8f8f6', form: 'kristall', hz: [], reagent: false },
   { f: 'H2NCH2CONHCH(CH3)COOH', n: 'glitsilalanin (dipeptid)', st: 's', c: 'peptid', col: '#f8f8f6', form: 'kristall', hz: [], reagent: false },
-  { f: '(H2NCH2COO)2Cu', aliases: ['Cu(H2NCH2COO)2'], n: 'mis(II) glitsinat', st: 's', c: 'kompleks', col: '#3a6ad0', form: 'kristall', hz: [], aq: { col: '#2a5ad0', ref: 0.05 }, reagent: false, desc: 'to\'q ko\'k ichki kompleks tuz' },
+  { f: '(H2NCH2COO)2Cu', aliases: ['Cu(H2NCH2COO)2'], n: 'mis(II) glitsinat', st: 's', sol_code: 'R', c: 'kompleks', col: '#3a6ad0', form: 'kristall', hz: [], aq: { col: '#2a5ad0', ref: 0.05 }, reagent: false, desc: 'to\'q ko\'k ichki kompleks tuz' },
   { f: 'oqsil', formula_null: true, n: 'oqsil eritmasi (tuxum oqi)', st: 'aq', c: 'oqsil', hz: [], sto: 'tiqinli-sklyanka', desc: 'tuxum oqining suvdagi kolloid eritmasi', mixture: true },
   { f: 'jun', formula_null: true, n: 'jun ipi (oqsil tola)', st: 's', c: 'oqsil', hz: [], col: '#e8dcc8', form: 'tola', reagent: true },
   { f: 'C6H5N2Cl', skip: true },
@@ -517,6 +517,8 @@ export const ORGANIC = [
 
 export const EXTRA_IONS_FOR_EDTA = [
   { f: 'AlOH^2+', name: 'gidroksoalyuminiy' },
+  { f: 'C3H5O(COOH)2COO^-', name: 'digidrositrat' },
+  { f: 'C3H5O(COOH)(COO)2^2-', name: 'gidrositrat' },
   { f: 'FeOH^2+', name: 'gidroksotemir(III)', color: { hex: '#d9a03a', ref_M: 0.1 } },
   { f: 'CuOH^+', name: 'gidroksomis(II)' },
   { f: 'ZnOH^+', name: 'gidroksorux' },

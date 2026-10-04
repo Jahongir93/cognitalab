@@ -469,7 +469,7 @@ R({
     { species: 'NH3', state: 'g' },
     { species: 'HCl', state: 'g' },
   ],
-  cond: { note_uz: "Konsentrlangan ammiakli suv va konsentrlangan xlorid kislota bilan ho'llangan ikki shisha tayoqcha bir-biriga yaqinlashtiriladi (yoki ikki gaz silindri og'izma-og'iz qo'yiladi)." },
+  cond: { temp_max_C: 300, note_uz: "Konsentrlangan ammiakli suv va konsentrlangan xlorid kislota bilan ho'llangan ikki shisha tayoqcha bir-biriga yaqinlashtiriladi (yoki ikki gaz silindri og'izma-og'iz qo'yiladi)." },
   eq: {
     molecular: 'NH3 + HCl = NH4Cl',
   },
@@ -1053,7 +1053,7 @@ R({
     { species: 'NO', state: 'g' },
     { species: 'O2', state: 'g' },
   ],
-  cond: { note_uz: "Suv ostida yig'ilgan NO li probirka havoga ochiladi yoki unga kislorod kiritiladi." },
+  cond: { temp_max_C: 150, note_uz: "Suv ostida yig'ilgan NO li probirka havoga ochiladi yoki unga kislorod kiritiladi." },
   eq: {
     molecular: '2NO + O2 = 2NO2',
     electron_balance: ['N⁺² − 2e⁻ = N⁺⁴', 'O2⁰ + 4e⁻ = 2O⁻²'],

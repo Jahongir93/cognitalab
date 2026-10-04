@@ -456,7 +456,7 @@
     {
      "species": "Feling",
      "state": "aq",
-     "volume_mL": 15
+     "volume_mL": 30
     }
    ],
    "conditions": {
@@ -468,27 +468,27 @@
     "note_uz": "Feling suyuqligi (CuSO₄ + segnet tuzining ishqoriy eritmasi) formalin bilan qaynaguncha qizdiriladi."
    },
    "equation": {
-    "molecular": "HCHO + 2Cu(OH)2 + NaOH → HCOONa + Cu2O↓ + 3H2O",
-    "ionic_full": "HCHO + 2Cu(OH)2 + Na⁺ + OH⁻ → HCOO⁻ + Na⁺ + Cu2O↓ + 3H2O",
-    "ionic_net": "HCHO + 2Cu(OH)2 + OH⁻ → HCOO⁻ + Cu2O↓ + 3H2O",
+    "molecular": "HCHO + 4Cu(OH)2 + 2NaOH → Na2CO3 + 2Cu2O↓ + 6H2O",
+    "ionic_full": "HCHO + 4Cu(OH)2 + 2Na⁺ + 2OH⁻ → 2Na⁺ + CO3²⁻ + 2Cu2O↓ + 6H2O",
+    "ionic_net": "HCHO + 4Cu(OH)2 + 2OH⁻ → CO3²⁻ + 2Cu2O↓ + 6H2O",
     "electron_balance": [
-     "C⁰ − 2e⁻ = C⁺²",
-     "2Cu⁺² + 2e⁻ = 2Cu⁺¹"
+     "C⁰ − 4e⁻ = C⁺⁴",
+     "Cu⁺² + 1e⁻ = Cu⁺¹"
     ]
    },
    "mechanism": {
     "type": "organik",
     "steps_uz": [
      "Feling suyuqligida Cu²⁺ ionlari tartrat bilan kompleks holida — ishqoriy muhitda ham cho'kmaga tushmaydi.",
-     "Qizdirilganda formaldegid formiat ioniga oksidlanadi va ikki elektron beradi.",
-     "Cu²⁺ Cu⁺ ga qaytariladi va g'isht-qizil Cu₂O cho'kmasi tushadi."
+     "Qizdirilganda formaldegid avval formiat ioniga oksidlanadi; formiatda ham aldegid guruhi bo'lgani uchun u ortiqcha reaktivda karbonatgacha oksidlanadi (jami 4 e⁻).",
+     "To'rtta Cu²⁺ ioni bittadan elektron olib Cu⁺ ga qaytariladi va g'isht-qizil Cu₂O cho'kmasi tushadi."
     ],
     "organic": {
      "template": "oksidlanish",
      "params": {
       "substrate": "H–CHO",
       "oxidant": "Cu²⁺ (Feling suyuqligi)",
-      "product": "H–COO⁻"
+      "product": "CO3²⁻ (H–COO⁻ orqali)"
      }
     }
    },
@@ -528,7 +528,7 @@
     "Qaynaguncha qizdiring va cho'kmani kuzating."
    ],
    "safety_uz": "Formaldegid zaharli va kanserogen, shilliq qavatlarni qitiqlaydi: mo'rili shkafda, qo'lqopda ishlang. Ishqor eritmasi o'yuvchi: ko'zoynak taqing.",
-   "explanation_uz": "Feling suyuqligi aldegidlarni aniqlash uchun ishlatiladigan mis(II) ning ishqoriy kompleks eritmasi. Aldegidlar uni qizdirilganda g'isht-qizil Cu₂O gacha qaytaradi; ortiqcha reaktivda formiat ham oksidlanishi mumkin.",
+   "explanation_uz": "Feling suyuqligi aldegidlarni aniqlash uchun ishlatiladigan mis(II) ning ishqoriy kompleks eritmasi. Aldegidlar uni qizdirilganda g'isht-qizil Cu₂O gacha qaytaradi; formaldegid ortiqcha reaktivda formiat orqali karbonatgacha oksidlanadi, shuning uchun bir molekulasi to'rtta Cu²⁺ ni qaytaradi.",
    "questions_uz": [
     "Feling suyuqligi qanday tayyorlanadi?",
     "Feling reaksiyasi tibbiyotda qaysi moddani aniqlashda qo'llanilgan?"
@@ -1434,7 +1434,9 @@
      "species": "NH3",
      "state": "aq",
      "conc_M": 13.3,
-     "volume_mL": 2
+     "volume_mL": 2,
+     "conc_min_M": 1,
+     "excess": true
     }
    ],
    "conditions": {
@@ -1615,7 +1617,7 @@
    "conditions": {
     "heating": false,
     "temp_min_C": null,
-    "catalyst": null,
+    "catalyst": "NaOH",
     "medium": "ishqoriy",
     "light": false,
     "note_uz": "Atsetaldegidga sovuqda suyultirilgan ishqor eritmasi qo'shiladi.",
@@ -1698,7 +1700,7 @@
    "conditions": {
     "heating": true,
     "temp_min_C": 80,
-    "catalyst": null,
+    "catalyst": "NaOH",
     "medium": null,
     "light": false,
     "note_uz": "Aldol ishqor ishtirokida qizdiriladi."

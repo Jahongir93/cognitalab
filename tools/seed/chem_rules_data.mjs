@@ -18,7 +18,7 @@ export const ACID_BASE = [
   { id: 'benzoat', forms: ['C6H5COOH', 'C6H5COO^-'], pKa: [4.20] },
   { id: 'laktat', forms: ['CH3CH(OH)COOH', 'CH3CH(OH)COO^-'], pKa: [3.86] },
   { id: 'salitsilat', forms: ['C6H4(OH)COOH', 'C6H4(OH)COO^-'], pKa: [2.97] },
-  { id: 'sitrat', forms: ['C3H5O(COOH)3', 'C3H5O(COO)3^3-'], pKa: [4.76], note: 'soddalashtirilgan: uch bosqich bitta o\'rtacha qiymat bilan' },
+  { id: 'sitrat', forms: ['C3H5O(COOH)3', 'C3H5O(COOH)2COO^-', 'C3H5O(COOH)(COO)2^2-', 'C3H5O(COO)3^3-'], pKa: [3.13, 4.76, 6.40] },
   { id: 'stearat', forms: ['C17H35COOH', 'C17H35COO^-'], pKa: [4.9] },
   { id: 'oksalat', forms: ['H2C2O4', 'HC2O4^-', 'C2O4^2-'], pKa: [1.25, 4.27] },
   { id: 'ftorid', forms: ['HF', 'F^-'], pKa: [3.17] },

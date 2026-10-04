@@ -1178,6 +1178,34 @@
   "flame": null,
   "pKa_h": null
  },
+ "C3H5O(COOH)2COO^-": {
+  "id": "C3H5O(COOH)2COO^-",
+  "formula": "C3H5O(COOH)2COO^-",
+  "display": "C₃H₅O(COOH)₂COO⁻",
+  "name_uz": "digidrositrat ioni",
+  "name_short_uz": "digidrositrat",
+  "kind": "anion",
+  "charge": -1,
+  "M": 191.115,
+  "color": null,
+  "flame": null,
+  "pKa_h": null,
+  "acid_system": "sitrat"
+ },
+ "C3H5O(COOH)(COO)2^2-": {
+  "id": "C3H5O(COOH)(COO)2^2-",
+  "formula": "C3H5O(COOH)(COO)2^2-",
+  "display": "C₃H₅O(COOH)(COO)₂²⁻",
+  "name_uz": "gidrositrat ioni",
+  "name_short_uz": "gidrositrat",
+  "kind": "anion",
+  "charge": -2,
+  "M": 190.107,
+  "color": null,
+  "flame": null,
+  "pKa_h": null,
+  "acid_system": "sitrat"
+ },
  "FeOH^2+": {
   "id": "FeOH^2+",
   "formula": "FeOH^2+",

@@ -705,12 +705,15 @@
    "id": "sitrat",
    "forms": [
     "C3H5O(COOH)3",
+    "C3H5O(COOH)2COO^-",
+    "C3H5O(COOH)(COO)2^2-",
     "C3H5O(COO)3^3-"
    ],
    "pKa": [
-    4.76
-   ],
-   "note": "soddalashtirilgan: uch bosqich bitta o'rtacha qiymat bilan"
+    3.13,
+    4.76,
+    6.4
+   ]
   },
   {
    "id": "stearat",
