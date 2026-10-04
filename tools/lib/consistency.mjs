@@ -64,6 +64,8 @@ export function setupExperiment(chem, r, opts = {}) {
     }
   }
   for (const [id, n] of gases) chem.bubbleGas(v, id, n);
+  // idish o'lchami tarkibga mos (issiqlik almashinuvi shunga bog'liq)
+  v.capacity_mL = Math.max(20, chem.liquidVolume(v) * 2.5 + chem.solidVolume(v) * 4);
   if (c.light) v.illuminated = true;
   const tmin = c.temp_min_C ?? (c.heating ? 60 : null);
   if (tmin !== null && tmin !== undefined) env.heater = { power_W: 60, maxT: Math.max(tmin + (tmin > 150 ? 120 : 30), 110) };
@@ -84,6 +86,12 @@ export function checkReaction(chem, r, opts = {}) {
   let setup;
   try { setup = setupExperiment(chem, r, opts); } catch (e) { return { ok: false, problems: [`tayyorlashda xato: ${e.message}`], fired: [], ppt: {}, gas: {} }; }
   const { v, env, mol } = setup;
+  if (r.flame_test) {
+    const fl = chem.flameTest(v);
+    if (!fl.length) problems.push("alanga rangini beradigan kation topilmadi");
+    else if (fl[0].ion !== r.flame_test.ion) problems.push(`alangada ${fl[0].ion} rangi ustun (kutilgan ${r.flame_test.ion})`);
+    return { ok: problems.length === 0, problems, fired: [], ppt: {}, gas: {} };
+  }
   const ppt = {}, gas = {}, fired = new Set(), deposits = {};
   const noReactionEvents = [];
   let quiet = 0;

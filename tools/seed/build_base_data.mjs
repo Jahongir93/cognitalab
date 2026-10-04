@@ -1,13 +1,15 @@
 // Boshlang'ich ma'lumotlardan frontend/lab/data/{substances,ions,rules}.json fayllarini yasaydi.
 // Ishga tushirish: node tools/seed/build_base_data.mjs
 // DIQQAT: bu fayllarni qo'lda tahrirlash mumkin, lekin generatorni qayta ishga tushirish ularni qayta yozadi.
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, renameSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFormula, molarMass, speciesKey, prettyFormula, splitCharge, normalizeFormula } from '../../frontend/lab/js/engine/formula.js';
 import { CATIONS, ANIONS, ANION_ORDER, SOLUBILITY, EXTRA_INSOLUBLE, SLIGHT_SOLUBILITY_GL, SPECIAL_PAIRS } from './ions_data.mjs';
 import { ACID_BASE, STRONG_ACIDS, METALS as METAL_RULES, COMPLEXES, INDICATORS, REDUCIBLE_IONS, METAL_ALKALI, PPT_ORDER_HINT, ELECTROLYSIS } from './chem_rules_data.mjs';
 import * as SD from './substances_data.mjs';
+import { balance, formatEq } from '../lib/balance.mjs';
+import { readdirSync, readFileSync, existsSync } from 'node:fs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const outDir = join(root, 'frontend', 'lab', 'data');
@@ -40,8 +42,8 @@ SD.EXTRA_IONS_FOR_EDTA.forEach((a) => addIon(a));
 
 // ---------------------------------------------------------------- moddalar
 const substances = {};
-function put(s) {
-  const id = s.tag ? `${speciesKey(s.formula)}|${s.tag}` : (s.formula_null ? s.formula : speciesKey(s.formula));
+function put(s, forcedId) {
+  const id = forcedId || (s.tag ? `${speciesKey(s.formula)}|${s.tag}` : speciesKey(s.formula));
   s.id = id;
   if (substances[id]) {
     // birlashtirish (qo'lda yozilgan maydonlar ustun)
@@ -132,6 +134,11 @@ for (const x of SD.NONMETALS) {
 for (const o of SD.OXIDES) {
   const s = base(o, 'oksid');
   if (o.o) s.oxide = { type: o.o, hydrate: o.hyd || null, slow: !!o.hyd_slow };
+  if (o.hyd && !['CO2', 'SO2'].includes(o.f)) {
+    const k = balance([o.f, 'H2O'], [o.hyd]);
+    if (!k) throw new Error('gidratlanish tenglamasi topilmadi: ' + o.f);
+    s.oxide.hydration_eq = formatEq([{ f: o.f, k: k[0] }, { f: 'H2O', k: k[1] }], [{ f: o.hyd, k: k[2] }]);
+  }
   if (['asosli', 'amfoter', 'aralash'].includes(o.o) && s.state === 's') s.acid_soluble = o.f === 'MgO' || o.f === 'CaO' ? 'kuchsiz' : 'kuchli';
   if (o.st === 'g' || o.f === 'H2O') s.solubility = null;
   else if (o.f === 'H2O2') s.solubility = 'R';
@@ -268,11 +275,26 @@ function addList(list, cls) {
     if (prev) {
       // jadvaldan yasalgan tuzni boyitish
       for (const [k, v] of Object.entries(s)) if (v !== undefined && v !== null && !(Array.isArray(v) && !v.length)) prev[k] = v;
-    } else put(s);
+    } else put(s, key);
   }
 }
 addList(SD.SPECIAL_INORGANIC, 'tuz');
 addList(SD.ORGANIC, 'organik');
+
+// toifa mualliflari qo'shgan moddalar: tools/seed/extra/*.json (qisqa formatda, substances_data.mjs kabi)
+const extraDir = join(dirname(fileURLToPath(import.meta.url)), 'extra');
+if (existsSync(extraDir)) {
+  for (const f of readdirSync(extraDir).filter((x) => x.endsWith('.json')).sort()) {
+    const list = JSON.parse(readFileSync(join(extraDir, f), 'utf8'));
+    const fresh = list.filter((e) => {
+      const key = e.tag ? `${speciesKey(e.f)}|${e.tag}` : (e.formula_null ? e.f : speciesKey(e.f));
+      if (substances[key]) { console.log(`  (${f}) allaqachon bor, o'tkazib yuborildi: ${key}`); return false; }
+      return true;
+    });
+    addList(fresh, 'organik');
+    for (const e of fresh) if (e.c === undefined) { const key = speciesKey(e.f); if (substances[key]) substances[key].class = e.cls || substances[key].class; }
+  }
+}
 
 // organik moddalar uchun eruvchanlik (sodda): miscible_water yoki gas
 for (const s of Object.values(substances)) {
@@ -316,7 +338,8 @@ const rules = {
 };
 
 const sorted = Object.fromEntries(Object.entries(substances).sort(([a], [b]) => a.localeCompare(b)));
-writeFileSync(join(outDir, 'substances.json'), JSON.stringify(sorted, null, 1));
-writeFileSync(join(outDir, 'ions.json'), JSON.stringify(ions, null, 1));
-writeFileSync(join(outDir, 'rules.json'), JSON.stringify(rules, null, 1));
+const atomic = (name, obj) => { const tmp = join(outDir, `.${name}.${process.pid}.tmp`); writeFileSync(tmp, JSON.stringify(obj, null, 1)); renameSync(tmp, join(outDir, name)); };
+atomic('substances.json', sorted);
+atomic('ions.json', ions);
+atomic('rules.json', rules);
 console.log(`moddalar: ${Object.keys(sorted).length}, ionlar: ${Object.keys(ions).length}`);

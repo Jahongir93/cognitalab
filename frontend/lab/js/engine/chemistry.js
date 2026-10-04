@@ -306,6 +306,7 @@ export class Chemistry {
     dt *= this.timeScale;
     v._dt = dt;
     this.#dissolveSolids(v, dt, ev);
+    this.#oxideWater(v, dt, ev);
     this.equilibrate(v, ev);
     this.#records(v, dt, ev, env);
     this.#metals(v, dt, ev);
@@ -387,13 +388,88 @@ export class Chemistry {
 
   // ---------------------------------------------------- maxsus juftlar (birgalikdagi gidroliz va h.k.)
   #applyEq(v, parsed, xi, phases = {}) {
-    for (const t of parsed.left) {
+    const lefts = [...parsed.left].sort((a, b) => (a.id === 'H^+') - (b.id === 'H^+'));
+    for (const t of lefts) {
       if (!t.id) continue;
-      this.add(v, t.id, this.#phaseOfTerm(v, t, 'left'), -t.coef * xi);
+      if (t.coef < 0) continue;
+      const need = t.coef * xi;
+      if (t.id === 'H^+' && !phases[t.id]) { this.#consumeProtons(v, need); continue; }
+      const ph = phases[t.id] || this.#phaseOfTerm(v, t, 'left');
+      const have = this.get(v, t.id, ph);
+      if (have >= need - 1e-15 || !this.db.formToSystem.has(t.id)) { this.#consume(v, t.id, ph, need); continue; }
+      // kislota-asos tizimi: boshqa shakllardan olib, protonlarni tenglashtiramiz
+      this.#consumeSystem(v, t.id, need);
     }
     for (const t of parsed.right) {
       if (!t.id) continue;
       this.add(v, t.id, phases[t.id] || this.#phaseOfTerm(v, t, 'right'), t.coef * xi);
+    }
+  }
+
+  /** Eritmadagi protonlar manbai: H+ va pKa < 7,5 bo'lgan kislota shakllari */
+  protonSupply(v) {
+    let n = this.get(v, 'H^+', 'aq');
+    for (const [id, m] of this.inPhase(v, 'aq')) {
+      const e = this.db.formToSystem.get(id);
+      if (!e || m <= EPS) continue;
+      let k = 0;
+      for (let j = e.index; j < e.sys.pKa.length; j++) if (e.sys.pKa[j] < 7.5) k++;
+      n += k * m;
+    }
+    return n;
+  }
+  #consumeProtons(v, need) {
+    const h = this.get(v, 'H^+', 'aq');
+    const take = Math.min(h, need);
+    this.add(v, 'H^+', 'aq', -take);
+    let rest = need - take;
+    for (let guard = 0; guard < 20 && rest > 1e-15; guard++) {
+      let best = null;
+      for (const [id, m] of this.inPhase(v, 'aq')) {
+        const e = this.db.formToSystem.get(id);
+        if (!e || m <= EPS || e.index >= e.sys.pKa.length) continue;
+        const pKa = e.sys.pKa[e.index];
+        if (pKa >= 7.5) continue;
+        if (!best || pKa < best.pKa) best = { id, m, e, pKa };
+      }
+      if (!best) break;
+      const t = Math.min(best.m, rest);
+      this.add(v, best.id, 'aq', -t);
+      this.add(v, best.e.sys.forms[best.e.index + 1], 'aq', t);
+      rest -= t;
+    }
+  }
+
+  /** Moddani fazadan (yetmasa boshqa fazalardan) sarflash */
+  #consume(v, id, phase, need) {
+    const have = this.get(v, id, phase);
+    const take = Math.min(have, need);
+    this.add(v, id, phase, -take);
+    let rest = need - take;
+    for (const ph of ['aq', 's', 'org', 'g']) {
+      if (rest <= 1e-15 || ph === phase) continue;
+      const h = this.get(v, id, ph);
+      const t2 = Math.min(h, rest);
+      this.add(v, id, ph, -t2);
+      rest -= t2;
+    }
+  }
+
+  /** Tizimning istalgan shaklidan sarflash (H+/OH- bilan tenglashtirib) */
+  #consumeSystem(v, id, need) {
+    const { sys, index } = this.db.formToSystem.get(id);
+    const order = sys.forms.map((f, j) => ({ f, j })).sort((a, b) => Math.abs(a.j - index) - Math.abs(b.j - index));
+    let rest = need;
+    for (const { f, j } of order) {
+      if (rest <= 1e-15) break;
+      const have = this.get(v, f, 'aq');
+      const take = Math.min(have, rest);
+      if (take <= 0) continue;
+      this.add(v, f, 'aq', -take);
+      const dH = index - j; // musbat: protonlangan shakldan olindi — H+ ajraladi
+      if (dH > 0) this.add(v, 'H^+', 'aq', dH * take);
+      else if (dH < 0) { this.add(v, 'OH^-', 'aq', -dH * take); this.add(v, WATER, 'aq', dH * take); }
+      rest -= take;
     }
   }
 
@@ -424,12 +500,28 @@ export class Chemistry {
       if (t.coef <= 0) continue;
       let n;
       if (phaseOverride?.[t.id]) n = this.get(v, t.id, phaseOverride[t.id]);
+      else if (t.id === 'H^+') n = this.protonSupply(v);
       else n = this.#availableAny(v, t.id);
       xi = Math.min(xi, n / t.coef);
     }
     return xi === Infinity ? 0 : xi;
   }
+  /** Katalizator idishda bormi (elektrolitlar ionlari orqali ham) */
+  catalystPresent(v, id) {
+    if (this.#availableAny(v, id) > EPS) return true;
+    const s = this.db.sub(id);
+    if (s?.dissociation) {
+      return Object.keys(s.dissociation).filter((ion) => ion !== WATER && ion !== 'H^+' && ion !== 'OH^-').every((ion) => {
+        const e = this.db.formToSystem.get(ion);
+        if (e) return e.sys.forms.some((f) => this.get(v, f, 'aq') > EPS);
+        return this.#availableAny(v, ion) > EPS;
+      });
+    }
+    return false;
+  }
   #availableAny(v, id) {
+    const se = this.db.formToSystem.get(id);
+    if (se) return se.sys.forms.reduce((a, f) => a + this.get(v, f, 'aq'), 0) + this.get(v, id, 's') + this.get(v, id, 'g') + this.get(v, id, 'org');
     let n = 0;
     for (const ph of ['aq', 's', 'org', 'g']) n += this.get(v, id, ph);
     return n;
@@ -710,6 +802,52 @@ export class Chemistry {
     return this.get(v, id, 'aq');
   }
 
+  // ---------------------------------------------------- oksidlar + suv (gidratlanish)
+  #oxideWater(v, dt, ev) {
+    if (this.waterMol(v) < 1e-6) return;
+    this._hydCache = this._hydCache || new Map();
+    for (const [id, n] of this.inPhase(v, 's')) {
+      const s = this.db.sub(id);
+      const eq = s?.oxide?.hydration_eq;
+      if (!eq || n <= EPS) continue;
+      if (!this._hydCache.has(id)) this._hydCache.set(id, this.db.parseEq(eq));
+      const p = this._hydCache.get(id);
+      const ox = p.left.find((t) => t.id === id);
+      const w = p.left.find((t) => t.id === WATER);
+      const hyd = p.right[0];
+      const surf = SURFACE[v.forms[id]] ?? 1;
+      const tau = (s.oxide.slow ? (v.T >= 70 ? 40 : 400) : 2.5) / (surf * (v.stirring ? 2 : 1));
+      const xiMax = Math.min(n / ox.coef, this.waterMol(v) / w.coef);
+      const xi = xiMax * (1 - Math.exp(-dt / tau));
+      if (xi <= EPS) continue;
+      this.add(v, id, 's', -ox.coef * xi);
+      this.add(v, WATER, 'aq', -w.coef * xi);
+      this.#dissolveInto(v, hyd.id, hyd.coef * xi);
+      this.addHeat(v, (s.oxide.type === 'kislotali' ? -120000 : -65000) * xi);
+      ev.push({ type: 'rule', rule: 'oksid+suv', eq, xi });
+    }
+  }
+
+  /** Alanga sinovi: eritma/tuzdagi kationlar bo'yicha alanga rangi (natriy boshqalarni bosib ketadi) */
+  flameTest(v) {
+    const out = [];
+    for (const ph of ['aq', 's']) {
+      for (const [id, n] of this.inPhase(v, ph)) {
+        if (n <= EPS) continue;
+        const ions = this.db.isIon(id) ? { [id]: 1 } : (this.db.sub(id)?.ions || this.db.sub(id)?.dissociation || {});
+        for (const [ion, k] of Object.entries(ions)) {
+          const f = this.db.ions[ion]?.flame;
+          if (f) out.push({ ion, color: f.color, desc_uz: f.desc_uz, mol: n * k });
+        }
+      }
+    }
+    const merged = new Map();
+    for (const x of out) merged.set(x.ion, { ...x, mol: (merged.get(x.ion)?.mol || 0) + x.mol });
+    const list = [...merged.values()].map((x) => ({ ...x, weight: x.mol * (x.ion === 'Na^+' ? 20 : 1) }));
+    list.sort((a, b) => b.weight - a.weight);
+    return list;
+  }
+
   // ---------------------------------------------------- kislotada erish (karbonat, gidroksid, oksid ...)
   #acidDissolution(v, dt, ev) {
     const db = this.db;
@@ -908,6 +1046,7 @@ export class Chemistry {
       if (!t.id) return { ok: false, present: false };
       if (t.coef <= 0) continue;
       if (t.id === WATER) { if (this.waterMol(v) <= 1e-6 && !this.has(v, WATER, 'g')) missing.push(t.id); continue; }
+      if (t.id === 'H^+') { if (this.protonSupply(v) <= EPS) missing.push(t.id); continue; }
       if (this.#availableAny(v, t.id) <= EPS) missing.push(t.id);
     }
     if (missing.length) return { ok: false, present: false, missing };
@@ -925,7 +1064,7 @@ export class Chemistry {
       const cats = Array.isArray(c.catalyst) ? c.catalyst : [c.catalyst];
       for (const cat of cats) {
         const id = this.db.keyOf(cat);
-        if (this.#availableAny(v, id) <= EPS) unmet.push({ code: 'katalizator', need: id });
+        if (!this.catalystPresent(v, id)) unmet.push({ code: 'katalizator', need: id });
       }
     }
     if (c.light && !v.illuminated) unmet.push({ code: 'yorug\'lik' });

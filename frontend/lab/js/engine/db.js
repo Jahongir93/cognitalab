@@ -157,6 +157,9 @@ export class ChemDB {
       try {
         const eqText = r.equation?.ionic_net || r.equation?.molecular;
         rec._net = eqText ? this.parseEq(eqText) : null;
+        if (r.no_reaction && r.match) {
+          rec._net = { left: r.match.map((x) => ({ coef: 1, formula: x, id: this.keyOf(x) })), right: [], arrow: '=' };
+        }
         rec._mol = r.equation?.molecular ? this.parseEq(r.equation.molecular) : null;
       } catch (e) {
         rec._error = e.message;
@@ -166,7 +169,7 @@ export class ChemDB {
     }
     this.recordsBySpecies = new Map();
     for (const r of this.reactions) {
-      if (r.engine !== 'record' || !r._net) continue;
+      if (r.engine !== 'record' || !r._net || r._error) continue;
       for (const t of r._net.left) {
         if (!t.id) continue;
         if (!this.recordsBySpecies.has(t.id)) this.recordsBySpecies.set(t.id, []);

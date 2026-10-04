@@ -1,0 +1,25 @@
+{
+ "category": "termik-parchalanish",
+ "reactions": [
+  {
+   "id": "termik-0001",
+   "category": "termik-parchalanish",
+   "title_uz": "Mis(II) gidroksidning qizdirilganda parchalanishi",
+   "level": "8-sinf",
+   "topic_uz": "Asoslarning xossalari: erimaydigan asoslarning parchalanishi",
+   "engine": "record",
+   "reactants": [{"species": "Cu(OH)2", "state": "s", "mass_g": 0.2}],
+   "conditions": {"heating": true, "temp_min_C": 100, "catalyst": null, "medium": null, "light": false, "note_uz": "Probirka spirt lampasi alangasida qizdiriladi."},
+   "equation": {"molecular": "Cu(OH)2 = CuO + H2O↑", "ionic_full": null, "ionic_net": null, "electron_balance": null},
+   "mechanism": {"type": "termik-parchalanish", "steps_uz": ["Qizdirilganda gidroksid guruhlari o'rtasidagi bog' uziladi.", "Suv molekulasi ajralib, qora mis(II) oksid qoladi."], "organic": null},
+   "observations": {"precipitate": null, "gas": null, "solution_color_change": null, "solid_color_change": {"from": "#4a9be0", "to": "#1a1a1a"}, "heat": "endotermik", "flame": null, "effects": [{"type": "condensate"}], "text_uz": "Ko'k modda qorayadi, probirka og'zi yaqinidagi sovuq devorda suv tomchilari paydo bo'ladi."},
+   "kinetics": "tez",
+   "apparatus": ["probirka", "probirka-qisqichi", "spirt-lampasi"],
+   "procedure_uz": ["Probirkaga ozroq mis(II) gidroksid soling.", "Probirkani qisqich bilan ushlab, og'zini biroz pastga qaratib spirt lampasi alangasida qizdiring.", "Moddaning rangi va probirka devoridagi o'zgarishni kuzating."],
+   "safety_uz": "Probirka og'zini o'zingizga va boshqalarga qaratmang; issiq probirkani shtativga qo'ying.",
+   "explanation_uz": "Suvda erimaydigan asoslar qizdirilganda oksid va suvga parchalanadi. Ishqorlar (NaOH, KOH) esa bunday sharoitda parchalanmaydi.",
+   "questions_uz": ["Qaysi asoslar qizdirilganda parchalanadi?", "Nima uchun probirka og'zi pastga qaratiladi?"],
+   "confidence": "yuqori"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "category": "metall-kislota",
+ "reactions": [
+  {
+   "id": "metkis-0001",
+   "category": "metall-kislota",
+   "title_uz": "Misning suyultirilgan sulfat kislota bilan reaksiyaga kirishmasligi",
+   "level": "8-sinf",
+   "topic_uz": "Metallarning faollik qatori",
+   "engine": "record",
+   "no_reaction": true,
+   "match": ["Cu", "H⁺"],
+   "reactants": [{"species": "Cu", "state": "s", "mass_g": 0.5, "form": "sim", "conc_max_M": null}, {"species": "H2SO4", "state": "aq", "conc_M": 1, "volume_mL": 3, "conc_max_M": 10}],
+   "conditions": {"heating": false, "temp_min_C": null, "catalyst": null, "medium": null, "light": false, "note_uz": null},
+   "equation": {"molecular": null, "ionic_full": null, "ionic_net": null, "electron_balance": null},
+   "mechanism": {"type": "o'rin-olish", "steps_uz": ["Mis faollik qatorida vodoroddan keyin turadi (E° = +0,34 V).", "Shuning uchun Cu atomi H⁺ ionlariga elektron bera olmaydi."], "organic": null},
+   "observations": {"precipitate": null, "gas": null, "solution_color_change": null, "heat": "sezilarsiz", "flame": null, "effects": [], "text_uz": "Hech qanday o'zgarish kuzatilmaydi."},
+   "kinetics": "bir-zumda",
+   "apparatus": ["probirka"],
+   "procedure_uz": ["Probirkaga mis sim bo'lagini soling.", "Ustiga 3 ml suyultirilgan sulfat kislota quying.", "Bir necha daqiqa kuzating."],
+   "safety_uz": "Sulfat kislota terini kuydiradi; ko'zoynak va qo'lqopdan foydalaning.",
+   "explanation_uz": "Mis faollik qatorida vodoroddan keyin turadi, shuning uchun suyultirilgan (oksidlovchi bo'lmagan) kislotalardan vodorodni siqib chiqara olmaydi. Konsentrlangan sulfat kislota bilan qizdirilganda esa mis reaksiyaga kirishadi, lekin vodorod emas, SO₂ ajraladi.",
+   "questions_uz": ["Qaysi metallar suyultirilgan kislotalardan vodorodni siqib chiqaradi?", "Mis qanday sharoitda sulfat kislota bilan reaksiyaga kirishadi?"],
+   "confidence": "yuqori"
+  }
+ ]
+}

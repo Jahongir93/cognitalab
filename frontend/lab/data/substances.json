@@ -3379,7 +3379,8 @@
   "oxide": {
    "type": "asosli",
    "hydrate": "Ba(OH)2",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "BaO + H2O = Ba(OH)2"
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
@@ -3405,6 +3406,32 @@
   "reagent": false,
   "solubility": null,
   "id": "BaO2"
+ },
+ "barit-suvi": {
+  "formula": null,
+  "display": null,
+  "name_uz": "barit suvi (Ba(OH)₂ eritmasi)",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zaharli",
+   "korroziv"
+  ],
+  "storage": "rezina-tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "Ba^2+": 0.2,
+   "OH^-": 0.4
+  },
+  "solubility": "R",
+  "id": "barit-suvi"
  },
  "BaS": {
   "formula": "BaS",
@@ -3575,6 +3602,31 @@
    "ref_M": 0.02
   },
   "id": "Br2"
+ },
+ "bromli-suv": {
+  "formula": null,
+  "display": null,
+  "name_uz": "bromli suv",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zaharli",
+   "korroziv"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "Br2": 0.02
+  },
+  "solubility": "R",
+  "id": "bromli-suv"
  },
  "C": {
   "formula": "C",
@@ -6119,7 +6171,8 @@
   "oxide": {
    "type": "asosli",
    "hydrate": "Ca(OH)2",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "CaO + H2O = Ca(OH)2"
   },
   "acid_soluble": "kuchsiz",
   "solubility": "N",
@@ -8923,7 +8976,8 @@
   "oxide": {
    "type": "kislotali",
    "hydrate": "H2CrO4",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "CrO3 + H2O = H2CrO4"
   },
   "solubility": "N",
   "id": "CrO3"
@@ -10256,6 +10310,39 @@
    }
   ],
   "id": "FeI2"
+ },
+ "Feling": {
+  "formula": null,
+  "display": null,
+  "name_uz": "Feling suyuqligi",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "mis(II) sulfat va segnet tuzining ishqoriy aralashmasi (to'q ko'k)"
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "yangi-tayyorlanadi",
+  "reagent": true,
+  "formula_null": true,
+  "aq_color": {
+   "hex": "#2a4ad0",
+   "ref_M": 0.07
+  },
+  "mixture": {
+   "Cu(OH)2": 0.07,
+   "Na^+": 1,
+   "OH^-": 1
+  },
+  "mixture_phase": {
+   "Cu(OH)2": "aq"
+  },
+  "solubility": "R",
+  "id": "Feling"
  },
  "FeO": {
   "formula": "FeO",
@@ -11681,6 +11768,25 @@
   },
   "id": "I2"
  },
+ "jun": {
+  "formula": null,
+  "display": null,
+  "name_uz": "jun ipi (oqsil tola)",
+  "class": "oqsil",
+  "state": "s",
+  "M": null,
+  "appearance": {
+   "color": "#e8dcc8",
+   "form": "tola",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "solubility": null,
+  "id": "jun"
+ },
  "K": {
   "formula": "K",
   "display": "K",
@@ -12040,7 +12146,8 @@
   "oxide": {
    "type": "asosli",
    "hydrate": "KOH",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "K2O + H2O = 2KOH"
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
@@ -12941,6 +13048,29 @@
   "solubility": "R",
   "id": "KOH"
  },
+ "kraxmal-yod": {
+  "formula": null,
+  "display": null,
+  "name_uz": "kraxmal-yod kompleksi",
+  "class": "kompleks",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "formula_null": true,
+  "aq_color": {
+   "hex": "#1a1a6a",
+   "ref_M": 0.0005
+  },
+  "solubility": "R",
+  "id": "kraxmal-yod"
+ },
  "KSCN": {
   "formula": "KSCN",
   "display": "KSCN",
@@ -12971,6 +13101,28 @@
   },
   "solubility": "R",
   "id": "KSCN"
+ },
+ "lakmus": {
+  "formula": null,
+  "display": null,
+  "name_uz": "lakmus",
+  "class": "indikator",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "lishayniklardan olinadigan bo'yoq aralashmasi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "indicator": "lakmus",
+  "mixture": null,
+  "mixture_opaque": true,
+  "solubility": "R",
+  "id": "lakmus"
  },
  "Li": {
   "formula": "Li",
@@ -13552,6 +13704,32 @@
   "solubility": "R",
   "id": "LiOH"
  },
+ "Lugol": {
+  "formula": null,
+  "display": null,
+  "name_uz": "Lugol eritmasi (yodning KI dagi eritmasi)",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "I2": 0.05,
+   "K^+": 0.12,
+   "I^-": 0.12
+  },
+  "solubility": "R",
+  "id": "Lugol"
+ },
  "Mg": {
   "formula": "Mg",
   "display": "Mg",
@@ -14031,7 +14209,8 @@
   "oxide": {
    "type": "asosli",
    "hydrate": "Mg(OH)2",
-   "slow": true
+   "slow": true,
+   "hydration_eq": "MgO + H2O = Mg(OH)2"
   },
   "acid_soluble": "kuchsiz",
   "solubility": "N",
@@ -15170,7 +15349,8 @@
   "oxide": {
    "type": "asosli",
    "hydrate": "NaOH",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "Na2O + H2O = 2NaOH"
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
@@ -16073,6 +16253,34 @@
   "heat_of_dilution": "ekzotermik",
   "solubility": "R",
   "id": "NaOH"
+ },
+ "Nessler": {
+  "formula": null,
+  "display": null,
+  "name_uz": "Nessler reaktivi (K₂[HgI₄] ning ishqoriy eritmasi)",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zaharli",
+   "korroziv",
+   "atrof-muhit"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "K^+": 0.4,
+   "[HgI4]^2-": 0.1,
+   "OH^-": 0.2
+  },
+  "solubility": "R",
+  "id": "Nessler"
  },
  "NH3": {
   "formula": "NH3",
@@ -17096,40 +17304,6 @@
   "solubility": null,
   "id": "NO2"
  },
- "null": {
-  "formula": null,
-  "display": null,
-  "name_uz": "universal indikator qog'ozi",
-  "class": "indikator",
-  "state": "s",
-  "M": null,
-  "appearance": {
-   "color": null,
-   "form": "kukun",
-   "desc_uz": null
-  },
-  "hazards": [],
-  "storage": "tiqinli-sklyanka",
-  "reagent": false,
-  "formula_null": true,
-  "mixture": {
-   "K^+": 0.4,
-   "[HgI4]^2-": 0.1,
-   "OH^-": 0.2
-  },
-  "mixture_opaque": true,
-  "solubility": null,
-  "id": null,
-  "aq_color": {
-   "hex": "#2a4ad0",
-   "ref_M": 0.07
-  },
-  "indicator": "universal-indikator",
-  "mixture_phase": {
-   "Cu(OH)2": "aq"
-  },
-  "paper": true
- },
  "O2": {
   "formula": "O2",
   "display": "O₂",
@@ -17184,6 +17358,52 @@
   },
   "id": "O3"
  },
+ "ohakli-suv": {
+  "formula": null,
+  "display": null,
+  "name_uz": "ohakli suv (Ca(OH)₂ ning to'yingan eritmasi)",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "rezina-tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "Ca^2+": 0.02,
+   "OH^-": 0.04
+  },
+  "solubility": "R",
+  "id": "ohakli-suv"
+ },
+ "oqsil": {
+  "formula": null,
+  "display": null,
+  "name_uz": "oqsil eritmasi (tuxum oqi)",
+  "class": "oqsil",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "tuxum oqining suvdagi kolloid eritmasi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": null,
+  "mixture_opaque": true,
+  "solubility": "R",
+  "id": "oqsil"
+ },
  "P": {
   "formula": "P",
   "display": "P",
@@ -17225,7 +17445,8 @@
   "oxide": {
    "type": "kislotali",
    "hydrate": "H3PO4",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "P2O5 + 3H2O = 2H3PO4"
   },
   "solubility": "N",
   "id": "P2O5"
@@ -18328,7 +18549,8 @@
   "oxide": {
    "type": "kislotali",
    "hydrate": "H2SO4",
-   "slow": false
+   "slow": false,
+   "hydration_eq": "SO3 + H2O = H2SO4"
   },
   "solubility": "N",
   "id": "SO3"
@@ -18898,6 +19120,126 @@
   },
   "acid_soluble": null,
   "id": "SrSO4"
+ },
+ "Tollens": {
+  "formula": null,
+  "display": null,
+  "name_uz": "Tollens reaktivi (kumush oksidning ammiakli eritmasi)",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "yangi-tayyorlanadi",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "[Ag(NH3)2]^+": 0.1,
+   "OH^-": 0.1,
+   "NH3": 0.1
+  },
+  "solubility": "R",
+  "id": "Tollens"
+ },
+ "universal-indikator": {
+  "formula": null,
+  "display": null,
+  "name_uz": "universal indikator",
+  "class": "indikator",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "yonuvchan"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "indicator": "universal-indikator",
+  "mixture": null,
+  "mixture_opaque": true,
+  "solubility": "R",
+  "id": "universal-indikator"
+ },
+ "universal-qogoz": {
+  "formula": null,
+  "display": null,
+  "name_uz": "universal indikator qog'ozi",
+  "class": "indikator",
+  "state": "s",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "kukun",
+   "desc_uz": null
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "formula_null": true,
+  "indicator": "universal-indikator",
+  "paper": true,
+  "solubility": null,
+  "id": "universal-qogoz"
+ },
+ "xlorli-suv": {
+  "formula": null,
+  "display": null,
+  "name_uz": "xlorli suv",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zaharli",
+   "oksidlovchi"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "Cl2": 0.05
+  },
+  "solubility": "R",
+  "id": "xlorli-suv"
+ },
+ "yodli-suv": {
+  "formula": null,
+  "display": null,
+  "name_uz": "yodli suv",
+  "class": "reaktiv",
+  "state": "aq",
+  "M": null,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "formula_null": true,
+  "mixture": {
+   "I2": 0.001
+  },
+  "solubility": "R",
+  "id": "yodli-suv"
  },
  "Zn": {
   "formula": "Zn",

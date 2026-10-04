@@ -99,9 +99,19 @@ export function validateReaction(db, r, ctx = {}) {
   // tenglamalar
   const eq = r.equation || {};
   const eqs = [];
-  if (!r.no_reaction) {
+  if (!r.no_reaction && !r.flame_test && !r.equation_free) {
     if (!eq.molecular) E("molekulyar tenglama yo'q");
   }
+  if (r.no_reaction && r.engine === 'record') {
+    if (!Array.isArray(r.match) || !r.match.length) E("no_reaction yozuvi uchun match (zarrachalar ro'yxati) kerak");
+    else for (const m of r.match) if (!db.resolve(m) && !db.substances[m]) E(`match zarrachasi bazada yo'q: ${m}`);
+  }
+  if (r.flame_test) {
+    const ion = db.ions[r.flame_test.ion];
+    if (!ion || !ion.flame) E(`alanga sinovi ioni noto'g'ri: ${r.flame_test.ion}`);
+    else if (r.observations?.flame?.color && r.observations.flame.color.toLowerCase() !== ion.flame.color.toLowerCase()) E('alanga rangi bazadagidan farq qiladi');
+  }
+  if (r.equation_free && (!r.equation_free_uz || r.equation_free_uz.length < 15)) E('equation_free uchun izoh (equation_free_uz) kerak');
   for (const key of ['molecular', 'ionic_full', 'ionic_net']) {
     if (!eq[key]) continue;
     eqs.push([key, eq[key]]);
@@ -179,7 +189,7 @@ function sameIons(db, a, b) { return a === b; }
 export function signature(db, r) {
   const ids = (r.reactants || []).map((x) => `${db.keyOf(x.species)}:${x.state}${x.conc_min_M ? '>' + x.conc_min_M : ''}${x.conc_max_M ? '<' + x.conc_max_M : ''}`).sort();
   const c = r.conditions || {};
-  return `${ids.join('+')}|T${c.temp_min_C ?? (c.heating ? 'h' : '')}|${c.temp_max_C ?? ''}|${[].concat(c.catalyst || []).join(',')}|${c.medium || ''}|${c.light ? 'L' : ''}|${r.equation?.molecular || ''}`;
+  return `${r.category}|${ids.join('+')}|T${c.temp_min_C ?? (c.heating ? 'h' : '')}|${c.temp_max_C ?? ''}|${[].concat(c.catalyst || []).join(',')}|${c.medium || ''}|${c.light ? 'L' : ''}|${r.equation?.molecular || ''}`;
 }
 
 /** Barcha yozuvlarni tekshirish */

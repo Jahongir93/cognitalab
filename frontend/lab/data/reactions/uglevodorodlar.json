@@ -1,0 +1,25 @@
+{
+ "category": "uglevodorodlar",
+ "reactions": [
+  {
+   "id": "uglevod-0001",
+   "category": "uglevodorodlar",
+   "title_uz": "Etilenning bromli suvni rangsizlantirishi",
+   "level": "10-sinf",
+   "topic_uz": "Alkenlar: birikish reaksiyalari",
+   "engine": "record",
+   "reactants": [{"species": "CH2=CH2", "state": "g"}, {"species": "bromli-suv", "state": "aq", "volume_mL": 3}],
+   "conditions": {"heating": false, "temp_min_C": null, "catalyst": null, "medium": null, "light": false, "note_uz": "Etilen bromli suv orqali o'tkaziladi."},
+   "equation": {"molecular": "CH2=CH2 + Br2 → CH2Br–CH2Br", "ionic_full": null, "ionic_net": null, "electron_balance": null},
+   "mechanism": {"type": "organik", "steps_uz": ["Br₂ molekulasi π-bog'ga yaqinlashib qutblanadi.", "Br⁺ uglerod atomlariga birikib siklik bromoniy ioni hosil bo'ladi, Br⁻ ajraladi.", "Br⁻ ioni bromoniy ioniga orqa tomondan hujum qilib 1,2-dibrometan hosil bo'ladi."], "organic": {"template": "AdE", "params": {"alkene": "CH2=CH2", "reagent": "Br–Br", "electrophile": "Br⁺", "nucleophile": "Br⁻", "intermediate": "bromoniy ioni", "product": "CH2Br–CH2Br"}}},
+   "observations": {"precipitate": null, "gas": null, "solution_color_change": {"from": "#e8a040", "to": "#ffffff"}, "heat": "sezilarsiz", "flame": null, "effects": [{"type": "bubbles"}], "text_uz": "Sariq-qo'ng'ir bromli suv rangsizlanadi."},
+   "kinetics": "tez",
+   "apparatus": ["probirka", "gaz-naycha-egilgan"],
+   "procedure_uz": ["Probirkaga 3 ml bromli suv quying.", "Gaz chiqarish naychasining uchini bromli suvga tushirib, etilen o'tkazing.", "Eritma rangini kuzating."],
+   "safety_uz": "Brom zaharli, bug'ini hidlamang; tajribani mo'rili shkafda o'tkazing.",
+   "explanation_uz": "Etilen molekulasidagi qo'shbog' (π-bog') oson uziladi va brom atomlari uglerod atomlariga birikadi. Rangsiz 1,2-dibrometan hosil bo'lgani uchun bromli suv rangsizlanadi — bu to'yinmaganlikka sifat reaksiyasi.",
+   "questions_uz": ["Bromli suv bilan reaksiya qaysi turdagi uglevodorodlarni aniqlashga imkon beradi?", "Metan bromli suvni rangsizlantiradimi? Nima uchun?"],
+   "confidence": "yuqori"
+  }
+ ]
+}

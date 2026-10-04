@@ -1,0 +1,34 @@
+{
+ "category": "oksidlanish-qaytarilish",
+ "reactions": [
+  {
+   "id": "redoks-0001",
+   "category": "oksidlanish-qaytarilish",
+   "title_uz": "Kaliy permanganatning kislotali muhitda natriy sulfit bilan qaytarilishi",
+   "level": "9-sinf",
+   "topic_uz": "Oksidlanish-qaytarilish reaksiyalari; muhitning ta'siri",
+   "engine": "record",
+   "reactants": [
+    {"species": "KMnO4", "state": "aq", "conc_M": 0.02, "volume_mL": 2},
+    {"species": "H2SO4", "state": "aq", "conc_M": 1, "volume_mL": 1},
+    {"species": "Na2SO3", "state": "aq", "conc_M": 0.1, "volume_mL": 2}
+   ],
+   "conditions": {"heating": false, "temp_min_C": null, "catalyst": null, "medium": "kislotali", "light": false, "note_uz": "Avval permanganat sulfat kislota bilan kislotalanadi, so'ng sulfit qo'shiladi."},
+   "equation": {
+    "molecular": "2KMnO4 + 5Na2SO3 + 3H2SO4 = 2MnSO4 + 5Na2SO4 + K2SO4 + 3H2O",
+    "ionic_full": "2K⁺ + 2MnO4⁻ + 10Na⁺ + 5SO3²⁻ + 6H⁺ + 3SO4²⁻ = 2Mn²⁺ + 2SO4²⁻ + 10Na⁺ + 5SO4²⁻ + 2K⁺ + SO4²⁻ + 3H2O",
+    "ionic_net": "2MnO4⁻ + 5SO3²⁻ + 6H⁺ = 2Mn²⁺ + 5SO4²⁻ + 3H2O",
+    "electron_balance": ["Mn⁺⁷ + 5e⁻ = Mn⁺²", "S⁺⁴ − 2e⁻ = S⁺⁶"]
+   },
+   "mechanism": {"type": "oksidlanish-qaytarilish", "steps_uz": ["Oksidlovchi — MnO₄⁻ ioni (Mn⁺⁷), qaytaruvchi — SO₃²⁻ ioni (S⁺⁴).", "Kislotali muhitda Mn⁺⁷ beshta elektron qabul qilib Mn²⁺ ga qaytariladi (eritma rangsizlanadi).", "S⁺⁴ ikki elektron berib S⁺⁶ ga (sulfat ioniga) oksidlanadi.", "Elektronlar soni tenglashtiriladi: 2 Mn va 5 S; ortiqcha kislorod H⁺ bilan suv hosil qiladi."], "organic": null},
+   "observations": {"precipitate": null, "gas": null, "solution_color_change": {"from": "#8e1a8e", "to": "#ffffff"}, "heat": "sezilarsiz", "flame": null, "effects": [{"type": "swirl"}], "text_uz": "Binafsha rangli eritma darhol rangsizlanadi."},
+   "kinetics": "bir-zumda",
+   "apparatus": ["probirka", "tomizgich"],
+   "procedure_uz": ["Probirkaga 2 ml kaliy permanganat eritmasidan quying.", "Unga 1 ml suyultirilgan sulfat kislota qo'shing.", "Tomizgich bilan natriy sulfit eritmasini tomchilab qo'shib, eritma rangini kuzating."],
+   "safety_uz": "Kaliy permanganat kuchli oksidlovchi, terini bo'yaydi; sulfat kislota bilan ehtiyot bo'ling, ko'zoynak taqing.",
+   "explanation_uz": "Kislotali muhitda permanganat ioni eng kuchli oksidlovchi bo'lib, Mn²⁺ gacha qaytariladi. Mn²⁺ ionlari suyultirilgan eritmada deyarli rangsiz bo'lgani uchun binafsha rang yo'qoladi.",
+   "questions_uz": ["Bu reaksiyada oksidlovchi va qaytaruvchini aniqlang.", "Neytral va ishqoriy muhitda permanganat qanday mahsulotgacha qaytariladi?", "Nima uchun eritmani sulfat kislota bilan kislotalash kerak, xlorid kislota bilan emas?"],
+   "confidence": "yuqori"
+  }
+ ]
+}
