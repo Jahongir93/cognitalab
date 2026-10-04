@@ -57,8 +57,8 @@ function flameMaterial(color, tip, intensity = 1) {
 }
 
 export const FLAME_KINDS = {
-  bunzen: { outer: [0x3b6cff, 0x8a5cff], inner: [0x55d0ff, 0x2a6dff], r: 0.0075, h: 0.055, light: 0x6c8cff, li: 0.4 },
-  spirtovka: { outer: [0xffa21a, 0xff5a08], inner: [0x3c7bff, 0xffb347], r: 0.006, h: 0.045, light: 0xffa040, li: 0.9 },
+  bunzen: { outer: [0x3b6cff, 0x8a5cff], inner: [0x55d0ff, 0x2a6dff], r: 0.0075, h: 0.055, light: 0x6c8cff, li: 0.15 },
+  spirtovka: { outer: [0xffa21a, 0xff5a08], inner: [0x3c7bff, 0xffb347], r: 0.006, h: 0.045, light: 0xffa040, li: 0.35 },
   chop: { outer: [0xffb020, 0xff5a00], inner: [0xfff0a0, 0xffa020], r: 0.003, h: 0.018, light: 0xffa040, li: 0.3 },
   reaksiya: { outer: [0xffb020, 0xff5a00], inner: [0xfff6c0, 0xffa020], r: 0.009, h: 0.05, light: 0xffa040, li: 1.2 },
 };

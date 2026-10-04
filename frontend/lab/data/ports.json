@@ -42,7 +42,8 @@
   "sim-uchi": "Sim uchi",
   "suv-osti": "Suv ostidagi kirish",
   "yiggich-joyi": "Yig'gich idish joyi",
-  "filtr-joyi": "Filtr"
+  "filtr-joyi": "Filtr",
+  "qopqoq": "Qopqoq (og'izni germetik bo'lmagan holda yopadi)"
  },
  "compat": [
   {
@@ -259,6 +260,12 @@
    "a": "shlif-erkak",
    "b": "ogiz",
    "rule": "diameter-shlif",
+   "sealed": false
+  },
+  {
+   "a": "ogiz",
+   "b": "qopqoq",
+   "rule": null,
    "sealed": false
   }
  ],

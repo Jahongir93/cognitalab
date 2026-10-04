@@ -6,11 +6,12 @@ const up = [0, 1, 0], down = [0, -1, 0], side = [1, 0, 0];
 const P = (id, type, pos, dir = up, extra = {}) => ({ id, type, pos, dir, ...extra });
 
 // Idishlarning umumiy portlari
-function vesselPorts({ H, mouthD, neckR, grip = true, gripY, joint = null, tub = true }) {
+// multi: keng og'izli idish (stakan, kristallizator) — og'izga bir nechta narsa (elektrodlar, tuz ko'prigi, naycha) tushiriladi
+function vesselPorts({ H, mouthD, neckR, grip = true, gripY, joint = null, tub = true, multi = false }) {
   const ports = [];
   if (tub) ports.push(P('tub', 'tub', [0, 0, 0], down));
   if (joint) ports.push(P('bogiz', 'shlif-urgochi', [0, H, 0], up, { size: joint }));
-  else ports.push(P('ogiz', 'ogiz', [0, H, 0], up, { d_mm: mouthD }));
+  else ports.push(P('ogiz', 'ogiz', [0, H, 0], up, multi ? { d_mm: mouthD, multi: true } : { d_mm: mouthD }));
   if (grip) ports.push(P('qisqich', 'qisqich-joyi', [0, gripY ?? H * 0.85, (neckR ?? mouthD / 2) + 1], [0, 0, 1]));
   return ports;
 }
@@ -41,7 +42,7 @@ export const EQUIPMENT = [
       { id: 600, label: '600 ml', capacity_mL: 600, p: { R: 45, H: 125, wall: 1.7 } },
     ]),
     vessel: { heatable: true, glass_g: 40, graduated: true, needsGauze: true },
-    ports: (p) => vesselPorts({ H: p.H, mouthD: p.R * 2, grip: false }),
+    ports: (p) => vesselPorts({ H: p.H, mouthD: p.R * 2, grip: false, multi: true }),
     desc_uz: 'Eritmalar tayyorlash, qizdirish (asbest to\'r ustida) va aralashtirish uchun.',
   },
   {
@@ -149,17 +150,31 @@ export const EQUIPMENT = [
     ports: () => [P('oyoq', 'naycha-uchi', [0, 0, 0], down), P('ogiz', 'ogiz', [0, 230, 0], up, { d_mm: 16 }), P('qisqich', 'qisqich-joyi', [0, 200, 8], [0, 0, 1])],
     desc_uz: 'Reaksiya kolbasiga suyuqlikni asta-sekin tomizib berish uchun.',
   },
-  { id: 'soat-oynasi', name_uz: 'Soat oynasi', cat: 'shisha', builder: 'soat-oynasi', p: { R: 40 }, vessel: { heatable: false, glass_g: 15, capacity_mL: 5 }, ports: () => [P('tub', 'tub', [0, 0, 0], down)], desc_uz: 'Qattiq moddalarni tortish va bug\'latish uchun.' },
+  { id: 'soat-oynasi', name_uz: 'Soat oynasi', cat: 'shisha', builder: 'soat-oynasi', p: { R: 40 }, vessel: { heatable: false, glass_g: 15, capacity_mL: 5 }, ports: () => [P('tub', 'tub', [0, 0, 0], down), P('qopqoq', 'qopqoq', [0, 0, 0], down)], desc_uz: 'Qattiq moddalarni tortish va bug\'latish uchun; stakan og\'ziga qopqoq qilib qo\'yiladi (sublimatsiya).' },
   { id: 'petri-kosachasi', name_uz: 'Petri kosachasi', cat: 'shisha', builder: 'petri', p: { R: 45, H: 15 }, vessel: { heatable: false, glass_g: 30, capacity_mL: 60 }, ports: () => [P('tub', 'tub', [0, 0, 0], down), P('ogiz', 'ogiz', [0, 15, 0], up, { d_mm: 90 })] },
-  { id: 'kristallizator', name_uz: 'Kristallizator', cat: 'shisha', builder: 'stakan', p: { R: 50, H: 55, wall: 1.6 }, vessel: { heatable: false, glass_g: 120, capacity_mL: 400 }, ports: (p) => vesselPorts({ H: p.H, mouthD: p.R * 2, grip: false }) },
+  { id: 'kristallizator', name_uz: 'Kristallizator', cat: 'shisha', builder: 'stakan', p: { R: 50, H: 55, wall: 1.6 }, vessel: { heatable: false, glass_g: 120, capacity_mL: 400 }, ports: (p) => vesselPorts({ H: p.H, mouthD: p.R * 2, grip: false, multi: true }) },
   { id: 'eksikator', name_uz: 'Eksikator', cat: 'shisha', builder: 'eksikator', p: { R: 80, H: 170 }, vessel: { heatable: false, glass_g: 1500, capacity_mL: 1500 }, ports: () => [P('tub', 'tub', [0, 0, 0], down)], desc_uz: 'Moddalarni quritish va namlikdan saqlash uchun.' },
   { id: 'shisha-tayoqcha', name_uz: 'Shisha tayoqcha', cat: 'shisha', builder: 'tayoqcha', p: { L: 200, r: 3 }, tool: 'aralashtirish', ports: () => [] },
   { id: 'gaz-naycha-togri', name_uz: 'Gaz chiqarish naychasi (to\'g\'ri)', cat: 'shisha', builder: 'naycha', p: { path: [[0, 0, 0], [0, 150, 0]] }, ports: () => [P('a', 'naycha-uchi', [0, 0, 0], down), P('b', 'naycha-uchi', [0, 150, 0], up)] },
-  { id: 'gaz-naycha-egilgan', name_uz: 'Gaz chiqarish naychasi (egilgan)', cat: 'shisha', builder: 'naycha', p: { path: [[0, 0, 0], [0, 60, 0], [0, 95, 0], [35, 110, 0], [140, 110, 0], [175, 95, 0], [180, 60, 0], [180, -60, 0]] }, ports: () => [P('a', 'naycha-uchi', [0, 0, 0], down), P('b', 'naycha-uchi', [180, -60, 0], down)], desc_uz: 'Gazni boshqa idishga o\'tkazish uchun ikki marta egilgan naycha.' },
+  {
+    id: 'gaz-naycha-egilgan', name_uz: 'Gaz chiqarish naychasi (egilgan)', cat: 'shisha', builder: 'naycha',
+    sizes: sizes([
+      { id: 'standart', label: 'Qisqa (uchi 60 mm pastga tushadi)', p: { path: [[0, 0, 0], [0, 60, 0], [0, 95, 0], [35, 110, 0], [140, 110, 0], [175, 95, 0], [180, 60, 0], [180, -60, 0]] } },
+      { id: 'uzun', label: 'Uzun (uchi 240 mm pastga tushadi)', p: { path: [[0, 0, 0], [0, 60, 0], [0, 95, 0], [35, 110, 0], [140, 110, 0], [175, 95, 0], [180, 60, 0], [180, -240, 0]] } },
+    ]),
+    ports: (p) => [P('a', 'naycha-uchi', [0, 0, 0], down), P('b', 'naycha-uchi', p.path[p.path.length - 1], down)],
+    desc_uz: 'Gazni boshqa idishga o\'tkazish uchun ikki marta egilgan naycha (uzun varianti — qizdirilayotgan probirkadan stol ustidagi idishga yoki pnevmatik vannaga).',
+  },
   { id: 'gaz-naycha-toraytirilgan', name_uz: 'Uchi toraytirilgan naycha', cat: 'shisha', builder: 'naycha', p: { path: [[0, 0, 0], [0, 140, 0]], taper: true }, ports: () => [P('a', 'naycha-uchi', [0, 0, 0], down), P('b', 'naycha-uchi-tor', [0, 140, 0], up)], desc_uz: 'Gazni yondirish (vodorod, atsetilen) uchun.' },
   { id: 'u-simon-naycha', name_uz: 'U-simon naycha', cat: 'shisha', builder: 'u-naycha', p: { W: 50, H: 150, r: 7 }, vessel: { heatable: false, glass_g: 25, capacity_mL: 15 }, ports: () => [P('chap', 'ogiz', [-25, 150, 0], up, { d_mm: 13 }), P('ong', 'ogiz', [25, 150, 0], up, { d_mm: 13 }), P('qisqich', 'qisqich-joyi', [0, 110, 9], [0, 0, 1])] },
   { id: 'xlorkalsiyli-naycha', name_uz: 'Xlorkalsiyli naycha', cat: 'shisha', builder: 'xlorkalsiy', p: { H: 150 }, ports: () => [P('a', 'ogiz', [0, 150, 0], up, { d_mm: 16 }), P('b', 'naycha-uchi', [0, 0, 0], down)], desc_uz: 'Gazni quritish (suvsiz CaCl₂ bilan to\'ldiriladi).' },
-  { id: 'libix-sovutgichi', name_uz: 'Libix sovutgichi', cat: 'shisha', builder: 'sovutgich', p: { L: 400, kind: 'libix' }, ports: () => [P('kirish', 'shlif-erkak', [0, 0, 0], [-1, 0, 0], { size: '29/32' }), P('chiqish', 'naycha-uchi', [400, 0, 0], side), P('suv-kirish', 'shtutser', [360, -20, 0], [0, -1, 0]), P('suv-chiqish', 'shtutser', [40, 20, 0], up), P('qisqich', 'qisqich-joyi', [200, 22, 0], [0, 0, 1])], desc_uz: 'Bug\'ni kondensatlash: suv pastdan kirib, yuqoridan chiqadi.' },
+  {
+    id: 'libix-sovutgichi', name_uz: 'Libix sovutgichi', cat: 'shisha', builder: 'sovutgich',
+    // standart — shlifli kirish (dumaloq kolba 29/32); tiqinli — kirishiga teshikli rezina tiqin o'rnatilgan (Vyurs kolbasi yon naychasi kiritiladi)
+    sizes: sizes([{ id: 'standart', label: 'Shlifli kirish (29/32)', p: { L: 400, kind: 'libix' } }, { id: 'tiqinli', label: 'Tiqinli kirish (Vyurs kolbasi uchun)', p: { L: 400, kind: 'libix', stopperInlet: true } }]),
+    ports: (p) => [p.stopperInlet ? P('kirish', 'tiqin-teshik', [0, 0, 0], [-1, 0, 0]) : P('kirish', 'shlif-erkak', [0, 0, 0], [-1, 0, 0], { size: '29/32' }), P('chiqish', 'naycha-uchi', [400, 0, 0], side), P('suv-kirish', 'shtutser', [360, -20, 0], [0, -1, 0]), P('suv-chiqish', 'shtutser', [40, 20, 0], up), P('qisqich', 'qisqich-joyi', [200, 22, 0], [0, 0, 1])],
+    desc_uz: 'Bug\'ni kondensatlash: suv pastdan kirib, yuqoridan chiqadi.',
+  },
   { id: 'sharikli-sovutgich', name_uz: 'Sharikli qaytar sovutgich', cat: 'shisha', builder: 'sovutgich', p: { L: 350, kind: 'sharikli' }, ports: () => [P('kirish', 'shlif-erkak', [0, 0, 0], [-1, 0, 0], { size: '29/32' }), P('chiqish', 'ogiz', [350, 0, 0], side, { d_mm: 14 }), P('suv-kirish', 'shtutser', [40, -20, 0], [0, -1, 0]), P('suv-chiqish', 'shtutser', [310, 20, 0], up), P('qisqich', 'qisqich-joyi', [175, 22, 0], [0, 0, 1])], desc_uz: 'Qizdirishda bug\'ni qaytarib kolbaga tushiradi (vertikal o\'rnatiladi).' },
   { id: 'deflegmator', name_uz: 'Deflegmator (Vigre kolonkasi)', cat: 'shisha', builder: 'sovutgich', p: { L: 300, kind: 'deflegmator' }, ports: () => [P('kirish', 'shlif-erkak', [0, 0, 0], [-1, 0, 0], { size: '29/32' }), P('chiqish', 'shlif-urgochi', [300, 0, 0], side, { size: '29/32' }), P('yon', 'naycha-uchi', [270, 30, 0], up), P('qisqich', 'qisqich-joyi', [150, 15, 0], [0, 0, 1])], desc_uz: 'Fraksion haydash uchun.' },
   { id: 'alonj', name_uz: 'Alonj', cat: 'shisha', builder: 'alonj', p: {}, ports: () => [P('kirish', 'ogiz', [0, 0, 0], [-1, 0, 0], { d_mm: 16 }), P('chiqish', 'naycha-uchi', [90, -60, 0], down)], desc_uz: 'Sovutgichdan chiqqan distillyatni qabul qiluvchi idishga yo\'naltiradi.' },
@@ -262,7 +277,7 @@ export const PORT_TYPES = {
   'gorelka-joyi': 'Gorelka asosi', plita: 'Plita yuzasi', hammom: 'Hammom', 'isitgich-uyasi': 'Isitgich uyasi', 'pech-ichi': 'Pech ichi', uchburchak: 'Chinni uchburchak',
   'uchburchak-joyi': 'Uchburchak asosi', 'tarozi-palla': 'Tarozi pallasi', uya: 'Shtativ uyasi', 'probirka-tanasi': 'Probirka tanasi', 'voronka-oyogi': 'Voronka oyog\'i',
   'voronka-konus': 'Voronka konusi', 'voronka-ogiz': 'Voronka og\'zi', 'elektrod-uchi': 'Elektrod uchi', 'elektrod-joyi': 'Elektrod joyi', klemma: 'Klemma', 'sim-uchi': 'Sim uchi',
-  'suv-osti': 'Suv ostidagi kirish', 'yiggich-joyi': 'Yig\'gich idish joyi', 'filtr-joyi': 'Filtr',
+  'suv-osti': 'Suv ostidagi kirish', 'yiggich-joyi': 'Yig\'gich idish joyi', 'filtr-joyi': 'Filtr', qopqoq: 'Qopqoq (og\'izni germetik bo\'lmagan holda yopadi)',
 };
 
 // [a, b, qoida]: qoida — null (har doim), "diameter" (tiqin og'izga mos), "size" (shlif o'lchami teng), sealed — germetik ulanish
@@ -303,6 +318,7 @@ export const PORT_COMPAT = [
   ['klemma', 'sim-uchi', null, false],
   ['filtr-joyi', 'voronka-ogiz', null, false],
   ['shlif-erkak', 'ogiz', 'diameter-shlif', false],
+  ['ogiz', 'qopqoq', null, false],
 ];
 
 export const SHLIF_D = { '14/23': 14.5, '19/26': 18.8, '24/29': 24, '29/32': 29.2 };

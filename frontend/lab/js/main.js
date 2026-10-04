@@ -1,42 +1,78 @@
-// Kirish nuqtasi (vaqtinchalik: sahna skeleti sinovi)
-import * as THREE from 'three';
+// Kirish nuqtasi: WebGL tekshiruvi, sifat darajasi, ma'lumotlarni yuklash, sahna, stol, simulyatsiya, effektlar,
+// o'zaro ta'sir va interfeysni bog'lash.
 import { LabScene } from './scene/app.js';
-import { pickQuality, QUALITY } from './scene/quality.js';
-import { buildLatheVessel } from './scene/models/glassware.js';
-import { LiquidBody } from './scene/liquid.js';
-import { BENCH } from './scene/room.js';
+import { pickQuality, QUALITY, saveQuality } from './scene/quality.js';
+import { Chemistry } from './engine/chemistry.js';
+import { loadCore, loadReaction } from './data/loader.js';
+import { Bench } from './lab/bench.js';
+import { Simulation } from './lab/simulation.js';
+import { Interaction } from './lab/interaction.js';
+import { Effects } from './scene/effects/index.js';
+import { LabUI } from './ui/app.js';
+import { api } from './platform/api.js';
+import { t } from './i18n/uz.js';
 
-const params = new URLSearchParams(location.search);
-const q = QUALITY[params.get('q')] || pickQuality();
-const lab = new LabScene(document.getElementById('stage'), q);
-window.__lab = lab;
+const bootText = document.getElementById('boot-text');
+const boot = document.getElementById('boot');
+const say = (s) => { if (bootText) bootText.textContent = s; };
 
-const beaker = buildLatheVessel('stakan', { R: 34, H: 95, wall: 1.4 }, { graduated: true });
-beaker.group.position.set(-0.08, BENCH.y, BENCH.zc + 0.05);
-lab.world.add(beaker.group);
-const liq = new LiquidBody(beaker.inner, beaker.rimY, beaker.group, lab.world);
-liq.volume_mL = 150;
-liq.setAppearance({ rgb: [0.29, 0.64, 0.86], intensity: 0.45 });
+function webglOk() {
+  try { const c = document.createElement('canvas'); return !!(c.getContext('webgl2') || c.getContext('webgl')); } catch { return false; }
+}
 
-const flask = buildLatheVessel('erlenmeyer', { R: 42, H: 140, neckR: 14, neckH: 30, wall: 1.4 }, { graduated: true });
-flask.group.position.set(0.12, BENCH.y, BENCH.zc + 0.02);
-flask.group.rotation.z = Number(params.get('tilt') || 0);
-lab.world.add(flask.group);
-const liq2 = new LiquidBody(flask.inner, flask.rimY, flask.group, lab.world);
-liq2.volume_mL = 120;
-liq2.setAppearance({ rgb: [0.95, 0.75, 0.85], intensity: 0.2 });
+async function main() {
+  if (!webglOk()) { say(t('app.webglMissing')); boot.classList.add('error'); return; }
+  const params = new URLSearchParams(location.search);
+  const q = QUALITY[params.get('q')] || pickQuality();
+  say(t('app.loadingData'));
+  const core = await loadCore((f) => say(`${t('app.loadingData')} ${Math.round(f * 100)}%`));
+  const scene = new LabScene(document.getElementById('stage'), q);
+  const chem = new Chemistry(core.db);
+  const bench = new Bench({ scene, db: core.db, chem, equipment: core.equipment, ports: core.ports });
+  const effects = new Effects({ scene, bench, chem });
+  const sim = new Simulation({ bench, chem, effects, scene });
+  scene.onFrame.unshift((dt) => sim.update(dt));
+  const ix = new Interaction({ scene, bench, chem, sim, effects });
+  const ctx = {
+    scene, bench, chem, db: core.db, sim, ix, effects, api,
+    catalog: core.catalog, equipment: core.equipment, templates: core.templates, mechanisms: core.mechanisms,
+    loadReaction: (id) => loadReaction(core.catalog, id),
+  };
+  const ui = new LabUI(document.getElementById('ui'), ctx);
+  window.__lab = { ...ctx, ui };
 
-const tube = buildLatheVessel('probirka', { R: 8, H: 150, wall: 0.8 });
-tube.group.position.set(0.0, BENCH.y, BENCH.zc + 0.12);
-lab.world.add(tube.group);
-const liq3 = new LiquidBody(tube.inner, tube.rimY, tube.group, lab.world);
-liq3.volume_mL = 8;
-liq3.setAppearance({ rgb: [0.55, 0.1, 0.55], intensity: 0.8 });
+  // kamera: stolning o'rta qismi
+  scene.camera.position.set(0.0, 1.36, 0.02);
+  scene.controls.target.set(0.0, 0.97, -0.92);
+  scene.controls.update();
 
-lab.camera.position.set(0.05, BENCH.y + 0.32, BENCH.zc + 0.55);
-lab.controls.target.set(0.02, BENCH.y + 0.06, BENCH.zc + 0.05);
-lab.onFrame.push(() => { liq.update(); liq2.update(); liq3.update(); });
-if (params.get('gallery')) { for (const o of [beaker.group, flask.group, tube.group]) o.visible = false; const { gallery } = await import('./dev/gallery.js'); await gallery(lab, params.get('cat')); }
-lab.start();
-document.getElementById('boot').classList.add('hidden');
-window.__ready = true;
+  if (params.get('gallery')) {
+    const { gallery } = await import('./dev/gallery.js');
+    await gallery(scene, params.get('cat'));
+  } else if (params.get('exp')) {
+    ui.setModeSilently('guided');
+    await ui.guided.start(params.get('exp'));
+  } else if (!params.get('empty')) {
+    // boshlang'ich stol: probirkalar shtativi yonida bir nechta idish
+    bench.add('probirka', { x: -0.12, z: -0.85 });
+    bench.add('probirka', { x: -0.08, z: -0.85 });
+    bench.add('kimyoviy-stakan', { sizeId: '100', x: 0.04, z: -0.86 });
+    bench.add('spirt-lampasi', { x: 0.18, z: -0.84 });
+  }
+  scene.start();
+  boot.classList.add('hidden');
+  window.__ready = true;
+
+  // juda past kadr tezligida sifatni pasaytirishni taklif qilish
+  setTimeout(() => {
+    if (scene.fps.fps < 22 && q.id !== 'past') {
+      ui.toast('warn', `Kadr tezligi past (${scene.fps.fps.toFixed(0)} FPS). Grafika sifatini pasaytirish tavsiya etiladi.`, { action: { label: 'Past sifat', fn: () => { saveQuality('past'); location.reload(); } }, long: true });
+    }
+  }, 8000);
+}
+
+main().catch((e) => {
+  console.error(e);
+  say(`${t('app.error')}: ${e.message}`);
+  boot?.classList.add('error');
+});

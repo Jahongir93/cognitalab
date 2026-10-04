@@ -467,7 +467,7 @@ export class Effects {
     const c = it.liquid?.material.color.clone() || new THREE.Color(0xdfeff7);
     let pud = this.puddles.find((p) => p.item === it && p.t < 20);
     if (!pud) {
-      const mesh = new THREE.Mesh(new THREE.CircleGeometry(1, 32), new THREE.MeshPhysicalMaterial({ color: c, transparent: true, opacity: 0.55, roughness: 0.05, depthWrite: false }));
+      const mesh = new THREE.Mesh(new THREE.CircleGeometry(1, 32), new THREE.MeshStandardMaterial({ color: c.clone().multiplyScalar(0.55), transparent: true, opacity: 0.35, roughness: 0.02, metalness: 0.2, depthWrite: false }));
       mesh.rotation.x = -Math.PI / 2;
       mesh.position.set(src.x, BENCH.y + 0.0007, src.z);
       mesh.scale.setScalar(0.001);
@@ -634,7 +634,7 @@ export class Effects {
         const lit = it.def.builder === 'chop' ? true : it.heaterOn;
         let fl = this.flames.get(it.id);
         if (lit && !fl) {
-          const kind = it.def.builder === 'spirtovka' ? 'spirtovka' : it.def.builder === 'chop' ? 'chop' : 'bunzen';
+          const kind = it.def.builder === 'spirt-lampa' ? 'spirtovka' : it.def.builder === 'chop' ? 'chop' : 'bunzen';
           fl = new Flame(kind, this.q.maxLights > 1 && kind !== 'chop');
           m.flame.add(fl.group);
           this.flames.set(it.id, fl);
@@ -677,7 +677,7 @@ export class Effects {
     this.anims = this.anims.filter((a) => a(dt) !== false);
     for (const p of this.puddles) {
       p.t += dt;
-      if (p.t > 25) p.mesh.material.opacity = Math.max(0, 0.55 * (1 - (p.t - 25) / 10));
+      if (p.t > 25) p.mesh.material.opacity = Math.max(0, 0.35 * (1 - (p.t - 25) / 10));
     }
     this.puddles = this.puddles.filter((p) => { if (p.t > 35) { p.mesh.parent?.remove(p.mesh); p.mesh.geometry.dispose(); return false; } return true; });
     this.flashLevel *= Math.exp(-dt / 0.15);

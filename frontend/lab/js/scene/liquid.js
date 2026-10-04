@@ -189,7 +189,8 @@ export class LiquidBody {
     const c = rgb ? new THREE.Color(Math.pow(rgb[0], 1.6), Math.pow(rgb[1], 1.6), Math.pow(rgb[2], 1.6)) : base;
     // rangsiz eritma: ozgina havorang shisha ko'rinishi
     if (intensity < 0.02) c.lerp(base, 0.6);
-    if (turbidColor && turbidity > 0) c.lerp(new THREE.Color(turbidColor), Math.min(turbidity, 1) * 0.85);
+    if (turbidColor && turbidity > 0) c.lerp(new THREE.Color(turbidColor).multiplyScalar(0.8), Math.min(turbidity, 1) * 0.9);
+    this.material.envMapIntensity = 0.8 * (1 - 0.7 * Math.min(turbidity, 1));
     this.material.color.copy(c);
     this.surfaceMat.color.copy(c);
     const op = Math.min(0.28 + intensity * 0.6 + turbidity * 0.6, 0.97);

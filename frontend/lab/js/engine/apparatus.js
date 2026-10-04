@@ -3,6 +3,9 @@
 // Graf: { nodes: Map<id, {id, def, size}>, edges: [{a:{node,port}, b:{node,port}, sealed}] }
 // def — equipment.json elementi, size — tanlangan o'lcham (ports bilan).
 
+// Og'izga tiqinsiz tushiriladigan narsalar: ular og'izni yopmaydi (idish ochiq qoladi)
+const DIPPED = new Set(['naycha-uchi', 'naycha-uchi-tor', 'elektrod-uchi', 'voronka-oyogi']);
+
 export class ApparatusGraph {
   /** @param {{compat: {a:string,b:string,rule:string|null,sealed:boolean}[], shlif_d_mm:Object}} portsData */
   constructor(portsData) {
@@ -80,7 +83,9 @@ export class ApparatusGraph {
    * Idishdan chiqayotgan gazning yo'li.
    * @returns {{sealed:boolean, exits:{type:string, node?:string, port?:string, path:string[]}[]}}
    *   exit turlari: 'havo' (ochiq), 'idish' (boshqa idish og'ziga tushirilgan naycha), 'suv-osti' (pnevmatik vanna),
-   *   'yiggich' (ag'darilgan yig'gich idish), 'yopiq' (tiqin bilan berk)
+   *   'yiggich' (ag'darilgan yig'gich idish), 'yopiq' (tiqin bilan berk).
+   *   Og'izga faqat naycha/elektrod/termometr tushirilgan bo'lsa (tiqinsiz), og'iz ochiq — 'havo'.
+   *   Qopqoq (soat oynasi) germetik emas — 'havo' ({cover:true, node: qopqoq}).
    */
   gasRoute(nodeId) {
     const exits = [];
@@ -88,6 +93,9 @@ export class ApparatusGraph {
     for (const op of this.openings(nodeId)) {
       const cons = this.connectionsOf(nodeId, op.id);
       if (!cons.length) { exits.push({ type: 'havo', port: op.id, path: [nodeId] }); sealed = false; continue; }
+      if (op.type === 'ogiz' && cons.every((c) => !c.edge.sealed && DIPPED.has(this.portDef(c.other.node, c.other.port)?.type))) {
+        exits.push({ type: 'havo', port: op.id, path: [nodeId] }); sealed = false; continue;
+      }
       for (const c of cons) {
         const sub = this.#follow(c.other.node, c.other.port, [nodeId], new Set([nodeId]));
         for (const s of sub) { exits.push(s); if (s.type !== 'yopiq') sealed = false; }
@@ -104,6 +112,8 @@ export class ApparatusGraph {
     path = [...path, nodeId];
     const inDef = this.portDef(nodeId, inPort);
     const def = n.def;
+    // germetik bo'lmagan qopqoq: gaz uning ostidan havoga chiqadi (sovuq sirtda kondensatlanishi mumkin)
+    if (inDef && inDef.type === 'qopqoq') return [{ type: 'havo', node: nodeId, port: inPort, cover: true, path }];
     // gaz o'tkazadigan jihozlar: tiqin (teshiklar), naycha, shlang, sovutgich, alonj, xlorkalsiyli naycha, Dreksel
     if (inDef && ['ogiz', 'yiggich-joyi'].includes(inDef.type) && def.vessel) {
       // naycha boshqa idish og'ziga tushirilgan

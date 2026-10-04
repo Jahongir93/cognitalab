@@ -76,7 +76,7 @@ export class Bench extends EventTarget {
     if (!s || !item.vessel) return;
     const as = r.as || (r.conc_M ? 'solution' : (s.state === 'g' ? 'gas' : (s.state === 'l' || s.state === 'aq' || s.mixture || s.mixture_opaque) ? 'liquid' : 'solid'));
     if (as === 'solution' || (as === 'liquid')) {
-      const vol = r.volume_mL ?? Math.min(item.liquid.capacity_mL * 0.7, 200);
+      const vol = Math.min(r.volume_mL ?? 200, item.liquid.capacity_mL * 0.75);
       this.chem.addSubstance(item.vessel, r.id, { as, conc_M: r.conc_M, volume_mL: vol });
     } else if (as === 'gas') {
       this.chem.addSubstance(item.vessel, r.id, { as: 'gas', mol: (item.liquid?.capacity_mL ?? 250) / 24000 });
@@ -150,14 +150,17 @@ export class Bench extends EventTarget {
 
   /**
    * Ikki jihozni ulash: b jihozi (harakatlanuvchi) a ning portiga joylashadi.
+   * @param {{moveB?:boolean, depth?:number|null, slide?:number|null, offset?:number[]|null}} [o]
+   *   depth — naycha/elektrodni idishga tushirish chuqurligi (m); slide — shtativ ustunidagi balandlik (mm, port `slide` oralig'ida);
+   *   offset — joylashgandan keyingi gorizontal siljish [dx, dz] (m), masalan bitta stakandagi ikki elektrod uchun.
    * @returns {{ok:boolean, reason?:string}}
    */
-  connect(a, pa, b, pb, { moveB = true, depth = null } = {}) {
+  connect(a, pa, b, pb, { moveB = true, depth = null, slide = null, offset = null } = {}) {
     const r = this.graph.canConnect(a.id, pa, b.id, pb);
     if (!r.ok) { this.emit('message', { kind: 'warn', key: 'info.cannotConnect', params: { reason: r.reason } }); return r; }
     this.graph.connect(a.id, pa, b.id, pb);
     const flexible = a.def.flexible || b.def.flexible;
-    if (!flexible && moveB && !b.parentLink) this.#attach(a, pa, b, pb, depth);
+    if (!flexible && moveB && !b.parentLink) this.#attach(a, pa, b, pb, depth, slide, offset);
     this.emit('change', { type: 'connect', a, b, pa, pb });
     return { ok: true };
   }
@@ -166,8 +169,14 @@ export class Bench extends EventTarget {
    * b jihozi a ning portiga ulanganda egallaydigan dunyo holati (b ni o'zgartirmaydi) — oldindan ko'rinish uchun ham.
    * @returns {{pos: THREE.Vector3, quat: THREE.Quaternion}}
    */
-  attachPose(a, pa, b, pb, depth = null) {
+  attachPose(a, pa, b, pb, depth = null, slide = null) {
     const A = this.portPose(a, pa);
+    // shtativ ustuni bo'ylab balandlik (mufta qayerga mahkamlanadi)
+    if (slide !== null && slide !== undefined && A.def.slide) {
+      const y = Math.min(Math.max(slide, A.def.slide[0]), A.def.slide[1]);
+      const up = new THREE.Vector3(0, 1, 0).transformDirection(a.group.matrixWorld);
+      A.pos.addScaledVector(up, (y - A.def.pos[1]) * MM);
+    }
     const bPort = b.model.ports[pb];
     const typeA = A.def.type, typeB = bPort.userData.port.type;
     b.group.updateMatrixWorld(true);
@@ -183,18 +192,37 @@ export class Bench extends EventTarget {
     if ((typeB === 'naycha-uchi' || typeB === 'elektrod-uchi') && typeA === 'ogiz' && a.model.vessel) {
       const depthM = depth ?? Math.max((a.model.vessel.rimY - (a.model.vessel.inner[0][1] + 6)) * MM * 0.85, 0);
       pos.addScaledVector(A.dir, -depthM);
+    } else if (depth !== null && depth !== undefined && typeA === 'tiqin-teshik') {
+      // tiqin teshigidan idish ichiga tushiriladigan narsa (termometr, naycha) — aniq berilgan chuqurlik
+      pos.addScaledVector(A.dir, -depth);
     }
     return { pos, quat };
   }
 
-  #attach(a, pa, b, pb, depth) {
-    const { pos, quat } = this.attachPose(a, pa, b, pb, depth);
+  #attach(a, pa, b, pb, depth, slide = null, offset = null) {
+    const { pos, quat } = this.attachPose(a, pa, b, pb, depth, slide);
+    if (offset) { pos.x += offset[0] || 0; pos.z += offset[1] || 0; }
     this.scene.world.attach(b.group);
     b.group.position.copy(pos);
     b.group.quaternion.copy(quat);
     b.group.updateMatrixWorld(true);
     a.group.attach(b.group);
     b.parentLink = { item: a.id, port: pa, own: pb };
+  }
+
+  /**
+   * Stolda turgan b jihozini gorizontal surib, uning pb porti a ning pa porti ostiga (yoki ustiga) to'g'rilash.
+   * Masalan: gorelka — shtativdagi kolba ostiga, qabul qiluvchi stakan — naycha uchi ostiga. Balandlik o'zgarmaydi.
+   * @returns {boolean}
+   */
+  placeBelow(a, pa, b, pb) {
+    if (b.parentLink || b.group.parent !== this.scene.world) return false;
+    const A = this.portPose(a, pa), Bp = this.portPose(b, pb);
+    if (!A || !Bp) return false;
+    b.group.position.x += A.pos.x - Bp.pos.x;
+    b.group.position.z += A.pos.z - Bp.pos.z;
+    this.emit('change', { type: 'move', item: b });
+    return true;
   }
 
   /** Jihozni ulanishlardan ajratish va stolga qaytarish */

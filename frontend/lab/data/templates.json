@@ -1,0 +1,3107 @@
+{
+ "version": 1,
+ "templates": [
+  {
+   "id": "gaz-olish-probirka",
+   "name_uz": "Gaz olish asbobi (probirka va gaz chiqarish naychasi)",
+   "purpose_uz": "Natriy gidrokarbonatni probirkada qizdirib karbonat angidrid olish va uni gaz chiqarish naychasi orqali ohakli suvga o'tkazish (ohakli suv loyqalanadi).",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "gen",
+     "def": "probirka",
+     "size": "oddiy",
+     "pos": [
+      0.15,
+      0.2
+     ],
+     "role_uz": "Gaz olinadigan probirka",
+     "reagent": {
+      "id": "NaHCO3",
+      "mass_g": 2,
+      "form": "kukun"
+     }
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-1-teshikli-kichik",
+     "size": "standart",
+     "pos": [
+      0.22,
+      0.2
+     ]
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-egilgan",
+     "size": "uzun",
+     "pos": [
+      0.28,
+      0.2
+     ],
+     "role_uz": "Gaz chiqarish naychasi (uzun)"
+    },
+    {
+     "key": "qab",
+     "def": "kimyoviy-stakan",
+     "size": "50",
+     "pos": [
+      0.36,
+      -0.07
+     ],
+     "role_uz": "Ohakli suvli stakan",
+     "reagent": {
+      "id": "ohakli-suv",
+      "volume_mL": 35
+     }
+    },
+    {
+     "key": "lamp",
+     "def": "spirt-lampasi",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.05
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 217
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "gen",
+     "pb": "qisqich"
+    },
+    {
+     "a": "gen",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "nay",
+     "pa": "b",
+     "b": "qab",
+     "pb": "ogiz",
+     "move": false
+    },
+    {
+     "a": "gen",
+     "pa": "tub",
+     "b": "lamp",
+     "pb": "olov",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta o'rnating",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "Muftaga qisqich (lapka) mahkamlang",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Natriy gidrokarbonatli probirkani qisqichga og'zini biroz pastga qaratib mahkamlang",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Probirka og'zini bir teshikli rezina tiqin bilan zich berkiting",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Tiqin teshigiga egilgan gaz chiqarish naychasini kiriting",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Naychaning uchini ohakli suvli stakanga tushiring",
+     "check": {
+      "connection": 5
+     }
+    },
+    {
+     "text_uz": "Spirt lampasini probirka ostiga qo'ying",
+     "check": {
+      "connection": 6
+     },
+     "hint_uz": "Spirt lampasini probirka tubi ostiga suring — alanganing yuqori qismi probirkaga tegsin"
+    }
+   ],
+   "notes_uz": [
+    "Avval probirkani butun uzunligi bo'ylab bir tekis isiting, so'ng modda turgan joyni qizdiring.",
+    "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂↑ — probirka devorida suv tomchilari, ohakli suvda oq loyqa (CaCO₃) hosil bo'ladi.",
+    "Qizdirishni to'xtatishdan oldin naychani ohakli suvdan chiqaring — aks holda suyuqlik issiq probirkaga so'rilib, uni yorib yuboradi."
+   ],
+   "safety_uz": [
+    "Himoya ko'zoynagini taqing.",
+    "Probirka og'zini o'zingizga va yoningizdagilarga qaratmang.",
+    "Spirt lampasini qopqog'i bilan o'chiring, puflamang."
+   ],
+   "gas_route_expect": {
+    "source": "gen",
+    "sealed": false,
+    "exits": [
+     {
+      "type": "idish",
+      "node": "qab"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kipp-apparati",
+   "name_uz": "Kipp apparati bilan gaz olish",
+   "purpose_uz": "Kipp apparatida marmar va xlorid kislotadan karbonat angidrid olish va uni havoni siqib chiqarish usulida og'zi yuqoriga qaratilgan silindrga yig'ish.",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "kipp",
+     "def": "kipp-apparati",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Kipp apparati",
+     "reagent": [
+      {
+       "id": "CaCO3",
+       "mass_g": 40,
+       "form": "bo'lak"
+      },
+      {
+       "id": "HCl",
+       "conc_M": 2,
+       "volume_mL": 300
+      }
+     ]
+    },
+    {
+     "key": "shl",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.15,
+      0.18
+     ]
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-togri",
+     "size": "standart",
+     "pos": [
+      0.2,
+      0.18
+     ]
+    },
+    {
+     "key": "sil",
+     "def": "gaz-silindri",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.02
+     ],
+     "role_uz": "Gaz yig'ish silindri (og'zi yuqoriga)"
+    },
+    {
+     "key": "chop",
+     "def": "chop-yonib-turgan",
+     "size": "standart",
+     "pos": [
+      0.38,
+      0.18
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sil",
+     "pa": "ogiz",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "kipp",
+     "pa": "chiqish",
+     "b": "shl",
+     "pb": "a"
+    },
+    {
+     "a": "shl",
+     "pa": "b",
+     "b": "nay",
+     "pb": "b"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Gaz yig'ish silindrini og'zini yuqoriga qaratib qo'ying va unga to'g'ri naychani tubigacha tushiring",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "Kipp apparatining chiqish jo'mragiga rezina shlang kiyg'izing",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Shlangning ikkinchi uchini silindrdagi naychaga ulang",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Yonib turgan cho'pni tayyorlang — gaz to'lganini silindr og'zida tekshirasiz",
+     "check": {
+      "item": "chop"
+     }
+    }
+   ],
+   "notes_uz": [
+    "Kipp apparati: o'rta sharda marmar bo'laklari, kislota yuqori voronkadan pastki sharga tushadi. Jo'mrak ochilganda kislota marmarga yetib keladi va gaz ajraladi; yopilganda gaz bosimi kislotani siqib chiqaradi va reaksiya to'xtaydi.",
+    "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑. CO₂ havodan og'ir (D(havo) ≈ 1,52) — shuning uchun silindr og'zi yuqoriga qaratiladi.",
+    "Silindr og'ziga yonib turgan cho'p tutilganda u o'chsa — silindr gazga to'lgan."
+   ],
+   "safety_uz": [
+    "Himoya ko'zoynagini taqing.",
+    "Kislotani faqat voronka orqali quying; jo'mrakni keskin ochmang."
+   ],
+   "gas_route_expect": {
+    "source": "kipp",
+    "sealed": false,
+    "method": "havo-yuqoriga",
+    "exits": [
+     {
+      "type": "idish",
+      "node": "sil"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gaz-suv-ostida",
+   "name_uz": "Gazni suv ostida yig'ish (pnevmatik vanna)",
+   "purpose_uz": "Kaliy permanganatni qizdirib kislorod olish va uni suv ostida — pnevmatik vannadagi suv bilan to'ldirilib ag'darilgan silindrga yig'ish.",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "gen",
+     "def": "probirka",
+     "size": "oddiy",
+     "pos": [
+      0.15,
+      0.2
+     ],
+     "role_uz": "Gaz olinadigan probirka",
+     "reagent": {
+      "id": "KMnO4",
+      "mass_g": 4,
+      "form": "kristall"
+     }
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-1-teshikli-kichik",
+     "size": "standart",
+     "pos": [
+      0.22,
+      0.2
+     ]
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-egilgan",
+     "size": "uzun",
+     "pos": [
+      0.28,
+      0.2
+     ],
+     "role_uz": "Gaz chiqarish naychasi (uzun)"
+    },
+    {
+     "key": "van",
+     "def": "pnevmatik-vanna",
+     "size": "standart",
+     "pos": [
+      0.36,
+      0
+     ],
+     "role_uz": "Suvli pnevmatik vanna"
+    },
+    {
+     "key": "sil",
+     "def": "gaz-silindri",
+     "size": "standart",
+     "pos": [
+      0.5,
+      0.2
+     ],
+     "role_uz": "Suv bilan to'ldirilib ag'darilgan silindr"
+    },
+    {
+     "key": "lamp",
+     "def": "spirt-lampasi",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.05
+     ]
+    },
+    {
+     "key": "chop",
+     "def": "chop-chogllangan",
+     "size": "standart",
+     "pos": [
+      0.55,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 217
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "gen",
+     "pb": "qisqich"
+    },
+    {
+     "a": "gen",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "nay",
+     "pa": "b",
+     "b": "van",
+     "pb": "suv-osti",
+     "move": false
+    },
+    {
+     "a": "van",
+     "pa": "yiggich-joyi",
+     "b": "sil",
+     "pb": "ogiz"
+    },
+    {
+     "a": "gen",
+     "pa": "tub",
+     "b": "lamp",
+     "pb": "olov",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va qisqich o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Kaliy permanganatli probirkani qisqichga mahkamlang",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Probirkani gaz chiqarish naychali tiqin bilan berkiting",
+     "check": {
+      "connections": [
+       3,
+       4
+      ]
+     }
+    },
+    {
+     "text_uz": "Naychaning uchini pnevmatik vannadagi suv ostiga tushiring",
+     "check": {
+      "connection": 5
+     }
+    },
+    {
+     "text_uz": "Suv bilan to'la silindrni og'zini pastga qaratib vannaga, naycha uchi ustiga ag'darib qo'ying",
+     "check": {
+      "connection": 6
+     },
+     "hint_uz": "Silindrni suvga to'ldirib, og'zini kaft bilan yopgan holda ag'daring va vanna tokchasiga qo'ying"
+    },
+    {
+     "text_uz": "Spirt lampasini probirka ostiga qo'ying va qizdiring",
+     "check": {
+      "connection": 7
+     }
+    },
+    {
+     "text_uz": "Cho'g'langan cho'pni tayyorlang — kislorodda u alangalanib ketadi",
+     "check": {
+      "item": "chop"
+     }
+    }
+   ],
+   "notes_uz": [
+    "2KMnO₄ → K₂MnO₄ + MnO₂ + O₂↑ (qizdirilganda).",
+    "Kislorod suvda kam eriydi — uni suv ostida yig'ish mumkin. Dastlabki pufakchalar asbobdagi havo, ularni yig'mang.",
+    "Ammiak, vodorod xlorid kabi suvda yaxshi eriydigan gazlarni bu usulda yig'ib bo'lmaydi."
+   ],
+   "safety_uz": [
+    "Qizdirishni to'xtatishdan oldin naychani suvdan chiqaring — suv issiq probirkaga so'rilib, uni yoradi.",
+    "Probirka og'ziga paxta tiqilmasa permanganat changi naychaga o'tishi mumkin."
+   ],
+   "gas_route_expect": {
+    "source": "gen",
+    "sealed": false,
+    "method": "suv-osti",
+    "exits": [
+     {
+      "type": "yiggich",
+      "node": "sil"
+     }
+    ]
+   }
+  },
+  {
+   "id": "havo-yuqoriga",
+   "name_uz": "Gazni havoni siqib chiqarish usulida yig'ish (idish og'zi yuqoriga)",
+   "purpose_uz": "Vodorod peroksidni marganes(IV) oksid katalizatorida parchalab kislorod olish va havodan og'ir gazni og'zi yuqoriga qaratilgan silindrga yig'ish.",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "kolba",
+     "def": "konussimon-kolba",
+     "size": "250",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Reaksiya kolbasi",
+     "reagent": {
+      "id": "MnO2",
+      "mass_g": 1,
+      "form": "kukun"
+     }
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-2-teshikli-orta",
+     "size": "standart",
+     "pos": [
+      0.06,
+      0.18
+     ]
+    },
+    {
+     "key": "tv",
+     "def": "tomchi-voronka",
+     "size": "standart",
+     "pos": [
+      -0.1,
+      0.12
+     ],
+     "role_uz": "Tomchi voronka (H₂O₂ bilan)",
+     "reagent": {
+      "id": "H2O2",
+      "conc_M": 0.88,
+      "volume_mL": 40
+     }
+    },
+    {
+     "key": "tvt",
+     "def": "rezina-tiqin-yaxlit-kichik",
+     "size": "standart",
+     "pos": [
+      -0.12,
+      0.2
+     ]
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-egilgan",
+     "size": "standart",
+     "pos": [
+      0.12,
+      0.18
+     ]
+    },
+    {
+     "key": "sil",
+     "def": "gaz-silindri",
+     "size": "standart",
+     "pos": [
+      0.2,
+      -0.02
+     ],
+     "role_uz": "Gaz yig'ish silindri (og'zi yuqoriga)"
+    },
+    {
+     "key": "chop",
+     "def": "chop-chogllangan",
+     "size": "standart",
+     "pos": [
+      0.28,
+      0.18
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "kolba",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "tv",
+     "pb": "oyoq"
+    },
+    {
+     "a": "tv",
+     "pa": "ogiz",
+     "b": "tvt",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik2",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "nay",
+     "pa": "b",
+     "b": "sil",
+     "pb": "ogiz",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Marganes(IV) oksidli kolbani ikki teshikli tiqin bilan berkiting",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "Tiqinning bir teshigiga tomchi voronkani kiriting",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Tomchi voronka og'zini yaxlit tiqin bilan yoping",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Ikkinchi teshikka egilgan gaz chiqarish naychasini kiriting",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Naycha uchini og'zi yuqoriga qaratilgan silindr ichiga tushiring",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Cho'g'langan cho'pni tayyorlang (silindr og'zida tekshirasiz)",
+     "check": {
+      "item": "chop"
+     }
+    }
+   ],
+   "notes_uz": [
+    "2H₂O₂ → 2H₂O + O₂↑ (MnO₂ — katalizator, o'zi sarflanmaydi).",
+    "Kislorod havodan biroz og'ir (D(havo) ≈ 1,1) — idish og'zi yuqoriga qaratiladi. Naycha uchi silindr tubiga yaqin bo'lsin.",
+    "Tomchi voronka jo'mragini asta oching — peroksid tomchilab tushsin."
+   ],
+   "safety_uz": [
+    "Himoya ko'zoynagini taqing.",
+    "Konsentrlangan (30%) vodorod peroksid teriga tushsa kuydiradi — 3% li eritma ishlating."
+   ],
+   "gas_route_expect": {
+    "source": "kolba",
+    "sealed": false,
+    "method": "havo-yuqoriga",
+    "exits": [
+     {
+      "type": "idish",
+      "node": "sil"
+     }
+    ]
+   }
+  },
+  {
+   "id": "havo-pastga",
+   "name_uz": "Gazni havoni siqib chiqarish usulida yig'ish (idish og'zi pastga)",
+   "purpose_uz": "Ammoniy xlorid va kalsiy gidroksid aralashmasini qizdirib ammiak olish va havodan yengil gazni og'zi pastga qaratilgan quruq probirkaga yig'ish.",
+   "level": "9-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "gen",
+     "def": "probirka",
+     "size": "oddiy",
+     "pos": [
+      0.15,
+      0.2
+     ],
+     "role_uz": "Gaz olinadigan probirka",
+     "reagent": [
+      {
+       "id": "NH4Cl",
+       "mass_g": 2,
+       "form": "kristall"
+      },
+      {
+       "id": "Ca(OH)2",
+       "mass_g": 2,
+       "form": "kukun"
+      }
+     ]
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-1-teshikli-kichik",
+     "size": "standart",
+     "pos": [
+      0.22,
+      0.2
+     ]
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-togri",
+     "size": "standart",
+     "pos": [
+      0.28,
+      0.2
+     ]
+    },
+    {
+     "key": "qab",
+     "def": "probirka",
+     "size": "oddiy",
+     "pos": [
+      0.33,
+      0.2
+     ],
+     "role_uz": "Quruq yig'gich probirka (og'zi pastga)"
+    },
+    {
+     "key": "lamp",
+     "def": "spirt-lampasi",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.05
+     ]
+    },
+    {
+     "key": "ind",
+     "def": "indikator-qogozi",
+     "size": "standart",
+     "pos": [
+      0.4,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 217
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "gen",
+     "pb": "qisqich"
+    },
+    {
+     "a": "gen",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "nay",
+     "pa": "b",
+     "b": "qab",
+     "pb": "ogiz"
+    },
+    {
+     "a": "gen",
+     "pa": "tub",
+     "b": "lamp",
+     "pb": "olov",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va qisqich o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Aralashma solingan probirkani qisqichga mahkamlang",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Probirkani bir teshikli tiqin bilan berkiting",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Tiqinga yuqoriga qaragan to'g'ri naychani kiriting",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Quruq probirkani og'zini pastga qaratib naycha ustiga kiygizing",
+     "check": {
+      "connection": 5
+     }
+    },
+    {
+     "text_uz": "Spirt lampasini probirka ostiga qo'ying va qizdiring",
+     "check": {
+      "connection": 6
+     }
+    },
+    {
+     "text_uz": "Ho'llangan universal indikator qog'ozini tayyorlang — ammiak uni ko'k rangga bo'yaydi",
+     "check": {
+      "item": "ind"
+     }
+    }
+   ],
+   "notes_uz": [
+    "2NH₄Cl + Ca(OH)₂ → CaCl₂ + 2NH₃↑ + 2H₂O (qizdirilganda).",
+    "Ammiak havodan yengil (D(havo) ≈ 0,59) — yig'gich idish og'zi pastga qaratiladi. Vodorod ham shu usulda yig'iladi.",
+    "Ammiak suvda juda yaxshi eriydi — uni suv ostida yig'ib bo'lmaydi."
+   ],
+   "safety_uz": [
+    "Ammiak o'tkir hidli va zaharli — tajribani mo'rili shkafda o'tkazing.",
+    "Gazni to'g'ridan-to'g'ri hidlamang — qo'l bilan yelpib hidlang."
+   ],
+   "gas_route_expect": {
+    "source": "gen",
+    "sealed": false,
+    "method": "havo-pastga",
+    "exits": [
+     {
+      "type": "idish",
+      "node": "qab"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gaz-yuvish-quritish",
+   "name_uz": "Gazni yuvish va quritish",
+   "purpose_uz": "Kipp apparatida olingan karbonat angidridni natriy gidrokarbonat eritmasi orqali o'tkazib vodorod xlorid aralashmasidan tozalash, konsentrlangan sulfat kislota orqali o'tkazib quritish va silindrga yig'ish.",
+   "level": "9-sinf",
+   "items": [
+    {
+     "key": "kipp",
+     "def": "kipp-apparati",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Kipp apparati",
+     "reagent": [
+      {
+       "id": "CaCO3",
+       "mass_g": 40,
+       "form": "bo'lak"
+      },
+      {
+       "id": "HCl",
+       "conc_M": 2,
+       "volume_mL": 300
+      }
+     ]
+    },
+    {
+     "key": "dr1",
+     "def": "dreksel-sklyankasi",
+     "size": "standart",
+     "pos": [
+      0.2,
+      0.02
+     ],
+     "role_uz": "Yuvish sklyankasi (NaHCO₃ eritmasi)",
+     "reagent": {
+      "id": "NaHCO3",
+      "conc_M": 1,
+      "volume_mL": 100
+     }
+    },
+    {
+     "key": "dr2",
+     "def": "dreksel-sklyankasi",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.02
+     ],
+     "role_uz": "Quritish sklyankasi (kons. H₂SO₄)",
+     "reagent": {
+      "id": "H2SO4",
+      "conc_M": 18,
+      "volume_mL": 60
+     }
+    },
+    {
+     "key": "sil",
+     "def": "gaz-silindri",
+     "size": "standart",
+     "pos": [
+      0.42,
+      0.02
+     ],
+     "role_uz": "Gaz yig'ish silindri (og'zi yuqoriga)"
+    },
+    {
+     "key": "nay",
+     "def": "gaz-naycha-togri",
+     "size": "standart",
+     "pos": [
+      0.42,
+      0.2
+     ]
+    },
+    {
+     "key": "sh1",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.1,
+      0.2
+     ]
+    },
+    {
+     "key": "sh2",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.2,
+      0.2
+     ]
+    },
+    {
+     "key": "sh3",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sil",
+     "pa": "ogiz",
+     "b": "nay",
+     "pb": "a"
+    },
+    {
+     "a": "kipp",
+     "pa": "chiqish",
+     "b": "sh1",
+     "pb": "a"
+    },
+    {
+     "a": "sh1",
+     "pa": "b",
+     "b": "dr1",
+     "pb": "kirish"
+    },
+    {
+     "a": "dr1",
+     "pa": "chiqish",
+     "b": "sh2",
+     "pb": "a"
+    },
+    {
+     "a": "sh2",
+     "pa": "b",
+     "b": "dr2",
+     "pb": "kirish"
+    },
+    {
+     "a": "dr2",
+     "pa": "chiqish",
+     "b": "sh3",
+     "pb": "a"
+    },
+    {
+     "a": "sh3",
+     "pa": "b",
+     "b": "nay",
+     "pb": "b"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Silindrni og'zini yuqoriga qaratib qo'ying va unga to'g'ri naychani tushiring",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "Kipp apparatining chiqishiga shlang ulang",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Shlangni birinchi Dreksel sklyankasining KIRISH (uzun) naychasiga ulang",
+     "check": {
+      "connection": 2
+     },
+     "hint_uz": "Gaz suyuqlik ichiga tushadigan uzun naychadan kirishi kerak — aks holda suyuqlik siqib chiqariladi"
+    },
+    {
+     "text_uz": "Birinchi sklyankaning chiqishini shlang bilan ikkinchi sklyankaning kirishiga ulang",
+     "check": {
+      "connections": [
+       3,
+       4
+      ]
+     },
+     "hint_uz": "Ikkinchi sklyankada ham gaz uzun naychadan kirsin"
+    },
+    {
+     "text_uz": "Ikkinchi sklyankaning chiqishini shlang bilan silindrdagi naychaga ulang",
+     "check": {
+      "connections": [
+       5,
+       6
+      ]
+     }
+    }
+   ],
+   "notes_uz": [
+    "Birinchi sklyanka (NaHCO₃ eritmasi) xlorid kislotadan uchib chiqqan HCl ni yutadi: NaHCO₃ + HCl → NaCl + H₂O + CO₂.",
+    "Ikkinchi sklyanka (kons. H₂SO₄) suv bug'ini yutadi — gaz quriydi. Quritgich doim yuvgichdan keyin turadi.",
+    "Dreksel sklyankasida gaz uzun naychadan kirib, suyuqlik orqali pufakchalar bo'lib o'tadi va qisqa naychadan chiqadi."
+   ],
+   "safety_uz": [
+    "Konsentrlangan sulfat kislota bilan ehtiyot bo'ling — qo'lqop va ko'zoynak taqing.",
+    "Sklyankalarni teskari ulamang: kislota shlang orqali otilib chiqadi."
+   ],
+   "gas_route_expect": {
+    "source": "kipp",
+    "sealed": false,
+    "method": "havo-yuqoriga",
+    "exits": [
+     {
+      "type": "yuvish",
+      "node": "dr1"
+     },
+     {
+      "type": "yuvish",
+      "node": "dr2"
+     },
+     {
+      "type": "idish",
+      "node": "sil"
+     }
+    ]
+   }
+  },
+  {
+   "id": "oddiy-haydash",
+   "name_uz": "Oddiy haydash (distillash)",
+   "purpose_uz": "Osh tuzi eritmasidan Vyurs kolbasi, termometr, Libix sovutgichi va alonj yordamida distillangan suv olish.",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "vyurs",
+     "def": "vyurs-kolbasi",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.2
+     ],
+     "role_uz": "Vyurs kolbasi (NaCl eritmasi)",
+     "reagent": {
+      "id": "NaCl",
+      "conc_M": 0.5,
+      "volume_mL": 100
+     }
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-1-teshikli-orta",
+     "size": "standart",
+     "pos": [
+      0.22,
+      0.2
+     ]
+    },
+    {
+     "key": "term",
+     "def": "termometr",
+     "size": "standart",
+     "pos": [
+      0.26,
+      0.2
+     ]
+    },
+    {
+     "key": "tor",
+     "def": "asbest-tor",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.2
+     ]
+    },
+    {
+     "key": "uch",
+     "def": "uchoyoq",
+     "size": "standart",
+     "pos": [
+      0.17,
+      -0.07
+     ]
+    },
+    {
+     "key": "gor",
+     "def": "bunzen-gorelkasi",
+     "size": "standart",
+     "pos": [
+      0.1,
+      0.2
+     ]
+    },
+    {
+     "key": "lib",
+     "def": "libix-sovutgichi",
+     "size": "tiqinli",
+     "pos": [
+      0.35,
+      0.2
+     ],
+     "role_uz": "Libix sovutgichi (tiqinli kirish)",
+     "flags": {
+      "water": true
+     }
+    },
+    {
+     "key": "alonj",
+     "def": "alonj",
+     "size": "standart",
+     "pos": [
+      0.5,
+      0.2
+     ]
+    },
+    {
+     "key": "qab",
+     "def": "konussimon-kolba",
+     "size": "100",
+     "pos": [
+      0.62,
+      -0.07
+     ],
+     "role_uz": "Qabul qiluvchi kolba"
+    },
+    {
+     "key": "shk",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.55,
+      0.25
+     ],
+     "role_uz": "Suv kiradigan shlang"
+    },
+    {
+     "key": "shc",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.6,
+      0.25
+     ],
+     "role_uz": "Suv chiqadigan shlang"
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 319
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "vyurs",
+     "pb": "qisqich"
+    },
+    {
+     "a": "vyurs",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "term",
+     "pb": "uchi",
+     "depth": 0.077
+    },
+    {
+     "a": "vyurs",
+     "pa": "tub",
+     "b": "tor",
+     "pb": "ust"
+    },
+    {
+     "a": "tor",
+     "pa": "joy",
+     "b": "uch",
+     "pb": "ust",
+     "move": false
+    },
+    {
+     "a": "uch",
+     "pa": "ost",
+     "b": "gor",
+     "pb": "asos"
+    },
+    {
+     "a": "vyurs",
+     "pa": "yon",
+     "b": "lib",
+     "pb": "kirish"
+    },
+    {
+     "a": "lib",
+     "pa": "chiqish",
+     "b": "alonj",
+     "pb": "kirish"
+    },
+    {
+     "a": "alonj",
+     "pa": "chiqish",
+     "b": "qab",
+     "pb": "ogiz",
+     "move": false
+    },
+    {
+     "a": "lib",
+     "pa": "suv-kirish",
+     "b": "shk",
+     "pb": "a"
+    },
+    {
+     "a": "lib",
+     "pa": "suv-chiqish",
+     "b": "shc",
+     "pb": "a"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va qisqich o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Eritma quyilgan Vyurs kolbasini bo'g'zidan qisqichga mahkamlang (kolbaning yarmidan ko'p to'ldirmang)",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Kolba og'zini termometrli tiqin bilan berkiting; termometr sharchasi yon naycha ro'parasida bo'lsin",
+     "check": {
+      "connections": [
+       3,
+       4
+      ]
+     }
+    },
+    {
+     "text_uz": "Kolba ostiga uchoyoq, asbest to'r va gorelkani joylang",
+     "check": {
+      "connections": [
+       5,
+       6,
+       7
+      ]
+     }
+    },
+    {
+     "text_uz": "Vyurs kolbasining yon naychasini Libix sovutgichining tiqinli kirishiga kiriting",
+     "check": {
+      "connection": 8
+     }
+    },
+    {
+     "text_uz": "Sovutgich uchiga alonj kiyg'izing",
+     "check": {
+      "connection": 9
+     }
+    },
+    {
+     "text_uz": "Alonj uchi ostiga qabul qiluvchi kolbani qo'ying",
+     "check": {
+      "connection": 10
+     }
+    },
+    {
+     "text_uz": "Sovutish suvini ulang: suv PASTKI shtutserdan kirib, YUQORIDAN chiqsin",
+     "check": {
+      "connections": [
+       11,
+       12
+      ]
+     },
+     "hint_uz": "Suv kiradigan shlangni sovutgichning pastki (alonj tomonidagi) shtutseriga ulang"
+    }
+   ],
+   "notes_uz": [
+    "Bir tekis qaynashi uchun kolbaga 2–3 ta qaynash toshchasi (chinni bo'lakchasi) soling.",
+    "Avval sovutgichga suv bering, keyin qizdiring. Suv qarama-qarshi oqimda (pastdan yuqoriga) oqadi — sovutgich to'liq suvga to'ladi.",
+    "Termometr bug' haroratini ko'rsatadi: suv 100 °C da haydaladi, tuz kolbada qoladi.",
+    "Haqiqiy laboratoriyada uzun sovutgich ikkinchi shtativdagi qisqich bilan qiya holatda qo'shimcha mahkamlanadi."
+   ],
+   "safety_uz": [
+    "Kolbani quruq qoldirib qizdirmang — darz ketadi.",
+    "Asbob ochiq bo'lishi shart (alonj orqali havo bilan tutashgan): berk tizimni qizdirish portlashga olib keladi."
+   ],
+   "gas_route_expect": {
+    "source": "vyurs",
+    "sealed": false,
+    "condenser": true,
+    "exits": [
+     {
+      "type": "idish",
+      "node": "qab"
+     }
+    ]
+   }
+  },
+  {
+   "id": "qaytar-sovutgich",
+   "name_uz": "Qaytar sovutgich bilan qizdirish",
+   "purpose_uz": "Dumaloq tubli kolbadagi aralashmani (etanol, sirka kislota, katalizator — sulfat kislota) qaytar sovutgich ostida uzoq qaynatib, murakkab efir — etil atsetat olish.",
+   "level": "10-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "m2",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.25
+     ]
+    },
+    {
+     "key": "l2",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.25
+     ]
+    },
+    {
+     "key": "kolba",
+     "def": "dumaloq-tubli-kolba",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.2
+     ],
+     "role_uz": "Dumaloq tubli kolba (29/32 shlif)",
+     "reagent": [
+      {
+       "id": "C2H5OH",
+       "volume_mL": 20
+      },
+      {
+       "id": "CH3COOH",
+       "conc_M": 17.4,
+       "volume_mL": 20
+      },
+      {
+       "id": "H2SO4",
+       "conc_M": 18,
+       "volume_mL": 1
+      }
+     ]
+    },
+    {
+     "key": "sov",
+     "def": "sharikli-sovutgich",
+     "size": "standart",
+     "pos": [
+      0.25,
+      0.2
+     ],
+     "role_uz": "Sharikli qaytar sovutgich",
+     "flags": {
+      "water": true
+     }
+    },
+    {
+     "key": "isit",
+     "def": "kolba-isitgich",
+     "size": "standart",
+     "pos": [
+      0.17,
+      -0.07
+     ]
+    },
+    {
+     "key": "shk",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.25
+     ],
+     "role_uz": "Suv kiradigan shlang"
+    },
+    {
+     "key": "shc",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.35,
+      0.25
+     ],
+     "role_uz": "Suv chiqadigan shlang"
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 158
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "kolba",
+     "pb": "qisqich"
+    },
+    {
+     "a": "kolba",
+     "pa": "bogiz",
+     "b": "sov",
+     "pb": "kirish"
+    },
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m2",
+     "pb": "teshik",
+     "slide": 355
+    },
+    {
+     "a": "m2",
+     "pa": "ilgak",
+     "b": "l2",
+     "pb": "dasta"
+    },
+    {
+     "a": "l2",
+     "pa": "jag",
+     "b": "sov",
+     "pb": "qisqich",
+     "move": false
+    },
+    {
+     "a": "kolba",
+     "pa": "tub",
+     "b": "isit",
+     "pb": "uya",
+     "move": false
+    },
+    {
+     "a": "sov",
+     "pa": "suv-kirish",
+     "b": "shk",
+     "pb": "a"
+    },
+    {
+     "a": "sov",
+     "pa": "suv-chiqish",
+     "b": "shc",
+     "pb": "a"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va qisqich o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Aralashmali dumaloq tubli kolbani bo'g'zidan qisqichga mahkamlang",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Kolba shlifiga sharikli sovutgichni tik holatda o'rnating",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Sovutgichni ikkinchi qisqich bilan shtativga mahkamlang",
+     "check": {
+      "connections": [
+       4,
+       5,
+       6
+      ]
+     }
+    },
+    {
+     "text_uz": "Kolba ostiga kolba isitgichni qo'ying",
+     "check": {
+      "connection": 7
+     }
+    },
+    {
+     "text_uz": "Sovutish suvini ulang: suv PASTKI shtutserdan kirib, YUQORIDAN chiqsin",
+     "check": {
+      "connections": [
+       8,
+       9
+      ]
+     },
+     "hint_uz": "Suv kiradigan shlangni sovutgichning pastki shtutseriga ulang"
+    }
+   ],
+   "notes_uz": [
+    "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O (kons. H₂SO₄ — katalizator, qizdirilganda).",
+    "Qaytar sovutgichda bug' kondensatlanib, kolbaga qaytib tushadi — modda yo'qolmaydi, aralashma uzoq vaqt qaynatiladi.",
+    "Sovutgichning yuqori uchi OCHIQ qoladi — uni hech qachon tiqin bilan berkitmang."
+   ],
+   "safety_uz": [
+    "Konsentrlangan sulfat kislotani spirtga oz-ozdan, aralashtirib qo'shing.",
+    "Etanol va sirka kislota bug'lari yonuvchan — ochiq alanga ishlatmang, kolba isitgichdan foydalaning."
+   ],
+   "gas_route_expect": {
+    "source": "kolba",
+    "sealed": false,
+    "condenser": true,
+    "exits": [
+     {
+      "type": "havo",
+      "node": "sov"
+     }
+    ]
+   }
+  },
+  {
+   "id": "titrlash",
+   "name_uz": "Titrlash (kislota-asos)",
+   "purpose_uz": "Natriy gidroksidning aniq konsentratsiyali eritmasi bilan xlorid kislota eritmasini fenolftalein ishtirokida titrlab, kislota konsentratsiyasini aniqlash.",
+   "level": "10-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "bur",
+     "def": "byuretka",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.22
+     ],
+     "role_uz": "Byuretka (0,1 M NaOH)",
+     "reagent": {
+      "id": "NaOH",
+      "conc_M": 0.1,
+      "volume_mL": 50
+     }
+    },
+    {
+     "key": "kolba",
+     "def": "konussimon-kolba",
+     "size": "250",
+     "pos": [
+      0.17,
+      -0.07
+     ],
+     "role_uz": "Titrlash kolbasi (HCl + fenolftalein)",
+     "reagent": [
+      {
+       "id": "HCl",
+       "conc_M": 0.1,
+       "volume_mL": 20
+      },
+      {
+       "id": "C20H14O4",
+       "conc_M": 0.003,
+       "volume_mL": 0.15
+      }
+     ]
+    },
+    {
+     "key": "pip",
+     "def": "mor-pipetkasi",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.2
+     ]
+    },
+    {
+     "key": "ind",
+     "def": "tomizgichli-sklyanka",
+     "size": "standart",
+     "pos": [
+      0.36,
+      0.2
+     ],
+     "role_uz": "Fenolftalein eritmasi",
+     "reagent": {
+      "id": "C20H14O4",
+      "conc_M": 0.003,
+      "volume_mL": 30
+     }
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 545
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "bur",
+     "pb": "qisqich"
+    },
+    {
+     "a": "bur",
+     "pa": "uchi",
+     "b": "kolba",
+     "pb": "ogiz",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va byuretka qisqichini o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Ishqor eritmasi to'ldirilgan byuretkani tik holda qisqichga mahkamlang (jo'mrak ostidagi havo pufagini chiqarib yuboring)",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Byuretka uchi ostiga kislota va indikator solingan konussimon kolbani qo'ying",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Pipetka bilan aniq hajmni o'lchash uchun Mor pipetkasini tayyorlang",
+     "check": {
+      "item": "pip"
+     }
+    },
+    {
+     "text_uz": "Fenolftalein sklyankasini tayyorlang",
+     "check": {
+      "item": "ind"
+     }
+    }
+   ],
+   "notes_uz": [
+    "HCl + NaOH → NaCl + H₂O. Ekvivalent nuqtada fenolftalein rangsizdan och pushti rangga o'tadi (30 soniya saqlanadi).",
+    "Kolbani aylantirib aralashtirib turing; oxiriga yaqin ishqorni tomchilab qo'shing.",
+    "c(HCl) = c(NaOH) · V(NaOH) / V(HCl). Byuretka ko'rsatkichini menisk pastidan, ko'z sathida o'qing."
+   ],
+   "safety_uz": [
+    "Pipetkani og'iz bilan so'rmang — rezina nok ishlating.",
+    "Ishqor ko'zga tushsa ko'p suv bilan yuving."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "oddiy-filtrlash",
+   "name_uz": "Oddiy filtrlash",
+   "purpose_uz": "Suvda erimaydigan moddani (kalsiy karbonat) suvdan voronka va filtr qog'oz yordamida ajratish.",
+   "level": "7-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "hal",
+     "def": "shtativ-halqasi",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "vor",
+     "def": "oddiy-voronka",
+     "size": "standart",
+     "pos": [
+      0.1,
+      0.2
+     ]
+    },
+    {
+     "key": "filtr",
+     "def": "filtr-qogoz",
+     "size": "standart",
+     "pos": [
+      0.15,
+      0.2
+     ]
+    },
+    {
+     "key": "stk",
+     "def": "kimyoviy-stakan",
+     "size": "250",
+     "pos": [
+      0.135,
+      -0.07
+     ],
+     "role_uz": "Filtrat yig'iladigan stakan"
+    },
+    {
+     "key": "ara",
+     "def": "kimyoviy-stakan",
+     "size": "100",
+     "pos": [
+      0.3,
+      0.15
+     ],
+     "role_uz": "Filtrlanadigan aralashma",
+     "reagent": [
+      {
+       "id": "CaCO3",
+       "mass_g": 2,
+       "form": "kukun"
+      },
+      {
+       "id": "H2O",
+       "volume_mL": 60
+      }
+     ]
+    },
+    {
+     "key": "tay",
+     "def": "shisha-tayoqcha",
+     "size": "standart",
+     "pos": [
+      0.35,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 145
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "hal",
+     "pb": "dasta"
+    },
+    {
+     "a": "hal",
+     "pa": "halqa",
+     "b": "vor",
+     "pb": "konus"
+    },
+    {
+     "a": "vor",
+     "pa": "ogiz",
+     "b": "filtr",
+     "pb": "joy"
+    },
+    {
+     "a": "vor",
+     "pa": "oyoq",
+     "b": "stk",
+     "pb": "ogiz",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va halqa o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Halqaga voronkani qo'ying",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Filtr qog'ozni to'rt buklab, konus qilib voronkaga joylang va suv bilan ho'llang",
+     "check": {
+      "connection": 3
+     },
+     "hint_uz": "Filtr qog'oz chekkasi voronka chekkasidan 5 mm pastda bo'lsin"
+    },
+    {
+     "text_uz": "Voronka oyog'i ostiga stakanni qo'ying — oyoq uchi stakan devoriga tegib tursin",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Aralashmani shisha tayoqcha bo'ylab quyish uchun tayoqchani tayyorlang",
+     "check": {
+      "items": [
+       "ara",
+       "tay"
+      ]
+     }
+    }
+   ],
+   "notes_uz": [
+    "Aralashmani tayoqcha bo'ylab, filtr qog'oz chekkasidan oshirmay quying.",
+    "Filtrda erimaydigan modda (cho'kma) qoladi, filtrat — tiniq eritma — stakanga o'tadi."
+   ],
+   "safety_uz": [
+    "Shisha tayoqcha bilan filtr qog'ozni teshib qo'ymang."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "vakuum-filtrlash",
+   "name_uz": "Vakuum ostida filtrlash",
+   "purpose_uz": "Cho'kmani Byuxner voronkasi va Bunzen kolbasi yordamida suv oqimli nasos hosil qilgan siyraklanishda tez filtrlash.",
+   "level": "universitet",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "l1",
+     "def": "qisqich-lapka",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "bun",
+     "def": "bunzen-kolbasi",
+     "size": "standart",
+     "pos": [
+      0.17,
+      0.2
+     ],
+     "role_uz": "Bunzen kolbasi"
+    },
+    {
+     "key": "tiq",
+     "def": "rezina-tiqin-1-teshikli-orta",
+     "size": "standart",
+     "pos": [
+      0.22,
+      0.2
+     ]
+    },
+    {
+     "key": "byux",
+     "def": "byuxner-voronkasi",
+     "size": "standart",
+     "pos": [
+      0.27,
+      0.2
+     ]
+    },
+    {
+     "key": "filtr",
+     "def": "filtr-qogoz",
+     "size": "standart",
+     "pos": [
+      0.32,
+      0.2
+     ]
+    },
+    {
+     "key": "shl",
+     "def": "rezina-shlang",
+     "size": "standart",
+     "pos": [
+      0.37,
+      0.2
+     ]
+    },
+    {
+     "key": "nas",
+     "def": "vakuum-nasos",
+     "size": "standart",
+     "pos": [
+      0.45,
+      -0.05
+     ]
+    },
+    {
+     "key": "ara",
+     "def": "kimyoviy-stakan",
+     "size": "250",
+     "pos": [
+      0.45,
+      0.15
+     ],
+     "role_uz": "Filtrlanadigan aralashma",
+     "reagent": [
+      {
+       "id": "CaCO3",
+       "mass_g": 5,
+       "form": "kukun"
+      },
+      {
+       "id": "H2O",
+       "volume_mL": 100
+      }
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 136
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "l1",
+     "pb": "dasta"
+    },
+    {
+     "a": "l1",
+     "pa": "jag",
+     "b": "bun",
+     "pb": "qisqich"
+    },
+    {
+     "a": "bun",
+     "pa": "ogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "tiq",
+     "pa": "teshik1",
+     "b": "byux",
+     "pb": "oyoq"
+    },
+    {
+     "a": "byux",
+     "pa": "ogiz",
+     "b": "filtr",
+     "pb": "joy"
+    },
+    {
+     "a": "bun",
+     "pa": "yon",
+     "b": "shl",
+     "pb": "a"
+    },
+    {
+     "a": "shl",
+     "pa": "b",
+     "b": "nas",
+     "pb": "sorish"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Bunzen kolbasini shtativ qisqichiga mahkamlang",
+     "check": {
+      "connections": [
+       0,
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "text_uz": "Kolba og'ziga teshikli rezina tiqin o'rnating",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Tiqinga Byuxner voronkasini kiriting",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Voronka to'riga uning tubidan kichikroq filtr qog'oz qo'ying va ho'llang",
+     "check": {
+      "connection": 5
+     }
+    },
+    {
+     "text_uz": "Kolbaning yon naychasini qalin devorli shlang bilan suv oqimli nasosga ulang",
+     "check": {
+      "connections": [
+       6,
+       7
+      ]
+     }
+    },
+    {
+     "text_uz": "Filtrlanadigan aralashmani tayyorlang",
+     "check": {
+      "item": "ara"
+     }
+    }
+   ],
+   "notes_uz": [
+    "Avval nasosni (jo'mrakni) oching, so'ng aralashmani voronkaga quying.",
+    "Ishni tugatganda avval shlangni kolbadan ajrating, keyin jo'mrakni yoping — aks holda suv kolbaga so'riladi."
+   ],
+   "safety_uz": [
+    "Faqat qalin devorli Bunzen kolbasidan foydalaning — oddiy kolba siyraklanishda yorilishi mumkin.",
+    "Bunzen kolbasini qizdirmang."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "ekstraksiya",
+   "name_uz": "Ajratgich voronkada ekstraksiya",
+   "purpose_uz": "Yodni suvli eritmadan suv bilan aralashmaydigan organik erituvchi (geksan) yordamida ajratib olish va qatlamlarni ajratgich voronkada bo'lish.",
+   "level": "10-sinf",
+   "items": [
+    {
+     "key": "sht",
+     "def": "shtativ",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Laboratoriya shtativi"
+    },
+    {
+     "key": "m1",
+     "def": "mufta",
+     "size": "standart",
+     "pos": [
+      -0.05,
+      0.16
+     ]
+    },
+    {
+     "key": "hal",
+     "def": "shtativ-halqasi",
+     "size": "standart",
+     "pos": [
+      0,
+      0.2
+     ]
+    },
+    {
+     "key": "av",
+     "def": "ajratgich-voronka",
+     "size": "standart",
+     "pos": [
+      0.1,
+      0.2
+     ],
+     "role_uz": "Ajratgich voronka (yodli suv)",
+     "reagent": {
+      "id": "yodli-suv",
+      "volume_mL": 50
+     }
+    },
+    {
+     "key": "tiq",
+     "def": "shlif-tiqin-19-26",
+     "size": "standart",
+     "pos": [
+      0.15,
+      0.2
+     ]
+    },
+    {
+     "key": "stk",
+     "def": "kimyoviy-stakan",
+     "size": "250",
+     "pos": [
+      0.135,
+      -0.07
+     ],
+     "role_uz": "Pastki qatlam uchun stakan"
+    },
+    {
+     "key": "erit",
+     "def": "reaktiv-sklyankasi",
+     "size": "standart",
+     "pos": [
+      0.3,
+      0.15
+     ],
+     "role_uz": "Geksan (ekstragent)",
+     "reagent": {
+      "id": "C6H14",
+      "volume_mL": 100
+     }
+    }
+   ],
+   "connections": [
+    {
+     "a": "sht",
+     "pa": "ustun",
+     "b": "m1",
+     "pb": "teshik",
+     "slide": 230
+    },
+    {
+     "a": "m1",
+     "pa": "ilgak",
+     "b": "hal",
+     "pb": "dasta"
+    },
+    {
+     "a": "hal",
+     "pa": "halqa",
+     "b": "av",
+     "pb": "halqa"
+    },
+    {
+     "a": "av",
+     "pa": "bogiz",
+     "b": "tiq",
+     "pb": "tiqin"
+    },
+    {
+     "a": "av",
+     "pa": "oyoq",
+     "b": "stk",
+     "pb": "ogiz",
+     "move": false
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Shtativga mufta va halqa o'rnating",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Ajratgich voronkani halqaga qo'ying (jo'mrak yopiq bo'lsin)",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Voronkaga geksan quyib, shlif tiqin bilan berkiting",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Voronka oyog'i ostiga stakan qo'ying",
+     "check": {
+      "connection": 4
+     }
+    },
+    {
+     "text_uz": "Ekstragent (geksan) sklyankasini tayyorlang",
+     "check": {
+      "item": "erit"
+     }
+    }
+   ],
+   "notes_uz": [
+    "Voronkani tiqinidan va jo'mragidan ushlab chayqating, vaqti-vaqti bilan jo'mrakni ochib bosimni chiqaring.",
+    "Yod geksanda suvdagidan ancha yaxshi eriydi — yuqori (geksan) qatlam binafsha rangga kiradi, suvli qatlam rangsizlanadi.",
+    "Qatlamlar ajralgach, tiqinni oling va pastki (suvli) qatlamni jo'mrak orqali stakanga tushiring."
+   ],
+   "safety_uz": [
+    "Geksan oson alangalanadi — yaqinda ochiq alanga bo'lmasin.",
+    "Chayqatishda voronka oyog'ini odamlardan teskari tomonga qarating."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "bugatish-kristallash",
+   "name_uz": "Bug'latish va kristallash",
+   "purpose_uz": "Mis(II) sulfat eritmasini chinni kosachada bug'latib quyuqlashtirish va sovitib mis kuporosi kristallarini olish.",
+   "level": "8-sinf",
+   "items": [
+    {
+     "key": "uch",
+     "def": "uchoyoq",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ]
+    },
+    {
+     "key": "tor",
+     "def": "asbest-tor",
+     "size": "standart",
+     "pos": [
+      0.08,
+      0.18
+     ]
+    },
+    {
+     "key": "kos",
+     "def": "chinni-kosacha",
+     "size": "standart",
+     "pos": [
+      0.14,
+      0.18
+     ],
+     "role_uz": "Chinni kosacha (CuSO₄ eritmasi)",
+     "reagent": {
+      "id": "CuSO4",
+      "conc_M": 0.5,
+      "volume_mL": 30
+     }
+    },
+    {
+     "key": "lamp",
+     "def": "spirt-lampasi",
+     "size": "standart",
+     "pos": [
+      -0.1,
+      0.15
+     ]
+    },
+    {
+     "key": "tay",
+     "def": "shisha-tayoqcha",
+     "size": "standart",
+     "pos": [
+      0.2,
+      0.15
+     ]
+    },
+    {
+     "key": "kri",
+     "def": "kristallizator",
+     "size": "standart",
+     "pos": [
+      0.25,
+      0
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "uch",
+     "pa": "ust",
+     "b": "tor",
+     "pb": "joy"
+    },
+    {
+     "a": "tor",
+     "pa": "ust",
+     "b": "kos",
+     "pb": "tub"
+    },
+    {
+     "a": "uch",
+     "pa": "ost",
+     "b": "lamp",
+     "pb": "asos"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Uchoyoq ustiga asbest to'r qo'ying",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "To'r ustiga eritmali chinni kosachani qo'ying",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Uchoyoq ostiga spirt lampasini qo'ying",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Aralashtirish uchun shisha tayoqcha va sovitish uchun kristallizatorni tayyorlang",
+     "check": {
+      "items": [
+       "tay",
+       "kri"
+      ]
+     }
+    }
+   ],
+   "notes_uz": [
+    "Eritmani tayoqcha bilan aralashtirib turing; hajmi taxminan uchdan bir qismigacha kamayganda qizdirishni to'xtating.",
+    "Tayoqcha uchida kristall paydo bo'lsa — eritma to'yingan. Uni kristallizatorga quyib sekin soviting: ko'k CuSO₄·5H₂O kristallari o'sadi.",
+    "Quruq qoldiqqacha bug'latmang — kristallogidrat suvini yo'qotib oqarib qoladi."
+   ],
+   "safety_uz": [
+    "Issiq kosachani tigel qisqichi bilan oling.",
+    "Eritma sachrashi mumkin — ko'zoynak taqing, kosacha ustiga engashmang."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "sublimatsiya",
+   "name_uz": "Sublimatsiya (yodni haydash)",
+   "purpose_uz": "Yodni qizdirib to'g'ridan-to'g'ri bug'ga aylantirish va uning bug'ini sovuq soat oynasi sirtida kristall holida yig'ish (aralashmadan tozalash usuli).",
+   "level": "9-sinf",
+   "items": [
+    {
+     "key": "uch",
+     "def": "uchoyoq",
+     "size": "standart",
+     "pos": [
+      0,
+      0
+     ]
+    },
+    {
+     "key": "tor",
+     "def": "asbest-tor",
+     "size": "standart",
+     "pos": [
+      0.08,
+      0.18
+     ]
+    },
+    {
+     "key": "stk",
+     "def": "kimyoviy-stakan",
+     "size": "100",
+     "pos": [
+      0.14,
+      0.18
+     ],
+     "role_uz": "Yodli stakan",
+     "reagent": {
+      "id": "I2",
+      "mass_g": 0.5,
+      "form": "kristall"
+     }
+    },
+    {
+     "key": "soat",
+     "def": "soat-oynasi",
+     "size": "standart",
+     "pos": [
+      0.2,
+      0.18
+     ],
+     "role_uz": "Sovuq soat oynasi (qopqoq)"
+    },
+    {
+     "key": "lamp",
+     "def": "spirt-lampasi",
+     "size": "standart",
+     "pos": [
+      -0.1,
+      0.15
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "uch",
+     "pa": "ust",
+     "b": "tor",
+     "pb": "joy"
+    },
+    {
+     "a": "tor",
+     "pa": "ust",
+     "b": "stk",
+     "pb": "tub"
+    },
+    {
+     "a": "stk",
+     "pa": "ogiz",
+     "b": "soat",
+     "pb": "qopqoq"
+    },
+    {
+     "a": "uch",
+     "pa": "ost",
+     "b": "lamp",
+     "pb": "asos"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Uchoyoq ustiga asbest to'r qo'ying",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "To'r ustiga yod kristallari solingan quruq stakanni qo'ying",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Stakan og'zini soat oynasi bilan yoping, oyna ustiga sovuq suv yoki muz qo'ying",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Uchoyoq ostiga spirt lampasini qo'ying va kuchsiz qizdiring",
+     "check": {
+      "connection": 3
+     }
+    }
+   ],
+   "notes_uz": [
+    "Yod qizdirilganda suyuqlanmasdan binafsha bug'ga aylanadi (sublimatsiya), sovuq sirtda yana qora-binafsha kristallarga aylanadi (desublimatsiya).",
+    "Bu usul bilan yod uchmaydigan aralashmalardan (masalan, qumdan) tozalanadi. Ammoniy xlorid, naftalin, benzoy kislota ham shunday tozalanadi."
+   ],
+   "safety_uz": [
+    "Yod bug'i zaharli va shilliq qavatni qitiqlaydi — tajribani mo'rili shkafda o'tkazing.",
+    "Kuchsiz qizdiring; stakanni qizdirib turib sovuq suv tegizmang — darz ketadi."
+   ],
+   "gas_route_expect": {
+    "source": "stk",
+    "sealed": false,
+    "exits": [
+     {
+      "type": "havo",
+      "node": "soat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elektroliz",
+   "name_uz": "Tuz eritmasining elektrolizi",
+   "purpose_uz": "Mis(II) xlorid eritmasini grafit elektrodlar bilan elektroliz qilish: katodda mis qoplanishi, anodda xlor ajralishini kuzatish.",
+   "level": "9-sinf",
+   "items": [
+    {
+     "key": "stk",
+     "def": "kimyoviy-stakan",
+     "size": "100",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "Elektrolizyor (CuCl₂ eritmasi)",
+     "reagent": {
+      "id": "CuCl2",
+      "conc_M": 0.5,
+      "volume_mL": 70
+     }
+    },
+    {
+     "key": "anod",
+     "def": "elektrod-grafit",
+     "size": "standart",
+     "pos": [
+      0.08,
+      0.18
+     ],
+     "role_uz": "Anod (grafit, «+»)"
+    },
+    {
+     "key": "katod",
+     "def": "elektrod-grafit",
+     "size": "standart",
+     "pos": [
+      0.12,
+      0.18
+     ],
+     "role_uz": "Katod (grafit, «−»)"
+    },
+    {
+     "key": "tok",
+     "def": "tok-manbai",
+     "size": "standart",
+     "pos": [
+      0.2,
+      -0.05
+     ]
+    },
+    {
+     "key": "s1",
+     "def": "simlar",
+     "size": "standart",
+     "pos": [
+      0.18,
+      0.2
+     ]
+    },
+    {
+     "key": "s2",
+     "def": "simlar",
+     "size": "standart",
+     "pos": [
+      0.24,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "stk",
+     "pa": "ogiz",
+     "b": "anod",
+     "pb": "uchi",
+     "offset": [
+      -0.012,
+      0
+     ]
+    },
+    {
+     "a": "stk",
+     "pa": "ogiz",
+     "b": "katod",
+     "pb": "uchi",
+     "offset": [
+      0.012,
+      0
+     ]
+    },
+    {
+     "a": "tok",
+     "pa": "plus",
+     "b": "s1",
+     "pb": "a"
+    },
+    {
+     "a": "s1",
+     "pa": "b",
+     "b": "anod",
+     "pb": "klemma"
+    },
+    {
+     "a": "tok",
+     "pa": "minus",
+     "b": "s2",
+     "pb": "a"
+    },
+    {
+     "a": "s2",
+     "pa": "b",
+     "b": "katod",
+     "pb": "klemma"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Eritmali stakanga ikkita grafit elektrodni bir-biriga tegmaydigan qilib tushiring",
+     "check": {
+      "connections": [
+       0,
+       1
+      ]
+     }
+    },
+    {
+     "text_uz": "Tok manbaining «+» klemmasini sim bilan anodga ulang",
+     "check": {
+      "connections": [
+       2,
+       3
+      ]
+     },
+     "hint_uz": "Anod — tok manbaining musbat qutbiga ulangan elektrod"
+    },
+    {
+     "text_uz": "Tok manbaining «−» klemmasini sim bilan katodga ulang",
+     "check": {
+      "connections": [
+       4,
+       5
+      ]
+     }
+    }
+   ],
+   "notes_uz": [
+    "Katod (−): Cu²⁺ + 2e⁻ → Cu (elektrod qizg'ish mis bilan qoplanadi).",
+    "Anod (+): 2Cl⁻ − 2e⁻ → Cl₂↑ (pufakchalar, o'tkir hid). Umumiy: CuCl₂ → Cu + Cl₂.",
+    "Tok manbaini zanjir to'liq yig'ilgandan keyin yoqing, kuchlanish 4–6 V yetarli."
+   ],
+   "safety_uz": [
+    "Xlor zaharli — elektrolizni qisqa vaqt va mo'rili shkafda o'tkazing.",
+    "Elektrodlarni bir-biriga tegizmang (qisqa tutashuv)."
+   ],
+   "gas_route_expect": null
+  },
+  {
+   "id": "galvanik-element",
+   "name_uz": "Galvanik element (Daniel–Yakobi elementi)",
+   "purpose_uz": "Rux va mis elektrodlardan, ularning tuzlari eritmalaridan va tuz ko'prigidan galvanik element yig'ib, elektr yurituvchi kuchini voltmetr bilan o'lchash.",
+   "level": "10-sinf",
+   "items": [
+    {
+     "key": "st1",
+     "def": "kimyoviy-stakan",
+     "size": "100",
+     "pos": [
+      0,
+      0
+     ],
+     "role_uz": "ZnSO₄ eritmali stakan",
+     "reagent": {
+      "id": "ZnSO4",
+      "conc_M": 1,
+      "volume_mL": 70
+     }
+    },
+    {
+     "key": "st2",
+     "def": "kimyoviy-stakan",
+     "size": "100",
+     "pos": [
+      0.12,
+      0
+     ],
+     "role_uz": "CuSO₄ eritmali stakan",
+     "reagent": {
+      "id": "CuSO4",
+      "conc_M": 1,
+      "volume_mL": 70
+     }
+    },
+    {
+     "key": "zn",
+     "def": "elektrod-rux",
+     "size": "standart",
+     "pos": [
+      0,
+      0.18
+     ],
+     "role_uz": "Rux elektrod (anod, «−»)"
+    },
+    {
+     "key": "cu",
+     "def": "elektrod-mis",
+     "size": "standart",
+     "pos": [
+      0.05,
+      0.18
+     ],
+     "role_uz": "Mis elektrod (katod, «+»)"
+    },
+    {
+     "key": "tk",
+     "def": "tuz-koprigi",
+     "size": "standart",
+     "pos": [
+      0.1,
+      0.18
+     ]
+    },
+    {
+     "key": "volt",
+     "def": "voltmetr",
+     "size": "standart",
+     "pos": [
+      0.06,
+      -0.12
+     ]
+    },
+    {
+     "key": "s1",
+     "def": "simlar",
+     "size": "standart",
+     "pos": [
+      0.18,
+      0.2
+     ]
+    },
+    {
+     "key": "s2",
+     "def": "simlar",
+     "size": "standart",
+     "pos": [
+      0.24,
+      0.2
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "a": "st1",
+     "pa": "ogiz",
+     "b": "zn",
+     "pb": "uchi",
+     "offset": [
+      -0.012,
+      0
+     ]
+    },
+    {
+     "a": "st1",
+     "pa": "ogiz",
+     "b": "tk",
+     "pb": "a",
+     "offset": [
+      0.006,
+      0
+     ]
+    },
+    {
+     "a": "tk",
+     "pa": "b",
+     "b": "st2",
+     "pb": "ogiz",
+     "move": false
+    },
+    {
+     "a": "st2",
+     "pa": "ogiz",
+     "b": "cu",
+     "pb": "uchi",
+     "offset": [
+      0.012,
+      0
+     ]
+    },
+    {
+     "a": "volt",
+     "pa": "plus",
+     "b": "s1",
+     "pb": "a"
+    },
+    {
+     "a": "s1",
+     "pa": "b",
+     "b": "cu",
+     "pb": "klemma"
+    },
+    {
+     "a": "volt",
+     "pa": "minus",
+     "b": "s2",
+     "pb": "a"
+    },
+    {
+     "a": "s2",
+     "pa": "b",
+     "b": "zn",
+     "pb": "klemma"
+    }
+   ],
+   "steps_uz": [
+    {
+     "text_uz": "Rux elektrodni rux sulfat eritmasiga tushiring",
+     "check": {
+      "connection": 0
+     }
+    },
+    {
+     "text_uz": "Tuz ko'prigining bir uchini rux sulfatli stakanga tushiring",
+     "check": {
+      "connection": 1
+     }
+    },
+    {
+     "text_uz": "Mis sulfatli stakanni ko'prikning ikkinchi uchi ostiga qo'ying",
+     "check": {
+      "connection": 2
+     }
+    },
+    {
+     "text_uz": "Mis elektrodni mis sulfat eritmasiga tushiring",
+     "check": {
+      "connection": 3
+     }
+    },
+    {
+     "text_uz": "Voltmetrning «+» klemmasini mis elektrodga ulang",
+     "check": {
+      "connections": [
+       4,
+       5
+      ]
+     },
+     "hint_uz": "Musbat qutb — mis (katod), manfiy qutb — rux (anod)"
+    },
+    {
+     "text_uz": "Voltmetrning «−» klemmasini rux elektrodga ulang",
+     "check": {
+      "connections": [
+       6,
+       7
+      ]
+     }
+    }
+   ],
+   "notes_uz": [
+    "Anod (−): Zn − 2e⁻ → Zn²⁺; katod (+): Cu²⁺ + 2e⁻ → Cu. Umumiy: Zn + Cu²⁺ → Zn²⁺ + Cu.",
+    "Standart sharoitda EYuK ≈ 1,1 V. Tuz ko'prigi (KCl yoki KNO₃ eritmasi) zanjirni ionlar orqali tutashtiradi; ko'prik olinsa tok to'xtaydi."
+   ],
+   "safety_uz": [
+    "Mis sulfat eritmasi zaharli — qo'lni yuving.",
+    "Elektrodlarni ishlatishdan oldin jilvir qog'oz bilan tozalang."
+   ],
+   "gas_route_expect": null
+  }
+ ]
+}

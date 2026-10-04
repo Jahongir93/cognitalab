@@ -228,8 +228,9 @@ B.sovutgich = (p) => {
     for (let i = 0; i < 8; i++) { const d = torus(5, 1.2, M.glass()); d.rotation.y = Math.PI / 2; d.position.x = (40 + i * 30) * MM; g.add(d); }
     g.add(tubeAlong([[270, 5, 0], [270, 30, 0]], 3));
   }
-  const joint = cyl(9, 7.5, 24, M.glass({ thick: true }), 16);
-  joint.rotation.z = Math.PI / 2; joint.position.x = -8 * MM;
+  // kirish: shlif konusi yoki (Vyurs kolbasi uchun) teshikli rezina tiqin
+  const joint = p.stopperInlet ? cyl(9, 7.5, 16, M.rubber(0xb23a28), 16) : cyl(9, 7.5, 24, M.glass({ thick: true }), 16);
+  joint.rotation.z = Math.PI / 2; joint.position.x = (p.stopperInlet ? -4 : -8) * MM;
   g.add(joint);
   return { group: g, condenser: { L, kind: p.kind } };
 };
