@@ -45,7 +45,7 @@ function R(o) {
   r.reactants = o.reactants;
   r.conditions = { heating: false, temp_min_C: null, catalyst: null, medium: null, light: false, note_uz: null, ...(o.cond || {}) };
   r.equation = { molecular: null, ionic_full: null, ionic_net: null, electron_balance: null, ...(o.eq || {}) };
-  r.mechanism = { type: o.mech, steps_uz: o.steps, organic: null };
+  r.mechanism = { type: o.mech, steps_uz: o.steps, organic: o.organic || null };
   r.observations = { precipitate: null, gas: null, solution_color_change: null, heat: 'sezilarsiz', flame: null, effects: [], text_uz: '', ...(o.obs || {}) };
   if (o.collection) r.collection = o.collection;
   r.kinetics = o.kinetics;
@@ -1148,7 +1148,7 @@ R({
   eq: {
     molecular: 'CH3COONa + NaOH = CH4↑ + Na2CO3',
   },
-  mech: 'organik',
+  mech: 'termik-parchalanish',
   steps: ["Kuchli qizdirilganda atsetat ionidagi C–C bog'i uziladi (dekarboksillanish).", "Metil guruhi ishqordan vodorod atomini olib metanga aylanadi.", "Karboksil guruh karbonat ioni ko'rinishida qoladi."],
   obs: { gas: gas('CH4'), heat: 'endotermik', effects: fx('bubbles'), text_uz: "Kuchli qizdirilganda rangsiz, hidsiz gaz ajraladi; u suv ostida yig'iladi va havorang alanga bilan yonadi." },
   collection: COLL.water("Metan suvda deyarli erimaydi va havodan yengil (nisbiy zichligi 0,55), shuning uchun suv ostida yoki og'zi pastga qaratilgan idishda yig'iladi."),
@@ -1203,7 +1203,7 @@ R({
   ],
   cond: { note_uz: "Metan suyultirilgan KMnO₄ eritmasi orqali o'tkaziladi." },
   eq: {},
-  mech: 'organik',
+  mech: 'sifat-reaksiya',
   steps: ["Metan molekulasida faqat mustahkam C–H σ-bog'lari bor.", "Oddiy sharoitda permanganat ioni bu bog'larni oksidlay olmaydi.", "Shuning uchun eritma rangi o'zgarmaydi."],
   obs: { heat: 'sezilarsiz', effects: fx('bubbles'), text_uz: "Gaz eritma orqali o'tib ketadi, binafsha rang o'zgarmaydi." },
   kinetics: 'bir-zumda',
@@ -1230,6 +1230,7 @@ R({
     molecular: 'C2H5OH → CH2=CH2↑ + H2O',
   },
   mech: 'organik',
+  organic: { template: 'E2', params: { substrate: 'CH3–CH2–OH2⁺ (protonlangan spirt)', base: 'HSO4⁻', leaving_group: 'H2O', product: 'CH2=CH2', byproduct: 'H2O (H2SO4 qayta hosil bo\'ladi)' } },
   steps: ["Sulfat kislota spirtning gidroksil guruhini protonlaydi.", "Protonlangan spirtdan suv molekulasi ajraladi, qo'shni uglerod atomidan proton chiqib qo'shbog' hosil bo'ladi (molekula ichidan degidratlanish).", "140 °C atrofida esa asosan dietil efir hosil bo'ladi, shuning uchun harorat 170 °C dan yuqori ushlanadi."],
   obs: { gas: gas('CH2=CH2'), solution_color_change: { from: '#ffffff', to: '#5a3a1a' }, heat: 'endotermik', effects: fx('bubbles', 'boil'), text_uz: "Aralashma qorayadi, rangsiz gaz ajraladi; u bromli suv va KMnO₄ eritmasini rangsizlantiradi." },
   collection: COLL.water("Etilen suvda kam eriydi, shuning uchun suv ostida yig'iladi; havoga zichligi 1 ga yaqin bo'lgani uchun havoni siqib chiqarish usuli toza gaz bermaydi."),

@@ -1032,7 +1032,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Birlamchi karbokation juda beqaror, shuning uchun S_N1 yo'li yopiq.",
      "Cl⁻ ioni suvli eritmada kuchsiz nukleofil — katalizatorsiz va qizdirilmasdan S_N2 ham amalda bormaydi."
@@ -1382,7 +1382,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Efir molekulasida kislorod ikki uglerod atomi bilan bog'langan, O–H bog'i yo'q.",
      "Natriy qaytaradigan harakatchan (kislotali) vodorod atomi bo'lmagani uchun reaksiya ketmaydi."
@@ -1867,7 +1867,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Etanol molekulasida bitta gidroksil guruh bor — xelat halqasi hosil bo'lmaydi.",
      "Etanolning kislotali xossasi juda kuchsiz, u Cu(OH)₂ ni erita olmaydi."
@@ -2242,7 +2242,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "HCO₃⁻ ionining protonlangan shakli H₂CO₃ fenoldan kuchliroq kislota.",
      "Kuchsiz kislota (fenol) kuchliroq kislotani (H₂CO₃) uning tuzidan siqib chiqara olmaydi — CO₂ ajralmaydi."

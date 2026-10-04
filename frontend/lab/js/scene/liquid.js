@@ -187,6 +187,9 @@ export class LiquidBody {
     const base = new THREE.Color(0xe4f1f6);
     // o'tgan yorug'lik rangi -> ko'rinadigan rang (qalin qatlamda to'yinganroq)
     const c = rgb ? new THREE.Color(Math.pow(rgb[0], 1.6), Math.pow(rgb[1], 1.6), Math.pow(rgb[2], 1.6)) : base;
+    // juda quyuq eritma (masalan, 0,02 M KMnO4) qora emas, to'q rangli ko'rinsin: tusni saqlab yorqinlikni cheklaymiz
+    const mx = Math.max(c.r, c.g, c.b);
+    if (rgb && mx > 1e-6 && mx < 0.18) c.multiplyScalar(0.18 / mx);
     // rangsiz eritma: ozgina havorang shisha ko'rinishi
     if (intensity < 0.02) c.lerp(base, 0.6);
     if (turbidColor && turbidity > 0) c.lerp(new THREE.Color(turbidColor).multiplyScalar(0.8), Math.min(turbidity, 1) * 0.9);

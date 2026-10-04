@@ -9,40 +9,43 @@ frontend/lab/
   index.html              kirish nuqtasi (importmap: three -> vendor/three)
   css/tokens.css          dizayn tokenlari (Cognita shu faylni almashtiradi)
   css/lab.css             interfeys uslublari (faqat tokenlardan foydalanadi)
+  css/mechanism.css       mexanizm paneli
   js/
+    main.js               ishga tushirish: ma'lumot, sahna, stol, simulyatsiya, effektlar, o'zaro ta'sir, interfeys
     engine/               KIMYOVIY DVIGATEL — sof JS, DOM va Three.js'siz (Node'da test qilinadi)
       formula.js          formula va tenglama tahlili, atom/zaryad balansi
-      db.js               ma'lumotlar bazasi indeksi (moddalar, ionlar, qoidalar)
-      vessel.js           idish holati (moddalar, fazalar, hajm, harorat)
-      rules.js            umumiy qoidalar (dissotsilanish, cho'kma, neytrallanish, faollik qatori ...)
-      matcher.js          katalogdagi aniq yozuvlarni idish holatiga moslash
-      chemistry.js        asosiy API: qo'shish, aralashtirish, qadam (step), tavsif
-      ph.js               pH (zaryad balansi, kuchli/kuchsiz elektrolitlar)
+      db.js               ma'lumotlar bazasi indeksi (moddalar, ionlar, qoidalar, yozuvlar)
+      chemistry.js        idish holati va qadam: umumiy qoidalar, aniq yozuvlar, issiqlik, qaynash, elektroliz
+      ph.js               pH (zaryad balansi, kuchli/kuchsiz elektrolitlar, gidroliz)
       color.js            eritma rangi (Ber–Lambert yaqinlashuvi), indikatorlar
-      thermo.js           issiqlik, qizdirish, qaynash, bug'lanish
-      apparatus.js        asbob grafi: portlar, ulanishlar, germetiklik, gaz oqimi, bosim
+      apparatus.js        asbob grafi: portlar, ulanishlar, germetiklik, gaz yo'li, yig'ish usuli
       explain.js          "nega reaksiya ketmadi" tushuntirishlari
+    data/loader.js        ma'lumotlarni yuklash (boshida indekslar, keyin toifa fayllari)
     scene/                3D sahna (Three.js)
-      app.js, room.js, quality.js, camera.js
-      models/             protsedura modellar (aylanish jismlari, jihozlar)
-      liquid.js           suyuqlik (og'ish, menisk, oqim)
-      effects/            effekt primitivlari (pufakcha, cho'kma, alanga, tutun ...)
-      interaction.js      sudrash, yopishish, quyish (sichqoncha + sensor)
-    ui/                   interfeys panellari (katalog, inspektor, jurnal, mexanizm)
+      app.js, room.js, quality.js, materials.js
+      models/             protsedura modellar (profiles.js, glassware.js, equipment.js)
+      liquid.js           suyuqlik (og'ish, menisk, to'kilish, qatlamlar)
+      effects/            effekt primitivlari: particles.js, flame.js, audio.js, index.js
+    lab/
+      bench.js            stol: jihoz nusxalari, 3D joylashuv, ulanishlar, saqlash/tiklash
+      simulation.js       har kadrda: kimyo qadami, qizdirish manbalari, gaz oqimi, xavfsizlik, asboblar
+      interaction.js      tanlash, sudrash va yopishish, quyish, dozalar, sinovlar
+      templates.js        asbob andozalarini yig'ish va qo'lda yig'ishni tekshirish
+    ui/                   app.js (panellar), inspector.js, guided.js, journal.js, mechanism.js, dom.js
     i18n/uz.js            barcha interfeys matnlari (lokalizatsiya)
-    platform/             Cognita bilan aloqa (API mijoz, localStorage zaxira)
-  data/                   JSON ma'lumotlar (moddalar, ionlar, jihozlar, reaksiyalar/<toifa>.json ...)
+    platform/api.js       Cognita bilan aloqa (backend yoki localStorage)
+  data/                   substances, ions, rules, equipment, ports, templates, mechanisms, reactions/*.json
   vendor/three/           Three.js 0.186.1 va addon'lar (CDN yo'q)
-backend/lab_router.py     FastAPI APIRouter
-tools/                    validator, ko'rib chiqish jadvali, boshlang'ich generatorlar
-tests/                    Node (dvigatel, ma'lumot muvofiqligi) va Playwright testlari
+backend/lab_router.py     FastAPI APIRouter (+ tests, README)
+tools/                    generatorlar (seed), validator, indekslar, ko'rib chiqish jadvali, skrinshotlar
+tests/                    engine/ (Node), data/ (katalog muvofiqligi), e2e/ (Playwright)
 ```
 
 ## 2. Tamoyil: reaksiyalar — ma'lumot
 
 Dvigatel uch qatlamdan iborat:
 
-1. **Umumiy qoidalar** (`rules.js`) ma'lumot jadvallariga tayanadi: eruvchanlik jadvali, kislota-asos tizimlari (pKa), metallarning faollik qatori va standart potensiallar, kompleks hosil bo'lish jadvali, oksidlar turi. Ular katalogda yo'q aralashmalar uchun ham natija beradi (erkin rejim).
+1. **Umumiy qoidalar** (`chemistry.js`, `data/rules.json`) ma'lumot jadvallariga tayanadi: eruvchanlik jadvali, kislota-asos tizimlari (pKa), metallarning faollik qatori va standart potensiallar, kompleks hosil bo'lish jadvali, oksidlar turi. Ular katalogda yo'q aralashmalar uchun ham natija beradi (erkin rejim).
 2. **Aniq yozuvlar** (`data/reactions/*.json`) umumiy qoidaga sig'maydigan reaksiyalar uchun: termik parchalanish, organik reaksiyalar, konsentratsiyaga bog'liq mahsulotlar, eritmadagi oksidlanish-qaytarilish. Har bir yozuv `engine: "record"` bilan belgilanadi; dvigatel uning qisqartirilgan ionli (yoki molekulyar) tenglamasini tahlil qilib, chap tomondagi zarrachalar idishda bo'lsa va shartlar bajarilsa, shu tenglama bo'yicha reaksiyani bajaradi.
 3. **Effekt primitivlari** (`scene/effects/`) dvigatel chiqaradigan hodisalarni (`precipitate`, `gas`, `color`, `heat`, `flame`, `deposit`, `splash` ...) ko'rinishga aylantiradi. Hech bir reaksiya uchun alohida animatsiya yozilmaydi.
 
@@ -50,7 +53,7 @@ Dvigatel uch qatlamdan iborat:
 
 ## 3. Idish holati
 
-Idish: `{ T, V_mL, closed, contents }`. `contents` — zarracha identifikatori (`"Na+"`, `"SO4-2"`, `"BaSO4"`, `"H2O"`, `"CH3COOH"`) bo'yicha `{ mol, phase }`, faza: `aq` (eritmada), `s` (qattiq/cho'kma), `l` (alohida suyuq qatlam), `g` (idishdagi gaz).
+Idish: `{ T, capacity_mL, closed, contents, forms, ... }`. `contents` — `"<id>@<faza>"` kaliti bo'yicha mol miqdori (masalan `"Na^+@aq"`, `"SO4^2-@aq"`, `"BaSO4@s"`, `"H2O@aq"`, `"Br2@org"`); faza: `aq` (eritma), `s` (qattiq/cho'kma), `org` (aralashmaydigan suyuq qatlam), `g` (idishdagi gaz).
 
 Eritmaga tushgan tuz, kuchli kislota va ishqor darhol ionlarga ajraladi. Kuchsiz elektrolitlar molekula holida saqlanadi. Har qadamda (`step(dt)`):
 
@@ -94,3 +97,14 @@ Suyuqlik idishning ichki profilidan yasalgan aylanish jismi; uning sathi dunyo k
 ## 7. Platformaga ulanish
 
 `js/platform/api.js` backend mavjudligini tekshiradi (`/api/health`); bo'lmasa taraqqiyot, stol holati va jurnal `localStorage`ga saqlanadi. Backend — `backend/lab_router.py` (README'da ulash bosqichlari).
+
+## 8. Ish vaqtidagi oqim
+
+`main.js` ma'lumotlarni yuklaydi (`loadCore`). Keyin `LabScene`, `Chemistry`, `Bench`, `Effects`, `Simulation`, `Interaction` va `LabUI` obyektlarini yaratadi. Har kadrda `LabScene.frame()` quyidagilarni chaqiradi:
+
+1. `Simulation.update(raw)` — haqiqiy o'tgan vaqt bilan. Har idish uchun qizdirish manbai (alanga, plitka, to'r) va elektroliz zanjiri aniqlanadi, so'ng `chem.step()` bajariladi. Dvigatel hodisalari (`record`, `precipitate`, `gas`, `boil`, `deposit`, `electrode` ...) effektlarga, jurnalga va xabarlarga uzatiladi. Gaz `gasRoute` bo'yicha yuradi: havoga, suyuqlik orqali, yig'gich idishga yoki sovutgich orqali qabul qiluvchiga. Xavfsizlik tekshiriladi: bosim, darz, yonuvchan suyuqlik, toshib ketish. Suyuqlik ko'rinishi yangilanadi: hajm, rang, loyqalik va uning cho'kishi.
+2. `Effects.update(dt)` — zarrachalar, alangalar, chaqnash yorug'ligi, ko'lmaklar va animatsiyalar.
+3. `Interaction` — tanlash halqasi, quyish oqimi va kechiktirilgan amallar.
+4. Render.
+
+Interfeys DOM'da (`#ui`). U `Interaction`, `Simulation` va `Bench` hodisalariga obuna bo'ladi. Inspektor tanlangan idishni 300 ms da bir yangilaydi. Yo'riqnomali rejim (`guided.js`) har 500 ms bosqichlarni tekshiradi: moddalar qo'shildimi, sharoit bajarildimi, natija kuzatildimi.

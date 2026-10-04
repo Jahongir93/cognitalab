@@ -308,7 +308,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "fizik",
     "steps_uz": [
      "Xona haroratida va yorug'liksiz Cl–Cl bog'i uzilmaydi — radikal hosil bo'lmaydi.",
      "Erkin radikal bo'lmagani uchun zanjirli reaksiya boshlanmaydi."
@@ -730,7 +730,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Metan molekulasida faqat mustahkam σ-bog'lar bor, π-bog' yo'q.",
      "Elektrofil brom hujum qila oladigan elektron zichligi bo'lmagani uchun birikish ketmaydi; qorong'ida radikal o'rin olish ham boshlanmaydi."
@@ -808,7 +808,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Geksan molekulasida faqat qutbsiz va mustahkam C–C hamda C–H σ-bog'lari bor.",
      "Permanganat ioni xona haroratida bu bog'larni oksidlay olmaydi; geksan suvda erimay alohida qatlam hosil qiladi."
@@ -885,7 +885,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "fizik",
     "steps_uz": [
      "Geksanda π-bog' yo'q, shuning uchun bromning elektrofil birikishi ketmaydi.",
      "Brom qutbsiz modda bo'lgani uchun suvdan ko'ra geksanda yaxshiroq eriydi va organik qatlamga o'tadi (fizik jarayon — ekstraksiya)."
@@ -2166,7 +2166,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "fizik",
     "steps_uz": [
      "Siklogeksan halqasi kuchlanishsiz va faqat σ-bog'lardan iborat — elektrofil birikish uchun π-bog' yo'q.",
      "Brom faqat organik qatlamga fizik o'tadi (ekstraksiya)."
@@ -2415,21 +2415,13 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "sp-gibridlangan uglerod atomi elektromanfiyroq, shuning uchun ≡C–H bog'i qutblangan va vodorod proton sifatida ajralishi mumkin (kuchsiz kislota).",
      "Ishqoriy muhitda OH⁻ ioni protonni tortib oladi, atsetilenid anioni HC≡C⁻ hosil bo'ladi.",
      "Atsetilenid anioni diamminkumush ionidagi ammiak ligandlarini siqib chiqarib, kumush bilan bog'lanadi; ikkinchi proton ham shu tarzda almashinadi va erimaydigan AgC≡CAg cho'kadi."
     ],
-    "organic": {
-     "template": "SN2",
-     "params": {
-      "substrate": "[Ag(NH3)2]⁺",
-      "nucleophile": "HC≡C⁻ (atsetilenid)",
-      "leaving_group": "NH3",
-      "product": "AgC≡CAg"
-     }
-    }
+    "organic": null
    },
    "observations": {
     "precipitate": {
@@ -2905,7 +2897,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "fizik",
     "steps_uz": [
      "Benzoldagi oltita π-elektron butun halqa bo'ylab teng taqsimlangan yagona aromatik tizim hosil qiladi.",
      "Brom birikishi aromatiklikni buzgani uchun energetik jihatdan noqulay; katalizatorsiz o'rin olish ham ketmaydi.",
@@ -2984,7 +2976,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Aromatik halqaning π-elektron tizimi barqaror, permanganat uni odatdagi sharoitda oksidlay olmaydi.",
      "Benzol suvda erimay alohida qatlam hosil qiladi."

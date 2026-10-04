@@ -59,7 +59,7 @@ export class Interaction extends EventTarget {
     el.addEventListener('dblclick', (e) => this.#onDbl(e));
     el.addEventListener('contextmenu', (e) => e.preventDefault());
     window.addEventListener('keydown', (e) => this.#onKey(e));
-    scene.onFrame.push((dt) => this.#frame(dt));
+    scene.onFrame.push((dt, raw) => this.#frame(dt, raw));
   }
 
   emit(type, detail) { this.dispatchEvent(new CustomEvent(type, { detail })); }
@@ -303,7 +303,7 @@ export class Interaction extends EventTarget {
   }
 
   // ----------------------------------------------------------------- kadr
-  #frame(dt) {
+  #frame(dt, raw = dt) {
     const s = this.selected;
     if (s && this.bench.items.has(s.id)) {
       const box = new THREE.Box3().setFromObject(s.group);
@@ -314,7 +314,7 @@ export class Interaction extends EventTarget {
       this.ring.visible = true;
     } else this.ring.visible = false;
     if (this.pour) this.#pourFrame(dt);
-    this.timers = this.timers.filter((t) => { t.t -= dt; if (t.t <= 0) { t.fn(); return false; } return true; });
+    this.timers = this.timers.filter((t) => { t.t -= raw; if (t.t <= 0) { t.fn(); return false; } return true; });
   }
 
   after(seconds, fn) { this.timers.push({ t: seconds, fn }); }
@@ -635,7 +635,7 @@ export class Interaction extends EventTarget {
     const list = this.chem.flameTest(it.vessel);
     const top = list[0];
     if (top) {
-      this.after(0.4, () => this.effects.tintFlame(burner, top.color, 5));
+      this.effects.tintFlame(burner, top.color, 6);
       this.msg('info', 'info.flameColor', { color: top.desc_uz || top.color });
       this.journal(`Alanga sinovi (${it.def.name_uz}): ${top.desc_uz || top.color}`, { kind: 'kuzatish' });
     } else {

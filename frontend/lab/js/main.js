@@ -31,7 +31,7 @@ async function main() {
   const bench = new Bench({ scene, db: core.db, chem, equipment: core.equipment, ports: core.ports });
   const effects = new Effects({ scene, bench, chem });
   const sim = new Simulation({ bench, chem, effects, scene });
-  scene.onFrame.unshift((dt) => sim.update(dt));
+  scene.onFrame.unshift((dt, raw) => sim.update(raw));
   const ix = new Interaction({ scene, bench, chem, sim, effects });
   const ctx = {
     scene, bench, chem, db: core.db, sim, ix, effects, api,

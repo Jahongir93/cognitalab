@@ -498,6 +498,7 @@ export class Effects {
   tintFlame(burner, color, seconds = 4) {
     const fl = this.flames.get(burner.id);
     if (fl) fl.setTint(color, seconds);
+    else burner._pendingTint = { color, seconds };
   }
 
   // ----------------------------------------------------------------- ichki effektlar
@@ -638,6 +639,7 @@ export class Effects {
           fl = new Flame(kind, this.q.maxLights > 1 && kind !== 'chop');
           m.flame.add(fl.group);
           this.flames.set(it.id, fl);
+          if (it._pendingTint) { fl.setTint(it._pendingTint.color, it._pendingTint.seconds); it._pendingTint = null; }
         }
         if (fl) {
           fl.group.visible = lit;

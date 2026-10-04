@@ -612,11 +612,13 @@
      "Halqalarning ketma-ket ochilishi hisobiga poliamid zanjiri o'sadi; qo'shimcha mahsulot ajralmaydi."
     ],
     "organic": {
-     "template": "polimer-ion",
+     "template": "atsil",
      "params": {
-      "monomer": "(CH2)5CONH (kaprolaktam halqasi)",
-      "initiator": "H2O (iz miqdorda)",
-      "polymer": "[–NH(CH2)5CO–]n"
+      "acyl": "(CH2)5CONH (kaprolaktam halqasining amid guruhi)",
+      "nucleophile": "R–NH2 (zanjir uchidagi aminoguruh)",
+      "intermediate": "tetraedrik oraliq birikma",
+      "leaving": "R′–NH (halqa azoti — ajralmaydi, zanjirda qoladi)",
+      "product": "[–NH(CH2)5CO–]n"
      }
     }
    },
@@ -1162,7 +1164,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Polimerlanishda etilen molekulalaridagi qo'shbog'lar uzilib, zanjir hosil qiladi.",
      "Polietilen makromolekulasida faqat oddiy (σ) C–C va C–H bog'lari qoladi.",

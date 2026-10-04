@@ -45,6 +45,8 @@ const L = {
   saltBridge: "tuz ko'prigi",
   spectators: 'kuzatuvchi ionlar',
   multiplier: "ko'paytuvchi",
+  noReaction: 'reaksiya ketmaydi',
+  noReactionText: "Bu sharoitda kimyoviy reaksiya ketmaydi — kuzatiladigan o'zgarish yo'q. Sababi «Bosqichlar» bo'limida tushuntirilgan.",
 };
 
 /** Anorganik mexanizm turlarining nomi va qisqa tavsifi */
@@ -341,14 +343,18 @@ export function resolveTemplate(mechanisms, record) {
   let steps = tpl.steps;
   let tokenDefs = tpl.tokens || {};
   let variant = null;
+  let shown = tpl;
   for (const [vid, v] of Object.entries(tpl.variants || {})) {
     const keys = Array.isArray(v.when?.param) ? v.when.param : [v.when?.param];
     let re; try { re = new RegExp(v.when?.regex || '$^', 'u'); } catch { continue; }
     if (keys.some((k) => typeof params[k] === 'string' && re.test(params[k]))) {
-      steps = v.steps; tokenDefs = { ...tokenDefs, ...(v.tokens || {}) }; variant = vid; break;
+      steps = v.steps; tokenDefs = { ...tokenDefs, ...(v.tokens || {}) }; variant = vid;
+      // variant o'z nomi va tavsifiga ega bo'lishi mumkin (masalan, E1 → E1cB)
+      shown = { ...tpl, name_uz: v.name_uz || tpl.name_uz, summary_uz: v.summary_uz || tpl.summary_uz };
+      break;
     }
   }
-  return { id: org.template, tpl, steps, variant, params, tokens: buildTokens(tokenDefs, params), viewBox: tpl.viewBox || mechanisms.viewBox || [0, 0, 720, 300] };
+  return { id: org.template, tpl: shown, steps, variant, params, tokens: buildTokens(tokenDefs, params), viewBox: tpl.viewBox || mechanisms.viewBox || [0, 0, 720, 300] };
 }
 
 // ---------------------------------------------------------------------------
@@ -940,7 +946,7 @@ function inorganicScheme(record) {
     const xs = ions.length === 1 ? [200] : ions.length === 2 ? [150, 570] : [120, 360, 600];
     ions.forEach((t, i) => {
       const x = xs[i];
-      svg.appendChild(animated(particle(x, 100, label(t), kindOf(t.formula)), 'meet', { dx: 360 - x }));
+      svg.appendChild(animated(particle(x, ions.length > 2 ? 70 : 100, label(t), kindOf(t.formula)), 'meet', { dx: 360 - x }));
     });
     // kuzatuvchi ionlar
     const full = termsOf(eqn.ionic_full);
@@ -1136,7 +1142,10 @@ export function renderMechanism(container, record, mechanisms, opts = {}) {
   const cleanups = [];
   const type = record?.mechanism?.type || '';
   const resolved = resolveTemplate(mechanisms, record);
-  const info = INORGANIC[type];
+  const noReaction = !!record?.no_reaction;
+  const info = noReaction
+    ? { name: `${INORGANIC[type]?.name || type} · ${L.noReaction}`, text: L.noReactionText }
+    : INORGANIC[type];
 
   const root = h('section', { class: 'mech', 'aria-label': L.title });
   if (opts.title !== false) {
@@ -1152,7 +1161,7 @@ export function renderMechanism(container, record, mechanisms, opts = {}) {
   const hasEq = !!(eq.molecular || eq.ionic_full || eq.ionic_net);
   const bal = balanceInfo(record);
   let scheme = null;
-  if (!resolved && type !== 'organik') { try { scheme = inorganicScheme(record); } catch (e) { scheme = null; console.warn('[mexanizm] sxema:', e); } }
+  if (!resolved && type !== 'organik' && !noReaction) { try { scheme = inorganicScheme(record); } catch (e) { scheme = null; console.warn('[mexanizm] sxema:', e); } }
   if (resolved || scheme || info?.text) tabs.push({ key: 'anim', label: resolved ? L.anim : L.scheme });
   tabs.push({ key: 'eq', label: L.equations });
   if (bal) tabs.push({ key: 'balance', label: L.electron });

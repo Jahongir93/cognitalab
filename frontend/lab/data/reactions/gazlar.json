@@ -3279,7 +3279,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "termik-parchalanish",
     "steps_uz": [
      "Kuchli qizdirilganda atsetat ionidagi C–C bog'i uziladi (dekarboksillanish).",
      "Metil guruhi ishqordan vodorod atomini olib metanga aylanadi.",
@@ -3460,7 +3460,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Metan molekulasida faqat mustahkam C–H σ-bog'lari bor.",
      "Oddiy sharoitda permanganat ioni bu bog'larni oksidlay olmaydi.",
@@ -3542,7 +3542,16 @@
      "Protonlangan spirtdan suv molekulasi ajraladi, qo'shni uglerod atomidan proton chiqib qo'shbog' hosil bo'ladi (molekula ichidan degidratlanish).",
      "140 °C atrofida esa asosan dietil efir hosil bo'ladi, shuning uchun harorat 170 °C dan yuqori ushlanadi."
     ],
-    "organic": null
+    "organic": {
+     "template": "E2",
+     "params": {
+      "substrate": "CH3–CH2–OH2⁺ (protonlangan spirt)",
+      "base": "HSO4⁻",
+      "leaving_group": "H2O",
+      "product": "CH2=CH2",
+      "byproduct": "H2O (H2SO4 qayta hosil bo'ladi)"
+     }
+    }
    },
    "observations": {
     "precipitate": null,

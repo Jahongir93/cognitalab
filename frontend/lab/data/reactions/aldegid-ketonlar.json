@@ -302,7 +302,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Asetonda karbonil guruh ikki uglerod atomi bilan bog'langan, unda C–H bog'i yo'q.",
      "Kuchsiz oksidlovchi (Ag⁺) C–C bog'larini uza olmaydi, shuning uchun keton oksidlanmaydi."
@@ -574,7 +574,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Aromatik halqa bilan tutashgan karbonil guruh kamroq elektrofil, benzaldegidda α-vodorod ham yo'q.",
      "Feling suyuqligidagi kompleks Cu²⁺ ionlari bunday sharoitda benzaldegidni oksidlay olmaydi."
@@ -648,7 +648,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Asetonning karbonil uglerodida vodorod yo'q — kuchsiz oksidlovchi uni oksidlay olmaydi.",
      "Qizdirilganda Cu(OH)₂ faqat suv yo'qotib qora CuO ga aylanishi mumkin, Cu₂O hosil bo'lmaydi."
@@ -1009,7 +1009,7 @@
     "electron_balance": null
    },
    "mechanism": {
-    "type": "organik",
+    "type": "sifat-reaksiya",
     "steps_uz": [
      "Ketonning karbonil uglerodida vodorod yo'q, oksidlanish uchun C–C bog'i uzilishi kerak.",
      "Xona haroratida suyultirilgan permanganat buni amalga oshira olmaydi."
@@ -1722,8 +1722,9 @@
      "template": "E1",
      "params": {
       "substrate": "CH3–CH(OH)–CH2–CHO",
-      "carbocation": "enolat ⁻CH–CHO (E1cB)",
+      "intermediate": "enolat-ion CH3–CH(OH)–⁻CH–CHO (karbanion)",
       "base": "OH⁻",
+      "leaving_group": "OH⁻",
       "product": "CH3–CH=CH–CHO",
       "byproduct": "H2O"
      }

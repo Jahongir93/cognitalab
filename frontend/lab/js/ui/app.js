@@ -405,7 +405,8 @@ export class LabUI {
     const draw = () => {
       const q = search.value.trim().toLowerCase();
       clear(list);
-      for (const c of eq.categories || [{ id: null, name_uz: '' }]) {
+      const cats = Array.isArray(eq.categories) ? eq.categories : Object.entries(eq.categories || {}).map(([id, name_uz]) => ({ id, name_uz }));
+      for (const c of cats.length ? cats : [{ id: null, name_uz: '' }]) {
         const items = eq.items.filter((d) => (c.id === null || d.category === c.id) && (!q || d.name_uz.toLowerCase().includes(q) || d.id.includes(q)));
         if (!items.length) continue;
         list.appendChild(h('h3', { class: 'eq-cat' }, c.name_uz || c.title_uz || c.id));

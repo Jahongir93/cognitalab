@@ -112,10 +112,13 @@ export class LabScene {
 
   frame() {
     this.clock.update();
-    const dt = Math.min(this.clock.getDelta(), 0.1);
+    // raw — haqiqiy o'tgan vaqt (simulyatsiya uchun, sekin qurilmada ham kimyoviy vaqt orqada qolmasin);
+    // dt — animatsiyalar uchun cheklangan qadam
+    const raw = Math.min(this.clock.getDelta(), 0.5);
+    const dt = Math.min(raw, 0.1);
     this.fps.tick();
     this.controls.update();
-    for (const f of this.onFrame) f(dt);
+    for (const f of [...this.onFrame]) f(dt, raw);
     this.renderer.render(this.scene, this.camera);
   }
 

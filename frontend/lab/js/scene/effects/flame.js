@@ -34,7 +34,8 @@ void main() {
   float h = vUv.y;
   float a = edge * (1.0 - smoothstep(0.55, 1.0, h)) * smoothstep(0.0, 0.08, h);
   vec3 c = mix(uColor, uTip, smoothstep(0.2, 0.9, h));
-  gl_FragColor = vec4(c * a * uIntensity, 1.0);
+  // oldindan ko'paytirilgan alfa: qorong'i fonda nur sochadi, yorug' fonda ham rangi ko'rinadi
+  gl_FragColor = vec4(c * a * uIntensity, clamp(a * 0.75, 0.0, 1.0));
 }`;
 
 function flameGeometry(r, h) {
@@ -52,7 +53,8 @@ function flameMaterial(color, tip, intensity = 1) {
   return new THREE.ShaderMaterial({
     vertexShader: VERT, fragmentShader: FRAG,
     uniforms: { uTime: { value: 0 }, uFlicker: { value: 1 }, uColor: { value: new THREE.Color(color) }, uTip: { value: new THREE.Color(tip) }, uIntensity: { value: intensity } },
-    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide,
+    transparent: true, depthWrite: false, side: THREE.DoubleSide,
+    blending: THREE.CustomBlending, blendSrc: THREE.OneFactor, blendDst: THREE.OneMinusSrcAlphaFactor, blendEquation: THREE.AddEquation,
   });
 }
 

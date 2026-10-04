@@ -58,7 +58,7 @@ export class Inspector {
         d.solid_g > 0.0005 ? stat(t('inspector.mass'), `${d.solid_g.toFixed(3)} ${t('units.g')}`) : null);
       el.appendChild(stats);
       if (d.volume_mL > 0.01) {
-        el.appendChild(h('div', { class: 'swatch-row' }, h('span', { class: 'swatch', style: { background: d.color.hex || '#e4f1f6' } }), h('span', { class: 'small muted' }, d.color.name_uz || '')));
+        el.appendChild(h('div', { class: 'swatch-row' }, h('span', { class: 'swatch', style: { background: displayHex(d.color) } }), h('span', { class: 'small muted' }, d.color.name_uz || '')));
       }
       const rows = d.items.filter((x) => !(x.id === 'H2O' && x.phase === 'aq')).slice(0, 10);
       if (rows.length || d.volume_mL > 0) {
@@ -129,4 +129,13 @@ export class Inspector {
 
 function stat(label, value) {
   return h('div', { class: 'stat' }, h('div', { class: 'stat-label' }, label), h('div', { class: 'stat-value' }, value));
+}
+
+/** Juda quyuq rangni tusini saqlab yorqinlashtirish (namuna doirachasi uchun) */
+function displayHex(col) {
+  const rgb = col?.rgb;
+  if (!rgb) return col?.hex || '#e4f1f6';
+  const mx = Math.max(...rgb);
+  const k = mx > 1e-6 && mx < 0.35 ? 0.35 / mx : 1;
+  return '#' + rgb.map((x) => Math.round(Math.min(1, x * k) * 255).toString(16).padStart(2, '0')).join('');
 }

@@ -340,7 +340,109 @@
           ],
           "text": [{ "x": 312, "y": 262, "t": "alken (Zaysev mahsuloti)", "cls": "note" }]
         }
-      ]
+      ],
+      "variants": {
+        "E1cB": {
+          "when": { "param": ["intermediate", "carbocation"], "regex": "E1cB|enolat|karbanion" },
+          "name_uz": "Ajralish E1cB (enolat orqali)",
+          "summary_uz": "Ikki bosqichli ajralish, lekin E1 dan farqli ravishda oraliq zarracha karbokation emas, karbanion (enolat-ion): asos karbonil guruhga qo'shni (α) uglerodning kislotali protonini tortib oladi, so'ng enolat β-holatdagi yomon chiqib ketuvchi guruhni (OH⁻) siqib chiqaradi. Aldollarning qizdirilganda degidratlanishi (kroton kondensatlanish) shu yo'l bilan boradi; hosil bo'lgan C=C bog' C=O bilan tutashgan (konjugatsiyalangan).",
+          "tokens": {
+            "Bs": { "param": "base", "def": "OH⁻" },
+            "X": { "param": "leaving_group", "def": "OH⁻" },
+            "Xa": { "param": "leaving_group", "def": "OH", "map": { "OH⁻": "OH", "H2O": "OH" }, "mapOnly": true }
+          },
+          "steps": [
+            {
+              "title_uz": "α-protonning ajralishi",
+              "text_uz": "{Bs} karbonil guruhga qo'shni α-uglerod atomidagi protonni tortib oladi. Bu proton nisbatan kislotali, chunki hosil bo'lgan manfiy zaryad C=O guruhi bilan rezonans orqali barqarorlashadi.",
+              "atoms": [
+                { "id": "b", "x": 100, "y": 60, "t": "{Bs:b}", "charge": "{Bs:c}", "lp": ["e"], "role": "base" },
+                { "id": "h", "x": 330, "y": 78, "t": "H" },
+                { "id": "ca", "x": 330, "y": 160, "t": "C" },
+                { "id": "h2", "x": 330, "y": 242, "t": "H" },
+                { "id": "cb", "x": 220, "y": 160, "t": "C" },
+                { "id": "lg", "x": 220, "y": 250, "t": "{Xa}", "role": "lg" },
+                { "id": "r", "x": 160, "y": 115, "t": "R" },
+                { "id": "hb", "x": 165, "y": 205, "t": "H" },
+                { "id": "c", "x": 440, "y": 160, "t": "C" },
+                { "id": "o", "x": 488, "y": 88, "t": "O", "lp": ["e"] },
+                { "id": "hc", "x": 492, "y": 228, "t": "H" }
+              ],
+              "bonds": [
+                { "a": "ca", "b": "h" },
+                { "a": "ca", "b": "h2" },
+                { "a": "ca", "b": "cb" },
+                { "a": "ca", "b": "c" },
+                { "a": "cb", "b": "lg" },
+                { "a": "cb", "b": "r" },
+                { "a": "cb", "b": "hb" },
+                { "a": "c", "b": "o", "o": 2 },
+                { "a": "c", "b": "hc" }
+              ],
+              "arrows": [{ "from": "b", "to": "h", "bend": 0.3 }, { "from": "ca-h", "to": "ca-c", "bend": -0.7 }, { "from": "c-o", "to": "o", "bend": -0.8 }],
+              "text": [{ "x": 330, "y": 286, "t": "α", "cls": "note" }, { "x": 220, "y": 286, "t": "β", "cls": "note" }]
+            },
+            {
+              "title_uz": "Enolat chiqib ketuvchi guruhni siqib chiqaradi",
+              "text_uz": "Karbanion (enolat) elektron jufti α- va β-uglerod orasiga o'tib π-bog' hosil qiladi va β-holatdagi {Xa} guruh {X} ko'rinishida ajraladi. Oraliq zarracha — karbokation emas, karbanion; shuning uchun bu E1cB (conjugate base) mexanizmi.",
+              "atoms": [
+                { "id": "b", "x": 110, "y": 50, "t": "{Bs:b}" },
+                { "id": "h", "x": 176, "y": 50, "t": "H" },
+                { "id": "ca", "x": 330, "y": 160, "t": "C", "charge": "−", "lp": ["n"] },
+                { "id": "h2", "x": 330, "y": 242, "t": "H" },
+                { "id": "cb", "x": 220, "y": 160, "t": "C" },
+                { "id": "lg", "x": 220, "y": 250, "t": "{Xa}", "role": "lg" },
+                { "id": "r", "x": 160, "y": 115, "t": "R" },
+                { "id": "hb", "x": 165, "y": 205, "t": "H" },
+                { "id": "c", "x": 440, "y": 160, "t": "C" },
+                { "id": "o", "x": 488, "y": 88, "t": "O", "lp": ["e"] },
+                { "id": "hc", "x": 492, "y": 228, "t": "H" }
+              ],
+              "bonds": [
+                { "a": "b", "b": "h" },
+                { "a": "ca", "b": "h2" },
+                { "a": "ca", "b": "cb" },
+                { "a": "ca", "b": "c" },
+                { "a": "cb", "b": "lg" },
+                { "a": "cb", "b": "r" },
+                { "a": "cb", "b": "hb" },
+                { "a": "c", "b": "o", "o": 2 },
+                { "a": "c", "b": "hc" }
+              ],
+              "arrows": [{ "from": "ca", "to": "cb-ca", "bend": 0.9, "fromOffset": [-6, -16] }, { "from": "cb-lg", "to": "lg", "bend": 0.6 }],
+              "text": [{ "x": 600, "y": 160, "t": "karbanion (enolat)", "cls": "note" }]
+            },
+            {
+              "title_uz": "α,β-to'yinmagan karbonil birikma",
+              "text_uz": "C=C qo'sh bog' C=O bilan tutashgan (konjugatsiyalangan) α,β-to'yinmagan aldegid hosil bo'ldi; {X} ionlari suv bilan qayta tiklanadi — ishqor katalizator vazifasini bajaradi.",
+              "atoms": [
+                { "id": "b", "x": 110, "y": 50, "t": "{Bs:b}" },
+                { "id": "h", "x": 176, "y": 50, "t": "H" },
+                { "id": "ca", "x": 330, "y": 160, "t": "C" },
+                { "id": "h2", "x": 330, "y": 242, "t": "H" },
+                { "id": "cb", "x": 225, "y": 160, "t": "C" },
+                { "id": "lg", "x": 560, "y": 262, "t": "{X:b}", "charge": "{X:c}", "role": "lg" },
+                { "id": "r", "x": 170, "y": 112, "t": "R" },
+                { "id": "hb", "x": 170, "y": 208, "t": "H" },
+                { "id": "c", "x": 440, "y": 160, "t": "C" },
+                { "id": "o", "x": 488, "y": 88, "t": "O" },
+                { "id": "hc", "x": 492, "y": 228, "t": "H" }
+              ],
+              "bonds": [
+                { "a": "b", "b": "h" },
+                { "a": "ca", "b": "h2" },
+                { "a": "ca", "b": "cb", "o": 2 },
+                { "a": "ca", "b": "c" },
+                { "a": "cb", "b": "r" },
+                { "a": "cb", "b": "hb" },
+                { "a": "c", "b": "o", "o": 2 },
+                { "a": "c", "b": "hc" }
+              ],
+              "text": [{ "x": 600, "y": 140, "t": "C=C–C=O", "cls": "note" }, { "x": 600, "y": 162, "t": "konjugatsiya", "cls": "note" }]
+            }
+          ]
+        }
+      }
     },
     "SR": {
       "name_uz": "Radikal almashinish S_R",
