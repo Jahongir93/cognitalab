@@ -1,0 +1,51 @@
+# Maxfiy fayllar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets.*
+credentials*.json
+.claude/settings.local.json
+
+# Node
+node_modules/
+npm-debug.log*
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Ma'lumotlar (foydalanuvchi holati, lokal bazalar)
+backend/data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Test va build natijalari
+test-results/
+playwright-report/
+coverage/
+dist/
+*.zip
+
+# Muharrir va OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
