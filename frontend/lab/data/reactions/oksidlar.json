@@ -1608,7 +1608,7 @@
    "title_uz": "Temir(II,III) oksidning xlorid kislotada erishi",
    "level": "9-sinf",
    "topic_uz": "Asosli oksidlarning xossalari",
-   "engine": "record",
+   "engine": "rules",
    "reactants": [
     {
      "species": "Fe3O4",
@@ -3644,7 +3644,7 @@
    "title_uz": "Azot(IV) oksidning natriy gidroksid eritmasiga yutilishi",
    "level": "9-sinf",
    "topic_uz": "Kislotali oksidlarning xossalari",
-   "engine": "record",
+   "engine": "rules",
    "reactants": [
     {
      "species": "NO2",

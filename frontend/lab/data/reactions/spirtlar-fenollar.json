@@ -558,7 +558,8 @@
     "catalyst": "H2SO4",
     "medium": null,
     "light": false,
-    "note_uz": "Etanol va konsentrlangan sulfat kislota aralashmasi (spirt ortiqcha) 140 °C da qizdiriladi; hosil bo'lgan efir haydalib sovutiladi. 170 °C dan yuqorida etilen hosil bo'ladi."
+    "note_uz": "Etanol va konsentrlangan sulfat kislota aralashmasi (spirt ortiqcha) 140 °C da qizdiriladi; hosil bo'lgan efir haydalib sovutiladi. 170 °C dan yuqorida etilen hosil bo'ladi.",
+    "temp_max_C": 160
    },
    "equation": {
     "molecular": "2C2H5OH → C2H5OC2H5↑ + H2O",

@@ -236,6 +236,32 @@
   "solubility": null,
   "id": "(C6H10O5)n|sellyuloza"
  },
+ "(C6H5COO)2": {
+  "formula": "(C6H5COO)2",
+  "display": "(C₆H₅COO)₂",
+  "name_uz": "benzoil peroksid (polimerlanish initsiatori)",
+  "class": "peroksid",
+  "state": "s",
+  "M": 242.23,
+  "appearance": {
+   "color": "#f8f8f6",
+   "form": "kukun",
+   "desc_uz": "oq kukun; qizdirilganda radikallarga parchalanadi; quruq holda zarba va qizishdan ehtiyot qilinadi, odatda namlangan holda saqlanadi"
+  },
+  "hazards": [
+   "oksidlovchi",
+   "portlash-xavfi",
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "aliases": [
+   "(C6H5CO)2O2",
+   "C14H10O4"
+  ],
+  "solubility": null,
+  "id": "(C6H5COO)2"
+ },
  "(C6H5NH3)2SO4": {
   "formula": "(C6H5NH3)2SO4",
   "display": "(C₆H₅NH₃)₂SO₄",
@@ -9140,7 +9166,7 @@
    "hydrate": null,
    "slow": false
   },
-  "acid_soluble": "kuchli",
+  "acid_soluble": null,
   "solubility": "N",
   "id": "Cr2O3"
  },

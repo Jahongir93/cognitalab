@@ -158,5 +158,7 @@ export const SPECIAL_PAIRS = [
   { cation: 'Cu^2+', anion: 'I^-', eq: '2Cu²⁺ + 4I⁻ = 2CuI↓ + I2', note_uz: 'oksidlanish-qaytarilish va cho\'kma' },
   { cation: 'Cu^2+', anion: 'CO3^2-', eq: '2Cu²⁺ + 2CO3²⁻ + H2O = (CuOH)2CO3↓ + CO2↑', note_uz: 'asosli tuz (malaxit) hosil bo\'ladi' },
   { cation: 'Ag^+', anion: 'OH^-', eq: '2Ag⁺ + 2OH⁻ = Ag2O↓ + H2O', note_uz: 'AgOH beqaror, darhol Ag₂O ga aylanadi' },
+  { cation: '[Ag(NH3)2]^+', anion: 'I^-', eq: '[Ag(NH3)2]⁺ + I⁻ = AgI↓ + 2NH3', note_uz: "AgI juda kam eriydi — ammiakat parchalanadi" },
+  { cation: '[Ag(NH3)2]^+', anion: 'S^2-', eq: '2[Ag(NH3)2]⁺ + S²⁻ = Ag2S↓ + 4NH3', note_uz: "Ag₂S juda kam eriydi — ammiakat parchalanadi" },
   { cation: 'Mg^2+', anion: 'S^2-', eq: 'Mg²⁺ + S²⁻ + 2H2O = Mg(OH)2↓ + H2S↑', note_uz: 'birgalikdagi gidroliz' },
 ];

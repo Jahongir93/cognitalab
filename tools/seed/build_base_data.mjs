@@ -141,6 +141,7 @@ for (const o of SD.OXIDES) {
     s.oxide.hydration_eq = formatEq([{ f: o.f, k: k[0] }, { f: 'H2O', k: k[1] }], [{ f: o.hyd, k: k[2] }]);
   }
   if (['asosli', 'amfoter', 'aralash'].includes(o.o) && s.state === 's') s.acid_soluble = o.f === 'MgO' || o.f === 'CaO' ? 'kuchsiz' : 'kuchli';
+  if (o.f === 'Cr2O3') s.acid_soluble = null; // kuydirilgan Cr2O3 kislotalarda amalda erimaydi
   if (o.st === 'g' || o.f === 'H2O') s.solubility = null;
   else if (o.f === 'H2O2') s.solubility = 'R';
   else s.solubility = 'N';

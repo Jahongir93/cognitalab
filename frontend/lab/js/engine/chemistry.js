@@ -253,6 +253,19 @@ export class Chemistry {
     if (id === 'SO2') { this.add(v, 'H2SO3', 'aq', n); this.add(v, WATER, 'aq', -n); return; }
     if (id === 'HCl') { this.add(v, 'H^+', 'aq', n); this.add(v, 'Cl^-', 'aq', n); return; }
     if (id === 'HBr') { this.add(v, 'H^+', 'aq', n); this.add(v, 'Br^-', 'aq', n); return; }
+    if (id === 'NO2' && this.waterMol(v) > 1e-6 && this.get(v, 'OH^-', 'aq') > EPS) {
+      // ishqorda: 2NO2 + 2OH- = NO2- + NO3- + H2O
+      const k = Math.min(n, this.get(v, 'OH^-', 'aq'));
+      this.add(v, 'OH^-', 'aq', -k); this.add(v, 'NO2^-', 'aq', k / 2); this.add(v, 'NO3^-', 'aq', k / 2); this.add(v, WATER, 'aq', k / 2);
+      if (n - k > EPS) this.#gasToAq(v, id, n - k);
+      return;
+    }
+    if (id === 'NO2' && this.waterMol(v) > 1e-6) {
+      // suv orqali o'tkazilgan NO2: 3NO2 + H2O = 2HNO3 + NO
+      this.add(v, 'H^+', 'aq', (2 * n) / 3); this.add(v, 'NO3^-', 'aq', (2 * n) / 3);
+      this.add(v, WATER, 'aq', -n / 3); this.add(v, 'NO', 'g', n / 3);
+      return;
+    }
     this.add(v, id, 'aq', n);
   }
 
@@ -712,7 +725,11 @@ export class Chemistry {
         ev.push({ type: 'precipitate', species: fromId, mol: xi, rule: 'kompleks-parchalanishi', ...this.#pptLook(fromId) });
         changed = true;
       } else if (ligand === 'NH3') {
-        const h = this.get(v, 'H^+', 'aq');
+        let h = this.get(v, 'H^+', 'aq');
+        for (const [id, n] of this.inPhase(v, 'aq')) {
+          const e = this.db.formToSystem.get(id);
+          if (e && n > EPS && e.index < e.sys.forms.length - 1 && e.sys.pKa[e.index] < 3) h += n;
+        }
         if (h <= EPS) continue;
         const nNH3 = c.parsed.left.find((t) => t.id === 'NH3')?.coef || 2;
         const xi = Math.min(this.get(v, prod.id, 'aq') / prod.coef, h / nNH3);
@@ -722,7 +739,9 @@ export class Chemistry {
         if (!metalIon) continue;
         this.add(v, prod.id, 'aq', -prod.coef * xi);
         this.add(v, metalIon.ion, 'aq', metalIon.k * prod.coef * xi);
-        this.add(v, 'NH3', 'aq', nNH3 * xi);
+        // ammiak protonlanadi (H+ yoki HSO4- kabi kislotalar hisobiga)
+        this.add(v, 'NH4^+', 'aq', nNH3 * xi);
+        this.#consumeProtons(v, nNH3 * xi);
         ev.push({ type: 'rule', rule: 'ammiakat-parchalanishi', xi });
         changed = true;
       }
@@ -864,7 +883,14 @@ export class Chemistry {
       return n > EPS && s && (s.acid_soluble === 'kuchli' || s.acid_soluble === 'kuchsiz') && !s.metal;
     });
     if (!solids.length) return;
-    const hasStrong = this.has(v, 'H^+', 'aq');
+    // kuchli kislota: erkin H+ yoki pKa < 3 bo'lgan kislota shakllari (HSO4-, H3PO4 ...)
+    let hasStrong = this.has(v, 'H^+', 'aq');
+    if (!hasStrong) {
+      for (const [id, n] of this.inPhase(v, 'aq')) {
+        const e = db.formToSystem.get(id);
+        if (e && n > EPS && e.index < e.sys.forms.length - 1 && e.sys.pKa[e.index] < 3) { hasStrong = true; break; }
+      }
+    }
     let hasWeak = hasStrong;
     if (!hasWeak) {
       for (const [id, n] of this.inPhase(v, 'aq')) {
@@ -901,6 +927,7 @@ export class Chemistry {
   #solidIons(id) {
     const s = this.db.sub(id);
     if (s.ions) return s.ions;
+    if (id === 'Fe3O4') return { 'Fe^2+': 1, 'Fe^3+': 2, 'OH^-': 8, H2O: -4 };
     if (s.oxide && s.formula) {
       // MxOy -> x M^(2y/x)+ + y O^2-  ;  O^2- o'rniga 2OH- - H2O (ya'ni y H2O sarflanadi, 2y OH- hosil bo'ladi)
       const m = s.formula.match(/^([A-Z][a-z]?)(\d*)O(\d*)$/);

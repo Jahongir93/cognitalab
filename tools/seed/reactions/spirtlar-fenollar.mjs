@@ -123,7 +123,7 @@ const records = [
   R({
     title: "Etanolning 140 °C da sulfat kislota ishtirokida degidratlanishi — dietil efir olish", level: '10-sinf', topic: "Spirtlar: molekulalararo degidratlanish, oddiy efirlar",
     reactants: [{ species: 'C2H5OH', state: 'l', volume_mL: 2 }],
-    cond: { temp_min_C: 140, catalyst: 'H2SO4', note_uz: "Etanol va konsentrlangan sulfat kislota aralashmasi (spirt ortiqcha) 140 °C da qizdiriladi; hosil bo'lgan efir haydalib sovutiladi. 170 °C dan yuqorida etilen hosil bo'ladi." },
+    cond: { temp_min_C: 140, temp_max_C: 160, catalyst: 'H2SO4', note_uz: "Etanol va konsentrlangan sulfat kislota aralashmasi (spirt ortiqcha) 140 °C da qizdiriladi; hosil bo'lgan efir haydalib sovutiladi. 170 °C dan yuqorida etilen hosil bo'ladi." },
     eq: ['2C2H5OH → C2H5OC2H5↑ + H2O'],
     tpl: 'SN2', params: { substrate: 'CH3–CH2–OH2⁺ (protonlangan spirt)', nucleophile: 'C2H5–OH', leaving_group: 'H2O', product: 'C2H5–O–C2H5' },
     steps: ["Sulfat kislota spirtning gidroksil kislorodini protonlaydi: C₂H₅–OH₂⁺ hosil bo'ladi va suv yaxshi ketuvchi guruhga aylanadi.", "Ikkinchi etanol molekulasi kislorodining taqsimlanmagan elektron jufti bilan protonlangan spirt uglerodiga orqa tomondan hujum qiladi, suv molekulasi ajraladi (S_N2).", "Hosil bo'lgan protonlangan efir protonni qaytarib beradi — dietil efir va qayta tiklangan katalizator."],

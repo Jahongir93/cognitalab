@@ -497,7 +497,7 @@ const list = [
     q: ["Fe2O3 ning sulfat kislota bilan reaksiyasining ionli tenglamalarini yozing.", "Fe2O3 qaysi turdagi oksid?"],
   }),
   R({
-    t: "Temir(II,III) oksidning xlorid kislotada erishi", lvl: '9-sinf', topic: T_BASIC, engine: 'record',
+    t: "Temir(II,III) oksidning xlorid kislotada erishi", lvl: '9-sinf', topic: T_BASIC, engine: 'rules',
     re: [solid('Fe3O4', 0.2), aq('HCl', 2, 5, { excess: true })], heat_c: true,
     note: "Fe3O4 (temir kuyindisi, magnetit) xlorid kislotada isitilganda eriydi.",
     mol: 'Fe3O4 + 8HCl = FeCl2 + 2FeCl3 + 4H2O', full: 'Fe3O4 + 8H⁺ + 8Cl⁻ = Fe²⁺ + 2Fe³⁺ + 8Cl⁻ + 4H2O', net: 'Fe3O4 + 8H⁺ = Fe²⁺ + 2Fe³⁺ + 4H2O',
@@ -1054,7 +1054,7 @@ const list = [
     q: ["P2O5 va NaOH nisbati 1:2 bo'lsa, qanday tuz hosil bo'ladi?", "Reaksiyaning qisqartirilgan ionli tenglamasini yozing."],
   }),
   R({
-    t: "Azot(IV) oksidning natriy gidroksid eritmasiga yutilishi", lvl: '9-sinf', topic: T_ACID, engine: 'record',
+    t: "Azot(IV) oksidning natriy gidroksid eritmasiga yutilishi", lvl: '9-sinf', topic: T_ACID, engine: 'rules',
     re: [gasR('NO2'), aq('NaOH', 1, 5)],
     mol: '2NO2 + 2NaOH = NaNO3 + NaNO2 + H2O', full: '2NO2 + 2Na⁺ + 2OH⁻ = 2Na⁺ + NO3⁻ + NO2⁻ + H2O', net: '2NO2 + 2OH⁻ = NO3⁻ + NO2⁻ + H2O',
     eb: ['N⁺⁴ − 1e⁻ = N⁺⁵', 'N⁺⁴ + 1e⁻ = N⁺³'],

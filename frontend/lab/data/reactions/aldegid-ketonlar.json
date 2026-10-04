@@ -1,0 +1,2168 @@
+{
+ "category": "aldegid-ketonlar",
+ "reactions": [
+  {
+   "id": "aldegid-0001",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Formaldegidning \"kumush ko'zgu\" reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegidlar: kumush oksidning ammiakli eritmasi bilan oksidlanish (Tollens)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "HCHO",
+     "state": "aq",
+     "conc_M": 1.3,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 25
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Toza (ishqor bilan yog'sizlantirilgan) probirkada iliq suv hammomida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "HCHO + 4[Ag(NH3)2]OH → (NH4)2CO3 + 4Ag + 6NH3 + 2H2O",
+    "ionic_full": "HCHO + 4[Ag(NH3)2]⁺ + 4OH⁻ → CO3²⁻ + 2NH4⁺ + 4Ag + 6NH3 + 2H2O",
+    "ionic_net": "HCHO + 4[Ag(NH3)2]⁺ + 4OH⁻ → CO3²⁻ + 2NH4⁺ + 4Ag + 6NH3 + 2H2O",
+    "electron_balance": [
+     "C⁰ − 4e⁻ = C⁺⁴",
+     "Ag⁺ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Ishqoriy muhitda OH⁻ karbonil uglerodga birikadi; aldegid guruhining C–H bog'idagi elektronlar Ag⁺ ga o'tadi.",
+     "Formaldegid avval formiat ioniga, so'ng (formiatda ham aldegid guruhi bor) karbonatgacha oksidlanadi — jami 4 elektron beradi.",
+     "Har bir Ag⁺ bitta elektron olib metall kumushga qaytariladi va shisha devorga o'tiradi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "H–CHO",
+      "oxidant": "[Ag(NH3)2]⁺",
+      "product": "CO3²⁻ (H–COO⁻ orqali)"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#5a5a5a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "mirror"
+     }
+    ],
+    "text_uz": "Probirka devorida yaltiroq kumush qatlami (\"kumush ko'zgu\") hosil bo'ladi. Formaldegid boshqa aldegidlarga qaraganda ko'proq kumush qaytaradi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkani NaOH eritmasi bilan qaynatib yog'sizlantiring va distillangan suv bilan chaying.",
+    "Unga 2 ml kumush oksidning ammiakli eritmasidan quying.",
+    "3–4 tomchi formalin qo'shing va probirkani 50–60 °C li suv hammomiga qo'ying (chayqatmang).",
+    "Devorda kumush qatlami paydo bo'lishini kuzating."
+   ],
+   "safety_uz": "Kumushning ammiakli eritmasini faqat tajriba oldidan tayyorlang va qoldiqni darhol to'kib yuboring (saqlansa portlovchi birikmalar hosil bo'ladi); probirkani ochiq alangada emas, suv hammomida qizdiring. Formaldegid zaharli va kanserogen, shilliq qavatlarni qitiqlaydi: mo'rili shkafda, qo'lqopda ishlang.",
+   "explanation_uz": "Aldegidlar oson oksidlanadi va kumush(I) ionlarini metall kumushgacha qaytaradi — bu aldegid guruhiga sifat reaksiyasi. Formaldegid molekulasida ikki C–H bog'i bo'lgani uchun u karbonatgacha oksidlanib, bir molekulasi to'rtta kumush atomini qaytaradi.",
+   "questions_uz": [
+    "1 mol formaldegid va 1 mol atsetaldegid necha mol kumush qaytaradi?",
+    "Nima uchun probirka yog'sizlantirilishi kerak?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0002",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning \"kumush ko'zgu\" reaksiyasi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegidlar: Tollens reaktivi bilan oksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 50,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Iliq suv hammomida, probirka chayqatilmasdan qizdiriladi."
+   },
+   "equation": {
+    "molecular": "CH3CHO + 2[Ag(NH3)2]OH → CH3COONH4 + 2Ag + 3NH3 + H2O",
+    "ionic_full": "CH3CHO + 2[Ag(NH3)2]⁺ + 2OH⁻ → CH3COO⁻ + NH4⁺ + 2Ag + 3NH3 + H2O",
+    "ionic_net": "CH3CHO + 2[Ag(NH3)2]⁺ + 2OH⁻ → CH3COO⁻ + NH4⁺ + 2Ag + 3NH3 + H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Ag⁺ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Gidroksid ioni aldegid guruhining karbonil uglerodiga birikadi (gidrat anion).",
+     "Aldegid guruhidagi C–H bog'ining elektron jufti hisobiga ikki elektron Ag⁺ ionlariga o'tadi: C⁺¹ → C⁺³.",
+     "Aldegid atsetat ioniga oksidlanadi, kumush ionlari metall kumushgacha qaytarilib devorga o'tiradi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "oxidant": "[Ag(NH3)2]⁺",
+      "product": "CH3–COO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ffffff",
+     "to": "#5a5a5a"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "mirror"
+     }
+    ],
+    "text_uz": "Probirka devorida yaltiroq kumush qatlami (\"kumush ko'zgu\") hosil bo'ladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Toza yog'sizlantirilgan probirkaga 2 ml kumush oksidning ammiakli eritmasidan quying.",
+    "Bir necha tomchi atsetaldegid eritmasi qo'shing.",
+    "Probirkani 50–60 °C li suv hammomida chayqatmasdan qizdiring va devorni kuzating."
+   ],
+   "safety_uz": "Kumushning ammiakli eritmasini faqat tajriba oldidan tayyorlang va qoldiqni darhol to'kib yuboring (saqlansa portlovchi birikmalar hosil bo'ladi); probirkani ochiq alangada emas, suv hammomida qizdiring. Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang.",
+   "explanation_uz": "Aldegid guruhi kuchsiz oksidlovchilar ta'sirida ham karboksil guruhga oksidlanadi, kumush esa ko'zgu ko'rinishida ajraladi. Ketonlarda karbonil uglerodida vodorod bo'lmagani uchun ular bu reaksiyani bermaydi — kumush ko'zgu reaksiyasi aldegidlarni ketonlardan farqlaydi.",
+   "questions_uz": [
+    "Reaksiya uchun elektron balans tuzing.",
+    "Qaysi boshqa birikmalar kumush ko'zgu reaksiyasini beradi (chumoli kislota, glyukoza)?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0003",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Benzaldegidning \"kumush ko'zgu\" reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Aromatik aldegidlar: Tollens reaktivi bilan oksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H5CHO",
+     "state": "l",
+     "volume_mL": 0.1
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 12
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 60,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma chayqatib aralashtirilib, iliq suv hammomida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "C6H5CHO + 2[Ag(NH3)2]OH → C6H5COONH4 + 2Ag + 3NH3 + H2O",
+    "ionic_full": "C6H5CHO + 2[Ag(NH3)2]⁺ + 2OH⁻ → C6H5COO⁻ + NH4⁺ + 2Ag + 3NH3 + H2O",
+    "ionic_net": "C6H5CHO + 2[Ag(NH3)2]⁺ + 2OH⁻ → C6H5COO⁻ + NH4⁺ + 2Ag + 3NH3 + H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Ag⁺ + 1e⁻ = Ag⁰"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Benzaldegid suvda kam eriydi, reaksiya fazalar chegarasida boradi.",
+     "Aldegid guruhining uglerodi ikki elektron berib karboksilat guruhga oksidlanadi.",
+     "Ag⁺ ionlari metall kumushgacha qaytariladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "C6H5–CHO",
+      "oxidant": "[Ag(NH3)2]⁺",
+      "product": "C6H5–COO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "mirror"
+     }
+    ],
+    "text_uz": "Probirka devorida kumush qatlami yoki kulrang-qora kumush cho'kmasi hosil bo'ladi; alifatik aldegidlarga qaraganda sekinroq."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Toza probirkaga 2 ml kumush oksidning ammiakli eritmasidan quying.",
+    "1–2 tomchi benzaldegid qo'shib chayqating.",
+    "Iliq suv hammomida qizdirib, kumush ajralishini kuzating."
+   ],
+   "safety_uz": "Kumushning ammiakli eritmasini faqat tajriba oldidan tayyorlang va qoldiqni darhol to'kib yuboring (saqlansa portlovchi birikmalar hosil bo'ladi); probirkani ochiq alangada emas, suv hammomida qizdiring. Benzaldegid zararli, ko'z va terini qitiqlaydi.",
+   "explanation_uz": "Aromatik aldegidlar ham aldegid guruhi hisobiga Tollens reaktivini qaytaradi. Biroq ular Feling suyuqligini (mis(II) ionlarini) amalda qaytarmaydi — bu alifatik va aromatik aldegidlarni farqlash usuli.",
+   "questions_uz": [
+    "Benzaldegid va atsetaldegidni qanday reaktiv yordamida farqlash mumkin?",
+    "Benzaldegid oksidlanganda qaysi kislota hosil bo'ladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0004",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning \"kumush ko'zgu\" reaksiyasini bermasligi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegid va ketonlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "CH3COCH3",
+    "[Ag(NH3)2]⁺"
+   ],
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Tollens",
+     "state": "aq",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma iliq suv hammomida qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Asetonda karbonil guruh ikki uglerod atomi bilan bog'langan, unda C–H bog'i yo'q.",
+     "Kuchsiz oksidlovchi (Ag⁺) C–C bog'larini uza olmaydi, shuning uchun keton oksidlanmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Eritma tiniq va rangsiz qoladi, kumush ajralmaydi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Toza probirkaga 2 ml kumush oksidning ammiakli eritmasidan quying.",
+    "0,5 ml aseton qo'shing va iliq suv hammomida qizdiring.",
+    "Natijani atsetaldegid bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Kumushning ammiakli eritmasini faqat tajriba oldidan tayyorlang va qoldiqni darhol to'kib yuboring (saqlansa portlovchi birikmalar hosil bo'ladi); probirkani ochiq alangada emas, suv hammomida qizdiring. Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang.",
+   "explanation_uz": "Ketonlar kuchsiz oksidlovchilarga chidamli, chunki ularning karbonil uglerodida vodorod atomi yo'q. Shu sababli kumush ko'zgu va Feling reaksiyalari aldegidlarni ketonlardan ishonchli farqlaydi.",
+   "questions_uz": [
+    "Propanal va asetonni qanday farqlash mumkin?",
+    "Ketonlarni qanday sharoitda oksidlash mumkin?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0005",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning mis(II) gidroksid bilan oksidlanishi (qizil Cu₂O)",
+   "level": "10-sinf",
+   "topic_uz": "Aldegidlar: mis(II) gidroksid bilan sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Yangi tayyorlangan ko'k Cu(OH)₂ cho'kmasiga ishqoriy muhitda atsetaldegid qo'shilib qaynaguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": "CH3CHO + 2Cu(OH)2 + NaOH → CH3COONa + Cu2O↓ + 3H2O",
+    "ionic_full": "CH3CHO + 2Cu(OH)2 + Na⁺ + OH⁻ → CH3COO⁻ + Na⁺ + Cu2O↓ + 3H2O",
+    "ionic_net": "CH3CHO + 2Cu(OH)2 + OH⁻ → CH3COO⁻ + Cu2O↓ + 3H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "2Cu⁺² + 2e⁻ = 2Cu⁺¹"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Qizdirilganda aldegid guruhi ikki elektron berib karboksilat guruhga oksidlanadi.",
+     "Ikki Cu²⁺ ioni bittadan elektron olib Cu⁺ ga qaytariladi.",
+     "Cu⁺ ionlari ishqoriy muhitda avval sariq CuOH, so'ng qizil Cu₂O cho'kmasini hosil qiladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "oxidant": "Cu(OH)2 (Cu²⁺)",
+      "product": "CH3–COO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu2O",
+     "color": "#b8321e",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#4a9be0",
+     "to": "#e8d8b0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qizdirilganda ko'k cho'kma avval sarg'ayadi, so'ng g'isht-qizil Cu₂O cho'kmasiga aylanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml NaOH eritmasi va bir necha tomchi CuSO₄ eritmasi quyib, ko'k Cu(OH)₂ cho'kmasini oling.",
+    "1 ml atsetaldegid eritmasi qo'shing.",
+    "Aralashmani qaynaguncha qizdiring va cho'kma rangining o'zgarishini kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi o'yuvchi: ko'zoynak taqing. Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang. Probirka og'zini odamlarga qaratmang.",
+   "explanation_uz": "Aldegidlar qizdirilganda yangi tayyorlangan mis(II) gidroksidni mis(I) oksidgacha qaytaradi — ko'k cho'kmaning g'isht-qizil rangga o'tishi aldegid guruhining sifat belgisi. Ketonlar va aromatik aldegidlar bu reaksiyani bermaydi.",
+   "questions_uz": [
+    "Reaksiyada qaysi element oksidlanadi, qaysisi qaytariladi?",
+    "Nima uchun mis(II) gidroksid yangi tayyorlangan bo'lishi kerak?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0006",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Formaldegidning Feling suyuqligi bilan reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Aldegidlar: Feling reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "HCHO",
+     "state": "aq",
+     "conc_M": 1.3,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Feling",
+     "state": "aq",
+     "volume_mL": 15
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Feling suyuqligi (CuSO₄ + segnet tuzining ishqoriy eritmasi) formalin bilan qaynaguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": "HCHO + 2Cu(OH)2 + NaOH → HCOONa + Cu2O↓ + 3H2O",
+    "ionic_full": "HCHO + 2Cu(OH)2 + Na⁺ + OH⁻ → HCOO⁻ + Na⁺ + Cu2O↓ + 3H2O",
+    "ionic_net": "HCHO + 2Cu(OH)2 + OH⁻ → HCOO⁻ + Cu2O↓ + 3H2O",
+    "electron_balance": [
+     "C⁰ − 2e⁻ = C⁺²",
+     "2Cu⁺² + 2e⁻ = 2Cu⁺¹"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Feling suyuqligida Cu²⁺ ionlari tartrat bilan kompleks holida — ishqoriy muhitda ham cho'kmaga tushmaydi.",
+     "Qizdirilganda formaldegid formiat ioniga oksidlanadi va ikki elektron beradi.",
+     "Cu²⁺ Cu⁺ ga qaytariladi va g'isht-qizil Cu₂O cho'kmasi tushadi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "H–CHO",
+      "oxidant": "Cu²⁺ (Feling suyuqligi)",
+      "product": "H–COO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "Cu2O",
+     "color": "#b8321e",
+     "texture": "kukunsimon"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#2a4ad0",
+     "to": "#e8e0d0"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "To'q ko'k eritma qizdirilganda xiralashadi, avval sariq-yashil, keyin g'isht-qizil cho'kma tushadi va ko'k rang kuchsizlanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga teng hajmda Feling I (CuSO₄) va Feling II (segnet tuzining ishqoriy eritmasi) eritmalaridan 2 ml quying.",
+    "3–4 tomchi formalin qo'shing.",
+    "Qaynaguncha qizdiring va cho'kmani kuzating."
+   ],
+   "safety_uz": "Formaldegid zaharli va kanserogen, shilliq qavatlarni qitiqlaydi: mo'rili shkafda, qo'lqopda ishlang. Ishqor eritmasi o'yuvchi: ko'zoynak taqing.",
+   "explanation_uz": "Feling suyuqligi aldegidlarni aniqlash uchun ishlatiladigan mis(II) ning ishqoriy kompleks eritmasi. Aldegidlar uni qizdirilganda g'isht-qizil Cu₂O gacha qaytaradi; ortiqcha reaktivda formiat ham oksidlanishi mumkin.",
+   "questions_uz": [
+    "Feling suyuqligi qanday tayyorlanadi?",
+    "Feling reaksiyasi tibbiyotda qaysi moddani aniqlashda qo'llanilgan?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0007",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Benzaldegidning Feling suyuqligi bilan reaksiyaga kirishmasligi",
+   "level": "universitet",
+   "topic_uz": "Alifatik va aromatik aldegidlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "C6H5CHO",
+    "Cu(OH)2"
+   ],
+   "reactants": [
+    {
+     "species": "C6H5CHO",
+     "state": "l",
+     "volume_mL": 0.1
+    },
+    {
+     "species": "Feling",
+     "state": "aq",
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aralashma qaynaguncha qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Aromatik halqa bilan tutashgan karbonil guruh kamroq elektrofil, benzaldegidda α-vodorod ham yo'q.",
+     "Feling suyuqligidagi kompleks Cu²⁺ ionlari bunday sharoitda benzaldegidni oksidlay olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qizdirilganda ham qizil cho'kma hosil bo'lmaydi; eritma ko'k rangligicha qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml Feling suyuqligi quying.",
+    "1–2 tomchi benzaldegid qo'shib qaynaguncha qizdiring.",
+    "Natijani atsetaldegid va Tollens reaktivi bilan o'tkazilgan tajribalar bilan solishtiring."
+   ],
+   "safety_uz": "Benzaldegid zararli; Feling suyuqligi ishqoriy va o'yuvchi — ko'zoynak taqing.",
+   "explanation_uz": "Aromatik aldegidlar Tollens reaktivini qaytaradi, ammo Feling suyuqligi bilan odatda manfiy natija beradi. Shu sababli bu ikki reaktiv birgalikda alifatik va aromatik aldegidlarni farqlashga yordam beradi.",
+   "questions_uz": [
+    "Benzaldegid va atsetaldegidni qaysi reaktiv bilan farqlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0008",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning mis(II) gidroksid bilan qizdirilganda reaksiyaga kirishmasligi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegid va ketonlarni farqlash",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "CH3COCH3",
+    "Cu(OH)2"
+   ],
+   "reactants": [
+    {
+     "species": "Cu(OH)2",
+     "state": "s",
+     "mass_g": 0.1
+    },
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Ishqoriy muhitda yangi tayyorlangan Cu(OH)₂ ga aseton qo'shib qizdiriladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Asetonning karbonil uglerodida vodorod yo'q — kuchsiz oksidlovchi uni oksidlay olmaydi.",
+     "Qizdirilganda Cu(OH)₂ faqat suv yo'qotib qora CuO ga aylanishi mumkin, Cu₂O hosil bo'lmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Qizil cho'kma hosil bo'lmaydi; uzoq qizdirilsa ko'k cho'kma qorayadi (CuO)."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "spirt-lampasi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkada CuSO₄ va NaOH eritmalaridan Cu(OH)₂ cho'kmasini oling.",
+    "0,5 ml aseton qo'shib qizdiring.",
+    "Natijani atsetaldegid bilan solishtiring."
+   ],
+   "safety_uz": "Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang. Asetonli probirkani ochiq alangada qizdirishda ehtiyot bo'ling — suv hammomidan foydalangan ma'qul.",
+   "explanation_uz": "Mis(II) gidroksid bilan qizil Cu₂O hosil bo'lishi faqat aldegidlar uchun xos. Asetonning bu reaksiyani bermasligi ketonlarning kuchsiz oksidlovchilarga chidamliligini ko'rsatadi.",
+   "questions_uz": [
+    "Uchta probirkada etanol, atsetaldegid va aseton bor. Ularni qanday aniqlaysiz?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0009",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning kislotali muhitda kaliy permanganat bilan oksidlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegidlar: kuchli oksidlovchilar bilan oksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "5CH3CHO + 2KMnO4 + 3H2SO4 → 5CH3COOH + 2MnSO4 + K2SO4 + 3H2O",
+    "ionic_full": "5CH3CHO + 2K⁺ + 2MnO4⁻ + 6H⁺ + 3SO4²⁻ → 5CH3COOH + 2Mn²⁺ + 2SO4²⁻ + 2K⁺ + SO4²⁻ + 3H2O",
+    "ionic_net": "5CH3CHO + 2MnO4⁻ + 6H⁺ → 5CH3COOH + 2Mn²⁺ + 3H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Aldegid guruhining uglerod atomi (C⁺¹) ikki elektron berib karboksil uglerodiga (C⁺³) aylanadi.",
+     "Kislotali muhitda Mn⁺⁷ besh elektron olib Mn²⁺ ga qaytariladi.",
+     "Elektronlar tenglashtiriladi: 5 molekula aldegid — 2 ta MnO₄⁻."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "oxidant": "MnO4⁻, H⁺",
+      "product": "CH3–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#8e1a8e",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Binafsha eritma tez rangsizlanadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml KMnO₄ eritmasi va 1 ml suyultirilgan sulfat kislota quying.",
+    "Tomizgich bilan atsetaldegid eritmasini qo'shib chayqating.",
+    "Rang o'zgarishini aseton bilan o'tkazilgan tajriba bilan solishtiring."
+   ],
+   "safety_uz": "Kaliy permanganat kuchli oksidlovchi, terini va kiyimni bo'yaydi; ko'zoynak taqing. Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang.",
+   "explanation_uz": "Aldegidlar kuchli oksidlovchilar ta'sirida oson karbon kislotalarga oksidlanadi va permanganat eritmasini rangsizlantiradi. Sanoatda sirka kislota atsetaldegidni katalitik oksidlash yo'li bilan ham olinadi.",
+   "questions_uz": [
+    "Elektron balans usulida koeffitsiyentlarni toping.",
+    "Aseton bu sharoitda permanganatni rangsizlantiradimi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0010",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning kaliy dixromat bilan oksidlanishi",
+   "level": "litsey",
+   "topic_uz": "Aldegidlar: oksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "K2Cr2O7",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 2
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": null
+   },
+   "equation": {
+    "molecular": "3CH3CHO + K2Cr2O7 + 4H2SO4 → 3CH3COOH + Cr2(SO4)3 + K2SO4 + 4H2O",
+    "ionic_full": "3CH3CHO + 2K⁺ + Cr2O7²⁻ + 8H⁺ + 4SO4²⁻ → 3CH3COOH + 2Cr³⁺ + 3SO4²⁻ + 2K⁺ + SO4²⁻ + 4H2O",
+    "ionic_net": "3CH3CHO + Cr2O7²⁻ + 8H⁺ → 3CH3COOH + 2Cr³⁺ + 4H2O",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "2Cr⁺⁶ + 6e⁻ = 2Cr⁺³"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Aldegid suvli muhitda gidrat shakliga o'tadi va xromat efirini hosil qiladi.",
+     "Efir parchalanib karboksil guruh hosil bo'ladi (C⁺¹ → C⁺³).",
+     "Cr⁺⁶ (to'q sariq) Cr³⁺ (yashil) ga qaytariladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "oxidant": "Cr2O7²⁻, H⁺",
+      "product": "CH3–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": {
+     "from": "#ef7d1a",
+     "to": "#5f8a6e"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "To'q sariq eritma yashil rangga o'tadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml kaliy dixromat eritmasi va 2 ml suyultirilgan sulfat kislota quying.",
+    "0,5 ml atsetaldegid eritmasi qo'shib chayqating.",
+    "Rang o'zgarishini kuzating."
+   ],
+   "safety_uz": "Kaliy dixromat zaharli va kanserogen: qo'lqopda ishlang, chiqindini alohida yig'ing. Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang.",
+   "explanation_uz": "Kaliy dixromat kislotali muhitda aldegidlarni karbon kislotalarga oksidlaydi; rangning to'q sariqdan yashilga o'tishi Cr⁺⁶ ning Cr³⁺ gacha qaytarilganini ko'rsatadi. Spirtning dixromat bilan oksidlanishida aldegid oraliq mahsulot bo'ladi.",
+   "questions_uz": [
+    "Etanoldan sirka kislotagacha oksidlanishda uglerodning oksidlanish darajasi qanday o'zgaradi?",
+    "Reaksiyaning qisqartirilgan ionli tenglamasini tushuntiring."
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0011",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Formaldegidning kislotali muhitda permanganat bilan to'liq oksidlanishi",
+   "level": "universitet",
+   "topic_uz": "Aldegidlar: formaldegidning o'ziga xos oksidlanishi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.05,
+     "volume_mL": 3
+    },
+    {
+     "species": "H2SO4",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "HCHO",
+     "state": "aq",
+     "conc_M": 1.3,
+     "volume_mL": 0.5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "kislotali",
+    "light": false,
+    "note_uz": "Ortiqcha permanganat bilan biroz isitiladi."
+   },
+   "equation": {
+    "molecular": "5HCHO + 4KMnO4 + 6H2SO4 → 5CO2↑ + 4MnSO4 + 2K2SO4 + 11H2O",
+    "ionic_full": "5HCHO + 4K⁺ + 4MnO4⁻ + 12H⁺ + 6SO4²⁻ → 5CO2↑ + 4Mn²⁺ + 4SO4²⁻ + 4K⁺ + 2SO4²⁻ + 11H2O",
+    "ionic_net": "5HCHO + 4MnO4⁻ + 12H⁺ → 5CO2↑ + 4Mn²⁺ + 11H2O",
+    "electron_balance": [
+     "C⁰ − 4e⁻ = C⁺⁴",
+     "Mn⁺⁷ + 5e⁻ = Mn⁺²"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Formaldegid avval chumoli kislotaga oksidlanadi (C⁰ → C⁺²).",
+     "Chumoli kislotada ham aldegid guruhi bor, u yana oksidlanib CO₂ hosil qiladi (C⁺² → C⁺⁴).",
+     "Mn⁺⁷ Mn²⁺ gacha qaytariladi; jami 5 HCHO 20 e⁻ beradi, 4 MnO₄⁻ 20 e⁻ oladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "H–CHO",
+      "oxidant": "MnO4⁻, H⁺",
+      "product": "CO2 (H–COOH orqali)"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "desc_uz": null
+    },
+    "solution_color_change": {
+     "from": "#8e1a8e",
+     "to": "#ffffff"
+    },
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "bubbles"
+     }
+    ],
+    "text_uz": "Permanganat rangsizlanadi va mayda gaz pufakchalari (CO₂) ajraladi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Probirkaga 3 ml KMnO₄ eritmasi va 2 ml suyultirilgan sulfat kislota quying.",
+    "Bir necha tomchi formalin qo'shib, iliq suv hammomida biroz isiting.",
+    "Rangsizlanish va gaz ajralishini kuzating."
+   ],
+   "safety_uz": "Formaldegid zaharli va kanserogen, shilliq qavatlarni qitiqlaydi: mo'rili shkafda, qo'lqopda ishlang. Kaliy permanganat kuchli oksidlovchi, terini va kiyimni bo'yaydi; ko'zoynak taqing.",
+   "explanation_uz": "Formaldegid boshqa aldegidlardan farqli ravishda oksidlanganda chumoli kislota orqali uglerod(IV) oksidgacha oksidlanadi, chunki chumoli kislota molekulasida ham aldegid guruhi saqlanadi. Shuning uchun formaldegid eng kuchli qaytaruvchi aldegid hisoblanadi.",
+   "questions_uz": [
+    "Nima uchun chumoli kislota ham kumush ko'zgu reaksiyasini beradi?",
+    "Reaksiya uchun elektron balans tuzing."
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0012",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning sovuqda kaliy permanganat eritmasini rangsizlantirmasligi",
+   "level": "10-sinf",
+   "topic_uz": "Ketonlarning oksidlovchilarga chidamliligi",
+   "engine": "record",
+   "no_reaction": true,
+   "match": [
+    "CH3COCH3",
+    "MnO4⁻"
+   ],
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "KMnO4",
+     "state": "aq",
+     "conc_M": 0.02,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Xona haroratida chayqatiladi."
+   },
+   "equation": {
+    "molecular": null,
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Ketonning karbonil uglerodida vodorod yo'q, oksidlanish uchun C–C bog'i uzilishi kerak.",
+     "Xona haroratida suyultirilgan permanganat buni amalga oshira olmaydi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [],
+    "text_uz": "Binafsha rang uzoq vaqt saqlanib qoladi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml suyultirilgan KMnO₄ eritmasidan quying.",
+    "0,5 ml aseton qo'shib chayqating.",
+    "Rangni atsetaldegid bilan o'tkazilgan tajriba natijasi bilan solishtiring."
+   ],
+   "safety_uz": "Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang. Kaliy permanganat kuchli oksidlovchi, terini va kiyimni bo'yaydi; ko'zoynak taqing.",
+   "explanation_uz": "Ketonlar aldegidlardan farqli ravishda oson oksidlanmaydi; ular faqat kuchli oksidlovchilar ta'sirida qizdirilganda, uglerod zanjiri uzilishi bilan oksidlanadi. Shu sababli aseton permanganat uchun erituvchi sifatida ham ishlatilishi mumkin.",
+   "questions_uz": [
+    "Aseton kuchli oksidlovchilar bilan qizdirilganda qanday mahsulotlar hosil bo'ladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0013",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning yodoform reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Metilketonlarga sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.3
+    },
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 3
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aseton eritmasiga yodning KI dagi eritmasi va NaOH eritmasi (yod rangi yo'qolguncha) qo'shiladi; xona haroratida boradi."
+   },
+   "equation": {
+    "molecular": "CH3COCH3 + 3I2 + 4NaOH → CHI3↓ + CH3COONa + 3NaI + 3H2O",
+    "ionic_full": "CH3COCH3 + 3I2 + 4Na⁺ + 4OH⁻ → CHI3↓ + CH3COO⁻ + Na⁺ + 3Na⁺ + 3I⁻ + 3H2O",
+    "ionic_net": "CH3COCH3 + 3I2 + 4OH⁻ → CHI3↓ + CH3COO⁻ + 3I⁻ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "OH⁻ ioni karbonilga qo'shni metil guruhidan protonni tortib enolat ionini hosil qiladi.",
+     "Enolat yod bilan reaksiyaga kirishadi; jarayon uch marta takrorlanib CI₃–CO–CH₃ hosil bo'ladi.",
+     "OH⁻ ioni karbonil uglerodga hujum qiladi, C–CI₃ bog'i uziladi: CHI₃ (yodoform) va atsetat ioni hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CO–CH3",
+      "oxidant": "I2 + OH⁻",
+      "product": "CHI3 + CH3COO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CHI3",
+     "color": "#f2d23a",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Yod rangi yo'qoladi va o'ziga xos hidli och sariq yodoform cho'kmasi tushadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml suv va 2–3 tomchi aseton quying.",
+    "3 ml yodning KI dagi eritmasidan qo'shing.",
+    "NaOH eritmasini tomchilab, yod rangi yo'qolguncha qo'shing.",
+    "Sariq cho'kma va hidni kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi o'yuvchi: ko'zoynak taqing. Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang.",
+   "explanation_uz": "CH₃–CO– guruhli birikmalar (metilketonlar, atsetaldegid) ishqoriy muhitda yod bilan sariq yodoform hosil qiladi. Bu reaksiya metilketonlarni boshqa ketonlardan farqlashda va yodoform (antiseptik) olishda qo'llaniladi.",
+   "questions_uz": [
+    "Pentanon-2 va pentanon-3 ni qanday farqlash mumkin?",
+    "Yodoform qayerda ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0014",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning yodoform reaksiyasi",
+   "level": "litsey",
+   "topic_uz": "Aldegidlar: CH₃–CO– guruhga sifat reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 0.5
+    },
+    {
+     "species": "Lugol",
+     "state": "aq",
+     "volume_mL": 3
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 2,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Atsetaldegid eritmasiga yodning KI dagi eritmasi va NaOH eritmasi qo'shiladi."
+   },
+   "equation": {
+    "molecular": "CH3CHO + 3I2 + 4NaOH → CHI3↓ + HCOONa + 3NaI + 3H2O",
+    "ionic_full": "CH3CHO + 3I2 + 4Na⁺ + 4OH⁻ → CHI3↓ + HCOO⁻ + Na⁺ + 3Na⁺ + 3I⁻ + 3H2O",
+    "ionic_net": "CH3CHO + 3I2 + 4OH⁻ → CHI3↓ + HCOO⁻ + 3I⁻ + 3H2O",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Ishqor metil guruhidan protonni tortib enolat ioni hosil qiladi.",
+     "Metil guruhidagi uchta vodorod atomi ketma-ket yodga almashinadi: CI₃–CHO.",
+     "OH⁻ ioni karbonil uglerodiga birikib C–C bog'ini uzadi: yodoform va formiat ioni hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "oxidant": "I2 + OH⁻",
+      "product": "CHI3 + HCOO⁻"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CHI3",
+     "color": "#f2d23a",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": {
+     "from": "#b0682a",
+     "to": "#ffffff"
+    },
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "turbidity"
+     },
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Yod rangi yo'qoladi va och sariq yodoform cho'kmasi tushadi."
+   },
+   "kinetics": "tez",
+   "apparatus": [
+    "probirka",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Probirkaga 0,5 ml atsetaldegid eritmasi quying.",
+    "3 ml yodning KI dagi eritmasini qo'shing.",
+    "NaOH eritmasini yod rangi yo'qolguncha tomchilab qo'shing va cho'kmani kuzating."
+   ],
+   "safety_uz": "Ishqor eritmasi o'yuvchi: ko'zoynak taqing. Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang.",
+   "explanation_uz": "Aldegidlar ichida faqat atsetaldegid CH₃–CO– guruhiga ega, shuning uchun yodoform reaksiyasini beradi; formaldegid va propanal bermaydi. Reaksiyada metil guruh yodoformga, aldegid guruhi esa formiatga aylanadi.",
+   "questions_uz": [
+    "Formaldegid, atsetaldegid va propanaldan qaysilari yodoform reaksiyasini beradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0015",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidga natriy gidrosulfitning birikishi",
+   "level": "litsey",
+   "topic_uz": "Karbonil birikmalar: nukleofil birikish (Ad_N)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    },
+    {
+     "species": "NaHSO3",
+     "state": "aq",
+     "conc_M": 3,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Natriy gidrosulfitning to'yingan eritmasi ishlatiladi; aralashma sovuq suvda sovitiladi."
+   },
+   "equation": {
+    "molecular": "CH3CHO + NaHSO3 → CH3CH(OH)SO3Na↓",
+    "ionic_full": "CH3CHO + Na⁺ + HSO3⁻ → CH3CH(OH)SO3Na↓",
+    "ionic_net": "CH3CHO + Na⁺ + HSO3⁻ → CH3CH(OH)SO3Na↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Karbonil guruhda kislorod elektronlarni o'ziga tortadi, uglerod atomida qisman musbat zaryad hosil bo'ladi.",
+     "Gidrosulfit ionining oltingugurt atomidagi taqsimlanmagan elektron jufti karbonil uglerodiga hujum qiladi, π-bog' elektronlari kislorodga o'tadi.",
+     "Proton kislorodga ko'chadi — oq kristall gidrosulfitli birikma hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "AdN",
+     "params": {
+      "carbonyl": "CH3–CHO",
+      "nucleophile": "HSO3⁻ (oltingugurt atomi)",
+      "intermediate": "CH3–CH(O⁻)–SO3H",
+      "product": "CH3–CH(OH)–SO3Na"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "CH3CH(OH)SO3Na",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crystals"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Aralashma isiydi va sovitilganda oq kristall cho'kma ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml natriy gidrosulfitning to'yingan eritmasidan quying.",
+    "1 ml atsetaldegid eritmasini qo'shib chayqating.",
+    "Probirkani sovuq suvda sovitib, oq kristallarni kuzating."
+   ],
+   "safety_uz": "Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang. Gidrosulfit eritmasidan SO₂ hidi kelishi mumkin — bug'ini hidlamang.",
+   "explanation_uz": "Aldegidlar va metilketonlar karbonil guruhi bo'yicha nukleofillarni biriktiradi. Gidrosulfitli birikmalar kristall holda ajraladi va kislota yoki ishqor ta'sirida qayta aldegidga parchalanadi — bu karbonil birikmalarni aralashmalardan ajratib tozalashda ishlatiladi.",
+   "questions_uz": [
+    "Nima uchun karbonil uglerod nukleofillar hujumiga uchraydi?",
+    "Gidrosulfitli birikmadan aldegidni qanday qayta ajratib olish mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0016",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonga natriy gidrosulfitning birikishi",
+   "level": "litsey",
+   "topic_uz": "Ketonlar: nukleofil birikish (Ad_N)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "NaHSO3",
+     "state": "aq",
+     "conc_M": 3,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Natriy gidrosulfitning to'yingan eritmasiga aseton qo'shib chayqatiladi va sovitiladi."
+   },
+   "equation": {
+    "molecular": "CH3COCH3 + NaHSO3 → (CH3)2C(OH)SO3Na↓",
+    "ionic_full": "CH3COCH3 + Na⁺ + HSO3⁻ → (CH3)2C(OH)SO3Na↓",
+    "ionic_net": "CH3COCH3 + Na⁺ + HSO3⁻ → (CH3)2C(OH)SO3Na↓",
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Asetonning karbonil uglerodida qisman musbat zaryad bor (aldegidlarnikidan kamroq — ikki metil guruh elektron beradi).",
+     "HSO₃⁻ ionining oltingugurt atomi karbonil uglerodiga hujum qiladi, π-bog' elektronlari kislorodga o'tadi.",
+     "Proton ko'chishidan so'ng oq kristall gidrosulfitli birikma hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "AdN",
+     "params": {
+      "carbonyl": "CH3–CO–CH3",
+      "nucleophile": "HSO3⁻",
+      "intermediate": "(CH3)2C(O⁻)–SO3H",
+      "product": "(CH3)2C(OH)–SO3Na"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "(CH3)2C(OH)SO3Na",
+     "color": "#f6f6f2",
+     "texture": "mayda-kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crystals"
+     },
+     {
+      "type": "turbidity"
+     }
+    ],
+    "text_uz": "Chayqatilganda aralashma isiydi, sovitilganda oq kristall massa ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml natriy gidrosulfitning to'yingan eritmasidan quying.",
+    "0,5 ml aseton qo'shib kuchli chayqating.",
+    "Probirkani muzli suvda sovitib, kristallarni kuzating."
+   ],
+   "safety_uz": "Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang.",
+   "explanation_uz": "Metilketonlar ham, aldegidlar kabi, natriy gidrosulfit bilan kristall birikmalar hosil qiladi; hajmli guruhli ketonlar esa fazoviy to'siq tufayli bu reaksiyani bermaydi. Reaksiya karbonil guruhning nukleofil birikishga moyilligini ko'rsatadi.",
+   "questions_uz": [
+    "Aldegidlar ketonlarga qaraganda nukleofil birikishga nega faolroq?",
+    "Bu reaksiyadan qanday amaliy maqsadda foydalaniladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0017",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Formaldegid va ammiakdan urotropin olish",
+   "level": "litsey",
+   "topic_uz": "Aldegidlar: ammiak bilan reaksiyasi (kondensatlanish)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "HCHO",
+     "state": "aq",
+     "conc_M": 13.3,
+     "volume_mL": 2
+    },
+    {
+     "species": "NH3",
+     "state": "aq",
+     "conc_M": 13.3,
+     "volume_mL": 2
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Formalinga konsentrlangan ammiakli suv qo'shiladi; eritma bug'latilsa urotropin kristallari olinadi."
+   },
+   "equation": {
+    "molecular": "6HCHO + 4NH3 → (CH2)6N4 + 6H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Ammiak azotining taqsimlanmagan elektron jufti formaldegid karbonil uglerodiga hujum qiladi — aminometanol hosil bo'ladi.",
+     "Suv ajralib beqaror imin CH₂=NH hosil bo'ladi.",
+     "Uch imin molekulasi siklik trimerga birikadi va qolgan formaldegid hamda ammiak bilan kondensatlanib, kafassimon urotropin molekulasini hosil qiladi."
+    ],
+    "organic": {
+     "template": "AdN",
+     "params": {
+      "carbonyl": "H–CHO",
+      "nucleophile": "NH3",
+      "intermediate": "H2N–CH2–OH → CH2=NH (imin)",
+      "product": "(CH2)6N4 (urotropin)"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Aralashma isiydi, formaldegid hidi yo'qoladi; eritma bug'latilganda rangsiz kristallar (urotropin) qoladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "chinni-kosacha",
+    "tomizgich",
+    "suv-hammomi"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga 2 ml formalin quying.",
+    "Mo'rili shkafda 2 ml konsentrlangan ammiakli suv qo'shing.",
+    "Aralashmani suv hammomida quruq qolguncha bug'lating va kristallarni kuzating."
+   ],
+   "safety_uz": "Formaldegid zaharli va kanserogen, shilliq qavatlarni qitiqlaydi: mo'rili shkafda, qo'lqopda ishlang. Konsentrlangan ammiak bug'lari bo'g'uvchi; mo'rili shkafda ishlang.",
+   "explanation_uz": "Formaldegid ammiak bilan kondensatlanib geksametilentetramin — urotropinni hosil qiladi. Urotropin tibbiyotda antiseptik, quruq yoqilg'i va fenol-formaldegid smolalarini qotiruvchi sifatida ishlatiladi; kislotali muhitda u yana formaldegid ajratadi.",
+   "questions_uz": [
+    "Urotropinning molekulyar formulasini va molyar massasini aniqlang.",
+    "Nima uchun reaksiyadan so'ng formaldegid hidi yo'qoladi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0018",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Benzaldegidning konsentrlangan ishqor bilan disproporsiyalanishi (Kannitsaro reaksiyasi)",
+   "level": "universitet",
+   "topic_uz": "α-vodorodsiz aldegidlarning o'ziga xos reaksiyasi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H5CHO",
+     "state": "l",
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 10,
+     "volume_mL": 2,
+     "conc_min_M": 5
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Benzaldegid konsentrlangan NaOH eritmasi bilan kuchli chayqatiladi (emulsiya qotib qolguncha) va bir kecha qoldiriladi."
+   },
+   "equation": {
+    "molecular": "2C6H5CHO + NaOH → C6H5COONa + C6H5CH2OH",
+    "ionic_full": "2C6H5CHO + Na⁺ + OH⁻ → C6H5COO⁻ + Na⁺ + C6H5CH2OH",
+    "ionic_net": "2C6H5CHO + OH⁻ → C6H5COO⁻ + C6H5CH2OH",
+    "electron_balance": [
+     "C⁺¹ − 2e⁻ = C⁺³",
+     "C⁺¹ + 2e⁻ = C⁻¹"
+    ]
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "OH⁻ ioni benzaldegid karbonil uglerodiga birikib tetraedrik anion hosil qiladi.",
+     "Bu anion gidrid ionini (H⁻) ikkinchi benzaldegid molekulasining karbonil uglerodiga uzatadi.",
+     "Birinchi molekula benzoat ioniga oksidlanadi, ikkinchisi benzil spirtigacha qaytariladi (disproporsiyalanish)."
+    ],
+    "organic": {
+     "template": "AdN",
+     "params": {
+      "carbonyl": "C6H5–CHO",
+      "nucleophile": "OH⁻",
+      "intermediate": "C6H5–CH(OH)O⁻ (gidrid ioni beruvchi)",
+      "product": "C6H5–COO⁻ + C6H5–CH2OH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crystals"
+     },
+     {
+      "type": "layers"
+     }
+    ],
+    "text_uz": "Kuchli chayqatilgan emulsiya asta-sekin quyuqlashib, natriy benzoat kristallari bilan oq massaga aylanadi; suv qo'shilsa benzil spirti alohida qatlam hosil qiladi."
+   },
+   "kinetics": "juda-sekin",
+   "apparatus": [
+    "probirka",
+    "rezina-tiqin-yaxlit-kichik",
+    "ajratgich-voronka"
+   ],
+   "procedure_uz": [
+    "Probirkaga 1 ml benzaldegid va 2 ml konsentrlangan NaOH eritmasi quying.",
+    "Tiqin bilan berkitib, emulsiya hosil bo'lguncha kuchli chayqating va qoldiring.",
+    "Hosil bo'lgan massaga suv qo'shib eriting; benzil spirti qatlamini ajrating.",
+    "Suvli qatlamni xlorid kislota bilan kislotalab benzoy kislotani cho'ktiring."
+   ],
+   "safety_uz": "Konsentrlangan NaOH kuchli o'yuvchi: ko'zoynak va qo'lqopda ishlang. Benzaldegid zararli.",
+   "explanation_uz": "α-Vodorod atomi bo'lmagan aldegidlar (benzaldegid, formaldegid) konsentrlangan ishqor ta'sirida aldol kondensatlanishga kirisha olmaydi, buning o'rniga disproporsiyalanadi: bir molekula karbon kislota tuziga oksidlanadi, ikkinchisi spirtgacha qaytariladi.",
+   "questions_uz": [
+    "Formaldegid Kannitsaro reaksiyasida qanday mahsulotlar beradi?",
+    "Nima uchun atsetaldegid bu reaksiyaga kirishmaydi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0019",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning aldol kondensatlanishi",
+   "level": "universitet",
+   "topic_uz": "Karbonil birikmalar: aldol birikish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CHO",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 2
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 0.1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": "ishqoriy",
+    "light": false,
+    "note_uz": "Atsetaldegidga sovuqda suyultirilgan ishqor eritmasi qo'shiladi.",
+    "temp_max_C": 30
+   },
+   "equation": {
+    "molecular": "2CH3CHO → CH3CH(OH)CH2CHO",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "OH⁻ ioni karbonilga qo'shni (α) uglerod atomidan protonni tortib oladi — rezonans bilan barqarorlashgan enolat ioni hosil bo'ladi.",
+     "Enolat ionining uglerodi nukleofil sifatida ikkinchi aldegid molekulasining karbonil uglerodiga hujum qiladi, π-bog' elektronlari kislorodga o'tadi.",
+     "Hosil bo'lgan alkoksid ion suvdan proton olib 3-gidroksibutanal (aldol) ga aylanadi; OH⁻ qayta tiklanadi."
+    ],
+    "organic": {
+     "template": "aldol",
+     "params": {
+      "carbonyl": "CH3–CHO",
+      "enolate": "⁻CH2–CHO (enolat ioni)",
+      "product": "CH3–CH(OH)–CH2–CHO"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "swirl"
+     }
+    ],
+    "text_uz": "Tashqi o'zgarish kam; aralashma sekin sarg'ayadi va atsetaldegidning o'tkir hidi kuchsizlanadi."
+   },
+   "kinetics": "sekin",
+   "apparatus": [
+    "probirka",
+    "tomizgich",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Probirkaga 2 ml atsetaldegid eritmasini quyib, muzli suvda sovuting.",
+    "1 ml suyultirilgan NaOH eritmasini qo'shib aralashtiring.",
+    "Hidi va rangining o'zgarishini kuzating."
+   ],
+   "safety_uz": "Atsetaldegid juda uchuvchan, oson alangalanadi va zararli: idishni alangadan uzoqda tuting, bug'ini hidlamang. Ishqor eritmasi o'yuvchi: ko'zoynak taqing.",
+   "explanation_uz": "α-Vodorod atomi bor aldegid va ketonlar asos katalizatori ishtirokida bir-biri bilan birikib, β-gidroksikarbonil birikmalar — aldollar hosil qiladi. Bu reaksiya uglerod zanjirini uzaytirishning muhim usuli.",
+   "questions_uz": [
+    "Propanal aldol kondensatlanganda qaysi modda hosil bo'ladi?",
+    "Nima uchun benzaldegid o'zi bilan aldol kondensatlanishga kirishmaydi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0020",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Aldolning qizdirilganda degidratlanishi — kroton aldegid hosil bo'lishi",
+   "level": "universitet",
+   "topic_uz": "Kroton kondensatlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CH(OH)CH2CHO",
+     "state": "l",
+     "volume_mL": 1
+    },
+    {
+     "species": "NaOH",
+     "state": "aq",
+     "conc_M": 1,
+     "volume_mL": 1
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 80,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Aldol ishqor ishtirokida qizdiriladi."
+   },
+   "equation": {
+    "molecular": "CH3CH(OH)CH2CHO → CH3CH=CHCHO + H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "OH⁻ ioni karbonilga qo'shni α-uglerod atomidan protonni tortib enolat hosil qiladi.",
+     "Enolatning elektron jufti C=C bog'ini hosil qilishga o'tadi va β-holatdagi OH⁻ guruhi ajraladi (E1cB mexanizmi).",
+     "Karbonil guruh bilan tutashgan qo'shbog'li kroton aldegid hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "E1",
+     "params": {
+      "substrate": "CH3–CH(OH)–CH2–CHO",
+      "carbocation": "enolat ⁻CH–CHO (E1cB)",
+      "base": "OH⁻",
+      "product": "CH3–CH=CH–CHO",
+      "byproduct": "H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "boil"
+     }
+    ],
+    "text_uz": "Qizdirilganda aralashma sarg'ayadi va o'tkir, ko'zni achishtiruvchi hidli kroton aldegid ajraladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "suv-hammomi",
+    "probirka-qisqichi"
+   ],
+   "procedure_uz": [
+    "Probirkaga aldol va suyultirilgan NaOH eritmasini quying.",
+    "Suv hammomida qizdiring.",
+    "Rang va hid o'zgarishini kuzating; hosil bo'lgan mahsulotni bromli suv bilan sinang."
+   ],
+   "safety_uz": "Kroton aldegid zaharli va lakrimator: faqat mo'rili shkafda, o'qituvchi namoyishi.",
+   "explanation_uz": "Aldollar qizdirilganda oson suv ajratib, karbonil guruh bilan tutashgan qo'shbog'li α,β-to'yinmagan aldegidlarga aylanadi (kroton kondensatlanish). Tutashgan tizim hosil bo'lishi reaksiyaning harakatlantiruvchi kuchi.",
+   "questions_uz": [
+    "Kroton aldegidda qaysi funksional guruhlar bor?",
+    "Kroton aldegid bromli suvni rangsizlantiradimi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0021",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Atsetaldegidning nikel katalizatorida gidrogenlanishi",
+   "level": "10-sinf",
+   "topic_uz": "Aldegidlar: qaytarilish (birlamchi spirt hosil bo'lishi)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3CHO",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": "Ni",
+    "medium": null,
+    "light": false,
+    "note_uz": "Atsetaldegid bug'i va vodorod qizdirilgan nikel ustidan o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "CH3CHO + H2 → C2H5OH↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Vodorod nikel yuzasida atomlarga ajraladi, aldegid C=O guruhi bilan adsorbsiyalanadi.",
+     "Vodorod atomlari karbonil uglerodiga va kislorodiga birikadi, C=O π-bog'i uziladi.",
+     "Birlamchi spirt — etanol hosil bo'ladi (C⁺¹ → C⁻¹)."
+    ],
+    "organic": {
+     "template": "qaytarilish",
+     "params": {
+      "substrate": "CH3–CHO",
+      "reductant": "H2 (Ni)",
+      "product": "CH3–CH2–OH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Tashqi o'zgarish kam; kondensatlangan mahsulot kumush ko'zgu reaksiyasini bermaydi, yodoform reaksiyasini beradi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "gaz-naycha-togri",
+    "spirt-lampasi",
+    "shtativ",
+    "libix-sovutgichi"
+   ],
+   "procedure_uz": [
+    "Nikel katalizatori solingan naychani qizdiring.",
+    "Atsetaldegid bug'i va vodorod aralashmasini o'tkazing.",
+    "Kondensatni yig'ib, Tollens reaktivi bilan sinab ko'ring."
+   ],
+   "safety_uz": "Vodorod va atsetaldegid bug'lari havo bilan portlovchi aralashma hosil qiladi; faqat o'qituvchi namoyishi.",
+   "explanation_uz": "Aldegidlar katalitik gidrogenlanganda birlamchi spirtlarga, ketonlar esa ikkilamchi spirtlarga qaytariladi. Bu reaksiya spirtlarning aldegidlarga oksidlanishiga teskari jarayon.",
+   "questions_uz": [
+    "Propanal va aseton qaytarilganda qaysi spirtlar hosil bo'ladi?",
+    "Bu reaksiyada aldegid oksidlovchimi yoki qaytaruvchimi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0022",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning nikel katalizatorida gidrogenlanishi — propanol-2",
+   "level": "litsey",
+   "topic_uz": "Ketonlar: qaytarilish (ikkilamchi spirt hosil bo'lishi)",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "H2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 150,
+    "catalyst": "Ni",
+    "medium": null,
+    "light": false,
+    "note_uz": "Aseton bug'i va vodorod qizdirilgan nikel ustidan o'tkaziladi."
+   },
+   "equation": {
+    "molecular": "CH3COCH3 + H2 → CH3CH(OH)CH3↑",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Vodorod katalizator yuzasida faollashadi.",
+     "Vodorod atomlari C=O guruhining uglerod va kislorod atomlariga birikadi.",
+     "Ikkilamchi spirt — propanol-2 hosil bo'ladi (C⁺² → C⁰)."
+    ],
+    "organic": {
+     "template": "qaytarilish",
+     "params": {
+      "substrate": "CH3–CO–CH3",
+      "reductant": "H2 (Ni)",
+      "product": "CH3–CH(OH)–CH3"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "ekzotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Kondensatlangan mahsulot asetonga xos hidga ega emas, natriy bilan vodorod ajratadi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "gaz-naycha-togri",
+    "spirt-lampasi",
+    "shtativ",
+    "libix-sovutgichi"
+   ],
+   "procedure_uz": [
+    "Nikel katalizatori solingan naychani qizdiring.",
+    "Aseton bug'i va vodorodni o'tkazing.",
+    "Kondensatni natriy bilan sinab ko'ring."
+   ],
+   "safety_uz": "Vodorod va aseton bug'lari yonuvchan va portlovchi aralashma hosil qiladi; faqat o'qituvchi namoyishi.",
+   "explanation_uz": "Ketonlar qaytarilganda ikkilamchi spirtlar hosil bo'ladi. Aseton va propanol-2 o'zaro oksidlanish-qaytarilish orqali bog'langan: propanol-2 CuO bilan asetonga oksidlanadi, aseton esa vodorod bilan propanol-2 ga qaytariladi.",
+   "questions_uz": [
+    "Butanon qaytarilganda qaysi spirt hosil bo'ladi?",
+    "Asetondan propanol-2 ga o'tishda uglerodning oksidlanish darajasi qanday o'zgaradi?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0023",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Benzaldegidning havoda oksidlanishi",
+   "level": "litsey",
+   "topic_uz": "Aldegidlar: avtooksidlanish",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "C6H5CHO",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Bir necha tomchi benzaldegid soat oynasida havoda qoldiriladi."
+   },
+   "equation": {
+    "molecular": "2C6H5CHO + O2 → 2C6H5COOH",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Yorug'lik va havo kislorodi ta'sirida aldegid guruhidagi C–H bog'i uzilib, benzoil radikali hosil bo'ladi (radikal zanjir).",
+     "Benzoil radikali kislorod bilan peroksiradikal, so'ng perbenzoy kislota hosil qiladi.",
+     "Perbenzoy kislota ikkinchi aldegid molekulasini oksidlaydi — jami ikki molekula benzoy kislota hosil bo'ladi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "C6H5–CHO",
+      "oxidant": "O2 (havo)",
+      "product": "C6H5–COOH"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": {
+     "species": "C6H5COOH",
+     "color": "#f8f8f6",
+     "texture": "kristall"
+    },
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "sezilarsiz",
+    "flame": null,
+    "effects": [
+     {
+      "type": "crystals"
+     }
+    ],
+    "text_uz": "Bir necha soat (kun) o'tgach suyuqlik tomchilari chetida oq ignasimon benzoy kislota kristallari paydo bo'ladi."
+   },
+   "kinetics": "juda-sekin",
+   "apparatus": [
+    "soat-oynasi",
+    "tomizgich"
+   ],
+   "procedure_uz": [
+    "Soat oynasiga 3–4 tomchi benzaldegid tomizing.",
+    "Havoda, yorug' joyda qoldiring.",
+    "Keyingi darsda hosil bo'lgan kristallarni kuzating."
+   ],
+   "safety_uz": "Benzaldegid zararli; teriga tushirmang.",
+   "explanation_uz": "Aldegidlar shunchalik oson oksidlanadiki, hatto havo kislorodi ta'sirida ham karbon kislotalarga aylanadi. Shu sababli benzaldegid idishlari tiqini atrofida ko'pincha benzoy kislota kristallari to'planadi va aldegidlar inert gaz ostida saqlanadi.",
+   "questions_uz": [
+    "Nima uchun aldegidlarni uzoq saqlash qiyin?",
+    "Bu reaksiyada qaysi modda oksidlovchi?"
+   ],
+   "confidence": "yuqori"
+  },
+  {
+   "id": "aldegid-0024",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Kalsiy atsetatning termik parchalanishi — aseton olish",
+   "level": "litsey",
+   "topic_uz": "Ketonlarni olish: karbon kislotalar tuzlarining pirolizi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "(CH3COO)2Ca",
+     "state": "s",
+     "mass_g": 2
+    }
+   ],
+   "conditions": {
+    "heating": true,
+    "temp_min_C": 400,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Suvsiz kalsiy atsetat quruq probirkada kuchli qizdiriladi; bug'lar sovutilgan qabul qiluvchiga haydaladi."
+   },
+   "equation": {
+    "molecular": "(CH3COO)2Ca → CH3COCH3↑ + CaCO3",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "termik-parchalanish",
+    "steps_uz": [
+     "Qizdirilganda bir atsetat guruhining metil karbanioni ikkinchi atsetat guruhining karbonil uglerodiga ko'chadi.",
+     "C–C bog'i hosil bo'lib aseton ajraladi.",
+     "Qolgan karboksil guruh kalsiy bilan kalsiy karbonat ko'rinishida qoladi."
+    ],
+    "organic": null
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": null,
+    "solution_color_change": null,
+    "heat": "endotermik",
+    "flame": null,
+    "effects": [
+     {
+      "type": "condensate"
+     }
+    ],
+    "text_uz": "Kuchli qizdirilganda probirkadan bug'lar ajraladi, sovutilgan qabul qiluvchida o'ziga xos hidli uchuvchan suyuqlik — aseton yig'iladi; probirkada oq CaCO₃ qoladi."
+   },
+   "kinetics": "o'rtacha",
+   "apparatus": [
+    "probirka",
+    "gaz-naycha-egilgan",
+    "shtativ",
+    "qisqich-lapka",
+    "spirt-lampasi",
+    "kimyoviy-stakan"
+   ],
+   "procedure_uz": [
+    "Quruq probirkaga suvsiz kalsiy atsetat soling va gaz chiqarish naychali tiqin bilan berkiting.",
+    "Naycha uchini muzli suvda sovitilayotgan probirkaga tushiring.",
+    "Kalsiy atsetatni kuchli qizdiring.",
+    "Yig'ilgan suyuqlikni yodoform reaksiyasi bilan sinang; qoldiqqa xlorid kislota tomizib CO₂ ajralishini kuzating."
+   ],
+   "safety_uz": "Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang. Asetonning alangalanishiga yo'l qo'ymang — qabul qiluvchini alangadan uzoqda joylashtiring.",
+   "explanation_uz": "Karbon kislotalarning kalsiy yoki bariy tuzlari qizdirilganda ketonlar hosil bo'ladi; tarixan aseton shu usulda (yog'ochni quruq haydash mahsulotlaridan) olingan. Qoldiqdagi karbonat kislota bilan CO₂ ajratadi.",
+   "questions_uz": [
+    "Kalsiy propionat qizdirilganda qaysi keton hosil bo'ladi?",
+    "Qoldiqda karbonat borligini qanday isbotlash mumkin?"
+   ],
+   "confidence": "o'rta"
+  },
+  {
+   "id": "aldegid-0025",
+   "category": "aldegid-ketonlar",
+   "title_uz": "Asetonning yonishi",
+   "level": "10-sinf",
+   "topic_uz": "Ketonlar: yonish, yong'in xavfi",
+   "engine": "record",
+   "reactants": [
+    {
+     "species": "CH3COCH3",
+     "state": "l",
+     "volume_mL": 0.5
+    },
+    {
+     "species": "O2",
+     "state": "g"
+    }
+   ],
+   "conditions": {
+    "heating": false,
+    "temp_min_C": null,
+    "catalyst": null,
+    "medium": null,
+    "light": false,
+    "note_uz": "Chinni kosachadagi bir necha tomchi aseton uzun cho'p bilan yondiriladi.",
+    "ignition": true,
+    "ignition_C": 470
+   },
+   "equation": {
+    "molecular": "CH3COCH3 + 4O2 → 3CO2↑ + 3H2O",
+    "ionic_full": null,
+    "ionic_net": null,
+    "electron_balance": null
+   },
+   "mechanism": {
+    "type": "organik",
+    "steps_uz": [
+     "Aseton uchuvchan, bug'i havo bilan oson alangalanadi.",
+     "Alangada molekulalar radikallarga parchalanib, uglerod CO₂ gacha, vodorod H₂O gacha oksidlanadi.",
+     "Molekuladagi kislorod hisobiga yonish deyarli tutunsiz boradi."
+    ],
+    "organic": {
+     "template": "oksidlanish",
+     "params": {
+      "substrate": "CH3–CO–CH3",
+      "oxidant": "O2",
+      "product": "CO2 + H2O"
+     }
+    }
+   },
+   "observations": {
+    "precipitate": null,
+    "gas": {
+     "species": "CO2",
+     "desc_uz": null
+    },
+    "solution_color_change": null,
+    "heat": "kuchli-ekzotermik",
+    "flame": {
+     "color": "#ffd070",
+     "desc_uz": "sarg'ish, deyarli tutunsiz alanga"
+    },
+    "effects": [
+     {
+      "type": "flame"
+     }
+    ],
+    "text_uz": "Aseton tez alangalanib, sarg'ish, deyarli tutunsiz alanga bilan yonadi."
+   },
+   "kinetics": "bir-zumda",
+   "apparatus": [
+    "chinni-kosacha",
+    "gugurt"
+   ],
+   "procedure_uz": [
+    "Chinni kosachaga 3–5 tomchi aseton tomizing (boshqa idishlar uzoqda).",
+    "Uzun cho'p bilan yondiring.",
+    "Alanga xarakterini kuzating."
+   ],
+   "safety_uz": "Aseton oson alangalanadi: ochiq alangadan uzoqda ishlang. Faqat juda oz miqdorda, o'qituvchi nazoratida.",
+   "explanation_uz": "Ketonlar, boshqa organik moddalar kabi, to'liq yonib CO₂ va suv hosil qiladi. Aseton keng ishlatiladigan erituvchi bo'lgani uchun uning bug'lari yong'in xavfini tug'diradi.",
+   "questions_uz": [
+    "Asetonning yonish tenglamasini tuzing.",
+    "Aseton qayerlarda erituvchi sifatida ishlatiladi?"
+   ],
+   "confidence": "yuqori"
+  }
+ ]
+}

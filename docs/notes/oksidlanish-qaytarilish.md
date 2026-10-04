@@ -67,7 +67,3 @@ Qolgan o'xshashliklar:
 6. **Muvofiqlik testi reaktivlarni stexiometrik miqdorda qo'shadi.**
    - Shuning uchun suyultirilgan sherik bilan `conc_min_M` sharti bajarilmaydi. Konsentrlangan reaktiv bilan ishlaydigan tajribalarda ikkinchi modda qattiq holda olingan: KMnO₄ + kons. KOH, KBr/KI + kons. H₂SO₄, KI + kons. HNO₃.
    - `redoks-0003` da `excess: true` faqat test uchun ishlatilgan.
-
-## Baza xatosi (bu toifaga tegishli emas)
-
-`formula to'qnashuvi: Cu(C3H7O3)2 -> (C3H5(OH)2O)2Cu / Cu(C3H7O3)2`. Bu boshqa toifaning `extra` faylidan kelgan.
