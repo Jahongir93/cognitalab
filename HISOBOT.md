@@ -16,7 +16,7 @@ Bu hisobot topshiriqda ([TOPSHIRIQ.md](TOPSHIRIQ.md)) so'ralgan ishlarning holat
 | Organik mexanizm andozalari | 5.7-bo'limdagi ro'yxat | **16 ta** animatsiyali SVG andoza (ayrimlarida variantlar bor) |
 | Sifat darajalari | 3 ta | past / o'rta / yuqori, qurilmaga qarab avtomatik tanlanadi |
 
-Hammasi bitta commit tarixida. Yetkazib berish zip fayli: `cognita-virtual-lab.zip` (GitHub release'da).
+Butun ish `main` tarmog'ida, bosqichma-bosqich kommitlar bilan. Yetkazib berish fayli `cognita-virtual-lab.zip` alohida yuborildi. Bu sessiyada GitHub release yaratishga ruxsat yo'q edi. Zip'ni istalgan vaqtda qayta yasash mumkin: `git archive --format=zip --prefix=cognita-virtual-lab/ -o cognita-virtual-lab.zip HEAD`.
 
 ## 2. Toifalar bo'yicha tajribalar
 
