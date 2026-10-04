@@ -1,0 +1,1373 @@
+{
+ "solubility_table": {
+  "Li^+": {
+   "OH^-": "R",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "R",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "M",
+   "HCO3^-": "-",
+   "PO4^3-": "M",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "R",
+   "C2O4^2-": "R"
+  },
+  "Na^+": {
+   "OH^-": "R",
+   "F^-": "R",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "R",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "R",
+   "HCO3^-": "R",
+   "PO4^3-": "R",
+   "HPO4^2-": "R",
+   "SiO3^2-": "R",
+   "CH3COO^-": "R",
+   "C2O4^2-": "R"
+  },
+  "K^+": {
+   "OH^-": "R",
+   "F^-": "R",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "R",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "R",
+   "HCO3^-": "R",
+   "PO4^3-": "R",
+   "HPO4^2-": "R",
+   "SiO3^2-": "R",
+   "CH3COO^-": "R",
+   "C2O4^2-": "R"
+  },
+  "NH4^+": {
+   "OH^-": "R",
+   "F^-": "R",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "R",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "R",
+   "HCO3^-": "R",
+   "PO4^3-": "R",
+   "HPO4^2-": "R",
+   "SiO3^2-": "-",
+   "CH3COO^-": "R",
+   "C2O4^2-": "R"
+  },
+  "Ba^2+": {
+   "OH^-": "R",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "N",
+   "SO4^2-": "N",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "N",
+   "HCO3^-": "R",
+   "PO4^3-": "N",
+   "HPO4^2-": "N",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N",
+   "CrO4^2-": "N",
+   "C17H35COO^-": "N"
+  },
+  "Ca^2+": {
+   "OH^-": "M",
+   "F^-": "N",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "M",
+   "SO3^2-": "N",
+   "SO4^2-": "M",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "N",
+   "HCO3^-": "R",
+   "PO4^3-": "N",
+   "HPO4^2-": "N",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N",
+   "C17H35COO^-": "N",
+   "C3H5O(COO)3^3-": "M"
+  },
+  "Sr^2+": {
+   "OH^-": "M",
+   "F^-": "N",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "R",
+   "SO3^2-": "N",
+   "SO4^2-": "N",
+   "NO3^-": "R",
+   "NO2^-": "R",
+   "CO3^2-": "N",
+   "HCO3^-": "R",
+   "PO4^3-": "N",
+   "HPO4^2-": "N",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N",
+   "CrO4^2-": "M"
+  },
+  "Mg^2+": {
+   "OH^-": "N",
+   "F^-": "N",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "-",
+   "SO3^2-": "M",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "M",
+   "HCO3^-": "R",
+   "PO4^3-": "N",
+   "HPO4^2-": "M",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "M",
+   "C17H35COO^-": "N"
+  },
+  "Al^3+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "-",
+   "SO3^2-": "-",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "-",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "-",
+   "C2O4^2-": "-"
+  },
+  "Cr^3+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "-",
+   "SO3^2-": "-",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "-",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "-",
+   "C2O4^2-": "-"
+  },
+  "Fe^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Fe^3+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "-",
+   "S^2-": "-",
+   "SO3^2-": "-",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "-",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "R",
+   "C2O4^2-": "-"
+  },
+  "Zn^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Mn^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Ni^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Co^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "R",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Cu^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "-",
+   "S^2-": "N",
+   "SO3^2-": "-",
+   "SO4^2-": "R",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "-",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N"
+  },
+  "Ag^+": {
+   "OH^-": "-",
+   "F^-": "R",
+   "Cl^-": "N",
+   "Br^-": "N",
+   "I^-": "N",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "M",
+   "NO3^-": "R",
+   "NO2^-": "M",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "M",
+   "C2O4^2-": "N",
+   "CrO4^2-": "N",
+   "SCN^-": "N",
+   "S2O3^2-": "N",
+   "C6H5COO^-": "M"
+  },
+  "Pb^2+": {
+   "OH^-": "N",
+   "F^-": "M",
+   "Cl^-": "M",
+   "Br^-": "M",
+   "I^-": "N",
+   "S^2-": "N",
+   "SO3^2-": "N",
+   "SO4^2-": "N",
+   "NO3^-": "R",
+   "NO2^-": "-",
+   "CO3^2-": "N",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "N",
+   "CH3COO^-": "R",
+   "C2O4^2-": "N",
+   "CrO4^2-": "N"
+  },
+  "Sn^2+": {
+   "OH^-": "N",
+   "F^-": "R",
+   "Cl^-": "R",
+   "Br^-": "R",
+   "I^-": "M",
+   "S^2-": "N",
+   "SO3^2-": "-",
+   "SO4^2-": "R",
+   "NO3^-": "-",
+   "NO2^-": "-",
+   "CO3^2-": "-",
+   "HCO3^-": "-",
+   "PO4^3-": "N",
+   "HPO4^2-": "-",
+   "SiO3^2-": "-",
+   "CH3COO^-": "-",
+   "C2O4^2-": "-"
+  }
+ },
+ "slight_solubility_gL": {
+  "Ca(OH)2": 1.7,
+  "CaSO4": 2,
+  "Sr(OH)2": 8,
+  "PbCl2": 10,
+  "PbBr2": 9,
+  "Ag2SO4": 8,
+  "Li2CO3": 13,
+  "LiF": 1.3,
+  "BaF2": 1.6,
+  "MgSO3": 5,
+  "MgCO3": 0.1,
+  "MgC2O4": 0.4,
+  "MgHPO4": 0.25,
+  "SnI2": 9,
+  "CH3COOAg": 10,
+  "AgNO2": 3.4,
+  "Li3PO4": 0.27,
+  "CaS": 0.2,
+  "PbF2": 0.6,
+  "SrCrO4": 1.2,
+  "ZnF2": 16,
+  "FeF2": 0.6,
+  "FeF3": 9,
+  "AlF3": 6,
+  "CrF3": 5,
+  "MnF2": 1,
+  "NiF2": 25,
+  "CoF2": 14,
+  "CuF2": 7.5
+ },
+ "special_pairs": [
+  {
+   "cation": "Al^3+",
+   "anion": "CO3^2-",
+   "eq": "2Al³⁺ + 3CO3²⁻ + 3H2O = 2Al(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Al^3+",
+   "anion": "HCO3^-",
+   "eq": "Al³⁺ + 3HCO3⁻ = Al(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Al^3+",
+   "anion": "S^2-",
+   "eq": "2Al³⁺ + 3S²⁻ + 6H2O = 2Al(OH)3↓ + 3H2S↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Al^3+",
+   "anion": "SO3^2-",
+   "eq": "2Al³⁺ + 3SO3²⁻ + 3H2O = 2Al(OH)3↓ + 3SO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Cr^3+",
+   "anion": "CO3^2-",
+   "eq": "2Cr³⁺ + 3CO3²⁻ + 3H2O = 2Cr(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Cr^3+",
+   "anion": "S^2-",
+   "eq": "2Cr³⁺ + 3S²⁻ + 6H2O = 2Cr(OH)3↓ + 3H2S↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Cr^3+",
+   "anion": "HCO3^-",
+   "eq": "Cr³⁺ + 3HCO3⁻ = Cr(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Fe^3+",
+   "anion": "CO3^2-",
+   "eq": "2Fe³⁺ + 3CO3²⁻ + 3H2O = 2Fe(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Fe^3+",
+   "anion": "HCO3^-",
+   "eq": "Fe³⁺ + 3HCO3⁻ = Fe(OH)3↓ + 3CO2↑",
+   "note_uz": "birgalikdagi gidroliz"
+  },
+  {
+   "cation": "Fe^3+",
+   "anion": "S^2-",
+   "eq": "2Fe³⁺ + 3S²⁻ = 2FeS↓ + S↓",
+   "note_uz": "oksidlanish-qaytarilish va cho'kma"
+  },
+  {
+   "cation": "Fe^3+",
+   "anion": "I^-",
+   "eq": "2Fe³⁺ + 2I⁻ = 2Fe²⁺ + I2",
+   "note_uz": "oksidlanish-qaytarilish"
+  },
+  {
+   "cation": "Fe^3+",
+   "anion": "SO3^2-",
+   "eq": "2Fe³⁺ + SO3²⁻ + H2O = 2Fe²⁺ + SO4²⁻ + 2H⁺",
+   "note_uz": "oksidlanish-qaytarilish"
+  },
+  {
+   "cation": "Cu^2+",
+   "anion": "I^-",
+   "eq": "2Cu²⁺ + 4I⁻ = 2CuI↓ + I2",
+   "note_uz": "oksidlanish-qaytarilish va cho'kma"
+  },
+  {
+   "cation": "Cu^2+",
+   "anion": "CO3^2-",
+   "eq": "2Cu²⁺ + 2CO3²⁻ + H2O = (CuOH)2CO3↓ + CO2↑",
+   "note_uz": "asosli tuz (malaxit) hosil bo'ladi"
+  },
+  {
+   "cation": "Ag^+",
+   "anion": "OH^-",
+   "eq": "2Ag⁺ + 2OH⁻ = Ag2O↓ + H2O",
+   "note_uz": "AgOH beqaror, darhol Ag₂O ga aylanadi"
+  },
+  {
+   "cation": "Mg^2+",
+   "anion": "S^2-",
+   "eq": "Mg²⁺ + S²⁻ + 2H2O = Mg(OH)2↓ + H2S↑",
+   "note_uz": "birgalikdagi gidroliz"
+  }
+ ],
+ "acid_base": [
+  {
+   "id": "sulfat",
+   "forms": [
+    "H2SO4",
+    "HSO4^-",
+    "SO4^2-"
+   ],
+   "pKa": [
+    -3,
+    1.99
+   ]
+  },
+  {
+   "id": "fosfat",
+   "forms": [
+    "H3PO4",
+    "H2PO4^-",
+    "HPO4^2-",
+    "PO4^3-"
+   ],
+   "pKa": [
+    2.15,
+    7.2,
+    12.35
+   ]
+  },
+  {
+   "id": "karbonat",
+   "forms": [
+    "H2CO3",
+    "HCO3^-",
+    "CO3^2-"
+   ],
+   "pKa": [
+    6.35,
+    10.33
+   ],
+   "volatile": {
+    "form": "H2CO3",
+    "gas": "CO2",
+    "water": 1,
+    "sol_M": 0.033
+   }
+  },
+  {
+   "id": "sulfit",
+   "forms": [
+    "H2SO3",
+    "HSO3^-",
+    "SO3^2-"
+   ],
+   "pKa": [
+    1.85,
+    7.2
+   ],
+   "volatile": {
+    "form": "H2SO3",
+    "gas": "SO2",
+    "water": 1,
+    "sol_M": 0.2
+   }
+  },
+  {
+   "id": "sulfid",
+   "forms": [
+    "H2S",
+    "HS^-",
+    "S^2-"
+   ],
+   "pKa": [
+    7,
+    12.9
+   ],
+   "volatile": {
+    "form": "H2S",
+    "gas": "H2S",
+    "water": 0,
+    "sol_M": 0.1
+   }
+  },
+  {
+   "id": "ammiak",
+   "forms": [
+    "NH4^+",
+    "NH3"
+   ],
+   "pKa": [
+    9.25
+   ],
+   "volatile": {
+    "form": "NH3",
+    "gas": "NH3",
+    "water": 0,
+    "sol_M": 5,
+    "heat_only": true
+   }
+  },
+  {
+   "id": "atsetat",
+   "forms": [
+    "CH3COOH",
+    "CH3COO^-"
+   ],
+   "pKa": [
+    4.76
+   ]
+  },
+  {
+   "id": "formiat",
+   "forms": [
+    "HCOOH",
+    "HCOO^-"
+   ],
+   "pKa": [
+    3.75
+   ]
+  },
+  {
+   "id": "propionat",
+   "forms": [
+    "C2H5COOH",
+    "C2H5COO^-"
+   ],
+   "pKa": [
+    4.87
+   ]
+  },
+  {
+   "id": "butirat",
+   "forms": [
+    "C3H7COOH",
+    "C3H7COO^-"
+   ],
+   "pKa": [
+    4.82
+   ]
+  },
+  {
+   "id": "benzoat",
+   "forms": [
+    "C6H5COOH",
+    "C6H5COO^-"
+   ],
+   "pKa": [
+    4.2
+   ]
+  },
+  {
+   "id": "laktat",
+   "forms": [
+    "CH3CH(OH)COOH",
+    "CH3CH(OH)COO^-"
+   ],
+   "pKa": [
+    3.86
+   ]
+  },
+  {
+   "id": "salitsilat",
+   "forms": [
+    "C6H4(OH)COOH",
+    "C6H4(OH)COO^-"
+   ],
+   "pKa": [
+    2.97
+   ]
+  },
+  {
+   "id": "sitrat",
+   "forms": [
+    "C3H5O(COOH)3",
+    "C3H5O(COO)3^3-"
+   ],
+   "pKa": [
+    4.76
+   ],
+   "note": "soddalashtirilgan: uch bosqich bitta o'rtacha qiymat bilan"
+  },
+  {
+   "id": "stearat",
+   "forms": [
+    "C17H35COOH",
+    "C17H35COO^-"
+   ],
+   "pKa": [
+    4.9
+   ]
+  },
+  {
+   "id": "oksalat",
+   "forms": [
+    "H2C2O4",
+    "HC2O4^-",
+    "C2O4^2-"
+   ],
+   "pKa": [
+    1.25,
+    4.27
+   ]
+  },
+  {
+   "id": "ftorid",
+   "forms": [
+    "HF",
+    "F^-"
+   ],
+   "pKa": [
+    3.17
+   ]
+  },
+  {
+   "id": "nitrit",
+   "forms": [
+    "HNO2",
+    "NO2^-"
+   ],
+   "pKa": [
+    3.29
+   ]
+  },
+  {
+   "id": "gipoxlorit",
+   "forms": [
+    "HClO",
+    "ClO^-"
+   ],
+   "pKa": [
+    7.53
+   ]
+  },
+  {
+   "id": "silikat",
+   "forms": [
+    "H2SiO3",
+    "HSiO3^-",
+    "SiO3^2-"
+   ],
+   "pKa": [
+    9.8,
+    12
+   ]
+  },
+  {
+   "id": "fenol",
+   "forms": [
+    "C6H5OH",
+    "C6H5O^-"
+   ],
+   "pKa": [
+    9.95
+   ]
+  },
+  {
+   "id": "metilamin",
+   "forms": [
+    "CH3NH3^+",
+    "CH3NH2"
+   ],
+   "pKa": [
+    10.64
+   ]
+  },
+  {
+   "id": "etilamin",
+   "forms": [
+    "C2H5NH3^+",
+    "C2H5NH2"
+   ],
+   "pKa": [
+    10.7
+   ]
+  },
+  {
+   "id": "anilin",
+   "forms": [
+    "C6H5NH3^+",
+    "C6H5NH2"
+   ],
+   "pKa": [
+    4.6
+   ]
+  },
+  {
+   "id": "xromat",
+   "forms": [
+    "HCrO4^-",
+    "CrO4^2-"
+   ],
+   "pKa": [
+    6.5
+   ],
+   "skip_species": true
+  }
+ ],
+ "strong_acids": {
+  "HCl": "Cl^-",
+  "HBr": "Br^-",
+  "HI": "I^-",
+  "HNO3": "NO3^-",
+  "HClO4": "ClO4^-",
+  "HClO3": "ClO3^-",
+  "HMnO4": "MnO4^-"
+ },
+ "metals": [
+  {
+   "id": "Li",
+   "ion": "Li^+",
+   "n": 1,
+   "E": -3.04,
+   "water": "sovuq"
+  },
+  {
+   "id": "K",
+   "ion": "K^+",
+   "n": 1,
+   "E": -2.93,
+   "water": "sovuq"
+  },
+  {
+   "id": "Ba",
+   "ion": "Ba^2+",
+   "n": 2,
+   "E": -2.91,
+   "water": "sovuq"
+  },
+  {
+   "id": "Ca",
+   "ion": "Ca^2+",
+   "n": 2,
+   "E": -2.87,
+   "water": "sovuq"
+  },
+  {
+   "id": "Na",
+   "ion": "Na^+",
+   "n": 1,
+   "E": -2.71,
+   "water": "sovuq"
+  },
+  {
+   "id": "Mg",
+   "ion": "Mg^2+",
+   "n": 2,
+   "E": -2.37,
+   "water": "issiq"
+  },
+  {
+   "id": "Al",
+   "ion": "Al^3+",
+   "n": 3,
+   "E": -1.66,
+   "water": "yo'q",
+   "film": true
+  },
+  {
+   "id": "Mn",
+   "ion": "Mn^2+",
+   "n": 2,
+   "E": -1.18,
+   "water": "yo'q"
+  },
+  {
+   "id": "Zn",
+   "ion": "Zn^2+",
+   "n": 2,
+   "E": -0.76,
+   "water": "yo'q"
+  },
+  {
+   "id": "Cr",
+   "ion": "Cr^2+",
+   "ion_air": "Cr^3+",
+   "n": 2,
+   "E": -0.74,
+   "water": "yo'q",
+   "film": true
+  },
+  {
+   "id": "Fe",
+   "ion": "Fe^2+",
+   "n": 2,
+   "E": -0.44,
+   "water": "yo'q"
+  },
+  {
+   "id": "Co",
+   "ion": "Co^2+",
+   "n": 2,
+   "E": -0.28,
+   "water": "yo'q"
+  },
+  {
+   "id": "Ni",
+   "ion": "Ni^2+",
+   "n": 2,
+   "E": -0.25,
+   "water": "yo'q"
+  },
+  {
+   "id": "Sn",
+   "ion": "Sn^2+",
+   "n": 2,
+   "E": -0.14,
+   "water": "yo'q"
+  },
+  {
+   "id": "Pb",
+   "ion": "Pb^2+",
+   "n": 2,
+   "E": -0.13,
+   "water": "yo'q",
+   "note_uz": "qo'rg'oshin xlorid va sulfat sirtni qoplab, reaksiyani to'xtatadi"
+  },
+  {
+   "id": "H2",
+   "ion": "H^+",
+   "n": 1,
+   "E": 0
+  },
+  {
+   "id": "Cu",
+   "ion": "Cu^2+",
+   "n": 2,
+   "E": 0.34,
+   "water": "yo'q"
+  },
+  {
+   "id": "Hg",
+   "ion": "Hg^2+",
+   "n": 2,
+   "E": 0.85,
+   "water": "yo'q"
+  },
+  {
+   "id": "Ag",
+   "ion": "Ag^+",
+   "n": 1,
+   "E": 0.8,
+   "water": "yo'q"
+  },
+  {
+   "id": "Pt",
+   "ion": null,
+   "n": 2,
+   "E": 1.18,
+   "water": "yo'q"
+  },
+  {
+   "id": "Au",
+   "ion": null,
+   "n": 3,
+   "E": 1.5,
+   "water": "yo'q"
+  }
+ ],
+ "complexes": [
+  {
+   "from": "Al(OH)3",
+   "ligand": "OH^-",
+   "eq": "Al(OH)3 + OH⁻ = [Al(OH)4]⁻",
+   "note_uz": "amfoter gidroksid ortiqcha ishqorda eriydi"
+  },
+  {
+   "from": "Zn(OH)2",
+   "ligand": "OH^-",
+   "eq": "Zn(OH)2 + 2OH⁻ = [Zn(OH)4]²⁻",
+   "note_uz": "amfoter gidroksid ortiqcha ishqorda eriydi"
+  },
+  {
+   "from": "Cr(OH)3",
+   "ligand": "OH^-",
+   "eq": "Cr(OH)3 + 3OH⁻ = [Cr(OH)6]³⁻",
+   "note_uz": "amfoter gidroksid ortiqcha ishqorda eriydi (yashil eritma)"
+  },
+  {
+   "from": "Pb(OH)2",
+   "ligand": "OH^-",
+   "eq": "Pb(OH)2 + 2OH⁻ = [Pb(OH)4]²⁻",
+   "note_uz": "amfoter gidroksid ortiqcha ishqorda eriydi"
+  },
+  {
+   "from": "Sn(OH)2",
+   "ligand": "OH^-",
+   "eq": "Sn(OH)2 + 2OH⁻ = [Sn(OH)4]²⁻",
+   "note_uz": "amfoter gidroksid ortiqcha ishqorda eriydi"
+  },
+  {
+   "from": "Cu(OH)2",
+   "ligand": "NH3",
+   "eq": "Cu(OH)2 + 4NH3 = [Cu(NH3)4]²⁺ + 2OH⁻",
+   "note_uz": "ammiak ortiqcha bo'lganda to'q ko'k ammiakat hosil bo'ladi"
+  },
+  {
+   "from": "Zn(OH)2",
+   "ligand": "NH3",
+   "eq": "Zn(OH)2 + 4NH3 = [Zn(NH3)4]²⁺ + 2OH⁻",
+   "note_uz": "rux gidroksid ortiqcha ammiakda eriydi"
+  },
+  {
+   "from": "Ni(OH)2",
+   "ligand": "NH3",
+   "eq": "Ni(OH)2 + 6NH3 = [Ni(NH3)6]²⁺ + 2OH⁻",
+   "note_uz": "nikel gidroksid ortiqcha ammiakda ko'k-binafsha kompleks beradi"
+  },
+  {
+   "from": "Ag2O",
+   "ligand": "NH3",
+   "eq": "Ag2O + 4NH3 + H2O = 2[Ag(NH3)2]⁺ + 2OH⁻",
+   "note_uz": "kumush oksid ammiakda eriydi (Tollens reaktivi)"
+  },
+  {
+   "from": "AgCl",
+   "ligand": "NH3",
+   "eq": "AgCl + 2NH3 = [Ag(NH3)2]⁺ + Cl⁻",
+   "note_uz": "kumush xlorid ammiakda eriydi (AgBr qisman, AgI erimaydi)"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "fenolftalein",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     null
+    ],
+    [
+     8.1,
+     null
+    ],
+    [
+     8.6,
+     "#f7b6d8"
+    ],
+    [
+     10,
+     "#d81b8c"
+    ],
+    [
+     13,
+     "#d81b8c"
+    ]
+   ]
+  },
+  {
+   "id": "metiloranj",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     "#e0312b"
+    ],
+    [
+     3.1,
+     "#e0312b"
+    ],
+    [
+     3.8,
+     "#f08a1c"
+    ],
+    [
+     4.4,
+     "#f2c21b"
+    ],
+    [
+     14,
+     "#f2c21b"
+    ]
+   ]
+  },
+  {
+   "id": "lakmus",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     "#d42a3a"
+    ],
+    [
+     5,
+     "#d42a3a"
+    ],
+    [
+     6.5,
+     "#8a4fb3"
+    ],
+    [
+     8,
+     "#3a55c7"
+    ],
+    [
+     14,
+     "#3a55c7"
+    ]
+   ]
+  },
+  {
+   "id": "universal-indikator",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     "#c4141c"
+    ],
+    [
+     2,
+     "#e63a1f"
+    ],
+    [
+     4,
+     "#f39a1d"
+    ],
+    [
+     6,
+     "#f5d324"
+    ],
+    [
+     7,
+     "#7cc23a"
+    ],
+    [
+     8,
+     "#2f9e5a"
+    ],
+    [
+     9,
+     "#2e7fb8"
+    ],
+    [
+     10,
+     "#3349a8"
+    ],
+    [
+     12,
+     "#4d2f91"
+    ],
+    [
+     14,
+     "#3b1f6e"
+    ]
+   ]
+  },
+  {
+   "id": "bromtimol-kok",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     "#e8d02a"
+    ],
+    [
+     6,
+     "#e8d02a"
+    ],
+    [
+     6.8,
+     "#7fa83a"
+    ],
+    [
+     7.6,
+     "#2a5fc0"
+    ],
+    [
+     14,
+     "#2a5fc0"
+    ]
+   ]
+  },
+  {
+   "id": "erioxrom-qora-T",
+   "ref_M": 0.0003,
+   "stops": [
+    [
+     0,
+     "#b3263a"
+    ],
+    [
+     6.3,
+     "#b3263a"
+    ],
+    [
+     8,
+     "#3043b0"
+    ],
+    [
+     11.5,
+     "#3043b0"
+    ],
+    [
+     12.5,
+     "#e07a2a"
+    ],
+    [
+     14,
+     "#e07a2a"
+    ]
+   ],
+   "note_uz": "metall ionlari bilan qizil-binafsha, erkin holda (pH≈10) ko'k"
+  }
+ ],
+ "reducible_ions": [
+  {
+   "ion": "Fe^3+",
+   "to": "Fe^2+",
+   "e": 1,
+   "E": 0.77
+  },
+  {
+   "ion": "Hg^2+",
+   "to": "Hg",
+   "e": 2,
+   "E": 0.85
+  },
+  {
+   "ion": "Ag^+",
+   "to": "Ag",
+   "e": 1,
+   "E": 0.8
+  },
+  {
+   "ion": "Cu^2+",
+   "to": "Cu",
+   "e": 2,
+   "E": 0.34
+  },
+  {
+   "ion": "Pb^2+",
+   "to": "Pb",
+   "e": 2,
+   "E": -0.13
+  },
+  {
+   "ion": "Sn^2+",
+   "to": "Sn",
+   "e": 2,
+   "E": -0.14
+  },
+  {
+   "ion": "Ni^2+",
+   "to": "Ni",
+   "e": 2,
+   "E": -0.25
+  },
+  {
+   "ion": "Co^2+",
+   "to": "Co",
+   "e": 2,
+   "E": -0.28
+  },
+  {
+   "ion": "Fe^2+",
+   "to": "Fe",
+   "e": 2,
+   "E": -0.44
+  },
+  {
+   "ion": "Zn^2+",
+   "to": "Zn",
+   "e": 2,
+   "E": -0.76
+  }
+ ],
+ "metal_alkali": [
+  {
+   "metal": "Al",
+   "eq": "2Al + 2OH⁻ + 6H2O = 2[Al(OH)4]⁻ + 3H2↑",
+   "heat": false
+  },
+  {
+   "metal": "Zn",
+   "eq": "Zn + 2OH⁻ + 2H2O = [Zn(OH)4]²⁻ + H2↑",
+   "heat": false
+  },
+  {
+   "metal": "Sn",
+   "eq": "Sn + 2OH⁻ + 2H2O = [Sn(OH)4]²⁻ + H2↑",
+   "heat": true
+  }
+ ],
+ "ppt_order_hint": {
+  "Ag2S": 1e-17,
+  "CuS": 1e-18,
+  "PbS": 1e-14,
+  "HgS": 1e-26,
+  "AgI": 9e-9,
+  "AgBr": 7e-7,
+  "AgSCN": 0.000001,
+  "AgCl": 0.000013,
+  "Ag2CrO4": 0.000065,
+  "BaSO4": 0.00001,
+  "PbSO4": 0.00013,
+  "SrSO4": 0.0005,
+  "CaSO4": 0.015,
+  "BaCrO4": 0.000011,
+  "PbCrO4": 1.3e-7,
+  "CaC2O4": 0.00005,
+  "CaCO3": 0.00007,
+  "BaCO3": 0.00009,
+  "Fe(OH)3": 1e-10,
+  "Al(OH)3": 1e-9,
+  "Cu(OH)2": 2e-7,
+  "PbI2": 0.0015,
+  "CaF2": 0.0002
+ },
+ "electrolysis": {
+  "cathode": {
+   "Li^+": "H2",
+   "K^+": "H2",
+   "Ba^2+": "H2",
+   "Ca^2+": "H2",
+   "Na^+": "H2",
+   "Mg^2+": "H2",
+   "Al^3+": "H2",
+   "NH4^+": "H2",
+   "Mn^2+": "metal+H2",
+   "Zn^2+": "metal",
+   "Cr^3+": "metal+H2",
+   "Fe^2+": "metal+H2",
+   "Ni^2+": "metal",
+   "Co^2+": "metal",
+   "Sn^2+": "metal",
+   "Pb^2+": "metal",
+   "H^+": "H2",
+   "Cu^2+": "metal",
+   "Ag^+": "metal",
+   "Hg^2+": "metal"
+  },
+  "cathode_eq": {
+   "H2_water": "2H2O + 2e⁻ = H2↑ + 2OH⁻",
+   "H2_acid": "2H⁺ + 2e⁻ = H2↑"
+  },
+  "anode_priority": [
+   "S^2-",
+   "I^-",
+   "Br^-",
+   "Cl^-",
+   "OH^-"
+  ],
+  "anode_eq": {
+   "S^2-": "S²⁻ − 2e⁻ = S",
+   "I^-": "2I⁻ − 2e⁻ = I2",
+   "Br^-": "2Br⁻ − 2e⁻ = Br2",
+   "Cl^-": "2Cl⁻ − 2e⁻ = Cl2↑",
+   "OH^-": "4OH⁻ − 4e⁻ = O2↑ + 2H2O",
+   "water": "2H2O − 4e⁻ = O2↑ + 4H⁺"
+  },
+  "note_uz": "Kislorodli anionlar (SO₄²⁻, NO₃⁻, PO₄³⁻, CO₃²⁻) va F⁻ suvli eritmada oksidlanmaydi — anodda suv oksidlanib kislorod ajraladi."
+ }
+}

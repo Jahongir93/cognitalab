@@ -1,0 +1,19 @@
+{
+  "name": "cognita-virtual-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cognita Virtual Kimyo Laboratoriyasi — brauzerdagi 3D virtual kimyo laboratoriyasi",
+  "type": "module",
+  "scripts": {
+    "vendor": "node tools/copy_vendor.mjs",
+    "validate": "node tools/validate_data.mjs",
+    "review": "node tools/build_review.mjs",
+    "test": "node --test tests/engine/*.test.mjs tests/data/*.test.mjs",
+    "test:e2e": "playwright test -c tests/e2e/playwright.config.mjs",
+    "serve": "python3 -m http.server 8000 -d frontend/lab"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "three": "0.186.1"
+  }
+}

@@ -1,0 +1,271 @@
+{
+ "types": {
+  "ogiz": "Idish og'zi (diametri bilan)",
+  "tiqin": "Tiqin tanasi",
+  "tiqin-teshik": "Tiqin teshigi",
+  "naycha-uchi": "Shisha naycha uchi",
+  "naycha-uchi-tor": "Toraytirilgan naycha uchi",
+  "shlang-uchi": "Shlang uchi",
+  "shtutser": "Shlang shtutseri",
+  "shlif-urgochi": "Shlif (ichki)",
+  "shlif-erkak": "Shlif (tashqi)",
+  "qisqich-joyi": "Qisqich ushlaydigan joy",
+  "lapka-jag": "Qisqich jag'i",
+  "ustun": "Shtativ ustuni",
+  "mufta-teshik": "Mufta teshigi",
+  "mufta-ilgak": "Mufta ilgagi",
+  "dasta": "Qisqich/halqa dastasi",
+  "halqa": "Shtativ halqasi",
+  "halqa-joyi": "Halqaga qo'yiladigan joy",
+  "tub": "Idish tubi",
+  "olov": "Alanga",
+  "tor-usti": "To'r usti",
+  "tor-joyi": "To'r asosi",
+  "uchoyoq-usti": "Uchoyoq usti",
+  "uchoyoq-osti": "Uchoyoq osti",
+  "gorelka-joyi": "Gorelka asosi",
+  "plita": "Plita yuzasi",
+  "hammom": "Hammom",
+  "isitgich-uyasi": "Isitgich uyasi",
+  "pech-ichi": "Pech ichi",
+  "uchburchak": "Chinni uchburchak",
+  "uchburchak-joyi": "Uchburchak asosi",
+  "tarozi-palla": "Tarozi pallasi",
+  "uya": "Shtativ uyasi",
+  "probirka-tanasi": "Probirka tanasi",
+  "voronka-oyogi": "Voronka oyog'i",
+  "voronka-konus": "Voronka konusi",
+  "voronka-ogiz": "Voronka og'zi",
+  "elektrod-uchi": "Elektrod uchi",
+  "elektrod-joyi": "Elektrod joyi",
+  "klemma": "Klemma",
+  "sim-uchi": "Sim uchi",
+  "suv-osti": "Suv ostidagi kirish",
+  "yiggich-joyi": "Yig'gich idish joyi",
+  "filtr-joyi": "Filtr"
+ },
+ "compat": [
+  {
+   "a": "ogiz",
+   "b": "tiqin",
+   "rule": "diameter",
+   "sealed": true
+  },
+  {
+   "a": "shlif-urgochi",
+   "b": "shlif-erkak",
+   "rule": "size",
+   "sealed": true
+  },
+  {
+   "a": "tiqin-teshik",
+   "b": "naycha-uchi",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "tiqin-teshik",
+   "b": "voronka-oyogi",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "shlang-uchi",
+   "b": "naycha-uchi",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "shlang-uchi",
+   "b": "naycha-uchi-tor",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "shlang-uchi",
+   "b": "shtutser",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "shlang-uchi",
+   "b": "shlang-uchi",
+   "rule": null,
+   "sealed": true
+  },
+  {
+   "a": "qisqich-joyi",
+   "b": "lapka-jag",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "ustun",
+   "b": "mufta-teshik",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "mufta-ilgak",
+   "b": "dasta",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "halqa",
+   "b": "halqa-joyi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "halqa",
+   "b": "voronka-konus",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "halqa",
+   "b": "tor-joyi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "halqa",
+   "b": "uchburchak-joyi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "olov",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "tor-usti",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "plita",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "hammom",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "isitgich-uyasi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "pech-ichi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "uchburchak",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tub",
+   "b": "tarozi-palla",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "probirka-tanasi",
+   "b": "uya",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "tor-joyi",
+   "b": "uchoyoq-usti",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "uchburchak-joyi",
+   "b": "uchoyoq-usti",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "gorelka-joyi",
+   "b": "uchoyoq-osti",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "voronka-oyogi",
+   "b": "ogiz",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "naycha-uchi",
+   "b": "ogiz",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "naycha-uchi",
+   "b": "suv-osti",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "ogiz",
+   "b": "yiggich-joyi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "elektrod-uchi",
+   "b": "elektrod-joyi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "elektrod-uchi",
+   "b": "ogiz",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "klemma",
+   "b": "sim-uchi",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "filtr-joyi",
+   "b": "voronka-ogiz",
+   "rule": null,
+   "sealed": false
+  },
+  {
+   "a": "shlif-erkak",
+   "b": "ogiz",
+   "rule": "diameter-shlif",
+   "sealed": false
+  }
+ ],
+ "shlif_d_mm": {
+  "14/23": 14.5,
+  "19/26": 18.8,
+  "24/29": 24,
+  "29/32": 29.2
+ }
+}

@@ -1,0 +1,6165 @@
+{
+ "categories": {
+  "shisha": "Shisha idishlar",
+  "chinni": "Chinni va boshqa idishlar",
+  "qizdirish": "Qizdirish asboblari",
+  "mahkamlash": "Mahkamlash",
+  "olchash": "O'lchash asboblari",
+  "elektrokimyo": "Elektrokimyo",
+  "yordamchi": "Yordamchi buyumlar",
+  "himoya": "Himoya vositalari"
+ },
+ "items": [
+  {
+   "id": "probirka",
+   "name_uz": "Probirka",
+   "category": "shisha",
+   "builder": "probirka",
+   "desc_uz": "Kichik hajmdagi tajribalar uchun; spirt lampasi alangasida qizdirish mumkin.",
+   "sizes": [
+    {
+     "id": "oddiy",
+     "label": "16×150 mm (20 ml)",
+     "params": {
+      "R": 8,
+      "H": 150,
+      "wall": 0.8
+     },
+     "capacity_mL": 20,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 14
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        117,
+        9
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "tana",
+       "type": "probirka-tanasi",
+       "pos": [
+        0,
+        45,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "id": "kichik",
+     "label": "12×100 mm (8 ml)",
+     "params": {
+      "R": 6,
+      "H": 100,
+      "wall": 0.7
+     },
+     "capacity_mL": 8,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        100,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 10
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        78,
+        7
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "tana",
+       "type": "probirka-tanasi",
+       "pos": [
+        0,
+        30,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 8,
+    "graduated": false
+   }
+  },
+  {
+   "id": "probirka-yon-naychali",
+   "name_uz": "Yon naychali probirka",
+   "category": "shisha",
+   "builder": "probirka",
+   "desc_uz": "Gaz olish uchun: yon naychaga shlang ulanadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 10,
+      "H": 160,
+      "wall": 0.9,
+      "sideArm": true
+     },
+     "capacity_mL": 30,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        160,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 18
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        112,
+        11
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "yon",
+       "type": "naycha-uchi",
+       "pos": [
+        38,
+        131.2,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "tana",
+       "type": "probirka-tanasi",
+       "pos": [
+        0,
+        48,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 12,
+    "capacity_mL": 30
+   }
+  },
+  {
+   "id": "kimyoviy-stakan",
+   "name_uz": "Kimyoviy stakan",
+   "category": "shisha",
+   "builder": "stakan",
+   "desc_uz": "Eritmalar tayyorlash, qizdirish (asbest to'r ustida) va aralashtirish uchun.",
+   "sizes": [
+    {
+     "id": "50",
+     "label": "50 ml",
+     "params": {
+      "R": 21,
+      "H": 58,
+      "wall": 1.1
+     },
+     "capacity_mL": 50,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        58,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 42
+      }
+     ]
+    },
+    {
+     "id": "100",
+     "label": "100 ml",
+     "params": {
+      "R": 25.5,
+      "H": 70,
+      "wall": 1.2
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 51
+      }
+     ]
+    },
+    {
+     "id": "250",
+     "label": "250 ml",
+     "params": {
+      "R": 34,
+      "H": 95,
+      "wall": 1.4
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        95,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 68
+      }
+     ]
+    },
+    {
+     "id": "600",
+     "label": "600 ml",
+     "params": {
+      "R": 45,
+      "H": 125,
+      "wall": 1.7
+     },
+     "capacity_mL": 600,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        125,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 90
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 40,
+    "graduated": true,
+    "needsGauze": true
+   }
+  },
+  {
+   "id": "konussimon-kolba",
+   "name_uz": "Konussimon kolba (Erlenmeyer)",
+   "category": "shisha",
+   "builder": "erlenmeyer",
+   "desc_uz": "Titrlash va qizdirish uchun; tor bo'g'zi sachrashni kamaytiradi.",
+   "sizes": [
+    {
+     "id": "100",
+     "label": "100 ml",
+     "params": {
+      "R": 32,
+      "H": 105,
+      "neckR": 11,
+      "neckH": 25,
+      "wall": 1.2
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        105,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 20
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        89.25,
+        12
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "id": "250",
+     "label": "250 ml",
+     "params": {
+      "R": 42,
+      "H": 140,
+      "neckR": 14,
+      "neckH": 30,
+      "wall": 1.4
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        140,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 26
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        119,
+        15
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 60,
+    "graduated": true,
+    "needsGauze": true
+   }
+  },
+  {
+   "id": "yassi-tubli-kolba",
+   "name_uz": "Yassi tubli kolba",
+   "category": "shisha",
+   "builder": "kolba",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 42,
+      "H": 150,
+      "neckR": 13,
+      "neckH": 50,
+      "flat": true,
+      "wall": 1.3
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 24
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        127.5,
+        14
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 80,
+    "capacity_mL": 250,
+    "needsGauze": true
+   }
+  },
+  {
+   "id": "dumaloq-tubli-kolba",
+   "name_uz": "Dumaloq tubli kolba",
+   "category": "shisha",
+   "builder": "kolba",
+   "desc_uz": "Qizdirish va haydash uchun; shtativga mahkamlanadi, shlif bo'g'izli (29/32).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 42,
+      "H": 150,
+      "neckR": 12,
+      "neckH": 50,
+      "flat": false,
+      "wall": 1.3
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        127.5,
+        13
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "halqa",
+       "type": "halqa-joyi",
+       "pos": [
+        0,
+        6,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 80,
+    "capacity_mL": 250,
+    "needsSupport": true
+   }
+  },
+  {
+   "id": "ikki-bogizli-kolba",
+   "name_uz": "Ikki bo'g'izli dumaloq kolba",
+   "category": "shisha",
+   "builder": "kolba",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 42,
+      "H": 150,
+      "neckR": 12,
+      "neckH": 50,
+      "necks": 2,
+      "wall": 1.3
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "yon-bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        36,
+        130,
+        0
+       ],
+       "dir": [
+        0.42,
+        0.9,
+        0
+       ],
+       "size": "19/26"
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        127.5,
+        13
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "halqa",
+       "type": "halqa-joyi",
+       "pos": [
+        0,
+        6,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 95,
+    "capacity_mL": 250,
+    "needsSupport": true
+   }
+  },
+  {
+   "id": "uch-bogizli-kolba",
+   "name_uz": "Uch bo'g'izli dumaloq kolba",
+   "category": "shisha",
+   "builder": "kolba",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45,
+      "H": 155,
+      "neckR": 12,
+      "neckH": 50,
+      "necks": 3,
+      "wall": 1.3
+     },
+     "capacity_mL": 500,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        155,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "yon-bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        38,
+        133,
+        0
+       ],
+       "dir": [
+        0.42,
+        0.9,
+        0
+       ],
+       "size": "19/26"
+      },
+      {
+       "id": "yon-bogiz-2",
+       "type": "shlif-urgochi",
+       "pos": [
+        -38,
+        133,
+        0
+       ],
+       "dir": [
+        -0.42,
+        0.9,
+        0
+       ],
+       "size": "19/26"
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        131.75,
+        13
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "halqa",
+       "type": "halqa-joyi",
+       "pos": [
+        0,
+        6,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 110,
+    "capacity_mL": 500,
+    "needsSupport": true
+   }
+  },
+  {
+   "id": "vyurs-kolbasi",
+   "name_uz": "Vyurs kolbasi",
+   "category": "shisha",
+   "builder": "kolba",
+   "desc_uz": "Haydash uchun: yon naycha sovutgichga ulanadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 38,
+      "H": 170,
+      "neckR": 12,
+      "neckH": 75,
+      "sideArm": true,
+      "wall": 1.3
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        170,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 22
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        136,
+        13
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "yon",
+       "type": "naycha-uchi",
+       "pos": [
+        72,
+        118,
+        0
+       ],
+       "dir": [
+        0.9,
+        -0.42,
+        0
+       ]
+      },
+      {
+       "id": "halqa",
+       "type": "halqa-joyi",
+       "pos": [
+        0,
+        6,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 85,
+    "capacity_mL": 250,
+    "needsSupport": true
+   }
+  },
+  {
+   "id": "bunzen-kolbasi",
+   "name_uz": "Bunzen kolbasi",
+   "category": "shisha",
+   "builder": "erlenmeyer",
+   "desc_uz": "Vakuum ostida filtrlash uchun qalin devorli kolba (qizdirilmaydi).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45,
+      "H": 160,
+      "neckR": 14,
+      "neckH": 35,
+      "wall": 2.6,
+      "sideBarb": true
+     },
+     "capacity_mL": 500,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        160,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 26
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        136,
+        15
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "id": "yon",
+       "type": "shtutser",
+       "pos": [
+        36,
+        138,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 180,
+    "capacity_mL": 500,
+    "thick": true
+   }
+  },
+  {
+   "id": "olchov-kolbasi",
+   "name_uz": "O'lchov kolbasi",
+   "category": "shisha",
+   "builder": "olchov-kolba",
+   "desc_uz": "Aniq hajmli eritma tayyorlash uchun; qizdirilmaydi.",
+   "sizes": [
+    {
+     "id": "100",
+     "label": "100 ml",
+     "params": {
+      "R": 30,
+      "H": 170,
+      "neckR": 7,
+      "wall": 1.2
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        170,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "14/23"
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        144.5,
+        8
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "id": "250",
+     "label": "250 ml",
+     "params": {
+      "R": 40,
+      "H": 215,
+      "neckR": 8,
+      "wall": 1.3
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        215,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "14/23"
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        182.75,
+        9
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 70,
+    "graduated": true,
+    "measuring": true
+   }
+  },
+  {
+   "id": "retorta",
+   "name_uz": "Retorta",
+   "category": "shisha",
+   "builder": "retorta",
+   "desc_uz": "Qadimiy haydash idishi: egilgan bo'yni sovutgich vazifasini bajaradi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 40,
+      "H": 120
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        82,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 18
+      },
+      {
+       "id": "jumrak",
+       "type": "naycha-uchi",
+       "pos": [
+        165,
+        30,
+        0
+       ],
+       "dir": [
+        0.9,
+        -0.4,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        60,
+        41
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 90,
+    "capacity_mL": 250,
+    "needsSupport": true
+   }
+  },
+  {
+   "id": "olchov-silindri",
+   "name_uz": "O'lchov silindri",
+   "category": "shisha",
+   "builder": "silindr",
+   "desc_uz": "Suyuqlik hajmini o'lchash; qizdirilmaydi.",
+   "sizes": [
+    {
+     "id": "10",
+     "label": "10 ml",
+     "params": {
+      "R": 7,
+      "H": 140,
+      "wall": 1
+     },
+     "capacity_mL": 10,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        140,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 14
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        119,
+        8
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "id": "50",
+     "label": "50 ml",
+     "params": {
+      "R": 12,
+      "H": 200,
+      "wall": 1.2
+     },
+     "capacity_mL": 50,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        200,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 24
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        170,
+        13
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "id": "100",
+     "label": "100 ml",
+     "params": {
+      "R": 16,
+      "H": 250,
+      "wall": 1.3
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        250,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 32
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        212.5,
+        17
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 60,
+    "graduated": true,
+    "measuring": true
+   }
+  },
+  {
+   "id": "menzurka",
+   "name_uz": "Menzurka",
+   "category": "shisha",
+   "builder": "menzurka",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 32,
+      "r": 14,
+      "H": 110,
+      "wall": 1.3
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 64
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 50,
+    "capacity_mL": 100,
+    "graduated": true,
+    "measuring": true
+   }
+  },
+  {
+   "id": "byuretka",
+   "name_uz": "Byuretka (jo'mrakli)",
+   "category": "shisha",
+   "builder": "byuretka",
+   "desc_uz": "Titrlashda aniq hajm (0,05 ml gacha) quyish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 5.5,
+      "H": 600,
+      "wall": 1
+     },
+     "capacity_mL": 50,
+     "ports": [
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        600,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 9
+      },
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        420,
+        6.5
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 70,
+    "capacity_mL": 50,
+    "graduated": true,
+    "measuring": true,
+    "dispenser": "byuretka"
+   }
+  },
+  {
+   "id": "mor-pipetkasi",
+   "name_uz": "Mor pipetkasi (10 ml)",
+   "category": "shisha",
+   "builder": "pipetka",
+   "desc_uz": "Bitta aniq hajmni (10,00 ml) o'lchab olish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "bulb": true,
+      "H": 330
+     },
+     "capacity_mL": 10,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 15,
+    "capacity_mL": 10,
+    "dispenser": "pipetka",
+    "fixed": 10
+   }
+  },
+  {
+   "id": "darajalangan-pipetka",
+   "name_uz": "Darajalangan pipetka (10 ml)",
+   "category": "shisha",
+   "builder": "pipetka",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "bulb": false,
+      "H": 330
+     },
+     "capacity_mL": 10,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 12,
+    "capacity_mL": 10,
+    "dispenser": "pipetka"
+   }
+  },
+  {
+   "id": "tomizgich",
+   "name_uz": "Tomizgich",
+   "category": "shisha",
+   "builder": "tomizgich",
+   "desc_uz": "Tomchilab qo'shish uchun (1 tomchi ≈ 0,05 ml).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "H": 120
+     },
+     "capacity_mL": 2,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 4,
+    "capacity_mL": 2,
+    "dispenser": "tomizgich",
+    "drop_mL": 0.05
+   }
+  },
+  {
+   "id": "oddiy-voronka",
+   "name_uz": "Oddiy voronka",
+   "category": "shisha",
+   "builder": "voronka",
+   "desc_uz": "Quyish va filtrlash (filtr qog'oz bilan) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 35,
+      "H": 120
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "oyoq",
+       "type": "voronka-oyogi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "konus",
+       "type": "voronka-konus",
+       "pos": [
+        0,
+        75,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "voronka-ogiz",
+       "pos": [
+        0,
+        120,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ajratgich-voronka",
+   "name_uz": "Ajratgich voronka",
+   "category": "shisha",
+   "builder": "ajratgich",
+   "desc_uz": "Aralashmaydigan suyuqliklarni ajratish va ekstraksiya uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 32,
+      "H": 260
+     },
+     "capacity_mL": 100,
+     "ports": [
+      {
+       "id": "oyoq",
+       "type": "voronka-oyogi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        260,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "19/26"
+      },
+      {
+       "id": "halqa",
+       "type": "voronka-konus",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        230,
+        8
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 90,
+    "capacity_mL": 100,
+    "dispenser": "jumrak"
+   }
+  },
+  {
+   "id": "tomchi-voronka",
+   "name_uz": "Tomchi voronka",
+   "category": "shisha",
+   "builder": "ajratgich",
+   "desc_uz": "Reaksiya kolbasiga suyuqlikni asta-sekin tomizib berish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 24,
+      "H": 230,
+      "cyl": true
+     },
+     "capacity_mL": 50,
+     "ports": [
+      {
+       "id": "oyoq",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        230,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 16
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        200,
+        8
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 70,
+    "capacity_mL": 50,
+    "dispenser": "jumrak"
+   }
+  },
+  {
+   "id": "soat-oynasi",
+   "name_uz": "Soat oynasi",
+   "category": "shisha",
+   "builder": "soat-oynasi",
+   "desc_uz": "Qattiq moddalarni tortish va bug'latish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 40
+     },
+     "capacity_mL": 5,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 15,
+    "capacity_mL": 5
+   }
+  },
+  {
+   "id": "petri-kosachasi",
+   "name_uz": "Petri kosachasi",
+   "category": "shisha",
+   "builder": "petri",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45,
+      "H": 15
+     },
+     "capacity_mL": 60,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        15,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 90
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 30,
+    "capacity_mL": 60
+   }
+  },
+  {
+   "id": "kristallizator",
+   "name_uz": "Kristallizator",
+   "category": "shisha",
+   "builder": "stakan",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 50,
+      "H": 55,
+      "wall": 1.6
+     },
+     "capacity_mL": 400,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        55,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 100
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 120,
+    "capacity_mL": 400
+   }
+  },
+  {
+   "id": "eksikator",
+   "name_uz": "Eksikator",
+   "category": "shisha",
+   "builder": "eksikator",
+   "desc_uz": "Moddalarni quritish va namlikdan saqlash uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 80,
+      "H": 170
+     },
+     "capacity_mL": 1500,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 1500,
+    "capacity_mL": 1500
+   }
+  },
+  {
+   "id": "shisha-tayoqcha",
+   "name_uz": "Shisha tayoqcha",
+   "category": "shisha",
+   "builder": "tayoqcha",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 200,
+      "r": 3
+     },
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "aralashtirish"
+  },
+  {
+   "id": "gaz-naycha-togri",
+   "name_uz": "Gaz chiqarish naychasi (to'g'ri)",
+   "category": "shisha",
+   "builder": "naycha",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "path": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        150,
+        0
+       ]
+      ]
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gaz-naycha-egilgan",
+   "name_uz": "Gaz chiqarish naychasi (egilgan)",
+   "category": "shisha",
+   "builder": "naycha",
+   "desc_uz": "Gazni boshqa idishga o'tkazish uchun ikki marta egilgan naycha.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "path": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        60,
+        0
+       ],
+       [
+        0,
+        95,
+        0
+       ],
+       [
+        35,
+        110,
+        0
+       ],
+       [
+        140,
+        110,
+        0
+       ],
+       [
+        175,
+        95,
+        0
+       ],
+       [
+        180,
+        60,
+        0
+       ],
+       [
+        180,
+        -60,
+        0
+       ]
+      ]
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "naycha-uchi",
+       "pos": [
+        180,
+        -60,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gaz-naycha-toraytirilgan",
+   "name_uz": "Uchi toraytirilgan naycha",
+   "category": "shisha",
+   "builder": "naycha",
+   "desc_uz": "Gazni yondirish (vodorod, atsetilen) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "path": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        140,
+        0
+       ]
+      ],
+      "taper": true
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "naycha-uchi-tor",
+       "pos": [
+        0,
+        140,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u-simon-naycha",
+   "name_uz": "U-simon naycha",
+   "category": "shisha",
+   "builder": "u-naycha",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "W": 50,
+      "H": 150,
+      "r": 7
+     },
+     "capacity_mL": 15,
+     "ports": [
+      {
+       "id": "chap",
+       "type": "ogiz",
+       "pos": [
+        -25,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 13
+      },
+      {
+       "id": "ong",
+       "type": "ogiz",
+       "pos": [
+        25,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 13
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        110,
+        9
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 25,
+    "capacity_mL": 15
+   }
+  },
+  {
+   "id": "xlorkalsiyli-naycha",
+   "name_uz": "Xlorkalsiyli naycha",
+   "category": "shisha",
+   "builder": "xlorkalsiy",
+   "desc_uz": "Gazni quritish (suvsiz CaCl₂ bilan to'ldiriladi).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "H": 150
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "ogiz",
+       "pos": [
+        0,
+        150,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 16
+      },
+      {
+       "id": "b",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "libix-sovutgichi",
+   "name_uz": "Libix sovutgichi",
+   "category": "shisha",
+   "builder": "sovutgich",
+   "desc_uz": "Bug'ni kondensatlash: suv pastdan kirib, yuqoridan chiqadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 400,
+      "kind": "libix"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "kirish",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "chiqish",
+       "type": "naycha-uchi",
+       "pos": [
+        400,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "suv-kirish",
+       "type": "shtutser",
+       "pos": [
+        360,
+        -20,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "suv-chiqish",
+       "type": "shtutser",
+       "pos": [
+        40,
+        20,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        200,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sharikli-sovutgich",
+   "name_uz": "Sharikli qaytar sovutgich",
+   "category": "shisha",
+   "builder": "sovutgich",
+   "desc_uz": "Qizdirishda bug'ni qaytarib kolbaga tushiradi (vertikal o'rnatiladi).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 350,
+      "kind": "sharikli"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "kirish",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "chiqish",
+       "type": "ogiz",
+       "pos": [
+        350,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ],
+       "d_mm": 14
+      },
+      {
+       "id": "suv-kirish",
+       "type": "shtutser",
+       "pos": [
+        40,
+        -20,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "suv-chiqish",
+       "type": "shtutser",
+       "pos": [
+        310,
+        20,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        175,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deflegmator",
+   "name_uz": "Deflegmator (Vigre kolonkasi)",
+   "category": "shisha",
+   "builder": "sovutgich",
+   "desc_uz": "Fraksion haydash uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 300,
+      "kind": "deflegmator"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "kirish",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "chiqish",
+       "type": "shlif-urgochi",
+       "pos": [
+        300,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ],
+       "size": "29/32"
+      },
+      {
+       "id": "yon",
+       "type": "naycha-uchi",
+       "pos": [
+        270,
+        30,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        150,
+        15,
+        0
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alonj",
+   "name_uz": "Alonj",
+   "category": "shisha",
+   "builder": "alonj",
+   "desc_uz": "Sovutgichdan chiqqan distillyatni qabul qiluvchi idishga yo'naltiradi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "kirish",
+       "type": "ogiz",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ],
+       "d_mm": 16
+      },
+      {
+       "id": "chiqish",
+       "type": "naycha-uchi",
+       "pos": [
+        90,
+        -60,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dreksel-sklyankasi",
+   "name_uz": "Gaz yuvish (Dreksel) sklyankasi",
+   "category": "shisha",
+   "builder": "dreksel",
+   "desc_uz": "Gaz suyuqlik orqali o'tkazilib tozalanadi yoki quritiladi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 30,
+      "H": 180
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "kirish",
+       "type": "naycha-uchi",
+       "pos": [
+        -14,
+        230,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "chiqish",
+       "type": "naycha-uchi",
+       "pos": [
+        14,
+        230,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 150,
+    "capacity_mL": 250,
+    "gasWash": true
+   }
+  },
+  {
+   "id": "kipp-apparati",
+   "name_uz": "Kipp apparati",
+   "category": "shisha",
+   "builder": "kipp",
+   "desc_uz": "Qattiq modda va suyuqlikdan (Zn + HCl, CaCO₃ + HCl, FeS + HCl) gaz olish; jo'mrak yopilsa reaksiya to'xtaydi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": 1000,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "chiqish",
+       "type": "shtutser",
+       "pos": [
+        95,
+        230,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 2500,
+    "capacity_mL": 1000,
+    "gasSource": true
+   }
+  },
+  {
+   "id": "gazometr",
+   "name_uz": "Gazometr",
+   "category": "shisha",
+   "builder": "gazometr",
+   "desc_uz": "Gazni yig'ish va saqlash.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": 3000,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "kirish",
+       "type": "shtutser",
+       "pos": [
+        -110,
+        60,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "chiqish",
+       "type": "shtutser",
+       "pos": [
+        0,
+        320,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 3000,
+    "capacity_mL": 3000
+   }
+  },
+  {
+   "id": "gaz-silindri",
+   "name_uz": "Gaz yig'ish silindri",
+   "category": "shisha",
+   "builder": "silindr",
+   "desc_uz": "Gazlarni yig'ish va ularda moddalarni yondirish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 25,
+      "H": 160,
+      "wall": 1.6,
+      "noSpout": true
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        160,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 48
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 120,
+    "capacity_mL": 250,
+    "collector": true
+   }
+  },
+  {
+   "id": "reaktiv-sklyankasi",
+   "name_uz": "Reaktiv sklyankasi (tiqinli)",
+   "category": "shisha",
+   "builder": "sklyanka",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 30,
+      "H": 110,
+      "neckR": 11
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "19/26"
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 150,
+    "capacity_mL": 250,
+    "bottle": true
+   }
+  },
+  {
+   "id": "tomizgichli-sklyanka",
+   "name_uz": "Tomizgichli sklyanka",
+   "category": "shisha",
+   "builder": "sklyanka",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 18,
+      "H": 75,
+      "neckR": 8,
+      "dropper": true
+     },
+     "capacity_mL": 50,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        75,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 14
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 60,
+    "capacity_mL": 50,
+    "bottle": true,
+    "dispenser": "tomizgich"
+   }
+  },
+  {
+   "id": "qoramtir-sklyanka",
+   "name_uz": "Qoramtir shishali sklyanka",
+   "category": "shisha",
+   "builder": "sklyanka",
+   "desc_uz": "Yorug'likda parchalanadigan moddalar (AgNO₃, KMnO₄, HNO₃, H₂O₂) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 30,
+      "H": 110,
+      "neckR": 11,
+      "amber": true
+     },
+     "capacity_mL": 250,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "bogiz",
+       "type": "shlif-urgochi",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "size": "19/26"
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 150,
+    "capacity_mL": 250,
+    "bottle": true
+   }
+  },
+  {
+   "id": "yuvgich",
+   "name_uz": "Yuvgich (distillangan suv)",
+   "category": "shisha",
+   "builder": "yuvgich",
+   "desc_uz": "Distillangan suv bilan chayish va suv qo'shish.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 35,
+      "H": 150
+     },
+     "capacity_mL": 500,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        60,
+        190,
+        0
+       ],
+       "dir": [
+        1,
+        -0.3,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 60,
+    "capacity_mL": 500,
+    "bottle": true,
+    "source": "H2O"
+   }
+  },
+  {
+   "id": "chinni-kosacha",
+   "name_uz": "Chinni kosacha (bug'latish uchun)",
+   "category": "chinni",
+   "builder": "kosacha",
+   "desc_uz": "Eritmani bug'latish va kristallash uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45,
+      "H": 30
+     },
+     "capacity_mL": 60,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        30,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 90
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 90,
+    "capacity_mL": 60,
+    "porcelain": true
+   }
+  },
+  {
+   "id": "tigel",
+   "name_uz": "Chinni tigel",
+   "category": "chinni",
+   "builder": "tigel",
+   "desc_uz": "Qattiq moddalarni kuchli qizdirish (kuydirish) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 16,
+      "H": 38
+     },
+     "capacity_mL": 15,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "ogiz",
+       "pos": [
+        0,
+        38,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ],
+       "d_mm": 32
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 25,
+    "capacity_mL": 15,
+    "porcelain": true,
+    "maxT": 1100
+   }
+  },
+  {
+   "id": "tigel-qopqogi",
+   "name_uz": "Tigel qopqog'i",
+   "category": "chinni",
+   "builder": "qopqoq",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 18
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "qopqoq",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 28,
+       "d_max": 36
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hovoncha",
+   "name_uz": "Chinni hovoncha va dastasi",
+   "category": "chinni",
+   "builder": "hovoncha",
+   "desc_uz": "Qattiq moddalarni maydalash (kukun qilish) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45,
+      "H": 45
+     },
+     "capacity_mL": 60,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 300,
+    "capacity_mL": 60,
+    "porcelain": true,
+    "mortar": true
+   }
+  },
+  {
+   "id": "chinni-uchburchak",
+   "name_uz": "Chinni uchburchak",
+   "category": "chinni",
+   "builder": "uchburchak",
+   "desc_uz": "Tigelni halqa yoki uchoyoq ustida ushlab turadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 40
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "joy",
+       "type": "uchburchak-joyi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "uchburchak",
+       "type": "uchburchak",
+       "pos": [
+        0,
+        2,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chinni-qayiqcha",
+   "name_uz": "Chinni qayiqcha",
+   "category": "chinni",
+   "builder": "qayiqcha",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 70
+     },
+     "capacity_mL": 5,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 15,
+    "capacity_mL": 5,
+    "porcelain": true
+   }
+  },
+  {
+   "id": "tomchi-plastinkasi",
+   "name_uz": "Tomchi tahlili plastinkasi",
+   "category": "chinni",
+   "builder": "tomchi-plastinka",
+   "desc_uz": "Bir necha tomchi bilan sifat reaksiyalari o'tkazish.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "W": 100,
+      "D": 70
+     },
+     "capacity_mL": 1.5,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 150,
+    "capacity_mL": 1.5,
+    "wells": 12
+   }
+  },
+  {
+   "id": "byuxner-voronkasi",
+   "name_uz": "Byuxner voronkasi",
+   "category": "chinni",
+   "builder": "byuxner",
+   "desc_uz": "Vakuum ostida filtrlash (Bunzen kolbasi bilan).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 40,
+      "H": 110
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "oyoq",
+       "type": "voronka-oyogi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ogiz",
+       "type": "voronka-ogiz",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spirt-lampasi",
+   "name_uz": "Spirt lampasi",
+   "category": "qizdirish",
+   "builder": "spirt-lampa",
+   "desc_uz": "Alanganing yuqori qismi eng issiq; qopqoq bilan o'chiriladi (puflanmaydi).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "olov",
+       "type": "olov",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "asos",
+       "type": "gorelka-joyi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 35,
+    "maxT": 500,
+    "flame": "spirt",
+    "flameH": 45
+   }
+  },
+  {
+   "id": "bunzen-gorelkasi",
+   "name_uz": "Bunzen gorelkasi",
+   "category": "qizdirish",
+   "builder": "bunzen",
+   "desc_uz": "Havo kirishi rostlanadi: ko'k (to'liq yonish) yoki sariq alanga.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "olov",
+       "type": "olov",
+       "pos": [
+        0,
+        190,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "asos",
+       "type": "gorelka-joyi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "gaz",
+       "type": "shtutser",
+       "pos": [
+        30,
+        15,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 120,
+    "maxT": 900,
+    "flame": "gaz",
+    "flameH": 70
+   }
+  },
+  {
+   "id": "elektr-plitka",
+   "name_uz": "Elektr plitka",
+   "category": "qizdirish",
+   "builder": "plitka",
+   "desc_uz": "Ochiq alangasiz qizdirish (yonuvchan suyuqliklar uchun xavfsizroq).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "plita",
+       "type": "plita",
+       "pos": [
+        0,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 60,
+    "maxT": 350,
+    "flame": null
+   }
+  },
+  {
+   "id": "suv-hammomi",
+   "name_uz": "Suv hammomi",
+   "category": "qizdirish",
+   "builder": "hammom",
+   "desc_uz": "100 °C dan oshmaydigan bir tekis qizdirish.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 80,
+      "H": 90
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "hammom",
+       "type": "hammom",
+       "pos": [
+        0,
+        40,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 40,
+    "maxT": 100,
+    "flame": null
+   }
+  },
+  {
+   "id": "qum-hammomi",
+   "name_uz": "Qum hammomi",
+   "category": "qizdirish",
+   "builder": "hammom",
+   "desc_uz": "300 °C gacha bir tekis qizdirish.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 80,
+      "H": 60,
+      "sand": true
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "hammom",
+       "type": "hammom",
+       "pos": [
+        0,
+        30,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 50,
+    "maxT": 300,
+    "flame": null
+   }
+  },
+  {
+   "id": "kolba-isitgich",
+   "name_uz": "Kolba isitgich",
+   "category": "qizdirish",
+   "builder": "isitgich",
+   "desc_uz": "Dumaloq tubli kolbalarni qizdirish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 55
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uya",
+       "type": "isitgich-uyasi",
+       "pos": [
+        0,
+        30,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 60,
+    "maxT": 400,
+    "flame": null
+   }
+  },
+  {
+   "id": "mufel-pechi",
+   "name_uz": "Mufel pechi",
+   "category": "qizdirish",
+   "builder": "mufel",
+   "desc_uz": "Tigellarni 1100 °C gacha qizdirish.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "ichi",
+       "type": "pech-ichi",
+       "pos": [
+        0,
+        60,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "heater": {
+    "power_W": 100,
+    "maxT": 1100,
+    "flame": null
+   }
+  },
+  {
+   "id": "shtativ",
+   "name_uz": "Laboratoriya shtativi",
+   "category": "mahkamlash",
+   "builder": "shtativ",
+   "desc_uz": "Asos va ustun; mufta orqali qisqich va halqa o'rnatiladi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "H": 600
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "ustun",
+       "type": "ustun",
+       "pos": [
+        0,
+        300,
+        -60
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ],
+       "multi": true,
+       "slide": [
+        80,
+        560
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mufta",
+   "name_uz": "Mufta",
+   "category": "mahkamlash",
+   "builder": "mufta",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "teshik",
+       "type": "mufta-teshik",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "ilgak",
+       "type": "mufta-ilgak",
+       "pos": [
+        25,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qisqich-lapka",
+   "name_uz": "Qisqich (lapka)",
+   "category": "mahkamlash",
+   "builder": "lapka",
+   "desc_uz": "Idishni kerakli balandlik va burchakda ushlab turadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "dasta",
+       "type": "dasta",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "jag",
+       "type": "lapka-jag",
+       "pos": [
+        150,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shtativ-halqasi",
+   "name_uz": "Shtativ halqasi",
+   "category": "mahkamlash",
+   "builder": "halqa",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "R": 45
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "dasta",
+       "type": "dasta",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        -1,
+        0,
+        0
+       ]
+      },
+      {
+       "id": "halqa",
+       "type": "halqa",
+       "pos": [
+        110,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uchoyoq",
+   "name_uz": "Uchoyoq",
+   "category": "mahkamlash",
+   "builder": "uchoyoq",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "H": 180,
+      "R": 60
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "ust",
+       "type": "uchoyoq-usti",
+       "pos": [
+        0,
+        180,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "ost",
+       "type": "uchoyoq-osti",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "asbest-tor",
+   "name_uz": "Asbestli (keramik) to'r",
+   "category": "mahkamlash",
+   "builder": "tor",
+   "desc_uz": "Shisha idish ostiga qo'yilib, issiqlikni bir tekis tarqatadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "W": 120
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "joy",
+       "type": "tor-joyi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "ust",
+       "type": "tor-usti",
+       "pos": [
+        0,
+        3,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "probirka-shtativi",
+   "name_uz": "Probirkalar shtativi",
+   "category": "mahkamlash",
+   "builder": "probirka-shtativ",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "slots": 6
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uya1",
+       "type": "uya",
+       "pos": [
+        -75,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "uya2",
+       "type": "uya",
+       "pos": [
+        -45,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "uya3",
+       "type": "uya",
+       "pos": [
+        -15,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "uya4",
+       "type": "uya",
+       "pos": [
+        15,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "uya5",
+       "type": "uya",
+       "pos": [
+        45,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "uya6",
+       "type": "uya",
+       "pos": [
+        75,
+        70,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "probirka-qisqichi",
+   "name_uz": "Probirka qisqichi (ushlagich)",
+   "category": "mahkamlash",
+   "builder": "probirka-qisqich",
+   "desc_uz": "Probirkani qizdirishda qo'lda ushlash uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "jag",
+       "type": "lapka-jag",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "tool": "ushlash"
+  },
+  {
+   "id": "tigel-qisqichi",
+   "name_uz": "Tigel qisqichi",
+   "category": "mahkamlash",
+   "builder": "tigel-qisqich",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "ushlash"
+  },
+  {
+   "id": "pinset",
+   "name_uz": "Pinset",
+   "category": "mahkamlash",
+   "builder": "pinset",
+   "desc_uz": "Ishqoriy metallarni va kichik bo'laklarni olish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "ushlash"
+  },
+  {
+   "id": "elektron-tarozi",
+   "name_uz": "Elektron tarozi",
+   "category": "olchash",
+   "builder": "tarozi",
+   "desc_uz": "0,01 g aniqlikda tortadi; \"TARA\" tugmasi idish massasini nolga keltiradi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "palla",
+       "type": "tarozi-palla",
+       "pos": [
+        0,
+        45,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "tarozi"
+  },
+  {
+   "id": "termometr",
+   "name_uz": "Termometr",
+   "category": "olchash",
+   "builder": "termometr",
+   "desc_uz": "0–360 °C; idish ichiga tushiriladi yoki tiqin teshigiga o'rnatiladi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 260
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "termometr"
+  },
+  {
+   "id": "ph-metr",
+   "name_uz": "pH-metr",
+   "category": "olchash",
+   "builder": "ph-metr",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "elektrod",
+       "type": "naycha-uchi",
+       "pos": [
+        80,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "ph-metr"
+  },
+  {
+   "id": "indikator-qogozi",
+   "name_uz": "Universal indikator qog'ozi",
+   "category": "olchash",
+   "builder": "qogoz",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "instrument": "indikator-qogoz"
+  },
+  {
+   "id": "areometr",
+   "name_uz": "Areometr",
+   "category": "olchash",
+   "builder": "areometr",
+   "desc_uz": "Suyuqlik zichligini o'lchaydi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "instrument": "areometr"
+  },
+  {
+   "id": "sekundomer",
+   "name_uz": "Sekundomer",
+   "category": "olchash",
+   "builder": "sekundomer",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "instrument": "sekundomer"
+  },
+  {
+   "id": "konduktometr",
+   "name_uz": "Konduktometr",
+   "category": "olchash",
+   "builder": "konduktometr",
+   "desc_uz": "Eritmaning elektr o'tkazuvchanligini o'lchaydi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "elektrod",
+       "type": "naycha-uchi",
+       "pos": [
+        80,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "konduktometr"
+  },
+  {
+   "id": "tok-manbai",
+   "name_uz": "O'zgarmas tok manbai",
+   "category": "elektrokimyo",
+   "builder": "tok-manbai",
+   "desc_uz": "0–12 V; \"+\" anodga, \"−\" katodga ulanadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "plus",
+       "type": "klemma",
+       "pos": [
+        -30,
+        60,
+        40
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "minus",
+       "type": "klemma",
+       "pos": [
+        30,
+        60,
+        40
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "tok-manbai"
+  },
+  {
+   "id": "elektrod-grafit",
+   "name_uz": "Elektrod (grafit)",
+   "category": "elektrokimyo",
+   "builder": "elektrod",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "material": "grafit"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "elektrod-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "klemma",
+       "type": "klemma",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "electrode": {
+    "material": "C"
+   }
+  },
+  {
+   "id": "elektrod-mis",
+   "name_uz": "Elektrod (mis)",
+   "category": "elektrokimyo",
+   "builder": "elektrod",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "material": "mis"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "elektrod-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "klemma",
+       "type": "klemma",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "electrode": {
+    "material": "Cu"
+   }
+  },
+  {
+   "id": "elektrod-rux",
+   "name_uz": "Elektrod (rux)",
+   "category": "elektrokimyo",
+   "builder": "elektrod",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "material": "rux"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "elektrod-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "klemma",
+       "type": "klemma",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "electrode": {
+    "material": "Zn"
+   }
+  },
+  {
+   "id": "elektrod-temir",
+   "name_uz": "Elektrod (temir)",
+   "category": "elektrokimyo",
+   "builder": "elektrod",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "material": "temir"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "elektrod-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "klemma",
+       "type": "klemma",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "electrode": {
+    "material": "Fe"
+   }
+  },
+  {
+   "id": "elektrod-platina",
+   "name_uz": "Elektrod (platina)",
+   "category": "elektrokimyo",
+   "builder": "elektrod",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "material": "platina"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "uchi",
+       "type": "elektrod-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "klemma",
+       "type": "klemma",
+       "pos": [
+        0,
+        110,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "electrode": {
+    "material": "Pt"
+   }
+  },
+  {
+   "id": "elektrolizyor-u",
+   "name_uz": "U-simon elektrolizyor",
+   "category": "elektrokimyo",
+   "builder": "u-naycha",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "W": 60,
+      "H": 160,
+      "r": 9
+     },
+     "capacity_mL": 30,
+     "ports": [
+      {
+       "id": "anod-joyi",
+       "type": "elektrod-joyi",
+       "pos": [
+        -30,
+        160,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "katod-joyi",
+       "type": "elektrod-joyi",
+       "pos": [
+        30,
+        160,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "qisqich",
+       "type": "qisqich-joyi",
+       "pos": [
+        0,
+        120,
+        11
+       ],
+       "dir": [
+        0,
+        0,
+        1
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 40,
+    "capacity_mL": 30,
+    "electrolyzer": true
+   }
+  },
+  {
+   "id": "gofman-apparati",
+   "name_uz": "Gofman apparati",
+   "category": "elektrokimyo",
+   "builder": "gofman",
+   "desc_uz": "Suv elektrolizida gazlar hajmini o'lchash (H₂ : O₂ = 2 : 1).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": 120,
+     "ports": [
+      {
+       "id": "anod-joyi",
+       "type": "elektrod-joyi",
+       "pos": [
+        -40,
+        20,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "katod-joyi",
+       "type": "elektrod-joyi",
+       "pos": [
+        40,
+        20,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 300,
+    "capacity_mL": 120,
+    "electrolyzer": true,
+    "gasBurettes": true
+   }
+  },
+  {
+   "id": "tuz-koprigi",
+   "name_uz": "Tuz ko'prigi",
+   "category": "elektrokimyo",
+   "builder": "tuz-koprigi",
+   "desc_uz": "KCl yoki KNO₃ eritmasi shimdirilgan ko'prik: ikki yarim elementni tutashtiradi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "elektrod-uchi",
+       "pos": [
+        -50,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "elektrod-uchi",
+       "pos": [
+        50,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "voltmetr",
+   "name_uz": "Voltmetr",
+   "category": "elektrokimyo",
+   "builder": "voltmetr",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "plus",
+       "type": "klemma",
+       "pos": [
+        -25,
+        50,
+        35
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "minus",
+       "type": "klemma",
+       "pos": [
+        25,
+        50,
+        35
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "voltmetr"
+  },
+  {
+   "id": "simlar",
+   "name_uz": "Ulovchi simlar",
+   "category": "elektrokimyo",
+   "builder": "sim",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "sim-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "sim-uchi",
+       "pos": [
+        200,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "flexible": true
+  },
+  {
+   "id": "otkazuvchanlik-lampochkasi",
+   "name_uz": "O'tkazuvchanlikni sinash asbobi (lampochkali)",
+   "category": "elektrokimyo",
+   "builder": "lampochka",
+   "desc_uz": "Elektrodlar eritmaga tushirilganda lampochka yonsa — eritma elektrolit.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "elektrod",
+       "type": "naycha-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "instrument": "otkazuvchanlik"
+  },
+  {
+   "id": "rezina-tiqin-yaxlit-kichik",
+   "name_uz": "Rezina tiqin, yaxlit (kichik)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 11,
+      "d2": 17,
+      "holes": 0
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 11,
+       "d_max": 17,
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-1-teshikli-kichik",
+   "name_uz": "Rezina tiqin, bir teshikli (kichik)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 11,
+      "d2": 17,
+      "holes": 1
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 11,
+       "d_max": 17,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        0,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-2-teshikli-kichik",
+   "name_uz": "Rezina tiqin, ikki teshikli (kichik)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 11,
+      "d2": 17,
+      "holes": 2
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 11,
+       "d_max": 17,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        -3.74,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "teshik2",
+       "type": "tiqin-teshik",
+       "pos": [
+        3.74,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-yaxlit-orta",
+   "name_uz": "Rezina tiqin, yaxlit (orta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 17,
+      "d2": 27,
+      "holes": 0
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 17,
+       "d_max": 27,
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-1-teshikli-orta",
+   "name_uz": "Rezina tiqin, bir teshikli (orta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 17,
+      "d2": 27,
+      "holes": 1
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 17,
+       "d_max": 27,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        0,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-2-teshikli-orta",
+   "name_uz": "Rezina tiqin, ikki teshikli (orta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 17,
+      "d2": 27,
+      "holes": 2
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 17,
+       "d_max": 27,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        -5.94,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "teshik2",
+       "type": "tiqin-teshik",
+       "pos": [
+        5.94,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-yaxlit-katta",
+   "name_uz": "Rezina tiqin, yaxlit (katta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 27,
+      "d2": 45,
+      "holes": 0
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 27,
+       "d_max": 45,
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-1-teshikli-katta",
+   "name_uz": "Rezina tiqin, bir teshikli (katta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 27,
+      "d2": 45,
+      "holes": 1
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 27,
+       "d_max": 45,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        0,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-tiqin-2-teshikli-katta",
+   "name_uz": "Rezina tiqin, ikki teshikli (katta)",
+   "category": "yordamchi",
+   "builder": "tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "d1": 27,
+      "d2": 45,
+      "holes": 2
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "tiqin",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "d_min": 27,
+       "d_max": 45,
+       "seal": true
+      },
+      {
+       "id": "teshik1",
+       "type": "tiqin-teshik",
+       "pos": [
+        -9.9,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "teshik2",
+       "type": "tiqin-teshik",
+       "pos": [
+        9.9,
+        22,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shlif-tiqin-14-23",
+   "name_uz": "Shlif tiqin 14/23",
+   "category": "yordamchi",
+   "builder": "shlif-tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "size": "14/23"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "size": "14/23",
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shlif-tiqin-19-26",
+   "name_uz": "Shlif tiqin 19/26",
+   "category": "yordamchi",
+   "builder": "shlif-tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "size": "19/26"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "size": "19/26",
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shlif-tiqin-29-32",
+   "name_uz": "Shlif tiqin 29/32",
+   "category": "yordamchi",
+   "builder": "shlif-tiqin",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "size": "29/32"
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "tiqin",
+       "type": "shlif-erkak",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ],
+       "size": "29/32",
+       "seal": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rezina-shlang",
+   "name_uz": "Rezina shlang",
+   "category": "yordamchi",
+   "builder": "shlang",
+   "desc_uz": "Egiluvchan ulanish: naycha va shtutserlarni bog'laydi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "L": 400
+     },
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "a",
+       "type": "shlang-uchi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "b",
+       "type": "shlang-uchi",
+       "pos": [
+        400,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "flexible": true
+  },
+  {
+   "id": "mor-qisqichi",
+   "name_uz": "Mor qisqichi",
+   "category": "yordamchi",
+   "builder": "mor-qisqich",
+   "desc_uz": "Shlangni siqib, gaz/suyuqlik oqimini to'xtatadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "clampHose": true
+  },
+  {
+   "id": "gofman-qisqichi",
+   "name_uz": "Gofman qisqichi (vintli)",
+   "category": "yordamchi",
+   "builder": "gofman-qisqich",
+   "desc_uz": "Oqimni vint bilan asta rostlaydi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "clampHose": true
+  },
+  {
+   "id": "shpatel",
+   "name_uz": "Shpatel",
+   "category": "yordamchi",
+   "builder": "shpatel",
+   "desc_uz": "Qattiq moddalarni olish va solish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "qattiq-olish"
+  },
+  {
+   "id": "yondirish-qoshiqchasi",
+   "name_uz": "Moddalarni yondirish qoshiqchasi",
+   "category": "yordamchi",
+   "builder": "qoshiqcha",
+   "desc_uz": "Moddani alangada yondirib, gazli idishga tushirish uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": 2,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": true,
+    "glass_g": 20,
+    "capacity_mL": 2,
+    "spoon": true
+   }
+  },
+  {
+   "id": "filtr-qogoz",
+   "name_uz": "Filtr qog'oz",
+   "category": "yordamchi",
+   "builder": "filtr",
+   "desc_uz": "Voronkaga buklab qo'yiladi; cho'kmani eritmadan ajratadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "joy",
+       "type": "filtr-joyi",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "filter": true
+  },
+  {
+   "id": "nixrom-sim",
+   "name_uz": "Nixrom sim (alanga sinovi)",
+   "category": "yordamchi",
+   "builder": "nixrom",
+   "desc_uz": "Tuz eritmasiga botirilib alangaga kiritiladi — alanga rangi kationni ko'rsatadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "alanga-sinovi"
+  },
+  {
+   "id": "chop-yonib-turgan",
+   "name_uz": "Yonib turgan cho'p",
+   "category": "yordamchi",
+   "builder": "chop",
+   "desc_uz": "Vodorodni sinash (\"paq\" tovushi), CO₂ ni aniqlash (o'chadi).",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "burning": true
+     },
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "cho'p-yonuvchi"
+  },
+  {
+   "id": "chop-chogllangan",
+   "name_uz": "Cho'g'langan cho'p",
+   "category": "yordamchi",
+   "builder": "chop",
+   "desc_uz": "Kislorodni aniqlash: kislorodda alangalanib ketadi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "glowing": true
+     },
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "cho'p-chog'"
+  },
+  {
+   "id": "gugurt",
+   "name_uz": "Gugurt",
+   "category": "yordamchi",
+   "builder": "gugurt",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "tool": "yoqish"
+  },
+  {
+   "id": "pnevmatik-vanna",
+   "name_uz": "Pnevmatik vanna",
+   "category": "yordamchi",
+   "builder": "vanna",
+   "desc_uz": "Gazni suv ostida yig'ish: suv to'ldirilgan idish ag'darib qo'yiladi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {
+      "W": 260,
+      "D": 160,
+      "H": 110
+     },
+     "capacity_mL": 4000,
+     "ports": [
+      {
+       "id": "tub",
+       "type": "tub",
+       "pos": [
+        0,
+        0,
+        0
+       ],
+       "dir": [
+        0,
+        -1,
+        0
+       ]
+      },
+      {
+       "id": "suv-osti",
+       "type": "suv-osti",
+       "pos": [
+        0,
+        40,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      },
+      {
+       "id": "yiggich-joyi",
+       "type": "yiggich-joyi",
+       "pos": [
+        0,
+        60,
+        0
+       ],
+       "dir": [
+        0,
+        1,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "vessel": {
+    "heatable": false,
+    "glass_g": 1500,
+    "capacity_mL": 4000,
+    "trough": true
+   }
+  },
+  {
+   "id": "vakuum-nasos",
+   "name_uz": "Suv oqimli vakuum nasos",
+   "category": "yordamchi",
+   "builder": "nasos",
+   "desc_uz": "Jo'mrakka ulanadi; Bunzen kolbasidagi bosimni pasaytiradi.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": [
+      {
+       "id": "sorish",
+       "type": "shtutser",
+       "pos": [
+        30,
+        40,
+        0
+       ],
+       "dir": [
+        1,
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ],
+   "pump": true
+  },
+  {
+   "id": "yoritgich",
+   "name_uz": "Yoritgich (UB lampa)",
+   "category": "yordamchi",
+   "builder": "yoritgich",
+   "desc_uz": "Yorug'lik talab qiladigan reaksiyalar (CH₄ + Cl₂, H₂ + Cl₂) uchun.",
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "light": true
+  },
+  {
+   "id": "kozoynak",
+   "name_uz": "Himoya ko'zoynagi",
+   "category": "himoya",
+   "builder": "kozoynak",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "safety": true
+  },
+  {
+   "id": "qolqop",
+   "name_uz": "Himoya qo'lqoplari",
+   "category": "himoya",
+   "builder": "qolqop",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "safety": true
+  },
+  {
+   "id": "xalat",
+   "name_uz": "Laboratoriya xalati",
+   "category": "himoya",
+   "builder": "xalat",
+   "desc_uz": null,
+   "sizes": [
+    {
+     "id": "standart",
+     "label": null,
+     "params": {},
+     "capacity_mL": null,
+     "ports": []
+    }
+   ],
+   "safety": true
+  }
+ ]
+}
