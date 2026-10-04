@@ -311,6 +311,32 @@ for (const s of Object.values(substances)) {
 // sinf aniqlashtirish
 for (const s of Object.values(substances)) if (s.class === 'organik') s.class = 'organik';
 
+// erimaydigan maxsus tuzlar uchun ionlar tarkibini topish (BaCrO4 -> Ba2+ + CrO4 2-), cho'kma qoidasi ishlashi uchun
+{
+  const cats = Object.values(ions).filter((i) => i.charge > 0 && i.id !== 'H^+');
+  const ans = Object.values(ions).filter((i) => i.charge < 0);
+  const same = (a, b) => { const ka = Object.keys(a), kb = Object.keys(b); return ka.length === kb.length && ka.every((k) => a[k] === b[k]); };
+  for (const s of Object.values(substances)) {
+    if (s.ions || s.dissociation || !s.formula || s.state !== 's' || s.metal || s.oxide) continue;
+    if (!(s.solubility === 'N' || s.precipitate)) continue;
+    let target;
+    try { target = parseFormula(s.formula).atoms; } catch { continue; }
+    outer: for (const c of cats) {
+      const ca = parseFormula(c.formula).atoms;
+      for (const a of ans) {
+        const aa = parseFormula(a.formula).atoms;
+        const g = (x, y) => (y ? g(y, x % y) : x);
+        const l = (c.charge * -a.charge) / g(c.charge, -a.charge);
+        const nc = l / c.charge, na = l / -a.charge;
+        const sum = {};
+        for (const [el, n] of Object.entries(ca)) sum[el] = (sum[el] || 0) + n * nc;
+        for (const [el, n] of Object.entries(aa)) sum[el] = (sum[el] || 0) + n * na;
+        if (same(sum, target)) { s.ions = { [c.id]: nc, [a.id]: na }; break outer; }
+      }
+    }
+  }
+}
+
 // kislota-asos tizimiga havola
 for (const sys of ACID_BASE) {
   for (const form of sys.forms) {

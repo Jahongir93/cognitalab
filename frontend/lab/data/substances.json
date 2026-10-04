@@ -61,7 +61,11 @@
    "texture": "suzmasimon"
   },
   "solubility": "N",
-  "id": "(C17H35COO)2Ba"
+  "id": "(C17H35COO)2Ba",
+  "ions": {
+   "Ba^2+": 1,
+   "C17H35COO^-": 2
+  }
  },
  "(C17H35COO)2Ca": {
   "formula": "(C17H35COO)2Ca",
@@ -86,7 +90,11 @@
    "texture": "suzmasimon"
   },
   "solubility": "N",
-  "id": "(C17H35COO)2Ca"
+  "id": "(C17H35COO)2Ca",
+  "ions": {
+   "Ca^2+": 1,
+   "C17H35COO^-": 2
+  }
  },
  "(C17H35COO)2Mg": {
   "formula": "(C17H35COO)2Mg",
@@ -111,7 +119,11 @@
    "texture": "suzmasimon"
   },
   "solubility": "N",
-  "id": "(C17H35COO)2Mg"
+  "id": "(C17H35COO)2Mg",
+  "ions": {
+   "Mg^2+": 1,
+   "C17H35COO^-": 2
+  }
  },
  "(C17H35COO)3C3H5": {
   "formula": "(C17H35COO)3C3H5",
@@ -133,6 +145,33 @@
   "miscible_water": false,
   "solubility": "N",
   "id": "(C17H35COO)3C3H5"
+ },
+ "(C3H5(OH)2O)2Cu": {
+  "formula": "(C3H5(OH)2O)2Cu",
+  "display": "(C₃H₅(OH)₂O)₂Cu",
+  "name_uz": "mis(II) glitserat",
+  "class": "kompleks",
+  "state": "aq",
+  "M": 245.718,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "to'q ko'k (ko'k-binafsharang) eritma; soddalashtirilgan formula"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "Cu(C3H7O3)2"
+  ],
+  "aq_color": {
+   "hex": "#1a3fb0",
+   "ref_M": 0.05
+  },
+  "solubility": "R",
+  "id": "(C3H5(OH)2O)2Cu"
  },
  "(C6H10O5)n": {
   "formula": "(C6H10O5)n",
@@ -1197,6 +1236,33 @@
   "solubility": "R",
   "id": "(HCOO)2Ca"
  },
+ "(HOCH2CH2O)2Cu": {
+  "formula": "(HOCH2CH2O)2Cu",
+  "display": "(HOCH₂CH₂O)₂Cu",
+  "name_uz": "mis(II) etilenglikolyat",
+  "class": "kompleks",
+  "state": "aq",
+  "M": 185.666,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": "to'q ko'k eritma; soddalashtirilgan formula"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "Cu(OCH2CH2OH)2"
+  ],
+  "aq_color": {
+   "hex": "#1a3fb0",
+   "ref_M": 0.05
+  },
+  "solubility": "R",
+  "id": "(HOCH2CH2O)2Cu"
+ },
  "(NH4)2C2O4": {
   "formula": "(NH4)2C2O4",
   "display": "(NH₄)₂C₂O₄",
@@ -1584,6 +1650,30 @@
   },
   "solubility": "R",
   "id": "[Ag(NH3)2]Cl"
+ },
+ "[Ag(NH3)2]NO3": {
+  "formula": "[Ag(NH3)2]NO3",
+  "display": "[Ag(NH₃)₂]NO₃",
+  "name_uz": "diamminkumush(I) nitrat",
+  "class": "tuz",
+  "state": "aq",
+  "M": 203.936,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "[Ag(NH3)2]^+": 1,
+   "NO3^-": 1
+  },
+  "solubility": "R",
+  "id": "[Ag(NH3)2]NO3"
  },
  "[Ag(NH3)2]OH": {
   "formula": "[Ag(NH3)2]OH",
@@ -2093,7 +2183,11 @@
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
-  "id": "Ag2CrO4"
+  "id": "Ag2CrO4",
+  "ions": {
+   "Ag^+": 2,
+   "CrO4^2-": 1
+  }
  },
  "Ag2O": {
   "formula": "Ag2O",
@@ -2172,7 +2266,11 @@
    "texture": "kukunsimon"
   },
   "solubility": "N",
-  "id": "Ag2S2O3"
+  "id": "Ag2S2O3",
+  "ions": {
+   "Ag^+": 2,
+   "S2O3^2-": 1
+  }
  },
  "Ag2SO3": {
   "formula": "Ag2SO3",
@@ -2537,7 +2635,11 @@
    "texture": "suzmasimon"
   },
   "solubility": "N",
-  "id": "AgSCN"
+  "id": "AgSCN",
+  "ions": {
+   "Ag^+": 1,
+   "SCN^-": 1
+  }
  },
  "Al": {
   "formula": "Al",
@@ -3258,7 +3360,11 @@
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
-  "id": "BaCrO4"
+  "id": "BaCrO4",
+  "ions": {
+   "Ba^2+": 1,
+   "CrO4^2-": 1
+  }
  },
  "BaF2": {
   "formula": "BaF2",
@@ -4714,6 +4820,28 @@
   "id": "C6H10",
   "solubility": "N"
  },
+ "C6H10Br2": {
+  "formula": "C6H10Br2",
+  "display": "C₆H₁₀Br₂",
+  "name_uz": "1,2-dibromsiklogeksan",
+  "class": "galogenalkan",
+  "state": "l",
+  "M": 241.954,
+  "appearance": {
+   "color": null,
+   "form": "suyuqlik",
+   "desc_uz": "rangsiz og'ir moysimon suyuqlik"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "density": 1.78,
+  "miscible_water": false,
+  "id": "C6H10Br2",
+  "solubility": "N"
+ },
  "C6H11NO": {
   "formula": "C6H11NO",
   "display": "C₆H₁₁NO",
@@ -5289,7 +5417,11 @@
    "texture": "mayda-kristall"
   },
   "solubility": "N",
-  "id": "C6H5COOAg"
+  "id": "C6H5COOAg",
+  "ions": {
+   "Ag^+": 1,
+   "C6H5COO^-": 1
+  }
  },
  "C6H5COOC2H5": {
   "formula": "C6H5COOC2H5",
@@ -6916,6 +7048,32 @@
   "id": "CH3CH(OH)CH2CHO",
   "solubility": "R"
  },
+ "CH3CH(OH)CH2OH": {
+  "formula": "CH3CH(OH)CH2OH",
+  "display": "CH₃CH(OH)CH₂OH",
+  "name_uz": "propilenglikol (propandiol-1,2)",
+  "class": "spirt",
+  "state": "l",
+  "M": 76.095,
+  "appearance": {
+   "color": null,
+   "form": "suyuqlik",
+   "desc_uz": "rangsiz qovushqoq shirinroq suyuqlik"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": true,
+  "aliases": [
+   "CH3–CH(OH)–CH2OH",
+   "CH3–CH(OH)–CH2–OH",
+   "C3H6(OH)2"
+  ],
+  "density": 1.036,
+  "bp": 188.2,
+  "miscible_water": true,
+  "id": "CH3CH(OH)CH2OH",
+  "solubility": "R"
+ },
  "CH3CH(OH)CH3": {
   "formula": "CH3CH(OH)CH3",
   "display": "CH₃CH(OH)CH₃",
@@ -7196,6 +7354,34 @@
   "bp": 59.4,
   "miscible_water": false,
   "id": "CH3CHBrCH3",
+  "solubility": "N"
+ },
+ "CH3CHClCH3": {
+  "formula": "CH3CHClCH3",
+  "display": "CH₃CHClCH₃",
+  "name_uz": "2-xlorpropan (izopropilxlorid)",
+  "class": "galogenalkan",
+  "state": "l",
+  "M": 78.539,
+  "appearance": {
+   "color": null,
+   "form": "suyuqlik",
+   "desc_uz": "rangsiz uchuvchan suyuqlik"
+  },
+  "hazards": [
+   "yonuvchan",
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "aliases": [
+   "CH3–CHCl–CH3",
+   "(CH3)2CHCl"
+  ],
+  "density": 0.862,
+  "bp": 35.7,
+  "miscible_water": false,
+  "id": "CH3CHClCH3",
   "solubility": "N"
  },
  "CH3CHO": {
@@ -9179,7 +9365,11 @@
    "texture": "iviqsimon"
   },
   "solubility": "N",
-  "id": "Cu2[Fe(CN)6]"
+  "id": "Cu2[Fe(CN)6]",
+  "ions": {
+   "Cu^2+": 2,
+   "[Fe(CN)6]^4-": 1
+  }
  },
  "Cu2O": {
   "formula": "Cu2O",
@@ -9207,6 +9397,30 @@
   "acid_soluble": "kuchli",
   "solubility": "N",
   "id": "Cu2O"
+ },
+ "Cu2S": {
+  "formula": "Cu2S",
+  "display": "Cu₂S",
+  "name_uz": "mis(I) sulfid",
+  "class": "tuz",
+  "state": "s",
+  "M": 159.152,
+  "appearance": {
+   "color": "#2a2a2c",
+   "form": "kukun",
+   "desc_uz": "qora-kulrang qattiq modda; mis va oltingugurt qizdirilganda hosil bo'ladi"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "precipitate": {
+   "color": "#2a2a2c",
+   "texture": "kukunsimon"
+  },
+  "solubility": "N",
+  "id": "Cu2S"
  },
  "Cu3(PO4)2": {
   "formula": "Cu3(PO4)2",
@@ -9933,7 +10147,11 @@
    "texture": "kolloid"
   },
   "solubility": "N",
-  "id": "Fe3[Fe(CN)6]2"
+  "id": "Fe3[Fe(CN)6]2",
+  "ions": {
+   "Fe^2+": 3,
+   "[Fe(CN)6]^3-": 2
+  }
  },
  "Fe3O4": {
   "formula": "Fe3O4",
@@ -9980,7 +10198,11 @@
    "texture": "kolloid"
   },
   "solubility": "N",
-  "id": "Fe4[Fe(CN)6]3"
+  "id": "Fe4[Fe(CN)6]3",
+  "ions": {
+   "Fe^3+": 4,
+   "[Fe(CN)6]^4-": 3
+  }
  },
  "FeBr2": {
   "formula": "FeBr2",
@@ -11523,7 +11745,11 @@
    "texture": "mayda-kristall"
   },
   "solubility": "N",
-  "id": "HgI2"
+  "id": "HgI2",
+  "ions": {
+   "Hg^2+": 1,
+   "I^-": 2
+  }
  },
  "HgO": {
   "formula": "HgO",
@@ -11575,7 +11801,32 @@
    "texture": "kukunsimon"
   },
   "solubility": "N",
-  "id": "HgS"
+  "id": "HgS",
+  "ions": {
+   "Hg^2+": 1,
+   "S^2-": 1
+  }
+ },
+ "HgSO4": {
+  "formula": "HgSO4",
+  "display": "HgSO₄",
+  "name_uz": "simob(II) sulfat",
+  "class": "tuz",
+  "state": "s",
+  "M": 296.646,
+  "appearance": {
+   "color": "#f4f4ee",
+   "form": "kukun",
+   "desc_uz": "oq kukun; Kucherov reaksiyasida katalizator (juda zaharli)"
+  },
+  "hazards": [
+   "zaharli",
+   "atrof-muhit"
+  ],
+  "storage": "qoramtir-sklyanka",
+  "reagent": true,
+  "solubility": null,
+  "id": "HgSO4"
  },
  "HI": {
   "formula": "HI",
@@ -15005,6 +15256,30 @@
   "solubility": "R",
   "id": "Na[Al(OH)4]"
  },
+ "Na2[Cu(OH)4]": {
+  "formula": "Na2[Cu(OH)4]",
+  "display": "Na₂[Cu(OH)₄]",
+  "name_uz": "natriy tetragidroksokuprat(II)",
+  "class": "tuz",
+  "state": "aq",
+  "M": 177.554,
+  "appearance": {
+   "color": null,
+   "form": "eritma",
+   "desc_uz": null
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "dissociation": {
+   "Na^+": 2,
+   "[Cu(OH)4]^2-": 1
+  },
+  "solubility": "R",
+  "id": "Na2[Cu(OH)4]"
+ },
  "Na2[Pb(OH)4]": {
   "formula": "Na2[Pb(OH)4]",
   "display": "Na₂[Pb(OH)₄]",
@@ -15617,6 +15892,26 @@
   ],
   "id": "Na2SO4"
  },
+ "Na2ZnO2": {
+  "formula": "Na2ZnO2",
+  "display": "Na₂ZnO₂",
+  "name_uz": "natriy sinkat",
+  "class": "tuz",
+  "state": "s",
+  "M": 143.358,
+  "appearance": {
+   "color": "#f6f6f2",
+   "form": "kukun",
+   "desc_uz": "ZnO yoki Zn(OH)2 ni ishqor bilan suyuqlantirganda hosil bo'ladi"
+  },
+  "hazards": [
+   "korroziv"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "solubility": null,
+  "id": "Na2ZnO2"
+ },
  "Na3[Ag(S2O3)2]": {
   "formula": "Na3[Ag(S2O3)2]",
   "display": "Na₃[Ag(S₂O₃)₂]",
@@ -15845,6 +16140,26 @@
   "solubility": "R",
   "id": "NaClO"
  },
+ "NaCrO2": {
+  "formula": "NaCrO2",
+  "display": "NaCrO₂",
+  "name_uz": "natriy xromit",
+  "class": "tuz",
+  "state": "s",
+  "M": 106.984,
+  "appearance": {
+   "color": "#4f8a3c",
+   "form": "kukun",
+   "desc_uz": "Cr2O3 ni ishqor bilan suyuqlantirganda hosil bo'ladigan yashil modda"
+  },
+  "hazards": [
+   "zararli"
+  ],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "solubility": null,
+  "id": "NaCrO2"
+ },
  "NaF": {
   "formula": "NaF",
   "display": "NaF",
@@ -15889,6 +16204,24 @@
    }
   ],
   "id": "NaF"
+ },
+ "NaFeO2": {
+  "formula": "NaFeO2",
+  "display": "NaFeO₂",
+  "name_uz": "natriy ferrit",
+  "class": "tuz",
+  "state": "s",
+  "M": 110.833,
+  "appearance": {
+   "color": "#8a4a22",
+   "form": "kukun",
+   "desc_uz": "Fe2O3 ni ishqor bilan suyuqlantirganda hosil bo'ladi"
+  },
+  "hazards": [],
+  "storage": "tiqinli-sklyanka",
+  "reagent": false,
+  "solubility": null,
+  "id": "NaFeO2"
  },
  "NaH": {
   "formula": "NaH",
@@ -17742,7 +18075,11 @@
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
-  "id": "PbCrO4"
+  "id": "PbCrO4",
+  "ions": {
+   "Pb^2+": 1,
+   "CrO4^2-": 1
+  }
  },
  "PbF2": {
   "formula": "PbF2",
@@ -18898,7 +19235,11 @@
   },
   "acid_soluble": "kuchli",
   "solubility": "N",
-  "id": "SrCrO4"
+  "id": "SrCrO4",
+  "ions": {
+   "Sr^2+": 1,
+   "CrO4^2-": 1
+  }
  },
  "SrF2": {
   "formula": "SrF2",
@@ -19363,7 +19704,11 @@
    "texture": "iviqsimon"
   },
   "solubility": "N",
-  "id": "Zn2[Fe(CN)6]"
+  "id": "Zn2[Fe(CN)6]",
+  "ions": {
+   "Zn^2+": 2,
+   "[Fe(CN)6]^4-": 1
+  }
  },
  "Zn3(PO4)2": {
   "formula": "Zn3(PO4)2",
